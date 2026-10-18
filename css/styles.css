@@ -16,7 +16,7 @@
   --texto-suave: #6C7473;
   --erro: #B3453C;
   --ok: #4C7C59;
-  --sombra: 0 6px 24px rgba(44, 74, 83, .12);
+  --sombra: 0 8px 32px rgba(44, 74, 83, .10), 0 2px 8px rgba(44, 74, 83, .06);
   --raio: 14px;
   --topo: 64px;
   --fonte-destaque: "Josefin Sans", "Jost", "Century Gothic", "Trebuchet MS", system-ui, sans-serif;
@@ -470,4 +470,246 @@ button { font: inherit; cursor: pointer; }
 
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
+}
+
+/* ==========================================================================
+   LIQUID GLASS — camada premium (Apple-inspired)
+   Translucidez, desfoque, profundidade e micro-interações.
+   ========================================================================== */
+
+/* ---------- variáveis premium ---------- */
+:root {
+  --glass-bg: rgba(255, 255, 255, .55);
+  --glass-bg-strong: rgba(255, 255, 255, .72);
+  --glass-border: rgba(255, 255, 255, .45);
+  --glass-border-soft: rgba(255, 255, 255, .28);
+  --glass-shadow: 0 8px 32px rgba(44, 74, 83, .10), 0 2px 8px rgba(44, 74, 83, .06);
+  --glass-shadow-deep: 0 16px 48px rgba(44, 74, 83, .14), 0 4px 12px rgba(44, 74, 83, .08);
+  --glass-blur: blur(20px) saturate(1.4);
+  --glass-blur-light: blur(12px) saturate(1.2);
+  --accent-glow: rgba(74, 119, 132, .35);
+  --surface-tint: rgba(74, 119, 132, .06);
+  --ease-out: cubic-bezier(.22, 1, .36, 1);
+  --ease-spring: cubic-bezier(.34, 1.56, .64, 1);
+  --dur-fast: .18s;
+  --dur-mid: .32s;
+  --dur-slow: .5s;
+}
+
+/* ---------- fundo global com gradiente sutil ---------- */
+body {
+  background:
+    radial-gradient(1200px 800px at 15% -10%, rgba(74, 119, 132, .07), transparent 55%),
+    radial-gradient(900px 600px at 85% 110%, rgba(93, 99, 98, .06), transparent 50%),
+    var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ---------- topo (header) — vidro fosco ---------- */
+.topo {
+  background: rgba(44, 74, 83, .72);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border-bottom: 1px solid rgba(255, 255, 255, .12);
+  box-shadow: 0 1px 0 rgba(255,255,255,.08) inset, 0 8px 24px rgba(0,0,0,.08);
+}
+
+/* ---------- cartões com efeito vidro ---------- */
+.cartao-curso, .modulo, .bloco, .card-linha, .painel-form, .cartao-login {
+  background: var(--glass-bg-strong);
+  backdrop-filter: var(--glass-blur-light);
+  -webkit-backdrop-filter: var(--glass-blur-light);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  transition: transform var(--dur-mid) var(--ease-out), box-shadow var(--dur-mid) var(--ease-out), border-color var(--dur-fast) ease;
+}
+
+.cartao-curso:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: var(--glass-shadow-deep);
+  border-color: var(--glass-border);
+}
+
+/* ---------- botões premium ---------- */
+.btn {
+  background: linear-gradient(180deg, var(--petroleo) 0%, var(--petroleo-escuro) 100%);
+  border: 1px solid rgba(255,255,255,.18);
+  box-shadow: 0 4px 12px var(--accent-glow), 0 1px 0 rgba(255,255,255,.2) inset;
+  border-radius: 12px;
+  transition: transform var(--dur-fast) var(--ease-spring), box-shadow var(--dur-fast) ease, background var(--dur-fast) ease;
+  position: relative;
+  overflow: hidden;
+}
+.btn::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,.18) 0%, transparent 45%);
+  pointer-events: none;
+}
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px var(--accent-glow), 0 1px 0 rgba(255,255,255,.25) inset;
+}
+.btn:active { transform: translateY(0) scale(.98); }
+
+.btn.secundario {
+  background: var(--glass-bg-strong);
+  backdrop-filter: var(--glass-blur-light);
+  -webkit-backdrop-filter: var(--glass-blur-light);
+  color: var(--petroleo);
+  border: 1px solid var(--petroleo);
+  box-shadow: var(--glass-shadow);
+}
+.btn.secundario::after { display: none; }
+
+.btn.fantasma { background: transparent; box-shadow: none; border: 1px solid transparent; }
+.btn.fantasma::after { display: none; }
+
+/* ---------- campos de formulário ---------- */
+.campo input, .campo textarea, .campo select {
+  background: var(--glass-bg-strong);
+  backdrop-filter: var(--glass-blur-light);
+  -webkit-backdrop-filter: var(--glass-blur-light);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 1px 3px rgba(44,74,83,.04) inset;
+  transition: border-color var(--dur-fast) ease, box-shadow var(--dur-fast) ease, background var(--dur-fast) ease;
+}
+.campo input:focus, .campo textarea:focus, .campo select:focus {
+  border-color: var(--petroleo);
+  box-shadow: 0 0 0 3px var(--accent-glow), 0 1px 3px rgba(44,74,83,.04) inset;
+  background: #fff;
+}
+
+/* ---------- tela de login ---------- */
+.cartao-login {
+  background: rgba(255, 255, 255, .78);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 24px 60px rgba(0,0,0,.28), 0 0 0 1px rgba(255,255,255,.12) inset;
+}
+
+.tela-login {
+  background:
+    radial-gradient(1200px 700px at 80% -10%, rgba(255,255,255,.10), transparent 55%),
+    radial-gradient(900px 600px at 10% 110%, rgba(74,119,132,.25), transparent 50%),
+    linear-gradient(160deg, var(--petroleo-fundo) 0%, var(--petroleo) 55%, var(--cinza-escuro) 100%);
+}
+
+.abas-login { background: rgba(234,234,234,.55); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+.abas-login button.ativo {
+  background: rgba(255,255,255,.85);
+  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 2px 8px rgba(0,0,0,.08), 0 1px 0 rgba(255,255,255,.5) inset;
+}
+
+/* ---------- hero / banner ---------- */
+.hero {
+  background: linear-gradient(120deg, var(--petroleo-fundo), var(--petroleo));
+  position: relative; overflow: hidden;
+}
+.hero::before {
+  content: ""; position: absolute; inset: 0;
+  background: radial-gradient(800px 400px at 90% 0%, rgba(255,255,255,.12), transparent 60%);
+  pointer-events: none;
+}
+
+/* ---------- meta pills ---------- */
+.meta-curso .pill {
+  background: rgba(255,255,255,.18);
+  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,.3);
+  box-shadow: 0 2px 6px rgba(0,0,0,.08);
+}
+
+/* ---------- blocos / painéis ---------- */
+.bloco, .modulo, .painel-form {
+  background: var(--glass-bg-strong);
+  backdrop-filter: var(--glass-blur-light);
+  -webkit-backdrop-filter: var(--glass-blur-light);
+  border: 1px solid var(--glass-border);
+}
+
+.modulo > summary:hover { background: var(--surface-tint); }
+
+/* ---------- material / comentários ---------- */
+.material {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur-light);
+  -webkit-backdrop-filter: var(--glass-blur-light);
+  border: 1px solid var(--glass-border-soft);
+  transition: transform var(--dur-fast) var(--ease-out), box-shadow var(--dur-fast) ease;
+}
+.material:hover { transform: translateX(2px); box-shadow: var(--glass-shadow); }
+
+/* ---------- menu do usuário ---------- */
+.menu-usuario {
+  background: rgba(255,255,255,.85);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow-deep);
+}
+
+/* ---------- navegação inferior (mobile) ---------- */
+.nav-inferior {
+  background: rgba(44, 74, 83, .78);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border-top: 1px solid rgba(255,255,255,.12);
+}
+
+/* ---------- rodapé ---------- */
+.rodape {
+  background: linear-gradient(180deg, transparent, var(--surface-tint));
+  border-top: 1px solid var(--glass-border-soft);
+}
+
+/* ---------- aviso ---------- */
+.aviso {
+  backdrop-filter: var(--glass-blur-light);
+  -webkit-backdrop-filter: var(--glass-blur-light);
+  border: 1px solid var(--glass-border-soft);
+}
+
+/* ---------- micro-animações ---------- */
+@keyframes glassShimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.cartao-curso .capa {
+  position: relative;
+}
+.cartao-curso .capa::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(110deg, transparent 30%, rgba(255,255,255,.18) 50%, transparent 70%);
+  background-size: 200% 100%;
+  opacity: 0; transition: opacity var(--dur-mid) ease;
+  pointer-events: none;
+}
+.cartao-curso:hover .capa::after {
+  opacity: 1;
+  animation: glassShimmer 1.6s linear;
+}
+
+/* ---------- scrollbar premium ---------- */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: rgba(93, 99, 98, .25);
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover { background: rgba(74, 119, 132, .45); background-clip: padding-box; }
+
+/* ---------- seleção de texto ---------- */
+::selection { background: rgba(74, 119, 132, .25); color: var(--petroleo-fundo); }
+
+/* ---------- foco acessível ---------- */
+:focus-visible {
+  outline: 2px solid var(--petroleo);
+  outline-offset: 2px;
+  border-radius: 4px;
 }
