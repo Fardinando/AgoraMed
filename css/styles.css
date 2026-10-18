@@ -384,10 +384,19 @@ button { font: inherit; cursor: pointer; }
 
 .abas-admin { display: flex; gap: 6px; overflow-x: auto; padding: 16px 0 4px; }
 .abas-admin button {
-  border: 1.5px solid var(--linha); background: var(--card); color: var(--cinza-escuro);
+  border: 1px solid var(--glass-border); background: var(--glass-bg-strong);
+  backdrop-filter: var(--glass-blur-light); -webkit-backdrop-filter: var(--glass-blur-light);
+  color: var(--cinza-escuro);
   padding: 9px 16px; border-radius: 22px; font-weight: 700; font-size: .85rem; white-space: nowrap;
+  transition: transform var(--dur-fast) var(--ease-spring), box-shadow var(--dur-fast) ease, background var(--dur-fast) ease;
+  box-shadow: var(--glass-shadow);
 }
-.abas-admin button.ativo { background: var(--petroleo); border-color: var(--petroleo); color: #fff; }
+.abas-admin button:hover { transform: translateY(-1px); box-shadow: var(--glass-shadow-deep); }
+.abas-admin button.ativo {
+  background: linear-gradient(180deg, var(--petroleo), var(--petroleo-escuro));
+  border-color: var(--petroleo); color: #fff;
+  box-shadow: 0 4px 14px var(--accent-glow), 0 1px 0 rgba(255,255,255,.2) inset;
+}
 
 .tabela-cards { display: grid; gap: 12px; margin: 14px 0 40px; }
 .card-linha {
@@ -642,14 +651,53 @@ body {
 }
 .material:hover { transform: translateX(2px); box-shadow: var(--glass-shadow); }
 
-/* ---------- menu do usuário ---------- */
+/* ---------- menu do usuário (liquid glass dropdown) ---------- */
 .menu-usuario {
-  background: rgba(255,255,255,.85);
+  background: rgba(255, 255, 255, .62);
   backdrop-filter: var(--glass-blur);
   -webkit-backdrop-filter: var(--glass-blur);
   border: 1px solid var(--glass-border);
-  box-shadow: var(--glass-shadow-deep);
+  border-radius: 16px;
+  box-shadow: var(--glass-shadow-deep), 0 0 0 1px rgba(255,255,255,.18) inset;
+  overflow: hidden;
+  padding: 6px;
+  animation: menuEntrada .22s var(--ease-out);
+  transform-origin: top right;
 }
+@keyframes menuEntrada {
+  from { opacity: 0; transform: scale(.92) translateY(-6px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+.menu-usuario a, .menu-usuario button {
+  display: flex; align-items: center; gap: 10px;
+  width: 100%; text-align: left; padding: 11px 14px;
+  font-size: .9rem; font-weight: 600;
+  background: transparent; border: none; color: var(--texto);
+  border-radius: 10px;
+  transition: background var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out);
+}
+.menu-usuario a:hover, .menu-usuario button:hover {
+  background: rgba(74, 119, 132, .10);
+  text-decoration: none;
+  transform: translateX(2px);
+}
+.menu-usuario a:active, .menu-usuario button:active {
+  transform: translateX(0) scale(.98);
+}
+.menu-usuario .divisor {
+  height: 1px; background: var(--glass-border-soft); margin: 4px 8px;
+}
+
+/* usuario-chip com toque glass */
+.usuario-chip {
+  background: rgba(255,255,255,.14);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,.22);
+  box-shadow: 0 2px 8px rgba(0,0,0,.08), 0 1px 0 rgba(255,255,255,.15) inset;
+  transition: background var(--dur-fast) ease, transform var(--dur-fast) var(--ease-spring);
+}
+.usuario-chip:hover { background: rgba(255,255,255,.22); transform: translateY(-1px); }
+.usuario-chip:active { transform: translateY(0) scale(.98); }
 
 /* ---------- navegação inferior (mobile) ---------- */
 .nav-inferior {
