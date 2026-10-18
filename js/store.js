@@ -30,11 +30,70 @@ const Store = (() => {
     (crypto.randomUUID ? crypto.randomUUID() : 'id-' + Math.random().toString(36).slice(2) + Date.now());
 
   /* ---------------------------------------------------------- sessão */
+  /* cache em sessionStorage para evitar re-buscar tudo a cada troca de página */
+  const CACHE_KEY = 'agoramed_app_cache';
+  function lerCache() {
+    try {
+      const raw = sessionStorage.getItem(CACHE_KEY);
+      if (!raw) return null;
+      const c = JSON.parse(raw);
+      if (!c || !c.dados || !c.ts) return null;
+      /* cache válido por 5 minutos */
+      if (Date.now() - c.ts > 5 * 60 * 1000) return null;
+      return c;
+    } catch (e) { return null; }
+  }
+  function salvarCache(dados) {
+    try { sessionStorage.setItem(CACHE_KEY, JSON.stringify({ dados, ts: Date.now() })); } catch (e) {}
+  }
+  function limparCache() { try { sessionStorage.removeItem(CACHE_KEY); } catch (e) {} }
+
   async function iniciar() {
+    /* tenta usar o cache para não esperar o backend em cada troca de página */
+    const cache = lerCache();
+    if (cache && cache.dados && cache.dados.usuario) {
+      eu = cache.dados.usuario;
+      cursosCache = cache.dados.cursos || [];
+      progressoCache = new Set(cache.dados.progresso || []);
+      promosCache = cache.dados.promos || [];
+      alunosCache = cache.dados.alunos || [];
+      matriculasCache = cache.dados.matriculas || [];
+      /* revalida em segundo plano apenas se o cache tiver mais de 30s */
+      if (Date.now() - cache.ts > 30 * 1000) revalidar();
+      return eu;
+    }
     const s = await api('/auth/sessao');
     eu = s && s.ok ? s.usuario : null;
     if (eu) await carregarDados(); else limparDados();
     return eu;
+  }
+
+  async function revalidar() {
+    try {
+      const s = await api('/auth/sessao');
+      if (!s || !s.ok) { limparCache(); eu = null; limparDados(); return; }
+      eu = s.usuario;
+      const r = await api('/app');
+      if (r && r.ok) {
+        cursosCache = r.cursos || [];
+        progressoCache = new Set(r.progresso || []);
+        promosCache = r.promos || [];
+        alunosCache = r.alunos || [];
+        matriculasCache = r.matriculas || [];
+        salvarCache(r);
+      }
+    } catch (e) {}
+  }
+
+  async function carregarDados() {
+    const r = await api('/app');
+    if (!r || !r.ok) { limparDados(); limparCache(); return; }
+    cursosCache = r.cursos || [];
+    progressoCache = new Set(r.progresso || []);
+    promosCache = r.promos || [];
+    alunosCache = r.alunos || [];
+    matriculasCache = r.matriculas || [];
+    salvarCache(r);
   }
 
   async function carregarDados() {
@@ -87,6 +146,7 @@ const Store = (() => {
     if (!r.ok) return r;
     const i = cursosCache.findIndex((c) => c.id === r.curso.id);
     if (i >= 0) cursosCache[i] = r.curso; else cursosCache.push(r.curso);
+    limparCache();
     return { ok: true, curso: r.curso };
   }
 
@@ -94,12 +154,13 @@ const Store = (() => {
     const r = await api('/admin/cursos', { metodo: 'POST', corpo: { curso: { titulo: 'Novo curso', modulos: [] } } });
     if (!r.ok) return r;
     cursosCache.push(r.curso);
+    limparCache();
     return { ok: true, curso: r.curso };
   }
 
   async function excluirCurso(id) {
     const r = await api('/admin/cursos?id=' + encodeURIComponent(id), { metodo: 'DELETE' });
-    if (r.ok) cursosCache = cursosCache.filter((c) => c.id !== id);
+    if (r.ok) { cursosCache = cursosCache.filter((c) => c.id !== id); limparCache(); }
     return r;
   }
 
@@ -164,7 +225,7 @@ const Store = (() => {
   const promos = () => promosCache;
   async function salvarPromos(lista) {
     const r = await api('/admin/promos', { metodo: 'POST', corpo: { lista } });
-    if (r && r.ok) promosCache = lista;
+    if (r && r.ok) { promosCache = lista; limparCache(); }
     return r;
   }
 
@@ -181,6 +242,7 @@ const Store = (() => {
       corpo: { usuario_id: usuarioId, acao, ...(acao === 'cursos' ? { cursos: cursosIds } : {}) },
     });
     if (!r || !r.ok) return r;
+    limparCache();
     if (acao === 'liberar' || acao === 'bloquear') {
       const u = alunosCache.find((x) => x.id === usuarioId);
       if (u) u.liberado = acao === 'liberar';
