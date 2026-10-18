@@ -20,12 +20,12 @@ module.exports = async (req, res) => {
   });
 
   if (!r.ok) {
-    const msg = String(r.dados.error_description || r.dados.msg || r.dados.message || '');
-    if (/already registered|already exists/i.test(msg))
+    const msg = String(r.dados.error_description || r.dados.msg || r.dados.message || r.dados.error || '');
+    if (r.status === 422 || /already|exists|registered/i.test(msg))
       return json(res, 200, { ok: false, erro: 'Já existe uma conta com este e-mail.' });
     if (/password/i.test(msg))
       return json(res, 200, { ok: false, erro: 'A senha precisa de ao menos 6 caracteres.' });
-    return json(res, 200, { ok: false, erro: 'Não foi possível criar a conta. Tente novamente.' });
+    return json(res, 200, { ok: false, erro: 'Não foi possível criar a conta. Tente novamente.', codigo: r.status });
   }
 
   return json(res, 200, {
