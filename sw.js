@@ -3,7 +3,7 @@
    quando o aluno estiver sem internet. Assim as aulas e materiais novos aparecem
    na hora, e o app continua abrindo offline.
 */
-const CACHE = 'agoramed-v17';
+const CACHE = 'agoramed-v18';
 /* A folha de fontes (css/fontes.css) e os arquivos .woff2 ficam FORA desta lista
    de propósito: a tela de login usa a fonte do sistema por padrão, então nada
    é baixado. Se a página pedir ?fonte=josefin|jost, o navegador busca online.
@@ -35,17 +35,17 @@ self.addEventListener('fetch', (e) => {
   if (req.method !== 'GET' || url.origin !== location.origin) return;
   if (url.pathname.startsWith('/api/')) return;
 
+  /* stale-while-revalidate: serve do cache instantaneamente e revalida em segundo plano */
   e.respondWith(
-    fetch(req, { cache: 'no-cache' })
-      .then((res) => {
+    caches.match(req).then((cached) => {
+      const rede = fetch(req).then((res) => {
         if (res && res.ok) {
           const clone = res.clone();
           caches.open(CACHE).then((c) => c.put(req, clone));
         }
         return res;
-      })
-      .catch(() =>
-        caches.match(req).then((hit) => hit || caches.match('index.html'))
-      )
+      }).catch(() => cached || caches.match('index.html'));
+      return cached || rede;
+    })
   );
 });

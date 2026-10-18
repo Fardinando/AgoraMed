@@ -62,26 +62,30 @@ const Store = (() => {
       if (Date.now() - cache.ts > 30 * 1000) revalidar();
       return eu;
     }
-    const s = await api('/auth/sessao');
-    eu = s && s.ok ? s.usuario : null;
-    if (eu) await carregarDados(); else limparDados();
+    /* uma única chamada: /api/app já verifica sessão internamente */
+    const r = await api('/app');
+    if (!r || !r.ok) { eu = null; limparDados(); limparCache(); return null; }
+    eu = r.usuario;
+    cursosCache = r.cursos || [];
+    progressoCache = new Set(r.progresso || []);
+    promosCache = r.promos || [];
+    alunosCache = r.alunos || [];
+    matriculasCache = r.matriculas || [];
+    salvarCache(r);
     return eu;
   }
 
   async function revalidar() {
     try {
-      const s = await api('/auth/sessao');
-      if (!s || !s.ok) { limparCache(); eu = null; limparDados(); return; }
-      eu = s.usuario;
       const r = await api('/app');
-      if (r && r.ok) {
-        cursosCache = r.cursos || [];
-        progressoCache = new Set(r.progresso || []);
-        promosCache = r.promos || [];
-        alunosCache = r.alunos || [];
-        matriculasCache = r.matriculas || [];
-        salvarCache(r);
-      }
+      if (!r || !r.ok) { limparCache(); eu = null; limparDados(); return; }
+      eu = r.usuario;
+      cursosCache = r.cursos || [];
+      progressoCache = new Set(r.progresso || []);
+      promosCache = r.promos || [];
+      alunosCache = r.alunos || [];
+      matriculasCache = r.matriculas || [];
+      salvarCache(r);
     } catch (e) {}
   }
 
