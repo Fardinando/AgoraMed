@@ -22,10 +22,18 @@ const rotas = {
   'admin/promos': require('../lib/rotas/admin/promos'),
 };
 
+/* nome do handler: vem do parâmetro de rota; se o runtime não o preencher,
+   a URL é analisada manualmente (/api/auth/entrar → 'auth/entrar') */
+function chaveDe(req) {
+  const p = req.query && req.query.rota;
+  if (Array.isArray(p) && p.length) return p.join('/');
+  if (typeof p === 'string' && p) return p;
+  const m = /^\/api\/([^?]+)/.exec(req.url || '');
+  return m ? decodeURIComponent(m[1]).replace(/\/+$/, '') : '';
+}
+
 module.exports = async (req, res) => {
-  const partes = req.query && req.query.rota;
-  const chave = Array.isArray(partes) ? partes.join('/') : String(partes || '');
-  const handler = rotas[chave];
+  const handler = rotas[chaveDe(req)];
   if (!handler) return json(res, 404, { ok: false, erro: 'Rota não encontrada.' });
   return handler(req, res);
 };
