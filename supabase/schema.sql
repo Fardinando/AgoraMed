@@ -102,6 +102,11 @@ create index if not exists idx_aulas_modulo  on public.aulas (modulo_id, ordem);
 create index if not exists idx_materiais_aula on public.materiais (aula_id);
 create index if not exists idx_comentarios_aula on public.comentarios (aula_id, criado_em);
 create index if not exists idx_matriculas_curso on public.matriculas (curso_id);
+create index if not exists idx_matriculas_usuario on public.matriculas (usuario_id);
+create index if not exists idx_progresso_usuario on public.progresso (usuario_id);
+create index if not exists idx_cursos_criado_em on public.cursos (criado_em);
+create index if not exists idx_promos_ativo_ordem on public.promos (ativo, ordem);
+create index if not exists idx_perfis_criado_em on public.perfis (criado_em);
 
 -- ============================================================
 -- Funções auxiliares para a RLS (security definer: consultam
