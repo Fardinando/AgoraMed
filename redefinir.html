@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#4A7784">
+  <meta name="robots" content="noindex">
+  <title>AGORAMED — Redefinir senha</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <main class="tela-login">
+    <section class="cartao-login">
+      <h1 class="marca-login">
+        <img src="img/agoramed-logo.png" alt="AGORAMED" width="1950" height="439">
+      </h1>
+      <p class="subtitulo">Decisões seguras baseadas em evidência.</p>
+
+      <h2 style="font-size:1.05rem;margin:18px 0 4px">Criar nova senha</h2>
+
+      <div id="mensagem" class="aviso oculto" role="alert"></div>
+
+      <form id="form-nova-senha" style="margin-top:16px">
+        <div class="campo">
+          <label for="nova-senha">Nova senha <span class="obrig">*</span></label>
+          <input type="password" id="nova-senha" required autocomplete="new-password" minlength="6" placeholder="mínimo 6 caracteres">
+        </div>
+        <div class="campo">
+          <label for="rep-senha">Repita a nova senha <span class="obrig">*</span></label>
+          <input type="password" id="rep-senha" required autocomplete="new-password" minlength="6" placeholder="••••••••">
+        </div>
+        <button type="submit" class="btn" style="width:100%">Salvar nova senha</button>
+      </form>
+
+      <div id="bloco-expirado" class="oculto" style="text-align:center">
+        <p style="margin-top:12px;font-size:.9rem;color:var(--texto-suave)">
+          Este link é inválido ou expirou. Solicite um novo na tela de login.
+        </p>
+        <a class="btn secundario" style="margin-top:12px;display:inline-block" href="index.html?redefinir=erro">Voltar ao login</a>
+      </div>
+    </section>
+
+    <footer class="rodape-login">
+      <img src="img/agoramed-simbolo-branco.png" alt="" width="986" height="609" aria-hidden="true">
+      <span><strong>AGORAMED</strong> · Anderson Gleryston</span>
+    </footer>
+  </main>
+
+  <script src="js/store.js"></script>
+  <script type="module">
+    const msg = document.getElementById('mensagem');
+    function mostrarMsg(texto, tipo = 'erro') {
+      if (!texto) { msg.textContent = ''; msg.className = 'aviso oculto'; return; }
+      msg.textContent = texto;
+      msg.className = 'aviso ' + (tipo === 'erro' ? 'erro' : 'sucesso');
+    }
+
+    /* o Supabase entrega os tokens na URL: #access_token=…&refresh_token=…&type=recovery */
+    const hash = new URLSearchParams(location.hash.replace(/^#/, '?'));
+    const access = hash.get('access_token');
+    const refresh = hash.get('refresh_token');
+    const form = document.getElementById('form-nova-senha');
+
+    if (!access || !refresh) {
+      form.classList.add('oculto');
+      document.getElementById('bloco-expirado').classList.remove('oculto');
+    }
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const senha = document.getElementById('nova-senha').value;
+      const rep = document.getElementById('rep-senha').value;
+      if (senha !== rep) return mostrarMsg('As duas senhas não conferem.');
+      const btn = form.querySelector('[type=submit]');
+      btn.disabled = true;
+      const r = await Store.redefinirSenha(access, refresh, senha);
+      btn.disabled = false;
+      if (!r.ok) return mostrarMsg(r.erro || 'Não foi possível redefinir a senha. Solicite um novo link.');
+      mostrarMsg('Senha redefinida! Redirecionando…', 'sucesso');
+      setTimeout(() => { location.href = 'index.html?redefinir=ok'; }, 1500);
+    });
+  </script>
+</body>
+</html>

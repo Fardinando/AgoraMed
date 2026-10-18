@@ -1,190 +1,112 @@
-/* ==========================================================================
-   AGORAMED — camada de dados e autenticação (localStorage)
-   Versão DEMONSTRAÇÃO estática: os dados ficam no navegador de cada aparelho.
-   Não use em produção sem um servidor real.
-   ========================================================================== */
-
+/* ============================================================
+   AGORAMED — Store: camada de dados do navegador.
+   Toda informação vem e vai pela API do próprio site (/api/*).
+   As chaves do Supabase nunca chegam aqui: o banco é acessado
+   somente pelas funções serverless no Vercel.
+   ============================================================ */
 const Store = (() => {
-  const K = {
-    usuarios: 'ma_usuarios',
-    sessao: 'ma_sessao',
-    cursos: 'ma_cursos',
-    comentarios: 'ma_comentarios',
-    promos: 'ma_promos',
-    progresso: 'ma_progresso',
-    versao: 'ma_versao',
-  };
+  let eu = null;                 // perfil do usuário logado
+  let cursosCache = [];          // cursos visíveis a quem está logado
+  let progressoCache = new Set(); // aula_ids concluídas do usuário atual
+  let promosCache = [];          // divulgações ativas
+  let alunosCache = [];          // professor: perfis de todos os alunos
+  let matriculasCache = [];      // professor: todas as matrículas
 
-  const uid = () => Math.random().toString(36).slice(2, 9) + Date.now().toString(36).slice(-4);
-
-  /* hash simples (demonstração apenas — NÃO é segurança real) */
-  const hash = (s) => {
-    let h = 0;
-    for (let i = 0; i < s.length; i++) h = (h << 5) - h + s.charCodeAt(i) | 0;
-    return 'h' + (h >>> 0).toString(16);
-  };
-
-  const ler = (chave, padrao) => {
-    try { const v = JSON.parse(localStorage.getItem(chave)); return v ?? padrao; }
-    catch { return padrao; }
-  };
-  const gravar = (chave, valor) => {
-    try { localStorage.setItem(chave, JSON.stringify(valor)); }
-    catch (e) {
-      alert('Armazenamento do navegador cheio! Remova alguns PDFs ou imagens grandes (Painel do professor).');
-      throw e;
+  async function api(caminho, { metodo = 'GET', corpo } = {}) {
+    try {
+      const r = await fetch('/api' + caminho, {
+        method: metodo,
+        headers: corpo ? { 'Content-Type': 'application/json' } : undefined,
+        body: corpo ? JSON.stringify(corpo) : undefined,
+        credentials: 'same-origin',
+      });
+      return await r.json();
+    } catch (e) {
+      return { ok: false, erro: 'Falha de comunicação com o servidor. Verifique sua conexão.' };
     }
+  }
+
+  const uid = () =>
+    (crypto.randomUUID ? crypto.randomUUID() : 'id-' + Math.random().toString(36).slice(2) + Date.now());
+
+  /* ---------------------------------------------------------- sessão */
+  async function iniciar() {
+    const s = await api('/auth/sessao');
+    eu = s && s.ok ? s.usuario : null;
+    if (eu) await carregarDados(); else limparDados();
+    return eu;
+  }
+
+  async function carregarDados() {
+    const r = await api('/app');
+    if (!r || !r.ok) { limparDados(); return; }
+    cursosCache = r.cursos || [];
+    progressoCache = new Set(r.progresso || []);
+    promosCache = r.promos || [];
+    alunosCache = r.alunos || [];
+    matriculasCache = r.matriculas || [];
+  }
+  function limparDados() {
+    cursosCache = []; progressoCache = new Set();
+    promosCache = []; alunosCache = []; matriculasCache = [];
+  }
+
+  const usuarioAtual = () => eu;
+  const proteger = () => {
+    if (!eu) location.href = 'index.html';
+    return eu;
   };
 
-  /* ---------------------------------------------------------------- seed */
-  function semear() {
-    if (localStorage.getItem(K.versao)) return;
-
-    const adminId = 'prof01';
-    const usuarios = [{
-      id: adminId, nome: 'Professor(a)', email: 'admin@plataforma.com',
-      senha: hash('admin123'), papel: 'admin', liberado: true, cursos: [],
-    }, {
-      id: 'aluno01', nome: 'Aluno Demonstração', email: 'aluno@demo.com',
-      senha: hash('123456'), papel: 'aluno', liberado: true, cursos: ['curso1'],
-    }];
-
-    const cursos = [{
-      id: 'curso1',
-      titulo: 'Conduta em Emergências: os primeiros 30 minutos',
-      subtitulo: 'O que não pode faltar na sua primeira atuação no pronto-socorro',
-      categoria: 'Emergência', nivel: 'Intermediário',
-      descricao: 'Aula a aula, os algoritmos essenciais de abordagem, estabilização e condução das principais urgências, com foco no dia a dia de quem está começando.',
-      capaEmoji: '🚨',
-      capaImagem: '',
-      criadoEm: Date.now(),
-      modulos: [
-        {
-          id: uid(), titulo: 'Módulo 1 — Avaliação inicial e vias aéreas', aulas: [
-            { id: uid(), titulo: 'ABCDE: a sequência que salva vidas', youtubeId: '', duracao: '14:20', descricao: 'Como estruturar a primeira avaliação sem se perder.', pdfs: [] },
-            { id: uid(), titulo: 'Via aérea difícil: planos A, B e C', youtubeId: '', duracao: '18:05', descricao: '', pdfs: [] },
-          ],
-        },
-        {
-          id: uid(), titulo: 'Módulo 2 — Torácicas e cardiovasculares', aulas: [
-            { id: uid(), titulo: 'Dor torácica: o que ignorar e o que investigar', youtubeId: '', duracao: '21:40', descricao: '', pdfs: [] },
-            { id: uid(), titulo: 'Arritmias instáveis: cardioversão e drogas', youtubeId: '', duracao: '16:10', descricao: '', pdfs: [] },
-          ],
-        },
-        {
-          id: uid(), titulo: 'Módulo 3 — Casos comentados', aulas: [
-            { id: uid(), titulo: 'Caso 1: o paciente jovem com dispneia', youtubeId: '', duracao: '12:55', descricao: 'Discussão de caso real (anonymizado).', pdfs: [] },
-          ],
-        },
-      ],
-    }];
-
-    const promos = [{
-      id: uid(),
-      titulo: 'Course: Insuficiência Respiratória na prática',
-      texto: 'Do reconhecimento à ventilação não invasiva — turma com vagas limitadas.',
-      emoji: '🫁', link: '', capaImagem: '',
-    }, {
-      id: uid(),
-      titulo: 'Curso: Antibioticoterapia racional',
-      texto: 'Escolha do esquema, desescalonamento e stewardship no plantão.',
-      emoji: '💊', link: '', capaImagem: '',
-    }];
-
-    gravar(K.usuarios, usuarios);
-    gravar(K.cursos, cursos);
-    gravar(K.promos, promos);
-    gravar(K.comentarios, []);
-    gravar(K.progresso, {});
-    localStorage.setItem(K.versao, '1');
-  }
-  semear();
-
-  /* ------------------------------------------------------------ sessão */
-  const usuarios = () => ler(K.usuarios, []);
-  const salvarUsuarios = (l) => gravar(K.usuarios, l);
-
-  function usuarioAtual() {
-    const id = localStorage.getItem(K.sessao);
-    if (!id) return null;
-    return usuarios().find(u => u.id === id) || null;
-  }
-
-  function entrar(email, senha) {
-    const u = usuarios().find(x => x.email.toLowerCase() === email.trim().toLowerCase());
-    if (!u || u.senha !== hash(senha)) return { ok: false, erro: 'E-mail ou senha incorretos.' };
-    if (!u.liberado) return { ok: false, pendente: true, erro: 'Sua conta ainda está aguardando liberação pelo professor.' };
-    localStorage.setItem(K.sessao, u.id);
-    return { ok: true, usuario: u };
-  }
-
-  /* WhatsApp: só dígitos, com remoção do +55 opcional */
-  function normalizarWhats(valor) {
-    let d = String(valor || '').replace(/\D/g, '');
-    if (d.length > 11 && d.startsWith('55')) d = d.slice(2);
-    return d;
-  }
-
-  function cadastrar(nome, email, senha, whatsapp) {
-    if (nome.trim().length < 3) return { ok: false, erro: 'Informe seu nome completo.' };
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return { ok: false, erro: 'E-mail inválido.' };
-    if (senha.length < 6) return { ok: false, erro: 'A senha precisa de ao menos 6 caracteres.' };
-    const whats = normalizarWhats(whatsapp);
-    if (whats.length < 10 || whats.length > 11 || whats[0] === '0')
-      return { ok: false, erro: 'Informe o WhatsApp com DDD (ex.: 11 98765-4321).' };
-    if (usuarios().some(x => x.email.toLowerCase() === email.trim().toLowerCase()))
-      return { ok: false, erro: 'Já existe uma conta com este e-mail.' };
-    const u = { id: uid(), nome: nome.trim(), email: email.trim().toLowerCase(), senha: hash(senha), whatsapp: whats, papel: 'aluno', liberado: false, cursos: [] };
-    salvarUsuarios([...usuarios(), u]);
+  async function entrar(email, senha) {
+    const r = await api('/auth/entrar', { metodo: 'POST', corpo: { email, senha } });
+    if (!r.ok) return r;
+    eu = r.usuario;
+    await carregarDados();
     return { ok: true };
   }
 
-  function sair() { localStorage.removeItem(K.sessao); }
+  const cadastrar = (nome, email, senha, whats) =>
+    api('/auth/cadastro', { metodo: 'POST', corpo: { nome, email, senha, whatsapp: whats } });
 
-  /* guarda de páginas internas */
-  function proteger() {
-    const u = usuarioAtual();
-    if (!u) { location.href = 'index.html'; return null; }
-    if (!u.liberado) { localStorage.removeItem(K.sessao); location.href = 'index.html?pendente=1'; return null; }
-    return u;
+  async function sair() {
+    await api('/auth/sair', { metodo: 'POST' });
+    eu = null; limparDados();
   }
 
-  /* ------------------------------------------------------------- cursos */
-  const cursos = () => ler(K.cursos, []);
-  const salvarCursos = (l) => gravar(K.cursos, l);
-  const acharCurso = (id) => cursos().find(c => c.id === id);
+  const esqueciSenha = (email) => api('/auth/esqueci-senha', { metodo: 'POST', corpo: { email } });
+  const redefinirSenha = (access, refresh, senha) =>
+    api('/auth/redefinir-senha', { metodo: 'POST', corpo: { access, refresh, senha } });
 
-  function cursosDoUsuario(u) {
-    if (!u) return [];
-    if (u.papel === 'admin') return cursos();
-    return cursos().filter(c => (u.cursos || []).includes(c.id));
+  /* ------------------------------------------------------------ cursos */
+  const cursos = () => cursosCache;
+  const cursosDoUsuario = () => cursosCache; // o servidor já devolve só o que o aluno tem acesso
+  const acharCurso = (id) => cursosCache.find((c) => c.id === id);
+
+  async function salvarCurso(ed) {
+    const r = await api('/admin/cursos', { metodo: 'POST', corpo: { curso: ed } });
+    if (!r.ok) return r;
+    const i = cursosCache.findIndex((c) => c.id === r.curso.id);
+    if (i >= 0) cursosCache[i] = r.curso; else cursosCache.push(r.curso);
+    return { ok: true, curso: r.curso };
   }
 
-  function salvarCurso(curso) {
-    const lista = cursos();
-    const i = lista.findIndex(c => c.id === curso.id);
-    if (i >= 0) lista[i] = curso; else lista.push(curso);
-    salvarCursos(lista);
+  async function novoCurso() {
+    const r = await api('/admin/cursos', { metodo: 'POST', corpo: { curso: { titulo: 'Novo curso', modulos: [] } } });
+    if (!r.ok) return r;
+    cursosCache.push(r.curso);
+    return { ok: true, curso: r.curso };
   }
 
-  function novoCurso() {
-    const c = {
-      id: uid(), titulo: 'Novo curso', subtitulo: '', categoria: '', nivel: 'Básico',
-      descricao: '', capaEmoji: '🩺', capaImagem: '', criadoEm: Date.now(), modulos: [],
-    };
-    salvarCurso(c);
-    return c;
-  }
-
-  function excluirCurso(id) {
-    salvarCursos(cursos().filter(c => c.id !== id));
-    const us = usuarios(); us.forEach(u => u.cursos = (u.cursos || []).filter(x => x !== id)); salvarUsuarios(us);
+  async function excluirCurso(id) {
+    const r = await api('/admin/cursos?id=' + encodeURIComponent(id), { metodo: 'DELETE' });
+    if (r.ok) cursosCache = cursosCache.filter((c) => c.id !== id);
+    return r;
   }
 
   /* ------------------------------------------------- estatísticas/duração */
   function parseDuracao(txt) {
     if (!txt) return 0;
-    const p = String(txt).split(':').map(Number).filter(n => !isNaN(n));
+    const p = String(txt).split(':').map(Number).filter((n) => !isNaN(n));
     if (p.length === 3) return p[0] * 3600 + p[1] * 60 + p[2];
     if (p.length === 2) return p[0] * 60 + p[1];
     return p[0] || 0;
@@ -192,7 +114,7 @@ const Store = (() => {
 
   function estatisticasCurso(c) {
     let aulas = 0, segundos = 0, pdfs = 0;
-    (c.modulos || []).forEach(m => (m.aulas || []).forEach(a => {
+    (c.modulos || []).forEach((m) => (m.aulas || []).forEach((a) => {
       aulas++; segundos += parseDuracao(a.duracao); pdfs += (a.pdfs || []).length;
     }));
     const h = Math.floor(segundos / 3600), min = Math.round((segundos % 3600) / 60);
@@ -200,46 +122,86 @@ const Store = (() => {
     return { aulas, duracao, pdfs, modulos: (c.modulos || []).length };
   }
 
-  /* ------------------------------------------------------------ progresso */
-  const progressos = () => ler(K.progresso, {});
-  const chaveProg = (userId, aulaId) => `${userId}|${aulaId}`;
+  /* ---------------------------------------------------------- progresso */
+  const estaConcluida = (userId, aulaId) => progressoCache.has(aulaId);
 
-  const estaConcluida = (userId, aulaId) => !!progressos()[chaveProg(userId, aulaId)];
-  function alternarConcluida(userId, aulaId) {
-    const p = progressos(), k = chaveProg(userId, aulaId);
-    if (p[k]) delete p[k]; else p[k] = Date.now();
-    gravar(K.progresso, p);
+  async function alternarConcluida(userId, aulaId) {
+    const vai = !progressoCache.has(aulaId);
+    if (vai) progressoCache.add(aulaId); else progressoCache.delete(aulaId);
+    const r = await api('/progresso', { metodo: 'POST', corpo: { aula_id: aulaId, acao: vai ? 'marcar' : 'desmarcar' } });
+    if (!r.ok) { // desfaz otimismo local
+      if (vai) progressoCache.delete(aulaId); else progressoCache.add(aulaId);
+    }
+    return r;
   }
 
   function progressoCurso(userId, curso) {
     let total = 0, feitas = 0;
-    (curso.modulos || []).forEach(m => (m.aulas || []).forEach(a => { total++; if (estaConcluida(userId, a.id)) feitas++; }));
+    (curso.modulos || []).forEach((m) => (m.aulas || []).forEach((a) => { total++; if (estaConcluida(userId, a.id)) feitas++; }));
     return { total, feitas, percentual: total ? Math.round(feitas / total * 100) : 0 };
   }
 
-  /* ----------------------------------------------------------- comentários */
-  const comentarios = () => ler(K.comentarios, []);
-  function comentariosDe(contexto) {
-    return comentarios().filter(c => c.contexto === contexto).sort((a, b) => a.ts - b.ts);
-  }
-  function comentar(contexto, usuario, texto) {
-    const lista = comentarios();
-    lista.push({ id: uid(), contexto, userId: usuario.id, nome: usuario.nome, papel: usuario.papel, texto: texto.trim(), ts: Date.now() });
-    gravar(K.comentarios, lista);
-  }
-  function excluirComentario(id, usuario) {
-    if (!usuario) return;
-    gravar(K.comentarios, comentarios().filter(
-      c => !(c.id === id && (usuario.papel === 'admin' || c.userId === usuario.id))
-    ));
+  /* --------------------------------------------------------- comentários */
+  /* contexto no formato 'aula:<curso>:<modulo>:<aula>' — a aula é o último trecho */
+  const aulaDoContexto = (contexto) => String(contexto || '').split(':').pop();
+
+  async function comentariosDe(contexto) {
+    const r = await api('/comentarios?aula=' + encodeURIComponent(aulaDoContexto(contexto)));
+    return (r && r.comentarios) || [];
   }
 
-  /* --------------------------------------------------------------- promos */
-  const promos = () => ler(K.promos, []);
-  const salvarPromos = (l) => gravar(K.promos, l);
+  async function comentar(contexto, usuario, texto) {
+    const r = await api('/comentarios', {
+      metodo: 'POST',
+      corpo: { aula_id: aulaDoContexto(contexto), texto },
+    });
+    return r && r.ok ? r.comentario : null;
+  }
+
+  const excluirComentario = (id) => api('/comentarios?id=' + encodeURIComponent(id), { metodo: 'DELETE' });
+
+  /* ------------------------------------------------------------- promos */
+  const promos = () => promosCache;
+  async function salvarPromos(lista) {
+    const r = await api('/admin/promos', { metodo: 'POST', corpo: { lista } });
+    if (r && r.ok) promosCache = lista;
+    return r;
+  }
+
+  /* ------------------------------------------------------- alunos (professor) */
+  const usuarios = () => alunosCache;
+  const matriculas = () => matriculasCache;
+  /* matrículas do aluno em memória (o servidor já devolve a lista completa) */
+  const cursosDoAluno = (usuarioId) =>
+    matriculasCache.filter((m) => m.usuario_id === usuarioId).map((m) => m.curso_id);
+
+  async function gerenciarAluno(usuarioId, acao, cursosIds) {
+    const r = await api('/admin/alunos', {
+      metodo: 'POST',
+      corpo: { usuario_id: usuarioId, acao, ...(acao === 'cursos' ? { cursos: cursosIds } : {}) },
+    });
+    if (!r || !r.ok) return r;
+    if (acao === 'liberar' || acao === 'bloquear') {
+      const u = alunosCache.find((x) => x.id === usuarioId);
+      if (u) u.liberado = acao === 'liberar';
+    }
+    if (acao === 'promover' || acao === 'rebaixar') {
+      const u = alunosCache.find((x) => x.id === usuarioId);
+      if (u) { u.papel = acao === 'promover' ? 'admin' : 'aluno'; if (acao === 'promover') u.liberado = true; }
+    }
+    if (acao === 'cursos') {
+      matriculasCache = matriculasCache.filter((m) => m.usuario_id !== usuarioId);
+      (cursosIds || []).forEach((cid) => matriculasCache.push({ usuario_id: usuarioId, curso_id: cid }));
+    }
+    if (acao === 'remover') {
+      alunosCache = alunosCache.filter((x) => x.id !== usuarioId);
+      matriculasCache = matriculasCache.filter((m) => m.usuario_id !== usuarioId);
+    }
+    return r;
+  }
 
   /* -------------------------------------------------------- imagens/PDFs */
-  /** Comprime uma imagem para dataURL (JPEG) caber no localStorage. */
+  /** Comprime uma imagem para dataURL (JPEG). */
   function comprimirImagem(file, larguraMax = 800) {
     return new Promise((resolve, reject) => {
       const leitor = new FileReader();
@@ -261,22 +223,24 @@ const Store = (() => {
     });
   }
 
+  /** Lê um PDF como dataURL (o servidor recebe junto no salvamento do curso). */
   function lerPDF(file) {
     return new Promise((resolve, reject) => {
       if (file.size > 4.5 * 1024 * 1024) {
-        return reject(new Error(`"${file.name}" tem ${(file.size / 1024 / 1024).toFixed(1)} MB. O limite por arquivo nesta versão demo é 4,5 MB (PDFs comprimidos).`));
+        return reject(new Error(`"${file.name}" tem ${(file.size / 1024 / 1024).toFixed(1)} MB. O limite por arquivo é 4,5 MB.`));
       }
       const leitor = new FileReader();
       leitor.onerror = () => reject(new Error('Falha ao ler o PDF.'));
-      leitor.onload = () => resolve({ id: uid(), nome: file.name, dados: leitor.result });
+      leitor.onload = () => resolve({ id: null, nome: file.name, dados: leitor.result });
       leitor.readAsDataURL(file);
     });
   }
 
   return {
     uid,
-    usuarioAtual, entrar, cadastrar, sair, proteger,
-    usuarios, salvarUsuarios,
+    usuarioAtual, iniciar, entrar, cadastrar, sair, proteger,
+    esqueciSenha, redefinirSenha,
+    usuarios, matriculas, cursosDoAluno, gerenciarAluno,
     cursos, cursosDoUsuario, acharCurso, salvarCurso, novoCurso, excluirCurso,
     estatisticasCurso, parseDuracao,
     estaConcluida, alternarConcluida, progressoCurso,
@@ -345,7 +309,7 @@ const UI = {
     </div>`;
     document.body.appendChild(el);
     el.querySelector('#nav-sair').addEventListener('click', () => {
-      if (confirm('Deseja sair da plataforma?')) { Store.sair(); location.href = 'index.html'; }
+      if (confirm('Deseja sair da plataforma?')) Store.sair().finally(() => { location.href = 'index.html'; });
     });
   },
 };

@@ -81,9 +81,9 @@
   </footer>
 
   <script src="js/store.js"></script>
-  <script>
+  <script type="module">
+    await Store.iniciar();
     const usuario = Store.proteger();
-    if (!usuario) throw new Error('sem sessão');
     document.getElementById('nome-topo').textContent = usuario.nome.split(' ')[0];
     document.getElementById('avatar-topo').textContent = UI.iniciais(usuario.nome);
 
@@ -94,14 +94,15 @@
     chip.addEventListener('click', (e) => { e.stopPropagation(); menu.classList.toggle('oculto'); });
     document.addEventListener('click', () => menu.classList.add('oculto'));
     document.getElementById('btn-sair').addEventListener('click', () => {
-      if (confirm('Deseja sair da plataforma?')) { Store.sair(); location.href = 'index.html'; }
+      if (confirm('Deseja sair da plataforma?')) Store.sair().finally(() => { location.href = 'index.html'; });
     });
 
     const q = new URLSearchParams(location.search);
     const curso = Store.acharCurso(q.get('c'));
     const modulo = curso && (curso.modulos || []).find(m => m.id === q.get('m'));
     const aula = modulo && (modulo.aulas || []).find(a => a.id === q.get('a'));
-    const permitido = aula && (usuario.papel === 'admin' || (usuario.cursos || []).includes(curso.id));
+    /* o servidor já devolve só os cursos que este usuário pode ver */
+    const permitido = !!aula;
 
     if (!permitido) {
       document.getElementById('palco').innerHTML = '<div class="video-vazio"><div><h3>Aula não encontrada</h3><p>Volte ao curso e tente novamente.</p></div></div>';
@@ -133,7 +134,7 @@
         btnConcluir.classList.toggle('secundario', !ok);
       }
       pintarConclusao();
-      btnConcluir.addEventListener('click', () => { Store.alternarConcluida(usuario.id, aula.id); pintarConclusao(); });
+      btnConcluir.addEventListener('click', async () => { await Store.alternarConcluida(usuario.id, aula.id); pintarConclusao(); });
 
       /* ------------------- aulas vizinhas: anterior e próxima
          Próxima: próxima aula do módulo → primeira aula do próximo módulo
@@ -190,7 +191,7 @@
             <div class="material">
               <span class="icone-pdf">PDF</span>
               <span class="nome" title="${UI.escapar(p.nome)}">${UI.escapar(p.nome)}</span>
-              <a class="btn pequeno" href="${p.dados}" download="${UI.escapar(p.nome)}">Baixar</a>
+              <a class="btn pequeno" href="/api/material?id=${encodeURIComponent(p.id)}">Baixar</a>
             </div>`).join('')
         : '<p style="font-size:.85rem;color:var(--texto-suave)">Nenhum material anexado a esta aula.</p>';
 
@@ -211,8 +212,8 @@
       const contexto = `aula:${curso.id}:${modulo.id}:${aula.id}`;
       const listaEl = document.getElementById('lista-comentarios');
 
-      function pintarComentarios() {
-        const cs = Store.comentariosDe(contexto);
+      async function pintarComentarios() {
+        const cs = await Store.comentariosDe(contexto);
         if (!cs.length) {
           listaEl.innerHTML = '<p style="font-size:.85rem;color:var(--texto-suave);padding-top:12px;border-top:1px solid var(--linha);margin-top:12px">Seja o primeiro a comentar ou tirar uma dúvida nesta aula.</p>';
           return;
@@ -234,20 +235,20 @@
       }
       pintarComentarios();
 
-      listaEl.addEventListener('click', (e) => {
+      listaEl.addEventListener('click', async (e) => {
         const btn = e.target.closest('.excluir');
         if (!btn) return;
-        if (confirm('Excluir este comentário?')) { Store.excluirComentario(btn.dataset.id, usuario); pintarComentarios(); }
+        if (confirm('Excluir este comentário?')) { await Store.excluirComentario(btn.dataset.id); pintarComentarios(); }
       });
 
-      document.getElementById('form-comentario').addEventListener('submit', (e) => {
+      document.getElementById('form-comentario').addEventListener('submit', async (e) => {
         e.preventDefault();
         const campo = document.getElementById('texto-comentario');
         const texto = campo.value.trim();
         if (!texto) return;
-        Store.comentar(contexto, usuario, texto);
+        await Store.comentar(contexto, usuario, texto);
         campo.value = '';
-        pintarComentarios();
+        await pintarComentarios();
         listaEl.lastElementChild?.scrollIntoView({ behavior: 'smooth', block: 'center' });
       });
 

@@ -109,9 +109,9 @@
   </footer>
 
   <script src="js/store.js"></script>
-  <script>
+  <script type="module">
+    await Store.iniciar();
     const usuario = Store.proteger();
-    if (!usuario) throw new Error('sem sessão');
     if (usuario.papel !== 'admin') location.href = 'app.html';
 
     const $ = (s, r = document) => r.querySelector(s);
@@ -154,12 +154,16 @@
       if (ex) {
         const c = Store.acharCurso(ex.dataset.excluirCurso);
         if (confirm(`Excluir o curso "${c.titulo}"? Isso também remove o acesso dos alunos.`)) {
-          Store.excluirCurso(c.id); listarCursos();
+          Store.excluirCurso(c.id).then(() => listarCursos());
         }
       }
     });
 
-    $('#btn-novo-curso').addEventListener('click', () => { const c = Store.novoCurso(); listarCursos(); abrirEditor(c.id); });
+    $('#btn-novo-curso').addEventListener('click', async () => {
+      const r = await Store.novoCurso();
+      if (!r.ok) return alert(r.erro || 'Não foi possível criar o curso.');
+      listarCursos(); abrirEditor(r.curso.id);
+    });
 
     /* ------------------------------------------------ editor */
     let ed = null; // cópia de trabalho em memória
@@ -272,10 +276,14 @@
       pintarModulos();
     });
 
-    $('#btn-salvar-curso').addEventListener('click', () => {
+    $('#btn-salvar-curso').addEventListener('click', async () => {
       if (!ed.titulo.trim()) return alert('Informe o título do curso.');
       ed.modulos.forEach(m => { if (!m.titulo.trim()) m.titulo = 'Módulo sem título'; });
-      Store.salvarCurso(ed);
+      const btn = $('#btn-salvar-curso');
+      btn.disabled = true;
+      const r = await Store.salvarCurso(ed);
+      btn.disabled = false;
+      if (!r.ok) return alert(r.erro || 'Não foi possível salvar o curso.');
       listarCursos();
       $('#editor').classList.add('oculto');
       ed = null;
@@ -289,12 +297,13 @@
       const el = $('#lista-alunos');
       el.innerHTML = Store.usuarios().map(u => {
         const ehAdmin = u.papel === 'admin';
+        const meus = Store.cursosDoAluno(u.id);
         return `
         <div class="card-linha">
           <div class="mini-capa" style="border-radius:50%;width:48px;font-size:.9rem;font-weight:800">${UI.iniciais(u.nome)}</div>
           <div class="dados">
             <strong>${UI.escapar(u.nome)} ${ehAdmin ? '<span class="situacao admin">Professor(a)</span>' : (u.liberado ? '<span class="situacao liberado">Liberado</span>' : '<span class="situacao pendente">Pendente</span>')}</strong>
-            <small>${UI.escapar(u.email)} · ${(u.cursos || []).length} curso(s) adquirido(s)</small>
+            <small>${UI.escapar(u.email)} · ${meus.length} curso(s) adquirido(s)</small>
             ${!ehAdmin && u.whatsapp ? `<small>📱 WhatsApp: ${UI.whatsBR(u.whatsapp)}</small>` : ''}
             ${ehAdmin ? '' : `
             <details style="margin-top:8px">
@@ -302,7 +311,7 @@
               <div style="margin-top:8px;display:grid;gap:6px">
                 ${cursos.length ? cursos.map(c => `
                   <label style="display:flex;gap:8px;align-items:center;font-size:.86rem">
-                    <input type="checkbox" data-aluno="${u.id}" data-curso="${c.id}" ${(u.cursos || []).includes(c.id) ? 'checked' : ''}>
+                    <input type="checkbox" data-aluno="${u.id}" data-curso="${c.id}" ${meus.includes(c.id) ? 'checked' : ''}>
                     ${UI.escapar(c.titulo)}
                   </label>`).join('') : '<small>Crie cursos primeiro para liberar acesso.</small>'}
               </div>
@@ -318,35 +327,36 @@
       }).join('');
     }
 
-    $('#lista-alunos').addEventListener('change', (e) => {
+    $('#lista-alunos').addEventListener('change', async (e) => {
       const cb = e.target.closest('input[type=checkbox]'); if (!cb) return;
-      const us = Store.usuarios();
-      const u = us.find(x => x.id === cb.dataset.aluno); if (!u) return;
-      u.cursos = u.cursos || [];
-      if (cb.checked) { if (!u.cursos.includes(cb.dataset.curso)) u.cursos.push(cb.dataset.curso); }
-      else u.cursos = u.cursos.filter(c => c !== cb.dataset.curso);
-      Store.salvarUsuarios(us);
+      const atuais = Store.cursosDoAluno(cb.dataset.aluno);
+      const lista = cb.checked ? [...atuais, cb.dataset.curso] : atuais.filter(c => c !== cb.dataset.curso);
+      const r = await Store.gerenciarAluno(cb.dataset.aluno, 'cursos', lista);
+      if (!r.ok) { alert(r.erro || 'Não foi possível salvar o acesso.'); listarAlunos(); }
     });
 
-    $('#lista-alunos').addEventListener('click', (e) => {
+    $('#lista-alunos').addEventListener('click', async (e) => {
       const us = Store.usuarios();
       const lib = e.target.closest('[data-liberar]');
       const pap = e.target.closest('[data-papel]');
       const exc = e.target.closest('[data-excluir-aluno]');
       if (lib) {
         const u = us.find(x => x.id === lib.dataset.liberar);
-        u.liberado = !u.liberado;
-        Store.salvarUsuarios(us); listarAlunos();
+        const r = await Store.gerenciarAluno(u.id, u.liberado ? 'bloquear' : 'liberar');
+        if (!r.ok) alert(r.erro || 'Não foi possível atualizar o aluno.');
+        listarAlunos();
       } else if (pap) {
         const u = us.find(x => x.id === pap.dataset.papel);
-        u.papel = u.papel === 'admin' ? 'aluno' : 'admin';
-        if (u.papel === 'admin') u.liberado = true;
-        Store.salvarUsuarios(us); listarAlunos();
+        const r = await Store.gerenciarAluno(u.id, u.papel === 'admin' ? 'rebaixar' : 'promover');
+        if (!r.ok) alert(r.erro || 'Não foi possível alterar o papel.');
+        listarAlunos();
       } else if (exc) {
         const u = us.find(x => x.id === exc.dataset.excluirAluno);
         if (u.id === usuario.id) return alert('Você não pode excluir a própria conta.');
-        if (confirm(`Excluir a conta de ${u.nome}?`)) {
-          Store.salvarUsuarios(us.filter(x => x.id !== u.id)); listarAlunos();
+        if (confirm(`Excluir a conta de ${u.nome}? Isso apaga o acesso de vez.`)) {
+          const r = await Store.gerenciarAluno(u.id, 'remover');
+          if (!r.ok) alert(r.erro || 'Não foi possível excluir a conta.');
+          listarAlunos();
         }
       }
     });
@@ -387,7 +397,7 @@
       const sal = e.target.closest('[data-salvar-promo]');
       if (exc) {
         if (!confirm('Excluir esta divulgação?')) return;
-        Store.salvarPromos(Store.promos().filter(x => x.id !== exc.dataset.excluirPromo));
+        await Store.salvarPromos(Store.promos().filter(x => x.id !== exc.dataset.excluirPromo));
         listarPromos();
       } else if (sal) {
         const id = sal.dataset.salvarPromo;
@@ -395,7 +405,8 @@
         const promos = Store.promos();
         const p = promos.find(x => x.id === id);
         $$('[data-p]', painel).forEach(i => p[i.dataset.p] = i.value);
-        Store.salvarPromos(promos);
+        const r = await Store.salvarPromos(promos);
+        if (!r.ok) return alert(r.erro || 'Não foi possível salvar a divulgação.');
         listarPromos();
         alert('Divulgação salva!');
       }
@@ -415,15 +426,15 @@
         const dados = await Store.comprimirImagem(f, 700);
         const promos = Store.promos();
         promos.find(x => x.id === inp.dataset.promoCapa).capaImagem = dados;
-        Store.salvarPromos(promos);
+        await Store.salvarPromos(promos);
         listarPromos();
       } catch (err) { alert(err.message); }
     });
 
-    $('#btn-nova-promo').addEventListener('click', () => {
+    $('#btn-nova-promo').addEventListener('click', async () => {
       const promos = Store.promos();
       promos.push({ id: Store.uid(), titulo: 'Nova divulgação', texto: '', emoji: '🎓', link: '', capaImagem: '' });
-      Store.salvarPromos(promos);
+      await Store.salvarPromos(promos);
       listarPromos();
     });
 

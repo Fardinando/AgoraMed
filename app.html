@@ -72,14 +72,14 @@
   <footer class="rodape">
     <div class="container">
       AGORAMED · Decisões seguras baseadas em evidência. · <span id="ano"></span><br>
-      <small>Plataforma demonstração — os dados ficam salvos neste dispositivo.</small>
+      <small>Decisões seguras baseadas em evidência.</small>
     </div>
   </footer>
 
   <script src="js/store.js"></script>
-  <script>
+  <script type="module">
+    await Store.iniciar();
     const usuario = Store.proteger();
-    if (!usuario) throw new Error('sem sessão');
 
     document.getElementById('ano').textContent = new Date().getFullYear();
     document.getElementById('nome-topo').textContent = usuario.nome.split(' ')[0];
@@ -92,7 +92,7 @@
     chip.addEventListener('click', (e) => { e.stopPropagation(); menu.classList.toggle('oculto'); });
     document.addEventListener('click', () => menu.classList.add('oculto'));
     document.getElementById('btn-sair').addEventListener('click', () => {
-      if (confirm('Deseja sair da plataforma?')) { Store.sair(); location.href = 'index.html'; }
+      if (confirm('Deseja sair da plataforma?')) Store.sair().finally(() => { location.href = 'index.html'; });
     });
 
     /* hero */

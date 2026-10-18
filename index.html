@@ -59,7 +59,25 @@
           <label for="login-senha">Senha</label>
           <input type="password" id="login-senha" name="senha" required autocomplete="current-password" placeholder="••••••••">
         </div>
+        <button type="button" id="link-esqueci" style="background:none;border:none;padding:0;margin:-6px 0 14px;font-size:.82rem;color:var(--petroleo);font-weight:600;cursor:pointer;text-decoration:underline">
+          Esqueci minha senha
+        </button>
         <button type="submit" class="btn" style="width:100%">Entrar na plataforma</button>
+      </form>
+
+      <!-- RECUPERAÇÃO DE SENHA -->
+      <form id="form-esqueci" class="oculto" style="margin-top:16px">
+        <div class="campo">
+          <label for="rec-email">E-mail da sua conta</label>
+          <input type="email" id="rec-email" required autocomplete="email" placeholder="voce@email.com">
+        </div>
+        <button type="submit" class="btn" style="width:100%">Enviar link de redefinição</button>
+        <p class="dica" style="margin-top:10px;font-size:.8rem;color:var(--texto-suave);text-align:center">
+          Enviaremos um link seguro por e-mail para você criar uma nova senha.
+        </p>
+        <button type="button" id="link-voltar-login" style="background:none;border:none;padding:6px 0 0;font-size:.82rem;color:var(--petroleo);font-weight:600;cursor:pointer;text-decoration:underline;width:100%">
+          Voltar para o login
+        </button>
       </form>
 
       <!-- CADASTRO -->
@@ -83,17 +101,9 @@
         </div>
         <button type="submit" class="btn" style="width:100%">Criar conta</button>
         <p class="dica" style="margin-top:10px;font-size:.8rem;color:var(--texto-suave);text-align:center">
-          Após o cadastro, sua conta fica <strong>aguardando liberação</strong> pelo professor.
+          Após o cadastro, confirme seu e-mail e aguarde a liberação pelo professor.
         </p>
       </form>
-
-      <details class="conta-demo">
-        <summary>Contas de demonstração</summary>
-        <p style="margin-top:8px">
-          Professor(a): <code>admin@plataforma.com</code> / <code>admin123</code><br>
-          Aluno: <code>aluno@demo.com</code> / <code>123456</code>
-        </p>
-      </details>
     </section>
 
     <!-- assinatura da marca, fora do cartão (sobre o fundo azul-petróleo) -->
@@ -104,7 +114,7 @@
   </main>
 
   <script src="js/store.js"></script>
-  <script>
+  <script type="module">
     const msg = document.getElementById('mensagem');
     const params = new URLSearchParams(location.search);
 
@@ -114,48 +124,78 @@
       msg.className = 'aviso ' + (tipo === 'erro' ? 'erro' : 'sucesso');
       msg.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
-    if (new URLSearchParams(location.search).get('pendente') === '1') {
+    if (params.get('pendente') === '1') {
       mostrarMsg('Sua conta ainda está aguardando liberação. Assim que o professor liberar, você poderá entrar.', 'erro');
+    } else if (params.get('redefinir') === 'ok') {
+      mostrarMsg('Senha redefinida com sucesso! Entre com a nova senha.', 'sucesso');
+    } else if (params.get('redefinir') === 'erro') {
+      mostrarMsg('O link de redefinição é inválido ou expirou. Solicite um novo.', 'erro');
+    } else if (params.get('confirmado') === '1') {
+      mostrarMsg('E-mail confirmado! Faça login para continuar.', 'sucesso');
     }
 
-    /* abas */
+    /* abas + recuperação de senha */
     const abaEntrar = document.getElementById('aba-entrar');
     const abaCadastrar = document.getElementById('aba-cadastrar');
     const formEntrar = document.getElementById('form-entrar');
     const formCadastrar = document.getElementById('form-cadastrar');
+    const formEsqueci = document.getElementById('form-esqueci');
     function ativarAba(qual) {
       const ehEntrar = qual === 'entrar';
-      abaEntrar.classList.toggle('ativo', ehEntrar);
-      abaCadastrar.classList.toggle('ativo', !ehEntrar);
+      abaEntrar.classList.toggle('ativo', ehEntrar && qual !== 'esqueci');
+      abaCadastrar.classList.toggle('ativo', qual === 'cadastrar');
       formEntrar.classList.toggle('oculto', !ehEntrar);
-      formCadastrar.classList.toggle('oculto', ehEntrar);
+      formCadastrar.classList.toggle('oculto', qual !== 'cadastrar');
+      formEsqueci.classList.toggle('oculto', qual !== 'esqueci');
+      if (qual === 'esqueci') abaEntrar.classList.remove('ativo');
       mostrarMsg('');
     }
     abaEntrar.addEventListener('click', () => ativarAba('entrar'));
     abaCadastrar.addEventListener('click', () => ativarAba('cadastrar'));
+    document.getElementById('link-esqueci').addEventListener('click', () => ativarAba('esqueci'));
+    document.getElementById('link-voltar-login').addEventListener('click', () => ativarAba('entrar'));
 
     /* se já houver sessão, segue direto (exceto na página de teste visual) */
-    if (Store.usuarioAtual() && !params.get('preview')) location.href = 'app.html';
+    if (!params.get('preview')) {
+      const u = await Store.iniciar();
+      if (u) location.href = 'app.html';
+    }
 
-    formEntrar.addEventListener('submit', (e) => {
+    formEntrar.addEventListener('submit', async (e) => {
       e.preventDefault();
-      const r = Store.entrar(document.getElementById('login-email').value, document.getElementById('login-senha').value);
-      if (!r.ok) return mostrarMsg(r.erro, r.pendente ? 'sucesso' : 'erro');
+      const btn = formEntrar.querySelector('[type=submit]');
+      btn.disabled = true;
+      mostrarMsg('Verificando…', 'sucesso');
+      const r = await Store.entrar(document.getElementById('login-email').value, document.getElementById('login-senha').value);
+      btn.disabled = false;
+      if (!r.ok) return mostrarMsg(r.erro);
       location.href = 'app.html';
     });
 
-    formCadastrar.addEventListener('submit', (e) => {
+    formCadastrar.addEventListener('submit', async (e) => {
       e.preventDefault();
-      const r = Store.cadastrar(
+      const btn = formCadastrar.querySelector('[type=submit]');
+      btn.disabled = true;
+      const r = await Store.cadastrar(
         document.getElementById('cad-nome').value,
         document.getElementById('cad-email').value,
         document.getElementById('cad-senha').value,
         document.getElementById('cad-whats').value
       );
+      btn.disabled = false;
       if (!r.ok) return mostrarMsg(r.erro);
-      mostrarMsg('Conta criada! Aguarde a liberação do professor para acessar os cursos.', 'sucesso');
+      mostrarMsg(r.msg || 'Conta criada! Confira seu e-mail para ativar a conta.', 'sucesso');
       formCadastrar.reset();
-      setTimeout(() => ativarAba('entrar'), 2200);
+      setTimeout(() => ativarAba('entrar'), 3000);
+    });
+
+    formEsqueci.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const btn = formEsqueci.querySelector('[type=submit]');
+      btn.disabled = true;
+      const r = await Store.esqueciSenha(document.getElementById('rec-email').value);
+      btn.disabled = false;
+      mostrarMsg((r && r.ok ? r.msg : (r && r.erro)) || 'Verifique sua caixa de entrada.', r && r.ok ? 'sucesso' : 'erro');
     });
   </script>
 </body>
