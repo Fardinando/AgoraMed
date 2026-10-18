@@ -152,7 +152,14 @@ button { font: inherit; cursor: pointer; }
   box-shadow: 0 24px 60px rgba(0,0,0,.35); padding: 36px 30px 28px;
 }
 .cartao-login .marca-login { justify-content: center; margin-bottom: 10px; }
-.cartao-login .marca-login img { width: min(330px, 82%); height: auto; margin-inline: auto; }
+.cartao-login .marca-login img {
+  width: min(330px, 82%); height: auto; margin-inline: auto;
+  filter: drop-shadow(0 4px 12px rgba(44, 74, 83, .18));
+  transition: filter var(--dur-mid) ease;
+}
+.cartao-login .marca-login img:hover {
+  filter: drop-shadow(0 6px 18px rgba(44, 74, 83, .28));
+}
 .cartao-login h1 { font-size: 1.3rem; text-align: center; margin-bottom: 4px; }
 .cartao-login .subtitulo { text-align: center; color: var(--texto-suave); font-size: .9rem; margin-bottom: 22px; }
 
