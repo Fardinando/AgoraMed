@@ -1,7 +1,8 @@
 /* ============================================================
    AGORAMED — ÚNICA função serverless do site (plano Hobby: máx. 12).
-   Recebe /api/* inteiro e despacha para o handler interno certo.
-   As URLs continuam as mesmas: /api/auth/entrar, /api/app, /api/admin/cursos…
+   O vercel.json reescreve /api/* inteiro para cá com ?rota=<caminho>
+   (projetos plain não têm catch-all no /api). Mesmas URLs de sempre:
+   /api/auth/entrar, /api/app, /api/admin/cursos…
    ============================================================ */
 'use strict';
 const { json } = require('../lib/api');
@@ -22,12 +23,14 @@ const rotas = {
   'admin/promos': require('../lib/rotas/admin/promos'),
 };
 
-/* nome do handler: vem do parâmetro de rota; se o runtime não o preencher,
+/* nome do handler: vem do query ?rota= (do rewrite); se faltar,
    a URL é analisada manualmente (/api/auth/entrar → 'auth/entrar') */
 function chaveDe(req) {
   const p = req.query && req.query.rota;
   if (Array.isArray(p) && p.length) return p.join('/');
-  if (typeof p === 'string' && p) return p;
+  if (typeof p === 'string' && p) {
+    try { return decodeURIComponent(p).replace(/^\/+|\/+$/g, ''); } catch (e) { return p.replace(/^\/+|\/+$/g, ''); }
+  }
   const m = /^\/api\/([^?]+)/.exec(req.url || '');
   return m ? decodeURIComponent(m[1]).replace(/\/+$/, '') : '';
 }

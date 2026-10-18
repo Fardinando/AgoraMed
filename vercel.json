@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/roteador?rota=$1" },
+    { "source": "/api", "destination": "/api/roteador?rota=" }
+  ]
+}
