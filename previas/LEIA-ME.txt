@@ -1,0 +1,12 @@
+Imagens desta pasta
+===================
+
+Arquivos com prefixo "antes-"  = versão anterior, com a fonte Champagne & Limousines
+                                 (substituída depois por fontes livres).
+                                 Servem para comparar o antes/depois.
+
+Para ver o resultado atual, abra no navegador:
+  http://127.0.0.1:8123/previa.html
+
+A página de teste permite trocar entre Josefin Sans (padrão), "só títulos",
+Jost (alternativa) e a fonte do sistema, em moldura de computador e de celular.

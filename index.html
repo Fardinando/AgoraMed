@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#4A7784">
+  <meta name="description" content="AGORAMED — plataforma de educação médica para recém-formados e internos: cursos em vídeo, PDFs e canal de dúvidas.">
+  <title>AGORAMED — Entrar</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>
+    /* Tipografia da tela de login.
+       Padrão: fonte do sistema (carrega na hora e não baixa arquivos).
+       Opcional, via URL: ?fonte=josefin | jost | titulos
+       Nesse caso a folha css/fontes.css é carregada sob demanda (só então
+       os arquivos de fonte são baixados). Usada por previa.html. */
+    (function () {
+      const modo = new URLSearchParams(location.search).get('fonte') || 'sistema';
+      const classe = {
+        josefin: 'fonte-destaque',
+        jost: 'fonte-alt',
+        titulos: 'fonte-destaque-titulos',
+      }[modo];
+      if (!classe) return;
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = 'css/fontes.css';
+      document.head.appendChild(link);
+      document.documentElement.classList.add(classe);
+    })();
+  </script>
+</head>
+<body>
+
+  <main class="tela-login">
+    <section class="cartao-login">
+      <!-- logomarca completa (símbolo + AGORAMED + assinatura) -->
+      <h1 class="marca-login">
+        <img src="img/agoramed-logo.png" alt="AGORAMED" width="1950" height="439">
+      </h1>
+      <p class="subtitulo">Decisões seguras baseadas em evidência.</p>
+
+      <div class="abas-login" role="tablist">
+        <button type="button" id="aba-entrar" class="ativo" role="tab">Entrar</button>
+        <button type="button" id="aba-cadastrar" role="tab">Criar conta</button>
+      </div>
+
+      <div id="mensagem" class="aviso oculto" role="alert"></div>
+
+      <!-- LOGIN -->
+      <form id="form-entrar" autocomplete="on" style="margin-top:16px">
+        <div class="campo">
+          <label for="login-email">E-mail</label>
+          <input type="email" id="login-email" name="email" required autocomplete="email" placeholder="voce@email.com">
+        </div>
+        <div class="campo">
+          <label for="login-senha">Senha</label>
+          <input type="password" id="login-senha" name="senha" required autocomplete="current-password" placeholder="••••••••">
+        </div>
+        <button type="submit" class="btn" style="width:100%">Entrar na plataforma</button>
+      </form>
+
+      <!-- CADASTRO -->
+      <form id="form-cadastrar" class="oculto" style="margin-top:16px">
+        <div class="campo">
+          <label for="cad-nome">Nome completo <span class="obrig">*</span></label>
+          <input type="text" id="cad-nome" required autocomplete="name" placeholder="Dra. Ana Souza">
+        </div>
+        <div class="campo">
+          <label for="cad-email">E-mail <span class="obrig">*</span></label>
+          <input type="email" id="cad-email" required autocomplete="email" placeholder="voce@email.com">
+        </div>
+        <div class="campo">
+          <label for="cad-whats">WhatsApp com DDD <span class="obrig">*</span></label>
+          <input type="tel" id="cad-whats" required autocomplete="tel" inputmode="numeric"
+                 placeholder="11 98765-4321" title="Informe o WhatsApp com DDD (ex.: 11 98765-4321)">
+        </div>
+        <div class="campo">
+          <label for="cad-senha">Senha <span class="obrig">*</span></label>
+          <input type="password" id="cad-senha" required autocomplete="new-password" minlength="6" placeholder="mínimo 6 caracteres">
+        </div>
+        <button type="submit" class="btn" style="width:100%">Criar conta</button>
+        <p class="dica" style="margin-top:10px;font-size:.8rem;color:var(--texto-suave);text-align:center">
+          Após o cadastro, sua conta fica <strong>aguardando liberação</strong> pelo professor.
+        </p>
+      </form>
+
+      <details class="conta-demo">
+        <summary>Contas de demonstração</summary>
+        <p style="margin-top:8px">
+          Professor(a): <code>admin@plataforma.com</code> / <code>admin123</code><br>
+          Aluno: <code>aluno@demo.com</code> / <code>123456</code>
+        </p>
+      </details>
+    </section>
+
+    <!-- assinatura da marca, fora do cartão (sobre o fundo azul-petróleo) -->
+    <footer class="rodape-login">
+      <img src="img/agoramed-simbolo-branco.png" alt="" width="986" height="609" aria-hidden="true">
+      <span><strong>AGORAMED</strong> · Anderson Gleryston</span>
+    </footer>
+  </main>
+
+  <script src="js/store.js"></script>
+  <script>
+    const msg = document.getElementById('mensagem');
+    const params = new URLSearchParams(location.search);
+
+    function mostrarMsg(texto, tipo = 'erro') {
+      if (!texto) { msg.textContent = ''; msg.className = 'aviso oculto'; return; }
+      msg.textContent = texto;
+      msg.className = 'aviso ' + (tipo === 'erro' ? 'erro' : 'sucesso');
+      msg.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+    if (new URLSearchParams(location.search).get('pendente') === '1') {
+      mostrarMsg('Sua conta ainda está aguardando liberação. Assim que o professor liberar, você poderá entrar.', 'erro');
+    }
+
+    /* abas */
+    const abaEntrar = document.getElementById('aba-entrar');
+    const abaCadastrar = document.getElementById('aba-cadastrar');
+    const formEntrar = document.getElementById('form-entrar');
+    const formCadastrar = document.getElementById('form-cadastrar');
+    function ativarAba(qual) {
+      const ehEntrar = qual === 'entrar';
+      abaEntrar.classList.toggle('ativo', ehEntrar);
+      abaCadastrar.classList.toggle('ativo', !ehEntrar);
+      formEntrar.classList.toggle('oculto', !ehEntrar);
+      formCadastrar.classList.toggle('oculto', ehEntrar);
+      mostrarMsg('');
+    }
+    abaEntrar.addEventListener('click', () => ativarAba('entrar'));
+    abaCadastrar.addEventListener('click', () => ativarAba('cadastrar'));
+
+    /* se já houver sessão, segue direto (exceto na página de teste visual) */
+    if (Store.usuarioAtual() && !params.get('preview')) location.href = 'app.html';
+
+    formEntrar.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const r = Store.entrar(document.getElementById('login-email').value, document.getElementById('login-senha').value);
+      if (!r.ok) return mostrarMsg(r.erro, r.pendente ? 'sucesso' : 'erro');
+      location.href = 'app.html';
+    });
+
+    formCadastrar.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const r = Store.cadastrar(
+        document.getElementById('cad-nome').value,
+        document.getElementById('cad-email').value,
+        document.getElementById('cad-senha').value,
+        document.getElementById('cad-whats').value
+      );
+      if (!r.ok) return mostrarMsg(r.erro);
+      mostrarMsg('Conta criada! Aguarde a liberação do professor para acessar os cursos.', 'sucesso');
+      formCadastrar.reset();
+      setTimeout(() => ativarAba('entrar'), 2200);
+    });
+  </script>
+</body>
+</html>

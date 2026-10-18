@@ -1,0 +1,17 @@
+{
+  "name": "AGORAMED — Educação Médica",
+  "short_name": "AGORAMED",
+  "description": "AGORAMED — plataforma de educação para médicos recém-formados e internos de medicina: cursos em vídeo, materiais em PDF e canal de dúvidas.",
+  "lang": "pt-BR",
+  "start_url": "index.html",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#2C4A53",
+  "theme_color": "#4A7784",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

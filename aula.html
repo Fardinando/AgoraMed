@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#4A7784">
+  <title>AGORAMED — Aula</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="topo">
+    <div class="container">
+      <a class="marca" href="app.html" aria-label="AGORAMED — início"><img src="img/agoramed-simbolo-branco.png" alt="" class="simbolo-marca" width="986" height="609"><span class="nome-marca">AGORAMED</span></a>
+      <span class="espaco"></span>
+      <div style="position:relative">
+        <button class="usuario-chip" id="chip-usuario" type="button">
+          <span class="avatar" id="avatar-topo">?</span>
+          <span class="nome-usuario" id="nome-topo">…</span> ▾
+        </button>
+        <div class="menu-usuario oculto" id="menu-usuario">
+          <a href="admin.html" id="item-admin" class="oculto">⚙️ Painel do professor</a>
+          <button type="button" id="btn-sair">↩️ Sair</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container aula-wrap">
+    <a class="voltar-curso" id="link-voltar" href="app.html">← Voltar ao curso</a>
+
+    <div class="palco-video" id="palco"></div>
+
+    <div class="cab-aula">
+      <h1 id="a-titulo">…</h1>
+      <div class="acoes-aula">
+        <button class="btn secundario" id="btn-concluir" type="button">○ Marcar como concluída</button>
+        <button class="btn secundario" id="btn-anterior" type="button">← Aula anterior</button>
+        <button class="btn" id="btn-proxima" type="button">Próxima aula →</button>
+      </div>
+    </div>
+    <p class="desc-aula" id="a-desc"></p>
+
+    <div class="painel-lateral">
+      <div>
+        <!-- comentários -->
+        <section class="bloco" id="bloco-comentarios">
+          <h2>💬 Dúvidas e comentários</h2>
+          <form class="form-comentario" id="form-comentario">
+            <textarea id="texto-comentario" placeholder="Escreva sua dúvida ou comentário… (Enter envia, Shift+Enter quebra linha)" required maxlength="2000"></textarea>
+            <div class="linha-acoes">
+              <span class="dica-teclado">Seja específico: cite o caso, o tempo de evolução e a conduta em dúvida.</span>
+              <button class="btn pequeno" type="submit">Enviar</button>
+            </div>
+          </form>
+          <div id="lista-comentarios"></div>
+        </section>
+      </div>
+
+      <aside>
+        <!-- materiais -->
+        <section class="bloco" id="bloco-materiais">
+          <h2>📄 Materiais da aula</h2>
+          <div id="lista-materiais"></div>
+        </section>
+
+        <!-- outras aulas do módulo -->
+        <section class="bloco">
+          <h2>📚 Neste módulo</h2>
+          <div id="lista-modulo"></div>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">AGORAMED · Decisões seguras baseadas em evidência.</div>
+  </footer>
+
+  <script src="js/store.js"></script>
+  <script>
+    const usuario = Store.proteger();
+    if (!usuario) throw new Error('sem sessão');
+    document.getElementById('nome-topo').textContent = usuario.nome.split(' ')[0];
+    document.getElementById('avatar-topo').textContent = UI.iniciais(usuario.nome);
+
+    /* menu do usuário (mesmo do app.html): painel do professor + sair */
+    document.getElementById('item-admin').classList.toggle('oculto', usuario.papel !== 'admin');
+    const chip = document.getElementById('chip-usuario');
+    const menu = document.getElementById('menu-usuario');
+    chip.addEventListener('click', (e) => { e.stopPropagation(); menu.classList.toggle('oculto'); });
+    document.addEventListener('click', () => menu.classList.add('oculto'));
+    document.getElementById('btn-sair').addEventListener('click', () => {
+      if (confirm('Deseja sair da plataforma?')) { Store.sair(); location.href = 'index.html'; }
+    });
+
+    const q = new URLSearchParams(location.search);
+    const curso = Store.acharCurso(q.get('c'));
+    const modulo = curso && (curso.modulos || []).find(m => m.id === q.get('m'));
+    const aula = modulo && (modulo.aulas || []).find(a => a.id === q.get('a'));
+    const permitido = aula && (usuario.papel === 'admin' || (usuario.cursos || []).includes(curso.id));
+
+    if (!permitido) {
+      document.getElementById('palco').innerHTML = '<div class="video-vazio"><div><h3>Aula não encontrada</h3><p>Volte ao curso e tente novamente.</p></div></div>';
+    } else {
+      /* ---------------------------- player de vídeo (YouTube, nocookie) */
+      const palco = document.getElementById('palco');
+      const yt = (aula.youtubeId || '').trim();
+      if (yt) {
+        palco.innerHTML = `<iframe
+          src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(yt)}?rel=0&modestbranding=1&playsinline=1&iv_load_policy=3"
+          title="${UI.escapar(aula.titulo)}"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+          allowfullscreen loading="lazy"></iframe>`;
+      } else {
+        palco.innerHTML = `<div class="video-vazio"><div><h3>📹 Vídeo em produção</h3><p>Esta aula será publicada em breve. Enquanto isso, baixe o material e participe do fólo de dúvidas.</p></div></div>`;
+      }
+
+      document.title = `AGORAMED — ${aula.titulo}`;
+      document.getElementById('a-titulo').textContent = aula.titulo;
+      document.getElementById('a-desc').textContent = aula.descricao || '';
+      document.getElementById('link-voltar').href = `curso.html?id=${curso.id}`;
+      document.getElementById('link-voltar').textContent = `← ${curso.titulo}`;
+
+      /* ----------------------------------------------- concluir aula */
+      const btnConcluir = document.getElementById('btn-concluir');
+      function pintarConclusao() {
+        const ok = Store.estaConcluida(usuario.id, aula.id);
+        btnConcluir.textContent = ok ? '✓ Aula concluída' : '○ Marcar como concluída';
+        btnConcluir.classList.toggle('secundario', !ok);
+      }
+      pintarConclusao();
+      btnConcluir.addEventListener('click', () => { Store.alternarConcluida(usuario.id, aula.id); pintarConclusao(); });
+
+      /* ------------------- aulas vizinhas: anterior e próxima
+         Próxima: próxima aula do módulo → primeira aula do próximo módulo
+         que tiver aulas → some se for a última aula do curso.
+         Anterior: aula anterior do módulo → última aula do módulo anterior
+         que tiver aulas → some se for a primeira aula do curso.
+         Nenhum dos dois marca a aula como concluída automaticamente. */
+      function acharDestino(paraTras) {
+        const modulos = curso.modulos || [];
+        const aulasDoModulo = modulo.aulas || [];
+        const iAula = aulasDoModulo.indexOf(aula);
+        const iModulo = modulos.indexOf(modulo);
+
+        if (paraTras) {
+          if (iAula > 0) return { aula: aulasDoModulo[iAula - 1], modulo: modulo, trocaDeModulo: false };
+          for (let i = iModulo - 1; i >= 0; i--) {
+            const m = modulos[i];
+            if ((m.aulas || []).length) return { aula: m.aulas[m.aulas.length - 1], modulo: m, trocaDeModulo: true };
+          }
+          return null;
+        }
+
+        if (iAula >= 0 && iAula < aulasDoModulo.length - 1) {
+          return { aula: aulasDoModulo[iAula + 1], modulo: modulo, trocaDeModulo: false };
+        }
+        for (let i = iModulo + 1; i < modulos.length; i++) {
+          const m = modulos[i];
+          if ((m.aulas || []).length) return { aula: m.aulas[0], modulo: m, trocaDeModulo: true };
+        }
+        return null;
+      }
+
+      function prepararBotao(idBotao, paraTras) {
+        const btn = document.getElementById(idBotao);
+        const destino = acharDestino(paraTras);
+        if (!destino) { btn.classList.add('oculto'); return; }
+        if (paraTras) {
+          btn.textContent = destino.trocaDeModulo ? '← Módulo anterior' : '← Aula anterior';
+        } else {
+          btn.textContent = destino.trocaDeModulo ? 'Próximo módulo →' : 'Próxima aula →';
+        }
+        btn.title = `${destino.aula.titulo}${destino.trocaDeModulo ? ' (' + destino.modulo.titulo + ')' : ''}`;
+        btn.addEventListener('click', () => {
+          location.href = `aula.html?c=${curso.id}&m=${destino.modulo.id}&a=${destino.aula.id}`;
+        });
+      }
+      prepararBotao('btn-anterior', true);
+      prepararBotao('btn-proxima', false);
+
+      /* ------------------------------------------------- materiais PDF */
+      const materiais = aula.pdfs || [];
+      document.getElementById('lista-materiais').innerHTML = materiais.length
+        ? materiais.map(p => `
+            <div class="material">
+              <span class="icone-pdf">PDF</span>
+              <span class="nome" title="${UI.escapar(p.nome)}">${UI.escapar(p.nome)}</span>
+              <a class="btn pequeno" href="${p.dados}" download="${UI.escapar(p.nome)}">Baixar</a>
+            </div>`).join('')
+        : '<p style="font-size:.85rem;color:var(--texto-suave)">Nenhum material anexado a esta aula.</p>';
+
+      /* ---------------------------------------------- aulas do módulo */
+      const idxAula = modulo.aulas.indexOf(aula);
+      document.getElementById('lista-modulo').innerHTML = modulo.aulas.map((a, i) => {
+        const concluida = Store.estaConcluida(usuario.id, a.id);
+        const atual = a.id === aula.id;
+        return `
+        <a class="aula-linha" style="padding:9px 0;border-bottom:${i === modulo.aulas.length - 1 ? 'none' : '1px solid var(--linha)'};${atual ? 'font-weight:700' : ''}"
+           href="aula.html?c=${curso.id}&m=${modulo.id}&a=${a.id}" ${atual ? 'aria-current="page"' : ''}>
+          <span class="icone" style="width:30px;height:30px;font-size:.8rem">${concluida ? '✓' : (atual ? '▶' : i + 1)}</span>
+          <span class="texto"><strong style="font-size:.85rem;${atual ? 'color:var(--petroleo)' : ''}">${UI.escapar(a.titulo)}</strong></span>
+        </a>`;
+      }).join('');
+
+      /* ----------------------------------------------------- comentários */
+      const contexto = `aula:${curso.id}:${modulo.id}:${aula.id}`;
+      const listaEl = document.getElementById('lista-comentarios');
+
+      function pintarComentarios() {
+        const cs = Store.comentariosDe(contexto);
+        if (!cs.length) {
+          listaEl.innerHTML = '<p style="font-size:.85rem;color:var(--texto-suave);padding-top:12px;border-top:1px solid var(--linha);margin-top:12px">Seja o primeiro a comentar ou tirar uma dúvida nesta aula.</p>';
+          return;
+        }
+        listaEl.innerHTML = cs.map(c => `
+          <article class="comentario ${c.papel === 'admin' ? 'professor' : ''}">
+            <span class="avatar">${UI.iniciais(c.nome)}</span>
+            <div class="corpo">
+              <div class="cab">
+                <strong>${UI.escapar(c.nome.split(' ')[0])}</strong>
+                ${c.papel === 'admin' ? '<span class="selo-prof">Professor(a)</span>' : ''}
+                <time>${UI.dataHora(c.ts)}</time>
+              </div>
+              <p>${UI.escapar(c.texto).replace(/\n/g, '<br>')}</p>
+              ${(c.userId === usuario.id || usuario.papel === 'admin')
+                ? `<button class="excluir" data-id="${c.id}">excluir</button>` : ''}
+            </div>
+          </article>`).join('');
+      }
+      pintarComentarios();
+
+      listaEl.addEventListener('click', (e) => {
+        const btn = e.target.closest('.excluir');
+        if (!btn) return;
+        if (confirm('Excluir este comentário?')) { Store.excluirComentario(btn.dataset.id, usuario); pintarComentarios(); }
+      });
+
+      document.getElementById('form-comentario').addEventListener('submit', (e) => {
+        e.preventDefault();
+        const campo = document.getElementById('texto-comentario');
+        const texto = campo.value.trim();
+        if (!texto) return;
+        Store.comentar(contexto, usuario, texto);
+        campo.value = '';
+        pintarComentarios();
+        listaEl.lastElementChild?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+
+      /* atalho: Ctrl/Cmd + Enter envia */
+      const campoTexto = document.getElementById('texto-comentario');
+      campoTexto.addEventListener('keydown', (e) => {
+        if ((e.metaKey || e.ctrlKey) && e.key === 'Enter') e.target.form.requestSubmit();
+      });
+    }
+
+    UI.navInferior('cursos');
+  </script>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#4A7784">
+  <title>AGORAMED — Meus cursos</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="topo">
+    <div class="container">
+      <a class="marca" href="app.html" aria-label="AGORAMED — início"><img src="img/agoramed-simbolo-branco.png" alt="" class="simbolo-marca" width="986" height="609"><span class="nome-marca">AGORAMED</span></a>
+      <span class="espaco"></span>
+      <button id="btn-instalar" class="btn-instalar oculto" type="button">📲 Instalar app</button>
+      <div style="position:relative">
+        <button class="usuario-chip" id="chip-usuario" type="button">
+          <span class="avatar" id="avatar-topo">?</span>
+          <span class="nome-usuario" id="nome-topo">…</span> ▾
+        </button>
+        <div class="menu-usuario oculto" id="menu-usuario">
+          <a href="admin.html" id="item-admin" class="oculto">⚙️ Painel do professor</a>
+          <button type="button" id="btn-sair">↩️ Sair</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <p class="ola" id="ola">Bem-vindo(a) 👋</p>
+      <h1 id="titulo-hero">Continue de onde parou</h1>
+      <p id="sub-hero">Seus cursos, materiais e o canal de dúvidas em um só lugar.</p>
+    </div>
+  </section>
+
+  <main class="container" id="cursos">
+
+    <!-- linha: continuar assistindo -->
+    <section class="secao oculto" id="secao-continuar">
+      <div class="secao-cab"><h2>▶️ Continue assistindo</h2></div>
+      <div class="linha-cartoes" id="linha-continuar"></div>
+    </section>
+
+    <!-- linha: meus cursos (Netflix) -->
+    <section class="secao">
+      <div class="secao-cab">
+        <h2>🎓 Meus cursos</h2>
+        <span class="contador" id="cont-cursos"></span>
+      </div>
+      <div class="linha-cartoes" id="linha-cursos"></div>
+      <div id="vazio-cursos" class="aviso oculto">
+        Você ainda não tem cursos liberados. Assim que o professor liberar um curso para você, ele aparecerá aqui.
+      </div>
+    </section>
+
+    <!-- linha: divulgação -->
+    <section class="secao">
+      <div class="secao-cab">
+        <h2>✨ Novidades e cursos em destaque</h2>
+        <span class="contador">não perca</span>
+      </div>
+      <div class="linha-cartoes" id="linha-promo"></div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      AGORAMED · Decisões seguras baseadas em evidência. · <span id="ano"></span><br>
+      <small>Plataforma demonstração — os dados ficam salvos neste dispositivo.</small>
+    </div>
+  </footer>
+
+  <script src="js/store.js"></script>
+  <script>
+    const usuario = Store.proteger();
+    if (!usuario) throw new Error('sem sessão');
+
+    document.getElementById('ano').textContent = new Date().getFullYear();
+    document.getElementById('nome-topo').textContent = usuario.nome.split(' ')[0];
+    document.getElementById('avatar-topo').textContent = UI.iniciais(usuario.nome);
+    document.getElementById('item-admin').classList.toggle('oculto', usuario.papel !== 'admin');
+
+    /* menu do usuário */
+    const chip = document.getElementById('chip-usuario');
+    const menu = document.getElementById('menu-usuario');
+    chip.addEventListener('click', (e) => { e.stopPropagation(); menu.classList.toggle('oculto'); });
+    document.addEventListener('click', () => menu.classList.add('oculto'));
+    document.getElementById('btn-sair').addEventListener('click', () => {
+      if (confirm('Deseja sair da plataforma?')) { Store.sair(); location.href = 'index.html'; }
+    });
+
+    /* hero */
+    const hora = new Date().getHours();
+    const saudacao = hora < 12 ? 'Bom dia' : hora < 18 ? 'Boa tarde' : 'Boa noite';
+    document.getElementById('ola').textContent = `${saudacao}, ${usuario.nome.split(' ')[0]} 👋`;
+
+    /* ---------------------------------------------- render dos cursos */
+    const meus = Store.cursosDoUsuario(usuario);
+
+    function capaHTML(c) {
+      if (c.capaImagem) return `<img src="${c.capaImagem}" alt="">`;
+      return `<span class="emoji">${UI.escapar(c.capaEmoji || '🩺')}</span>`;
+    }
+
+    function cartaoCurso(c) {
+      const est = Store.estatisticasCurso(c);
+      const prog = Store.progressoCurso(usuario.id, c);
+      return `
+        <a class="cartao-curso" href="curso.html?id=${c.id}">
+          <div class="capa">
+            ${capaHTML(c)}
+            <span class="badge">${UI.escapar(c.categoria || 'Curso')}</span>
+            <span class="duracao">${est.duracao}</span>
+          </div>
+          <div class="info-curso">
+            <h3>${UI.escapar(c.titulo)}</h3>
+            <span class="rapido">${est.modulos} módulos · ${est.aulas} aulas${est.pdfs ? ` · ${est.pdfs} PDFs` : ''} · ${UI.escapar(c.nivel || '')}</span>
+            ${c.subtitulo ? `<p class="descricao">${UI.escapar(c.subtitulo)}</p>` : ''}
+            ${prog.total ? `
+              <div class="barra-progresso"><span style="width:${prog.percentual}%"></span></div>
+              <span class="progresso-texto">${prog.percentual === 100 ? '✅ Curso concluído' : `${prog.feitas}/${prog.total} aulas · ${prog.percentual}%`}</span>
+            ` : ''}
+          </div>
+        </a>`;
+    }
+
+    const linhaCursos = document.getElementById('linha-cursos');
+    const vazio = document.getElementById('vazio-cursos');
+    document.getElementById('cont-cursos').textContent = meus.length ? `${meus.length} curso${meus.length > 1 ? 's' : ''}` : '';
+    if (!meus.length) {
+      vazio.classList.remove('oculto');
+      linhaCursos.classList.add('oculto');
+    } else {
+      linhaCursos.innerHTML = meus.map(cartaoCurso).join('');
+    }
+
+    /* continuar assistindo: curso com progresso > 0 e < 100 */
+    const emAndamento = meus
+      .map(c => ({ c, p: Store.progressoCurso(usuario.id, c) }))
+      .filter(x => x.p.total && x.p.percentual > 0 && x.p.percentual < 100);
+    if (emAndamento.length) {
+      document.getElementById('secao-continuar').classList.remove('oculto');
+      document.getElementById('linha-continuar').innerHTML = emAndamento.map(x => cartaoCurso(x.c)).join('');
+      document.getElementById('titulo-hero').textContent = `Continue de onde parou — ${emAndamento[0].p.percentual}%`;
+      document.getElementById('sub-hero').textContent = emAndamento[0].c.titulo;
+    }
+
+    /* ---------------------------------------------- divulgação (promo) */
+    const promos = Store.promos();
+    const linhaPromo = document.getElementById('linha-promo');
+    if (!promos.length) {
+      document.getElementById('linha-promo').closest('.secao').classList.add('oculto');
+    } else {
+      linhaPromo.innerHTML = promos.map(p => `
+        <div class="cartao-curso cartao-promo">
+          <div class="capa">
+            ${p.capaImagem ? `<img src="${p.capaImagem}" alt="">` : `<span class="emoji">${UI.escapar(p.emoji || '🎓')}</span>`}
+            <span class="badge">Em destaque</span>
+          </div>
+          <div class="info-curso">
+            <h3>${UI.escapar(p.titulo)}</h3>
+            ${p.texto ? `<p class="descricao">${UI.escapar(p.texto)}</p>` : ''}
+            ${p.link
+              ? `<a class="btn pequeno" style="margin-top:8px;align-self:flex-start" href="${UI.escapar(p.link)}" target="_blank" rel="noopener">Saiba mais</a>`
+              : `<span class="rapido" style="margin-top:8px">Fale com o professor para adquirir.</span>`}
+          </div>
+        </div>`).join('');
+    }
+
+    UI.capturarInstalacao();
+    UI.navInferior('inicio');
+  </script>
+</body>
+</html>

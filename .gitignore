@@ -1,0 +1,23 @@
+# dependências e build
+node_modules/
+.vercel/
+build/
+dist/
+
+# segredos locais (as chaves vão para as env vars do Vercel/Supabase)
+.env
+.env.*
+!.env.example
+
+# sistema
+.DS_Store
+Thumbs.db
+
+# logs e temporários
+*.log
+npm-debug.log*
+.tmp/
+tmp/
+
+# pacote alheio ao projeto (78 MB)
+EDIT-IA-PRO.zip
