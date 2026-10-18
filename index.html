@@ -118,6 +118,12 @@
     const msg = document.getElementById('mensagem');
     const params = new URLSearchParams(location.search);
 
+    /* link do e-mail de recuperação caiu aqui sem passar por redefinir.html?
+       (acontece quando o Supabase usa a Site URL como destino) — segue com os tokens */
+    if (location.hash.includes('access_token') && location.hash.includes('type=recovery')) {
+      location.replace('redefinir.html' + location.hash);
+    }
+
     function mostrarMsg(texto, tipo = 'erro') {
       if (!texto) { msg.textContent = ''; msg.className = 'aviso oculto'; return; }
       msg.textContent = texto;

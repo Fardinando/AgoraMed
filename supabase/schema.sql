@@ -160,7 +160,8 @@ create trigger on_auth_user_created
 
 -- ============================================================
 -- Proteção extra: só admin altera papel/liberado de alguém
--- (impede que o próprio aluno se promova ou se libere)
+-- (impede que o próprio aluno se promova ou se libere).
+-- O SQL Editor (postgres) e o servidor (service_role) passam livre.
 -- ============================================================
 
 create or replace function public.bloquear_auto_promocao()
@@ -170,7 +171,8 @@ begin
   if (tg_op = 'UPDATE'
       and (new.papel is distinct from old.papel
            or new.liberado is distinct from old.liberado)
-      and not public.eh_admin()) then
+      and not (public.eh_admin()
+               or coalesce(auth.role(), 'postgres') in ('postgres', 'service_role'))) then
     raise exception 'Somente o professor altera papel ou liberação de contas.';
   end if;
   return new;
