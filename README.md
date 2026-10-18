@@ -72,7 +72,7 @@ Resultado em `img/`:
 Cor da marca: **#436E76** (praticamente o azul-petróleo da paleta, `#4A7784`).
 A marca aparece na **tela de login** (logomarca no cartão + símbolo no rodapé e como marca d'água) e na
 **barra do topo das demais páginas** (símbolo em branco + nome AGORAMED, que se resume ao símbolo em
-telas de até 720px). A frase de assinatura é **"Decisões seguras baseadas em evidência."**.
+telas de até 720px). A frase de assinatura é **"Decisões seguras, baseadas em evidências."**.
 Para refazer as imagens a partir de novos originais:
 `python3 tools/tratar_logo.py "logomarca.png" "simbolo.png"`.
 
