@@ -135,8 +135,14 @@
       }
       pintarConclusao();
       btnConcluir.addEventListener('click', async () => {
-        const r = await Store.alternarConcluida(usuario.id, aula.id);
-        if (!r || !r.ok) alert((r && r.erro) || 'Não foi possível atualizar o status da aula.');
+        // dispara a atualização otimista (cache muda sincronamente antes do await)
+        const promise = Store.alternarConcluida(usuario.id, aula.id);
+        // atualiza o visual imediatamente
+        pintarConclusao();
+        const r = await promise;
+        if (!r || !r.ok) {
+          alert((r && r.erro) || 'Não foi possível atualizar o status da aula.');
+        }
         pintarConclusao();
       });
 
