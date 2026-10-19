@@ -134,7 +134,11 @@
         btnConcluir.classList.toggle('secundario', !ok);
       }
       pintarConclusao();
-      btnConcluir.addEventListener('click', async () => { await Store.alternarConcluida(usuario.id, aula.id); pintarConclusao(); });
+      btnConcluir.addEventListener('click', async () => {
+        const r = await Store.alternarConcluida(usuario.id, aula.id);
+        if (!r || !r.ok) alert((r && r.erro) || 'Não foi possível atualizar o status da aula.');
+        pintarConclusao();
+      });
 
       /* ------------------- aulas vizinhas: anterior e próxima
          Próxima: próxima aula do módulo → primeira aula do próximo módulo
