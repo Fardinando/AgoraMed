@@ -182,12 +182,17 @@ const Store = (() => {
 
   async function alternarConcluida(userId, aulaId) {
     const vai = !progressoCache.has(aulaId);
+    /* otimista: atualiza visual imediatamente */
     if (vai) progressoCache.add(aulaId); else progressoCache.delete(aulaId);
-    /* grava imediatamente no sessionStorage para não perder ao trocar de página */
     gravarProgressoNoCache();
     const r = await api('/progresso', { metodo: 'POST', corpo: { aula_id: aulaId, acao: vai ? 'marcar' : 'desmarcar' } });
-    if (!r.ok) { // desfaz otimismo local
+    if (!r.ok) {
+      /* desfaz otimismo local em caso de erro */
       if (vai) progressoCache.delete(aulaId); else progressoCache.add(aulaId);
+      gravarProgressoNoCache();
+    } else if (typeof r.concluida === 'boolean') {
+      /* sincroniza com o estado real do banco */
+      if (r.concluida) progressoCache.add(aulaId); else progressoCache.delete(aulaId);
       gravarProgressoNoCache();
     }
     return r;
