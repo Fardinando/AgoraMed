@@ -458,6 +458,25 @@ button { font: inherit; cursor: pointer; }
 .card-linha .dados small { color: var(--texto-suave); font-size: .8rem; }
 .card-linha .acoes { display: flex; gap: 8px; flex-wrap: wrap; }
 
+/* ---------- busca de alunos/professores ---------- */
+.busca-campo { display: flex; align-items: center; gap: 12px; margin: 12px 0; flex-wrap: wrap; }
+.busca-campo input[type="search"] {
+  flex: 1; min-width: 220px; max-width: 440px;
+  background: var(--glass-bg-strong);
+  backdrop-filter: var(--glass-blur-light);
+  -webkit-backdrop-filter: var(--glass-blur-light);
+  border: 1px solid var(--glass-border); border-radius: 999px;
+  padding: 11px 18px; font: inherit; color: var(--texto);
+  box-shadow: 0 1px 3px rgba(44,74,83,.04) inset;
+  transition: border-color var(--dur-fast) ease, box-shadow var(--dur-fast) ease, background var(--dur-fast) ease;
+}
+.busca-campo input[type="search"]::placeholder { color: var(--texto-suave); }
+.busca-campo input[type="search"]:focus {
+  outline: none; border-color: var(--petroleo); background: #fff;
+  box-shadow: 0 0 0 3px var(--accent-glow), 0 1px 3px rgba(44,74,83,.04) inset;
+}
+.busca-contagem { font-size: .8rem; font-weight: 600; color: var(--texto-suave); }
+
 .painel-form {
   background: var(--card); border-radius: var(--raio); box-shadow: var(--sombra);
   padding: 22px; margin: 16px 0 40px;
