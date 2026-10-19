@@ -284,10 +284,13 @@ const Store = (() => {
   const cursosDoAluno = (usuarioId) =>
     matriculasCache.filter((m) => m.usuario_id === usuarioId).map((m) => m.curso_id);
 
-  async function gerenciarAluno(usuarioId, acao, cursosIds) {
+  async function gerenciarAluno(usuarioId, acao, cursosIds, opcoes = {}) {
     const r = await api('/admin/alunos', {
       metodo: 'POST',
-      corpo: { usuario_id: usuarioId, acao, ...(acao === 'cursos' ? { cursos: cursosIds } : {}) },
+      corpo: {
+        usuario_id: usuarioId, acao,
+        ...(acao === 'cursos' ? { cursos: cursosIds, liberar: !!(opcoes && opcoes.liberar) } : {}),
+      },
     });
     if (!r || !r.ok) return r;
     limparCache();
@@ -302,6 +305,10 @@ const Store = (() => {
     if (acao === 'cursos') {
       matriculasCache = matriculasCache.filter((m) => m.usuario_id !== usuarioId);
       (cursosIds || []).forEach((cid) => matriculasCache.push({ usuario_id: usuarioId, curso_id: cid }));
+      if (opcoes && opcoes.liberar) {
+        const u = alunosCache.find((x) => x.id === usuarioId);
+        if (u && u.papel !== 'admin') u.liberado = true;
+      }
     }
     if (acao === 'remover') {
       alunosCache = alunosCache.filter((x) => x.id !== usuarioId);

@@ -88,10 +88,30 @@
       <div class="aviso" style="margin:10px 0">
         Alunos novos aparecem como <strong>pendentes</strong> até você liberá-los. Depois, escolha quais cursos cada um terá acesso.
       </div>
+
       <div class="busca-campo">
         <input type="search" id="busca-alunos" placeholder="Pesquisar pelo nome…" autocomplete="off" aria-label="Pesquisar alunos e professores pelo nome">
+        <select id="filtro-curso-alunos" aria-label="Filtrar por curso">
+          <option value="todos">Todos os cursos</option>
+          <option value="sem">Sem curso associado</option>
+        </select>
         <span class="busca-contagem" id="busca-contagem" aria-live="polite"></span>
       </div>
+
+      <label class="sel-todos">
+        <input type="checkbox" id="sel-todos-alunos"> Selecionar todos os exibidos
+      </label>
+
+      <div class="acoes-massa oculto" id="acoes-massa">
+        <strong id="selecionados-info">0 selecionado(s)</strong>
+        <select id="curso-massa" aria-label="Curso para a ação em massa">
+          <option value="">Escolha um curso…</option>
+        </select>
+        <button class="btn pequeno" id="btn-massa-liberar">✓ Liberar acesso</button>
+        <button class="btn pequeno perigo" id="btn-massa-restringir">✕ Restringir acesso</button>
+        <button class="btn pequeno fantasma" id="btn-massa-limpar">Limpar seleção</button>
+      </div>
+
       <div class="tabela-cards" id="lista-alunos"></div>
     </section>
 
@@ -296,7 +316,9 @@
     $('#btn-fechar-editor').addEventListener('click', () => { $('#editor').classList.add('oculto'); ed = null; });
 
     /* ================================================== ALUNOS */
-    let filtroAlunos = '';
+    const selecionados = new Set();
+    let visiveisAtuais = [];
+
     /* normaliza para busca: sem acentos, minúsculas e sem espaços nas pontas */
     function normalizarBusca(txt) {
       return String(txt || '')
@@ -306,34 +328,81 @@
         .trim();
     }
 
+    /* preenche os dois seletores de curso (filtro e ação em massa) */
+    function preencherCursos() {
+      const cursos = Store.cursos();
+      const selFiltro = $('#filtro-curso-alunos');
+      const selMassa = $('#curso-massa');
+      const vf = selFiltro.value;
+      const vm = selMassa.value;
+      selFiltro.innerHTML = '<option value="todos">Todos os cursos</option>'
+        + '<option value="sem">Sem curso associado</option>'
+        + cursos.map(c => `<option value="${c.id}">${UI.escapar(c.titulo)}</option>`).join('');
+      selMassa.innerHTML = '<option value="">Escolha um curso…</option>'
+        + cursos.map(c => `<option value="${c.id}">${UI.escapar(c.titulo)}</option>`).join('');
+      if ([...selFiltro.options].some(o => o.value === vf)) selFiltro.value = vf;
+      if ([...selMassa.options].some(o => o.value === vm)) selMassa.value = vm;
+    }
+
+    /* aplica busca por nome + filtro de curso */
+    function usuariosVisiveis() {
+      const termo = normalizarBusca($('#busca-alunos').value || '');
+      const filtroCurso = $('#filtro-curso-alunos').value || 'todos';
+      return Store.usuarios().filter(u => {
+        if (termo && !normalizarBusca(u.nome).includes(termo)) return false;
+        const meus = Store.cursosDoAluno(u.id);
+        if (filtroCurso === 'sem') return meus.length === 0;
+        if (filtroCurso !== 'todos') return meus.includes(filtroCurso);
+        return true;
+      });
+    }
+
+    function atualizarContagem() {
+      const total = Store.usuarios().length;
+      const n = usuariosVisiveis().length;
+      const filtrando = !!(normalizarBusca($('#busca-alunos').value || ''))
+        || ($('#filtro-curso-alunos').value || 'todos') !== 'todos';
+      $('#busca-contagem').textContent = filtrando
+        ? `${n} de ${total} usuário(s)`
+        : `${total} usuário(s)`;
+    }
+
+    function atualizarBarraMassa() {
+      const n = selecionados.size;
+      $('#acoes-massa').classList.toggle('oculto', n === 0);
+      $('#selecionados-info').textContent = `${n} selecionado(s)`;
+      const selecionaveis = visiveisAtuais.filter(u => u.papel !== 'admin');
+      const marcados = selecionaveis.filter(u => selecionados.has(u.id)).length;
+      const selTodos = $('#sel-todos-alunos');
+      selTodos.checked = selecionaveis.length > 0 && marcados === selecionaveis.length;
+      selTodos.indeterminate = marcados > 0 && marcados < selecionaveis.length;
+    }
+
     function listarAlunos() {
       const cursos = Store.cursos();
       const el = $('#lista-alunos');
-      const termo = normalizarBusca(filtroAlunos);
-      const todos = Store.usuarios();
-      const filtrados = termo
-        ? todos.filter(u => normalizarBusca(u.nome).includes(termo))
-        : todos;
+      visiveisAtuais = usuariosVisiveis();
+      atualizarContagem();
 
-      const contagem = $('#busca-contagem');
-      if (contagem) {
-        contagem.textContent = termo
-          ? `${filtrados.length} de ${todos.length} usuário(s)`
-          : `${todos.length} usuário(s)`;
-      }
-
-      if (!filtrados.length) {
-        el.innerHTML = `<div class="aviso">${termo
-          ? `Nenhum usuário encontrado com “${UI.escapar(filtroAlunos.trim())}”.`
-          : 'Nenhum aluno cadastrado ainda.'}</div>`;
+      if (!visiveisAtuais.length) {
+        const filtroCurso = $('#filtro-curso-alunos').value || 'todos';
+        let msg = 'Nenhum aluno cadastrado ainda.';
+        if (normalizarBusca($('#busca-alunos').value || '')) msg = 'Nenhum usuário encontrado com esse nome.';
+        else if (filtroCurso === 'sem') msg = 'Nenhum usuário sem curso associado.';
+        else if (filtroCurso !== 'todos') msg = 'Nenhum usuário associado a este curso.';
+        el.innerHTML = `<div class="aviso">${msg}</div>`;
+        atualizarBarraMassa();
         return;
       }
 
-      el.innerHTML = filtrados.map(u => {
+      el.innerHTML = visiveisAtuais.map(u => {
         const ehAdmin = u.papel === 'admin';
         const meus = Store.cursosDoAluno(u.id);
         return `
         <div class="card-linha">
+          <label class="sel-aluno" title="${ehAdmin ? 'Professores não entram em ações em massa' : 'Selecionar ' + UI.escapar(u.nome)}">
+            <input type="checkbox" data-sel-aluno="${u.id}" ${selecionados.has(u.id) ? 'checked' : ''} ${ehAdmin ? 'disabled' : ''}>
+          </label>
           <div class="mini-capa" style="border-radius:50%;width:48px;font-size:.9rem;font-weight:800">${UI.iniciais(u.nome)}</div>
           <div class="dados">
             <strong>${UI.escapar(u.nome)} ${ehAdmin ? '<span class="situacao admin">Professor(a)</span>' : (u.liberado ? '<span class="situacao liberado">Liberado</span>' : '<span class="situacao pendente">Pendente</span>')}</strong>
@@ -359,19 +428,106 @@
           </div>
         </div>`;
       }).join('');
+      atualizarBarraMassa();
     }
 
-    $('#busca-alunos').addEventListener('input', (e) => {
-      filtroAlunos = e.target.value;
+    $('#busca-alunos').addEventListener('input', () => {
+      selecionados.clear();
       listarAlunos();
     });
 
+    $('#filtro-curso-alunos').addEventListener('change', () => {
+      selecionados.clear();
+      listarAlunos();
+    });
+
+    $('#sel-todos-alunos').addEventListener('change', (e) => {
+      visiveisAtuais.filter(u => u.papel !== 'admin').forEach(u => {
+        if (e.target.checked) selecionados.add(u.id); else selecionados.delete(u.id);
+      });
+      listarAlunos();
+    });
+
+    $('#lista-alunos').addEventListener('change', (e) => {
+      const cb = e.target.closest('input[data-sel-aluno]');
+      if (!cb) return;
+      if (cb.checked) selecionados.add(cb.dataset.selAluno);
+      else selecionados.delete(cb.dataset.selAluno);
+      atualizarBarraMassa();
+    });
+
+    $('#btn-massa-limpar').addEventListener('click', () => {
+      selecionados.clear();
+      listarAlunos();
+    });
+
+    /* ação em massa: liberar ou restringir acesso a um curso */
+    async function aplicarMassa(liberar) {
+      const cursoId = $('#curso-massa').value;
+      if (!cursoId) return alert('Escolha um curso para a ação em massa.');
+      const ids = [...selecionados];
+      if (!ids.length) return alert('Selecione ao menos um usuário.');
+
+      const curso = Store.cursos().find(c => c.id === cursoId);
+      const nomeCurso = curso ? curso.titulo : 'curso';
+      const msg = liberar
+        ? `Liberar o acesso ao curso “${nomeCurso}” para ${ids.length} usuário(s)?\n\nContas pendentes também serão aprovadas.`
+        : `Remover o acesso ao curso “${nomeCurso}” de ${ids.length} usuário(s)?`;
+      if (!confirm(msg)) return;
+
+      const btn = liberar ? $('#btn-massa-liberar') : $('#btn-massa-restringir');
+      const rotulo = btn.textContent;
+      btn.disabled = true;
+      btn.textContent = 'Aplicando…';
+
+      let falhas = 0;
+      try {
+        const fila = [...ids];
+        const workers = Array.from({ length: Math.min(4, fila.length) }, async () => {
+          while (fila.length) {
+            const id = fila.shift();
+            const atuais = Store.cursosDoAluno(id);
+            const lista = liberar
+              ? (atuais.includes(cursoId) ? atuais : [...atuais, cursoId])
+              : atuais.filter(c => c !== cursoId);
+            const r = await Store.gerenciarAluno(id, 'cursos', lista, { liberar });
+            if (!r || !r.ok) falhas++;
+          }
+        });
+        await Promise.all(workers);
+      } finally {
+        btn.disabled = false;
+        btn.textContent = rotulo;
+      }
+
+      selecionados.clear();
+      listarAlunos();
+      const feitas = ids.length - falhas;
+      alert(falhas
+        ? `${feitas} de ${ids.length} usuário(s) atualizado(s). ${falhas} falha(s) — tente novamente.`
+        : `${feitas} usuário(s) atualizado(s) com sucesso.`);
+    }
+
+    $('#btn-massa-liberar').addEventListener('click', () => aplicarMassa(true));
+    $('#btn-massa-restringir').addEventListener('click', () => aplicarMassa(false));
+
     $('#lista-alunos').addEventListener('change', async (e) => {
-      const cb = e.target.closest('input[type=checkbox]'); if (!cb) return;
-      const atuais = Store.cursosDoAluno(cb.dataset.aluno);
+      const cb = e.target.closest('input[data-aluno]'); if (!cb) return;
+      const uid = cb.dataset.aluno;
+      const atuais = Store.cursosDoAluno(uid);
       const lista = cb.checked ? [...atuais, cb.dataset.curso] : atuais.filter(c => c !== cb.dataset.curso);
-      const r = await Store.gerenciarAluno(cb.dataset.aluno, 'cursos', lista);
-      if (!r.ok) { alert(r.erro || 'Não foi possível salvar o acesso.'); listarAlunos(); }
+      const r = await Store.gerenciarAluno(uid, 'cursos', lista);
+      if (!r.ok) return alert(r.err || r.erro || 'Não foi possível salvar o acesso.');
+      /* atualiza contadores e remove o card se ele deixou de bater com o filtro */
+      const filtroCurso = $('#filtro-curso-alunos').value || 'todos';
+      const meus = Store.cursosDoAluno(uid);
+      const aindaBate = filtroCurso === 'todos'
+        ? true
+        : filtroCurso === 'sem'
+          ? meus.length === 0
+          : meus.includes(filtroCurso);
+      if (aindaBate) atualizarContagem();
+      else listarAlunos();
     });
 
     $('#lista-alunos').addEventListener('click', async (e) => {
@@ -479,6 +635,7 @@
 
     /* ------------------------------------------------ início */
     listarCursos();
+    preencherCursos();
     listarAlunos();
     listarPromos();
     UI.navInferior('admin');

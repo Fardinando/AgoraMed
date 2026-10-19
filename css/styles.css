@@ -458,10 +458,10 @@ button { font: inherit; cursor: pointer; }
 .card-linha .dados small { color: var(--texto-suave); font-size: .8rem; }
 .card-linha .acoes { display: flex; gap: 8px; flex-wrap: wrap; }
 
-/* ---------- busca de alunos/professores ---------- */
-.busca-campo { display: flex; align-items: center; gap: 12px; margin: 12px 0; flex-wrap: wrap; }
+/* ---------- busca e filtros de alunos/professores ---------- */
+.busca-campo { display: flex; align-items: center; gap: 12px; margin: 12px 0 8px; flex-wrap: wrap; }
 .busca-campo input[type="search"] {
-  flex: 1; min-width: 220px; max-width: 440px;
+  flex: 1 1 220px; min-width: 200px; max-width: 380px;
   background: var(--glass-bg-strong);
   backdrop-filter: var(--glass-blur-light);
   -webkit-backdrop-filter: var(--glass-blur-light);
@@ -475,7 +475,47 @@ button { font: inherit; cursor: pointer; }
   outline: none; border-color: var(--petroleo); background: #fff;
   box-shadow: 0 0 0 3px var(--accent-glow), 0 1px 3px rgba(44,74,83,.04) inset;
 }
+.busca-campo select {
+  flex: 0 1 250px; min-width: 190px;
+  background: var(--glass-bg-strong);
+  backdrop-filter: var(--glass-blur-light);
+  -webkit-backdrop-filter: var(--glass-blur-light);
+  border: 1px solid var(--glass-border); border-radius: 999px;
+  padding: 11px 16px; font: inherit; color: var(--texto); cursor: pointer;
+  box-shadow: 0 1px 3px rgba(44,74,83,.04) inset;
+  transition: border-color var(--dur-fast) ease, box-shadow var(--dur-fast) ease, background var(--dur-fast) ease;
+}
+.busca-campo select:focus {
+  outline: none; border-color: var(--petroleo); background: #fff;
+  box-shadow: 0 0 0 3px var(--accent-glow), 0 1px 3px rgba(44,74,83,.04) inset;
+}
 .busca-contagem { font-size: .8rem; font-weight: 600; color: var(--texto-suave); }
+
+.sel-todos {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: .84rem; font-weight: 600; color: var(--texto-suave);
+  margin: 0 0 12px; cursor: pointer; user-select: none;
+}
+.sel-todos input, .sel-aluno input { accent-color: var(--petroleo); cursor: pointer; }
+.sel-aluno { display: flex; align-items: center; padding: 0 2px; }
+
+.acoes-massa {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  padding: 12px 14px; margin: 0 0 14px; border-radius: 14px;
+  background: var(--glass-bg-strong);
+  backdrop-filter: var(--glass-blur-light);
+  -webkit-backdrop-filter: var(--glass-blur-light);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 24px rgba(44,74,83,.08);
+  animation: cardIn .28s ease both;
+}
+.acoes-massa strong { font-size: .86rem; font-weight: 800; color: var(--petroleo); }
+.acoes-massa select {
+  min-width: 190px; padding: 9px 14px; font: inherit; color: var(--texto);
+  border: 1px solid var(--glass-border); border-radius: 999px;
+  background: #fff; cursor: pointer;
+}
+.acoes-massa select:focus { outline: none; border-color: var(--petroleo); box-shadow: 0 0 0 3px var(--accent-glow); }
 
 .painel-form {
   background: var(--card); border-radius: var(--raio); box-shadow: var(--sombra);
