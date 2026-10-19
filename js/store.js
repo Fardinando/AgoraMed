@@ -99,16 +99,6 @@ const Store = (() => {
     matriculasCache = r.matriculas || [];
     salvarCache(r);
   }
-
-  async function carregarDados() {
-    const r = await api('/app');
-    if (!r || !r.ok) { limparDados(); return; }
-    cursosCache = r.cursos || [];
-    progressoCache = new Set(r.progresso || []);
-    promosCache = r.promos || [];
-    alunosCache = r.alunos || [];
-    matriculasCache = r.matriculas || [];
-  }
   function limparDados() {
     cursosCache = []; progressoCache = new Set();
     promosCache = []; alunosCache = []; matriculasCache = [];
@@ -193,11 +183,27 @@ const Store = (() => {
   async function alternarConcluida(userId, aulaId) {
     const vai = !progressoCache.has(aulaId);
     if (vai) progressoCache.add(aulaId); else progressoCache.delete(aulaId);
+    /* grava imediatamente no sessionStorage para não perder ao trocar de página */
+    gravarProgressoNoCache();
     const r = await api('/progresso', { metodo: 'POST', corpo: { aula_id: aulaId, acao: vai ? 'marcar' : 'desmarcar' } });
     if (!r.ok) { // desfaz otimismo local
       if (vai) progressoCache.delete(aulaId); else progressoCache.add(aulaId);
+      gravarProgressoNoCache();
     }
     return r;
+  }
+
+  /* sincroniza o progressoCache de volta ao sessionStorage */
+  function gravarProgressoNoCache() {
+    try {
+      const raw = sessionStorage.getItem(CACHE_KEY);
+      if (!raw) return;
+      const c = JSON.parse(raw);
+      if (!c || !c.dados) return;
+      c.dados.progresso = Array.from(progressoCache);
+      c.ts = Date.now(); // renova validade para evitar revalidação imediata
+      sessionStorage.setItem(CACHE_KEY, JSON.stringify(c));
+    } catch (e) {}
   }
 
   function progressoCurso(userId, curso) {
