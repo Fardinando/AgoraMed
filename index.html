@@ -150,9 +150,20 @@
       const ehEntrar = qual === 'entrar';
       abaEntrar.classList.toggle('ativo', ehEntrar && qual !== 'esqueci');
       abaCadastrar.classList.toggle('ativo', qual === 'cadastrar');
-      formEntrar.classList.toggle('oculto', !ehEntrar);
-      formCadastrar.classList.toggle('oculto', qual !== 'cadastrar');
-      formEsqueci.classList.toggle('oculto', qual !== 'esqueci');
+
+      /* anima o formulário que vai aparecer */
+      [formEntrar, formCadastrar, formEsqueci].forEach((f) => {
+        f.classList.add('oculto');
+        f.classList.remove('form-animar');
+      });
+      const alvo = qual === 'cadastrar' ? formCadastrar
+                  : qual === 'esqueci' ? formEsqueci
+                  : formEntrar;
+      /* força reflow para reiniciar a animação */
+      void alvo.offsetWidth;
+      alvo.classList.remove('oculto');
+      alvo.classList.add('form-animar');
+
       if (qual === 'esqueci') abaEntrar.classList.remove('ativo');
       mostrarMsg('');
     }
