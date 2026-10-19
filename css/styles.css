@@ -470,6 +470,21 @@ button { font: inherit; cursor: pointer; }
 .editor-modulo .cab-mod { display: flex; gap: 10px; align-items: center; margin-bottom: 10px; }
 .editor-modulo .cab-mod input { flex: 1; font-weight: 700; }
 .editor-aula { border-top: 1px dashed var(--linha); padding: 12px 0 4px; }
+.editor-aula textarea {
+  width: 100%; min-height: 90px; resize: vertical;
+  background: var(--glass-bg-strong);
+  backdrop-filter: var(--glass-blur-light);
+  -webkit-backdrop-filter: var(--glass-blur-light);
+  border: 1px solid var(--glass-border); border-radius: 10px;
+  padding: 10px 12px; font: inherit; line-height: 1.5;
+  box-shadow: 0 1px 3px rgba(44,74,83,.04) inset;
+  transition: border-color var(--dur-fast) ease, box-shadow var(--dur-fast) ease;
+}
+.editor-aula textarea:focus {
+  outline: none; border-color: var(--petroleo);
+  box-shadow: 0 0 0 3px var(--accent-glow), 0 1px 3px rgba(44,74,83,.04) inset;
+  background: #fff;
+}
 .editor-aula .cab-aula-ed { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
 .editor-aula .cab-aula-ed input.titulo-aula { flex: 1; font-weight: 600; }
 .grade-3 { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 8px; }

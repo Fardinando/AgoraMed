@@ -217,7 +217,7 @@
                 <input data-mod="${i}" data-aula="${j}" data-campo="duracao" value="${UI.escapar(a.duracao || '')}" placeholder="Duração (ex.: 14:20)">
                 <input type="file" accept="application/pdf" multiple data-acao="add-pdf" data-mod="${i}" data-aula="${j}">
               </div>
-              <input style="margin-top:8px" data-mod="${i}" data-aula="${j}" data-campo="descricao" value="${UI.escapar(a.descricao || '')}" placeholder="Descrição curta (opcional)">
+              <textarea style="margin-top:8px" rows="4" data-mod="${i}" data-aula="${j}" data-campo="descricao" placeholder="Descrição da aula (opcional)">${UI.escapar(a.descricao || '')}</textarea>
               ${(a.pdfs || []).map((p, k) => `
                 <div class="material" style="margin-top:8px">
                   <span class="icone-pdf">PDF</span>
