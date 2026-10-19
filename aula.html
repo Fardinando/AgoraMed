@@ -142,6 +142,8 @@
         const r = await promise;
         if (!r || !r.ok) {
           alert((r && r.erro) || 'Não foi possível atualizar o status da aula.');
+        } else if (r.diag) {
+          alert('Diag: ' + r.diag);
         }
         pintarConclusao();
       });
