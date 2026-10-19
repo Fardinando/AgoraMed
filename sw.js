@@ -3,7 +3,7 @@
    quando o aluno estiver sem internet. Assim as aulas e materiais novos aparecem
    na hora, e o app continua abrindo offline.
 */
-const CACHE = 'agoramed-v23';
+const CACHE = 'agoramed-v24';
 /* A folha de fontes (css/fontes.css) e os arquivos .woff2 ficam FORA desta lista
    de propósito: a tela de login usa a fonte do sistema por padrão, então nada
    é baixado. Se a página pedir ?fonte=josefin|jost, o navegador busca online.
