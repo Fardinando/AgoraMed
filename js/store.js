@@ -8,17 +8,19 @@ const Store = (() => {
   let eu = null;                 // perfil do usuário logado
   let cursosCache = [];          // cursos visíveis a quem está logado
   let progressoCache = new Set(); // aula_ids concluídas do usuário atual
+  const pendentes = new Map();    // aula_id -> { ts, vai } (vai=true: marcar)
   let promosCache = [];          // divulgações ativas
   let alunosCache = [];          // professor: perfis de todos os alunos
   let matriculasCache = [];      // professor: todas as matrículas
 
-  async function api(caminho, { metodo = 'GET', corpo } = {}) {
+  async function api(caminho, { metodo = 'GET', corpo, keepalive = false } = {}) {
     try {
       const r = await fetch('/api' + caminho, {
         method: metodo,
         headers: corpo ? { 'Content-Type': 'application/json' } : undefined,
         body: corpo ? JSON.stringify(corpo) : undefined,
         credentials: 'same-origin',
+        keepalive,
       });
       return await r.json();
     } catch (e) {
@@ -44,7 +46,15 @@ const Store = (() => {
     } catch (e) { return null; }
   }
   function salvarCache(dados) {
-    try { sessionStorage.setItem(CACHE_KEY, JSON.stringify({ dados, ts: Date.now() })); } catch (e) {}
+    try {
+      /* preserva pendentes existentes (não vêm do /api/app) */
+      let p = [];
+      try {
+        const antigo = JSON.parse(sessionStorage.getItem(CACHE_KEY) || 'null');
+        if (antigo && antigo.dados && Array.isArray(antigo.dados.pendentes)) p = antigo.dados.pendentes;
+      } catch (e) {}
+      sessionStorage.setItem(CACHE_KEY, JSON.stringify({ dados: { ...dados, pendentes: p }, ts: Date.now() }));
+    } catch (e) {}
   }
   function limparCache() { try { sessionStorage.removeItem(CACHE_KEY); } catch (e) {} }
 
@@ -55,6 +65,10 @@ const Store = (() => {
       eu = cache.dados.usuario;
       cursosCache = cache.dados.cursos || [];
       progressoCache = new Set(cache.dados.progresso || []);
+      /* restaura toggles pendentes de navegação anterior (expira em 30s) */
+      (cache.dados.pendentes || []).forEach((p) => {
+        if (p && p.id && Date.now() - (p.ts || 0) < 30000) pendentes.set(p.id, { ts: p.ts, vai: !!p.vai });
+      });
       promosCache = cache.dados.promos || [];
       alunosCache = cache.dados.alunos || [];
       matriculasCache = cache.dados.matriculas || [];
@@ -82,10 +96,16 @@ const Store = (() => {
       eu = r.usuario;
       cursosCache = r.cursos || [];
       progressoCache = new Set(r.progresso || []);
+      /* reaplica toggles ainda em andamento para não perder */
+      limparPendentesExpirados();
+      pendentes.forEach(({ vai }, id) => {
+        if (vai) progressoCache.add(id); else progressoCache.delete(id);
+      });
       promosCache = r.promos || [];
       alunosCache = r.alunos || [];
       matriculasCache = r.matriculas || [];
       salvarCache(r);
+      gravarProgressoNoCache();
     } catch (e) {}
   }
 
@@ -94,10 +114,15 @@ const Store = (() => {
     if (!r || !r.ok) { limparDados(); limparCache(); return; }
     cursosCache = r.cursos || [];
     progressoCache = new Set(r.progresso || []);
+    limparPendentesExpirados();
+    pendentes.forEach(({ vai }, id) => {
+      if (vai) progressoCache.add(id); else progressoCache.delete(id);
+    });
     promosCache = r.promos || [];
     alunosCache = r.alunos || [];
     matriculasCache = r.matriculas || [];
     salvarCache(r);
+    gravarProgressoNoCache();
   }
   function limparDados() {
     cursosCache = []; progressoCache = new Set();
@@ -184,8 +209,10 @@ const Store = (() => {
     const vai = !progressoCache.has(aulaId);
     /* otimista: atualiza visual imediatamente */
     if (vai) progressoCache.add(aulaId); else progressoCache.delete(aulaId);
+    pendentes.set(aulaId, { ts: Date.now(), vai });
     gravarProgressoNoCache();
-    const r = await api('/progresso', { metodo: 'POST', corpo: { aula_id: aulaId, acao: vai ? 'marcar' : 'desmarcar' } });
+    const r = await api('/progresso', { metodo: 'POST', corpo: { aula_id: aulaId, acao: vai ? 'marcar' : 'desmarcar' }, keepalive: true });
+    pendentes.delete(aulaId);
     if (!r.ok) {
       /* desfaz otimismo local em caso de erro */
       if (vai) progressoCache.delete(aulaId); else progressoCache.add(aulaId);
@@ -206,9 +233,15 @@ const Store = (() => {
       const c = JSON.parse(raw);
       if (!c || !c.dados) return;
       c.dados.progresso = Array.from(progressoCache);
+      c.dados.pendentes = Array.from(pendentes, ([id, v]) => ({ id, ts: v.ts, vai: v.vai }));
       c.ts = Date.now(); // renova validade para evitar revalidação imediata
       sessionStorage.setItem(CACHE_KEY, JSON.stringify(c));
     } catch (e) {}
+  }
+
+  function limparPendentesExpirados() {
+    const agora = Date.now();
+    pendentes.forEach((v, id) => { if (agora - (v.ts || 0) > 30000) pendentes.delete(id); });
   }
 
   function progressoCurso(userId, curso) {
