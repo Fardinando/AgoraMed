@@ -179,7 +179,7 @@ button { font: inherit; cursor: pointer; }
 /* marca d'água: símbolo da AGORAMED bem suave, atrás do cartão */
 .tela-login::after {
   content: ""; position: absolute; right: -70px; bottom: -60px;
-  width: min(52vmin, 430px); aspect-ratio: 986 / 609;
+  width: min(52vmin, 430px); aspect-ratio: 468 / 381;
   background: url("../img/agoramed-simbolo-branco.png") center / contain no-repeat;
   opacity: .055; pointer-events: none;
 }

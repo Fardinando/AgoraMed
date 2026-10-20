@@ -396,15 +396,32 @@ const UI = {
     const hora = d.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
     return mesmoDia ? `hoje às ${hora}` : `${d.toLocaleDateString('pt-BR')} às ${hora}`;
   },
-  /* prompt de instalação do PWA */
+  /* prompt de instalação do PWA (Android/desktop) + guia no iOS */
   capturarInstalacao() {
-    let evento = null;
     const botao = document.getElementById('btn-instalar');
+    if (!botao) return;
+    /* já instalado? não oferece de novo */
+    const instalado = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+    if (instalado) return;
+
+    /* iOS/iPadOS: beforeinstallprompt nunca dispara → guia manual do Safari */
+    const ios = /iPhone|iPad|iPod/i.test(navigator.userAgent) ||
+      (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    if (ios) {
+      botao.classList.remove('oculto');
+      botao.addEventListener('click', () => {
+        alert('Instalar no iPhone ou iPad:\n\n1. Toque no botão Compartilhar (quadrado com uma seta) na barra do Safari\n2. Toque em “Adicionar à Tela de Início”\n3. Toque em “Adicionar” no canto superior direito');
+      });
+      return;
+    }
+
+    /* Android/Chrome e desktop: aguarda o evento nativo */
+    let evento = null;
     window.addEventListener('beforeinstallprompt', (e) => {
       e.preventDefault(); evento = e;
-      if (botao) botao.classList.remove('oculto');
+      botao.classList.remove('oculto');
     });
-    if (botao) botao.addEventListener('click', async () => {
+    botao.addEventListener('click', async () => {
       if (!evento) return;
       evento.prompt();
       await evento.userChoice;
