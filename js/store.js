@@ -396,36 +396,39 @@ const UI = {
     const hora = d.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
     return mesmoDia ? `hoje às ${hora}` : `${d.toLocaleDateString('pt-BR')} às ${hora}`;
   },
-  /* prompt de instalação do PWA (Android/desktop) + guia no iOS */
+  /* prompt de instalação do PWA — Android, iOS e desktop */
   capturarInstalacao() {
     const botao = document.getElementById('btn-instalar');
     if (!botao) return;
     /* já instalado? não oferece de novo */
-    const instalado = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
-    if (instalado) return;
+    if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true) return;
 
+    const ua = navigator.userAgent;
     /* iOS/iPadOS: beforeinstallprompt nunca dispara → guia manual do Safari */
-    const ios = /iPhone|iPad|iPod/i.test(navigator.userAgent) ||
-      (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-    if (ios) {
-      botao.classList.remove('oculto');
-      botao.addEventListener('click', () => {
-        alert('Instalar no iPhone ou iPad:\n\n1. Toque no botão Compartilhar (quadrado com uma seta) na barra do Safari\n2. Toque em “Adicionar à Tela de Início”\n3. Toque em “Adicionar” no canto superior direito');
-      });
-      return;
-    }
+    const ios = /iPhone|iPad|iPod/i.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    /* Android: botão sempre visível — prompt nativo quando existe, guia manual quando não */
+    const android = /Android/i.test(ua);
 
-    /* Android/Chrome e desktop: aguarda o evento nativo */
     let evento = null;
     window.addEventListener('beforeinstallprompt', (e) => {
       e.preventDefault(); evento = e;
       botao.classList.remove('oculto');
     });
+    window.addEventListener('appinstalled', () => botao.classList.add('oculto'));
+
+    if (ios || android) botao.classList.remove('oculto');
+
     botao.addEventListener('click', async () => {
-      if (!evento) return;
-      evento.prompt();
-      await evento.userChoice;
-      evento = null; botao.classList.add('oculto');
+      if (evento) {
+        evento.prompt();
+        await evento.userChoice;
+        evento = null; botao.classList.add('oculto');
+        return;
+      }
+      /* sem prompt nativo: guia manual de cada plataforma */
+      alert(ios
+        ? 'Instalar no iPhone ou iPad:\n\n1. Toque no botão Compartilhar (quadrado com uma seta) na barra do Safari\n2. Toque em “Adicionar à Tela de Início”\n3. Toque em “Adicionar” no canto superior direito'
+        : 'Para instalar o AGORAMED no Android:\n\nNo Chrome, toque no menu ⋮ (três pontos) e escolha “Instalar aplicativo”.\n\nEm outros navegadores: menu → “Adicionar à tela inicial”.');
     });
   },
   /* navegação inferior mobile */
