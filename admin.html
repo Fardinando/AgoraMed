@@ -422,9 +422,11 @@
             </details>`}
           </div>
           <div class="acoes">
-            ${ehAdmin ? '' : `
+            ${ehAdmin ? `
+              <button class="btn pequeno fantasma" data-papel="${u.id}" ${u.id === usuario.id ? 'disabled title="Você não pode rebaixar a própria conta"' : ''}>↓ Virar aluno</button>
+            ` : `
               <button class="btn pequeno ${u.liberado ? 'secundario' : ''}" data-liberar="${u.id}">${u.liberado ? '🔒 Bloquear' : '🔓 Liberar'}</button>
-              <button class="btn pequeno fantasma" data-papel="${u.id}">${u.papel === 'admin' ? '↓ Virar aluno' : '↑ Virar professor'}</button>
+              <button class="btn pequeno fantasma" data-papel="${u.id}">↑ Virar professor</button>
               <button class="btn pequeno perigo" data-excluir-aluno="${u.id}">🗑</button>`}
           </div>
         </div>`;
@@ -543,7 +545,15 @@
         listarAlunos();
       } else if (pap) {
         const u = us.find(x => x.id === pap.dataset.papel);
-        const r = await Store.gerenciarAluno(u.id, u.papel === 'admin' ? 'rebaixar' : 'promover');
+        if (!u) return;
+        const rebaixar = u.papel === 'admin';
+        if (rebaixar && u.id === usuario.id)
+          return alert('Você não pode rebaixar a própria conta.');
+        const msg = rebaixar
+          ? `Transformar ${u.nome} em aluno?\n\nA conta perde o acesso ao painel imediatamente. Os cursos que ela já tem continuam.`
+          : `Transformar ${u.nome} em professor(a)?\n\nA conta terá acesso total ao painel.`;
+        if (!confirm(msg)) return;
+        const r = await Store.gerenciarAluno(u.id, rebaixar ? 'rebaixar' : 'promover');
         if (!r.ok) alert(r.erro || 'Não foi possível alterar o papel.');
         listarAlunos();
       } else if (exc) {
