@@ -917,3 +917,37 @@ main.container, .tela-login, .admin-cab {
   outline-offset: 2px;
   border-radius: 4px;
 }
+
+/* Progresso do aluno no painel do professor. */
+.aluno-identidade { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.aluno-nome-progresso {
+  display: inline-flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  border: 0; background: transparent; padding: 5px 0; color: var(--texto);
+  font: inherit; font-weight: 700; text-align: left; overflow-wrap: anywhere;
+}
+.aluno-nome-progresso span { color: var(--petroleo); font-size: .78rem; font-weight: 600; }
+.aluno-nome-progresso:hover { color: var(--petroleo); text-decoration: underline; }
+.progresso-aluno-dialog {
+  width: min(680px, calc(100% - 32px)); max-height: 85vh; margin: auto; padding: 26px;
+  background: var(--card); color: var(--texto); border: 1px solid var(--linha);
+  border-radius: 18px; box-shadow: var(--sombra); overflow-y: auto;
+}
+.progresso-aluno-dialog::backdrop { background: rgba(20, 40, 46, .65); }
+.progresso-aluno-cab { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; }
+.progresso-aluno-cab > div { min-width: 0; }
+.progresso-aluno-cab h2 { font-size: 1.2rem; line-height: 1.4; overflow-wrap: anywhere; }
+.progresso-aluno-cab p { font-size: .85rem; color: var(--texto-suave); overflow-wrap: anywhere; margin-top: 4px; }
+.progresso-aluno-cab button { flex-shrink: 0; }
+.progresso-aluno-legenda { display: flex; align-items: center; gap: 16px; justify-content: space-between; margin: 20px 0; }
+.progresso-aluno-legenda p { color: var(--texto-suave); font-size: .85rem; }
+.progresso-aluno-curso { border-top: 1px solid var(--linha); padding: 18px 0; }
+.progresso-aluno-curso-cab { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+.progresso-aluno-curso h3 { font-size: 1rem; overflow-wrap: anywhere; }
+.progresso-aluno-curso strong { color: var(--petroleo); font-variant-numeric: tabular-nums; }
+.progresso-aluno-curso .barra-progresso { height: 8px; margin: 12px 0 8px; }
+.progresso-aluno-curso p, .progresso-aluno-aviso { color: var(--texto-suave); font-size: .85rem; }
+@media (max-width: 520px) {
+  .progresso-aluno-dialog { padding: 20px; }
+  .progresso-aluno-cab { flex-wrap: wrap; }
+  .progresso-aluno-legenda { align-items: flex-start; flex-direction: column; gap: 12px; }
+}

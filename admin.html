@@ -126,6 +126,21 @@
     </section>
   </main>
 
+  <dialog id="dialog-progresso-aluno" class="progresso-aluno-dialog" aria-labelledby="progresso-aluno-titulo">
+    <div class="progresso-aluno-cab">
+      <div>
+        <h2 id="progresso-aluno-titulo">Progresso do aluno</h2>
+        <p id="progresso-aluno-email"></p>
+      </div>
+      <button type="button" class="btn pequeno fantasma" id="progresso-aluno-fechar" aria-label="Fechar progresso do aluno" autofocus>✕ Fechar</button>
+    </div>
+    <div class="progresso-aluno-legenda">
+      <p>Progresso baseado nas aulas marcadas como concluídas pelo aluno.</p>
+      <button type="button" class="btn pequeno secundario" id="progresso-aluno-atualizar">Atualizar</button>
+    </div>
+    <div id="progresso-aluno-conteudo" aria-live="polite"></div>
+  </dialog>
+
   <footer class="rodape">
     <div class="container">
       Decisões seguras, baseadas em evidências.<br>
@@ -134,10 +149,12 @@
   </footer>
 
   <script src="js/store.js"></script>
+  <script src="js/admin-progresso.js"></script>
   <script type="module">
     await Store.iniciar();
     const usuario = Store.proteger();
     if (usuario.papel !== 'admin') location.href = 'app.html';
+    else ProgressoAlunos.iniciar();
 
     const $ = (s, r = document) => r.querySelector(s);
     const $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -406,7 +423,10 @@
           </label>
           <div class="mini-capa" style="border-radius:50%;width:48px;font-size:.9rem;font-weight:800">${UI.iniciais(u.nome)}</div>
           <div class="dados">
-            <strong>${UI.escapar(u.nome)} ${ehAdmin ? '<span class="situacao admin">Professor(a)</span>' : (u.liberado ? '<span class="situacao liberado">Liberado</span>' : '<span class="situacao pendente">Pendente</span>')}</strong>
+            <div class="aluno-identidade">
+              ${ehAdmin ? `<strong>${UI.escapar(u.nome)}</strong>` : `<button type="button" class="aluno-nome-progresso" data-progresso-aluno="${u.id}" aria-haspopup="dialog">${UI.escapar(u.nome)} <span>Ver progresso ↗</span></button>`}
+              ${ehAdmin ? '<span class="situacao admin">Professor(a)</span>' : (u.liberado ? '<span class="situacao liberado">Liberado</span>' : '<span class="situacao pendente">Pendente</span>')}
+            </div>
             <small>${UI.escapar(u.email)} · ${meus.length} curso(s) adquirido(s)</small>
             ${!ehAdmin && u.whatsapp ? `<small>📱 WhatsApp: ${UI.whatsBR(u.whatsapp)}</small>` : ''}
             ${ehAdmin ? '' : `

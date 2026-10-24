@@ -296,6 +296,8 @@ const Store = (() => {
   const cursosDoAluno = (usuarioId) =>
     matriculasCache.filter((m) => m.usuario_id === usuarioId).map((m) => m.curso_id);
 
+  const progressoAluno = (usuarioId) => api('/admin/progresso?usuario_id=' + encodeURIComponent(usuarioId));
+
   async function gerenciarAluno(usuarioId, acao, cursosIds, opcoes = {}) {
     const r = await api('/admin/alunos', {
       metodo: 'POST',
@@ -369,7 +371,7 @@ const Store = (() => {
     uid,
     usuarioAtual, iniciar, entrar, cadastrar, sair, proteger,
     esqueciSenha, redefinirSenha,
-    usuarios, matriculas, cursosDoAluno, gerenciarAluno,
+    usuarios, matriculas, cursosDoAluno, gerenciarAluno, progressoAluno,
     cursos, cursosDoUsuario, acharCurso, salvarCurso, novoCurso, excluirCurso,
     estatisticasCurso, parseDuracao,
     estaConcluida, alternarConcluida, progressoCurso,
