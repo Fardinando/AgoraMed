@@ -557,13 +557,21 @@
         if (!r.ok) alert(r.erro || 'Não foi possível alterar o papel.');
         listarAlunos();
       } else if (exc) {
-        const u = us.find(x => x.id === exc.dataset.excluirAluno);
-        if (u.id === usuario.id) return alert('Você não pode excluir a própria conta.');
-        if (confirm(`Excluir a conta de ${u.nome}? Isso apaga o acesso de vez.`)) {
-          const r = await Store.gerenciarAluno(u.id, 'remover');
-          if (!r.ok) alert(r.erro || 'Não foi possível excluir a conta.');
+        const alvoId = exc.dataset.excluirAluno;
+        const u = us.find(x => x.id === alvoId);
+        if (!u) { listarAlunos(); return; }
+        if (alvoId === usuario.id) return alert('Você não pode excluir a própria conta.');
+        if (!confirm(`Excluir a conta de ${u.nome}? Isso apaga o acesso de vez.`)) return;
+        const r = await Store.gerenciarAluno(alvoId, 'remover');
+        if (!r || !r.ok) {
+          alert((r && r.erro) ? r.erro : 'Não foi possível excluir o aluno.');
+          await Store.iniciar();
           listarAlunos();
+          return;
         }
+        await Store.iniciar();
+        if (typeof selecionados !== 'undefined' && selecionados.has(alvoId)) selecionados.delete(alvoId);
+        listarAlunos();
       }
     });
 
