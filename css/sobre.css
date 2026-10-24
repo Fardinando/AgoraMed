@@ -47,6 +47,7 @@
 }
 #agoramed-sobre .ag-about-hero {
   position: relative; isolation: isolate; display: flex; align-items: center;
+  border-radius: 24px; overflow: hidden;
   min-height: 500px; aspect-ratio: 2 / 1; padding: 48px clamp(24px, 5vw, 56px);
   margin-inline: calc(-1 * clamp(20px, 5vw, 56px));
   background: #04161d; color: #ffffff;
@@ -69,9 +70,11 @@
   background: linear-gradient(90deg, rgba(4,22,29,var(--ag-shade, .85)) 0%, rgba(4,22,29,.7) 28%, rgba(4,22,29,.15) 57%, transparent 73%), linear-gradient(0deg, rgba(4,22,29,.38), transparent 35%);
 }
 #agoramed-sobre .ag-story { max-width: 680px; margin: 0 auto; padding-top: 42px; }
+#agoramed-sobre .ag-story .ag-story-title { font-size: 26px; font-weight: 800; line-height: 1.3; letter-spacing: .4px; text-transform: uppercase; margin-bottom: 22px; }
 #agoramed-sobre .ag-story p { font-size: 16px; line-height: 1.85; margin-bottom: 21px; }
 #agoramed-sobre .ag-story strong { font-weight: 650; }
 #agoramed-sobre .ag-story .ag-turn { font-family: inherit; color: var(--ag-teal); font-size: 20px; line-height: 1.65; margin: 30px 0; }
+#agoramed-sobre .ag-story .ag-turn strong { font-weight: 700; }
 #agoramed-sobre .ag-ending { background: #092c36; border-left: 3px solid #9ed0d8; padding: 28px 30px; margin: 32px 0 0; border-radius: 0 12px 12px 0; }
 #agoramed-sobre .ag-ending p { margin-bottom: 0; font-size: 17px; line-height: 1.7; color: #ffffff; }
 @media(max-width: 620px) {
