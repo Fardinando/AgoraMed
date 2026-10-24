@@ -213,9 +213,10 @@
       );
       btn.disabled = false;
       if (!r.ok) return mostrarMsg(r.erro);
-      mostrarMsg(r.msg || 'Conta criada! Confira seu e-mail para ativar a conta.', 'sucesso');
+      document.getElementById('login-email').value = document.getElementById('cad-email').value;
       formCadastrar.reset();
-      setTimeout(() => ativarAba('entrar'), 3000);
+      ativarAba('entrar');
+      mostrarMsg(r.msg || 'Solicitação recebida. Se já tem conta, entre com a senha original ou use “Esqueci minha senha”.', 'sucesso');
     });
 
     formEsqueci.addEventListener('submit', async (e) => {
