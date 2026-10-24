@@ -67,9 +67,7 @@
     const menu = document.getElementById('menu-usuario');
     chip.addEventListener('click', (e) => { e.stopPropagation(); menu.classList.toggle('oculto'); });
     document.addEventListener('click', () => menu.classList.add('oculto'));
-    document.getElementById('btn-sair').addEventListener('click', () => {
-      if (confirm('Deseja sair da plataforma?')) Store.sair().finally(() => { location.href = 'index.html'; });
-    });
+    document.getElementById('btn-sair').addEventListener('click', UI.sair);
 
     const cursoId = new URLSearchParams(location.search).get('id');
     const curso = Store.acharCurso(cursoId);

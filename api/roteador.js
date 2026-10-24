@@ -36,6 +36,7 @@ function chaveDe(req) {
 }
 
 module.exports = async (req, res) => {
+  res.setHeader('Cache-Control', 'private, no-store');
   const handler = rotas[chaveDe(req)];
   if (!handler) return json(res, 404, { ok: false, erro: 'Rota não encontrada.' });
   return handler(req, res);

@@ -6,6 +6,7 @@
    ============================================================ */
 const Store = (() => {
   let eu = null;                 // perfil do usuário logado
+  let versaoSessao = 0;          // invalida respostas iniciadas antes do logout
   let cursosCache = [];          // cursos visíveis a quem está logado
   let progressoCache = new Set(); // aula_ids concluídas do usuário atual
   const pendentes = new Map();    // aula_id -> { ts, vai } (vai=true: marcar)
@@ -20,6 +21,7 @@ const Store = (() => {
         headers: corpo ? { 'Content-Type': 'application/json' } : undefined,
         body: corpo ? JSON.stringify(corpo) : undefined,
         credentials: 'same-origin',
+        cache: 'no-store',
         keepalive,
       });
       return await r.json();
@@ -59,6 +61,7 @@ const Store = (() => {
   function limparCache() { try { sessionStorage.removeItem(CACHE_KEY); } catch (e) {} }
 
   async function iniciar() {
+    const versao = versaoSessao;
     /* tenta usar o cache para não esperar o backend em cada troca de página */
     const cache = lerCache();
     if (cache && cache.dados && cache.dados.usuario) {
@@ -78,6 +81,7 @@ const Store = (() => {
     }
     /* uma única chamada: /api/app já verifica sessão internamente */
     const r = await api('/app');
+    if (versao !== versaoSessao) return null;
     if (!r || !r.ok) { eu = null; limparDados(); limparCache(); return null; }
     eu = r.usuario;
     cursosCache = r.cursos || [];
@@ -90,8 +94,10 @@ const Store = (() => {
   }
 
   async function revalidar() {
+    const versao = versaoSessao;
     try {
       const r = await api('/app');
+      if (versao !== versaoSessao) return;
       if (!r || !r.ok) { limparCache(); eu = null; limparDados(); return; }
       eu = r.usuario;
       cursosCache = r.cursos || [];
@@ -110,7 +116,9 @@ const Store = (() => {
   }
 
   async function carregarDados() {
+    const versao = versaoSessao;
     const r = await api('/app');
+    if (versao !== versaoSessao) return;
     if (!r || !r.ok) { limparDados(); limparCache(); return; }
     cursosCache = r.cursos || [];
     progressoCache = new Set(r.progresso || []);
@@ -127,6 +135,7 @@ const Store = (() => {
   function limparDados() {
     cursosCache = []; progressoCache = new Set();
     promosCache = []; alunosCache = []; matriculasCache = [];
+    pendentes.clear();
   }
 
   const usuarioAtual = () => eu;
@@ -147,8 +156,11 @@ const Store = (() => {
     api('/auth/cadastro', { metodo: 'POST', corpo: { nome, email, senha, whatsapp: whats } });
 
   async function sair() {
-    await api('/auth/sair', { metodo: 'POST' });
-    eu = null; limparDados();
+    const r = await api('/auth/sair', { metodo: 'POST' });
+    if (!r || !r.ok) return r || { ok: false, erro: 'Não foi possível sair. Tente novamente.' };
+    versaoSessao++;
+    eu = null; limparDados(); limparCache();
+    return { ok: true };
   }
 
   const esqueciSenha = (email) => api('/auth/esqueci-senha', { metodo: 'POST', corpo: { email } });
@@ -367,6 +379,11 @@ const Store = (() => {
   };
 })();
 
+/* Ao voltar pelo histórico, verifica novamente a sessão antes de exibir a página. */
+window.addEventListener('pageshow', (e) => {
+  if (e.persisted) location.reload();
+});
+
 /* ------------------------------------------------------------- PWA / SW */
 if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
   window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
@@ -374,6 +391,21 @@ if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
 
 /* -------------------------------------------------------------- helpers */
 const UI = {
+  async sair(evento) {
+    const botao = evento.currentTarget;
+    if (botao.disabled || !confirm('Deseja sair da plataforma?')) return;
+    botao.disabled = true;
+    try {
+      const r = await Store.sair();
+      if (!r.ok) {
+        alert(r.erro || 'Não foi possível sair. Tente novamente.');
+        return;
+      }
+      location.replace('index.html');
+    } finally {
+      botao.disabled = false;
+    }
+  },
   escapar(t = '') {
     return String(t).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   },
@@ -445,8 +477,6 @@ const UI = {
       <button type="button" id="nav-sair"><span class="ico">↩️</span>Sair</button>
     </div>`;
     document.body.appendChild(el);
-    el.querySelector('#nav-sair').addEventListener('click', () => {
-      if (confirm('Deseja sair da plataforma?')) Store.sair().finally(() => { location.href = 'index.html'; });
-    });
+    el.querySelector('#nav-sair').addEventListener('click', UI.sair);
   },
 };
