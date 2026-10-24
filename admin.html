@@ -90,6 +90,15 @@
         Alunos novos aparecem como <strong>pendentes</strong> até você liberá-los. Depois, escolha quais cursos cada um terá acesso.
       </div>
 
+      <div class="aviso" style="margin-bottom:14px">
+        <strong>Avisos por e-mail</strong>
+        <p id="avisos-cadastro-status" style="margin:6px 0" aria-live="polite">Consultando configuração…</p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <button type="button" class="btn pequeno secundario" id="avisos-cadastro-teste" disabled>Enviar e-mail de teste</button>
+          <button type="button" class="btn pequeno secundario" id="avisos-cadastro-pendentes" disabled>Enviar avisos pendentes</button>
+        </div>
+      </div>
+
       <div class="busca-campo">
         <input type="search" id="busca-alunos" placeholder="Pesquisar pelo nome…" autocomplete="off" aria-label="Pesquisar alunos e professores pelo nome">
         <select id="filtro-curso-alunos" aria-label="Filtrar por curso">
@@ -361,6 +370,30 @@
       if ([...selFiltro.options].some(o => o.value === vf)) selFiltro.value = vf;
       if ([...selMassa.options].some(o => o.value === vm)) selMassa.value = vm;
     }
+
+    async function carregarStatusAvisos() {
+      const r = await Store.statusAvisos();
+      const ativo = !!(r && r.ok && r.configurado);
+      $('#avisos-cadastro-status').textContent = r && r.ok
+        ? (ativo ? `Avisos destinados a ${r.destinatario}. Use o e-mail de teste para conferir o envio.` : `Envio para ${r.destinatario} aguardando ativação. Os novos avisos ficam guardados até o serviço estar pronto.`)
+        : 'Não foi possível consultar os avisos de cadastro. Atualize a página para tentar novamente.';
+      $('#avisos-cadastro-teste').disabled = !ativo;
+      $('#avisos-cadastro-pendentes').disabled = !ativo;
+    }
+    async function acionarAvisos(acao) {
+      const teste = $('#avisos-cadastro-teste');
+      const pendentes = $('#avisos-cadastro-pendentes');
+      teste.disabled = pendentes.disabled = true;
+      try {
+        const r = await Store.testarAvisos(acao);
+        $('#avisos-cadastro-status').textContent = r && r.ok
+          ? (r.msg || `${r.processados} aviso(s) enviado(s) nesta tentativa.`)
+          : (r && r.erro || 'Houve uma falha no envio. Os avisos pendentes foram preservados para nova tentativa.');
+      } finally { teste.disabled = pendentes.disabled = false; }
+    }
+    $('#avisos-cadastro-teste').addEventListener('click', () => acionarAvisos('testar'));
+    $('#avisos-cadastro-pendentes').addEventListener('click', () => acionarAvisos('processar'));
+    carregarStatusAvisos();
 
     /* aplica busca por nome + filtro de curso */
     function usuariosVisiveis() {

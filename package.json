@@ -1,0 +1,6 @@
+{
+  "name": "agoramed",
+  "private": true,
+  "scripts": { "test": "node --test tools/*.test.cjs" },
+  "dependencies": { "nodemailer": "10.2.1" }
+}

@@ -24,3 +24,6 @@ EDIT-IA-PRO.zip
 sedativos-hi-tech/
 sedativos.mov
 sedativos_transcript/
+
+# cache local do Supabase CLI
+supabase/.temp/

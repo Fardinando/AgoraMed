@@ -298,6 +298,9 @@ const Store = (() => {
 
   const progressoAluno = (usuarioId) => api('/admin/progresso?usuario_id=' + encodeURIComponent(usuarioId));
 
+  const statusAvisos = () => api('/admin/notificacoes');
+  const testarAvisos = (acao) => api('/admin/notificacoes', { metodo: 'POST', corpo: { acao } });
+
   async function gerenciarAluno(usuarioId, acao, cursosIds, opcoes = {}) {
     const r = await api('/admin/alunos', {
       metodo: 'POST',
@@ -371,7 +374,7 @@ const Store = (() => {
     uid,
     usuarioAtual, iniciar, entrar, cadastrar, sair, proteger,
     esqueciSenha, redefinirSenha,
-    usuarios, matriculas, cursosDoAluno, gerenciarAluno, progressoAluno,
+    usuarios, matriculas, cursosDoAluno, gerenciarAluno, progressoAluno, statusAvisos, testarAvisos,
     cursos, cursosDoUsuario, acharCurso, salvarCurso, novoCurso, excluirCurso,
     estatisticasCurso, parseDuracao,
     estaConcluida, alternarConcluida, progressoCurso,

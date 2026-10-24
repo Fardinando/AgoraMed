@@ -1,6 +1,23 @@
 {
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/roteador?rota=$1" },
-    { "source": "/api", "destination": "/api/roteador?rota=" }
-  ]
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/roteador?rota=$1"
+    },
+    {
+      "source": "/api",
+      "destination": "/api/roteador?rota="
+    }
+  ],
+  "crons": [
+    {
+      "path": "/api/interno/avisos-cadastro",
+      "schedule": "0 12 * * *"
+    }
+  ],
+  "functions": {
+    "api/roteador.js": {
+      "maxDuration": 60
+    }
+  }
 }

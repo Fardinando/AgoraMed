@@ -21,7 +21,7 @@ function handler(rota, overrides = {}) {
     ...overrides,
   };
   vm.runInNewContext(readFileSync(join(__dirname, '../lib/rotas/', rota + '.js'), 'utf8'), {
-    module, exports: module.exports, require: path => { assert.equal(path, '../../api'); return api; },
+    module, exports: module.exports, require: path => { if (path === '../../notificacoes') return { enviarAvisoCadastro: api.enviarAvisoCadastro || (async () => ({ ok: true })) }; assert.equal(path, '../../api'); return api; },
   });
   return async body => {
     const res = {};
@@ -180,4 +180,22 @@ test('após cadastro, mostra login com e-mail preenchido e mantém as orientaç�
   assert.equal(el('form-cadastrar').resetou, true);
   assert.match(el('mensagem').textContent, /senha original/);
   assert.equal(el('mensagem').className, 'aviso sucesso');
+});
+
+test('falha no aviso administrativo não impede o cadastro do aluno', async () => {
+  let tentativas = 0;
+  const r = await handler('auth/cadastro', {
+    gotrue: async () => ({ ok: true, dados: user }),
+    enviarAvisoCadastro: async () => { tentativas++; throw Error('SMTP indisponível'); },
+  })(cadastro);
+  assert.equal(r.ok, true);
+  assert.equal(tentativas, 1);
+});
+
+test('resposta fictícia de recadastro não tenta enviar novo aviso administrativo', async () => {
+  const r = await handler('auth/cadastro', {
+    gotrue: async () => ({ ok: true, dados: { id: 'ficticio', identities: [] } }),
+    enviarAvisoCadastro: async () => assert.fail('Não pode notificar recadastro fictício'),
+  })(cadastro);
+  assert.equal(r.ok, true);
 });

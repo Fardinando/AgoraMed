@@ -20,6 +20,8 @@ const rotas = {
   'material': require('../lib/rotas/material'),
   'admin/cursos': require('../lib/rotas/admin/cursos'),
   'admin/alunos': require('../lib/rotas/admin/alunos'),
+  'admin/notificacoes': require('../lib/rotas/admin/notificacoes'),
+  'interno/avisos-cadastro': require('../lib/rotas/interno/avisos-cadastro'),
   'admin/progresso': require('../lib/rotas/admin/progresso'),
   'admin/promos': require('../lib/rotas/admin/promos'),
 };
