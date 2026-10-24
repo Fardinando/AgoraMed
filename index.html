@@ -100,6 +100,10 @@
           <label for="cad-senha">Senha <span class="obrig">*</span></label>
           <input type="password" id="cad-senha" required autocomplete="new-password" minlength="6" placeholder="mínimo 6 caracteres">
         </div>
+        <div class="campo">
+          <label for="cad-confirmar-senha">Confirmar senha <span class="obrig">*</span></label>
+          <input type="password" id="cad-confirmar-senha" required autocomplete="new-password" placeholder="Digite a senha novamente">
+        </div>
         <button type="submit" class="btn" style="width:100%">Criar conta</button>
         <p class="dica" style="margin-top:10px;font-size:.8rem;color:var(--texto-suave);text-align:center">
           Após o cadastro, confirme seu e-mail e aguarde a liberação pelo professor.
@@ -192,12 +196,19 @@
 
     formCadastrar.addEventListener('submit', async (e) => {
       e.preventDefault();
+      const senha = document.getElementById('cad-senha').value;
+      const confirmarSenha = document.getElementById('cad-confirmar-senha');
+      if (senha !== confirmarSenha.value) {
+        mostrarMsg('senha nao confere');
+        confirmarSenha.focus();
+        return;
+      }
       const btn = formCadastrar.querySelector('[type=submit]');
       btn.disabled = true;
       const r = await Store.cadastrar(
         document.getElementById('cad-nome').value,
         document.getElementById('cad-email').value,
-        document.getElementById('cad-senha').value,
+        senha,
         document.getElementById('cad-whats').value
       );
       btn.disabled = false;
