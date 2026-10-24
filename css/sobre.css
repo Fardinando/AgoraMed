@@ -1,0 +1,88 @@
+/* Sobre mim — composição aprovada: retrato integrado e fonte padrão do site. */
+#agoramed-sobre {
+  --ag-bg: var(--bg);
+  --ag-paper: var(--card);
+  --ag-text: var(--texto);
+  --ag-muted: var(--texto-suave);
+  --ag-line: var(--linha);
+  --ag-teal: var(--petroleo);
+  --ag-soft: #eaf0f0;
+  --ag-top: var(--petroleo-fundo);
+  --ag-white: #ffffff;
+  --ag-action: var(--petroleo);
+  --ag-action-text: #ffffff;
+  --ag-radius: 16px;
+  max-width: 1180px; margin-inline: auto;
+  font-family: inherit;
+  color: var(--ag-text);
+  background: var(--ag-bg);
+  text-align: left;
+  line-height: 1.65;
+  overflow-wrap: break-word;
+}
+#agoramed-sobre * { box-sizing: border-box; }
+#agoramed-sobre [hidden] { display: none !important; }
+#agoramed-sobre h1, #agoramed-sobre h2, #agoramed-sobre p { margin: 0; }
+#agoramed-sobre button { font: inherit; }
+#agoramed-sobre .ag-main { padding: 34px clamp(20px, 5vw, 56px) 46px; }
+#agoramed-sobre .ag-eyebrow { color: var(--ag-teal); font-size: 11px; font-weight: 700; letter-spacing: 1.6px; text-transform: uppercase; }
+#agoramed-sobre .ag-intro-card {
+  display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 32px;
+  padding: 30px 34px; border-radius: var(--ag-radius); background: var(--ag-paper);
+  border: 1px solid var(--ag-line);
+}
+#agoramed-sobre .ag-intro-card h2 { font-size: 24px; line-height: 1.3; font-weight: 650; margin: 7px 0 7px; }
+#agoramed-sobre .ag-intro-card p { color: var(--ag-muted); font-size: 15px; max-width: 49ch; }
+#agoramed-sobre .ag-button {
+  background: var(--ag-action); color: var(--ag-action-text); border: 0;
+  padding: 12px 20px; border-radius: 10px; font-size: 14px; font-weight: 650;
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px; white-space: nowrap;
+}
+#agoramed-sobre .ag-button:hover { filter: brightness(.94); text-decoration: none; }
+#agoramed-sobre .ag-button svg, #agoramed-sobre .ag-back svg { width: 17px; height: 17px; }
+#agoramed-sobre .ag-back {
+  background: transparent; color: var(--ag-teal); padding: 0; border: 0;
+  display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600;
+  margin-bottom: 30px; min-height: 44px;
+}
+#agoramed-sobre .ag-about-hero {
+  position: relative; isolation: isolate; display: flex; align-items: center;
+  min-height: 500px; aspect-ratio: 2 / 1; padding: 48px clamp(24px, 5vw, 56px);
+  margin-inline: calc(-1 * clamp(20px, 5vw, 56px));
+  background: #04161d; color: #ffffff;
+}
+#agoramed-sobre .ag-about-heading { position: relative; z-index: 2; width: 48%; }
+#agoramed-sobre .ag-about-hero .ag-eyebrow { color: #a0cfd4; }
+#agoramed-sobre .ag-about-hero h1 {
+  font-family: inherit; font-size: clamp(30px, 3.7vw, 40px);
+  font-weight: 700; letter-spacing: -.65px; line-height: 1.2;
+  max-width: 17ch; margin: 16px 0 26px; color: #ffffff;
+}
+#agoramed-sobre .ag-about-hero h1 span { color: #9ed0d8; }
+#agoramed-sobre .ag-byline { padding-left: 14px; border-left: 2px solid #9ed0d8; }
+#agoramed-sobre .ag-byline strong { display: block; font-size: 15px; font-weight: 650; color: #ffffff; }
+#agoramed-sobre .ag-byline span { color: #d1e1e4; font-size: 13px; }
+#agoramed-sobre .ag-photo { position: absolute; inset: 0; z-index: 0; }
+#agoramed-sobre .ag-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center center; display: block; }
+#agoramed-sobre .ag-photo::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(90deg, rgba(4,22,29,var(--ag-shade, .85)) 0%, rgba(4,22,29,.7) 28%, rgba(4,22,29,.15) 57%, transparent 73%), linear-gradient(0deg, rgba(4,22,29,.38), transparent 35%);
+}
+#agoramed-sobre .ag-story { max-width: 680px; margin: 0 auto; padding-top: 42px; }
+#agoramed-sobre .ag-story p { font-size: 16px; line-height: 1.85; margin-bottom: 21px; }
+#agoramed-sobre .ag-story strong { font-weight: 650; }
+#agoramed-sobre .ag-story .ag-turn { font-family: inherit; color: var(--ag-teal); font-size: 20px; line-height: 1.65; margin: 30px 0; }
+#agoramed-sobre .ag-ending { background: #092c36; border-left: 3px solid #9ed0d8; padding: 28px 30px; margin: 32px 0 0; border-radius: 0 12px 12px 0; }
+#agoramed-sobre .ag-ending p { margin-bottom: 0; font-size: 17px; line-height: 1.7; color: #ffffff; }
+@media(max-width: 620px) {
+  #agoramed-sobre .ag-intro-card { grid-template-columns: 1fr; gap: 22px; padding: 25px; }
+  #agoramed-sobre .ag-intro-card .ag-button { justify-self: start; }
+  #agoramed-sobre .ag-about-hero { display: block; min-height: 0; aspect-ratio: auto; padding: 270px 24px 36px; }
+  #agoramed-sobre .ag-about-heading { width: 100%; }
+  #agoramed-sobre .ag-about-hero h1 { max-width: 22ch; font-size: 30px; }
+  #agoramed-sobre .ag-photo { bottom: auto; height: 310px; }
+  #agoramed-sobre .ag-photo img { object-position: 72% center; }
+  #agoramed-sobre .ag-photo::after { background: linear-gradient(0deg, #04161d 0%, rgba(4,22,29,.15) 35%, transparent 65%); }
+  #agoramed-sobre .ag-ending { padding: 22px; }
+}
+@media(pointer:coarse) { #agoramed-sobre .ag-button { min-height: 44px; } }

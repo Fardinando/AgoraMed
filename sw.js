@@ -3,14 +3,14 @@
    quando o aluno estiver sem internet. Assim as aulas e materiais novos aparecem
    na hora, e o app continua abrindo offline.
 */
-const CACHE = 'agoramed-v35';
+const CACHE = 'agoramed-v36';
 /* A folha de fontes (css/fontes.css) e os arquivos .woff2 ficam FORA desta lista
    de propósito: a tela de login usa a fonte do sistema por padrão, então nada
    é baixado. Se a página pedir ?fonte=josefin|jost, o navegador busca online.
    As imagens da marca entram na lista para a tela de login abrir offline. */
 const APP = [
-  'index.html', 'app.html', 'curso.html', 'aula.html', 'admin.html', 'redefinir.html',
-  'css/styles.css', 'js/store.js', 'manifest.json',
+  'index.html', 'app.html', 'curso.html', 'aula.html', 'admin.html', 'redefinir.html', 'sobre.html',
+  'css/styles.css', 'css/sobre.css', 'img/anderson-uti.jpg', 'js/store.js', 'manifest.json',
   'icons/icon-192.png', 'icons/icon-512.png',
   'img/agoramed-logo.png', 'img/agoramed-simbolo-branco.png',
 ];
