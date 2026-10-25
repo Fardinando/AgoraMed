@@ -36,7 +36,7 @@ const Store = (() => {
 
   /* ---------------------------------------------------------- sessão */
   /* cache em sessionStorage para evitar re-buscar tudo a cada troca de página */
-  const CACHE_KEY = 'agoramed_app_cache_v2';
+  const CACHE_KEY = 'agoramed_app_cache_v3';
   function lerCache() {
     try {
       const raw = sessionStorage.getItem(CACHE_KEY);
@@ -59,7 +59,7 @@ const Store = (() => {
       sessionStorage.setItem(CACHE_KEY, JSON.stringify({ dados: { ...dados, pendentes: p }, ts: Date.now() }));
     } catch (e) {}
   }
-  function limparCache() { try { sessionStorage.removeItem(CACHE_KEY); sessionStorage.removeItem('agoramed_app_cache'); } catch (e) {} }
+  function limparCache() { try { sessionStorage.removeItem(CACHE_KEY); sessionStorage.removeItem('agoramed_app_cache'); sessionStorage.removeItem('agoramed_app_cache_v2'); } catch (e) {} }
 
   async function iniciar({ atualizar = false } = {}) {
     if (atualizar) limparCache();
@@ -142,6 +142,7 @@ const Store = (() => {
     cursosCache = []; catalogoCache = []; progressoCache = new Set();
     promosCache = []; alunosCache = []; matriculasCache = [];
     pendentes.clear();
+    operacoesCurso.clear(); novoPendente = null;
   }
 
   const usuarioAtual = () => eu;
@@ -179,26 +180,50 @@ const Store = (() => {
   const cursosDoUsuario = () => cursosCache; // o servidor já devolve só o que o aluno tem acesso
   const acharCurso = (id) => cursosCache.find((c) => c.id === id);
 
-  async function salvarCurso(ed) {
-    const r = await api('/admin/cursos', { metodo: 'POST', corpo: { curso: ed } });
+  const operacoesCurso = new Map();
+  let novoPendente = null;
+  async function carregarCursoEdicao(id) {
+    const r = await api('/admin/cursos?id=' + encodeURIComponent(id));
     if (!r.ok) return r;
-    const i = cursosCache.findIndex((c) => c.id === r.curso.id);
+    const i = cursosCache.findIndex(c => c.id === id);
     if (i >= 0) cursosCache[i] = r.curso; else cursosCache.push(r.curso);
     limparCache();
-    return { ok: true, curso: r.curso };
+    return r;
   }
-
-  async function novoCurso() {
-    const r = await api('/admin/cursos', { metodo: 'POST', corpo: { curso: { titulo: 'Novo curso', modulos: [] } } });
+  async function enviarCurso(ed, removidos, metodo) {
+    const chave = metodo + ':' + ed.id;
+    const assinatura = JSON.stringify({ curso: ed, removidos });
+    let op = operacoesCurso.get(chave);
+    if (!op || op.assinatura !== assinatura) {
+      op = { assinatura, operacaoId: uid() };
+      operacoesCurso.set(chave, op);
+    }
+    const corpo = { curso: ed, removidos, operacaoId: op.operacaoId };
+    if (new TextEncoder().encode(JSON.stringify(corpo)).byteLength > 4000000)
+      return { ok: false, erro: 'Há muitos arquivos para um único salvamento. Envie menos PDFs por vez; suas alterações continuam no editor.' };
+    const r = await api('/admin/cursos', { metodo, corpo });
+    if (r.ok) operacoesCurso.delete(chave);
+    return r;
+  }
+  async function salvarCurso(ed, removidos = { modulos: [], aulas: [], materiais: [] }) {
+    const r = await enviarCurso(ed, removidos, 'POST');
     if (!r.ok) return r;
-    cursosCache.push(r.curso);
+    const i = cursosCache.findIndex(c => c.id === r.curso.id);
+    if (i >= 0) cursosCache[i] = r.curso; else cursosCache.push(r.curso);
     limparCache();
-    return { ok: true, curso: r.curso };
+    return r;
   }
-
+  async function novoCurso() {
+    if (!novoPendente) novoPendente = { id: uid(), versao: 0, titulo: 'Novo curso', tipoAcesso: 'pago', urlVendas: '', modulos: [] };
+    const r = await salvarCurso(novoPendente);
+    if (r.ok) novoPendente = null;
+    return r;
+  }
   async function excluirCurso(id) {
-    const r = await api('/admin/cursos?id=' + encodeURIComponent(id), { metodo: 'DELETE' });
-    if (r.ok) { cursosCache = cursosCache.filter((c) => c.id !== id); limparCache(); }
+    const curso = acharCurso(id);
+    if (!curso || !Number.isInteger(curso.versao)) return { ok: false, erro: 'Atualize a lista antes de excluir.' };
+    const r = await enviarCurso({ id, versao: curso.versao }, { modulos: [], aulas: [], materiais: [] }, 'DELETE');
+    if (r.ok) { cursosCache = cursosCache.filter(c => c.id !== id); limparCache(); }
     return r;
   }
 
@@ -388,7 +413,7 @@ const Store = (() => {
     usuarioAtual, iniciar, entrar, cadastrar, sair, proteger,
     esqueciSenha, redefinirSenha,
     usuarios, matriculas, cursosDoAluno, cursosAcessiveisDoAluno, gerenciarAluno, progressoAluno, statusAvisos, testarAvisos,
-    cursos, catalogo, cursosDoUsuario, acharCurso, salvarCurso, novoCurso, excluirCurso,
+    cursos, catalogo, cursosDoUsuario, acharCurso, carregarCursoEdicao, salvarCurso, novoCurso, excluirCurso,
     estatisticasCurso, parseDuracao,
     estaConcluida, alternarConcluida, progressoCurso,
     comentariosDe, comentar, excluirComentario,

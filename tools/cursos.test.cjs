@@ -8,7 +8,7 @@ const uid = '11111111-1111-4111-8111-111111111111';
 const aluno = { id: uid, nome: 'Teste', papel: 'aluno', liberado: true };
 function carregar(file, deps = {}, extras = {}) {
   const module = { exports: {} };
-  const ctx = { module, exports: module.exports, require: name => name === 'crypto' ? require('node:crypto') : deps, Buffer, URL, encodeURIComponent, ...extras };
+  const ctx = { module, exports: module.exports, require: name => name === 'crypto' ? require('node:crypto') : name === '../../curso-edicao' ? require('../lib/curso-edicao') : deps, Buffer, URL, encodeURIComponent, ...extras };
   vm.runInNewContext(fs.readFileSync(path.join(root, file), 'utf8'), ctx);
   return module.exports;
 }

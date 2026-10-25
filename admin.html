@@ -43,6 +43,7 @@
           Dica: para publicar uma aula, cole o <strong>ID do vídeo do YouTube</strong> (a parte depois de <code>watch?v=</code>).
         </span>
       </div>
+      <div id="mensagem-cursos" class="aviso oculto" role="status" aria-live="polite"></div>
       <div class="tabela-cards" id="lista-cursos"></div>
 
       <!-- editor de curso -->
@@ -55,6 +56,8 @@
           </div>
         </div>
 
+        <div id="estado-editor" class="aviso oculto" role="status" aria-live="polite"></div>
+        <button type="button" id="btn-reabrir-editor" class="btn secundario oculto">Reabrir versão atual</button>
         <div class="grade-2">
           <div class="campo"><label>Título</label><input data-campo="titulo" maxlength="90"></div>
           <div class="campo"><label>Subtítulo (linha rápida no card)</label><input data-campo="subtitulo" maxlength="120"></div>
@@ -172,6 +175,7 @@
 
   <script src="js/store.js"></script>
   <script src="js/admin-progresso.js"></script>
+  <script src="js/editor-curso.js"></script>
   <script type="module">
     await Store.iniciar();
     const usuario = Store.proteger();
@@ -211,34 +215,59 @@
       }).join('');
     }
 
-    $('#lista-cursos').addEventListener('click', (e) => {
+    $('#lista-cursos').addEventListener('click', async (e) => {
+      if (salvando) return;
       const ed = e.target.closest('[data-editar]');
       if (ed) return abrirEditor(ed.dataset.editar);
       const ex = e.target.closest('[data-excluir-curso]');
       if (ex) {
         const c = Store.acharCurso(ex.dataset.excluirCurso);
         if (confirm(`Excluir o curso "${c.titulo}"? Isso também remove o acesso dos alunos.`)) {
-          Store.excluirCurso(c.id).then(() => listarCursos());
+          ex.disabled = true;
+          const r = await Store.excluirCurso(c.id);
+          ex.disabled = false;
+          if (!r.ok) return alert(r.erro || 'Não foi possível excluir o curso.');
+          listarCursos();
         }
       }
     });
 
     $('#btn-novo-curso').addEventListener('click', async () => {
+      if (salvando || (modelo?.alterado && !confirm('Abrir um novo curso e descartar as alterações não salvas?'))) return;
+      const btn = $('#btn-novo-curso');
+      btn.disabled = true;
       const r = await Store.novoCurso();
+      btn.disabled = false;
       if (!r.ok) return alert(r.erro || 'Não foi possível criar o curso.');
-      listarCursos(); abrirEditor(r.curso.id);
+      listarCursos(); abrirEditor(r.curso.id, true);
     });
 
     /* ------------------------------------------------ editor */
-    let ed = null; // cópia de trabalho em memória
-
-    function abrirEditor(id) {
-      ed = JSON.parse(JSON.stringify(Store.acharCurso(id)));
+    let ed = null, modelo = null, salvando = false, conflitoEditor = false, lendoArquivos = 0, abertura = 0;
+    function atualizarSalvar() { $('#btn-salvar-curso').disabled = salvando || conflitoEditor || lendoArquivos > 0 || !modelo?.alterado; }
+    function estadoEditor(texto, erro = false) {
+      const el = $('#estado-editor');
+      el.textContent = texto;
+      el.className = 'aviso' + (erro ? ' erro' : '') + (texto ? '' : ' oculto');
+      el.setAttribute('role', erro ? 'alert' : 'status');
+    }
+    async function abrirEditor(id, descartar = false) {
+      if (salvando || (!descartar && modelo?.alterado && !confirm('Reabrir o editor e descartar as alterações não salvas?'))) return;
+      const pedido = ++abertura;
+      const r = await Store.carregarCursoEdicao(id);
+      if (pedido !== abertura) return;
+      if (!r.ok) return alert(r.erro || 'Não foi possível carregar o curso.');
+      modelo = EditorCurso.criar(r.curso);
+      conflitoEditor = false;
+      ed = modelo.curso;
+      estadoEditor('');
+      $('#btn-reabrir-editor').classList.add('oculto');
       $('#editor').classList.remove('oculto');
       $('#editor-titulo').textContent = 'Editando: ' + ed.titulo;
       $('#dica-capa').textContent = ed.capaImagem ? 'Imagem de capa definida ✓' : 'Sem imagem — usando o emoji da capa.';
       pintarCamposCurso();
       pintarModulos();
+      atualizarSalvar();
       $('#editor').scrollIntoView({ behavior: 'smooth' });
     }
 
@@ -250,14 +279,17 @@
       const i = e.target.closest('[data-campo]'); if (!i || !ed) return;
       if (i.dataset.mod != null || i.dataset.aula != null) return;
       ed[i.dataset.campo] = i.value;
+      modelo.marcar(); atualizarSalvar();
       if (i.dataset.campo === 'titulo') $('#editor-titulo').textContent = 'Editando: ' + i.value;
     });
 
     $('#input-capa').addEventListener('change', async (e) => {
       const f = e.target.files[0]; if (!f || !ed) return;
-      try { ed.capaImagem = await Store.comprimirImagem(f); $('#dica-capa').textContent = 'Imagem de capa definida ✓'; }
+      const alvo = ed;
+      lendoArquivos++; atualizarSalvar();
+      try { const imagem = await Store.comprimirImagem(f); if (ed === alvo) { ed.capaImagem = imagem; modelo.marcar(); $('#dica-capa').textContent = 'Imagem de capa definida ✓'; } }
       catch (err) { alert(err.message); }
-      e.target.value = '';
+      finally { lendoArquivos--; atualizarSalvar(); e.target.value = ''; }
     });
 
     /* módulos e aulas */
@@ -302,17 +334,22 @@
       } else if (i.dataset.modCampo === 'titulo') {
         m.titulo = i.value;
       }
+      modelo.marcar(); atualizarSalvar();
     });
 
     $('#editor-modulos').addEventListener('change', async (e) => {
       const inp = e.target.closest('input[type=file]'); if (!inp || !ed) return;
       const m = ed.modulos[+inp.dataset.mod]; const a = m && m.aulas[+inp.dataset.aula];
       if (!a) return;
-      for (const f of inp.files) {
-        try { a.pdfs = a.pdfs || []; a.pdfs.push(await Store.lerPDF(f)); }
-        catch (err) { alert(err.message); }
-      }
-      pintarModulos();
+      const alvo = ed;
+      lendoArquivos++; atualizarSalvar();
+      try {
+        for (const f of inp.files) {
+          try { const pdf = await Store.lerPDF(f); if (ed === alvo) { a.pdfs.push(pdf); modelo.marcar(); } }
+          catch (err) { alert(err.message); }
+        }
+        if (ed === alvo) pintarModulos();
+      } finally { lendoArquivos--; atualizarSalvar(); }
     });
 
     $('#editor-modulos').addEventListener('click', (e) => {
@@ -323,37 +360,63 @@
         ed.modulos.push({ id: Store.uid(), titulo: `Módulo ${ed.modulos.length + 1}`, aulas: [] });
       } else if (acao === 'rm-mod') {
         if (!confirm('Remover este módulo e todas as suas aulas?')) return;
-        ed.modulos.splice(mi, 1);
+        modelo.removerModulo(mi);
       } else if (acao === 'add-aula') {
         ed.modulos[mi].aulas.push({ id: Store.uid(), titulo: '', youtubeId: '', duracao: '', descricao: '', pdfs: [] });
       } else if (acao === 'rm-aula') {
         if (!confirm('Remover esta aula?')) return;
-        ed.modulos[mi].aulas.splice(+b.dataset.aula, 1);
+        modelo.removerAula(mi, +b.dataset.aula);
       } else if (acao === 'rm-pdf') {
-        ed.modulos[mi].aulas[+b.dataset.aula].pdfs.splice(+b.dataset.pdf, 1);
+        modelo.removerMaterial(mi, +b.dataset.aula, +b.dataset.pdf);
       } else return;
+      modelo.marcar(); atualizarSalvar();
       pintarModulos();
     });
 
     $('#btn-add-modulo').addEventListener('click', () => {
       ed.modulos.push({ id: Store.uid(), titulo: `Módulo ${ed.modulos.length + 1}`, aulas: [] });
+      modelo.marcar(); atualizarSalvar();
       pintarModulos();
     });
 
     $('#btn-salvar-curso').addEventListener('click', async () => {
-      if (!ed.titulo.trim()) return alert('Informe o título do curso.');
-      ed.modulos.forEach(m => { if (!m.titulo.trim()) m.titulo = 'Módulo sem título'; });
+      if (salvando || conflitoEditor || lendoArquivos || !modelo?.alterado) return;
+      if (!ed.titulo.trim()) return estadoEditor('Informe o título do curso.', true);
+      if (modelo.temRemocoes() && !confirm(modelo.resumo())) return;
+      salvando = true;
+      const controles = $$('button,input,textarea,select', $('#editor')).map(el => [el, el.disabled]);
+      controles.forEach(([el]) => { el.disabled = true; });
+      $('#editor').setAttribute('aria-busy', 'true');
       const btn = $('#btn-salvar-curso');
-      btn.disabled = true;
-      const r = await Store.salvarCurso(ed);
-      btn.disabled = false;
-      if (!r.ok) return alert(r.erro || 'Não foi possível salvar o curso.');
-      listarCursos();
-      $('#editor').classList.add('oculto');
-      ed = null;
-      alert('Curso salvo! As alterações já aparecem para os alunos.');
+      btn.textContent = 'Salvando…';
+      estadoEditor('Salvando suas alterações…');
+      try {
+        const r = await Store.salvarCurso(ed, modelo.remocoes());
+        if (!r.ok) {
+          conflitoEditor = !!r.conflito;
+          estadoEditor(r.erro || 'Não foi possível confirmar o salvamento. Suas alterações continuam aqui.', true);
+          $('#btn-reabrir-editor').classList.toggle('oculto', !r.conflito);
+          return;
+        }
+        modelo = EditorCurso.criar(r.curso);
+        ed = modelo.curso;
+        pintarCamposCurso(); pintarModulos(); listarCursos();
+        estadoEditor('Alterações salvas. Você pode continuar editando.');
+        $('#btn-reabrir-editor').classList.add('oculto');
+      } finally {
+        salvando = false;
+        controles.forEach(([el, disabled]) => { el.disabled = disabled; });
+        $('#editor').removeAttribute('aria-busy');
+        btn.textContent = '💾 Salvar alterações';
+        atualizarSalvar();
+      }
     });
-    $('#btn-fechar-editor').addEventListener('click', () => { $('#editor').classList.add('oculto'); ed = null; });
+    $('#btn-reabrir-editor').addEventListener('click', () => { if (ed) abrirEditor(ed.id); });
+    $('#btn-fechar-editor').addEventListener('click', () => {
+      if (salvando || (modelo?.alterado && !confirm('Fechar e descartar as alterações não salvas?'))) return;
+      abertura++;
+      $('#editor').classList.add('oculto'); ed = null; modelo = null;
+    });
 
     /* ================================================== ALUNOS */
     const selecionados = new Set();
