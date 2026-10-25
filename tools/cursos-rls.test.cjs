@@ -40,7 +40,7 @@ test('migração conserva dados e RLS distingue gratuito, matrícula e bloqueio'
     const tabelas=['perfis','cursos','modulos','aulas','matriculas','progresso','materiais','comentarios'];
     const antes={};for(const tabela of tabelas) antes[tabela]=(await db.query(`select * from public.${tabela}`)).rows;
     await db.exec('begin');
-    await db.exec(readFileSync(join(raiz,'supabase/migrations/20261025223906_cursos_gratuitos_pagos.sql'),'utf8'));
+    await db.exec(readFileSync(join(raiz,'supabase/migrations/20261025225237_cursos_gratuitos_pagos.sql'),'utf8'));
     await db.exec('commit');
     await t.test('RPC antiga de exclusão não pode ser executada por visitantes ou alunos',async()=>{
       const p=(await db.query("select has_function_privilege('anon','public.excluir_usuario_completo(uuid)','EXECUTE') as anon,has_function_privilege('authenticated','public.excluir_usuario_completo(uuid)','EXECUTE') as aluno")).rows[0];

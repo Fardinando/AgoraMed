@@ -37,7 +37,7 @@ Editores antigos que não enviam os campos novos preservam a classificação e U
 
 ## Banco e publicação
 
-Migração: `supabase/migrations/20261025223906_cursos_gratuitos_pagos.sql`.
+Migração: `supabase/migrations/20261025225237_cursos_gratuitos_pagos.sql`.
 
 Aplicar a migração antes de publicar o código que consulta `tipo_acesso` e `url_vendas`. Ela é transacional e não contém exclusões. Cancela caso o curso atual não corresponda ao ID/título conferidos, evitando execução inadvertida em outro conjunto de dados.
 
