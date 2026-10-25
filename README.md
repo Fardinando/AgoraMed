@@ -1,3 +1,5 @@
+> **Arquitetura atual:** Vercel + Supabase Auth/Postgres/Storage. As seções de demonstração abaixo são históricas. Para o fluxo atual de acesso automático e cursos pagos, consulte [Cursos gratuitos e pagos](docs/cursos-gratuitos-pagos.md).
+
 # AGORAMED — Plataforma de Educação Médica (PWA)
 
 Site responsivo (celular, tablet e computador), instalável como app (PWA), para cursos em vídeo

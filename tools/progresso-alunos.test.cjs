@@ -20,7 +20,8 @@ function rota(overrides = {}) {
     postgrest: async (path, options) => {
       consultas.push(path);
       assert.equal(options.servico, true);
-      assert.ok(path.includes(`eq.${uid}`), 'Todas as consultas são limitadas ao aluno escolhido');
+      assert.ok(path.startsWith('/cursos?tipo_acesso=eq.gratis') || path.includes(`eq.${uid}`), 'Todas as consultas são limitadas ao aluno escolhido');
+      if (path.startsWith('/cursos?')) return { ok: true, dados: [] };
       if (path.startsWith('/perfis?')) return { ok: true, dados: [aluno] };
       if (path.startsWith('/matriculas?')) return { ok: true, dados: matriculas };
       if (path.startsWith('/progresso?')) return { ok: true, dados: [{ aula_id: 'a1' }, { aula_id: 'a1' }, { aula_id: 'fora-do-curso' }] };
@@ -52,7 +53,8 @@ test('conta apenas aulas concluídas do aluno e de cada curso matriculado', asyn
 
 test('curso concluído mostra 100%', async () => {
   const res = await rota({ postgrest: async path => {
-    if (path.startsWith('/perfis?')) return { ok: true, dados: [aluno] };
+    if (path.startsWith('/cursos?')) return { ok: true, dados: [] };
+      if (path.startsWith('/perfis?')) return { ok: true, dados: [aluno] };
     if (path.startsWith('/matriculas?')) return { ok: true, dados: matriculas };
     return { ok: true, dados: ['a1', 'a2', 'a3'].map(aula_id => ({ aula_id })) };
   } }).executar();
@@ -94,7 +96,8 @@ test('aluno sem matrícula retorna lista vazia', async () => {
 test('paginação considera conclusões além dos primeiros mil registros', async () => {
   const todas = Array.from({ length: 1001 }, (_, i) => ({ aula_id: `a${i}` }));
   const res = await rota({ postgrest: async path => {
-    if (path.startsWith('/perfis?')) return { ok: true, dados: [aluno] };
+    if (path.startsWith('/cursos?')) return { ok: true, dados: [] };
+      if (path.startsWith('/perfis?')) return { ok: true, dados: [aluno] };
     if (path.startsWith('/matriculas?')) return { ok: true, dados: [{ curso: { id: 'grande', titulo: 'Curso grande', modulos: [{ aulas: todas.map(x => ({ id: x.aula_id })) }] } }] };
     const offset = Number(new URL(path, 'https://teste').searchParams.get('offset'));
     return { ok: true, dados: todas.slice(offset, offset + 1000) };
@@ -162,4 +165,15 @@ test('fechar descarta resposta em andamento e permite abrir novamente', async ()
   assert.doesNotMatch(b.node('progresso-aluno-conteudo').innerHTML, /Resposta antiga/);
   b.abrir(uid);
   assert.equal(b.node('dialog-progresso-aluno').open, true);
+});
+
+test('progresso inclui gratuito sem matrícula explícita', async () => {
+  const res = await rota({ postgrest: async path => {
+    if (path.startsWith('/perfis?')) return { ok: true, dados: [aluno] };
+    if (path.startsWith('/matriculas?')) return { ok: true, dados: [] };
+    if (path.startsWith('/cursos?')) return { ok: true, dados: [matriculas[0].curso] };
+    return { ok: true, dados: [{ aula_id: 'a1' }] };
+  } }).executar();
+  assert.equal(res.body.cursos.length, 1);
+  assert.equal(res.body.cursos[0].percentual, 33);
 });

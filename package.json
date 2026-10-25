@@ -1,6 +1,13 @@
 {
   "name": "agoramed",
   "private": true,
-  "scripts": { "test": "node --test tools/*.test.cjs" },
-  "dependencies": { "nodemailer": "10.2.1" }
+  "scripts": {
+    "test": "node --test tools/*.test.cjs"
+  },
+  "dependencies": {
+    "nodemailer": "10.2.1"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.11"
+  }
 }

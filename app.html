@@ -56,8 +56,14 @@
       </div>
       <div class="linha-cartoes" id="linha-cursos"></div>
       <div id="vazio-cursos" class="aviso oculto">
-        Você ainda não tem cursos liberados. Assim que o professor liberar um curso para você, ele aparecerá aqui.
+        Os cursos gratuitos e os cursos pagos liberados para você aparecerão aqui.
       </div>
+    </section>
+
+    <section class="secao oculto" id="secao-catalogo">
+      <div class="secao-cab"><h2>Conheça outros cursos</h2></div>
+      <p class="catalogo-legenda">Conheça os cursos pagos. Se você já tem acesso, eles aparecem em “Meus cursos”.</p>
+      <div class="linha-cartoes" id="linha-catalogo"></div>
     </section>
 
     <!-- linha: divulgação -->
@@ -90,6 +96,7 @@
   </footer>
 
   <script src="js/store.js"></script>
+  <script src="js/catalogo-cursos.js"></script>
   <script type="module">
     await Store.iniciar();
     const usuario = Store.proteger();
@@ -123,10 +130,10 @@
       const est = Store.estatisticasCurso(c);
       const prog = Store.progressoCurso(usuario.id, c);
       return `
-        <a class="cartao-curso" href="curso.html?id=${c.id}">
+        <a class="cartao-curso" href="/api/curso?id=${encodeURIComponent(c.id)}">
           <div class="capa">
             ${capaHTML(c)}
-            <span class="badge">${UI.escapar(c.categoria || 'Curso')}</span>
+            <span class="badge">${c.tipoAcesso === 'gratis' ? 'Gratuito' : 'Acesso liberado'}</span>
             <span class="duracao">${est.duracao}</span>
           </div>
           <div class="info-curso">
@@ -149,6 +156,12 @@
       linhaCursos.classList.add('oculto');
     } else {
       linhaCursos.innerHTML = meus.map(cartaoCurso).join('');
+    }
+
+    const catalogo = Store.catalogo();
+    if (catalogo.length) {
+      document.getElementById('secao-catalogo').classList.remove('oculto');
+      document.getElementById('linha-catalogo').innerHTML = catalogo.map(CatalogoCursos.cartao).join('');
     }
 
     /* continuar assistindo: curso com progresso > 0 e < 100 */

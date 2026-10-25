@@ -951,3 +951,8 @@ main.container, .tela-login, .admin-cab {
   .progresso-aluno-cab { flex-wrap: wrap; }
   .progresso-aluno-legenda { align-items: flex-start; flex-direction: column; gap: 12px; }
 }
+
+/* Catálogo comercial; conteúdo restrito é autorizado pelo servidor. */
+.catalogo-legenda { margin: -4px 0 18px; color: var(--texto-suave); font-size: .9rem; }
+.catalogo-convite { margin-top: 14px; font-weight: 700; color: var(--petroleo); }
+.cartao-catalogo[aria-disabled="true"] { cursor: default; }

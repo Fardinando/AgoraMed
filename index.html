@@ -106,7 +106,7 @@
         </div>
         <button type="submit" class="btn" style="width:100%">Criar conta</button>
         <p class="dica" style="margin-top:10px;font-size:.8rem;color:var(--texto-suave);text-align:center">
-          Após o cadastro, confirme seu e-mail e aguarde a liberação pelo professor.
+          Confirme seu e-mail para acessar todos os cursos gratuitos. Cursos pagos exigem acesso concedido pelo professor.
         </p>
       </form>
     </section>
@@ -136,7 +136,7 @@
       msg.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
     if (params.get('pendente') === '1') {
-      mostrarMsg('Sua conta ainda está aguardando liberação. Assim que o professor liberar, você poderá entrar.', 'erro');
+      mostrarMsg('Sua conta está com acesso restrito. Entre em contato com o professor.', 'erro');
     } else if (params.get('redefinir') === 'ok') {
       mostrarMsg('Senha redefinida com sucesso! Entre com a nova senha.', 'sucesso');
     } else if (params.get('redefinir') === 'erro') {

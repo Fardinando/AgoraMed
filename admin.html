@@ -68,6 +68,19 @@
         <div class="campo"><label>Descrição</label><textarea data-campo="descricao" maxlength="500"></textarea></div>
 
         <div class="grade-2">
+          <div class="campo"><label for="curso-tipo-acesso">Acesso ao curso</label>
+            <select id="curso-tipo-acesso" data-campo="tipoAcesso">
+              <option value="gratis">Gratuito — acesso automático</option>
+              <option value="pago">Pago — acesso concedido pelo professor</option>
+            </select>
+          </div>
+          <div class="campo"><label for="curso-url-vendas">Página de vendas do curso pago</label>
+            <input id="curso-url-vendas" type="url" data-campo="urlVendas" placeholder="https://...">
+            <small class="dica">Quem ainda não tem acesso será direcionado para este endereço. Sem endereço, o anúncio aparece como “Em breve”.</small>
+          </div>
+        </div>
+
+        <div class="grade-2">
           <div class="campo"><label>Emoji da capa</label><input data-campo="capaEmoji" maxlength="4" placeholder="🩺"></div>
           <div class="campo">
             <label>Ou imagem da capa (recomendado 16:9)</label>
@@ -87,7 +100,7 @@
     <!-- ================= ALUNOS ================= -->
     <section id="aba-alunos" class="oculto">
       <div class="aviso" style="margin:10px 0">
-        Alunos novos aparecem como <strong>pendentes</strong> até você liberá-los. Depois, escolha quais cursos cada um terá acesso.
+        Após confirmar o e-mail, novos alunos acessam os cursos <strong>gratuitos automaticamente</strong>. Você continua concedendo os cursos pagos e pode bloquear uma conta quando necessário.
       </div>
 
       <div class="aviso" style="margin-bottom:14px">
@@ -103,7 +116,7 @@
         <input type="search" id="busca-alunos" placeholder="Pesquisar pelo nome…" autocomplete="off" aria-label="Pesquisar alunos e professores pelo nome">
         <select id="filtro-curso-alunos" aria-label="Filtrar por curso">
           <option value="todos">Todos os cursos</option>
-          <option value="sem">Sem curso associado</option>
+          <option value="sem">Sem curso pago</option>
         </select>
         <span class="busca-contagem" id="busca-contagem" aria-live="polite"></span>
       </div>
@@ -187,7 +200,7 @@
           <div class="mini-capa">${c.capaImagem ? `<img src="${c.capaImagem}" alt="">` : UI.escapar(c.capaEmoji || '🩺')}</div>
           <div class="dados">
             <strong>${UI.escapar(c.titulo)}</strong>
-            <small>${est.modulos} módulos · ${est.aulas} aulas · ${est.pdfs} PDFs · ${est.duracao} · ${UI.escapar(c.categoria || 'sem categoria')}</small>
+            <small>${c.tipoAcesso === 'gratis' ? 'Gratuito' : 'Pago'} · ${est.modulos} módulos · ${est.aulas} aulas · ${est.pdfs} PDFs · ${est.duracao} · ${UI.escapar(c.categoria || 'sem categoria')}</small>
           </div>
           <div class="acoes">
             <button class="btn pequeno" data-editar="${c.id}">✏️ Editar</button>
@@ -363,10 +376,10 @@
       const vf = selFiltro.value;
       const vm = selMassa.value;
       selFiltro.innerHTML = '<option value="todos">Todos os cursos</option>'
-        + '<option value="sem">Sem curso associado</option>'
+        + '<option value="sem">Sem curso pago</option>'
         + cursos.map(c => `<option value="${c.id}">${UI.escapar(c.titulo)}</option>`).join('');
       selMassa.innerHTML = '<option value="">Escolha um curso…</option>'
-        + cursos.map(c => `<option value="${c.id}">${UI.escapar(c.titulo)}</option>`).join('');
+        + cursos.filter(c => c.tipoAcesso !== 'gratis').map(c => `<option value="${c.id}">${UI.escapar(c.titulo)}</option>`).join('');
       if ([...selFiltro.options].some(o => o.value === vf)) selFiltro.value = vf;
       if ([...selMassa.options].some(o => o.value === vm)) selMassa.value = vm;
     }
@@ -401,8 +414,8 @@
       const filtroCurso = $('#filtro-curso-alunos').value || 'todos';
       return Store.usuarios().filter(u => {
         if (termo && !normalizarBusca(u.nome).includes(termo)) return false;
-        const meus = Store.cursosDoAluno(u.id);
-        if (filtroCurso === 'sem') return meus.length === 0;
+        const meus = Store.cursosAcessiveisDoAluno(u.id);
+        if (filtroCurso === 'sem') return !Store.cursosDoAluno(u.id).some(id => Store.acharCurso(id)?.tipoAcesso !== 'gratis');
         if (filtroCurso !== 'todos') return meus.includes(filtroCurso);
         return true;
       });
@@ -439,7 +452,7 @@
         const filtroCurso = $('#filtro-curso-alunos').value || 'todos';
         let msg = 'Nenhum aluno cadastrado ainda.';
         if (normalizarBusca($('#busca-alunos').value || '')) msg = 'Nenhum usuário encontrado com esse nome.';
-        else if (filtroCurso === 'sem') msg = 'Nenhum usuário sem curso associado.';
+        else if (filtroCurso === 'sem') msg = 'Nenhum usuário sem curso pago.';
         else if (filtroCurso !== 'todos') msg = 'Nenhum usuário associado a este curso.';
         el.innerHTML = `<div class="aviso">${msg}</div>`;
         atualizarBarraMassa();
@@ -458,9 +471,9 @@
           <div class="dados">
             <div class="aluno-identidade">
               ${ehAdmin ? `<strong>${UI.escapar(u.nome)}</strong>` : `<button type="button" class="aluno-nome-progresso" data-progresso-aluno="${u.id}" aria-haspopup="dialog">${UI.escapar(u.nome)} <span>Ver progresso ↗</span></button>`}
-              ${ehAdmin ? '<span class="situacao admin">Professor(a)</span>' : (u.liberado ? '<span class="situacao liberado">Liberado</span>' : '<span class="situacao pendente">Pendente</span>')}
+              ${ehAdmin ? '<span class="situacao admin">Professor(a)</span>' : (u.liberado ? '<span class="situacao liberado">Ativo</span>' : '<span class="situacao pendente">Bloqueado</span>')}
             </div>
-            <small>${UI.escapar(u.email)} · ${meus.length} curso(s) adquirido(s)</small>
+            <small>${UI.escapar(u.email)} · ${Store.cursosAcessiveisDoAluno(u.id).length} curso(s) com acesso</small>
             ${!ehAdmin && u.whatsapp ? `<small>📱 WhatsApp: ${UI.whatsBR(u.whatsapp)}</small>` : ''}
             ${ehAdmin ? '' : `
             <details style="margin-top:8px">
@@ -468,8 +481,8 @@
               <div style="margin-top:8px;display:grid;gap:6px">
                 ${cursos.length ? cursos.map(c => `
                   <label style="display:flex;gap:8px;align-items:center;font-size:.86rem">
-                    <input type="checkbox" data-aluno="${u.id}" data-curso="${c.id}" ${meus.includes(c.id) ? 'checked' : ''}>
-                    ${UI.escapar(c.titulo)}
+                    <input type="checkbox" data-aluno="${u.id}" data-curso="${c.id}" ${c.tipoAcesso === 'gratis' || meus.includes(c.id) ? 'checked' : ''} ${c.tipoAcesso === 'gratis' ? 'disabled' : ''}>
+                    ${UI.escapar(c.titulo)}${c.tipoAcesso === 'gratis' ? ' · Gratuito, acesso automático para contas ativas' : ''}
                   </label>`).join('') : '<small>Crie cursos primeiro para liberar acesso.</small>'}
               </div>
             </details>`}
@@ -527,7 +540,7 @@
       const curso = Store.cursos().find(c => c.id === cursoId);
       const nomeCurso = curso ? curso.titulo : 'curso';
       const msg = liberar
-        ? `Liberar o acesso ao curso “${nomeCurso}” para ${ids.length} usuário(s)?\n\nContas pendentes também serão aprovadas.`
+        ? `Liberar o acesso ao curso “${nomeCurso}” para ${ids.length} usuário(s)?\n\nContas bloqueadas continuam bloqueadas.`
         : `Remover o acesso ao curso “${nomeCurso}” de ${ids.length} usuário(s)?`;
       if (!confirm(msg)) return;
 
@@ -546,7 +559,7 @@
             const lista = liberar
               ? (atuais.includes(cursoId) ? atuais : [...atuais, cursoId])
               : atuais.filter(c => c !== cursoId);
-            const r = await Store.gerenciarAluno(id, 'cursos', lista, { liberar });
+            const r = await Store.gerenciarAluno(id, 'cursos', lista);
             if (!r || !r.ok) falhas++;
           }
         });
@@ -576,11 +589,11 @@
       if (!r.ok) return alert(r.err || r.erro || 'Não foi possível salvar o acesso.');
       /* atualiza contadores e remove o card se ele deixou de bater com o filtro */
       const filtroCurso = $('#filtro-curso-alunos').value || 'todos';
-      const meus = Store.cursosDoAluno(uid);
+      const meus = Store.cursosAcessiveisDoAluno(uid);
       const aindaBate = filtroCurso === 'todos'
         ? true
         : filtroCurso === 'sem'
-          ? meus.length === 0
+          ? !Store.cursosDoAluno(uid).some(id => Store.acharCurso(id)?.tipoAcesso !== 'gratis')
           : meus.includes(filtroCurso);
       if (aindaBate) atualizarContagem();
       else listarAlunos();

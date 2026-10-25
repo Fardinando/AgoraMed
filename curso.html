@@ -55,7 +55,7 @@
 
   <script src="js/store.js"></script>
   <script type="module">
-    await Store.iniciar();
+    await Store.iniciar({ atualizar: new URLSearchParams(location.search).get('atualizar') === '1' });
     const usuario = Store.proteger();
 
     document.getElementById('nome-topo').textContent = usuario.nome.split(' ')[0];
@@ -84,6 +84,7 @@
       document.getElementById('c-sub').textContent = curso.subtitulo || curso.descricao || '';
 
       const pills = [
+        curso.tipoAcesso === 'gratis' ? 'Gratuito' : 'Acesso liberado',
         curso.categoria, curso.nivel,
         `${est.modulos} módulo${est.modulos === 1 ? '' : 's'}`,
         `${est.aulas} aula${est.aulas === 1 ? '' : 's'}`,

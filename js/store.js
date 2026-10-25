@@ -7,6 +7,7 @@
 const Store = (() => {
   let eu = null;                 // perfil do usuário logado
   let versaoSessao = 0;          // invalida respostas iniciadas antes do logout
+  let catalogoCache = [];
   let cursosCache = [];          // cursos visíveis a quem está logado
   let progressoCache = new Set(); // aula_ids concluídas do usuário atual
   const pendentes = new Map();    // aula_id -> { ts, vai } (vai=true: marcar)
@@ -35,7 +36,7 @@ const Store = (() => {
 
   /* ---------------------------------------------------------- sessão */
   /* cache em sessionStorage para evitar re-buscar tudo a cada troca de página */
-  const CACHE_KEY = 'agoramed_app_cache';
+  const CACHE_KEY = 'agoramed_app_cache_v2';
   function lerCache() {
     try {
       const raw = sessionStorage.getItem(CACHE_KEY);
@@ -58,15 +59,17 @@ const Store = (() => {
       sessionStorage.setItem(CACHE_KEY, JSON.stringify({ dados: { ...dados, pendentes: p }, ts: Date.now() }));
     } catch (e) {}
   }
-  function limparCache() { try { sessionStorage.removeItem(CACHE_KEY); } catch (e) {} }
+  function limparCache() { try { sessionStorage.removeItem(CACHE_KEY); sessionStorage.removeItem('agoramed_app_cache'); } catch (e) {} }
 
-  async function iniciar() {
+  async function iniciar({ atualizar = false } = {}) {
+    if (atualizar) limparCache();
     const versao = versaoSessao;
     /* tenta usar o cache para não esperar o backend em cada troca de página */
     const cache = lerCache();
     if (cache && cache.dados && cache.dados.usuario) {
       eu = cache.dados.usuario;
       cursosCache = cache.dados.cursos || [];
+      catalogoCache = cache.dados.catalogo || [];
       progressoCache = new Set(cache.dados.progresso || []);
       /* restaura toggles pendentes de navegação anterior (expira em 30s) */
       (cache.dados.pendentes || []).forEach((p) => {
@@ -85,6 +88,7 @@ const Store = (() => {
     if (!r || !r.ok) { eu = null; limparDados(); limparCache(); return null; }
     eu = r.usuario;
     cursosCache = r.cursos || [];
+    catalogoCache = r.catalogo || [];
     progressoCache = new Set(r.progresso || []);
     promosCache = r.promos || [];
     alunosCache = r.alunos || [];
@@ -101,6 +105,7 @@ const Store = (() => {
       if (!r || !r.ok) { limparCache(); eu = null; limparDados(); return; }
       eu = r.usuario;
       cursosCache = r.cursos || [];
+      catalogoCache = r.catalogo || [];
       progressoCache = new Set(r.progresso || []);
       /* reaplica toggles ainda em andamento para não perder */
       limparPendentesExpirados();
@@ -121,6 +126,7 @@ const Store = (() => {
     if (versao !== versaoSessao) return;
     if (!r || !r.ok) { limparDados(); limparCache(); return; }
     cursosCache = r.cursos || [];
+    catalogoCache = r.catalogo || [];
     progressoCache = new Set(r.progresso || []);
     limparPendentesExpirados();
     pendentes.forEach(({ vai }, id) => {
@@ -133,7 +139,7 @@ const Store = (() => {
     gravarProgressoNoCache();
   }
   function limparDados() {
-    cursosCache = []; progressoCache = new Set();
+    cursosCache = []; catalogoCache = []; progressoCache = new Set();
     promosCache = []; alunosCache = []; matriculasCache = [];
     pendentes.clear();
   }
@@ -169,6 +175,7 @@ const Store = (() => {
 
   /* ------------------------------------------------------------ cursos */
   const cursos = () => cursosCache;
+  const catalogo = () => catalogoCache;
   const cursosDoUsuario = () => cursosCache; // o servidor já devolve só o que o aluno tem acesso
   const acharCurso = (id) => cursosCache.find((c) => c.id === id);
 
@@ -295,6 +302,12 @@ const Store = (() => {
   /* matrículas do aluno em memória (o servidor já devolve a lista completa) */
   const cursosDoAluno = (usuarioId) =>
     matriculasCache.filter((m) => m.usuario_id === usuarioId).map((m) => m.curso_id);
+  const cursosAcessiveisDoAluno = (usuarioId) => {
+    const aluno = alunosCache.find(u => u.id === usuarioId);
+    if (!aluno || !aluno.liberado) return [];
+    const pagos = new Set(cursosDoAluno(usuarioId));
+    return cursosCache.filter(c => aluno.papel === 'admin' || c.tipoAcesso === 'gratis' || pagos.has(c.id)).map(c => c.id);
+  };
 
   const progressoAluno = (usuarioId) => api('/admin/progresso?usuario_id=' + encodeURIComponent(usuarioId));
 
@@ -374,8 +387,8 @@ const Store = (() => {
     uid,
     usuarioAtual, iniciar, entrar, cadastrar, sair, proteger,
     esqueciSenha, redefinirSenha,
-    usuarios, matriculas, cursosDoAluno, gerenciarAluno, progressoAluno, statusAvisos, testarAvisos,
-    cursos, cursosDoUsuario, acharCurso, salvarCurso, novoCurso, excluirCurso,
+    usuarios, matriculas, cursosDoAluno, cursosAcessiveisDoAluno, gerenciarAluno, progressoAluno, statusAvisos, testarAvisos,
+    cursos, catalogo, cursosDoUsuario, acharCurso, salvarCurso, novoCurso, excluirCurso,
     estatisticasCurso, parseDuracao,
     estaConcluida, alternarConcluida, progressoCurso,
     comentariosDe, comentar, excluirComentario,
