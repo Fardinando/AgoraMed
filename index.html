@@ -50,6 +50,19 @@
 
       <div id="mensagem" class="aviso oculto" role="alert"></div>
 
+      <section id="confirmacao-cadastro" class="confirmacao-cadastro oculto" aria-labelledby="titulo-confirmacao">
+        <h2 id="titulo-confirmacao" tabindex="-1">Confira seu e-mail para continuar</h2>
+        <p>Para concluir uma nova conta, <strong>você precisa confirmar seu e-mail antes de fazer login.</strong></p>
+        <ol>
+          <li>Abra a caixa de entrada de <strong id="email-confirmacao"></strong>.</li>
+          <li>Procure a mensagem da AgoraMed e clique no link de confirmação.</li>
+          <li>Depois, volte à plataforma e entre com seu e-mail e senha.</li>
+        </ol>
+        <p>Não encontrou? Verifique também o <strong>spam ou lixo eletrônico</strong> e aguarde alguns minutos. Evite repetir o cadastro enquanto espera: isso pode atingir o limite de envio de e-mails.</p>
+        <button type="button" id="voltar-apos-confirmar" class="btn" style="width:100%">Já confirmei meu e-mail — ir para o login</button>
+        <p class="conta-existente">Já tinha uma conta? Entre com sua senha original ou use “Esqueci minha senha”. Um novo cadastro não altera sua senha.</p>
+      </section>
+
       <!-- LOGIN -->
       <form id="form-entrar" autocomplete="on" style="margin-top:16px">
         <div class="campo">
@@ -64,6 +77,7 @@
           Esqueci minha senha
         </button>
         <button type="submit" class="btn" style="width:100%">Entrar na plataforma</button>
+        <p class="lembrete-confirmacao">Acabou de se cadastrar? Antes de entrar, confirme seu e-mail pelo link enviado à sua caixa de entrada. Confira também o spam.</p>
       </form>
 
       <!-- RECUPERAÇÃO DE SENHA -->
@@ -83,6 +97,10 @@
 
       <!-- CADASTRO -->
       <form id="form-cadastrar" class="oculto" style="margin-top:16px">
+        <div class="orientacao-cadastro">
+          <strong>O cadastro tem uma etapa de confirmação por e-mail.</strong>
+          <p>Após criar a conta, abra o e-mail da AgoraMed e clique no link de confirmação. Só depois você poderá entrar na plataforma. Use um e-mail ao qual você tenha acesso.</p>
+        </div>
         <div class="campo">
           <label for="cad-nome">Nome completo <span class="obrig">*</span></label>
           <input type="text" id="cad-nome" required autocomplete="name" placeholder="Dra. Ana Souza">
@@ -151,17 +169,19 @@
     const formEntrar = document.getElementById('form-entrar');
     const formCadastrar = document.getElementById('form-cadastrar');
     const formEsqueci = document.getElementById('form-esqueci');
+    const confirmacaoCadastro = document.getElementById('confirmacao-cadastro');
     function ativarAba(qual) {
       const ehEntrar = qual === 'entrar';
       abaEntrar.classList.toggle('ativo', ehEntrar && qual !== 'esqueci');
       abaCadastrar.classList.toggle('ativo', qual === 'cadastrar');
 
       /* anima o formulário que vai aparecer */
-      [formEntrar, formCadastrar, formEsqueci].forEach((f) => {
+      [formEntrar, formCadastrar, formEsqueci, confirmacaoCadastro].forEach((f) => {
         f.classList.add('oculto');
         f.classList.remove('form-animar');
       });
-      const alvo = qual === 'cadastrar' ? formCadastrar
+      const alvo = qual === 'confirmacao' ? confirmacaoCadastro
+                  : qual === 'cadastrar' ? formCadastrar
                   : qual === 'esqueci' ? formEsqueci
                   : formEntrar;
       /* força reflow para reiniciar a animação */
@@ -176,6 +196,11 @@
     abaCadastrar.addEventListener('click', () => ativarAba('cadastrar'));
     document.getElementById('link-esqueci').addEventListener('click', () => ativarAba('esqueci'));
     document.getElementById('link-voltar-login').addEventListener('click', () => ativarAba('entrar'));
+
+    document.getElementById('voltar-apos-confirmar').addEventListener('click', () => {
+      ativarAba('entrar');
+      document.getElementById('login-senha').focus();
+    });
 
     /* se já houver sessão, segue direto (exceto na página de teste visual) */
     if (!params.get('preview')) {
@@ -213,10 +238,13 @@
       );
       btn.disabled = false;
       if (!r.ok) return mostrarMsg(r.erro);
-      document.getElementById('login-email').value = document.getElementById('cad-email').value;
+      const emailCadastro = document.getElementById('cad-email').value.trim();
+      document.getElementById('login-email').value = emailCadastro;
+      document.getElementById('email-confirmacao').textContent = emailCadastro;
       formCadastrar.reset();
-      ativarAba('entrar');
-      mostrarMsg(r.msg || 'Solicitação recebida. Se já tem conta, entre com a senha original ou use “Esqueci minha senha”.', 'sucesso');
+      ativarAba('confirmacao');
+      document.getElementById('titulo-confirmacao').focus();
+      confirmacaoCadastro.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
 
     formEsqueci.addEventListener('submit', async (e) => {

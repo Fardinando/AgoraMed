@@ -154,13 +154,14 @@ test('professor não pode excluir a própria conta', async () => {
   assert.match(r.erro, /própria conta/);
 });
 
-test('após cadastro, mostra login com e-mail preenchido e mantém as orientações visíveis', async () => {
+test('após cadastro, destaca confirmação antes do login e mantém e-mail preenchido', async () => {
   const html = readFileSync(join(__dirname, '../index.html'), 'utf8');
   const script = html.match(/<script type="module">([\s\S]*?)<\/script>/)[1];
   const nodes = new Map();
   const el = id => {
     if (!nodes.has(id)) nodes.set(id, {
-      value: '', classList: { add() {}, remove() {}, toggle() {} },
+      value: '', classes: new Set(),
+      get classList() { const c = this.classes; return { add: x => c.add(x), remove: x => c.delete(x), toggle() {} }; },
       addEventListener(type, fn) { this[type] = fn; },
       querySelector() { return this.button ||= {}; },
       scrollIntoView() {}, focus() {}, reset() { this.resetou = true; },
@@ -178,8 +179,15 @@ test('após cadastro, mostra login com e-mail preenchido e mantém as orientaç�
   await el('form-cadastrar').submit({ preventDefault() {} });
   assert.equal(el('login-email').value, cadastro.email);
   assert.equal(el('form-cadastrar').resetou, true);
-  assert.match(el('mensagem').textContent, /senha original/);
-  assert.equal(el('mensagem').className, 'aviso sucesso');
+  assert.equal(el('email-confirmacao').textContent, cadastro.email);
+  assert.equal(el('confirmacao-cadastro').classes.has('oculto'), false);
+  assert.equal(el('form-entrar').classes.has('oculto'), true);
+  assert.match(html, /você precisa confirmar seu e-mail antes de fazer login/);
+  assert.match(html, /spam ou lixo eletrônico/);
+  el('voltar-apos-confirmar').click();
+  assert.equal(el('confirmacao-cadastro').classes.has('oculto'), true);
+  assert.equal(el('form-entrar').classes.has('oculto'), false);
+  assert.equal(el('login-email').value, cadastro.email);
 });
 
 test('falha no aviso administrativo não impede o cadastro do aluno', async () => {

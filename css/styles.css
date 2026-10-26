@@ -956,3 +956,17 @@ main.container, .tela-login, .admin-cab {
 .catalogo-legenda { margin: -4px 0 18px; color: var(--texto-suave); font-size: .9rem; }
 .catalogo-convite { margin-top: 14px; font-weight: 700; color: var(--petroleo); }
 .cartao-catalogo[aria-disabled="true"] { cursor: default; }
+
+/* Confirmação de e-mail: orientação antes e depois do cadastro. */
+.orientacao-cadastro, .confirmacao-cadastro {
+  margin: 16px 0; padding: 16px; border: 1px solid #BCD4DA;
+  border-radius: 12px; background: #EDF5F7; color: #294E59;
+  font-size: .9rem; line-height: 1.55; overflow-wrap: anywhere;
+}
+.orientacao-cadastro p { margin-top: 6px; }
+.confirmacao-cadastro h2 { font-size: 1.2rem; line-height: 1.3; margin-bottom: 12px; }
+.confirmacao-cadastro p { margin: 12px 0; }
+.confirmacao-cadastro ol { padding-left: 22px; margin: 12px 0; }
+.confirmacao-cadastro li + li { margin-top: 8px; }
+.confirmacao-cadastro .conta-existente { font-size: .82rem; margin-bottom: 0; }
+.lembrete-confirmacao { font-size: .82rem; line-height: 1.5; color: var(--texto-suave); margin-top: 14px; }
