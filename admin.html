@@ -244,7 +244,10 @@
 
     /* ------------------------------------------------ editor */
     let ed = null, modelo = null, salvando = false, conflitoEditor = false, lendoArquivos = 0, abertura = 0;
-    function atualizarSalvar() { $('#btn-salvar-curso').disabled = salvando || conflitoEditor || lendoArquivos > 0 || !modelo?.alterado; }
+    function atualizarSalvar() {
+      $('#btn-salvar-curso').disabled = salvando || conflitoEditor || lendoArquivos > 0 || !modelo?.alterado;
+      $$('[data-acao="escolher-pdfs"]').forEach(b => { b.disabled = salvando || conflitoEditor || lendoArquivos > 0; });
+    }
     function estadoEditor(texto, erro = false) {
       const el = $('#estado-editor');
       el.textContent = texto;
@@ -311,10 +314,14 @@
               <div class="grade-3">
                 <input data-mod="${i}" data-aula="${j}" data-campo="youtubeId" value="${UI.escapar(a.youtubeId || '')}" placeholder="ID do vídeo YouTube (ex.: aBc123XyZ_4)">
                 <input data-mod="${i}" data-aula="${j}" data-campo="duracao" value="${UI.escapar(a.duracao || '')}" placeholder="Duração (ex.: 14:20)">
-                <input type="file" accept="application/pdf" multiple data-acao="add-pdf" data-mod="${i}" data-aula="${j}">
+                <div>
+                  <button type="button" class="btn pequeno secundario" data-acao="escolher-pdfs" data-mod="${i}" data-aula="${j}">＋ Adicionar PDFs</button>
+                  <input type="file" accept="application/pdf,.pdf" multiple class="oculto" data-acao="add-pdf" data-mod="${i}" data-aula="${j}">
+                </div>
               </div>
-              <p class="dica" style="font-size:.8rem;margin-top:6px">PDFs de até 50 MB por arquivo. Aguarde o envio e depois clique em Salvar curso.</p>
+              <p class="dica" style="font-size:.8rem;margin-top:6px">Você pode anexar vários PDFs nesta aula, juntos ou um de cada vez. Novos arquivos são acrescentados à lista. Até 50 MB por arquivo. Depois, salve as alterações.</p>
               <textarea style="margin-top:8px" rows="4" data-mod="${i}" data-aula="${j}" data-campo="descricao" placeholder="Descrição da aula (opcional)">${UI.escapar(a.descricao || '')}</textarea>
+              <p style="font-size:.85rem;margin-top:10px"><strong>Materiais da aula: ${(a.pdfs || []).length} ${(a.pdfs || []).length === 1 ? 'PDF anexado' : 'PDFs anexados'}</strong></p>
               ${(a.pdfs || []).map((p, k) => `
                 <div class="material" style="margin-top:8px">
                   <span class="icone-pdf">PDF</span>
@@ -343,21 +350,27 @@
       const m = ed.modulos[+inp.dataset.mod]; const a = m && m.aulas[+inp.dataset.aula];
       if (!a) return;
       const alvo = ed;
+      const arquivos = Array.from(inp.files);
+      inp.value = '';
+      if (!arquivos.length) return;
+      let adicionados = 0, falhas = 0;
       lendoArquivos++; atualizarSalvar();
       try {
-        for (const f of inp.files) {
+        for (const [indice, f] of arquivos.entries()) {
           try {
             const pdf = await Store.lerPDF(f, { cursoId: alvo.id, aulaId: a.id, progresso: percentual => {
-              if (ed === alvo) estadoEditor(`Enviando ${f.name}: ${percentual}%. Aguarde para salvar o curso.`);
+              if (ed === alvo) estadoEditor(`Enviando PDF ${indice + 1} de ${arquivos.length} — ${f.name}: ${percentual}%. Aguarde para salvar o curso.`);
             } });
             if (ed === alvo && ed.modulos.some(m => m.aulas.includes(a))) {
-              a.pdfs.push(pdf); modelo.marcar();
-              estadoEditor('PDF enviado. Clique em Salvar curso para disponibilizá-lo aos alunos.');
+              a.pdfs.push(pdf); modelo.marcar(); adicionados++;
             }
           }
-          catch (err) { if (ed === alvo) estadoEditor(err.message, true); alert(err.message); }
+          catch (err) { falhas++; if (ed === alvo) estadoEditor(err.message, true); alert(err.message); }
         }
-        if (ed === alvo) pintarModulos();
+        if (ed === alvo) {
+          pintarModulos();
+          if (adicionados) estadoEditor(`${adicionados} ${adicionados === 1 ? 'PDF adicionado' : 'PDFs adicionados'} à lista. ${falhas ? `${falhas} envio(s) falharam; selecione esses arquivos novamente. ` : ''}Salve as alterações para disponibilizar os materiais aos alunos.`, falhas > 0);
+        }
       } finally { lendoArquivos--; atualizarSalvar(); }
     });
 
@@ -365,6 +378,11 @@
       const b = e.target.closest('[data-acao]'); if (!b || !ed) return;
       const acao = b.dataset.acao;
       const mi = +b.dataset.mod;
+      if (acao === 'escolher-pdfs') {
+        if (salvando || conflitoEditor || lendoArquivos) return;
+        b.parentElement.querySelector('input[type=file]').click();
+        return;
+      }
       if (acao === 'add-mod') {
         ed.modulos.push({ id: Store.uid(), titulo: `Módulo ${ed.modulos.length + 1}`, aulas: [] });
       } else if (acao === 'rm-mod') {

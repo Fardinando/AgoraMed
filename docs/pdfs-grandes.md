@@ -23,3 +23,9 @@ Referências:
 - https://supabase.com/docs/guides/storage/uploads/file-limits
 - https://supabase.com/docs/reference/javascript/storage-from-createsigneduploadurl
 - https://supabase.com/docs/reference/javascript/storage-from-uploadtosignedurl
+
+## Vários PDFs na mesma aula
+
+O editor mostra “Adicionar PDFs”, aceita seleção múltipla, informa a quantidade de anexos e mantém os anteriores ao acrescentar outros. A seleção é copiada antes do envio e o campo é reiniciado; durante o envio, novos seletores ficam desabilitados para evitar alterações no lote em andamento. O limite de 50 MB se aplica individualmente.
+
+Verificação em prévia isolada: dois PDFs selecionados juntos, curso salvo, terceiro PDF acrescentado e novo salvamento conservaram os três materiais da mesma aula. Nenhum dado real foi alterado. A inspeção dos índices do banco real não encontrou unicidade por aula; a única chave única de materiais é seu próprio ID.
