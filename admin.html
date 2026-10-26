@@ -313,6 +313,7 @@
                 <input data-mod="${i}" data-aula="${j}" data-campo="duracao" value="${UI.escapar(a.duracao || '')}" placeholder="Duração (ex.: 14:20)">
                 <input type="file" accept="application/pdf" multiple data-acao="add-pdf" data-mod="${i}" data-aula="${j}">
               </div>
+              <p class="dica" style="font-size:.8rem;margin-top:6px">PDFs de até 50 MB por arquivo. Aguarde o envio e depois clique em Salvar curso.</p>
               <textarea style="margin-top:8px" rows="4" data-mod="${i}" data-aula="${j}" data-campo="descricao" placeholder="Descrição da aula (opcional)">${UI.escapar(a.descricao || '')}</textarea>
               ${(a.pdfs || []).map((p, k) => `
                 <div class="material" style="margin-top:8px">
@@ -345,8 +346,16 @@
       lendoArquivos++; atualizarSalvar();
       try {
         for (const f of inp.files) {
-          try { const pdf = await Store.lerPDF(f); if (ed === alvo) { a.pdfs.push(pdf); modelo.marcar(); } }
-          catch (err) { alert(err.message); }
+          try {
+            const pdf = await Store.lerPDF(f, { cursoId: alvo.id, aulaId: a.id, progresso: percentual => {
+              if (ed === alvo) estadoEditor(`Enviando ${f.name}: ${percentual}%. Aguarde para salvar o curso.`);
+            } });
+            if (ed === alvo && ed.modulos.some(m => m.aulas.includes(a))) {
+              a.pdfs.push(pdf); modelo.marcar();
+              estadoEditor('PDF enviado. Clique em Salvar curso para disponibilizá-lo aos alunos.');
+            }
+          }
+          catch (err) { if (ed === alvo) estadoEditor(err.message, true); alert(err.message); }
         }
         if (ed === alvo) pintarModulos();
       } finally { lendoArquivos--; atualizarSalvar(); }

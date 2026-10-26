@@ -1,6 +1,6 @@
 /* ============================================================
    AGORAMED — Store: camada de dados do navegador.
-   Toda informação vem e vai pela API do próprio site (/api/*).
+   Os dados passam pela API do site; PDFs usam autorização temporária para envio direto.
    As chaves do Supabase nunca chegam aqui: o banco é acessado
    somente pelas funções serverless no Vercel.
    ============================================================ */
@@ -395,17 +395,31 @@ const Store = (() => {
     });
   }
 
-  /** Lê um PDF como dataURL (o servidor recebe junto no salvamento do curso). */
-  function lerPDF(file) {
-    return new Promise((resolve, reject) => {
-      if (file.size > 4.5 * 1024 * 1024) {
-        return reject(new Error(`"${file.name}" tem ${(file.size / 1024 / 1024).toFixed(1)} MB. O limite por arquivo é 4,5 MB.`));
-      }
-      const leitor = new FileReader();
-      leitor.onerror = () => reject(new Error('Falha ao ler o PDF.'));
-      leitor.onload = () => resolve({ id: null, nome: file.name, dados: leitor.result });
-      leitor.readAsDataURL(file);
+  /** Envia o PDF diretamente ao armazenamento privado; o curso recebe apenas o comprovante. */
+  async function lerPDF(file, { cursoId, aulaId, progresso = () => {} } = {}) {
+    if (!file || !Number.isInteger(file.size) || file.size < 5 || file.size > 50000000)
+      throw new Error('Selecione um PDF de até 50 MB.');
+    if (!/\.pdf$/i.test(file.name) || new TextDecoder().decode(await file.slice(0, 5).arrayBuffer()) !== '%PDF-')
+      throw new Error('Selecione um arquivo PDF válido.');
+    progresso(0);
+    const r = await api('/admin/materiais', { metodo: 'POST', corpo: { cursoId, aulaId, nome: file.name, tamanho: file.size } });
+    if (!r.ok) throw new Error(r.erro || 'Não foi possível preparar o envio do PDF.');
+    await new Promise((resolve, reject) => {
+      const envio = new XMLHttpRequest();
+      envio.open('PUT', r.url);
+      envio.timeout = 10 * 60 * 1000;
+      envio.setRequestHeader('Content-Type', 'application/pdf');
+      envio.setRequestHeader('x-upsert', 'false');
+      envio.upload.onprogress = e => { if (e.lengthComputable) progresso(Math.min(99, Math.round(100 * e.loaded / e.total))); };
+      envio.onerror = () => reject(new Error('O envio do PDF foi interrompido. Verifique sua conexão e selecione o arquivo novamente.'));
+      envio.ontimeout = () => reject(new Error('O envio do PDF demorou demais. Selecione o arquivo novamente para tentar de novo.'));
+      envio.onload = () => {
+        if (envio.status >= 200 && envio.status < 300) { progresso(100); resolve(); }
+        else reject(new Error(envio.status === 413 ? 'O armazenamento recusou o tamanho do PDF. O curso foi preservado.' : 'Não foi possível enviar o PDF. Selecione o arquivo novamente para tentar de novo.'));
+      };
+      envio.send(file);
     });
+    return { id: null, nome: file.name, envio: r.envio };
   }
 
   return {

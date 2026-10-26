@@ -9,7 +9,7 @@ function rota(opcoes={}){
   postgrest:async(url,opts={})=>{consultas.push({url,opts});if(opcoes.postgrest)return opcoes.postgrest(url,opts);if(url.startsWith('/operacoes_curso'))return {ok:true,dados:[]};if(url.startsWith('/cursos?'))return {ok:true,dados:[raw]};if(url==='/rpc/salvar_curso_atomico')return {ok:true,dados:{ok:true,curso:{...raw,versao:8}}};return {ok:true,dados:[]};},
   storage:async(...args)=>{arquivos.push(args);return opcoes.storage?opcoes.storage(...args):{ok:true};}
  };
- vm.runInNewContext(readFileSync(join(__dirname,'../lib/rotas/admin/cursos.js'),'utf8'),{module,exports:module.exports,require:p=>p==='crypto'?require('node:crypto'):p==='../../curso-edicao'?auxiliares:deps,URL,Date,JSON,Promise,encodeURIComponent});
+ vm.runInNewContext(readFileSync(join(__dirname,'../lib/rotas/admin/cursos.js'),'utf8'),{module,exports:module.exports,require:p=>p==='crypto'?require('node:crypto'):p==='../../curso-edicao'?auxiliares:p==='../../pdf-envio'?require('../lib/pdf-envio'):deps,URL,Date,JSON,Promise,encodeURIComponent});
  return {consultas,arquivos,async executar(body=base(),method='POST',query={}){const res={setHeader(){}};await module.exports({method,body,query},res);return res;}};
 }
 test('salvamento usa uma única RPC para todo o conteúdo, sem gravações individuais',async()=>{
