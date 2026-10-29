@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/styles.css?v=50">
   <link rel="stylesheet" href="css/inicio.css?v=50">
   <link rel="stylesheet" href="css/admin.css?v=55">
+  <link rel="stylesheet" href="css/dialogos.css?v=56">
 </head>
 <body class="pagina-cursos pagina-admin">
 
@@ -178,7 +179,8 @@
 
   <footer class="rodape"><div class="container">AGORAMED · Pronto para o plantão</div></footer>
 
-  <script src="js/store.js?v=50"></script>
+  <script src="js/dialogos.js?v=56"></script>
+  <script src="js/store.js?v=56"></script>
   <script src="js/admin-progresso.js"></script>
   <script src="js/editor-curso.js"></script>
   <script type="module">
@@ -252,23 +254,23 @@
       const ex = e.target.closest('[data-excluir-curso]');
       if (ex) {
         const c = Store.acharCurso(ex.dataset.excluirCurso);
-        if (confirm(`Excluir o curso "${c.titulo}"? Isso também remove o acesso dos alunos.`)) {
+        if (await UI.confirmar(`Excluir o curso "${c.titulo}"? Isso também remove o acesso dos alunos.`)) {
           ex.disabled = true;
           const r = await Store.excluirCurso(c.id);
           ex.disabled = false;
-          if (!r.ok) return alert(r.erro || 'Não foi possível excluir o curso.');
+          if (!r.ok) return await UI.avisar(r.erro || 'Não foi possível excluir o curso.');
           listarCursos();
         }
       }
     });
 
     $('#btn-novo-curso').addEventListener('click', async () => {
-      if (salvando || (modelo?.alterado && !confirm('Abrir um novo curso e descartar as alterações não salvas?'))) return;
+      if (salvando || (modelo?.alterado && !await UI.confirmar('Abrir um novo curso e descartar as alterações não salvas?'))) return;
       const btn = $('#btn-novo-curso');
       btn.disabled = true;
       const r = await Store.novoCurso();
       btn.disabled = false;
-      if (!r.ok) return alert(r.erro || 'Não foi possível criar o curso.');
+      if (!r.ok) return await UI.avisar(r.erro || 'Não foi possível criar o curso.');
       listarCursos(); abrirEditor(r.curso.id, true);
     });
 
@@ -285,11 +287,11 @@
       el.setAttribute('role', erro ? 'alert' : 'status');
     }
     async function abrirEditor(id, descartar = false) {
-      if (salvando || (!descartar && modelo?.alterado && !confirm('Reabrir o editor e descartar as alterações não salvas?'))) return;
+      if (salvando || (!descartar && modelo?.alterado && !await UI.confirmar('Reabrir o editor e descartar as alterações não salvas?'))) return;
       const pedido = ++abertura;
       const r = await Store.carregarCursoEdicao(id);
       if (pedido !== abertura) return;
-      if (!r.ok) return alert(r.erro || 'Não foi possível carregar o curso.');
+      if (!r.ok) return await UI.avisar(r.erro || 'Não foi possível carregar o curso.');
       modelo = EditorCurso.criar(r.curso);
       conflitoEditor = false;
       ed = modelo.curso;
@@ -321,7 +323,7 @@
       const alvo = ed;
       lendoArquivos++; atualizarSalvar();
       try { const imagem = await Store.comprimirImagem(f); if (ed === alvo) { ed.capaImagem = imagem; modelo.marcar(); $('#dica-capa').textContent = 'Imagem de capa definida ✓'; } }
-      catch (err) { alert(err.message); }
+      catch (err) { await UI.avisar(err.message); }
       finally { lendoArquivos--; atualizarSalvar(); e.target.value = ''; }
     });
 
@@ -395,7 +397,7 @@
               a.pdfs.push(pdf); modelo.marcar(); adicionados++;
             }
           }
-          catch (err) { falhas++; if (ed === alvo) estadoEditor(err.message, true); alert(err.message); }
+          catch (err) { falhas++; if (ed === alvo) estadoEditor(err.message, true); await UI.avisar(err.message); }
         }
         if (ed === alvo) {
           pintarModulos();
@@ -404,7 +406,7 @@
       } finally { lendoArquivos--; atualizarSalvar(); }
     });
 
-    $('#editor-modulos').addEventListener('click', (e) => {
+    $('#editor-modulos').addEventListener('click', async (e) => {
       const b = e.target.closest('[data-acao]'); if (!b || !ed) return;
       const acao = b.dataset.acao;
       const mi = +b.dataset.mod;
@@ -416,12 +418,12 @@
       if (acao === 'add-mod') {
         ed.modulos.push({ id: Store.uid(), titulo: `Módulo ${ed.modulos.length + 1}`, aulas: [] });
       } else if (acao === 'rm-mod') {
-        if (!confirm('Remover este módulo e todas as suas aulas?')) return;
+        if (!await UI.confirmar('Remover este módulo e todas as suas aulas?')) return;
         modelo.removerModulo(mi);
       } else if (acao === 'add-aula') {
         ed.modulos[mi].aulas.push({ id: Store.uid(), titulo: '', youtubeId: '', duracao: '', descricao: '', pdfs: [] });
       } else if (acao === 'rm-aula') {
-        if (!confirm('Remover esta aula?')) return;
+        if (!await UI.confirmar('Remover esta aula?')) return;
         modelo.removerAula(mi, +b.dataset.aula);
       } else if (acao === 'rm-pdf') {
         modelo.removerMaterial(mi, +b.dataset.aula, +b.dataset.pdf);
@@ -439,7 +441,7 @@
     $('#btn-salvar-curso').addEventListener('click', async () => {
       if (salvando || conflitoEditor || lendoArquivos || !modelo?.alterado) return;
       if (!ed.titulo.trim()) return estadoEditor('Informe o título do curso.', true);
-      if (modelo.temRemocoes() && !confirm(modelo.resumo())) return;
+      if (modelo.temRemocoes() && !await UI.confirmar(modelo.resumo())) return;
       salvando = true;
       const controles = $$('button,input,textarea,select', $('#editor')).map(el => [el, el.disabled]);
       controles.forEach(([el]) => { el.disabled = true; });
@@ -469,8 +471,8 @@
       }
     });
     $('#btn-reabrir-editor').addEventListener('click', () => { if (ed) abrirEditor(ed.id); });
-    $('#btn-fechar-editor').addEventListener('click', () => {
-      if (salvando || (modelo?.alterado && !confirm('Fechar e descartar as alterações não salvas?'))) return;
+    $('#btn-fechar-editor').addEventListener('click', async () => {
+      if (salvando || (modelo?.alterado && !await UI.confirmar('Fechar e descartar as alterações não salvas?'))) return;
       abertura++;
       $('#editor').classList.add('oculto'); ed = null; modelo = null;
     });
@@ -653,16 +655,16 @@
     /* ação em massa: liberar ou restringir acesso a um curso */
     async function aplicarMassa(liberar) {
       const cursoId = $('#curso-massa').value;
-      if (!cursoId) return alert('Escolha um curso para a ação em massa.');
+      if (!cursoId) return await UI.avisar('Escolha um curso para a ação em massa.');
       const ids = [...selecionados];
-      if (!ids.length) return alert('Selecione ao menos um usuário.');
+      if (!ids.length) return await UI.avisar('Selecione ao menos um usuário.');
 
       const curso = Store.cursos().find(c => c.id === cursoId);
       const nomeCurso = curso ? curso.titulo : 'curso';
       const msg = liberar
         ? `Liberar o acesso ao curso “${nomeCurso}” para ${ids.length} usuário(s)?\n\nContas bloqueadas continuam bloqueadas.`
         : `Remover o acesso ao curso “${nomeCurso}” de ${ids.length} usuário(s)?`;
-      if (!confirm(msg)) return;
+      if (!await UI.confirmar(msg)) return;
 
       const btn = liberar ? $('#btn-massa-liberar') : $('#btn-massa-restringir');
       const rotulo = btn.textContent;
@@ -692,7 +694,7 @@
       selecionados.clear();
       listarAlunos();
       const feitas = ids.length - falhas;
-      alert(falhas
+      await UI.avisar(falhas
         ? `${feitas} de ${ids.length} usuário(s) atualizado(s). ${falhas} falha(s) — tente novamente.`
         : `${feitas} usuário(s) atualizado(s) com sucesso.`);
     }
@@ -706,7 +708,7 @@
       const atuais = Store.cursosDoAluno(uid);
       const lista = cb.checked ? [...atuais, cb.dataset.curso] : atuais.filter(c => c !== cb.dataset.curso);
       const r = await Store.gerenciarAluno(uid, 'cursos', lista);
-      if (!r.ok) return alert(r.err || r.erro || 'Não foi possível salvar o acesso.');
+      if (!r.ok) return await UI.avisar(r.err || r.erro || 'Não foi possível salvar o acesso.');
       /* atualiza contadores e remove o card se ele deixou de bater com o filtro */
       const filtroCurso = $('#filtro-curso-alunos').value || 'todos';
       const meus = Store.cursosAcessiveisDoAluno(uid);
@@ -727,30 +729,30 @@
       if (lib) {
         const u = us.find(x => x.id === lib.dataset.liberar);
         const r = await Store.gerenciarAluno(u.id, u.liberado ? 'bloquear' : 'liberar');
-        if (!r.ok) alert(r.erro || 'Não foi possível atualizar o aluno.');
+        if (!r.ok) await UI.avisar(r.erro || 'Não foi possível atualizar o aluno.');
         listarAlunos();
       } else if (pap) {
         const u = us.find(x => x.id === pap.dataset.papel);
         if (!u) return;
         const rebaixar = u.papel === 'admin';
         if (rebaixar && u.id === usuario.id)
-          return alert('Você não pode rebaixar a própria conta.');
+          return await UI.avisar('Você não pode rebaixar a própria conta.');
         const msg = rebaixar
           ? `Transformar ${u.nome} em aluno?\n\nA conta perde o acesso ao painel imediatamente. Os cursos que ela já tem continuam.`
           : `Transformar ${u.nome} em professor(a)?\n\nA conta terá acesso total ao painel.`;
-        if (!confirm(msg)) return;
+        if (!await UI.confirmar(msg)) return;
         const r = await Store.gerenciarAluno(u.id, rebaixar ? 'rebaixar' : 'promover');
-        if (!r.ok) alert(r.erro || 'Não foi possível alterar o papel.');
+        if (!r.ok) await UI.avisar(r.erro || 'Não foi possível alterar o papel.');
         listarAlunos();
       } else if (exc) {
         const alvoId = exc.dataset.excluirAluno;
         const u = us.find(x => x.id === alvoId);
         if (!u) { listarAlunos(); return; }
-        if (alvoId === usuario.id) return alert('Você não pode excluir a própria conta.');
-        if (!confirm(`Excluir a conta de ${u.nome}? Isso apaga o acesso de vez.`)) return;
+        if (alvoId === usuario.id) return await UI.avisar('Você não pode excluir a própria conta.');
+        if (!await UI.confirmar(`Excluir a conta de ${u.nome}? Isso apaga o acesso de vez.`)) return;
         const r = await Store.gerenciarAluno(alvoId, 'remover');
         if (!r || !r.ok) {
-          alert((r && r.erro) ? r.erro : 'Não foi possível excluir o aluno.');
+          await UI.avisar((r && r.erro) ? r.erro : 'Não foi possível excluir o aluno.');
           await Store.iniciar();
           listarAlunos();
           return;
@@ -797,7 +799,7 @@
       const exc = e.target.closest('[data-excluir-promo]');
       const sal = e.target.closest('[data-salvar-promo]');
       if (exc) {
-        if (!confirm('Excluir esta divulgação?')) return;
+        if (!await UI.confirmar('Excluir esta divulgação?')) return;
         await Store.salvarPromos(Store.promos().filter(x => x.id !== exc.dataset.excluirPromo));
         listarPromos();
       } else if (sal) {
@@ -807,9 +809,9 @@
         const p = promos.find(x => x.id === id);
         $$('[data-p]', painel).forEach(i => p[i.dataset.p] = i.value);
         const r = await Store.salvarPromos(promos);
-        if (!r.ok) return alert(r.erro || 'Não foi possível salvar a divulgação.');
+        if (!r.ok) return await UI.avisar(r.erro || 'Não foi possível salvar a divulgação.');
         listarPromos();
-        alert('Divulgação salva!');
+        await UI.avisar('Divulgação salva!');
       }
     });
 
@@ -829,7 +831,7 @@
         promos.find(x => x.id === inp.dataset.promoCapa).capaImagem = dados;
         await Store.salvarPromos(promos);
         listarPromos();
-      } catch (err) { alert(err.message); }
+      } catch (err) { await UI.avisar(err.message); }
     });
 
     $('#btn-nova-promo').addEventListener('click', async () => {

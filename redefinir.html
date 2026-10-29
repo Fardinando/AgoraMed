@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#4A7784">
+  <meta name="theme-color" content="#07191f">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="robots" content="noindex">
   <title>AGORAMED — Redefinir senha</title>
@@ -11,48 +11,45 @@
   <link rel="icon" href="icons/icon-192.png?v=2" type="image/png">
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-v2.png">
   <link rel="stylesheet" href="css/styles.css?v=50">
+  <link rel="stylesheet" href="css/login.css?v=48">
+  <link rel="stylesheet" href="css/redefinir.css?v=56">
+  <link rel="stylesheet" href="css/dialogos.css?v=56">
 </head>
-<body>
+<body class="pagina-login pagina-redefinir">
 
   <main class="tela-login">
-    <section class="cartao-login">
-      <h1 class="marca-login">
-        <img src="img/agoramed-logo.png" alt="AGORAMED" width="1871" height="381">
-      </h1>
-      <!-- subtítulo já está na logomarca (img/agoramed-logo.png) -->
-
-      <h2 style="font-size:1.05rem;margin:18px 0 4px">Criar nova senha</h2>
-
-      <div id="mensagem" class="aviso oculto" role="alert"></div>
-
-      <form id="form-nova-senha" style="margin-top:16px">
-        <div class="campo">
-          <label for="nova-senha">Nova senha <span class="obrig">*</span></label>
-          <input type="password" id="nova-senha" required autocomplete="new-password" minlength="6" placeholder="mínimo 6 caracteres">
-        </div>
-        <div class="campo">
-          <label for="rep-senha">Repita a nova senha <span class="obrig">*</span></label>
-          <input type="password" id="rep-senha" required autocomplete="new-password" minlength="6" placeholder="••••••••">
-        </div>
-        <button type="submit" class="btn" style="width:100%">Salvar nova senha</button>
-      </form>
-
-      <div id="bloco-expirado" class="oculto" style="text-align:center">
-        <p style="margin-top:12px;font-size:.9rem;color:var(--texto-suave)">
-          Este link é inválido ou expirou. Solicite um novo na tela de login.
-        </p>
-        <a class="btn secundario" style="margin-top:12px;display:inline-block" href="index.html?redefinir=erro">Voltar ao login</a>
-      </div>
+    <a class="login-marca" href="index.html" aria-label="AgoraMed — voltar ao login"><img src="img/agoramed-logo-branco.png" alt="AGORAMED — Pronto para o plantão" width="906" height="184"></a>
+    <section class="login-historia" aria-labelledby="redefinir-chamada">
+      <h1 class="login-titulo" id="redefinir-chamada">Seu aprendizado <em>continua.</em></h1>
+      <p class="redefinir-intro">Recupere seu acesso para seguir aprendendo com a AgoraMed.</p>
+      <div class="login-arte" aria-hidden="true"><img class="login-coracao" src="img/login-coracao.webp" alt="" width="1536" height="1024"><img class="login-monograma" src="img/agoramed-monograma-branco.png" alt="" width="458" height="278"></div>
     </section>
-
-    <footer class="rodape-login">
-      <img src="img/agoramed-simbolo-branco.png" alt="" width="468" height="381" aria-hidden="true">
-      <span>Decisões seguras, baseadas em evidências.</span>
-    </footer>
+    <section class="cartao-login" aria-labelledby="redefinir-titulo">
+      <div class="login-cab"><p class="login-eyebrow">RECUPERAÇÃO DE ACESSO</p><h2 id="redefinir-titulo">Crie sua nova senha</h2><p>Escolha uma senha e repita no campo abaixo para confirmar.</p></div>
+      <div id="mensagem" class="aviso oculto" role="alert"></div>
+      <form id="form-nova-senha">
+        <div class="campo"><label for="nova-senha">Nova senha</label><div class="login-input"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><input type="password" id="nova-senha" required autocomplete="new-password" minlength="6" placeholder="Mínimo de 6 caracteres" data-revelavel><button type="button" class="login-revelar" aria-label="Mostrar senha" aria-controls="nova-senha" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg></button></div></div>
+        <div class="campo"><label for="rep-senha">Confirme a nova senha</label><div class="login-input"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><input type="password" id="rep-senha" required autocomplete="new-password" minlength="6" placeholder="Digite novamente sua senha" data-revelavel><button type="button" class="login-revelar" aria-label="Mostrar senha" aria-controls="rep-senha" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg></button></div></div>
+        <button type="submit" class="btn">Salvar nova senha <span aria-hidden="true">→</span></button>
+      </form>
+      <div id="bloco-expirado" class="oculto"><p>Este link é inválido ou expirou. Solicite um novo link para criar sua senha.</p><a class="btn" href="index.html?redefinir=erro">Solicitar novo link</a></div>
+      <a class="login-link login-voltar" href="index.html">← Voltar ao login</a>
+    </section>
+    <footer class="rodape-login"><span>AGORAMED · Pronto para o plantão</span></footer>
   </main>
 
-  <script src="js/store.js?v=50"></script>
+  <script src="js/dialogos.js?v=56"></script>
+  <script src="js/store.js?v=56"></script>
   <script type="module">
+    document.querySelectorAll('.login-revelar').forEach(botao => {
+      botao.addEventListener('click', () => {
+        const campo = document.getElementById(botao.getAttribute('aria-controls'));
+        const mostrar = campo.type === 'password';
+        campo.type = mostrar ? 'text' : 'password';
+        botao.setAttribute('aria-pressed', String(mostrar));
+        botao.setAttribute('aria-label', mostrar ? 'Ocultar senha' : 'Mostrar senha');
+      });
+    });
     const msg = document.getElementById('mensagem');
     function mostrarMsg(texto, tipo = 'erro') {
       if (!texto) { msg.textContent = ''; msg.className = 'aviso oculto'; return; }

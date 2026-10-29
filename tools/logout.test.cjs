@@ -133,3 +133,24 @@ test('endpoint de logout expira o mesmo cookie da autenticação e proíbe cache
     assert.ok(headers['Set-Cookie'].includes(atributo));
   }
 });
+
+test('cancelar a confirmação visual não envia logout e permite nova tentativa', async () => {
+  let resolver, chamadas = 0;
+  const b = navegador(() => { chamadas++; return resposta({ ok: true }); });
+  b.window.Dialogos = { confirmar: () => new Promise(resolve => { resolver = resolve; }) };
+  const botao = { disabled: false };
+  const saindo = b.UI.sair({ currentTarget: botao });
+  assert.equal(botao.disabled, true);
+  assert.equal(chamadas, 0);
+  await b.UI.sair({ currentTarget: botao });
+  resolver(false);
+  await saindo;
+  assert.equal(chamadas, 0);
+  assert.equal(botao.disabled, false);
+  assert.equal(b.destinos.length, 0);
+  const novamente = b.UI.sair({ currentTarget: botao });
+  resolver(true);
+  await novamente;
+  assert.equal(chamadas, 1);
+  assert.deepEqual(b.destinos, ['index.html']);
+});

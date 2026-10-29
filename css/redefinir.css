@@ -1,0 +1,21 @@
+.pagina-redefinir .tela-login { grid-template-areas: 'marca marca' 'historia formulario' 'rodape rodape'; align-items: center; gap: 36px 64px; }
+.pagina-redefinir .login-marca { width: 100%; }
+.pagina-redefinir .login-marca img { width: 300px; max-width: 65vw; }
+.pagina-redefinir .login-titulo { max-width: 12ch; font-size: clamp(42px,5vw,70px); }
+.redefinir-intro { color: #bfd5dd; font-size: .98rem; line-height: 1.75; max-width: 420px; margin-top: 24px; }
+.pagina-redefinir .login-arte { margin: -20px 0 -30px; max-width: 620px; }
+.pagina-redefinir #form-nova-senha { margin-top: 28px; }
+.pagina-redefinir .btn { background: #68dce5; color: #062c36; border-color: #8cecf1; }
+.pagina-redefinir .btn:hover { background: #8be8ef; }
+.pagina-redefinir #bloco-expirado { border: 1px solid #5b7d8a; border-radius: 12px; padding: 20px; background: #0a252f; margin-top: 24px; }
+.pagina-redefinir #bloco-expirado p { color: #c9dde5; font-size: .9rem; line-height: 1.75; margin: 0 0 18px; }
+.pagina-redefinir #bloco-expirado .btn { display: flex; justify-content: center; align-items: center; text-decoration: none; }
+.pagina-redefinir .login-voltar { text-decoration: none; }
+@media(max-width:800px) {
+ .pagina-redefinir .tela-login { grid-template-columns: minmax(0,1fr); grid-template-areas: 'marca' 'formulario' 'historia' 'rodape'; gap: 30px; padding: 28px 22px 24px; }
+ .pagina-redefinir .cartao-login { max-width: 520px; justify-self: center; }
+ .pagina-redefinir .login-historia { max-width: 520px; justify-self: center; width: 100%; }
+ .pagina-redefinir .login-titulo { font-size: 42px; max-width: none; }
+ .pagina-redefinir .login-arte { max-width: 420px; margin-inline: auto; }
+ .pagina-redefinir .redefinir-intro { margin-top: 16px; }
+}

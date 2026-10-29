@@ -450,18 +450,28 @@ if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
 const UI = {
   async sair(evento) {
     const botao = evento.currentTarget;
-    if (botao.disabled || !confirm('Deseja sair da plataforma?')) return;
+    if (botao.disabled) return;
     botao.disabled = true;
     try {
+      const confirmou = window.Dialogos ? await window.Dialogos.confirmar('Deseja sair da plataforma?') : confirm('Deseja sair da plataforma?');
+      if (!confirmou) return;
       const r = await Store.sair();
       if (!r.ok) {
-        alert(r.erro || 'Não foi possível sair. Tente novamente.');
+        await UI.avisar(r.erro || 'Não foi possível sair. Tente novamente.');
         return;
       }
       location.replace('index.html');
     } finally {
       botao.disabled = false;
     }
+  },
+  confirmar(texto) {
+    return window.Dialogos ? window.Dialogos.confirmar(texto) : Promise.resolve(confirm(texto));
+  },
+  avisar(texto) {
+    if (window.Dialogos) return window.Dialogos.avisar(texto);
+    alert(texto);
+    return Promise.resolve();
   },
   escapar(t = '') {
     return String(t).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -515,7 +525,7 @@ const UI = {
         return;
       }
       /* sem prompt nativo: guia manual de cada plataforma */
-      alert(ios
+      await UI.avisar(ios
         ? 'Instalar no iPhone ou iPad:\n\n1. Toque no botão Compartilhar (quadrado com uma seta) na barra do Safari\n2. Toque em “Adicionar à Tela de Início”\n3. Toque em “Adicionar” no canto superior direito'
         : 'Para instalar o AGORAMED no Android:\n\nNo Chrome, toque no menu ⋮ (três pontos) e escolha “Instalar aplicativo”.\n\nEm outros navegadores: menu → “Adicionar à tela inicial”.');
     });
