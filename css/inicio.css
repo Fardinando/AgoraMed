@@ -119,8 +119,8 @@
 .pagina-cursos .rodape .container { display: flex; align-items: center; gap: 24px; font-size: .6rem; letter-spacing: .23em; text-align: center; }
 .pagina-cursos .rodape .container::before, .pagina-cursos .rodape .container::after { content: ''; flex: 1; height: 1px; background: #3c6f7a; }
 .pagina-cursos .nav-inferior { background: #092631f5; border-top: 1px solid #3b6470; backdrop-filter: blur(12px); }
-.pagina-cursos .nav-inferior a, .pagina-cursos .nav-inferior button { color: #bfd6de; min-height: 54px; }
-.pagina-cursos .nav-inferior a.ativo { color: #78e5ec; }
+.pagina-cursos .nav-inferior a, .pagina-cursos .nav-inferior button { color: #bfd2d8; min-height: 62px; }
+.pagina-cursos .nav-inferior a.ativo { color: #fff; }
 .pagina-cursos :is(a, button):focus-visible { outline: 2px solid #8aebf1; outline-offset: 4px; }
 .pagina-cursos :is(main.container, .cartao-curso) { animation: none; }
 

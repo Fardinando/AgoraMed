@@ -524,14 +524,21 @@ const UI = {
   navInferior(atual) {
     const u = Store.usuarioAtual();
     if (!u) return;
-    const admin = u.papel === 'admin' ? `<a href="admin.html" class="${atual === 'admin' ? 'ativo' : ''}"><span class="ico">⚙️</span>Admin</a>` : '';
+    const icone = (tracado) => `<svg class="nav-icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${tracado}</svg>`;
+    const casa = icone('<path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1Z"/>');
+    const livro = icone('<path d="M12 5v16M12 5C9 2 4 2 2 4v15c3-2 7-1 10 2 3-3 7-4 10-2V4c-2-2-7-2-10 1Z"/>');
+    const ajustes = icone('<path d="M3 5h3m4 0h11M3 12h11m4 0h3M3 19h3m4 0h11"/><circle cx="8" cy="5" r="2"/><circle cx="16" cy="12" r="2"/><circle cx="8" cy="19" r="2"/>');
+    const sair = icone('<path d="M10 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h6M10 12h11m-5-5 5 5-5 5"/>');
+    const estado = (pagina) => atual === pagina ? 'class="ativo" aria-current="page"' : '';
+    const admin = u.papel === 'admin' ? `<a href="admin.html" ${estado('admin')}>${ajustes}<span>Admin</span></a>` : '';
     const el = document.createElement('nav');
     el.className = 'nav-inferior';
+    el.setAttribute('aria-label', 'Navegação da plataforma');
     el.innerHTML = `<div class="container">
-      <a href="app.html" class="${atual === 'inicio' ? 'ativo' : ''}"><span class="ico">🏠</span>Início</a>
-      <a href="app.html#cursos"><span class="ico">🎓</span>Cursos</a>
+      <a href="app.html" ${estado('inicio')}>${casa}<span>Início</span></a>
+      <a href="app.html#cursos" ${estado('cursos')}>${livro}<span>Cursos</span></a>
       ${admin}
-      <button type="button" id="nav-sair"><span class="ico">↩️</span>Sair</button>
+      <button type="button" id="nav-sair">${sair}<span>Sair</span></button>
     </div>`;
     document.body.appendChild(el);
     el.querySelector('#nav-sair').addEventListener('click', UI.sair);
