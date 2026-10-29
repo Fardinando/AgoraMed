@@ -11,7 +11,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-v2.png">
   <link rel="stylesheet" href="css/styles.css?v=50">
   <link rel="stylesheet" href="css/inicio.css?v=50">
-  <link rel="stylesheet" href="css/admin.css?v=55">
+  <link rel="stylesheet" href="css/admin.css?v=58">
   <link rel="stylesheet" href="css/dialogos.css?v=56">
 </head>
 <body class="pagina-cursos pagina-admin">
@@ -111,6 +111,13 @@
     <!-- ================= ALUNOS ================= -->
     <section id="aba-alunos" class="oculto">
       <div class="admin-secao-cab"><h2>Seus alunos</h2><span>Cadastros, acessos e progresso</span></div>
+      <section class="admin-ranking" id="ranking-alunos" aria-labelledby="ranking-titulo">
+        <div class="ranking-cab"><div><p class="admin-eyebrow">ACOMPANHAMENTO DO APRENDIZADO</p><h3 id="ranking-titulo">Top 3 alunos</h3></div><button type="button" class="btn pequeno secundario" id="ranking-atualizar">Atualizar ranking</button></div>
+        <label class="ranking-seletor" for="ranking-curso">Curso<select id="ranking-curso"></select></label>
+        <p id="ranking-status" role="status" aria-live="polite"></p>
+        <ol id="ranking-alunos-lista" class="ranking-lista"></ol>
+        <p class="ranking-legenda">Baseado nas aulas marcadas como concluídas. Exibe até três alunos ativos com progresso; empates em ordem alfabética. Visível apenas no painel do professor.</p>
+      </section>
       <div class="aviso" style="margin:10px 0">
         Após confirmar o e-mail, novos alunos acessam os cursos <strong>gratuitos automaticamente</strong>. Você continua concedendo os cursos pagos e pode bloquear uma conta quando necessário.
       </div>
@@ -180,8 +187,9 @@
   <footer class="rodape"><div class="container">AGORAMED · Pronto para o plantão</div></footer>
 
   <script src="js/dialogos.js?v=56"></script>
-  <script src="js/store.js?v=56"></script>
-  <script src="js/admin-progresso.js"></script>
+  <script src="js/store.js?v=58"></script>
+  <script src="js/admin-ranking.js?v=58"></script>
+  <script src="js/admin-progresso.js?v=58"></script>
   <script src="js/editor-curso.js"></script>
   <script type="module">
     await Store.iniciar();
@@ -201,6 +209,7 @@
         if (ativo) x.setAttribute('aria-current', 'page'); else x.removeAttribute('aria-current');
       });
       ['cursos', 'alunos', 'promos'].forEach(a => $('#aba-' + a).classList.toggle('oculto', a !== area));
+      if (area === 'alunos') RankingAlunos.atualizar();
     }
     $('#abas').addEventListener('click', e => {
       const b = e.target.closest('button[data-aba]');
@@ -846,6 +855,7 @@
     preencherCursos();
     listarAlunos();
     listarPromos();
+    RankingAlunos.iniciar();
     UI.navInferior('admin');
   </script>
 </body>

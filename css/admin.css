@@ -179,3 +179,25 @@
   box-shadow: 0 0 0 1000px #dceff2 inset;
   caret-color: #102f39;
 }
+
+/* Classificação de conclusão por curso — exclusiva da área do professor. */
+.admin-ranking { border: 1px solid #477888; border-radius: 14px; padding: 24px; margin-bottom: 24px; background: linear-gradient(115deg,#103944,#0a252e); }
+.ranking-cab { display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap; margin-bottom: 20px; }
+.ranking-cab .admin-eyebrow { margin-bottom: 9px; }
+.ranking-cab h3 { font: 400 30px/1.25 'Playfair Display',Georgia,serif; margin: 0; }
+.ranking-seletor { display: grid; gap: 8px; font-size: .78rem; color: #d1e5ed; max-width: 620px; }
+.ranking-seletor select { min-height: 44px; border: 1px solid #558491; border-radius: 8px; padding: 10px 12px; width: 100%; min-width: 0; font: inherit; }
+#ranking-status { color: #c2d9e2; font-size: .82rem; line-height: 1.65; margin: 18px 0; overflow-wrap: anywhere; }
+.ranking-lista { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 14px; list-style: none; padding: 0; margin: 0; }
+.ranking-aluno { display: flex; align-items: flex-start; gap: 12px; border: 1px solid #416e7b; border-radius: 10px; padding: 17px 14px; background: #092832; min-width: 0; }
+.ranking-aluno:first-child { border-color: #77dce5; background: #113b47; }
+.ranking-posicao { color: #a7edf3; border: 1px solid #4f95a4; border-radius: 8px; width: 34px; height: 36px; display: grid; place-items: center; flex: none; font-size: .94rem; }
+.ranking-dados { flex: 1; min-width: 0; }
+.ranking-dados button { padding: 0; background: none; border: 0; text-align: left; color: #f2f9fb; font: inherit; font-size: .85rem; font-weight: 600; overflow-wrap: anywhere; cursor: pointer; min-height: 36px; }
+.ranking-dados button:hover { color: #8cebf2; text-decoration: underline; text-underline-offset: 3px; }
+.ranking-dados > span { display: block; color: #bed4df; font-size: .7rem; line-height: 1.6; margin: 4px 0 10px; }
+.pagina-admin .ranking-dados .barra-progresso { height: 7px; margin: 0; }
+.ranking-percentual { color: #86e8ef; font-size: 1.05rem; font-weight: 600; padding-top: 7px; }
+.ranking-legenda { color: #adc9d4; font-size: .7rem; line-height: 1.75; margin: 18px 0 0; }
+@media(max-width:1250px) { .ranking-lista { grid-template-columns: minmax(0,1fr); } }
+@media(max-width:600px) { .admin-ranking { padding: 18px; } .ranking-cab { gap: 14px; } .ranking-cab h3 { font-size: 28px; } }

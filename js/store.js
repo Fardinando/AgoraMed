@@ -334,6 +334,7 @@ const Store = (() => {
     return cursosCache.filter(c => aluno.papel === 'admin' || c.tipoAcesso === 'gratis' || pagos.has(c.id)).map(c => c.id);
   };
 
+  const rankingAlunos = (cursoId) => api('/admin/ranking?curso_id=' + encodeURIComponent(cursoId));
   const progressoAluno = (usuarioId) => api('/admin/progresso?usuario_id=' + encodeURIComponent(usuarioId));
 
   const statusAvisos = () => api('/admin/notificacoes');
@@ -426,7 +427,7 @@ const Store = (() => {
     uid,
     usuarioAtual, iniciar, entrar, cadastrar, sair, proteger,
     esqueciSenha, redefinirSenha,
-    usuarios, matriculas, cursosDoAluno, cursosAcessiveisDoAluno, gerenciarAluno, progressoAluno, statusAvisos, testarAvisos,
+    usuarios, matriculas, cursosDoAluno, cursosAcessiveisDoAluno, gerenciarAluno, progressoAluno, rankingAlunos, statusAvisos, testarAvisos,
     cursos, catalogo, cursosDoUsuario, acharCurso, carregarCursoEdicao, salvarCurso, novoCurso, excluirCurso,
     estatisticasCurso, parseDuracao,
     estaConcluida, alternarConcluida, progressoCurso,

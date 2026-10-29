@@ -49,10 +49,12 @@ const ProgressoAlunos = (() => {
       }
     }
 
-    document.getElementById('lista-alunos').addEventListener('click', e => {
+    const abrirPeloNome = e => {
       const botao = e.target.closest('[data-progresso-aluno]');
       if (botao) carregar(botao.dataset.progressoAluno);
-    });
+    };
+    document.getElementById('lista-alunos').addEventListener('click', abrirPeloNome);
+    document.getElementById('ranking-alunos-lista')?.addEventListener('click', abrirPeloNome);
     atualizar.addEventListener('click', () => { if (alunoId) carregar(alunoId); });
     document.getElementById('progresso-aluno-fechar').addEventListener('click', () => dialog.close());
     dialog.addEventListener('close', () => { pedido++; alunoId = null; atualizar.disabled = false; });

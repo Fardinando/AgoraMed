@@ -24,6 +24,7 @@ const rotas = {
   'admin/alunos': require('../lib/rotas/admin/alunos'),
   'admin/notificacoes': require('../lib/rotas/admin/notificacoes'),
   'interno/avisos-cadastro': require('../lib/rotas/interno/avisos-cadastro'),
+  'admin/ranking': require('../lib/rotas/admin/ranking'),
   'admin/progresso': require('../lib/rotas/admin/progresso'),
   'admin/promos': require('../lib/rotas/admin/promos'),
 };
