@@ -157,3 +157,25 @@
  .pagina-admin .editor-aula .cab-aula-ed input.titulo-aula { min-width: 0; width: 100%; }
  .pagina-admin .progresso-aluno-dialog { width: calc(100% - 24px); padding: 18px; }
 }
+
+/* Busca e filtro de alunos: substituir também as regras legadas de foco. */
+.pagina-admin .busca-campo input[type="search"],
+.pagina-admin .busca-campo select {
+  min-height: 48px; border: 1px solid #568391; border-radius: 10px;
+  background: #09232c; color: #f0f8fa; caret-color: #80e5ed;
+  box-shadow: none; backdrop-filter: none; -webkit-backdrop-filter: none;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.pagina-admin .busca-campo input[type="search"]::placeholder {
+  color: #b9d0da; opacity: 1;
+}
+.pagina-admin .busca-campo input[type="search"]:focus,
+.pagina-admin .busca-campo select:focus {
+  background: #10343f; color: #f0f8fa; border-color: #80e5ed;
+  outline: 2px solid #80e5ed; outline-offset: 2px; box-shadow: none;
+}
+.pagina-admin .busca-campo input[type="search"]:is(:autofill, :-webkit-autofill) {
+  -webkit-text-fill-color: #102f39;
+  box-shadow: 0 0 0 1000px #dceff2 inset;
+  caret-color: #102f39;
+}
