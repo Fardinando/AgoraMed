@@ -3,23 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#4A7784">
+  <meta name="theme-color" content="#07191f">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <title>AGORAMED — Curso</title>
   <link rel="manifest" href="manifest.json">
   <link rel="icon" href="icons/icon-192.png?v=2" type="image/png">
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-v2.png">
   <link rel="stylesheet" href="css/styles.css?v=50">
+  <link rel="stylesheet" href="css/inicio.css?v=50">
+  <link rel="stylesheet" href="css/curso.css?v=52">
 </head>
-<body>
+<body class="pagina-cursos pagina-curso">
 
   <header class="topo">
     <div class="container">
-      <a class="marca" href="app.html" aria-label="AGORAMED — início"><img src="img/agoramed-simbolo-branco.png" alt="" class="simbolo-marca" width="468" height="381"><span class="nome-marca">AGORAMED</span></a>
+      <a class="marca" href="app.html" aria-label="AGORAMED — início"><img src="img/agoramed-logo-branco.png" alt="AGORAMED — Pronto para o plantão" class="logo-inicio" width="906" height="184"></a>
       <span class="espaco"></span>
       <a href="app.html" class="btn-instalar">← Meus cursos</a>
       <div style="position:relative">
-        <button class="usuario-chip" id="chip-usuario" type="button">
+        <button class="usuario-chip" id="chip-usuario" type="button" aria-expanded="false" aria-controls="menu-usuario" aria-label="Abrir menu da conta">
           <span class="avatar" id="avatar-topo">?</span>
           <span class="nome-usuario" id="nome-topo">…</span> ▾
         </button>
@@ -31,27 +33,40 @@
     </div>
   </header>
 
-  <section class="capa-curso">
+  <section class="capa-curso" id="curso-capa">
     <div class="container">
-      <a class="voltar" href="app.html">← Voltar para meus cursos</a>
-      <h1 id="c-titulo">…</h1>
+      <nav class="curso-caminho" aria-label="Localização"><a href="app.html">Meus cursos</a><span aria-hidden="true">/</span><span>Seu aprendizado</span></nav>
+      <div class="inicio-marca-dagua" aria-hidden="true"><img src="img/agoramed-monograma-branco.png" alt="" width="458" height="278"></div>
+      <p class="curso-eyebrow">CONHECIMENTO PARA A PRÁTICA</p>
+      <h1 id="c-titulo">Carregando curso…</h1>
       <p class="sub" id="c-sub"></p>
       <div class="meta-curso" id="c-meta"></div>
-      <div class="progresso-geral" id="c-progresso">
-        <div class="barra-progresso"><span style="width:0%"></span></div>
-        <span class="progresso-texto"></span>
-      </div>
     </div>
   </section>
 
   <main class="container">
-    <div class="modulos" id="lista-modulos"></div>
-    <div class="aviso oculto" id="sem-acesso">Este curso não está disponível para a sua conta.</div>
+    <div class="curso-layout" id="curso-conteudo">
+      <section class="curso-programa" aria-labelledby="programa-titulo">
+        <div class="programa-cab"><h2 id="programa-titulo">Conteúdo do curso</h2><span id="programa-resumo"></span></div>
+        <div class="modulos" id="lista-modulos"></div>
+      </section>
+      <aside class="curso-lateral" aria-label="Seu aprendizado">
+        <section class="painel-progresso" id="c-progresso">
+          <p class="curso-eyebrow">SEU APRENDIZADO</p>
+          <h2>Seu progresso</h2>
+          <div class="progresso-rotulo"><span>Conclusão das aulas</span><strong id="c-percentual">0%</strong></div>
+          <div class="barra-progresso" role="progressbar" aria-label="Progresso no curso" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span style="width:0%"></span></div>
+          <p class="progresso-texto"></p>
+          <a class="curso-acao oculto" id="curso-continuar" href="app.html"></a>
+          <p class="progresso-dica">Marque cada aula como concluída para acompanhar sua evolução.</p>
+        </section>
+        <section class="curso-professor"><img src="img/anderson-uti.jpg" alt="" width="1400" height="700"><div><span>Seu professor</span><strong>Dr. Anderson Gleryston</strong><small>CRMPB 14580</small></div></section>
+      </aside>
+    </div>
+    <div class="aviso oculto" id="sem-acesso">Este curso não está disponível para a sua conta. <a href="app.html">Voltar para meus cursos</a></div>
   </main>
 
-  <footer class="rodape">
-    <div class="container">Decisões seguras, baseadas em evidências.</div>
-  </footer>
+  <footer class="rodape"><div class="container">AGORAMED · Pronto para o plantão</div></footer>
 
   <script src="js/store.js?v=50"></script>
   <script type="module">
@@ -65,8 +80,10 @@
     document.getElementById('item-admin').classList.toggle('oculto', usuario.papel !== 'admin');
     const chip = document.getElementById('chip-usuario');
     const menu = document.getElementById('menu-usuario');
-    chip.addEventListener('click', (e) => { e.stopPropagation(); menu.classList.toggle('oculto'); });
-    document.addEventListener('click', () => menu.classList.add('oculto'));
+    const fecharMenu = () => { menu.classList.add('oculto'); chip.setAttribute('aria-expanded', 'false'); };
+    chip.addEventListener('click', (e) => { e.stopPropagation(); menu.classList.toggle('oculto'); chip.setAttribute('aria-expanded', String(!menu.classList.contains('oculto'))); });
+    document.addEventListener('click', fecharMenu);
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') fecharMenu(); });
     document.getElementById('btn-sair').addEventListener('click', UI.sair);
 
     const cursoId = new URLSearchParams(location.search).get('id');
@@ -76,11 +93,16 @@
 
     if (!permitido) {
       document.getElementById('sem-acesso').classList.remove('oculto');
+      document.getElementById('curso-capa').classList.add('oculto');
+      document.getElementById('curso-conteudo').classList.add('oculto');
       document.getElementById('lista-modulos').innerHTML = '';
     } else {
       const est = Store.estatisticasCurso(curso);
       document.title = `AGORAMED — ${curso.titulo}`;
-      document.getElementById('c-titulo').textContent = curso.titulo;
+      const titulo = UI.escapar(curso.titulo);
+      document.getElementById('c-titulo').innerHTML = titulo.replace(/morte encefálica/i, '<em>$&</em>');
+      document.getElementById('programa-resumo').textContent = `${est.modulos} módulos · ${est.aulas} aulas`;
+      const linkAula = (m, a) => `aula.html?${new URLSearchParams({ c: curso.id, m: m.id, a: a.id })}`;
       document.getElementById('c-sub').textContent = curso.subtitulo || curso.descricao || '';
 
       const pills = [
@@ -89,18 +111,25 @@
         `${est.modulos} módulo${est.modulos === 1 ? '' : 's'}`,
         `${est.aulas} aula${est.aulas === 1 ? '' : 's'}`,
         est.duracao,
-        est.pdfs ? `${est.pdfs} material(is) em PDF` : '',
+        est.pdfs ? `${est.pdfs} ${est.pdfs === 1 ? 'material' : 'materiais'} em PDF` : '',
       ].filter(Boolean);
       document.getElementById('c-meta').innerHTML = pills.map(p => `<span class="pill">${UI.escapar(p)}</span>`).join('');
 
       const prog = Store.progressoCurso(usuario.id, curso);
       const boxProg = document.getElementById('c-progresso');
-      if (prog.total) {
-        boxProg.querySelector('.barra-progresso span').style.width = prog.percentual + '%';
-        boxProg.querySelector('.progresso-texto').textContent =
-          prog.percentual === 100 ? `✅ Curso concluído (${prog.total} aulas)` : `${prog.feitas} de ${prog.total} aulas concluídas · ${prog.percentual}%`;
-      } else {
-        boxProg.classList.add('oculto');
+      const percentual = Math.max(0, Math.min(100, Number(prog.percentual) || 0));
+      boxProg.querySelector('.barra-progresso span').style.width = percentual + '%';
+      boxProg.querySelector('.barra-progresso').setAttribute('aria-valuenow', percentual);
+      document.getElementById('c-percentual').textContent = percentual + '%';
+      boxProg.querySelector('.progresso-texto').textContent = prog.total
+        ? `${prog.feitas} de ${prog.total} aulas concluídas` : 'As aulas estarão disponíveis em breve.';
+      const aulasOrdenadas = (curso.modulos || []).flatMap(m => (m.aulas || []).map(a => ({ m, a })));
+      const proxima = aulasOrdenadas.find(({ a }) => !Store.estaConcluida(usuario.id, a.id)) || aulasOrdenadas[0];
+      if (proxima) {
+        const acao = document.getElementById('curso-continuar');
+        acao.href = linkAula(proxima.m, proxima.a);
+        acao.innerHTML = `${percentual === 100 ? 'Rever curso' : prog.feitas ? 'Continuar curso' : 'Começar curso'} <span aria-hidden="true">→</span>`;
+        acao.classList.remove('oculto');
       }
 
       const lista = document.getElementById('lista-modulos');
@@ -109,12 +138,12 @@
       } else {
         lista.innerHTML = curso.modulos.map((m, i) => {
           const aulas = m.aulas || [];
-          const temPdf = aulas.some(a => (a.pdfs || []).length);
+          const tituloModulo = m.titulo.replace(/^M[oó]dulo\s+\d+\s*[-–—:]\s*/i, '');
           return `
           <details class="modulo" ${i === 0 ? 'open' : ''}>
             <summary>
-              <span class="num">${i + 1}</span>
-              <span class="titulo-mod">${UI.escapar(m.titulo)}</span>
+              <span class="num">${String(i + 1).padStart(2, '0')}</span>
+              <span class="titulo-mod">${UI.escapar(tituloModulo)}</span>
               <span class="qtd">${aulas.length} aula${aulas.length === 1 ? '' : 's'}</span>
               <span class="seta">▾</span>
             </summary>
@@ -122,13 +151,13 @@
               ${aulas.length ? aulas.map((a, j) => {
                 const concluida = Store.estaConcluida(usuario.id, a.id);
                 return `
-                <a class="aula-linha ${concluida ? 'concluida' : ''}" href="aula.html?c=${curso.id}&m=${m.id}&a=${a.id}">
-                  <span class="icone">${concluida ? '✓' : '▶'}</span>
+                <a class="aula-linha ${concluida ? 'concluida' : ''}" href="${UI.escapar(linkAula(m, a))}">
+                  <span class="icone" aria-hidden="true">${concluida ? '✓' : '▷'}</span><span class="sr-only">${concluida ? 'Aula concluída: ' : ''}</span>
                   <span class="texto">
                     <strong>${j + 1}. ${UI.escapar(a.titulo)}</strong>
                     <small>${UI.escapar(a.duracao || '—')}${a.descricao ? ' · ' + UI.escapar(a.descricao) : ''}</small>
                   </span>
-                  <span class="sinalizadores">${(a.pdfs || []).length ? `<span class="tag-pdf">PDF ×${a.pdfs.length}</span>` : ''}</span>
+                  <span class="sinalizadores">${(a.pdfs || []).length ? `<span class="tag-pdf">PDF ×${a.pdfs.length}</span>` : ''}</span><span class="aula-seta" aria-hidden="true">→</span>
                 </a>`;
               }).join('') : '<div class="aula-linha" style="color:var(--texto-suave)"><span class="texto"><small>Aulas em produção — volte em breve.</small></span></div>'}
             </div>
