@@ -3,22 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#4A7784">
+  <meta name="theme-color" content="#07191f">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <title>AGORAMED — Aula</title>
   <link rel="manifest" href="manifest.json">
   <link rel="icon" href="icons/icon-192.png?v=2" type="image/png">
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-v2.png">
   <link rel="stylesheet" href="css/styles.css?v=50">
+  <link rel="stylesheet" href="css/inicio.css?v=50">
+  <link rel="stylesheet" href="css/curso.css?v=52">
+  <link rel="stylesheet" href="css/aula.css?v=53">
 </head>
-<body>
+<body class="pagina-cursos pagina-curso pagina-aula">
 
   <header class="topo">
     <div class="container">
-      <a class="marca" href="app.html" aria-label="AGORAMED — início"><img src="img/agoramed-simbolo-branco.png" alt="" class="simbolo-marca" width="468" height="381"><span class="nome-marca">AGORAMED</span></a>
+      <a class="marca" href="app.html" aria-label="AGORAMED — início"><img src="img/agoramed-logo-branco.png" alt="AGORAMED — Pronto para o plantão" class="logo-inicio" width="906" height="184"></a>
       <span class="espaco"></span>
       <div style="position:relative">
-        <button class="usuario-chip" id="chip-usuario" type="button">
+        <button class="usuario-chip" id="chip-usuario" type="button" aria-expanded="false" aria-controls="menu-usuario" aria-label="Abrir menu da conta">
           <span class="avatar" id="avatar-topo">?</span>
           <span class="nome-usuario" id="nome-topo">…</span> ▾
         </button>
@@ -31,55 +34,52 @@
   </header>
 
   <main class="container aula-wrap">
-    <a class="voltar-curso" id="link-voltar" href="app.html">← Voltar ao curso</a>
-
-    <div class="palco-video" id="palco"></div>
-
-    <div class="cab-aula">
-      <h1 id="a-titulo">…</h1>
-      <div class="acoes-aula">
-        <button class="btn secundario" id="btn-concluir" type="button">○ Marcar como concluída</button>
-        <button class="btn secundario" id="btn-anterior" type="button">← Aula anterior</button>
-        <button class="btn" id="btn-proxima" type="button">Próxima aula →</button>
-      </div>
-    </div>
-    <p class="desc-aula" id="a-desc"></p>
-
-    <div class="painel-lateral">
-      <div>
-        <!-- comentários -->
-        <section class="bloco" id="bloco-comentarios">
-          <h2>💬 Dúvidas e comentários</h2>
+    <nav class="aula-caminho" aria-label="Localização"><a href="app.html">Meus cursos</a><span aria-hidden="true">/</span><a id="link-voltar" href="app.html">Voltar ao curso</a><span aria-hidden="true">/</span><span id="a-caminho">Aula</span></nav>
+    <div class="aula-layout" id="aula-conteudo">
+      <div class="aula-principal">
+        <div class="palco-video" id="palco"></div>
+        <div class="cab-aula">
+          <p class="curso-eyebrow" id="a-modulo"></p>
+          <h1 id="a-titulo">Carregando aula…</h1>
+          <p class="desc-aula" id="a-desc"></p>
+          <div class="acoes-aula">
+            <button class="btn secundario" id="btn-concluir" type="button" aria-pressed="false">Marcar como concluída</button>
+            <span class="espaco"></span>
+            <button class="btn secundario" id="btn-anterior" type="button">← Aula anterior</button>
+            <button class="btn" id="btn-proxima" type="button">Próxima aula →</button>
+          </div>
+          <p id="a-status" role="status" aria-live="polite" class="aula-status"></p>
+        </div>
+        <div class="aula-abas" role="tablist" aria-label="Recursos da aula">
+          <button type="button" role="tab" id="aba-materiais" aria-selected="true" aria-controls="bloco-materiais" tabindex="0"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 3h8l4 4v14H6zM14 3v5h4M9 12h6m-6 4h6"/></svg>Materiais da aula</button>
+          <button type="button" role="tab" id="aba-comentarios" aria-selected="false" aria-controls="bloco-comentarios" tabindex="-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M21 11a9 9 0 0 1-13 8l-5 2 1-6a9 9 0 1 1 17-4Z"/></svg>Dúvidas e comentários</button>
+        </div>
+        <section class="bloco" id="bloco-materiais" role="tabpanel" aria-labelledby="aba-materiais">
+          <h2>Material complementar</h2><div id="lista-materiais"></div>
+        </section>
+        <section class="bloco" id="bloco-comentarios" role="tabpanel" aria-labelledby="aba-comentarios" hidden>
+          <h2>Dúvidas e comentários</h2>
           <form class="form-comentario" id="form-comentario">
-            <textarea id="texto-comentario" placeholder="Escreva sua dúvida ou comentário… (Enter envia, Shift+Enter quebra linha)" required maxlength="2000"></textarea>
-            <div class="linha-acoes">
-              <span class="dica-teclado">Seja específico: cite o caso, o tempo de evolução e a conduta em dúvida.</span>
-              <button class="btn pequeno" type="submit">Enviar</button>
-            </div>
+            <label for="texto-comentario" class="sr-only">Sua dúvida ou comentário</label>
+            <textarea id="texto-comentario" placeholder="Escreva sua dúvida ou comentário…" required maxlength="2000"></textarea>
+            <div class="linha-acoes"><span class="dica-teclado">Ctrl/⌘ + Enter para enviar. Não inclua dados que identifiquem pacientes.</span><button class="btn pequeno" type="submit">Enviar</button></div>
           </form>
-          <div id="lista-comentarios"></div>
+          <div id="lista-comentarios" aria-live="polite"></div>
         </section>
       </div>
-
-      <aside>
-        <!-- materiais -->
-        <section class="bloco" id="bloco-materiais">
-          <h2>📄 Materiais da aula</h2>
-          <div id="lista-materiais"></div>
+      <aside class="aula-lateral" aria-label="Acompanhe o curso">
+        <section class="painel-progresso">
+          <h2>Seu progresso</h2>
+          <div class="progresso-rotulo"><span>Conclusão das aulas</span><strong id="a-percentual">0%</strong></div>
+          <div class="barra-progresso" role="progressbar" aria-label="Progresso no curso" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span style="width:0%"></span></div>
+          <p class="progresso-texto" id="a-progresso-texto"></p>
         </section>
-
-        <!-- outras aulas do módulo -->
-        <section class="bloco">
-          <h2>📚 Neste módulo</h2>
-          <div id="lista-modulo"></div>
-        </section>
+        <section class="aula-curriculo"><h2>Conteúdo do curso</h2><div class="modulos" id="lista-modulo"></div><p class="progresso-dica">Seu progresso é atualizado ao marcar cada aula como concluída.</p></section>
       </aside>
     </div>
+    <div class="aviso oculto" id="aula-indisponivel" role="status">Aula não encontrada ou indisponível para sua conta. <a href="app.html">Voltar para meus cursos</a></div>
   </main>
-
-  <footer class="rodape">
-    <div class="container">Decisões seguras, baseadas em evidências.</div>
-  </footer>
+  <footer class="rodape"><div class="container">AGORAMED · Pronto para o plantão</div></footer>
 
   <script src="js/store.js?v=50"></script>
   <script type="module">
@@ -92,8 +92,10 @@
     document.getElementById('item-admin').classList.toggle('oculto', usuario.papel !== 'admin');
     const chip = document.getElementById('chip-usuario');
     const menu = document.getElementById('menu-usuario');
-    chip.addEventListener('click', (e) => { e.stopPropagation(); menu.classList.toggle('oculto'); });
-    document.addEventListener('click', () => menu.classList.add('oculto'));
+    const fecharMenu = () => { menu.classList.add('oculto'); chip.setAttribute('aria-expanded', 'false'); };
+    chip.addEventListener('click', e => { e.stopPropagation(); menu.classList.toggle('oculto'); chip.setAttribute('aria-expanded', String(!menu.classList.contains('oculto'))); });
+    document.addEventListener('click', fecharMenu);
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') fecharMenu(); });
     document.getElementById('btn-sair').addEventListener('click', UI.sair);
 
     const q = new URLSearchParams(location.search);
@@ -104,7 +106,8 @@
     const permitido = !!aula;
 
     if (!permitido) {
-      document.getElementById('palco').innerHTML = '<div class="video-vazio"><div><h3>Aula não encontrada</h3><p>Volte ao curso e tente novamente.</p></div></div>';
+      document.getElementById('aula-conteudo').classList.add('oculto');
+      document.getElementById('aula-indisponivel').classList.remove('oculto');
     } else {
       /* ---------------------------- player de vídeo (YouTube, nocookie) */
       const palco = document.getElementById('palco');
@@ -116,14 +119,16 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
           allowfullscreen loading="lazy"></iframe>`;
       } else {
-        palco.innerHTML = `<div class="video-vazio"><div><h3>📹 Vídeo em produção</h3><p>Esta aula será publicada em breve. Enquanto isso, baixe o material e participe do fólo de dúvidas.</p></div></div>`;
+        palco.innerHTML = `<div class="video-vazio"><div><h3>Vídeo em produção</h3><p>Esta aula será publicada em breve. Enquanto isso, baixe o material e participe do espaço de dúvidas.</p></div></div>`;
       }
 
       document.title = `AGORAMED — ${aula.titulo}`;
       document.getElementById('a-titulo').textContent = aula.titulo;
       document.getElementById('a-desc').textContent = aula.descricao || '';
       document.getElementById('link-voltar').href = `curso.html?id=${curso.id}`;
-      document.getElementById('link-voltar').textContent = `← ${curso.titulo}`;
+      document.getElementById('link-voltar').textContent = curso.titulo;
+      document.getElementById('a-caminho').textContent = aula.titulo;
+      document.getElementById('a-modulo').textContent = modulo.titulo;
 
       /* ----------------------------------------------- concluir aula */
       const btnConcluir = document.getElementById('btn-concluir');
@@ -131,18 +136,26 @@
         const ok = Store.estaConcluida(usuario.id, aula.id);
         btnConcluir.textContent = ok ? '✓ Aula concluída' : '○ Marcar como concluída';
         btnConcluir.classList.toggle('secundario', !ok);
+        btnConcluir.setAttribute('aria-pressed', String(ok));
       }
       pintarConclusao();
       btnConcluir.addEventListener('click', async () => {
-        // dispara a atualização otimista (cache muda sincronamente antes do await)
-        const promise = Store.alternarConcluida(usuario.id, aula.id);
-        // atualiza o visual imediatamente
-        pintarConclusao();
-        const r = await promise;
-        if (!r || !r.ok) {
-          alert((r && r.erro) || 'Não foi possível atualizar o status da aula.');
+        btnConcluir.disabled = true;
+        const status = document.getElementById('a-status');
+        status.textContent = 'Salvando progresso…';
+        try {
+          const promise = Store.alternarConcluida(usuario.id, aula.id);
+          pintarConclusao();
+          const r = await promise;
+          status.textContent = r?.ok ? 'Progresso salvo.' : (r?.erro || 'Não foi possível salvar. Tente novamente.');
+        } catch {
+          status.textContent = 'Não foi possível salvar. Verifique sua conexão e tente novamente.';
+        } finally {
+          pintarConclusao();
+          pintarProgresso();
+          pintarCurriculo(false);
+          btnConcluir.disabled = false;
         }
-        pintarConclusao();
       });
 
       /* ------------------- aulas vizinhas: anterior e próxima
@@ -204,18 +217,53 @@
             </div>`).join('')
         : '<p style="font-size:.85rem;color:var(--texto-suave)">Nenhum material anexado a esta aula.</p>';
 
-      /* ---------------------------------------------- aulas do módulo */
-      const idxAula = modulo.aulas.indexOf(aula);
-      document.getElementById('lista-modulo').innerHTML = modulo.aulas.map((a, i) => {
-        const concluida = Store.estaConcluida(usuario.id, a.id);
-        const atual = a.id === aula.id;
-        return `
-        <a class="aula-linha" style="padding:9px 0;border-bottom:${i === modulo.aulas.length - 1 ? 'none' : '1px solid var(--linha)'};${atual ? 'font-weight:700' : ''}"
-           href="aula.html?c=${curso.id}&m=${modulo.id}&a=${a.id}" ${atual ? 'aria-current="page"' : ''}>
-          <span class="icone" style="width:30px;height:30px;font-size:.8rem">${concluida ? '✓' : (atual ? '▶' : i + 1)}</span>
-          <span class="texto"><strong style="font-size:.85rem;${atual ? 'color:var(--petroleo)' : ''}">${UI.escapar(a.titulo)}</strong></span>
-        </a>`;
-      }).join('');
+      /* O currículo usa os mesmos cursos e conclusões autorizados pelo servidor. */
+      function pintarProgresso() {
+        const prog = Store.progressoCurso(usuario.id, curso);
+        document.getElementById('a-percentual').textContent = `${prog.percentual}%`;
+        document.getElementById('a-progresso-texto').textContent = `${prog.feitas} de ${prog.total} aulas concluídas`;
+        const barra = document.querySelector('.aula-lateral .barra-progresso');
+        barra.setAttribute('aria-valuenow', prog.percentual);
+        barra.querySelector('span').style.width = `${prog.percentual}%`;
+      }
+      function pintarCurriculo(inicial = true) {
+        const lista = document.getElementById('lista-modulo');
+        const abertos = new Set([...lista.querySelectorAll('details[open]')].map(e => e.dataset.modulo));
+        lista.innerHTML = (curso.modulos || []).map((m, i) => {
+          const aulas = m.aulas || [];
+          const aberto = inicial ? m.id === modulo.id : abertos.has(m.id);
+          const titulo = m.titulo.replace(/^M[oó]dulo\s+\d+\s*[-–—:]\s*/i, '');
+          return `<details class="modulo" data-modulo="${UI.escapar(m.id)}" ${aberto ? 'open' : ''}>
+            <summary><span class="num">${String(i + 1).padStart(2, '0')}</span><span class="titulo-mod">${UI.escapar(titulo)}</span><span class="qtd">${aulas.length} aula${aulas.length === 1 ? '' : 's'}</span><span class="seta" aria-hidden="true">▾</span></summary>
+            <div class="lista-aulas">${aulas.map(a => {
+              const concluida = Store.estaConcluida(usuario.id, a.id);
+              const atual = a.id === aula.id;
+              const href = `aula.html?${new URLSearchParams({c:curso.id,m:m.id,a:a.id})}`;
+              return `<a class="aula-linha ${concluida ? 'concluida' : ''}" href="${UI.escapar(href)}" ${atual ? 'aria-current="page"' : ''}><span class="icone" aria-hidden="true">${concluida ? '✓' : '▷'}</span><span class="texto"><strong>${UI.escapar(a.titulo)}</strong><small>${UI.escapar(a.duracao || '—')}${concluida ? ' · Concluída' : ''}</small>${atual ? '<span class="aula-atual">Você está aqui</span>' : ''}</span></a>`;
+            }).join('') || '<p class="modulo-vazio">Aulas em produção.</p>'}</div></details>`;
+        }).join('');
+      }
+      pintarProgresso();
+      pintarCurriculo();
+      const abas = [...document.querySelectorAll('[role="tab"]')];
+      function selecionarAba(aba) {
+        abas.forEach(item => {
+          const ativa = item === aba;
+          item.setAttribute('aria-selected', String(ativa));
+          item.tabIndex = ativa ? 0 : -1;
+          document.getElementById(item.getAttribute('aria-controls')).hidden = !ativa;
+        });
+      }
+      abas.forEach((aba, i) => {
+        aba.addEventListener('click', () => selecionarAba(aba));
+        aba.addEventListener('keydown', e => {
+          let alvo;
+          if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') alvo = abas[(i + 1) % abas.length];
+          if (e.key === 'Home') alvo = abas[0];
+          if (e.key === 'End') alvo = abas[abas.length - 1];
+          if (alvo) { e.preventDefault(); selecionarAba(alvo); alvo.focus(); }
+        });
+      });
 
       /* ----------------------------------------------------- comentários */
       const contexto = `aula:${curso.id}:${modulo.id}:${aula.id}`;
