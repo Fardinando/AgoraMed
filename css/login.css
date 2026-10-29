@@ -71,7 +71,26 @@
 }
 .pagina-login .campo input::placeholder { color: #a9bdc5; opacity: 1; }
 .pagina-login .campo input:focus { border-color: #6ae1e9; background: #0b2832; box-shadow: 0 0 0 3px #62d9e321; }
-.pagina-login input:-webkit-autofill { -webkit-text-fill-color: #f5fafb; box-shadow: 0 0 0 1000px #102f39 inset; }
+/* O Safari pode preservar o amarelo nativo do AutoFill mesmo em tema escuro.
+   Texto escuro permanece legível nesse caso; a sombra mantém uma superfície
+   clara controlada, inclusive no foco (sem perder para a regra acima). */
+.pagina-login .campo input:is(:autofill, :-webkit-autofill) {
+  color: #102f39 !important;
+  -webkit-text-fill-color: #102f39 !important;
+  caret-color: #102f39;
+  background-color: #dceff2 !important;
+  -webkit-box-shadow: 0 0 0 1000px #dceff2 inset !important;
+  box-shadow: 0 0 0 1000px #dceff2 inset !important;
+}
+.pagina-login .campo input:is(:autofill, :-webkit-autofill):focus {
+  border-color: #6ae1e9;
+  -webkit-box-shadow: 0 0 0 1000px #dceff2 inset, 0 0 0 3px #62d9e340 !important;
+  box-shadow: 0 0 0 1000px #dceff2 inset, 0 0 0 3px #62d9e340 !important;
+}
+.pagina-login .login-input:has(input:is(:autofill, :-webkit-autofill)) > svg,
+.pagina-login .login-input:has(input:is(:autofill, :-webkit-autofill)) .login-revelar {
+  color: #244c59;
+}
 .login-input { position: relative; }
 .login-input > svg { position: absolute; left: 15px; top: 17px; width: 20px; height: 20px; color: #b7ced6; pointer-events: none; }
 .pagina-login .login-input input { padding-left: 46px; }
