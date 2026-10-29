@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'Playfair Display'; font-style: normal; font-weight: 400; font-display: swap;
+  src: url('../fonts/playfair-display-400-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Playfair Display'; font-style: italic; font-weight: 400; font-display: swap;
+  src: url('../fonts/playfair-display-400-italic-latin.woff2') format('woff2');
+}
+
+/* Identidade da biografia. Não altera o cartão Sobre mim na área de cursos. */
+.pagina-sobre {
+  --bg: #07191f; --texto: #f4f8f9; --texto-suave: #c0d3dc; --petroleo: #6bddE5;
+  background: radial-gradient(ellipse at 70% 15%, #0c303c 0, transparent 55%), #07191f;
+  color: var(--texto); color-scheme: dark;
+}
+.pagina-sobre .container, .pagina-sobre #agoramed-sobre { width: min(1320px, 100% - 80px); max-width: 1320px; margin-inline: auto; }
+.pagina-sobre .topo { position: relative; background: transparent; box-shadow: none;
+  backdrop-filter: none; -webkit-backdrop-filter: none; }
+.pagina-sobre .topo .container { min-height: 92px; height: auto; padding-block: 20px;
+  display: flex; justify-content: space-between; align-items: center; gap: 24px; border-bottom: 1px solid #36616e; }
+.ag-logo-sobre { width: 240px; height: auto; }
+.ag-header-back { display: inline-flex; align-items: center; gap: 12px; min-height: 44px;
+  color: #f0f7fa; font-size: .84rem; }
+.ag-header-back > span { color: #70dce6; font-size: 1.25rem; }
+.pagina-sobre #agoramed-sobre { --ag-bg: transparent; --ag-text: #f4f8f9;
+  --ag-muted: #c0d3dc; --ag-teal: #6bdce5; --ag-top: #07191f; --ag-action: transparent; }
+.pagina-sobre #agoramed-sobre .ag-main { padding: 26px 0 0; }
+.pagina-sobre #agoramed-sobre .ag-about-hero {
+  margin: 0; padding: 56px; width: 100%; max-width: 100%; min-width: 0; min-height: 500px; aspect-ratio: 2.1;
+  border-radius: 24px; border: 1px solid #397583; background: #07191f;
+}
+.pagina-sobre #agoramed-sobre .ag-about-heading { width: 48%; }
+.pagina-sobre #agoramed-sobre .ag-about-hero .ag-eyebrow { font-size: .69rem; font-weight: 500;
+  color: #7fe7ed; letter-spacing: .28em; }
+.pagina-sobre #agoramed-sobre .ag-about-hero h1 {
+  font: 400 clamp(32px, 3.8vw, 54px)/1.13 'Playfair Display', Georgia, serif;
+  letter-spacing: -.025em; max-width: 17ch; margin: 18px 0 26px; color: #fbfcfd;
+}
+.pagina-sobre #agoramed-sobre .ag-about-hero h1 span { color: #6bdce5; font-style: italic; }
+.pagina-sobre #agoramed-sobre .ag-byline { padding: 0; border: 0; }
+.pagina-sobre #agoramed-sobre .ag-byline strong { font: 400 clamp(19px, 1.9vw, 26px)/1.4 'Playfair Display', Georgia, serif; }
+.pagina-sobre #agoramed-sobre .ag-byline span { display: block; font-size: .8rem; margin-top: 5px; color: #e3f0f4; }
+.pagina-sobre #agoramed-sobre .ag-photo::after {
+  background: linear-gradient(90deg, #07191ff2 0%, #07191fc9 30%, #07191f2b 58%, transparent 75%), linear-gradient(0deg, #07191f47, transparent 35%);
+}
+.ag-hero-monograma { position: absolute; z-index: 1; width: 210px; height: auto; left: 40px;
+  bottom: -10px; opacity: .08; pointer-events: none; }
+.pagina-sobre #agoramed-sobre .ag-story { display: grid; grid-template-columns: 245px minmax(0, 1fr);
+  gap: 48px 60px; max-width: none; padding-top: 64px; }
+.pagina-sobre #agoramed-sobre .ag-story .ag-story-title {
+  font: 700 clamp(38px, 4.3vw, 60px)/1.05 'Playfair Display', Georgia, serif;
+  color: #f5f9fa; text-transform: none; letter-spacing: -.04em; max-width: 7ch; margin: 0;
+}
+.pagina-sobre #agoramed-sobre .ag-story-title::after { content: ''; display: block; margin-top: 24px;
+  height: 2px; width: 54px; background: #6bdce5; }
+.ag-story-copy { min-width: 0; max-width: 790px; }
+.pagina-sobre #agoramed-sobre .ag-story p { font-size: 17px; line-height: 1.85; margin-bottom: 24px;
+  color: #d7e5eb; }
+.pagina-sobre #agoramed-sobre .ag-story strong { font-weight: 650; color: #f7fafb; }
+.pagina-sobre #agoramed-sobre .ag-story .ag-turn { border-left: 2px solid #6bdce5; padding-left: 24px;
+  margin: 32px 0; font: 400 clamp(23px, 2.3vw, 30px)/1.35 'Playfair Display', Georgia, serif; }
+.pagina-sobre #agoramed-sobre .ag-turn strong { color: #83e5eb; }
+.pagina-sobre #agoramed-sobre .ag-story-copy p:nth-last-child(2) strong { color: #6bdce5; }
+.pagina-sobre #agoramed-sobre .ag-story-copy > p:last-child { margin-bottom: 0; }
+.pagina-sobre #agoramed-sobre .ag-ending { position: relative; isolation: isolate; overflow: hidden;
+  grid-column: 1 / -1; border: 1px solid #386b79; border-radius: 18px;
+  background: #092c364d; padding: 38px 42px; margin: 0; }
+.pagina-sobre #agoramed-sobre .ag-ending::after { content: ''; position: absolute; z-index: -1;
+  right: -20px; bottom: -30px; width: 300px; aspect-ratio: 458 / 278; opacity: .07;
+  background: url('../img/agoramed-monograma-branco.png') center / contain no-repeat; }
+.pagina-sobre #agoramed-sobre .ag-ending p { font: 400 clamp(24px, 2.5vw, 34px)/1.35 'Playfair Display', Georgia, serif;
+  color: #f7fafb; padding-left: 30px; border-left: 2px solid #6bdce5; margin: 0; max-width: 1040px; }
+.pagina-sobre #agoramed-sobre .ag-ending strong { font-weight: 400; }
+.pagina-sobre #agoramed-sobre .ag-ending em { color: #73e1e9; }
+.ag-return { display: flex; justify-content: center; margin: 34px 0 42px; }
+.pagina-sobre #agoramed-sobre .ag-return .ag-button { background: transparent; border: 1px solid #6bdce5;
+  border-radius: 10px; min-height: 48px; padding: 12px 24px; color: #f2f9fb; font-weight: 500; }
+.pagina-sobre #agoramed-sobre .ag-return .ag-button:hover { background: #16424e; filter: none; }
+.pagina-sobre .rodape { margin: 0; padding: 0 0 28px; border: 0; background: transparent; color: #c4dde5; }
+.pagina-sobre .rodape .container { display: flex; align-items: center; gap: 24px;
+  font-size: .6rem; letter-spacing: .23em; text-align: center; }
+.pagina-sobre .rodape .container::before, .pagina-sobre .rodape .container::after { content: ''; flex: 1; height: 1px; background: #3d707a; }
+.pagina-sobre :is(a, button):focus-visible { outline: 2px solid #8aebf1; outline-offset: 4px; }
+
+@media (max-width: 1000px) {
+  .pagina-sobre .container, .pagina-sobre #agoramed-sobre { width: calc(100% - 48px); }
+  .pagina-sobre #agoramed-sobre .ag-about-hero { padding: 38px; }
+  .pagina-sobre #agoramed-sobre .ag-about-hero h1 { font-size: 38px; }
+  .pagina-sobre #agoramed-sobre .ag-story { grid-template-columns: 190px minmax(0, 1fr); gap: 38px; }
+  .ag-hero-monograma { width: 170px; }
+}
+@media (max-width: 760px) {
+  .pagina-sobre .container, .pagina-sobre #agoramed-sobre { width: calc(100% - 36px); }
+  .pagina-sobre .topo .container { min-height: 82px; gap: 12px; padding-block: 16px; flex-wrap: wrap; }
+  .ag-logo-sobre { width: 205px; }
+  .ag-header-back { font-size: .75rem; margin-left: auto; }
+  .pagina-sobre #agoramed-sobre .ag-main { padding-top: 22px; }
+  .pagina-sobre #agoramed-sobre .ag-about-hero { display: block; min-height: 0; aspect-ratio: auto;
+    padding: 310px 24px 30px; border-radius: 20px; }
+  .pagina-sobre #agoramed-sobre .ag-about-heading { width: 100%; }
+  .pagina-sobre #agoramed-sobre .ag-photo { height: 380px; bottom: auto; }
+  .pagina-sobre #agoramed-sobre .ag-photo img { object-position: 70% center; }
+  .pagina-sobre #agoramed-sobre .ag-photo::after { background: linear-gradient(0deg, #07191f 0%, #07191f73 22%, transparent 60%); }
+  .pagina-sobre #agoramed-sobre .ag-about-hero h1 { font-size: clamp(30px, 6.4vw, 38px); max-width: 22ch; margin: 14px 0 22px; }
+  .pagina-sobre #agoramed-sobre .ag-byline strong { font-size: 20px; }
+  .pagina-sobre #agoramed-sobre .ag-byline span { font-size: .74rem; }
+  .ag-hero-monograma { width: 160px; left: auto; right: -30px; bottom: -10px; opacity: .04; }
+  .pagina-sobre #agoramed-sobre .ag-story { grid-template-columns: minmax(0, 1fr); gap: 30px; padding-top: 38px; }
+  .pagina-sobre #agoramed-sobre .ag-story .ag-story-title { max-width: none; font-size: 36px; letter-spacing: -.025em; }
+  .pagina-sobre #agoramed-sobre .ag-story-title::after { margin-top: 16px; }
+  .pagina-sobre #agoramed-sobre .ag-story p { font-size: 16px; line-height: 1.85; }
+  .pagina-sobre #agoramed-sobre .ag-story .ag-turn { font-size: 24px; padding-left: 18px; }
+  .pagina-sobre #agoramed-sobre .ag-ending { padding: 26px 22px; }
+  .pagina-sobre #agoramed-sobre .ag-ending p { font-size: 24px; line-height: 1.4; padding-left: 18px; }
+  .pagina-sobre #agoramed-sobre .ag-return .ag-button { justify-self: auto; }
+  .pagina-sobre .rodape .container { gap: 12px; font-size: .5rem; letter-spacing: .12em; }
+}
+@media (max-width: 380px) {
+  .ag-logo-sobre { width: 180px; }
+  .pagina-sobre #agoramed-sobre .ag-about-hero { padding: 285px 20px 28px; }
+  .pagina-sobre #agoramed-sobre .ag-photo { height: 350px; }
+}
