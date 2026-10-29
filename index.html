@@ -201,6 +201,9 @@
       document.getElementById('login-senha').focus();
     });
 
+    // A landing page conduz novos alunos diretamente ao formulário de cadastro.
+    if (params.get('cadastro') === '1') abaCadastrar.click();
+
     /* se já houver sessão, segue direto (exceto na página de teste visual) */
     if (!params.get('preview')) {
       const u = await Store.iniciar();
