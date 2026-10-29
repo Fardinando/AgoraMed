@@ -1,0 +1,159 @@
+/* A identidade do painel é restrita à página do professor. */
+.pagina-admin .topo .container { width: calc(100% - 64px); max-width: 1560px; height: 94px; gap: 24px; }
+.pagina-admin .admin-ver-aluno { display: flex; align-items: center; gap: 10px; background: transparent; border-color: #5a9da9; border-radius: 24px; font-size: .8rem; }
+.admin-ver-aluno svg { width: 20px; height: 20px; }
+.admin-perfil { display: flex; align-items: center; gap: 12px; font-size: .8rem; }
+.admin-perfil .avatar { display: grid; place-items: center; width: 42px; height: 42px; background: transparent; color: #edf9fb; border: 1px solid #60d1dc; border-radius: 50%; font-size: .75rem; }
+.admin-shell { display: grid; grid-template-columns: 225px minmax(0, 1fr); max-width: 1624px; margin: auto; min-height: calc(100vh - 170px); }
+.admin-sidebar { display: flex; flex-direction: column; padding: 36px 18px 28px; border-right: 1px solid #315561; }
+.admin-eyebrow { font-size: .6rem; letter-spacing: .25em; color: #91dfe7; font-weight: 500; }
+.admin-sidebar > .admin-eyebrow { padding-left: 14px; margin: 0 0 24px; }
+.pagina-admin .abas-admin { display: grid; gap: 12px; padding: 0; margin: 0; overflow: visible; }
+.pagina-admin .abas-admin button { display: flex; align-items: center; gap: 18px; min-height: 58px; border: 0; border-left: 3px solid transparent; background: transparent; border-radius: 9px; color: #d5e5eb; font: inherit; font-size: .88rem; padding: 14px; text-align: left; box-shadow: none; }
+.pagina-admin .abas-admin button.ativo { border-left-color: #70e2e9; color: #fff; background: #123d49; }
+.pagina-admin .abas-admin button:hover { background: #12333e; transform: none; }
+.abas-admin svg { width: 25px; height: 25px; flex: none; }
+.admin-voltar { display: flex; gap: 14px; align-items: center; border-top: 1px solid #315764; padding: 24px 10px 0; margin-top: auto; color: #d9ebef; font-size: .8rem; }
+.pagina-admin main.admin-conteudo { width: 100%; min-width: 0; padding: 38px 40px 44px; max-width: none; margin: 0; }
+.pagina-admin .admin-cab { position: relative; background: transparent; padding: 0; margin: 0 0 30px; isolation: isolate; }
+.pagina-admin .admin-cab .admin-eyebrow { margin-bottom: 18px; color: #90e1e8; font-size: .6rem; opacity: 1; }
+.pagina-admin .admin-cab h1 { font: 400 clamp(34px, 4.2vw, 60px)/1.15 'Playfair Display', Georgia, serif; letter-spacing: -.03em; margin-bottom: 16px; }
+.admin-cab h1 em { color: #6cdee7; }
+.pagina-admin .admin-cab > p:last-child { color: #bfd4dd; font-size: .92rem; margin: 0; opacity: 1; }
+.admin-marca-dagua { position: absolute; width: 260px; right: 0; top: -25px; z-index: -1; pointer-events: none; }
+.admin-marca-dagua img { width: 100%; height: auto; opacity: .055; }
+.admin-indicadores { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 18px; margin: 0 0 32px; }
+.admin-indicador { display: flex; align-items: center; gap: 24px; border: 1px solid #3b6976; border-radius: 12px; padding: 22px 26px; background: #0a293480; min-width: 0; }
+.admin-indicador > svg { width: 38px; height: 38px; flex: none; color: #d0edf2; }
+.admin-indicador div { display: grid; gap: 2px; }
+.admin-indicador span { color: #bfd3dc; font-size: .78rem; }
+.admin-indicador strong { font: 400 40px/1.1 'Playfair Display', Georgia, serif; }
+.admin-secao-cab { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; margin: 0 0 20px; }
+.pagina-admin h2 { font: 400 31px/1.25 'Playfair Display', Georgia, serif; margin: 0; }
+.admin-secao-cab > span { font-size: .8rem; color: #b5cdd7; }
+.pagina-admin .btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 44px; border: 1px solid #80e4ed; background: #64dce6; color: #052833; font-size: .8rem; font-weight: 600; border-radius: 9px; padding: 10px 16px; box-shadow: none; }
+.pagina-admin .btn::after { display: none; }
+.pagina-admin .btn:hover { transform: none; filter: brightness(1.07); }
+.pagina-admin .btn :is(svg) { width: 20px; height: 20px; flex: none; }
+.pagina-admin .btn:is(.secundario,.fantasma) { background: transparent; border-color: #4c8796; color: #e0f2f6; }
+.pagina-admin .btn.perigo { border-color: #9b6664; color: #f3c2bc; background: #3e262a; }
+.pagina-admin .btn:disabled { opacity: .45; cursor: not-allowed; }
+.admin-busca { display: flex; align-items: center; gap: 12px; padding: 0 16px; border: 1px solid #3b6d7b; border-radius: 9px; background: #09232d; margin-bottom: 18px; }
+.admin-busca svg { width: 22px; height: 22px; flex: none; color: #b9dce5; }
+.pagina-admin .admin-busca input { width: 100%; min-width: 0; border: 0; background: transparent; padding: 13px 0; color: #edf8fa; font: inherit; font-size: .85rem; }
+.admin-busca:focus-within { outline: 2px solid #78e2eb; outline-offset: 2px; }
+.pagina-admin .admin-busca input:focus { outline: none; box-shadow: none; }
+.pagina-admin .card-linha { border: 1px solid #376471; background: #0b2a3480; border-radius: 13px; box-shadow: none; animation: none; padding: 22px; gap: 22px; min-width: 0; backdrop-filter: none; }
+.pagina-admin .card-linha:hover { transform: none; }
+.pagina-admin .card-linha .dados { min-width: 0; }
+.pagina-admin .card-linha .dados > strong { color: #f5f9fa; }
+.pagina-admin .card-linha small { color: #bcd1db; line-height: 1.65; overflow-wrap: anywhere; }
+.pagina-admin .card-linha .acoes { gap: 10px; flex-wrap: wrap; }
+.pagina-admin .admin-card-curso { align-items: center; }
+.pagina-admin .admin-card-curso .mini-capa { width: clamp(160px, 24vw, 290px); aspect-ratio: 16/9; height: auto; align-self: center; flex: none; border-radius: 9px; background: #0c3541; overflow: hidden; }
+.pagina-admin .admin-card-curso .mini-capa img { width: 100%; height: 100%; object-fit: cover; }
+.admin-card-curso .mini-capa > svg { width: 52px; height: 52px; color: #8cbac8; }
+.admin-categoria { display: block; text-transform: uppercase; letter-spacing: .2em; font-size: .57rem; color: #7ee3eb; margin-bottom: 8px; }
+.pagina-admin .admin-card-curso .dados > strong { display: block; font: 400 clamp(21px,2vw,29px)/1.3 'Playfair Display', Georgia, serif; overflow-wrap: anywhere; }
+.admin-etiquetas { display: flex; gap: 10px; margin: 12px 0 8px; flex-wrap: wrap; }
+.admin-etiquetas span { border: 1px solid #427784; border-radius: 20px; padding: 3px 12px; font-size: .68rem; color: #d8edf2; }
+.admin-etiquetas span:first-child { color: #8de8ef; border-color: #60c1ce; }
+.pagina-admin .admin-card-curso .acoes { margin-top: 15px; }
+.admin-mais { position: relative; margin-left: auto; }
+.admin-mais summary { list-style: none; border: 1px solid #3e6e7d; color: #def1f5; border-radius: 8px; cursor: pointer; width: 44px; height: 44px; display: grid; place-items: center; font-size: 1.3rem; }
+.admin-mais summary::-webkit-details-marker { display: none; }
+.admin-mais > div { position: absolute; right: 0; top: 48px; padding: 8px; z-index: 4; border: 1px solid #5c818e; background: #102f39; border-radius: 10px; box-shadow: 0 8px 24px #0008; white-space: nowrap; }
+.admin-orientacao { display: flex; gap: 14px; align-items: center; border: 1px solid #315d6a; border-radius: 10px; padding: 12px 16px; margin: 14px 0; color: #bbd4dd; }
+.admin-orientacao svg { width: 23px; height: 23px; flex: none; color: #78dce6; }
+.admin-orientacao p { font-size: .76rem; line-height: 1.6; margin: 0; }
+.admin-atalhos { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; margin-bottom: 26px; }
+.admin-atalhos article { display: flex; gap: 22px; border: 1px solid #376574; border-radius: 12px; padding: 22px; background: #0a273080; min-width: 0; }
+.admin-atalhos article > svg { width: 29px; height: 29px; flex: none; color: #cce8ef; margin-top: 3px; }
+.admin-atalhos h3 { font: 400 22px/1.3 'Playfair Display', Georgia, serif; margin: 0 0 10px; }
+.admin-atalhos p { font-size: .78rem; line-height: 1.7; color: #b9d0da; margin: 0 0 12px; }
+.admin-atalhos button { border: 0; padding: 0; background: transparent; color: #7de3ec; font: inherit; font-size: .8rem; cursor: pointer; text-align: left; min-height: 36px; }
+.pagina-admin :is(input,textarea,select) { color-scheme: dark; background: #09232c; color: #f0f8fa; border-color: #406c7a; }
+.pagina-admin :is(input,textarea)::placeholder { color: #aac3cf; opacity: 1; }
+.pagina-admin :is(input,textarea,select):focus-visible { outline: 2px solid #80e5ed; outline-offset: 2px; }
+.pagina-admin input[type="checkbox"] { accent-color: #67dce7; }
+.pagina-admin :is(.painel-form,.editor-modulo,.editor-aula) { background: #0b2832; border: 1px solid #3a6472; box-shadow: none; backdrop-filter: none; animation: none; }
+.pagina-admin .painel-form { margin-top: 24px; padding: 24px; border-radius: 13px; }
+.pagina-admin #editor { scroll-margin-top: 24px; }
+.admin-editor-dica { margin: 20px 0; font-size: .8rem; line-height: 1.7; color: #bed8e1; }
+.pagina-admin .campo label { color: #d6e7ed; }
+.pagina-admin .campo .dica { color: #abc6d1; }
+.pagina-admin .aviso { background: #0f3441; border: 1px solid #386775; color: #d1e4eb; line-height: 1.75; }
+.pagina-admin .aviso.erro { background: #3e252a; border-color: #986366; color: #f8d1ca; }
+.pagina-admin :is(.acoes-massa,.progresso-aluno-dialog) { background: #0c2b35; border: 1px solid #4f7a88; color: #f2f9fa; }
+.pagina-admin .situacao { border: 1px solid #477d8c; background: #123f4b; color: #b8edf3; }
+.pagina-admin .situacao.pendente { border-color: #a18c5e; color: #ecdbad; background: #3d3523; }
+.pagina-admin .aluno-nome-progresso { color: #f2f9fa; }
+.pagina-admin .aluno-nome-progresso span { color: #81dce6; }
+.pagina-admin .progresso-aluno-dialog h2 { font-size: 28px; }
+.pagina-admin .progresso-aluno-dialog::backdrop { background: #000a; backdrop-filter: blur(5px); }
+.pagina-admin .progresso-aluno-curso { background: #10343f; border-color: #3a6774; }
+.pagina-admin .progresso-aluno-curso h3 { color: #f0f8fb; }
+.pagina-admin .progresso-aluno-curso :is(p,strong) { color: #bde5ed; }
+.pagina-admin .barra-progresso { background: #041c26; }
+.pagina-admin .rodape { margin-top: 28px; }
+@media(max-width:1200px) {
+ .admin-shell { grid-template-columns: 190px minmax(0,1fr); }
+ .pagina-admin main.admin-conteudo { padding-inline: 28px; }
+ .admin-indicador { padding: 20px 16px; gap: 16px; }
+ .admin-indicador > svg { width: 30px; height: 30px; }
+ .pagina-admin .admin-card-curso { flex-wrap: wrap; }
+ .pagina-admin .admin-card-curso .mini-capa { width: 180px; }
+ .admin-atalhos article { padding: 18px; gap: 14px; }
+}
+@media(max-width:900px) {
+ .admin-shell { grid-template-columns: minmax(0,1fr); }
+ .admin-sidebar { padding: 18px 28px 0; border: 0; }
+ .admin-sidebar > .admin-eyebrow,.admin-voltar { display: none; }
+ .pagina-admin .abas-admin { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 10px; }
+ .pagina-admin .abas-admin button { min-height: 50px; justify-content: center; gap: 10px; border-left: 0; border-bottom: 2px solid transparent; padding: 10px; }
+ .pagina-admin .abas-admin button.ativo { border-bottom-color: #70e2e9; }
+ .pagina-admin main.admin-conteudo { padding-top: 28px; }
+ .admin-atalhos { gap: 14px; }
+ .pagina-admin .card-linha:not(.admin-card-curso) { flex-wrap: wrap; }
+ .pagina-admin .card-linha:not(.admin-card-curso) .dados { flex-basis: calc(100% - 120px); }
+}
+@media(max-width:600px) {
+ .pagina-admin .topo .container { width: calc(100% - 36px); min-height: 82px; padding-block: 15px; gap: 10px; }
+ .pagina-admin .admin-ver-aluno { order: 0; padding: 8px; font-size: 0; min-width: 40px; min-height: 40px; margin-left: 0; }
+ .pagina-admin .admin-ver-aluno svg { width: 21px; height: 21px; }
+ .admin-perfil > span:last-child { display: none; }
+ .admin-perfil .avatar { width: 36px; height: 36px; }
+ .pagina-admin .topo .logo-inicio { width: min(190px,45vw); }
+ .admin-sidebar { padding: 14px 18px 0; }
+ .pagina-admin .abas-admin { gap: 5px; }
+ .pagina-admin .abas-admin button { gap: 7px; font-size: .75rem; padding: 10px 7px; }
+ .abas-admin svg { width: 21px; height: 21px; }
+ .pagina-admin main.admin-conteudo { padding: 28px 18px 24px; }
+ .pagina-admin .admin-cab h1 { font-size: 39px; }
+ .pagina-admin .admin-cab > p:last-child { font-size: .83rem; line-height: 1.7; }
+ .admin-marca-dagua { width: 170px; right: -10px; top: 0; }
+ .admin-indicadores { gap: 8px; margin-bottom: 28px; }
+ .admin-indicador { padding: 14px 10px; gap: 6px; flex-direction: column; align-items: flex-start; }
+ .admin-indicador > svg { width: 23px; height: 23px; }
+ .admin-indicador span { font-size: .65rem; }
+ .admin-indicador strong { font-size: 31px; }
+ .pagina-admin h2 { font-size: 28px; }
+ .admin-secao-cab { gap: 12px; }
+ .pagina-admin .btn { padding: 9px 12px; font-size: .75rem; }
+ .pagina-admin .card-linha { padding: 16px; gap: 16px; }
+ .pagina-admin .admin-card-curso { display: block; }
+ .pagina-admin .admin-card-curso .mini-capa { width: 100%; margin-bottom: 18px; }
+ .pagina-admin .admin-card-curso .dados > strong { font-size: 25px; }
+ .pagina-admin .admin-card-curso .acoes { gap: 8px; }
+ .admin-atalhos { grid-template-columns: minmax(0,1fr); }
+ .admin-atalhos article { padding: 20px; }
+ .pagina-admin .painel-form { padding: 16px; }
+ .pagina-admin .grade-2 { grid-template-columns: minmax(0,1fr); }
+ .pagina-admin .busca-campo { flex-wrap: wrap; }
+ .pagina-admin .busca-campo :is(input,select) { min-width: 0; width: 100%; }
+ .pagina-admin .card-linha .acoes { width: 100%; }
+ .pagina-admin .card-linha small { font-size: .75rem; }
+ .pagina-admin .editor-aula .cab-aula-ed { flex-wrap: wrap; }
+ .pagina-admin .editor-aula .cab-aula-ed input.titulo-aula { min-width: 0; width: 100%; }
+ .pagina-admin .progresso-aluno-dialog { width: calc(100% - 24px); padding: 18px; }
+}

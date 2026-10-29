@@ -3,59 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#4A7784">
+  <meta name="theme-color" content="#07191f">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <title>AGORAMED — Painel do professor</title>
   <link rel="manifest" href="manifest.json">
   <link rel="icon" href="icons/icon-192.png?v=2" type="image/png">
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-v2.png">
   <link rel="stylesheet" href="css/styles.css?v=50">
+  <link rel="stylesheet" href="css/inicio.css?v=50">
+  <link rel="stylesheet" href="css/admin.css?v=54">
 </head>
-<body>
+<body class="pagina-cursos pagina-admin">
 
   <header class="topo">
     <div class="container">
-      <a class="marca" href="app.html" aria-label="AGORAMED — início"><img src="img/agoramed-simbolo-branco.png" alt="" class="simbolo-marca" width="468" height="381"><span class="nome-marca">AGORAMED</span></a>
+      <a class="marca" href="app.html" aria-label="AGORAMED — início"><img src="img/agoramed-logo-branco.png" alt="AGORAMED — Pronto para o plantão" class="logo-inicio" width="906" height="184"></a>
       <span class="espaco"></span>
-      <a href="app.html" class="btn-instalar">← Ver como aluno</a>
+      <a href="app.html" class="btn-instalar admin-ver-aluno"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg> Ver como aluno</a>
+      <span class="admin-perfil"><span class="avatar" id="admin-iniciais">AG</span><span>Professor</span></span>
     </div>
   </header>
 
-  <section class="admin-cab">
-    <div class="container">
-      <h1>⚙️ Painel do professor</h1>
-      <p>Gerencie cursos, aulas, materiais em PDF, alunos e divulgações.</p>
-    </div>
-  </section>
-
-  <main class="container">
-    <nav class="abas-admin" id="abas">
-      <button data-aba="cursos" class="ativo">🎓 Cursos</button>
-      <button data-aba="alunos">👥 Alunos</button>
-      <button data-aba="promos">✨ Divulgações</button>
-    </nav>
+  <div class="admin-shell">
+  <aside class="admin-sidebar">
+    <p class="admin-eyebrow">GERENCIAMENTO</p>
+    <nav class="abas-admin" id="abas" aria-label="Áreas de gerenciamento"><button type="button" data-aba="cursos" class="ativo" aria-current="page" aria-controls="aba-cursos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5c-3-2-7-2-10 0v15c3-2 7-2 10 0 3-2 7-2 10 0V5c-3-2-7-2-10 0Zm0 0v15"/></svg><span>Cursos</span></button><button type="button" data-aba="alunos" class=""  aria-controls="aba-alunos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="7" r="4"/><path d="M2 21v-3a7 7 0 0 1 14 0v3m1-17a4 4 0 0 1 0 8m3 9v-3a7 7 0 0 0-3-6"/></svg><span>Alunos</span></button><button type="button" data-aba="promos" class=""  aria-controls="aba-promos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 10 15-6v16L3 14Zm0 0v4m4 2 2 6h3l-2-5m11-8v7"/></svg><span>Divulgações</span></button></nav>
+    <a class="admin-voltar" href="app.html">← <span>Voltar à plataforma</span></a>
+  </aside>
+  <main class="container admin-conteudo">
+    <section class="admin-cab">
+      <div class="admin-marca-dagua" aria-hidden="true"><img src="img/agoramed-monograma-branco.png" alt="" width="458" height="278"></div>
+      <p class="admin-eyebrow">ÁREA DO PROFESSOR</p>
+      <h1>Painel do <em>professor</em></h1>
+      <p>Organize seus conteúdos e acompanhe seus alunos.</p>
+    </section>
+    <section class="admin-indicadores" aria-label="Resumo dos conteúdos"><div class="admin-indicador"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5c-3-2-7-2-10 0v15c3-2 7-2 10 0 3-2 7-2 10 0V5c-3-2-7-2-10 0Zm0 0v15"/></svg><div><span>Cursos</span><strong id="admin-total-cursos">—</strong></div></div><div class="admin-indicador"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m10 8 6 4-6 4Z"/></svg><div><span>Aulas</span><strong id="admin-total-aulas">—</strong></div></div><div class="admin-indicador"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 2h9l5 5v15H5Zm9 0v6h5M8 12h8m-8 4h8"/></svg><div><span>Materiais em PDF</span><strong id="admin-total-pdfs">—</strong></div></div></section>
 
     <!-- ================= CURSOS ================= -->
     <section id="aba-cursos">
-      <div style="display:flex;gap:10px;margin:10px 0 4px;flex-wrap:wrap">
-        <button class="btn" id="btn-novo-curso">＋ Novo curso</button>
-        <span class="aviso" style="flex:1;min-width:260px">
-          Dica: para publicar uma aula, cole o <strong>ID do vídeo do YouTube</strong> (a parte depois de <code>watch?v=</code>).
-        </span>
-      </div>
+      <div class="admin-secao-cab"><h2>Seus cursos</h2><button class="btn" id="btn-novo-curso">＋ Novo curso</button></div>
+      <label class="admin-busca"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10" cy="10" r="7"/><path d="m15 15 7 7"/></svg><span class="sr-only">Pesquisar curso</span><input type="search" id="busca-cursos" placeholder="Pesquisar curso…" autocomplete="off"></label>
+      <p id="contagem-cursos" class="sr-only" aria-live="polite"></p>
       <div id="mensagem-cursos" class="aviso oculto" role="status" aria-live="polite"></div>
       <div class="tabela-cards" id="lista-cursos"></div>
 
+      <div class="admin-orientacao"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6m0-10v1"/></svg><p>Organize módulos, adicione aulas e disponibilize materiais aos seus alunos.</p></div>
+      <div class="admin-atalhos">
+        <article><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="7" r="4"/><path d="M2 21v-3a7 7 0 0 1 14 0v3m1-17a4 4 0 0 1 0 8m3 9v-3a7 7 0 0 0-3-6"/></svg><div><h3>Acompanhe seus alunos</h3><p>Consulte cadastros, gerencie acessos e veja o progresso nos cursos.</p><button type="button" data-atalho="alunos">Gerenciar alunos →</button></div></article>
+        <article><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 10 15-6v16L3 14Zm0 0v4m4 2 2 6h3l-2-5m11-8v7"/></svg><div><h3>Divulgue seus conteúdos</h3><p>Organize os destaques exibidos na página inicial dos alunos.</p><button type="button" data-atalho="promos">Gerenciar divulgações →</button></div></article>
+      </div>
       <!-- editor de curso -->
       <div class="painel-form oculto" id="editor">
         <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
           <h2 id="editor-titulo">Editando curso</h2>
           <div style="display:flex;gap:8px">
-            <button class="btn" id="btn-salvar-curso">💾 Salvar alterações</button>
+            <button class="btn" id="btn-salvar-curso">Salvar alterações</button>
             <button class="btn fantasma" id="btn-fechar-editor">✕ Fechar</button>
           </div>
         </div>
 
+        <p class="admin-editor-dica">Para publicar uma aula, use o ID do vídeo do YouTube (a parte depois de <code>watch?v=</code>).</p>
         <div id="estado-editor" class="aviso oculto" role="status" aria-live="polite"></div>
         <button type="button" id="btn-reabrir-editor" class="btn secundario oculto">Reabrir versão atual</button>
         <div class="grade-2">
@@ -94,7 +101,7 @@
 
         <hr style="border:none;border-top:1px solid var(--linha);margin:18px 0">
 
-        <h2>📚 Módulos e aulas</h2>
+        <h2>Módulos e aulas</h2>
         <div id="editor-modulos"></div>
         <button class="btn secundario" data-acao="add-mod" id="btn-add-modulo">＋ Adicionar módulo</button>
       </div>
@@ -102,6 +109,7 @@
 
     <!-- ================= ALUNOS ================= -->
     <section id="aba-alunos" class="oculto">
+      <div class="admin-secao-cab"><h2>Seus alunos</h2><span>Cadastros, acessos e progresso</span></div>
       <div class="aviso" style="margin:10px 0">
         Após confirmar o e-mail, novos alunos acessam os cursos <strong>gratuitos automaticamente</strong>. Você continua concedendo os cursos pagos e pode bloquear uma conta quando necessário.
       </div>
@@ -143,6 +151,7 @@
 
     <!-- ================= DIVULGAÇÕES ================= -->
     <section id="aba-promos" class="oculto">
+      <div class="admin-secao-cab"><h2>Divulgações</h2><span>Destaques para seus alunos</span></div>
       <div class="aviso" style="margin:10px 0">
         Os cards abaixo aparecem na linha <strong>“Novidades e cursos em destaque”</strong> da página inicial dos alunos.
       </div>
@@ -150,6 +159,7 @@
       <div class="tabela-cards" id="lista-promos"></div>
     </section>
   </main>
+  </div>
 
   <dialog id="dialog-progresso-aluno" class="progresso-aluno-dialog" aria-labelledby="progresso-aluno-titulo">
     <div class="progresso-aluno-cab">
@@ -166,12 +176,7 @@
     <div id="progresso-aluno-conteudo" aria-live="polite"></div>
   </dialog>
 
-  <footer class="rodape">
-    <div class="container">
-      Decisões seguras, baseadas em evidências.<br>
-      <small>Painel do professor.</small>
-    </div>
-  </footer>
+  <footer class="rodape"><div class="container">AGORAMED · Pronto para o plantão</div></footer>
 
   <script src="js/store.js?v=50"></script>
   <script src="js/admin-progresso.js"></script>
@@ -181,39 +186,64 @@
     const usuario = Store.proteger();
     if (usuario.papel !== 'admin') location.href = 'app.html';
     else ProgressoAlunos.iniciar();
+    document.getElementById('admin-iniciais').textContent = UI.iniciais(usuario.nome);
 
     const $ = (s, r = document) => r.querySelector(s);
     const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 
     /* ------------------------------------------------------- abas */
-    $('#abas').addEventListener('click', (e) => {
-      const b = e.target.closest('button[data-aba]'); if (!b) return;
-      $$('#abas button').forEach(x => x.classList.toggle('ativo', x === b));
-      ['cursos', 'alunos', 'promos'].forEach(a => $('#aba-' + a).classList.toggle('oculto', a !== b.dataset.aba));
+    function selecionarArea(area) {
+      $$('#abas button').forEach(x => {
+        const ativo = x.dataset.aba === area;
+        x.classList.toggle('ativo', ativo);
+        if (ativo) x.setAttribute('aria-current', 'page'); else x.removeAttribute('aria-current');
+      });
+      ['cursos', 'alunos', 'promos'].forEach(a => $('#aba-' + a).classList.toggle('oculto', a !== area));
+    }
+    $('#abas').addEventListener('click', e => {
+      const b = e.target.closest('button[data-aba]');
+      if (b) selecionarArea(b.dataset.aba);
     });
+    $$('[data-atalho]').forEach(b => b.addEventListener('click', () => {
+      selecionarArea(b.dataset.atalho);
+      const titulo = $('#aba-' + b.dataset.atalho + ' h2');
+      titulo.tabIndex = -1; titulo.focus(); titulo.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }));
 
     /* ================================================== CURSOS */
     function listarCursos() {
       const el = $('#lista-cursos');
-      const cursos = Store.cursos();
+      const todos = Store.cursos();
+      const totais = todos.reduce((acc, c) => { const e = Store.estatisticasCurso(c); acc.aulas += e.aulas; acc.pdfs += e.pdfs; return acc; }, { aulas: 0, pdfs: 0 });
+      $('#admin-total-cursos').textContent = todos.length;
+      $('#admin-total-aulas').textContent = totais.aulas;
+      $('#admin-total-pdfs').textContent = totais.pdfs;
+      const termo = normalizarBusca($('#busca-cursos').value);
+      const cursos = todos.filter(c => normalizarBusca(c.titulo + ' ' + (c.categoria || '')).includes(termo));
+      $('#contagem-cursos').textContent = `${cursos.length} de ${todos.length} cursos`;
+      if (todos.length && !cursos.length) { el.innerHTML = '<div class="aviso">Nenhum curso encontrado. Tente outro nome ou categoria.</div>'; return; }
       if (!cursos.length) { el.innerHTML = '<div class="aviso">Nenhum curso ainda. Clique em “Novo curso” para começar.</div>'; return; }
       el.innerHTML = cursos.map(c => {
         const est = Store.estatisticasCurso(c);
         return `
-        <div class="card-linha">
-          <div class="mini-capa">${c.capaImagem ? `<img src="${c.capaImagem}" alt="">` : UI.escapar(c.capaEmoji || '🩺')}</div>
+        <div class="card-linha admin-card-curso">
+          <div class="mini-capa">${c.capaImagem ? `<img src="${UI.escapar(c.capaImagem)}" alt="">` : '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5c-3-2-7-2-10 0v15c3-2 7-2 10 0 3-2 7-2 10 0V5c-3-2-7-2-10 0Zm0 0v15"/></svg>'}</div>
           <div class="dados">
+            <span class="admin-categoria">${UI.escapar(c.categoria || 'Curso AgoraMed')}</span>
             <strong>${UI.escapar(c.titulo)}</strong>
-            <small>${c.tipoAcesso === 'gratis' ? 'Gratuito' : 'Pago'} · ${est.modulos} módulos · ${est.aulas} aulas · ${est.pdfs} PDFs · ${est.duracao} · ${UI.escapar(c.categoria || 'sem categoria')}</small>
-          </div>
-          <div class="acoes">
-            <button class="btn pequeno" data-editar="${c.id}">✏️ Editar</button>
-            <a class="btn pequeno secundario" href="curso.html?id=${c.id}" target="_blank" rel="noopener">Ver página</a>
-            <button class="btn pequeno perigo" data-excluir-curso="${c.id}">🗑 Excluir</button>
+            <div class="admin-etiquetas"><span>${c.tipoAcesso === 'gratis' ? 'Gratuito' : 'Pago'}</span>${c.nivel ? `<span>${UI.escapar(c.nivel)}</span>` : ''}</div>
+            <small>${est.modulos} módulo${est.modulos === 1 ? '' : 's'} · ${est.aulas} aula${est.aulas === 1 ? '' : 's'} · ${est.pdfs} PDF${est.pdfs === 1 ? '' : 's'} · ${est.duracao}</small>
+            <div class="acoes">
+              <button class="btn pequeno" data-editar="${c.id}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 3 5 5-13 13H3v-5ZM14 5l5 5"/></svg> Editar curso</button>
+              <a class="btn pequeno secundario" href="curso.html?id=${c.id}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg> Ver página</a>
+              <details class="admin-mais"><summary aria-label="Mais opções do curso ${UI.escapar(c.titulo)}">⋯</summary><div><button class="btn pequeno perigo" data-excluir-curso="${c.id}">Excluir curso</button></div></details>
+            </div>
           </div>
         </div>`;
       }).join('');
     }
+
+    $('#busca-cursos').addEventListener('input', listarCursos);
 
     $('#lista-cursos').addEventListener('click', async (e) => {
       if (salvando) return;
@@ -434,7 +464,7 @@
         salvando = false;
         controles.forEach(([el, disabled]) => { el.disabled = disabled; });
         $('#editor').removeAttribute('aria-busy');
-        btn.textContent = '💾 Salvar alterações';
+        btn.textContent = 'Salvar alterações';
         atualizarSalvar();
       }
     });
@@ -564,7 +594,7 @@
               ${ehAdmin ? '<span class="situacao admin">Professor(a)</span>' : (u.liberado ? '<span class="situacao liberado">Ativo</span>' : '<span class="situacao pendente">Bloqueado</span>')}
             </div>
             <small>${UI.escapar(u.email)} · ${Store.cursosAcessiveisDoAluno(u.id).length} curso(s) com acesso</small>
-            ${!ehAdmin && u.whatsapp ? `<small>📱 WhatsApp: ${UI.whatsBR(u.whatsapp)}</small>` : ''}
+            ${!ehAdmin && u.whatsapp ? `<small>WhatsApp: ${UI.whatsBR(u.whatsapp)}</small>` : ''}
             ${ehAdmin ? '' : `
             <details style="margin-top:8px">
               <summary style="cursor:pointer;font-size:.82rem;font-weight:600;color:var(--petroleo)">Gerenciar acesso a cursos</summary>
@@ -581,9 +611,9 @@
             ${ehAdmin ? `
               <button class="btn pequeno fantasma" data-papel="${u.id}" ${u.id === usuario.id ? 'disabled title="Você não pode rebaixar a própria conta"' : ''}>↓ Virar aluno</button>
             ` : `
-              <button class="btn pequeno ${u.liberado ? 'secundario' : ''}" data-liberar="${u.id}">${u.liberado ? '🔒 Bloquear' : '🔓 Liberar'}</button>
+              <button class="btn pequeno ${u.liberado ? 'secundario' : ''}" data-liberar="${u.id}">${u.liberado ? 'Bloquear' : 'Liberar'}</button>
               <button class="btn pequeno fantasma" data-papel="${u.id}">↑ Virar professor</button>
-              <button class="btn pequeno perigo" data-excluir-aluno="${u.id}">🗑</button>`}
+              <button class="btn pequeno perigo" data-excluir-aluno="${u.id}" aria-label="Excluir ${UI.escapar(u.nome)}">Excluir</button>`}
           </div>
         </div>`;
       }).join('');
@@ -743,7 +773,8 @@
             <small>${UI.escapar(p.texto || '')}${p.link ? ' · link: ' + UI.escapar(p.link) : ''}</small>
           </div>
           <div class="acoes">
-            <button class="btn pequeno perigo" data-excluir-promo="${p.id}">🗑 Excluir</button>
+            <button class="btn pequeno" data-abrir-promo="${p.id}">Editar divulgação</button>
+            <button class="btn pequeno perigo" data-excluir-promo="${p.id}">Excluir</button>
           </div>
         </div>
         <div class="painel-form oculto" id="promo-${p.id}" style="margin-top:-8px">
@@ -755,7 +786,7 @@
           </div>
           <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
             <input type="file" accept="image/*" data-promo-capa="${p.id}">
-            <button class="btn" data-salvar-promo="${p.id}">💾 Salvar</button>
+            <button class="btn" data-salvar-promo="${p.id}">Salvar</button>
           </div>
         </div>`).join('')
         : '<div class="aviso">Nenhuma divulgação cadastrada.</div>';
