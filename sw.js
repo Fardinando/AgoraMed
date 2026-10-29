@@ -3,12 +3,12 @@
    quando o aluno estiver sem internet. Assim as aulas e materiais novos aparecem
    na hora, e o app continua abrindo offline.
 */
-const CACHE = 'agoramed-v48';
+const CACHE = 'agoramed-v49';
 /* Recursos visuais do login e ícones também ficam disponíveis offline.
    As respostas autenticadas de /api/ continuam fora do cache. */
 const APP = [
   'index.html', 'app.html', 'curso.html', 'aula.html', 'admin.html', 'redefinir.html', 'sobre.html',
-  'css/styles.css', 'css/sobre.css', 'img/anderson-uti.jpg', 'js/store.js', 'js/admin-progresso.js', 'js/catalogo-cursos.js', 'js/editor-curso.js', 'manifest.json',
+  'css/styles.css', 'css/inicio.css?v=49', 'css/sobre.css', 'img/anderson-uti.jpg', 'js/store.js', 'js/admin-progresso.js', 'js/catalogo-cursos.js', 'js/editor-curso.js', 'manifest.json',
   'icons/icon-192.png?v=2', 'icons/icon-512.png?v=2', 'icons/icon-maskable-v2.png', 'icons/apple-touch-icon-v2.png',
   'css/login.css?v=48', 'js/login-ui.js', 'fonts/playfair-display-400-latin.woff2',
   'fonts/playfair-display-400-italic-latin.woff2', 'img/agoramed-logo-branco.png',
