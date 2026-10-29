@@ -3,49 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#4A7784">
+  <meta name="theme-color" content="#07191F">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="description" content="AGORAMED — plataforma de educação médica para recém-formados e internos: cursos em vídeo, PDFs e canal de dúvidas.">
   <title>AGORAMED — Entrar</title>
   <link rel="manifest" href="manifest.json">
-  <link rel="icon" href="icons/icon-192.png" type="image/png">
-  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="icon" href="icons/icon-192.png?v=2" type="image/png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-v2.png">
   <link rel="stylesheet" href="css/styles.css">
-  <script>
-    /* Tipografia da tela de login.
-       Padrão: fonte do sistema (carrega na hora e não baixa arquivos).
-       Opcional, via URL: ?fonte=josefin | jost | titulos
-       Nesse caso a folha css/fontes.css é carregada sob demanda (só então
-       os arquivos de fonte são baixados). Usada por previa.html. */
-    (function () {
-      const modo = new URLSearchParams(location.search).get('fonte') || 'sistema';
-      const classe = {
-        josefin: 'fonte-destaque',
-        jost: 'fonte-alt',
-        titulos: 'fonte-destaque-titulos',
-      }[modo];
-      if (!classe) return;
-      const link = document.createElement('link');
-      link.rel = 'stylesheet';
-      link.href = 'css/fontes.css';
-      document.head.appendChild(link);
-      document.documentElement.classList.add(classe);
-    })();
-  </script>
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="preload" href="fonts/playfair-display-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <script src="js/login-ui.js" defer></script>
 </head>
-<body>
+<body class="pagina-login">
 
   <main class="tela-login">
-    <section class="cartao-login">
-      <!-- logomarca completa (símbolo + AGORAMED + assinatura) -->
-      <h1 class="marca-login">
-        <img src="img/agoramed-logo.png" alt="AGORAMED" width="1871" height="381">
-      </h1>
-      <!-- subtítulo já está na logomarca (img/agoramed-logo.png) -->
+    <header class="login-marca">
+      <img src="img/agoramed-logo-branco.png" alt="AGORAMED — Pronto para o plantão" width="906" height="184">
+    </header>
 
-      <div class="abas-login" role="tablist">
-        <button type="button" id="aba-entrar" class="ativo" role="tab">Entrar</button>
-        <button type="button" id="aba-cadastrar" role="tab">Criar conta</button>
+    <section class="cartao-login" aria-labelledby="login-boas-vindas">
+      <div class="login-cab">
+        <p class="login-eyebrow">ÁREA DO ALUNO</p>
+        <h2 id="login-boas-vindas">Bem-vindo de volta</h2>
+        <p id="login-descricao">Acesse seus cursos e continue aprendendo.</p>
+      </div>
+
+      <div class="abas-login" role="tablist" aria-label="Acesso à plataforma">
+        <button type="button" id="aba-entrar" class="ativo" role="tab" aria-selected="true" aria-controls="form-entrar">Entrar</button>
+        <button type="button" id="aba-cadastrar" role="tab" aria-selected="false" aria-controls="form-cadastrar">Criar conta</button>
       </div>
 
       <div id="mensagem" class="aviso oculto" role="alert"></div>
@@ -59,44 +45,42 @@
           <li>Depois, volte à plataforma e entre com seu e-mail e senha.</li>
         </ol>
         <p>Não encontrou? Verifique também o <strong>spam ou lixo eletrônico</strong> e aguarde alguns minutos. Evite repetir o cadastro enquanto espera: isso pode atingir o limite de envio de e-mails.</p>
-        <button type="button" id="voltar-apos-confirmar" class="btn" style="width:100%">Já confirmei meu e-mail — ir para o login</button>
+        <button type="button" id="voltar-apos-confirmar" class="btn">Já confirmei meu e-mail — ir para o login</button>
         <p class="conta-existente">Já tinha uma conta? Entre com sua senha original ou use “Esqueci minha senha”. Um novo cadastro não altera sua senha.</p>
       </section>
 
       <!-- LOGIN -->
-      <form id="form-entrar" autocomplete="on" style="margin-top:16px">
+      <form id="form-entrar" autocomplete="on">
         <div class="campo">
           <label for="login-email">E-mail</label>
-          <input type="email" id="login-email" name="email" required autocomplete="email" placeholder="voce@email.com">
+          <div class="login-input"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2.5" y="4" width="19" height="16" rx="2"/><path d="m3 5 9 7 9-7"/></svg><input type="email" id="login-email" name="email" required autocomplete="email" placeholder="voce@email.com"></div>
         </div>
         <div class="campo">
           <label for="login-senha">Senha</label>
-          <input type="password" id="login-senha" name="senha" required autocomplete="current-password" placeholder="••••••••">
+          <div class="login-input"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><input type="password" id="login-senha" name="senha" required autocomplete="current-password" placeholder="••••••••" data-revelavel><button type="button" class="login-revelar" aria-label="Mostrar senha" aria-controls="login-senha" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg></button></div>
         </div>
-        <button type="button" id="link-esqueci" style="background:none;border:none;padding:0;margin:-6px 0 14px;font-size:.82rem;color:var(--petroleo);font-weight:600;cursor:pointer;text-decoration:underline">
-          Esqueci minha senha
-        </button>
-        <button type="submit" class="btn" style="width:100%">Entrar na plataforma</button>
-        <p class="lembrete-confirmacao">Acabou de se cadastrar? Antes de entrar, confirme seu e-mail pelo link enviado à sua caixa de entrada. Confira também o spam.</p>
+        <div class="login-acoes"><button type="button" id="link-esqueci" class="login-link">Esqueci minha senha</button></div>
+        <button type="submit" class="btn login-submit">Entrar na plataforma <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 12h18m-7-7 7 7-7 7"/></svg></button>
+        <p class="lembrete-confirmacao"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2.5" y="4" width="19" height="16" rx="2"/><path d="m3 5 9 7 9-7"/></svg><span>Acabou de se cadastrar? Confirme seu e-mail pelo link enviado. Confira também o spam.</span></p>
       </form>
 
       <!-- RECUPERAÇÃO DE SENHA -->
-      <form id="form-esqueci" class="oculto" style="margin-top:16px">
+      <form id="form-esqueci" class="oculto">
         <div class="campo">
           <label for="rec-email">E-mail da sua conta</label>
-          <input type="email" id="rec-email" required autocomplete="email" placeholder="voce@email.com">
+          <div class="login-input"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2.5" y="4" width="19" height="16" rx="2"/><path d="m3 5 9 7 9-7"/></svg><input type="email" id="rec-email" required autocomplete="email" placeholder="voce@email.com"></div>
         </div>
-        <button type="submit" class="btn" style="width:100%">Enviar link de redefinição</button>
-        <p class="dica" style="margin-top:10px;font-size:.8rem;color:var(--texto-suave);text-align:center">
+        <button type="submit" class="btn">Enviar link de redefinição</button>
+        <p class="dica">
           Enviaremos um link seguro por e-mail para você criar uma nova senha.
         </p>
-        <button type="button" id="link-voltar-login" style="background:none;border:none;padding:6px 0 0;font-size:.82rem;color:var(--petroleo);font-weight:600;cursor:pointer;text-decoration:underline;width:100%">
+        <button type="button" id="link-voltar-login" class="login-link login-voltar">
           Voltar para o login
         </button>
       </form>
 
       <!-- CADASTRO -->
-      <form id="form-cadastrar" class="oculto" style="margin-top:16px">
+      <form id="form-cadastrar" class="oculto">
         <div class="orientacao-cadastro">
           <strong>O cadastro tem uma etapa de confirmação por e-mail.</strong>
           <p>Após criar a conta, abra o e-mail da AgoraMed e clique no link de confirmação. Só depois você poderá entrar na plataforma. Use um e-mail ao qual você tenha acesso.</p>
@@ -107,7 +91,7 @@
         </div>
         <div class="campo">
           <label for="cad-email">E-mail <span class="obrig">*</span></label>
-          <input type="email" id="cad-email" required autocomplete="email" placeholder="voce@email.com">
+          <div class="login-input"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2.5" y="4" width="19" height="16" rx="2"/><path d="m3 5 9 7 9-7"/></svg><input type="email" id="cad-email" required autocomplete="email" placeholder="voce@email.com"></div>
         </div>
         <div class="campo">
           <label for="cad-whats">WhatsApp com DDD <span class="obrig">*</span></label>
@@ -116,24 +100,37 @@
         </div>
         <div class="campo">
           <label for="cad-senha">Senha <span class="obrig">*</span></label>
-          <input type="password" id="cad-senha" required autocomplete="new-password" minlength="6" placeholder="mínimo 6 caracteres">
+          <div class="login-input"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><input type="password" id="cad-senha" required autocomplete="new-password" minlength="6" placeholder="mínimo 6 caracteres" data-revelavel><button type="button" class="login-revelar" aria-label="Mostrar senha" aria-controls="cad-senha" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg></button></div>
         </div>
         <div class="campo">
           <label for="cad-confirmar-senha">Confirmar senha <span class="obrig">*</span></label>
-          <input type="password" id="cad-confirmar-senha" required autocomplete="new-password" placeholder="Digite a senha novamente">
+          <div class="login-input"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><input type="password" id="cad-confirmar-senha" required autocomplete="new-password" placeholder="Digite a senha novamente" data-revelavel><button type="button" class="login-revelar" aria-label="Mostrar senha" aria-controls="cad-confirmar-senha" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg></button></div>
         </div>
-        <button type="submit" class="btn" style="width:100%">Criar conta</button>
-        <p class="dica" style="margin-top:10px;font-size:.8rem;color:var(--texto-suave);text-align:center">
+        <button type="submit" class="btn">Criar conta</button>
+        <p class="dica">
           Confirme seu e-mail para acessar todos os cursos gratuitos. Cursos pagos exigem acesso concedido pelo professor.
         </p>
       </form>
     </section>
 
-    <!-- assinatura da marca, fora do cartão (sobre o fundo azul-petróleo) -->
-    <footer class="rodape-login">
-      <img src="img/agoramed-simbolo-branco.png" alt="" width="468" height="381" aria-hidden="true">
-      <span>Decisões seguras, baseadas em evidências.</span>
-    </footer>
+    <section class="login-historia" aria-labelledby="login-titulo">
+      <h1 class="login-titulo" id="login-titulo">Medicina <em>prática</em> para transformar conhecimento em decisões <em>seguras.</em></h1>
+      <div class="login-arte" aria-hidden="true">
+        <picture>
+          <source srcset="img/login-coracao-640.webp 640w, img/login-coracao.webp 1280w" sizes="(max-width: 900px) 100vw, 58vw" type="image/webp">
+          <img class="login-coracao" src="img/login-coracao.webp" alt="" width="1280" height="800" decoding="async">
+        </picture>
+        <img class="login-monograma" src="img/agoramed-monograma-branco.png" alt="" width="458" height="278">
+        <svg class="login-ecg" viewBox="0 0 800 120" focusable="false">
+          <defs>
+            <!-- P, PR, QRS estreito, ST isoelétrico, T e intervalo TP. -->
+            <path id="batimento" d="M0 80H26C30 80 31 70 37 70S44 80 48 80H60L64 86L70 19L76 101L82 80H100C108 80 110 61 120 61C131 61 133 80 144 80H200"/>
+          </defs>
+          <use href="#batimento"/><use href="#batimento" x="200"/><use href="#batimento" x="400"/><use href="#batimento" x="600"/>
+        </svg>
+      </div>
+    </section>
+    <footer class="rodape-login"><span>AGORAMED · Pronto para o plantão</span></footer>
   </main>
 
   <script src="js/store.js"></script>

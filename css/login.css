@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'Playfair Display'; font-style: normal; font-weight: 400;
+  font-display: swap; src: url('../fonts/playfair-display-400-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Playfair Display'; font-style: italic; font-weight: 400;
+  font-display: swap; src: url('../fonts/playfair-display-400-italic-latin.woff2') format('woff2');
+}
+
+/* Escopo exclusivo do login: as páginas de cursos mantêm seus estilos. */
+.pagina-login {
+  --petroleo: #67dce5; --texto: #f6f9fa; --texto-suave: #b5cbd1;
+  --cinza-escuro: #edf5f6; --linha: #34545e;
+  color-scheme: dark;
+  background: #07191f;
+  background-image: radial-gradient(ellipse at 65% 0%, #123c49 0, transparent 65%);
+  color: var(--texto);
+}
+.pagina-login .tela-login {
+  width: min(1536px, 100%); margin: 0 auto; min-height: 100svh;
+  padding: 44px clamp(24px, 4.6vw, 72px) 28px;
+  display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(360px, .9fr);
+  grid-template-areas: 'marca formulario' 'historia formulario' 'rodape rodape';
+  grid-template-rows: auto 1fr auto; gap: 46px 44px;
+  align-content: start; align-items: start; justify-items: stretch; overflow: visible; background: none;
+  animation: none;
+}
+.pagina-login .tela-login::after { display: none; }
+.login-marca { grid-area: marca; display: flex; align-items: center; gap: 32px; }
+.login-marca img { width: clamp(240px, 26vw, 355px); height: auto; flex: none; }
+.login-marca::after { content: ''; height: 1px; flex: 1; background: linear-gradient(90deg, #346f77, transparent); }
+.login-historia { grid-area: historia; min-width: 0; }
+.login-titulo {
+  position: relative; z-index: 1; max-width: 840px; color: #f8fafb;
+  font: 400 clamp(36px, 4.15vw, 64px)/1.15 'Playfair Display', Georgia, serif;
+  letter-spacing: -.035em; text-wrap: balance;
+}
+.login-titulo em { color: #62d9e3; font-weight: 400; }
+.login-arte { position: relative; aspect-ratio: 1.6; margin: 4px -28px -18px; isolation: isolate; }
+.login-coracao { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain;
+  mask-image: radial-gradient(ellipse 70% 75% at 56% 50%, #000 45%, transparent 100%); }
+.login-monograma { position: absolute; width: 39%; height: auto; left: 1%; top: 46%; opacity: .11; }
+.login-ecg { position: absolute; left: 0; top: 51%; width: 100%; height: 25%;
+  overflow: visible; color: #7eeaf0; filter: drop-shadow(0 0 5px #32b4c6); }
+.login-ecg path, .login-ecg use { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linejoin: round; stroke-linecap: round; }
+.pagina-login .cartao-login {
+  grid-area: formulario; align-self: center; width: 100%; min-width: 0;
+  padding: clamp(24px, 3vw, 44px); border: 1px solid #426b76; border-radius: 24px;
+  background: linear-gradient(145deg, #123640d9, #061c24e8);
+  box-shadow: 0 20px 70px #0003, inset 0 1px 0 #ffffff06;
+  backdrop-filter: none; -webkit-backdrop-filter: none; animation: none;
+}
+.login-eyebrow { color: #7bddE5; font-size: .72rem; font-weight: 600; letter-spacing: .27em; margin-bottom: 12px; }
+.login-cab h2 { font-size: clamp(25px, 2.4vw, 36px); line-height: 1.2; letter-spacing: -.025em; margin-bottom: 10px; }
+.login-cab > p:last-child { color: #c7d9de; font-size: .98rem; line-height: 1.5; }
+.pagina-login .abas-login {
+  margin: 24px 0 26px; padding: 0; gap: 0; border-bottom: 1px solid #32515c;
+  border-radius: 0; background: none; backdrop-filter: none;
+}
+.pagina-login .abas-login button { min-height: 50px; padding: 12px; border-radius: 10px 10px 0 0;
+  color: #c7d9de; font-size: .95rem; font-weight: 500; border-bottom: 3px solid transparent; }
+.pagina-login .abas-login button.ativo { color: #fff; border-color: #62d9e3;
+  background: #12465366; box-shadow: none; backdrop-filter: none; }
+.pagina-login .campo { margin-bottom: 19px; }
+.pagina-login .campo label { font-size: .9rem; font-weight: 400; margin-bottom: 8px; color: #f2f7f8; }
+.pagina-login .campo label .obrig { color: #7edbe4; }
+.pagina-login .campo input {
+  min-height: 54px; background: #061d2699; border: 1px solid #3a5d69; border-radius: 10px;
+  color: #f5fafb; padding: 12px 15px; font-size: 16px; box-shadow: none;
+  backdrop-filter: none; -webkit-backdrop-filter: none;
+}
+.pagina-login .campo input::placeholder { color: #a9bdc5; opacity: 1; }
+.pagina-login .campo input:focus { border-color: #6ae1e9; background: #0b2832; box-shadow: 0 0 0 3px #62d9e321; }
+.pagina-login input:-webkit-autofill { -webkit-text-fill-color: #f5fafb; box-shadow: 0 0 0 1000px #102f39 inset; }
+.login-input { position: relative; }
+.login-input > svg { position: absolute; left: 15px; top: 17px; width: 20px; height: 20px; color: #b7ced6; pointer-events: none; }
+.pagina-login .login-input input { padding-left: 46px; }
+.pagina-login .login-input input[type=password], .pagina-login .login-input input[data-revelavel] { padding-right: 52px; }
+.login-revelar { position: absolute; right: 4px; top: 4px; width: 46px; height: 46px;
+  display: grid; place-items: center; border: 0; border-radius: 7px; color: #bdd6dc; background: transparent; }
+.login-revelar svg { width: 22px; height: 22px; }
+.login-revelar:hover { color: white; background: #ffffff0b; }
+.login-acoes { display: flex; justify-content: end; margin: -6px 0 22px; }
+.login-link { min-height: 36px; padding: 4px 0; border: 0; color: #82e3e9; background: transparent;
+  text-decoration: underline; text-underline-offset: 3px; font-size: .85rem; }
+.login-voltar { display: block; width: 100%; margin-top: 14px; text-align: center; }
+.pagina-login .btn { width: 100%; min-height: 54px; font-size: .96rem; font-weight: 600;
+  border: 1px solid #53d4de; background: linear-gradient(125deg, #168798, #086575); color: #fff;
+  box-shadow: 0 6px 24px #00111833; border-radius: 10px; }
+.pagina-login .btn::after { display: none; }
+.pagina-login .btn:hover { background: linear-gradient(125deg, #1b94a6, #087789); }
+.login-submit svg { width: 22px; height: 22px; margin-left: 12px; }
+.pagina-login .lembrete-confirmacao {
+  display: flex; align-items: center; gap: 14px; margin: 24px 0 0; padding: 18px 16px;
+  border: 1px solid #2c525f; border-radius: 12px; background: #0d34404d;
+  color: #c5d6dc; font-size: .8rem; line-height: 1.6;
+}
+.lembrete-confirmacao svg { width: 23px; height: 23px; flex: none; color: #e5f1f4; }
+.pagina-login .orientacao-cadastro, .pagina-login .confirmacao-cadastro {
+  background: #103b4559; color: #d4e6eb; border: 1px solid #3a626c; border-radius: 12px;
+  padding: 16px; font-size: .85rem;
+}
+.pagina-login .orientacao-cadastro { margin-bottom: 22px; }
+.pagina-login .orientacao-cadastro strong, .pagina-login .confirmacao-cadastro h2 { color: #fff; }
+.pagina-login .confirmacao-cadastro h2 { font-size: 1.4rem; }
+.pagina-login .confirmacao-cadastro .conta-existente { color: #bfd3d9; }
+.pagina-login .aviso { margin-bottom: 20px; font-size: .86rem; animation: none; }
+.pagina-login .aviso.erro { background: #46292e; color: #ffe0de; border-color: #97616b; }
+.pagina-login .aviso.sucesso { background: #143e3a; color: #d6f4e5; border-color: #467d70; }
+.pagina-login .dica { margin-top: 12px; color: #b5cbd1; font-size: .8rem; text-align: center; }
+.pagina-login .form-animar { animation: none; }
+.pagina-login :is(button, a):focus-visible { outline: 2px solid #8aebf1; outline-offset: 4px; }
+.pagina-login .rodape-login { grid-area: rodape; margin: 0; width: 100%; font-size: .66rem;
+  letter-spacing: .23em; color: #c3dce2; gap: 22px; text-align: center; text-shadow: none; }
+.pagina-login .rodape-login::before, .pagina-login .rodape-login::after { content: ''; flex: 1; height: 1px; background: #447a82; }
+.rodape-login span { flex: none; }
+
+@media (min-width: 1500px) { .login-titulo { font-size: 64px; } }
+@media (max-width: 900px) {
+  .pagina-login .tela-login { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto;
+    grid-template-areas: 'marca' 'formulario' 'historia' 'rodape';
+    max-width: 620px; gap: 30px; padding: 30px 20px 24px; }
+  .login-marca { justify-content: center; }
+  .login-marca img { width: min(280px, 80%); }
+  .login-marca::after { display: none; }
+  .pagina-login .cartao-login { padding: 28px 24px; border-radius: 20px; }
+  .login-cab h2 { font-size: 29px; }
+  .login-historia { margin-top: 12px; }
+  .login-titulo { font-size: clamp(30px, 6.4vw, 42px); line-height: 1.18; letter-spacing: -.035em; }
+  .login-arte { margin: 0 -16px -14px; aspect-ratio: 1.45; }
+  .login-monograma { width: 42%; }
+  .pagina-login .rodape-login { gap: 12px; font-size: .55rem; letter-spacing: .16em; }
+}
+@media (max-width: 360px) {
+  .pagina-login .tela-login { padding-inline: 14px; }
+  .pagina-login .cartao-login { padding: 24px 18px; }
+  .login-cab h2 { font-size: 25px; }
+  .pagina-login .rodape-login { letter-spacing: .07em; }
+}
+@media (prefers-reduced-motion: reduce) { .pagina-login *, .pagina-login *::after { animation: none !important; transition: none !important; scroll-behavior: auto; } }
