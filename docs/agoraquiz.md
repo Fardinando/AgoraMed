@@ -26,3 +26,12 @@ No painel: Alunos → clicar no aluno → **Ver tentativas do AgoraQuiz**. O rel
 168 testes passando, incluindo as 44 escolhas, liberação de comentários, conclusão 0/11, acesso, concorrência, idempotência, histórico, progresso atômico e regressão. Interface exercitada em banco PostgreSQL descartável com os handlers reais e sessões simuladas: 11 questões, retomada, resposta bloqueada e relatório. Arquivos `.tmp/` são somente QA e não integram o commit.
 
 A migração é aditiva, não remove conteúdo, perfis, matrículas ou progresso. A inserção da aula é feita apenas depois de a publicação estar pronta, com UUID gerado no banco e ordem posterior à última aula do módulo. Não se criam tentativas falsas em contas de alunos na produção.
+
+## Aula publicada
+
+- Aula: `e478f244-1e92-40ac-a72f-0cb761c202a5`.
+- Módulo: `96f8ab56-f42a-4ae7-98fa-34d9ffabcb13`, ordem 11.
+- Acesso: `https://agoramed.vercel.app/agoraquiz.html?aula_id=e478f244-1e92-40ac-a72f-0cb761c202a5`.
+- Estrutura e permissões conferidas no banco publicado. A RPC também foi exercitada em transação revertida: conclusão e progresso confirmados sem deixar tentativas ou aulas de teste persistidas.
+- Shell público HTTP 200, API de aluno sem sessão HTTP 401 e relatório sem sessão sem dados. Arquivos internos do quiz retornam 404 após o redirecionamento, inclusive com query de atualização.
+- A conferência completa de interação usou sessões simuladas no banco descartável; não se realizou login em conta real de aluno para testar.
