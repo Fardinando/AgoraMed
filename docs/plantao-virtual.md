@@ -22,3 +22,11 @@ A ausência de detalhamento farmacológico é uma lacuna explícita do registro 
 ## Verificação
 
 173 testes aprovados: autorização, isolamento de usuário, sequência, evidências, correção no servidor, preservação de versões, idempotência, conflitos, RLS, progresso atômico e regressão do AgoraQuiz/logout. Percurso completo exercitado também no navegador com handlers reais e PostgreSQL descartável, usando sessões simuladas: retomada com reflexão, nove etapas, apoio, conclusão, retorno e histórico após nova tentativa. Nenhuma tentativa de teste criada em conta real.
+
+## Publicação
+
+Aula `d5b37891-d130-41af-bed2-273f22983d91`, módulo `96f8ab56-f42a-4ae7-98fa-34d9ffabcb13`, ordem 12, imediatamente após o AgoraQuiz (ordem 11). Curso `36c4246d-1f58-424b-ad07-c494ad7d4bd1`. Versão do curso incrementada na inserção para proteger editores abertos anteriormente.
+
+URL: https://agoramed.vercel.app/plantao-virtual.html?aula_id=d5b37891-d130-41af-bed2-273f22983d91
+
+Shell publicado HTTP 200; arquivo JS igual ao fonte validado; API sem sessão HTTP 401; conteúdo interno em `/lib/plantao-virtual/case.js` redireciona para 404. Ordem e permissões de banco verificadas em produção. A conferência interativa completa utilizou banco descartável e sessões simuladas; não se fez login em conta real para criar tentativas de teste.
