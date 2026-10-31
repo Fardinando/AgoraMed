@@ -16,7 +16,7 @@ O nome na lista é **AgoraQuiz — Antes de iniciar, o que ainda precisa ser res
 - A confirmação do fechamento atualiza a tentativa e o progresso na mesma transação. A rota manual e o gatilho de progresso impedem conclusão sem atividade finalizada.
 - Retomada entre aparelhos usa a conta, não localStorage. Falha de envio mantém operação pendente e oferece repetir a gravação ou carregar o estado atual.
 - `GET/POST /api/agoraquiz` filtra pelo usuário da sessão; `GET /api/admin/agoraquiz` exige professor e filtra o aluno indicado. Históricos paginados em 25 tentativas.
-- APIs com `private, no-store`, fora do cache do service worker. O shell não inclui respostas, comentários ou gabarito. Rewrite `/lib/*` retorna 404, protegendo os arquivos internos do backend em hospedagem estática Vercel.
+- APIs com `private, no-store`, fora do cache do service worker. O shell não inclui respostas, comentários ou gabarito. Redirecionamento `/lib/*` leva a uma resposta 404, protegendo os arquivos internos do backend em hospedagem estática Vercel.
 - Após a conclusão, o cache do aplicativo é invalidado para refletir o progresso. A v4 também atualiza os cursos em sessões anteriores à publicação.
 
 No painel: Alunos → clicar no aluno → **Ver tentativas do AgoraQuiz**. O relatório exibe a situação, acertos, respostas e confirmações de leitura por questão. O ranking mantém o critério existente de percentual de aulas concluídas; o quiz conta como uma aula.
