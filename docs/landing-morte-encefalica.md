@@ -14,7 +14,7 @@ Endereço: `/morte-encefalica.html`. Página pública em HTML e CSS, no mesmo pr
 Criados com a ferramenta integrada de geração de imagens, usando como referência a proposta aprovada e as quatro fotos fornecidas pelo proprietário. Os originais fornecidos não são publicados. Os arquivos WebP finais ficam em:
 
 - `img/landing-me-hero.webp` e `img/landing-me-hero-800.webp`.
-- `img/landing-me-professor.webp` e `img/landing-me-professor-600.webp`.
+- `img/landing-me-professor-v2.webp` e `img/landing-me-professor-v2-600.webp`.
 
 Prompts finais usados para gerar os dois retratos:
 
@@ -31,3 +31,9 @@ Create a production WEBSITE INSTRUCTOR PORTRAIT ASSET, not a UI screenshot. Imag
 - Cinco larguras de tela: 320, 390, 768, 1024 e 1440 px.
 - Oito eixos presentes, links de seções, imagens e abertura do formulário de cadastro conferidos no navegador.
 - Respeita preferência por movimento reduzido e permite uso de teclado.
+
+## Atualização do retrato do professor — 30/10/2026
+
+Versão aprovada pelo proprietário, criada com a ferramenta integrada de imagens a partir das fotos pessoais e do retrato anterior. Enquadramento mais aberto, postura ereta e ambos os braços apoiados na mesa para equilibrar a perspectiva. A imagem de abertura permanece igual.
+
+Prompt da edição: Preserve the man’s facial identity, face, hair, smile, skin texture, brown polo and petroleum blue study background with warm lamps. Correct body posture, anatomical proportions and framing: natural professional seated portrait, balanced shoulders and normal matching arm thickness, upright posture, camera pulled back with natural 85mm portrait perspective. Both elbows close to torso, hands resting together on a desk instead of one raised to chin. Preserve natural build. Horizontal 4:3, no text or logos.
