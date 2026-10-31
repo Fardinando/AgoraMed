@@ -16,6 +16,7 @@ const rotas = {
   'auth/redefinir-senha': require('../lib/rotas/auth/redefinir-senha'),
   'app': require('../lib/rotas/app'),
   'curso': require('../lib/rotas/curso'),
+  'plantao-virtual': require('../lib/rotas/plantao-virtual'),
   'agoraquiz': require('../lib/rotas/agoraquiz'),
   'admin/agoraquiz': require('../lib/rotas/admin/agoraquiz'),
   'progresso': require('../lib/rotas/progresso'),
