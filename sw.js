@@ -3,7 +3,7 @@
    quando o aluno estiver sem internet. Assim as aulas e materiais novos aparecem
    na hora, e o app continua abrindo offline.
 */
-const CACHE = 'agoramed-v58';
+const CACHE = 'agoramed-v59';
 /* Recursos visuais do login e ícones também ficam disponíveis offline.
    As respostas autenticadas de /api/ continuam fora do cache. */
 const APP = [
