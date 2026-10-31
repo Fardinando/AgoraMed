@@ -36,7 +36,7 @@ const Store = (() => {
 
   /* ---------------------------------------------------------- sessão */
   /* cache em sessionStorage para evitar re-buscar tudo a cada troca de página */
-  const CACHE_KEY = 'agoramed_app_cache_v3';
+  const CACHE_KEY = 'agoramed_app_cache_v4';
   function lerCache() {
     try {
       const raw = sessionStorage.getItem(CACHE_KEY);
@@ -59,7 +59,7 @@ const Store = (() => {
       sessionStorage.setItem(CACHE_KEY, JSON.stringify({ dados: { ...dados, pendentes: p }, ts: Date.now() }));
     } catch (e) {}
   }
-  function limparCache() { try { sessionStorage.removeItem(CACHE_KEY); sessionStorage.removeItem('agoramed_app_cache'); sessionStorage.removeItem('agoramed_app_cache_v2'); } catch (e) {} }
+  function limparCache() { try { sessionStorage.removeItem(CACHE_KEY); sessionStorage.removeItem('agoramed_app_cache'); sessionStorage.removeItem('agoramed_app_cache_v2'); sessionStorage.removeItem('agoramed_app_cache_v3'); } catch (e) {} }
 
   async function iniciar({ atualizar = false } = {}) {
     if (atualizar) limparCache();

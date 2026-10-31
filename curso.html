@@ -70,7 +70,7 @@
   <footer class="rodape"><div class="container">AGORAMED · Pronto para o plantão</div></footer>
 
   <script src="js/dialogos.js?v=56"></script>
-  <script src="js/store.js?v=58"></script>
+  <script src="js/store.js?v=61"></script>
   <script type="module">
     await Store.iniciar({ atualizar: new URLSearchParams(location.search).get('atualizar') === '1' });
     const usuario = Store.proteger();
@@ -154,10 +154,10 @@
                 const concluida = Store.estaConcluida(usuario.id, a.id);
                 return `
                 <a class="aula-linha ${concluida ? 'concluida' : ''}" href="${UI.escapar(linkAula(m, a))}">
-                  <span class="icone" aria-hidden="true">${concluida ? '✓' : '▷'}</span><span class="sr-only">${concluida ? 'Aula concluída: ' : ''}</span>
+                  <span class="icone" aria-hidden="true">${concluida ? '✓' : a.atividade ? '?' : '▷'}</span><span class="sr-only">${concluida ? 'Aula concluída: ' : ''}</span>
                   <span class="texto">
                     <strong>${j + 1}. ${UI.escapar(a.titulo)}</strong>
-                    <small>${UI.escapar(a.duracao || '—')}${a.descricao ? ' · ' + UI.escapar(a.descricao) : ''}</small>
+                    <small>${UI.escapar(a.atividade ? 'AgoraQuiz · 11 questões' : a.duracao || '—')}${a.descricao ? ' · ' + UI.escapar(a.descricao) : ''}</small>
                   </span>
                   <span class="sinalizadores">${(a.pdfs || []).length ? `<span class="tag-pdf">PDF ×${a.pdfs.length}</span>` : ''}</span><span class="aula-seta" aria-hidden="true">→</span>
                 </a>`;

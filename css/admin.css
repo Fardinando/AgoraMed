@@ -201,3 +201,5 @@
 .ranking-legenda { color: #adc9d4; font-size: .7rem; line-height: 1.75; margin: 18px 0 0; }
 @media(max-width:1250px) { .ranking-lista { grid-template-columns: minmax(0,1fr); } }
 @media(max-width:600px) { .admin-ranking { padding: 18px; } .ranking-cab { gap: 14px; } .ranking-cab h3 { font-size: 28px; } }
+
+.quiz-relatorio{padding-left:25px}.quiz-relatorio li{margin:15px 0;color:#cfdee2}.quiz-relatorio small{color:#adc6ce}#dialog-quiz-aluno{max-width:850px;width:calc(100% - 32px);max-height:85dvh;overflow:auto;padding:28px;border:1px solid #4d7b88;border-radius:18px;background:#102f3a;color:#f5f5f5}#dialog-quiz-aluno::backdrop{background:#031218d9}#dialog-quiz-aluno summary{cursor:pointer}#dialog-quiz-aluno .cab-dialogo{display:flex;align-items:center;justify-content:space-between;gap:20px}

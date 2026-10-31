@@ -1,0 +1,13 @@
+/* Relatório restrito ao professor; aberto pelo progresso individual do aluno. */
+const QuizAlunos=(()=>{
+ const esc=s=>UI.escapar(s??'');let pedido=0;
+ async function abrir(uid){
+  let d=document.getElementById('dialog-quiz-aluno');
+  if(!d){d=document.createElement('dialog');d.id='dialog-quiz-aluno';d.className='dialog-progresso-aluno';d.setAttribute('aria-labelledby','quiz-aluno-titulo');d.innerHTML='<div class="cab-dialogo"><h2 id="quiz-aluno-titulo">AgoraQuiz — tentativas</h2><button type="button" class="btn secundario" id="quiz-aluno-fechar">Fechar ×</button></div><div id="quiz-aluno-resultados"></div>';document.body.appendChild(d);d.querySelector('#quiz-aluno-fechar').onclick=()=>d.close();d.addEventListener('close',()=>pedido++);}
+  const p=++pedido;d.showModal();const box=d.querySelector('#quiz-aluno-resultados');box.innerHTML='<p>Carregando tentativas…</p>';let offset=0;
+  async function load(){try{const r=await fetch('/api/admin/agoraquiz?usuario_id='+encodeURIComponent(uid)+'&offset='+offset,{credentials:'same-origin',cache:'no-store'});const data=await r.json();if(p!==pedido||!d.open)return;if(!r.ok||!data.ok)throw Error(data.erro||'Não foi possível consultar.');const html=data.tentativas.map(t=>'<details class="progresso-aluno-curso"><summary><strong>'+esc(t.aula)+'</strong><p>'+t.acertos+'/11 acertos · '+(t.concluida?'Concluída':'Em andamento ou interrompida')+' · '+esc(new Date(t.iniciada).toLocaleString('pt-BR'))+'</p></summary><p>'+t.respondidas+' respostas confirmadas · '+t.questoes.filter(q=>q.leitura).length+' confirmações de leitura</p><ol class="quiz-relatorio">'+t.questoes.map(q=>'<li><strong>'+esc(q.titulo)+'</strong><br>'+(!q.escolha?'Não respondida':('Escolha: '+esc(q.escolha)+' · '+(q.acertou?'Correta':'Incorreta')+' · Gabarito: '+esc(q.correta)))+'<br><small>'+(q.leitura?'Leitura confirmada em '+esc(new Date(q.leitura).toLocaleString('pt-BR')):'Sem confirmação de leitura')+'</small></li>').join('')+'</ol></details>').join('');if(!offset)box.innerHTML=html||'<p>Este aluno ainda não iniciou um AgoraQuiz.</p>';else{document.getElementById('quiz-mais')?.remove();box.insertAdjacentHTML('beforeend',html);}if(data.mais){offset+=25;box.insertAdjacentHTML('beforeend','<button class="btn secundario" id="quiz-mais">Carregar mais tentativas</button>');document.getElementById('quiz-mais').onclick=load;}}catch(e){if(p===pedido)box.innerHTML='<p role="alert">'+esc(e.message)+'</p><button class="btn secundario" id="quiz-retry">Tentar novamente</button>';document.getElementById('quiz-retry')?.addEventListener('click',()=>{offset=0;load();});}}
+  load();
+ }
+ document.addEventListener('click',e=>{const b=e.target.closest('[data-quiz-aluno]');if(b)abrir(b.dataset.quizAluno);});
+ return {abrir};
+})();

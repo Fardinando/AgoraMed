@@ -40,7 +40,7 @@ const ProgressoAlunos = (() => {
               <span style="width:${c.percentual}%"></span>
             </div>
             <p>${c.total ? `${c.feitas} de ${c.total} aulas concluídas${c.feitas === c.total ? ' · Curso concluído' : ''}` : 'Este curso ainda não tem aulas.'}</p>
-          </section>`).join('');
+          </section>`).join('') + `<button class="btn secundario" type="button" data-quiz-aluno="${UI.escapar(uid)}">Ver tentativas do AgoraQuiz</button>`;
       } catch (e) {
         if (atual === pedido && dialog.open)
           conteudo.innerHTML = '<div class="aviso erro" role="alert">Não foi possível consultar o progresso. Tente atualizar.</div>';

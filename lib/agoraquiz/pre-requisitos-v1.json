@@ -1,0 +1,219 @@
+{
+  "title": "Antes de iniciar: o que ainda precisa ser resolvido?",
+  "intro": "Você avaliará uma paciente com suspeita de morte encefálica.\n\nSeu objetivo é decidir se existem condições para iniciar o protocolo, identificar os impedimentos e reconhecer quais providências são necessárias antes de reconsiderar essa decisão.\n\nA atividade contém **11 questões**. Elas percorrem os nove itens estudados, aprofundam a abordagem da hipotensão e terminam com a decisão integrada.\n\nO caso permanecerá disponível para consulta. Responda uma questão por vez e leia o comentário antes de avançar.\n\nNão serão abordadas as técnicas dos exames clínicos, do teste de apneia ou dos exames complementares de confirmação.\n\n**Observação:** os nove itens seguem a organização didática do curso. A qualificação dos médicos é uma exigência profissional e organizacional, distinta das condições clínicas da paciente.",
+  "case": "Mulher, 54 anos, hipertensa e diabética, previamente independente, apresentou cefaleia súbita e intensa, seguida de vômitos e perda de consciência em **08/11, às 06h**.\n\nFoi admitida no hospital às **07h**, já em coma, antes da administração de sedativos. A glicemia na admissão era de **128 mg/dL**.\n\nA investigação confirmou **hemorragia subaracnóidea extensa por ruptura de aneurisma intracraniano**, com componente intraparenquimatoso e evolução para edema encefálico difuso.\n\nApesar do tratamento intensivo e das medidas neurocirúrgicas instituídas, ocorreu deterioração neurológica progressiva.\n\nNão houve parada cardiorrespiratória, hipotermia terapêutica ou hipoxemia prolongada documentada.\n\nEm **10/11, às 18h**, a equipe solicita a conferência dos pré-requisitos para iniciar a determinação de morte encefálica.\n\n## Lesão encefálica\n\nA TC mais recente demonstra:\n\n- Hemorragia subaracnóidea extensa.\n- Hematoma intraparenquimatoso associado.\n- Edema encefálico difuso acentuado.\n- Apagamento de sulcos e cisternas basais.\n- Sinais de herniação descendente.\n\nApós avaliação da evolução e dos exames, neurocirurgia e terapia intensiva registraram lesão estabelecida, devastadora, irreversível e capaz de causar morte encefálica, sem possibilidade terapêutica de reversão da lesão.\n\n## Medicações e temperatura\n\nPropofol e remifentanil foram suspensos em **08/11, às 18h**, sem doses posteriores, conforme registros de administração conferidos.\n\nA avaliação farmacológica documentada considerou os medicamentos, a exposição e as funções orgânicas e afastou efeito residual relevante.\n\nNão houve administração de bloqueador neuromuscular. A paciente não apresentou hipotermia durante a internação.\n\n## Condição atual às 18h de 10/11\n\n| Dado | Registro |\n|---|---|\n| Pressão arterial invasiva | **76/42 mmHg** |\n| PAM | **53 mmHg** |\n| Suporte circulatório | Noradrenalina em infusão, com hipotensão persistente apesar do suporte em curso |\n| Confiabilidade da medida | Sistema de pressão invasiva conferido; medidas repetidas confirmam os valores baixos |\n| Perfusão periférica | Extremidades frias e enchimento capilar de aproximadamente 5 segundos |\n| Diurese | Redução nas últimas duas horas |\n| Temperatura vesical | 36,6 °C |\n| SpO2 | 98%, com curva adequada |\n| SaO2 medida | 98% |\n| Ventilação | FiO2 de 35%; PEEP de 5 cmH2O |\n| Estado geral | Coma persistente e ventilação mecânica |\n\nA equipe está avaliando e tratando a instabilidade circulatória. Ainda não foram esclarecidos o mecanismo predominante da hipotensão nem a possibilidade de benefício com administração adicional de fluidos. Não há avaliação cardíaca recente disponível.\n\n## Exames e intercorrência metabólica\n\n| Exame | Resultado |\n|---|---|\n| pH | 7,39 |\n| PaCO2 | 40 mmHg |\n| PaO2 | 108 mmHg |\n| Sódio | 142 mEq/L |\n| Potássio | 4,1 mEq/L |\n| Cálcio ionizado | 1,19 mmol/L |\n| Magnésio | 2,0 mg/dL |\n| Creatinina | 0,9 mg/dL |\n| Ureia | 32 mg/dL |\n| AST/ALT | 27/25 U/L |\n| Bilirrubina total | 0,6 mg/dL |\n| INR | 1,0 |\n| **Última glicemia disponível** | **32 mg/dL, confirmada em amostra venosa** |\n\nA paciente recebia insulina intravenosa para controle de hiperglicemia. Ao identificar a hipoglicemia, a equipe interrompeu a infusão e iniciou imediatamente sua correção.\n\n**No momento da discussão, ainda não há uma nova glicemia documentada nem reavaliação após a correção.**\n\nNão há história sugestiva de intoxicação ou outra alteração metabólica grave identificada.\n\n## Profissionais disponíveis\n\nO primeiro médico é intensivista, indicado pela direção técnica, com vários anos de experiência no atendimento de pacientes em coma e participação em mais de dez determinações de morte encefálica.\n\nPara realizar a segunda avaliação, foi sugerido um médico formado há três meses. Ele não tem experiência prévia com determinações de morte encefálica nem realizou capacitação específica conforme o Anexo III da resolução. Assistiu apenas a um curso introdutório sobre o assunto.\n\nNenhum dos dois integra equipe de remoção e transplante.\n\n**Com essas informações, podemos iniciar o protocolo neste momento?**\n\n*Caso inteiramente simulado para ensino.*",
+  "questions": [
+    {
+      "number": 1,
+      "title": "A lesão está caracterizada?",
+      "stem": "Qual interpretação é mais adequada sobre o primeiro requisito?",
+      "choices": {
+        "A": "A hipoglicemia torna inválida toda a documentação da lesão estrutural.",
+        "B": "O requisito da lesão está sustentado pelo conjunto apresentado, mas isso não afasta a necessidade de corrigir outros fatores.",
+        "C": "A TC permite concluir morte encefálica imediatamente.",
+        "D": "A irreversibilidade pode ser estabelecida apenas porque a paciente está em coma há mais de dois dias."
+      },
+      "feedback": {
+        "A": "A hipoglicemia acrescenta um fator potencialmente confundidor, mas não faz desaparecer a hemorragia, o edema e a evolução documentada. É possível ter uma lesão estrutural irreversível e, simultaneamente, apresentar uma alteração tratável que precisa ser corrigida antes da determinação.",
+        "B": "Você separou duas verificações diferentes. A causa, a gravidade e a irreversibilidade da lesão estão fundamentadas no enunciado. Isso sustenta o primeiro requisito. Entretanto, conhecer a lesão não autoriza desconsiderar a hipoglicemia, a hipotensão ou qualquer outra condição que comprometa a segurança da avaliação.",
+        "C": "A imagem demonstra a lesão causadora do quadro, mas não substitui o processo de determinação de morte encefálica. Uma TC devastadora não resolve automaticamente as condições clínicas e profissionais necessárias para prosseguir.",
+        "D": "O tempo sem despertar, isoladamente, não estabelece irreversibilidade. Neste caso, essa conclusão depende da etiologia, dos exames, da evolução sob tratamento e da avaliação assistencial fundamentada."
+      },
+      "extra": null,
+      "message": "comprovar uma lesão irreversível não significa comprovar que todos os requisitos foram atendidos."
+    },
+    {
+      "number": 2,
+      "title": "O período de observação foi cumprido?",
+      "stem": "Qual afirmação descreve melhor a questão temporal?",
+      "choices": {
+        "A": "A discussão às 18h inicia uma nova contagem de observação.",
+        "B": "Todo caso de hemorragia subaracnóidea exige o mesmo prazo pós-reaquecimento utilizado após hipotermia terapêutica.",
+        "C": "O período hospitalar documentado é suficiente para o mínimo aplicável ao cenário descrito, mas não resolve os outros impedimentos.",
+        "D": "A hipoglicemia exige reiniciar automaticamente toda a contagem desde a admissão."
+      },
+      "feedback": {
+        "A": "O início da discussão sobre o protocolo não corresponde ao início do coma ou do tratamento hospitalar. A paciente está internada e sob cuidados desde a manhã de 08/11. Essa evolução deve ser considerada.",
+        "B": "A paciente não apresentou parada cardiorrespiratória nem hipotermia terapêutica. Não se deve transportar um prazo de outro contexto para este caso apenas porque ambos envolvem lesão encefálica grave.",
+        "C": "A causa primária é hemorrágica, e há mais de dois dias de tratamento hospitalar documentado. O período mínimo de seis horas aplicável ao cenário descrito já foi ultrapassado. Ainda assim, a duração da internação não comprova correção da glicemia, estabilidade circulatória ou capacitação do segundo examinador.",
+        "D": "O problema atual exige tratamento e reavaliação, mas não existe uma regra de reinício automático de toda a contagem hospitalar por qualquer alteração metabólica. O essencial é comprovar sua correção e avaliar suas consequências antes de reconsiderar a abertura."
+      },
+      "extra": null,
+      "message": "observação suficiente não significa ausência de novos fatores confundidores."
+    },
+    {
+      "number": 3,
+      "title": "A sedação permanece como pendência?",
+      "stem": "Como interpretar os dados farmacológicos apresentados?",
+      "choices": {
+        "A": "O efeito residual foi afastado pela avaliação documentada fornecida no caso.",
+        "B": "A suspensão da bomba é suficiente em qualquer paciente.",
+        "C": "A creatinina normal, sozinha, comprova ausência de efeito residual.",
+        "D": "A permanência do coma comprova que os sedativos continuam ativos."
+      },
+      "feedback": {
+        "A": "O enunciado fornece uma análise individualizada, além dos horários e da ausência de novas doses. Assim, a sedação não é a pendência proposta. A conclusão está sustentada pela avaliação da exposição, e não apenas pela passagem de 48 horas.",
+        "B": "Uma bomba desligada informa que a administração foi interrompida, mas não comprova que o efeito terminou. Essa resposta chegaria à conclusão por um argumento inadequado, mesmo que, neste caso, uma avaliação mais completa tenha afastado o confundidor.",
+        "C": "A função renal é apenas parte da análise. Também importam medicamentos, doses, duração, última administração, função hepática e outras condições que influenciem a eliminação. O caso oferece uma avaliação conjunta, não uma decisão baseada exclusivamente na creatinina.",
+        "D": "O coma tem uma causa estrutural documentada e existe uma alteração metabólica recente. Sua persistência não identifica, por si, qual fator está contribuindo nem demonstra que os sedativos continuam exercendo efeito."
+      },
+      "extra": null,
+      "message": "reconhecer que um confundidor foi afastado exige compreender a justificativa, não apenas decorar um prazo."
+    },
+    {
+      "number": 4,
+      "title": "Como analisar o bloqueio neuromuscular?",
+      "stem": "Qual conclusão pode ser sustentada?",
+      "choices": {
+        "A": "Toda pessoa em ventilação mecânica deve ser considerada sob bloqueio.",
+        "B": "A ausência de movimentos exclui efeito de bloqueador.",
+        "C": "O registro de que não houve administração de bloqueador neuromuscular permite afastar esse fator confundidor no caso apresentado.",
+        "D": "A correção da glicemia também comprovará ausência de bloqueio."
+      },
+      "feedback": {
+        "A": "A ventilação mecânica não comprova exposição a bloqueador neuromuscular. O raciocínio precisa partir do que foi efetivamente administrado. Neste caso, os registros conferidos informam ausência de uso.",
+        "B": "A ausência de movimentos não distingue comprometimento neurológico de paralisia farmacológica. Usá-la para excluir bloqueio seria tomar o próprio achado que precisa ser interpretado como prova de que não existe interferência.",
+        "C": "A informação foi fornecida de forma explícita. Não há exposição a BNM documentada, de modo que esse grupo de medicamentos não representa uma pendência no caso apresentado. Isso não resolve a hipoglicemia ou a hipotensão, que pertencem a outras verificações.",
+        "D": "Glicemia e bloqueio neuromuscular são condições diferentes. Corrigir uma alteração metabólica não demonstra o que foi administrado nem comprova eliminação de um medicamento. Cada possível confundidor exige sua própria análise."
+      },
+      "extra": null,
+      "message": "a conferência deve ser organizada por fatores, sem supor que resolver um deles resolve os demais."
+    },
+    {
+      "number": 5,
+      "title": "Existe impedimento térmico?",
+      "stem": "Qual interpretação é adequada para a temperatura vesical de 36,6 °C?",
+      "choices": {
+        "A": "O método vesical não permite avaliar esse requisito.",
+        "B": "A temperatura atual está adequada, sem histórico térmico que acrescente uma pendência neste caso.",
+        "C": "A normotermia torna a hipoglicemia irrelevante.",
+        "D": "Uma temperatura adequada dispensa reavaliar as outras condições."
+      },
+      "feedback": {
+        "A": "A medida vesical é uma das formas de aferição previstas para essa avaliação. O enunciado informa o valor e o método, permitindo interpretar o dado sem presumir uma temperatura central a partir de uma medida periférica.",
+        "B": "O valor está acima do mínimo exigido, e o caso informa ausência de hipotermia durante a internação. Portanto, não há impedimento térmico identificado. Essa conclusão é específica para a temperatura; não elimina a necessidade de corrigir a glicemia e a condição circulatória.",
+        "C": "A temperatura adequada não impede que uma alteração metabólica contribua para a depressão neurológica. Dois requisitos podem ter situações diferentes no mesmo momento: um estar atendido e o outro continuar pendente.",
+        "D": "A checagem é integrada, mas cada requisito precisa ser verificado. Um dado favorável não pode ser utilizado como substituto dos demais. Neste caso, a normotermia não resolve as pendências metabólica, circulatória ou profissional."
+      },
+      "extra": null,
+      "message": "uma condição fisiológica adequada não compensa outra inadequada."
+    },
+    {
+      "number": 6,
+      "title": "A circulação permite iniciar o protocolo?",
+      "stem": "Qual interpretação é mais adequada diante dos dados circulatórios?",
+      "choices": {
+        "A": "A hipotensão pode ser desconsiderada porque a paciente tem uma lesão encefálica irreversível.",
+        "B": "O problema é exclusivamente o uso de noradrenalina; basta suspendê-la para permitir a abertura.",
+        "C": "Há instabilidade circulatória relevante, com sinais de hipoperfusão, que precisa ser tratada antes de reconsiderar a abertura.",
+        "D": "A saturação arterial de 98% demonstra que a perfusão dos órgãos está adequada, apesar da pressão baixa."
+      },
+      "feedback": {
+        "A": "A irreversibilidade da lesão encefálica não autoriza ignorar condições fisiológicas inadequadas. A paciente apresenta hipotensão persistente, extremidades frias, enchimento capilar prolongado e redução da diurese. Esses dados exigem assistência e investigação; não são apenas números desfavoráveis em um monitor.",
+        "B": "A noradrenalina é um recurso de suporte circulatório, e sua presença não impede, isoladamente, a determinação de morte encefálica. Suspendê-la apenas para retirar uma medicação da prescrição pode agravar a instabilidade. O objetivo é obter e manter condições circulatórias adequadas, com o suporte necessário.",
+        "C": "Você integrou a pressão com os sinais de perfusão. A PAM de 53 mmHg e a PA de 76/42 mmHg estão acompanhadas de achados que reforçam a relevância clínica da instabilidade. É necessário tratar o problema, investigar sua causa e demonstrar resposta sustentada antes de reconsiderar a abertura.",
+        "D": "Saturação e perfusão não são equivalentes. A SaO2 informa sobre a saturação da hemoglobina arterial, mas não demonstra que o fluxo sanguíneo para os tecidos seja suficiente. É possível manter boa saturação e apresentar comprometimento circulatório importante."
+      },
+      "extra": null,
+      "message": "boa oxigenação não compensa circulação inadequada."
+    },
+    {
+      "number": 7,
+      "title": "O que pode ser feito para corrigir a hipotensão?",
+      "stem": "Qual proposta de abordagem é mais adequada para esta paciente?",
+      "choices": {
+        "A": "Administrar um grande volume fixo de solução intravenosa, independentemente da avaliação de volume e da função cardíaca, e iniciar o protocolo assim que aparecer uma medida favorável.",
+        "B": "Investigar a causa da instabilidade, avaliar perfusão, condição volêmica e função cardíaca; ajustar o suporte circulatório e administrar fluidos quando houver indicação e expectativa de benefício, com reavaliação da resposta.",
+        "C": "Aumentar progressivamente a noradrenalina sem investigar o mecanismo da hipotensão, considerando o tratamento concluído quando a pressão atingir o mínimo exigido em uma única medida.",
+        "D": "Aguardar a resolução espontânea da hipotensão, pois intervenções circulatórias poderiam modificar a avaliação neurológica."
+      },
+      "feedback": {
+        "A": "A hipotensão não demonstra, por si, que a paciente precisa de grande volume de fluidos. O benefício depende do mecanismo da instabilidade e da possibilidade de aumentar o fluxo sanguíneo com essa intervenção.\n\nAdministrar volume indiscriminadamente pode causar sobrecarga sem melhorar a circulação, especialmente se houver disfunção cardíaca. Uma medida favorável isolada também não comprova estabilização. A resposta precisa ser acompanhada e interpretada com os sinais de perfusão.",
+        "B": "Essa abordagem procura tratar o mecanismo da instabilidade, em vez de apenas modificar um número.\n\nA avaliação deve integrar a evolução, as perdas e o balanço hídrico, a perfusão e a possibilidade de disfunção cardíaca. A ecocardiografia à beira do leito pode ajudar a esclarecer o mecanismo. Quando apropriado, a avaliação de responsividade a fluidos contribui para decidir se administrar volume provavelmente trará benefício.\n\nO suporte vasoativo deve ser ajustado conforme a condição clínica. Após cada intervenção, é necessário verificar seus efeitos sobre pressão, perfusão e tolerância ao tratamento. Os dados deste caso não permitem escolher um volume ou uma dose universal.",
+        "C": "O ajuste da noradrenalina pode fazer parte do tratamento, mas não substitui a investigação da causa. A hipotensão pode envolver diferentes mecanismos, inclusive redução do volume circulante e disfunção cardíaca.\n\nTambém não basta atingir um valor mínimo por alguns instantes. A pressão deve ser interpretada em conjunto com sua manutenção, os sinais de perfusão e a resposta às intervenções.",
+        "D": "A instabilidade circulatória exige tratamento. Não se deve adiar a assistência para preservar um quadro neurológico aparentemente mais “puro”.\n\nO suporte adequado faz parte das condições necessárias para uma avaliação segura. Nesta paciente, aguardar passivamente manteria um fator fisiológico inadequado e poderia agravar a disfunção orgânica."
+      },
+      "extra": "**1. Confirmar o problema e avaliar a perfusão.**\n\nNeste caso, a medida invasiva já foi conferida. A pressão baixa é persistente e acompanha sinais de hipoperfusão. Não se trata apenas de um possível artefato do monitor.\n\n**2. Investigar o mecanismo da instabilidade.**\n\nRevisar evolução, perdas, balanço hídrico, medicamentos e outras causas clínicas. Considerar disfunção cardíaca na avaliação, sem presumir que toda hipotensão decorra de falta de volume.\n\n**3. Individualizar o tratamento.**\n\nFluidos podem ser indicados quando houver expectativa de benefício e tolerância à administração. É necessário evitar tanto deixar de corrigir uma deficiência de volume quanto administrar volume sem indicação.\n\nO suporte vasoativo deve ser ajustado conforme a necessidade. Se houver disfunção cardíaca relevante, a estratégia precisa considerar essa condição.\n\n**4. Reavaliar a resposta.**\n\nConferir pressão arterial, perfusão periférica, diurese e outros parâmetros disponíveis. Uma intervenção prescrita não significa uma condição corrigida.\n\n**5. Reconsiderar a abertura somente após nova conferência.**\n\nA resolução do problema circulatório não elimina a hipoglicemia nem regulariza a capacitação do segundo médico.\n\nPara a determinação de ME no adulto, a referência normativa é **PAS ≥100 mmHg ou PAM ≥65 mmHg**. Esses limites não representam, sozinhos, uma prescrição completa de ressuscitação nem substituem metas assistenciais individualizadas.",
+      "message": "corrigir a hipotensão exige avaliar sua causa, escolher intervenções coerentes e comprovar a resposta."
+    },
+    {
+      "number": 8,
+      "title": "A oxigenação está adequada?",
+      "stem": "Qual interpretação é mais consistente com os dados respiratórios?",
+      "choices": {
+        "A": "SpO2 e SaO2 concordantes e acima de 94% sustentam a adequação da oxigenação atual, considerando a qualidade das medidas e o suporte descrito.",
+        "B": "A ventilação mecânica invalida a saturação arterial.",
+        "C": "Uma SaO2 adequada exclui hipoperfusão e alterações metabólicas relevantes.",
+        "D": "Os dados respiratórios só podem ser avaliados depois de resolver a qualificação dos médicos."
+      },
+      "feedback": {
+        "A": "A monitorização apresenta boa curva e concordância com a saturação arterial medida. Associados à gasometria e ao suporte informado, esses dados sustentam a adequação da oxigenação atual.\n\nEntretanto, a saturação é favorável enquanto a circulação permanece inadequada. A boa oxigenação não exclui hipoperfusão nem resolve a hipoglicemia.",
+        "B": "A oxigenação deve ser interpretada sob o suporte que a paciente recebe. Estar em ventilação mecânica não invalida a medida. O importante é documentar a condição e sua manutenção.",
+        "C": "A saturação informa sobre oxigenação, não sobre todos os componentes da oferta e utilização de oxigênio pelos tecidos. Uma paciente pode estar bem oxigenada e apresentar hipoperfusão ou hipoglicemia grave, como ocorre neste caso.",
+        "D": "Os requisitos podem ser conferidos de maneira organizada, sem adiar a avaliação clínica por causa de uma pendência profissional. A inadequação da equipe não torna inúteis os dados respiratórios nem impede sua interpretação."
+      },
+      "extra": null,
+      "message": "um dado favorável deve ser reconhecido, mas não pode receber um significado maior do que realmente possui."
+    },
+    {
+      "number": 9,
+      "title": "A hipoglicemia já deixou de ser um impedimento?",
+      "stem": "A insulina foi interrompida e a correção foi iniciada. Ainda não há nova glicemia ou reavaliação documentada. Qual é a melhor conclusão?",
+      "choices": {
+        "A": "A existência de lesão irreversível torna desnecessário corrigir a glicemia.",
+        "B": "Iniciar a correção equivale a comprovar que o confundidor foi eliminado.",
+        "C": "A glicemia de admissão normal permite ignorar a alteração atual.",
+        "D": "A correção precisa ser comprovada e a paciente reavaliada antes de reconsiderar a abertura."
+      },
+      "feedback": {
+        "A": "A hipoglicemia é uma condição tratável capaz de contribuir para a depressão neurológica. A lesão estrutural não autoriza ignorá-la. Corrigir a alteração é necessário mesmo quando existe uma causa encefálica grave documentada.",
+        "B": "Existe uma diferença entre iniciar uma intervenção e verificar seu resultado. Interromper a insulina e administrar a correção são medidas assistenciais; ainda é necessário demonstrar a resposta, acompanhar a manutenção da glicemia e reavaliar a paciente.",
+        "C": "A glicemia inicial ajuda a compreender o contexto em que o coma começou, mas não garante que a condição metabólica permaneça adequada durante toda a internação. O dado atual não pode ser substituído por um resultado antigo mais favorável.",
+        "D": "Você reconheceu que o confundidor ainda não está documentadamente resolvido. A última glicemia disponível é de 32 mg/dL. É necessário verificar a resposta ao tratamento, investigar a causa da intercorrência e reavaliar sua influência no quadro.\n\nA ausência de melhora após uma única correção também não autoriza presumir morte encefálica. A interpretação continua dependendo do conjunto clínico e dos demais requisitos."
+      },
+      "extra": null,
+      "message": "prescrever ou iniciar uma correção não comprova que o fator confundidor desapareceu."
+    },
+    {
+      "number": 10,
+      "title": "O segundo médico pode compor a avaliação?",
+      "stem": "Qual interpretação é adequada sobre a equipe proposta?",
+      "choices": {
+        "A": "A experiência do intensivista supre a falta de capacitação do segundo médico.",
+        "B": "A capacitação específica precisa ser verificada para cada examinador; o segundo profissional descrito não pode ser considerado capacitado apenas pelo curso introdutório.",
+        "C": "O único problema é o segundo médico não ser neurologista.",
+        "D": "A equipe assistencial pode dispensar a capacitação específica quando o caso é muito evidente."
+      },
+      "feedback": {
+        "A": "A experiência de um médico não é transferida ao outro. Cada examinador precisa atender às exigências correspondentes. A presença de um intensivista experiente não transforma automaticamente o colega recém-formado em profissional especificamente capacitado.",
+        "B": "O segundo médico não apresenta experiência nem capacitação específica compatíveis com o que foi exigido no enunciado. Um curso introdutório não deve ser presumido equivalente à formação prevista no Anexo III. É necessário organizar a participação de outro examinador capacitado.",
+        "C": "A falta de especialidade em neurologia não é, por si, o problema central. O caso já dispõe de um intensivista capacitado. O impedimento do segundo profissional é não apresentar a capacitação específica necessária.",
+        "D": "A impressão de que o caso é evidente não autoriza dispensar exigências profissionais. Quanto maior a responsabilidade da conclusão, mais importante é que a avaliação seja conduzida por profissionais com qualificação verificada."
+      },
+      "extra": null,
+      "message": "não é necessário que os dois examinadores estejam simultaneamente à beira do leito, mas é indispensável que cada um seja especificamente capacitado para sua atuação."
+    },
+    {
+      "number": 11,
+      "title": "Qual é a decisão integrada?",
+      "stem": "Qual é a melhor decisão no momento apresentado?",
+      "choices": {
+        "A": "Iniciar, porque a lesão é devastadora e a oxigenação está adequada.",
+        "B": "Corrigir apenas a hipotensão e iniciar assim que surgir uma medida de pressão favorável.",
+        "C": "Aguardar apenas a correção da glicemia, pois os outros problemas não interferem na decisão.",
+        "D": "Não iniciar agora: tratar e reavaliar a instabilidade circulatória, comprovar a correção da hipoglicemia e organizar a participação de examinadores capacitados."
+      },
+      "feedback": {
+        "A": "Essa decisão utiliza dois dados favoráveis para ignorar três pendências independentes. A lesão está caracterizada e a oxigenação é adequada, mas a paciente apresenta instabilidade circulatória, hipoglicemia sem correção comprovada e uma equipe examinadora ainda inadequadamente organizada.",
+        "B": "Você identificou um problema importante, mas não todos. Uma medida favorável de pressão não demonstra necessariamente estabilização e não informa o resultado do tratamento da hipoglicemia. Também não resolve a falta de capacitação do segundo profissional proposto.",
+        "C": "A correção da glicemia é necessária, mas insuficiente. Mesmo que seja comprovada, a hipotensão continuará exigindo tratamento e reavaliação. A capacitação dos examinadores também precisa estar regularizada para as respectivas atuações.",
+        "D": "Você integrou as condições clínicas e profissionais.\n\nA circulação precisa ser estabilizada com tratamento orientado pela avaliação da causa e da resposta. A hipoglicemia exige correção comprovada e reavaliação. A organização da determinação deve prever examinadores especificamente capacitados.\n\nApós resolver essas pendências, todos os requisitos precisam ser conferidos novamente. Não basta resolver um problema e presumir que os demais continuem adequados."
+      },
+      "extra": null,
+      "message": "a decisão depende do conjunto. Requisitos favoráveis não compensam condições ainda inadequadas."
+    }
+  ],
+  "closing": "## Conferência dos nove itens\n\n| Item | Situação no caso |\n|---|---|\n| 1. Lesão conhecida, grave e irreversível | Sustentada pela documentação apresentada |\n| 2. Tratamento e observação hospitalar | Período mínimo cumprido no cenário descrito |\n| 3. Sedação e analgesia | Efeito residual afastado por avaliação documentada |\n| 4. Bloqueador neuromuscular | Ausência de administração documentada |\n| 5. Temperatura | Adequada |\n| 6. Pressão arterial | Inadequada, com hipotensão persistente e sinais de hipoperfusão |\n| 7. Oxigenação | Adequadamente documentada |\n| 8. Metabolismo e intoxicação | Hipoglicemia grave sem correção comprovada |\n| 9. Qualificação dos médicos | O segundo profissional proposto não apresenta capacitação específica suficiente |\n\n## Por que não iniciar agora?\n\n| Pendência | O que precisa acontecer |\n|---|---|\n| Hipotensão grave com sinais de hipoperfusão | Investigar o mecanismo, tratar, avaliar a resposta e demonstrar condições circulatórias adequadas |\n| Hipoglicemia sem correção comprovada | Confirmar a resposta ao tratamento, acompanhar sua manutenção e reavaliar a paciente |\n| Segundo médico sem capacitação específica | Organizar a participação de outro examinador capacitado |\n\n## A decisão\n\n**Não iniciar o protocolo no momento descrito.**\n\nA prioridade é assistir à paciente, tratar a instabilidade circulatória e a hipoglicemia e verificar a resposta às intervenções. Paralelamente, deve ser organizada a participação de examinadores especificamente capacitados.\n\nA abertura será reconsiderada após a resolução das pendências e uma nova verificação do conjunto.\n\n**Uma intervenção iniciada não é um problema resolvido. Um profissional disponível não é, automaticamente, um examinador capacitado.**",
+  "references": "1. Conselho Federal de Medicina. [Resolução CFM nº 2.173/2017](https://sistemas.cfm.org.br/normas/arquivos/resolucoes/BR/2017/2173_2017.pdf). Especialmente os arts. 1º, 3º e 10 e os Anexos I e III.\n\n2. Monnet X et al. [ESICM guidelines on circulatory shock and hemodynamic monitoring 2025](https://pubmed.ncbi.nlm.nih.gov/41236566/). *Intensive Care Medicine*. 2025;51:1971–2012.\n\nOs requisitos para determinação de morte encefálica seguem a norma brasileira. A discussão sobre investigação e tratamento da instabilidade circulatória utiliza referências de cuidados intensivos e não transforma os limites normativos em uma prescrição universal de ressuscitação.",
+  "sourceHash": "256274ff83be26e61ae5ef046d48ed8081f75f7a1362dee74ef6165214ba594a"
+}

@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/lib/(.*)",
+      "destination": "/api/roteador?rota=indisponivel"
+    },
+    {
       "source": "/api/(.*)",
       "destination": "/api/roteador?rota=$1"
     },

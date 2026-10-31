@@ -11,7 +11,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-v2.png">
   <link rel="stylesheet" href="css/styles.css?v=50">
   <link rel="stylesheet" href="css/inicio.css?v=50">
-  <link rel="stylesheet" href="css/admin.css?v=58">
+  <link rel="stylesheet" href="css/admin.css?v=61">
   <link rel="stylesheet" href="css/dialogos.css?v=56">
 </head>
 <body class="pagina-cursos pagina-admin">
@@ -187,9 +187,10 @@
   <footer class="rodape"><div class="container">AGORAMED · Pronto para o plantão</div></footer>
 
   <script src="js/dialogos.js?v=56"></script>
-  <script src="js/store.js?v=58"></script>
+  <script src="js/store.js?v=61"></script>
   <script src="js/admin-ranking.js?v=58"></script>
-  <script src="js/admin-progresso.js?v=58"></script>
+  <script src="js/admin-progresso.js?v=61"></script>
+  <script src="js/admin-quiz.js?v=61"></script>
   <script src="js/editor-curso.js"></script>
   <script type="module">
     await Store.iniciar();
@@ -353,7 +354,7 @@
                 <button class="btn pequeno fantasma" data-acao="rm-aula" data-mod="${i}" data-aula="${j}">✕</button>
               </div>
               <div class="grade-3">
-                <input data-mod="${i}" data-aula="${j}" data-campo="youtubeId" value="${UI.escapar(a.youtubeId || '')}" placeholder="ID do vídeo YouTube (ex.: aBc123XyZ_4)">
+                <input data-mod="${i}" data-aula="${j}" data-campo="youtubeId" value="${UI.escapar(a.youtubeId || '')}" placeholder="${a.atividade ? 'AgoraQuiz — atividade sem vídeo' : 'ID do vídeo YouTube (ex.: aBc123XyZ_4)'}" ${a.atividade ? 'disabled aria-label="AgoraQuiz sem vídeo"' : ''}>
                 <input data-mod="${i}" data-aula="${j}" data-campo="duracao" value="${UI.escapar(a.duracao || '')}" placeholder="Duração (ex.: 14:20)">
                 <div>
                   <button type="button" class="btn pequeno secundario" data-acao="escolher-pdfs" data-mod="${i}" data-aula="${j}">＋ Adicionar PDFs</button>

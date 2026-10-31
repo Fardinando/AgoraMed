@@ -83,7 +83,7 @@
   <footer class="rodape"><div class="container">AGORAMED · Pronto para o plantão</div></footer>
 
   <script src="js/dialogos.js?v=56"></script>
-  <script src="js/store.js?v=58"></script>
+  <script src="js/store.js?v=61"></script>
   <script type="module">
     await Store.iniciar();
     const usuario = Store.proteger();
@@ -110,6 +110,8 @@
     if (!permitido) {
       document.getElementById('aula-conteudo').classList.add('oculto');
       document.getElementById('aula-indisponivel').classList.remove('oculto');
+    } else if (aula.atividade) {
+      location.replace(`agoraquiz.html?aula_id=${encodeURIComponent(aula.id)}`);
     } else {
       /* ---------------------------- player de vídeo (YouTube, nocookie) */
       const palco = document.getElementById('palco');
@@ -241,7 +243,7 @@
               const concluida = Store.estaConcluida(usuario.id, a.id);
               const atual = a.id === aula.id;
               const href = `aula.html?${new URLSearchParams({c:curso.id,m:m.id,a:a.id})}`;
-              return `<a class="aula-linha ${concluida ? 'concluida' : ''}" href="${UI.escapar(href)}" ${atual ? 'aria-current="page"' : ''}><span class="icone" aria-hidden="true">${concluida ? '✓' : '▷'}</span><span class="texto"><strong>${UI.escapar(a.titulo)}</strong><small>${UI.escapar(a.duracao || '—')}${concluida ? ' · Concluída' : ''}</small>${atual ? '<span class="aula-atual">Você está aqui</span>' : ''}</span></a>`;
+              return `<a class="aula-linha ${concluida ? 'concluida' : ''}" href="${UI.escapar(href)}" ${atual ? 'aria-current="page"' : ''}><span class="icone" aria-hidden="true">${concluida ? '✓' : a.atividade ? '?' : '▷'}</span><span class="texto"><strong>${UI.escapar(a.titulo)}</strong><small>${UI.escapar(a.atividade ? 'AgoraQuiz · 11 questões' : a.duracao || '—')}${concluida ? ' · Concluída' : ''}</small>${atual ? '<span class="aula-atual">Você está aqui</span>' : ''}</span></a>`;
             }).join('') || '<p class="modulo-vazio">Aulas em produção.</p>'}</div></details>`;
         }).join('');
       }
