@@ -11,7 +11,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-v2.png">
   <link rel="stylesheet" href="css/styles.css?v=50">
   <link rel="stylesheet" href="css/inicio.css?v=50">
-  <link rel="stylesheet" href="css/admin.css?v=61">
+  <link rel="stylesheet" href="css/admin.css?v=65">
   <link rel="stylesheet" href="css/dialogos.css?v=56">
 </head>
 <body class="pagina-cursos pagina-admin">
@@ -58,7 +58,6 @@
         <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
           <h2 id="editor-titulo">Editando curso</h2>
           <div style="display:flex;gap:8px">
-            <button class="btn" id="btn-salvar-curso">Salvar alterações</button>
             <button class="btn fantasma" id="btn-fechar-editor">✕ Fechar</button>
           </div>
         </div>
@@ -102,9 +101,10 @@
 
         <hr style="border:none;border-top:1px solid var(--linha);margin:18px 0">
 
-        <h2>Módulos e aulas</h2>
+        <div class="estrutura-cab"><div><p class="admin-eyebrow">ESTRUTURA DO CURSO</p><h2>Módulos e aulas</h2><p>Abra um módulo para organizar suas aulas. Clique em Editar para alterar os detalhes.</p></div><span id="estrutura-contagem" class="estrutura-contagem"></span></div>
         <div id="editor-modulos"></div>
         <button class="btn secundario" data-acao="add-mod" id="btn-add-modulo">＋ Adicionar módulo</button>
+        <div class="editor-salvamento"><div><strong id="editor-situacao" role="status" aria-live="polite">Nenhuma alteração pendente</strong><small>As alterações são publicadas ao salvar.</small></div><button class="btn" id="btn-salvar-curso">Salvar alterações</button></div>
       </div>
     </section>
 
@@ -285,8 +285,11 @@
     });
 
     /* ------------------------------------------------ editor */
+    const modulosAbertos = new Set(), aulasAbertas = new Set();
     let ed = null, modelo = null, salvando = false, conflitoEditor = false, lendoArquivos = 0, abertura = 0;
     function atualizarSalvar() {
+      $('#editor-situacao').textContent = salvando ? 'Salvando alterações…' : conflitoEditor ? 'Reabra a versão atual para continuar' : lendoArquivos ? 'Enviando arquivos…' : modelo?.alterado ? 'Alterações não salvas' : 'Tudo salvo';
+      $('#editor-situacao').classList.toggle('pendente', !!modelo?.alterado);
       $('#btn-salvar-curso').disabled = salvando || conflitoEditor || lendoArquivos > 0 || !modelo?.alterado;
       $$('[data-acao="escolher-pdfs"]').forEach(b => { b.disabled = salvando || conflitoEditor || lendoArquivos > 0; });
     }
@@ -305,6 +308,8 @@
       modelo = EditorCurso.criar(r.curso);
       conflitoEditor = false;
       ed = modelo.curso;
+      modulosAbertos.clear(); aulasAbertas.clear();
+      if (ed.modulos[0]) modulosAbertos.add(ed.modulos[0].id);
       estadoEditor('');
       $('#btn-reabrir-editor').classList.add('oculto');
       $('#editor').classList.remove('oculto');
@@ -338,41 +343,39 @@
     });
 
     /* módulos e aulas */
+    function tipoAula(a) { return a.atividade === 'plantao-pos-parada-v1' ? 'Plantão Virtual' : a.atividade ? 'AgoraQuiz' : 'Videoaula'; }
     function pintarModulos() {
       const el = $('#editor-modulos');
+      el.querySelectorAll('details[data-editor-id]').forEach(d => {
+        const lista = d.classList.contains('editor-modulo') ? modulosAbertos : aulasAbertas;
+        if (d.open) lista.add(d.dataset.editorId); else lista.delete(d.dataset.editorId);
+      });
+      $('#estrutura-contagem').textContent = `${ed.modulos.length} módulos · ${ed.modulos.reduce((n,m)=>n+(m.aulas||[]).length,0)} aulas`;
       el.innerHTML = ed.modulos.map((m, i) => `
-        <div class="editor-modulo">
-          <div class="cab-mod">
-            <span class="num" style="width:30px;height:30px;border-radius:8px;background:var(--cinza-claro);display:grid;place-items:center;font-weight:800;color:var(--petroleo-fundo)">${i + 1}</span>
-            <input class="titulo-mod" data-mod="${i}" data-mod-campo="titulo" value="${UI.escapar(m.titulo)}" placeholder="Título do módulo ${i + 1}">
-            <button class="btn pequeno perigo" data-acao="rm-mod" data-mod="${i}">✕</button>
-          </div>
-          ${(m.aulas || []).map((a, j) => `
-            <div class="editor-aula">
-              <div class="cab-aula-ed">
-                <input class="titulo-aula" data-mod="${i}" data-aula="${j}" data-campo="titulo" value="${UI.escapar(a.titulo)}" placeholder="Título da aula ${j + 1}">
-                <button class="btn pequeno fantasma" data-acao="rm-aula" data-mod="${i}" data-aula="${j}">✕</button>
-              </div>
-              <div class="grade-3">
-                <input data-mod="${i}" data-aula="${j}" data-campo="youtubeId" value="${UI.escapar(a.youtubeId || '')}" placeholder="${a.atividade ? 'AgoraQuiz — atividade sem vídeo' : 'ID do vídeo YouTube (ex.: aBc123XyZ_4)'}" ${a.atividade ? 'disabled aria-label="AgoraQuiz sem vídeo"' : ''}>
-                <input data-mod="${i}" data-aula="${j}" data-campo="duracao" value="${UI.escapar(a.duracao || '')}" placeholder="Duração (ex.: 14:20)">
-                <div>
-                  <button type="button" class="btn pequeno secundario" data-acao="escolher-pdfs" data-mod="${i}" data-aula="${j}">＋ Adicionar PDFs</button>
-                  <input type="file" accept="application/pdf,.pdf" multiple class="oculto" data-acao="add-pdf" data-mod="${i}" data-aula="${j}">
+        <details class="editor-modulo" data-editor-id="${UI.escapar(m.id)}" ${modulosAbertos.has(m.id) ? 'open' : ''}>
+          <summary class="modulo-resumo"><span class="editor-numero">${String(i + 1).padStart(2,'0')}</span><span class="resumo-textos"><small>MÓDULO ${i + 1}</small><strong class="resumo-titulo">${UI.escapar(m.titulo || 'Módulo sem título')}</strong></span><span class="resumo-quantidade">${(m.aulas||[]).length} aulas</span><span class="editor-seta" aria-hidden="true">⌄</span></summary>
+          <div class="modulo-conteudo">
+            <div class="modulo-config"><label class="editor-campo" for="mod-titulo-${i}"><span>Nome do módulo</span><input id="mod-titulo-${i}" data-mod="${i}" data-mod-campo="titulo" value="${UI.escapar(m.titulo)}" placeholder="Nome do módulo"></label><button type="button" class="editor-remover" data-acao="rm-mod" data-mod="${i}">Remover módulo</button></div>
+            <div class="editor-lista-aulas">
+            ${(m.aulas || []).map((a, j) => `
+              <details class="editor-aula" data-editor-id="${UI.escapar(a.id)}" ${aulasAbertas.has(a.id) ? 'open' : ''}>
+                <summary class="aula-resumo"><span class="aula-numero">${String(j + 1).padStart(2,'0')}</span><span class="resumo-textos"><strong class="resumo-titulo">${UI.escapar(a.titulo || 'Nova aula')}</strong><small><span class="editor-tipo ${a.atividade ? 'interativa' : ''}">${tipoAula(a)}</span><span class="resumo-duracao">${UI.escapar(a.duracao || 'Sem duração')}</span><span>${(a.pdfs||[]).length} ${(a.pdfs||[]).length === 1 ? 'PDF' : 'PDFs'}</span></small></span><span class="editor-editar"><span class="acao-abrir">Editar</span><span class="acao-fechar">Fechar</span></span><span class="editor-seta" aria-hidden="true">⌄</span></summary>
+                <div class="aula-conteudo">
+                  <section class="editor-secao"><h3>Informações da aula</h3><label class="editor-campo" for="aula-titulo-${i}-${j}"><span>Título da aula</span><input id="aula-titulo-${i}-${j}" data-mod="${i}" data-aula="${j}" data-campo="titulo" value="${UI.escapar(a.titulo)}" placeholder="Dê um título à aula"></label>
+                  <label class="editor-campo" for="aula-descricao-${i}-${j}"><span>Descrição <small>(opcional)</small></span><textarea id="aula-descricao-${i}-${j}" rows="3" data-mod="${i}" data-aula="${j}" data-campo="descricao" placeholder="O que o aluno vai aprender?">${UI.escapar(a.descricao || '')}</textarea></label></section>
+                  <section class="editor-secao"><h3>${a.atividade ? 'Atividade' : 'Vídeo'}</h3><div class="editor-grade">
+                    ${a.atividade ? `<div class="editor-atividade"><span class="editor-tipo interativa">${tipoAula(a)}</span><p>Atividade interativa vinculada ao curso.</p></div>` : `<label class="editor-campo" for="aula-video-${i}-${j}"><span>ID do vídeo no YouTube</span><input id="aula-video-${i}-${j}" data-mod="${i}" data-aula="${j}" data-campo="youtubeId" value="${UI.escapar(a.youtubeId || '')}" placeholder="Ex.: aBc123XyZ_4"><small>Use o código após watch?v= no link do vídeo.</small></label>`}
+                    <label class="editor-campo" for="aula-duracao-${i}-${j}"><span>${a.atividade ? 'Duração ou etapas' : 'Duração'}</span><input id="aula-duracao-${i}-${j}" data-mod="${i}" data-aula="${j}" data-campo="duracao" value="${UI.escapar(a.duracao || '')}" placeholder="${a.atividade ? 'Ex.: 9 etapas + fechamento' : 'Ex.: 14:20'}"></label>
+                  </div></section>
+                  <section class="editor-secao editor-materiais"><div class="materiais-cab"><div><h3>Materiais de apoio <span class="pdf-quantidade">${(a.pdfs||[]).length}</span></h3><p>Adicione um ou mais PDFs, com até 50 MB por arquivo.</p></div><div><button type="button" class="btn pequeno secundario" data-acao="escolher-pdfs" data-mod="${i}" data-aula="${j}">＋ Adicionar PDFs</button><input type="file" accept="application/pdf,.pdf" multiple class="oculto" data-acao="add-pdf" data-mod="${i}" data-aula="${j}"></div></div>
+                  ${(a.pdfs || []).length ? `<ul class="editor-pdfs">${a.pdfs.map((p,k)=>`<li><span class="editor-pdf-icone">PDF</span><span class="nome">${UI.escapar(p.nome)}</span><button type="button" class="editor-remover" data-acao="rm-pdf" data-mod="${i}" data-aula="${j}" data-pdf="${k}">Remover</button></li>`).join('')}</ul>` : '<p class="editor-vazio">Nenhum material anexado a esta aula.</p>'}</section>
+                  <div class="aula-rodape"><button type="button" class="editor-remover" data-acao="rm-aula" data-mod="${i}" data-aula="${j}">Remover aula</button></div>
                 </div>
-              </div>
-              <p class="dica" style="font-size:.8rem;margin-top:6px">Você pode anexar vários PDFs nesta aula, juntos ou um de cada vez. Novos arquivos são acrescentados à lista. Até 50 MB por arquivo. Depois, salve as alterações.</p>
-              <textarea style="margin-top:8px" rows="4" data-mod="${i}" data-aula="${j}" data-campo="descricao" placeholder="Descrição da aula (opcional)">${UI.escapar(a.descricao || '')}</textarea>
-              <p style="font-size:.85rem;margin-top:10px"><strong>Materiais da aula: ${(a.pdfs || []).length} ${(a.pdfs || []).length === 1 ? 'PDF anexado' : 'PDFs anexados'}</strong></p>
-              ${(a.pdfs || []).map((p, k) => `
-                <div class="material" style="margin-top:8px">
-                  <span class="icone-pdf">PDF</span>
-                  <span class="nome">${UI.escapar(p.nome)}</span>
-                  <button class="btn pequeno perigo" data-acao="rm-pdf" data-mod="${i}" data-aula="${j}" data-pdf="${k}">remover</button>
-                </div>`).join('')}
-            </div>`).join('')}
-          <button class="btn pequeno secundario" style="margin-top:10px" data-acao="add-aula" data-mod="${i}">＋ Adicionar aula neste módulo</button>
-        </div>`).join('');
+              </details>`).join('') || '<div class="modulo-vazio"><strong>Seu módulo está pronto para receber aulas.</strong><p>Adicione a primeira aula para começar a organizar o conteúdo.</p></div>'}
+            </div>
+            <button type="button" class="btn secundario editor-add-aula" data-acao="add-aula" data-mod="${i}">＋ Adicionar aula neste módulo</button>
+          </div>
+        </details>`).join('') || '<div class="modulo-vazio"><strong>Comece pelo primeiro módulo.</strong><p>Organize o curso em etapas e adicione suas aulas.</p></div>';
     }
 
     /* alterações estruturais + leitura dos campos */
@@ -384,6 +387,9 @@
       } else if (i.dataset.modCampo === 'titulo') {
         m.titulo = i.value;
       }
+      const detalhe = i.closest('details');
+      if (detalhe && (i.dataset.campo === 'titulo' || i.dataset.modCampo === 'titulo')) detalhe.querySelector(':scope > summary .resumo-titulo').textContent = i.value || (i.dataset.aula != null ? 'Nova aula' : 'Módulo sem título');
+      if (detalhe && i.dataset.campo === 'duracao') detalhe.querySelector('.resumo-duracao').textContent = i.value || 'Sem duração';
       modelo.marcar(); atualizarSalvar();
     });
 
@@ -426,12 +432,14 @@
         return;
       }
       if (acao === 'add-mod') {
-        ed.modulos.push({ id: Store.uid(), titulo: `Módulo ${ed.modulos.length + 1}`, aulas: [] });
+        const novo = { id: Store.uid(), titulo: `Módulo ${ed.modulos.length + 1}`, aulas: [] };
+        ed.modulos.push(novo); modulosAbertos.add(novo.id);
       } else if (acao === 'rm-mod') {
         if (!await UI.confirmar('Remover este módulo e todas as suas aulas?')) return;
         modelo.removerModulo(mi);
       } else if (acao === 'add-aula') {
-        ed.modulos[mi].aulas.push({ id: Store.uid(), titulo: '', youtubeId: '', duracao: '', descricao: '', pdfs: [] });
+        const nova = { id: Store.uid(), titulo: '', youtubeId: '', duracao: '', descricao: '', pdfs: [] };
+        ed.modulos[mi].aulas.push(nova); modulosAbertos.add(ed.modulos[mi].id); aulasAbertas.add(nova.id);
       } else if (acao === 'rm-aula') {
         if (!await UI.confirmar('Remover esta aula?')) return;
         modelo.removerAula(mi, +b.dataset.aula);
@@ -443,7 +451,8 @@
     });
 
     $('#btn-add-modulo').addEventListener('click', () => {
-      ed.modulos.push({ id: Store.uid(), titulo: `Módulo ${ed.modulos.length + 1}`, aulas: [] });
+      const novo = { id: Store.uid(), titulo: `Módulo ${ed.modulos.length + 1}`, aulas: [] };
+      ed.modulos.push(novo); modulosAbertos.add(novo.id);
       modelo.marcar(); atualizarSalvar();
       pintarModulos();
     });
