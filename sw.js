@@ -3,11 +3,11 @@
    quando o aluno estiver sem internet. Assim as aulas e materiais novos aparecem
    na hora, e o app continua abrindo offline.
 */
-const CACHE = 'agoramed-v62';
+const CACHE = 'agoramed-v63';
 /* Recursos visuais do login e ícones também ficam disponíveis offline.
    As respostas autenticadas de /api/ continuam fora do cache. */
 const APP = [
-  'plantao-virtual.html', 'css/plantao-virtual.css?v=62', 'js/plantao-engine.js?v=62', 'js/plantao-virtual.js?v=62', 'img/plantao-virtual-uti.webp',
+  'plantao-virtual.html', 'css/plantao-virtual.css?v=63', 'js/plantao-engine.js?v=62', 'js/plantao-virtual.js?v=63', 'img/plantao-virtual-uti.webp',
   'agoraquiz.html', 'css/agoraquiz.css?v=61', 'js/agoraquiz.js?v=62', 'js/admin-quiz.js?v=61',
   'morte-encefalica.html', 'css/landing-me.css?v=57', 'index.html', 'app.html', 'curso.html', 'aula.html', 'admin.html', 'redefinir.html', 'sobre.html',
   'css/dialogos.css?v=56', 'js/dialogos.js?v=56', 'css/redefinir.css?v=56', 'css/admin.css?v=61', 'css/aula.css?v=53', 'css/curso.css?v=52', 'css/styles.css?v=50', 'css/inicio.css?v=50', 'css/sobre.css', 'css/sobre-petroleo.css?v=51', 'img/anderson-uti.jpg', 'js/store.js?v=62', 'js/admin-ranking.js?v=58', 'js/admin-progresso.js?v=61', 'js/catalogo-cursos.js', 'js/editor-curso.js', 'manifest.json',

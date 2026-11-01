@@ -24,3 +24,18 @@
 .crumb>span{line-height:inherit}
 
 #network-error{position:sticky;top:0;z-index:50;padding:18px 28px;background:#463b29;border-bottom:1px solid #d6ac69;color:#fff1d6}#network-error[hidden]{display:none}#network-error p{margin-bottom:10px}#network-error .actions{margin:0}.support-lesson-title{color:var(--text);font-size:18px}
+
+/* Mantém a marca integralmente visível sob as barras do navegador. */
+html{scroll-padding-top:calc(var(--header-height,82px) + 20px)}
+.header{
+ --header-pad:20px;
+ position:sticky;top:0;z-index:20;
+ padding-top:calc(var(--header-pad) + env(safe-area-inset-top,0px));
+ background:#0b252e;
+ isolation:isolate;
+}
+.brand{flex-shrink:0}
+.brand img{display:block;flex-shrink:0}
+.steps,.mediator.desktop{top:calc(var(--header-height,82px) + 18px)}
+#network-error{top:var(--header-height,82px)}
+@media(max-width:1190px){.header{--header-pad:18px}}

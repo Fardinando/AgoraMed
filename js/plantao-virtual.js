@@ -1,6 +1,9 @@
 'use strict';
 (async()=>{
 let C;const E=PV_ENGINE,$=id=>document.getElementById(id);
+const header=document.querySelector('.header');
+function measureHeader(){document.documentElement.style.setProperty('--header-height',header.getBoundingClientRect().height+'px');}
+measureHeader();if(typeof ResizeObserver!=='undefined')new ResizeObserver(measureHeader).observe(header);else window.addEventListener('resize',measureHeader);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const paths={clock:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',file:'<path d="M6 3h8l4 4v14H6zM14 3v5h4M9 12h6m-6 4h6"/>',play:'<circle cx="12" cy="12" r="9"/><path d="m10 8 6 4-6 4Z"/>',book:'<path d="M12 5v16M12 5C9 2 4 2 2 4v15c3-2 7-1 10 2 3-3 7-4 10-2V4c-2-2-7-2-10 1Z"/>',arrow:'<path d="M4 12h16m-6-6 6 6-6 6"/>',bulb:'<path d="M9 18h6m-5 3h4M8 15c-5-6-1-12 4-12s9 6 4 12l-1 2H9Z"/>',people:'<circle cx="9" cy="7" r="3"/><path d="M3 21v-4a6 6 0 0 1 12 0v4M17 4a3 3 0 0 1 0 6m1 4a5 5 0 0 1 3 5v2"/>'};
 const icon=n=>'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+(paths[n]||paths.file)+'</svg>';
