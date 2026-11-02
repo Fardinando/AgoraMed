@@ -11,7 +11,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-v2.png">
   <link rel="stylesheet" href="css/styles.css?v=50">
   <link rel="stylesheet" href="css/sobre.css">
-  <link rel="stylesheet" href="css/inicio.css?v=50">
+  <link rel="stylesheet" href="css/inicio.css?v=69">
   <link rel="preload" href="fonts/playfair-display-400-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/dialogos.css?v=56">
 </head>
@@ -52,8 +52,10 @@
       <div class="linha-cartoes" id="linha-continuar"></div>
     </section>
 
-    <!-- linha: meus cursos (Netflix) -->
-    <section class="secao" aria-labelledby="titulo-meus-cursos">
+    <button class="inicio-ver-cursos oculto" id="ver-meus-cursos" type="button" aria-expanded="false" aria-controls="secao-meus-cursos">Ver todos os meus cursos <span aria-hidden="true">→</span></button>
+
+    <!-- linha: meus cursos -->
+    <section class="secao" id="secao-meus-cursos" aria-labelledby="titulo-meus-cursos">
       <div class="secao-cab">
         <h2 id="titulo-meus-cursos">Meus cursos</h2>
         <span class="contador" id="cont-cursos"></span>
@@ -145,13 +147,13 @@
         <a class="cartao-curso ${resumo ? 'curso-resumo' : 'curso-destaque'}" href="/api/curso?id=${encodeURIComponent(c.id)}">
           <div class="capa">
             ${capaHTML(c)}
-            <span class="badge">${c.tipoAcesso === 'gratis' ? 'Gratuito' : 'Acesso liberado'}</span>
-            <span class="duracao">${UI.escapar(est.duracao)}</span>
+
           </div>
           <div class="info-curso">
-            <p class="curso-categoria">${c.categoria ? `${UI.escapar(c.categoria)} · ` : ''}${c.tipoAcesso === 'gratis' ? 'Curso gratuito' : 'Acesso liberado'}</p>
+            <span class="curso-acesso">${c.tipoAcesso === 'gratis' ? 'Curso gratuito' : 'Acesso liberado'}</span>
+            <p class="curso-categoria">${UI.escapar(c.categoria || '')}</p>
             <h3>${UI.escapar(c.titulo)}</h3>
-            <div class="curso-metadados"><span>${est.modulos} módulos · ${est.aulas} aulas${est.pdfs ? ` · ${est.pdfs} PDFs` : ''}</span>${c.nivel ? `<span class="curso-nivel">${UI.escapar(c.nivel)}</span>` : ''}</div>
+            <div class="curso-metadados"><span>${est.modulos} módulos · ${est.aulas} aulas · ${UI.escapar(est.duracao)}${est.pdfs ? ` · ${est.pdfs} PDFs` : ''}</span>${c.nivel ? `<span class="curso-nivel">${UI.escapar(c.nivel)}</span>` : ''}</div>
             ${c.subtitulo ? `<p class="descricao">${UI.escapar(c.subtitulo)}</p>` : ''}
             ${prog.total ? `
               <div class="curso-progresso">
@@ -189,6 +191,26 @@
     if (emAndamento.length) {
       document.getElementById('secao-continuar').classList.remove('oculto');
       document.getElementById('linha-continuar').innerHTML = emAndamento.map(x => cartaoCurso(x.c, true)).join('');
+      const secaoMeus = document.getElementById('secao-meus-cursos');
+      const verCursos = document.getElementById('ver-meus-cursos');
+      document.body.classList.add('tem-continuacao');
+      function mostrarMeusCursos() {
+        secaoMeus.classList.remove('meus-cursos-recolhidos');
+        verCursos.setAttribute('aria-expanded', 'true');
+      }
+      secaoMeus.classList.add('meus-cursos-recolhidos');
+      verCursos.classList.remove('oculto');
+      verCursos.addEventListener('click', () => {
+        mostrarMeusCursos();
+        document.getElementById('titulo-meus-cursos').setAttribute('tabindex', '-1');
+        document.getElementById('titulo-meus-cursos').focus({ preventScroll: true });
+        secaoMeus.scrollIntoView({ block: 'start' });
+      });
+      function abrirCursosPeloLink() {
+        if (location.hash === '#cursos') mostrarMeusCursos();
+      }
+      window.addEventListener('hashchange', abrirCursosPeloLink);
+      abrirCursosPeloLink();
     }
 
     /* ---------------------------------------------- divulgação (promo) */
