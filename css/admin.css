@@ -220,3 +220,10 @@
 .editor-grade{align-items:start}
 #editor :is(button,input,textarea,select,summary){scroll-margin-top:100px;scroll-margin-bottom:180px}
 #btn-add-modulo{margin-bottom:95px}
+
+/* Contraste do editor durante foco, digitação e preenchimento automático. */
+.pagina-admin #editor :is(input:not([type="checkbox"]):not([type="radio"]):not([type="file"]),textarea,select){color:#f0f8fa;caret-color:#8be8ef;-webkit-text-fill-color:#f0f8fa;color-scheme:dark}
+.pagina-admin #editor :is(input:not([type="checkbox"]):not([type="radio"]):not([type="file"]),textarea,select):focus{background:#0c2c36;background-image:none;color:#f0f8fa;border-color:#80e5ed;box-shadow:0 0 0 3px #79dce22b;outline:2px solid #80e5ed;outline-offset:2px}
+.pagina-admin #editor :is(input,textarea)::placeholder{color:#a9c5d0;-webkit-text-fill-color:#a9c5d0;opacity:1}
+.pagina-admin #editor :is(input,textarea):is(:autofill,:-webkit-autofill){-webkit-text-fill-color:#f0f8fa!important;color:#f0f8fa!important;caret-color:#8be8ef;background-color:#0c2c36!important;-webkit-box-shadow:0 0 0 1000px #0c2c36 inset!important;box-shadow:0 0 0 1000px #0c2c36 inset!important}
+.pagina-admin #editor :is(input,textarea)::selection{background:#88e1e8;color:#082630;-webkit-text-fill-color:#082630}
