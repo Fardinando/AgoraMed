@@ -227,3 +227,15 @@
 .pagina-admin #editor :is(input,textarea)::placeholder{color:#a9c5d0;-webkit-text-fill-color:#a9c5d0;opacity:1}
 .pagina-admin #editor :is(input,textarea):is(:autofill,:-webkit-autofill){-webkit-text-fill-color:#f0f8fa!important;color:#f0f8fa!important;caret-color:#8be8ef;background-color:#0c2c36!important;-webkit-box-shadow:0 0 0 1000px #0c2c36 inset!important;box-shadow:0 0 0 1000px #0c2c36 inset!important}
 .pagina-admin #editor :is(input,textarea)::selection{background:#88e1e8;color:#082630;-webkit-text-fill-color:#082630}
+
+/* A ordenação fica acessível mesmo com os detalhes da aula fechados. */
+.editor-aula-item{min-width:0}
+.editor-ordem{display:flex;align-items:center;justify-content:flex-end;gap:9px;flex-wrap:wrap;padding:8px 4px 4px}
+.editor-ordem>span{margin-right:auto;font-size:.67rem;color:#a9c8d3}
+.editor-ordem button{font:inherit;font-size:.7rem;min-height:40px;padding:7px 11px;border:1px solid #4c7885;border-radius:8px;background:#10333f;color:#d9f0f4;cursor:pointer}
+.editor-ordem button:hover:not(:disabled){background:#1a4955;border-color:#80e5ed}
+.editor-ordem button:disabled{opacity:.35;cursor:default}
+.editor-ordem button:focus-visible{outline:2px solid #80e5ed;outline-offset:2px}
+.editor-ordem-status{font-size:.8rem;color:#9ce9ef;line-height:1.6;margin:0 0 16px}
+.editor-ordem-status:empty{display:none}
+@media(max-width:700px){.editor-ordem{gap:6px;padding-inline:0}.editor-ordem>span{width:100%}.editor-ordem button{flex:1;min-height:44px;font-size:.68rem;padding:7px 6px}}

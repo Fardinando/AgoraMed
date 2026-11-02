@@ -8,6 +8,15 @@ test('salvamento transacional, remoções explícitas e proteção contra versõ
    const antes=await snapshot(db);const ed=await editor(db);ed.descricao='Nova descrição';const r=await rpc(db,ed);assert.equal(r.ok,true);assert.equal(r.curso.descricao,'Nova descrição');assert.ok(r.curso.versao>ed.versao);
    const depois=await snapshot(db);for(const tab of ['modulos','aulas','materiais','perfis','matriculas','progresso','comentarios'])assert.deepEqual(depois[tab],antes[tab],tab);
   });
+  await caso('inverter aulas persiste a ordem e preserva materiais, comentários e progresso por identidade',async()=>{
+   const antes=await snapshot(db);const ed=await editor(db);const idsOriginais=ed.modulos[0].aulas.map(a=>a.id);
+   ed.modulos[0].aulas.reverse();const r=await rpc(db,ed);
+   assert.equal(r.ok,true);assert.deepEqual(r.curso.modulos[0].aulas.map(a=>a.id),[...idsOriginais].reverse());
+   assert.deepEqual((await editor(db)).modulos[0].aulas.map(a=>a.id),[...idsOriginais].reverse());
+   const depois=await snapshot(db);
+   for(const tab of ['materiais','perfis','matriculas','progresso','comentarios','arquivos_curso_pendentes'])assert.deepEqual(depois[tab],antes[tab],tab);
+   for(const a of depois.aulas){const original=antes.aulas.find(x=>x.id===a.id);assert.equal(a.modulo_id,original.modulo_id);assert.equal(a.titulo,original.titulo);assert.equal(a.youtube_id,original.youtube_id);}
+  });
   await caso('metadados não regravam as linhas de módulos e aulas intactos',async()=>{
    const antes=(await db.query('select id,ctid::text from public.aulas order by id')).rows;
    const ed=await editor(db);ed.descricao='Somente descrição';await rpc(db,ed);

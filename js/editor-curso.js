@@ -9,6 +9,12 @@ const EditorCurso = (() => {
       marcar(){estado.alterado=true;},
       registrar(tipo,id){if(originais[tipo].has(id))removidos[tipo].add(id);estado.marcar();},
       removerModulo(i){estado.registrar('modulos',ed.modulos[i].id);ed.modulos.splice(i,1);},
+      moverAula(i,j,direcao){
+        const aulas=ed.modulos[i]?.aulas;
+        const destino=j+direcao;
+        if(!Number.isInteger(i)||!Number.isInteger(j)||![1,-1].includes(direcao)||!aulas||j<0||j>=aulas.length||destino<0||destino>=aulas.length)return false;
+        const [aula]=aulas.splice(j,1);aulas.splice(destino,0,aula);estado.marcar();return true;
+      },
       removerAula(i,j){estado.registrar('aulas',ed.modulos[i].aulas[j].id);ed.modulos[i].aulas.splice(j,1);},
       removerMaterial(i,j,k){estado.registrar('materiais',ed.modulos[i].aulas[j].pdfs[k].id);ed.modulos[i].aulas[j].pdfs.splice(k,1);},
       remocoes(){return Object.fromEntries(Object.entries(removidos).map(([k,v])=>[k,Array.from(v)]));},

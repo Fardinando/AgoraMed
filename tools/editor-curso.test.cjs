@@ -13,3 +13,17 @@ test('retry do mesmo rascunho preserva a identificação da tentativa',async()=>
 test('nova edição usa outra tentativa e preserva o texto quando o servidor falha',async()=>{const pedidos=[];const s=store(async(u,o)=>{pedidos.push(JSON.parse(o.body));return {json:async()=>({ok:false,conflito:true})};});const ed=curso();await s.salvarCurso(ed);ed.titulo='Meu rascunho atualizado';await s.salvarCurso(ed);assert.notEqual(pedidos[0].operacaoId,pedidos[1].operacaoId);assert.equal(ed.titulo,'Meu rascunho atualizado');});
 test('payload grande é rejeitado antes da rede e sem apagar o rascunho',async()=>{let chamadas=0;const s=store(async()=>{chamadas++;});const ed=curso();ed.capaImagem='x'.repeat(4000001);const r=await s.salvarCurso(ed);assert.equal(r.ok,false);assert.equal(chamadas,0);assert.equal(ed.capaImagem.length,4000001);});
 test('nova tentativa de criar curso após falha não cria outro identificador',async()=>{const pedidos=[];const s=store(async(u,o)=>{const b=JSON.parse(o.body);pedidos.push(b);return {json:async()=>pedidos.length===1?{ok:false}:{ok:true,curso:{...b.curso,versao:1}}};});await s.novoCurso();await s.novoCurso();assert.equal(pedidos[0].curso.id,pedidos[1].curso.id);assert.equal(pedidos[0].operacaoId,pedidos[1].operacaoId);assert.equal(s.cursos().length,1);});
+
+test('mover aulas preserva identidades, materiais e atividades sem registrar remoções',()=>{
+ const original=curso();original.modulos[0].aulas.push({id:'quiz',titulo:'Quiz',atividade:'pre-requisitos-v1',pdfs:[]});
+ const e=modelo().criar(original),aulas=e.curso.modulos[0].aulas,primeira=aulas[0],segunda=aulas[1];
+ assert.equal(e.moverAula(0,1,-1),true);assert.equal(aulas[0],segunda);assert.equal(aulas[1],primeira);
+ assert.equal(aulas[1].pdfs[0].id,'pdf');assert.equal(aulas[0].atividade,'pre-requisitos-v1');
+ assert.equal(e.temRemocoes(),false);assert.equal(e.alterado,true);assert.equal(original.modulos[0].aulas[0].id,'aula');
+ assert.equal(e.moverAula(0,0,1),true);assert.equal(aulas[0],primeira);assert.equal(aulas[1],segunda);
+});
+test('limites e comandos inválidos não alteram o rascunho nem removem aulas',()=>{
+ const e=modelo().criar(curso()),antes=JSON.stringify(e.curso);
+ for(const args of [[0,0,-1],[0,0,1],[4,0,1],[0,-1,1],[0,0,2],[0,0.5,-1]])assert.equal(e.moverAula(...args),false);
+ assert.equal(JSON.stringify(e.curso),antes);assert.equal(e.alterado,false);assert.equal(e.temRemocoes(),false);
+});

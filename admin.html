@@ -11,7 +11,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-v2.png">
   <link rel="stylesheet" href="css/styles.css?v=50">
   <link rel="stylesheet" href="css/inicio.css?v=50">
-  <link rel="stylesheet" href="css/admin.css?v=68">
+  <link rel="stylesheet" href="css/admin.css?v=70">
   <link rel="stylesheet" href="css/dialogos.css?v=56">
 </head>
 <body class="pagina-cursos pagina-admin">
@@ -101,7 +101,8 @@
 
         <hr style="border:none;border-top:1px solid var(--linha);margin:18px 0">
 
-        <div class="estrutura-cab"><div><p class="admin-eyebrow">ESTRUTURA DO CURSO</p><h2>Módulos e aulas</h2><p>Abra um módulo para organizar suas aulas. Clique em Editar para alterar os detalhes.</p></div><span id="estrutura-contagem" class="estrutura-contagem"></span></div>
+        <div class="estrutura-cab"><div><p class="admin-eyebrow">ESTRUTURA DO CURSO</p><h2>Módulos e aulas</h2><p>Abra um módulo para organizar suas aulas. Use as setas para mudar a ordem das aulas e salve as alterações. Clique em Editar para alterar os detalhes.</p></div><span id="estrutura-contagem" class="estrutura-contagem"></span></div>
+        <p id="editor-ordem-status" class="editor-ordem-status" role="status" aria-live="polite"></p>
         <div id="editor-modulos"></div>
         <button class="btn secundario" data-acao="add-mod" id="btn-add-modulo">＋ Adicionar módulo</button>
         <div class="editor-salvamento"><div><strong id="editor-situacao" role="status" aria-live="polite">Nenhuma alteração pendente</strong><small>As alterações são publicadas ao salvar.</small></div><button class="btn" id="btn-salvar-curso">Salvar alterações</button></div>
@@ -191,7 +192,7 @@
   <script src="js/admin-ranking.js?v=58"></script>
   <script src="js/admin-progresso.js?v=61"></script>
   <script src="js/admin-quiz.js?v=61"></script>
-  <script src="js/editor-curso.js"></script>
+  <script src="js/editor-curso.js?v=70"></script>
   <script type="module">
     await Store.iniciar();
     const usuario = Store.proteger();
@@ -291,6 +292,7 @@
       $('#editor-situacao').textContent = salvando ? 'Salvando alterações…' : conflitoEditor ? 'Reabra a versão atual para continuar' : lendoArquivos ? 'Enviando arquivos…' : modelo?.alterado ? 'Alterações não salvas' : 'Tudo salvo';
       $('#editor-situacao').classList.toggle('pendente', !!modelo?.alterado);
       $('#btn-salvar-curso').disabled = salvando || conflitoEditor || lendoArquivos > 0 || !modelo?.alterado;
+      $$('[data-acao="mover-aula"]').forEach(b => { b.disabled = salvando || conflitoEditor || lendoArquivos > 0 || b.dataset.limite === 'true'; });
       $$('[data-acao="escolher-pdfs"]').forEach(b => { b.disabled = salvando || conflitoEditor || lendoArquivos > 0; });
     }
     function estadoEditor(texto, erro = false) {
@@ -311,6 +313,7 @@
       modulosAbertos.clear(); aulasAbertas.clear();
       if (ed.modulos[0]) modulosAbertos.add(ed.modulos[0].id);
       estadoEditor('');
+      $('#editor-ordem-status').textContent = '';
       $('#btn-reabrir-editor').classList.add('oculto');
       $('#editor').classList.remove('oculto');
       $('#editor-titulo').textContent = 'Editando: ' + ed.titulo;
@@ -358,6 +361,7 @@
             <div class="modulo-config"><label class="editor-campo" for="mod-titulo-${i}"><span>Nome do módulo</span><input id="mod-titulo-${i}" data-mod="${i}" data-mod-campo="titulo" value="${UI.escapar(m.titulo)}" placeholder="Nome do módulo"></label><button type="button" class="editor-remover" data-acao="rm-mod" data-mod="${i}">Remover módulo</button></div>
             <div class="editor-lista-aulas">
             ${(m.aulas || []).map((a, j) => `
+              <div class="editor-aula-item" data-aula-id="${UI.escapar(a.id)}">
               <details class="editor-aula" data-editor-id="${UI.escapar(a.id)}" ${aulasAbertas.has(a.id) ? 'open' : ''}>
                 <summary class="aula-resumo"><span class="aula-numero">${String(j + 1).padStart(2,'0')}</span><span class="resumo-textos"><strong class="resumo-titulo">${UI.escapar(a.titulo || 'Nova aula')}</strong><small><span class="editor-tipo ${a.atividade ? 'interativa' : ''}">${tipoAula(a)}</span><span class="resumo-duracao">${UI.escapar(a.duracao || 'Sem duração')}</span><span>${(a.pdfs||[]).length} ${(a.pdfs||[]).length === 1 ? 'PDF' : 'PDFs'}</span></small></span><span class="editor-editar"><span class="acao-abrir">Editar</span><span class="acao-fechar">Fechar</span></span><span class="editor-seta" aria-hidden="true">⌄</span></summary>
                 <div class="aula-conteudo">
@@ -371,7 +375,11 @@
                   ${(a.pdfs || []).length ? `<ul class="editor-pdfs">${a.pdfs.map((p,k)=>`<li><span class="editor-pdf-icone">PDF</span><span class="nome">${UI.escapar(p.nome)}</span><button type="button" class="editor-remover" data-acao="rm-pdf" data-mod="${i}" data-aula="${j}" data-pdf="${k}">Remover</button></li>`).join('')}</ul>` : '<p class="editor-vazio">Nenhum material anexado a esta aula.</p>'}</section>
                   <div class="aula-rodape"><button type="button" class="editor-remover" data-acao="rm-aula" data-mod="${i}" data-aula="${j}">Remover aula</button></div>
                 </div>
-              </details>`).join('') || '<div class="modulo-vazio"><strong>Seu módulo está pronto para receber aulas.</strong><p>Adicione a primeira aula para começar a organizar o conteúdo.</p></div>'}
+              </details>
+              <div class="editor-ordem" role="group" aria-label="Ordem da aula ${UI.escapar(a.titulo || 'Nova aula')}"><span>Ordem da aula</span>
+                <button type="button" data-acao="mover-aula" data-mod="${i}" data-aula="${j}" data-direcao="-1" data-limite="${j === 0}" ${j === 0 || salvando || conflitoEditor || lendoArquivos ? 'disabled' : ''} aria-label="Mover para cima: ${UI.escapar(a.titulo || 'Nova aula')}"><span aria-hidden="true">↑</span> Mover para cima</button>
+                <button type="button" data-acao="mover-aula" data-mod="${i}" data-aula="${j}" data-direcao="1" data-limite="${j === m.aulas.length - 1}" ${j === m.aulas.length - 1 || salvando || conflitoEditor || lendoArquivos ? 'disabled' : ''} aria-label="Mover para baixo: ${UI.escapar(a.titulo || 'Nova aula')}"><span aria-hidden="true">↓</span> Mover para baixo</button>
+              </div></div>`).join('') || '<div class="modulo-vazio"><strong>Seu módulo está pronto para receber aulas.</strong><p>Adicione a primeira aula para começar a organizar o conteúdo.</p></div>'}
             </div>
             <button type="button" class="btn secundario editor-add-aula" data-acao="add-aula" data-mod="${i}">＋ Adicionar aula neste módulo</button>
           </div>
@@ -426,6 +434,19 @@
       const b = e.target.closest('[data-acao]'); if (!b || !ed) return;
       const acao = b.dataset.acao;
       const mi = +b.dataset.mod;
+      if (acao === 'mover-aula') {
+        if (salvando || conflitoEditor || lendoArquivos) return;
+        const origem = +b.dataset.aula, direcao = +b.dataset.direcao;
+        const aula = ed.modulos[mi]?.aulas[origem];
+        if (!modelo.moverAula(mi, origem, direcao)) return;
+        pintarModulos(); atualizarSalvar();
+        $('#editor-ordem-status').textContent = `${aula.titulo || 'Aula'} movida para a posição ${origem + direcao + 1}. Salve as alterações para publicar a nova ordem.`;
+        const item = Array.from($('#editor-modulos').querySelectorAll('.editor-aula-item')).find(el => el.dataset.aulaId === aula.id);
+        const botao = item.querySelector(`[data-direcao="${direcao}"]:not(:disabled)`) || item.querySelector('[data-acao="mover-aula"]:not(:disabled)');
+        botao?.focus({ preventScroll: true });
+        item.scrollIntoView({ block: 'nearest' });
+        return;
+      }
       if (acao === 'escolher-pdfs') {
         if (salvando || conflitoEditor || lendoArquivos) return;
         b.parentElement.querySelector('input[type=file]').click();
@@ -479,6 +500,7 @@
         modelo = EditorCurso.criar(r.curso);
         ed = modelo.curso;
         pintarCamposCurso(); pintarModulos(); listarCursos();
+        $('#editor-ordem-status').textContent = '';
         estadoEditor('Alterações salvas. Você pode continuar editando.');
         $('#btn-reabrir-editor').classList.add('oculto');
       } finally {
