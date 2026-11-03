@@ -188,7 +188,7 @@
   <footer class="rodape"><div class="container">AGORAMED · Pronto para o plantão</div></footer>
 
   <script src="js/dialogos.js?v=56"></script>
-  <script src="js/store.js?v=62"></script>
+  <script src="js/store.js?v=72"></script>
   <script src="js/admin-ranking.js?v=58"></script>
   <script src="js/admin-progresso.js?v=61"></script>
   <script src="js/admin-quiz.js?v=61"></script>
@@ -806,12 +806,13 @@
 
     /* ================================================== DIVULGAÇÕES */
     const capasPromoPendentes = new Map();
+    const capaPromo = p => capasPromoPendentes.get(p.id) || p.capaImagem || '';
     function listarPromos() {
       const el = $('#lista-promos');
       const promos = Store.promos();
       el.innerHTML = promos.length ? promos.map(p => `
         <div class="card-linha">
-          <div class="mini-capa">${p.capaImagem ? `<img src="${p.capaImagem}" alt="">` : UI.escapar(p.emoji || '🎓')}</div>
+          <div class="mini-capa">${capaPromo(p) ? `<img src="${capaPromo(p)}" alt="">` : UI.escapar(p.emoji || '🎓')}</div>
           <div class="dados">
             <strong>${UI.escapar(p.titulo)}</strong>
             <small>${UI.escapar(p.texto || '')}${p.link ? ' · link: ' + UI.escapar(p.link) : ''}</small>
@@ -832,8 +833,8 @@
             <label for="promo-capa-${p.id}">Capa da divulgação</label>
             <input type="file" id="promo-capa-${p.id}" accept="image/jpeg,image/png,image/webp" aria-describedby="promo-capa-dica-${p.id}" data-promo-capa="${p.id}">
             <p id="promo-capa-dica-${p.id}">Use a capa do curso ou outra imagem em JPG, PNG ou WebP. Formato recomendado: 16:9. A imagem será publicada ao salvar.</p>
-            <img class="promo-capa-previa ${p.capaImagem ? '' : 'oculto'}" ${p.capaImagem ? `src="${UI.escapar(p.capaImagem)}"` : ''} alt="Prévia da capa da divulgação">
-            <span class="promo-capa-status" role="status" aria-live="polite"></span>
+            <img class="promo-capa-previa ${capaPromo(p) ? '' : 'oculto'}" ${capaPromo(p) ? `src="${UI.escapar(capaPromo(p))}"` : ''} alt="Prévia da capa da divulgação">
+            <span class="promo-capa-status" role="status" aria-live="polite">${capasPromoPendentes.has(p.id) ? 'Capa selecionada. Clique em Salvar para publicar.' : ''}</span>
           </div>
           <button class="btn" data-salvar-promo="${p.id}">Salvar</button>
         </div>`).join('')
@@ -846,7 +847,10 @@
       const sal = e.target.closest('[data-salvar-promo]');
       if (exc) {
         if (!await UI.confirmar('Excluir esta divulgação?')) return;
-        await Store.salvarPromos(Store.promos().filter(x => x.id !== exc.dataset.excluirPromo));
+        const id = exc.dataset.excluirPromo;
+        const r = await Store.salvarPromos(Store.promos().filter(x => x.id !== id), { alterados: [], removidos: [id] });
+        if (!r.ok) return await UI.avisar(r.erro || 'Não foi possível excluir a divulgação.');
+        capasPromoPendentes.delete(id);
         listarPromos();
       } else if (sal) {
         const id = sal.dataset.salvarPromo;
@@ -855,7 +859,7 @@
         const p = promos.find(x => x.id === id);
         $$('[data-p]', painel).forEach(i => p[i.dataset.p] = i.value);
         if (capasPromoPendentes.has(id)) p.capaImagem = capasPromoPendentes.get(id);
-        const r = await Store.salvarPromos(promos);
+        const r = await Store.salvarPromos(promos, { alterados: [id] });
         if (!r.ok) return await UI.avisar(r.erro || 'Não foi possível salvar a divulgação.');
         capasPromoPendentes.delete(id);
         listarPromos();
@@ -890,9 +894,9 @@
     });
 
     $('#btn-nova-promo').addEventListener('click', async () => {
-      const promos = Store.promos();
-      promos.push({ id: Store.uid(), titulo: 'Nova divulgação', texto: '', emoji: '🎓', link: '', capaImagem: '' });
-      await Store.salvarPromos(promos);
+      const nova = { id: Store.uid(), titulo: 'Nova divulgação', texto: '', emoji: '🎓', link: '', capaImagem: '' };
+      const r = await Store.salvarPromos([...Store.promos(), nova], { alterados: [nova.id] });
+      if (!r.ok) return await UI.avisar(r.erro || 'Não foi possível criar a divulgação.');
       listarPromos();
     });
 

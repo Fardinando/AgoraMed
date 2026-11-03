@@ -315,9 +315,9 @@ const Store = (() => {
 
   /* ------------------------------------------------------------- promos */
   const promos = () => promosCache;
-  async function salvarPromos(lista) {
-    const r = await api('/admin/promos', { metodo: 'POST', corpo: { lista } });
-    if (r && r.ok) { promosCache = lista; limparCache(); }
+  async function salvarPromos(lista, { alterados, removidos = [] } = {}) {
+    const r = await api('/admin/promos', { metodo: 'POST', corpo: { lista: alterados ? lista.filter(p => alterados.includes(p.id)) : lista, removidos } });
+    if (r && r.ok) { promosCache = r.promos || lista; limparCache(); }
     return r;
   }
 
