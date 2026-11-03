@@ -916,7 +916,8 @@ main.container, .tela-login, .admin-cab {
 ::-webkit-scrollbar-thumb:hover { background: rgba(74, 119, 132, .45); background-clip: padding-box; }
 
 /* ---------- seleção de texto ---------- */
-::selection { background: rgba(74, 119, 132, .25); color: var(--petroleo-fundo); }
+/* Seleção com contraste constante nos temas claro e escuro. */
+::selection { background: #88e1e8; color: #082630; -webkit-text-fill-color: #082630; text-shadow: none; }
 
 /* ---------- foco acessível ---------- */
 :focus-visible {
