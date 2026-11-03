@@ -11,7 +11,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-v2.png">
   <link rel="stylesheet" href="css/styles.css?v=50">
   <link rel="stylesheet" href="css/inicio.css?v=50">
-  <link rel="stylesheet" href="css/admin.css?v=70">
+  <link rel="stylesheet" href="css/admin.css?v=71">
   <link rel="stylesheet" href="css/dialogos.css?v=56">
 </head>
 <body class="pagina-cursos pagina-admin">
@@ -805,6 +805,7 @@
     });
 
     /* ================================================== DIVULGAÇÕES */
+    const capasPromoPendentes = new Map();
     function listarPromos() {
       const el = $('#lista-promos');
       const promos = Store.promos();
@@ -827,10 +828,14 @@
             <div class="campo"><label>Emoji</label><input data-p="emoji" maxlength="4" value="${UI.escapar(p.emoji || '')}"></div>
             <div class="campo"><label>Link “Saiba mais” (opcional)</label><input data-p="link" value="${UI.escapar(p.link || '')}" placeholder="https://…"></div>
           </div>
-          <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
-            <input type="file" accept="image/*" data-promo-capa="${p.id}">
-            <button class="btn" data-salvar-promo="${p.id}">Salvar</button>
+          <div class="promo-capa-campo">
+            <label for="promo-capa-${p.id}">Capa da divulgação</label>
+            <input type="file" id="promo-capa-${p.id}" accept="image/jpeg,image/png,image/webp" aria-describedby="promo-capa-dica-${p.id}" data-promo-capa="${p.id}">
+            <p id="promo-capa-dica-${p.id}">Use a capa do curso ou outra imagem em JPG, PNG ou WebP. Formato recomendado: 16:9. A imagem será publicada ao salvar.</p>
+            <img class="promo-capa-previa ${p.capaImagem ? '' : 'oculto'}" ${p.capaImagem ? `src="${UI.escapar(p.capaImagem)}"` : ''} alt="Prévia da capa da divulgação">
+            <span class="promo-capa-status" role="status" aria-live="polite"></span>
           </div>
+          <button class="btn" data-salvar-promo="${p.id}">Salvar</button>
         </div>`).join('')
         : '<div class="aviso">Nenhuma divulgação cadastrada.</div>';
     }
@@ -846,11 +851,13 @@
       } else if (sal) {
         const id = sal.dataset.salvarPromo;
         const painel = $('#promo-' + id);
-        const promos = Store.promos();
+        const promos = Store.promos().map(p => ({ ...p }));
         const p = promos.find(x => x.id === id);
         $$('[data-p]', painel).forEach(i => p[i.dataset.p] = i.value);
+        if (capasPromoPendentes.has(id)) p.capaImagem = capasPromoPendentes.get(id);
         const r = await Store.salvarPromos(promos);
         if (!r.ok) return await UI.avisar(r.erro || 'Não foi possível salvar a divulgação.');
+        capasPromoPendentes.delete(id);
         listarPromos();
         await UI.avisar('Divulgação salva!');
       }
@@ -866,13 +873,20 @@
     $('#lista-promos').addEventListener('change', async (e) => {
       const inp = e.target.closest('[data-promo-capa]'); if (!inp) return;
       const f = inp.files[0]; if (!f) return;
+      const painel = inp.closest('.painel-form');
+      const salvar = painel.querySelector('[data-salvar-promo]');
+      const status = painel.querySelector('.promo-capa-status');
+      inp.disabled = true; salvar.disabled = true;
+      status.textContent = 'Preparando imagem…';
       try {
-        const dados = await Store.comprimirImagem(f, 700);
-        const promos = Store.promos();
-        promos.find(x => x.id === inp.dataset.promoCapa).capaImagem = dados;
-        await Store.salvarPromos(promos);
-        listarPromos();
-      } catch (err) { await UI.avisar(err.message); }
+        if (!['image/jpeg','image/png','image/webp'].includes(f.type)) throw new Error('Escolha uma imagem em JPG, PNG ou WebP.');
+        const dados = await Store.comprimirImagem(f, 1200);
+        capasPromoPendentes.set(inp.dataset.promoCapa, dados);
+        const previa = painel.querySelector('.promo-capa-previa');
+        previa.src = dados; previa.classList.remove('oculto');
+        status.textContent = `${f.name} — capa selecionada. Clique em Salvar para publicar.`;
+      } catch (err) { status.textContent = err.message; await UI.avisar(err.message); }
+      finally { inp.disabled = false; salvar.disabled = false; inp.value = ''; }
     });
 
     $('#btn-nova-promo').addEventListener('click', async () => {
