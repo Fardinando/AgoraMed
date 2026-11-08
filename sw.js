@@ -3,11 +3,11 @@
    quando o aluno estiver sem internet. Assim as aulas e materiais novos aparecem
    na hora, e o app continua abrindo offline.
 */
-const CACHE = 'agoramed-v80';
+const CACHE = 'agoramed-v81';
 /* Recursos visuais do login e ícones também ficam disponíveis offline.
    As respostas autenticadas de /api/ continuam fora do cache. */
 const APP = [
-  'edema-agudo-pulmao-hipertensivo.html','css/landing-edema-pulmao.css?v=80','img/edema-pulmoes-anatomicos.webp','img/edema-pulmao-hero.webp','img/edema-pulmao-hero-800.webp',
+  'edema-agudo-pulmao-hipertensivo.html','css/landing-edema-pulmao.css?v=81','img/edema-pulmoes-anatomicos.webp','img/edema-pulmao-hero.webp','img/edema-pulmao-hero-800.webp',
 'bradicardia-sintomatica.html','css/landing-bradicardia.css?v=78','img/bradicardia-hero.webp','img/bradicardia-hero-800.webp',
 'hipercalemia.html', 'css/landing-hipercalemia.css?v=77', 'img/hipercalemia-hero.webp', 'img/hipercalemia-hero-800.webp', 'img/hipercalemia-capa.webp',
   'cetoacidose-diabetica.html', 'css/landing-cetoacidose.css?v=75', 'img/cetoacidose-hero.webp', 'img/cetoacidose-hero-800.webp', 'img/cetoacidose-pancreas.webp',
