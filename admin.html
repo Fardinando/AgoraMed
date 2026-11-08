@@ -11,7 +11,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-v2.png">
   <link rel="stylesheet" href="css/styles.css?v=73">
   <link rel="stylesheet" href="css/inicio.css?v=50">
-  <link rel="stylesheet" href="css/admin.css?v=71">
+  <link rel="stylesheet" href="css/admin.css?v=82">
   <link rel="stylesheet" href="css/dialogos.css?v=56">
 </head>
 <body class="pagina-cursos pagina-admin">
@@ -82,6 +82,7 @@
             <select id="curso-tipo-acesso" data-campo="tipoAcesso">
               <option value="gratis">Gratuito — acesso automático</option>
               <option value="pago">Pago — acesso concedido pelo professor</option>
+              <option value="mercado_pago">Pago — liberação automática pelo Mercado Pago</option>
             </select>
           </div>
           <div class="campo"><label for="curso-url-vendas">Página de vendas do curso pago</label>
@@ -89,6 +90,16 @@
             <small class="dica">Quem ainda não tem acesso será direcionado para este endereço. Sem endereço, o anúncio aparece como “Em breve”.</small>
           </div>
         </div>
+
+        <section id="curso-pagamento" class="aviso oculto" aria-labelledby="curso-pagamento-titulo">
+          <h3 id="curso-pagamento-titulo">Venda pelo Mercado Pago</h3>
+          <div class="grade-2">
+            <div class="campo"><label for="curso-preco">Preço à vista (R$)</label><input id="curso-preco" type="text" inputmode="decimal" data-campo="precoReais" placeholder="39,70" autocomplete="off"></div>
+            <div class="campo"><label for="curso-acesso-meses">Prazo de acesso</label><select id="curso-acesso-meses" data-campo="acessoMeses"><option value="12">1 ano (12 meses)</option><option value="6">6 meses</option><option value="24">2 anos (24 meses)</option></select></div>
+          </div>
+          <p>Pagamento único. O prazo de acesso começa na aprovação do pagamento.</p>
+          <p><strong>Conexão com o Mercado Pago pendente.</strong> Você já pode salvar a oferta. As vendas e a liberação automática serão ativadas após conectar a conta e concluir os testes.</p>
+        </section>
 
         <div class="grade-2">
           <div class="campo"><label>Emoji da capa</label><input data-campo="capaEmoji" maxlength="4" placeholder="🩺"></div>
@@ -324,14 +335,30 @@
       $('#editor').scrollIntoView({ behavior: 'smooth' });
     }
 
+    function pintarPagamentoCurso() {
+      const automatico = ed.tipoAcesso === 'mercado_pago';
+      $('#curso-pagamento').classList.toggle('oculto', !automatico);
+      $('#curso-preco').disabled = !automatico;
+      $('#curso-acesso-meses').disabled = !automatico;
+    }
     function pintarCamposCurso() {
       $$('[data-campo]', $('#editor')).forEach(i => { if (i.dataset.mod == null) i.value = ed[i.dataset.campo] || ''; });
+      pintarPagamentoCurso();
     }
 
     $('#editor').addEventListener('input', (e) => {
       const i = e.target.closest('[data-campo]'); if (!i || !ed) return;
       if (i.dataset.mod != null || i.dataset.aula != null) return;
       ed[i.dataset.campo] = i.value;
+      if (i.dataset.campo === 'tipoAcesso') {
+        if (i.value === 'mercado_pago') {
+          if (!ed.acessoMeses) ed.acessoMeses = 12;
+          if (!ed.precoReais && /hipercalemia/i.test(ed.titulo || '')) ed.precoReais = '39,70';
+          $('#curso-preco').value = ed.precoReais || '';
+          $('#curso-acesso-meses').value = String(ed.acessoMeses);
+        }
+        pintarPagamentoCurso();
+      }
       modelo.marcar(); atualizarSalvar();
       if (i.dataset.campo === 'titulo') $('#editor-titulo').textContent = 'Editando: ' + i.value;
     });

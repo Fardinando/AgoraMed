@@ -247,3 +247,5 @@
 .promo-capa-campo p{font-size:.75rem;color:#b5cfd9;line-height:1.6;margin:10px 0}
 .promo-capa-previa{display:block;width:min(100%,480px);aspect-ratio:16/9;object-fit:contain;background:#07191f;border:1px solid #406c7a;border-radius:10px;margin-top:14px}
 .promo-capa-status{display:block;font-size:.75rem;color:#93e7ec;margin-top:10px}
+
+#curso-pagamento h3{margin:0 0 18px;color:#eef5ff}#curso-pagamento .grade-2{margin-bottom:16px}#curso-pagamento p{margin:8px 0;line-height:1.6}#curso-pagamento input,#curso-pagamento select{width:100%}
