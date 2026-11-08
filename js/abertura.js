@@ -20,7 +20,15 @@
  const ebook=materiais.find(p=>/hipercalemia-material-completo-revisado|e-?book/i.test(p.nome));
  if(ebook){$('ab-download').href='/api/material?id='+encodeURIComponent(ebook.id);$('ab-download').classList.remove('oculto');}else $('ab-pdf-pendente').classList.remove('oculto');
  $('ab-ebook-meta').textContent=`PDF · 113 páginas · ${est.aulas} aulas`;
- const referencias=[['Causas e avaliação da hipercalemia','https://www.uptodate.com/contents/causes-and-evaluation-of-hyperkalemia-in-adults'],['Manifestações clínicas','https://www.uptodate.com/contents/clinical-manifestations-of-hyperkalemia-in-adults'],['Tratamento em adultos','https://pathways.uptodate.com/decision-tree/131204'],['Tratamento e prevenção','https://www.uptodate.com/contents/treatment-and-prevention-of-hyperkalemia-in-adults']];
- $('ab-referencias').innerHTML=referencias.map(([t,url])=>`<li><a href="${url}" target="_blank" rel="noopener"><span>${esc(t)} <small>UpToDate</small></span><strong>Consultar ↗</strong></a></li>`).join('');
+ const referencias=[
+  ['Causas e avaliação da hipercalemia','https://www.uptodate.com/contents/causes-and-evaluation-of-hyperkalemia-in-adults','Causes and evaluation of hyperkalemia in adults - UpToDate.pdf'],
+  ['Manifestações clínicas','https://www.uptodate.com/contents/clinical-manifestations-of-hyperkalemia-in-adults','Clinical manifestations of hyperkalemia in adults - UpToDate.pdf'],
+  ['Tratamento em adultos','https://pathways.uptodate.com/decision-tree/131204','Hyperkalemia: Treatment in adults.pdf'],
+  ['Tratamento e prevenção','https://www.uptodate.com/contents/treatment-and-prevention-of-hyperkalemia-in-adults','Treatment and prevention of hyperkalemia in adults - UpToDate.pdf']
+ ];
+ $('ab-referencias').innerHTML=referencias.map(([t,url,nome])=>{
+  const pdf=materiais.find(p=>p.nome===nome);
+  return `<li><div class="ab-ref-titulo">${esc(t)} <small>UpToDate</small></div><div class="ab-ref-acoes"><a href="${url}" target="_blank" rel="noopener" aria-label="Consultar ${esc(t)} no site">Consultar ↗</a>${pdf?`<a class="ab-ref-pdf" href="/api/material?id=${encodeURIComponent(pdf.id)}" aria-label="Baixar PDF: ${esc(t)}">↓ Baixar PDF</a>`:''}</div></li>`;
+ }).join('');
  const primeiro=curso.modulos.find(m=>m.aulas.length);$('ab-iniciar').href=primeiro?link(primeiro,primeiro.aulas[0]):visao;
 })();
