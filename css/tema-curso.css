@@ -1,0 +1,40 @@
+/* O petróleo permanece como base; a cor de destaque acompanha cada curso. */
+.pagina-cursos[data-tema-curso]{--petroleo:var(--curso-destaque);--curso-claro:color-mix(in srgb,var(--curso-destaque) 65%,white);--curso-borda:color-mix(in srgb,var(--curso-destaque) 60%,#315968);--curso-painel:color-mix(in srgb,var(--curso-destaque) 16%,#0a252e);--curso-hover:color-mix(in srgb,var(--curso-destaque) 24%,#0a252e)}
+[data-tema-curso] .curso-eyebrow,[data-tema-curso] .aula-seta,[data-tema-curso] .curso-professor small,[data-tema-curso] .painel-progresso .progresso-rotulo strong,[data-tema-curso] .quiz-aula h2 em,[data-tema-curso] .quiz-aula .qa-kicker,[data-tema-curso] .quiz-aula .qa-score>strong,[data-tema-curso] .quiz-aula .qa-takeaway strong{color:var(--curso-destaque)}
+[data-tema-curso].pagina-curso .capa-curso h1 em{color:var(--curso-destaque)}
+[data-tema-curso].pagina-cursos .barra-progresso{border-color:var(--curso-borda)}
+[data-tema-curso].pagina-cursos .barra-progresso span{background:var(--curso-destaque)}
+[data-tema-curso].pagina-cursos .curso-acao,[data-tema-curso].pagina-aula .btn,[data-tema-curso] .quiz-aula .qa-primary{background:var(--curso-destaque);border-color:var(--curso-claro);color:#192334}
+[data-tema-curso].pagina-aula .btn.secundario,[data-tema-curso].pagina-aula .material .btn,[data-tema-curso] #aula-abertura{background:transparent;border-color:var(--curso-borda);color:var(--curso-claro)}
+[data-tema-curso].pagina-aula .btn.secundario:hover,[data-tema-curso].pagina-aula .material .btn:hover{background:var(--curso-painel)}
+[data-tema-curso].pagina-curso .modulo summary{background:var(--curso-painel);border-left-color:var(--curso-destaque)}
+[data-tema-curso].pagina-curso .modulo summary:hover{background:var(--curso-hover)}
+[data-tema-curso].pagina-curso .modulo .num{background:var(--curso-painel);border-color:var(--curso-borda);color:var(--curso-claro)}
+[data-tema-curso].pagina-curso .seta,[data-tema-curso].pagina-curso .icone{color:var(--curso-claro);border-color:var(--curso-borda)}
+[data-tema-curso].pagina-curso .aula-linha:hover{background:var(--curso-painel)}
+[data-tema-curso].pagina-curso .concluida .icone,[data-tema-curso].pagina-curso .tag-pdf{background:var(--curso-painel);border-color:var(--curso-borda);color:var(--curso-claro)}
+[data-tema-curso].pagina-aula .aula-linha[aria-current="page"]{background:var(--curso-painel);box-shadow:inset 3px 0 var(--curso-destaque)}
+[data-tema-curso] .aula-atual{border-color:var(--curso-borda);color:var(--curso-claro)}
+[data-tema-curso] .aula-abas button[aria-selected="true"]{border-bottom-color:var(--curso-destaque)}
+[data-tema-curso].pagina-aula #bloco-materiais h2{color:var(--curso-claro)}
+[data-tema-curso].pagina-cursos .usuario-chip .avatar{border-color:var(--curso-destaque)}
+[data-tema-curso] .nav-inferior .ativo{color:var(--curso-destaque)}
+[data-tema-curso] .curso-abertura{border-color:var(--curso-destaque);background:linear-gradient(120deg,var(--curso-painel),#103640)}
+[data-tema-curso] .curso-abertura>span:first-child{color:var(--curso-claro)}
+[data-tema-curso] .quiz-aula .qa-segments .current{background:var(--curso-destaque)}
+[data-tema-curso] .quiz-aula .qa-options input{accent-color:var(--curso-destaque)}
+[data-tema-curso] .quiz-aula .qa-options label:has(input:checked){border-color:var(--curso-destaque);background:var(--curso-painel)}
+[data-tema-curso] :is(a,button,input,textarea,summary):focus-visible{outline-color:var(--curso-claro)}
+[data-tema-curso] ::selection{background:var(--curso-claro);color:#192334}
+[data-tema-curso] .ag-dialogo-acoes .ag-dialogo-confirmar{background:var(--curso-destaque);border-color:var(--curso-claro);color:#192334}
+[data-tema-curso].pagina-abertura{--ab-violeta:var(--curso-destaque)}
+[data-tema-curso] :is(.ab-eyebrow,.ab-caminho>span:last-child,.ab-main h1 em,.ab-editar,.ab-icone){color:var(--curso-claro)}
+[data-tema-curso] .ab-selecionado{border-color:var(--curso-destaque);background:var(--curso-painel);color:var(--curso-claro)}
+[data-tema-curso].pagina-abertura .ab-selecionado:hover,[data-tema-curso].pagina-abertura .ab-selecionado:focus-visible{background:var(--curso-claro);color:#192334}
+[data-tema-curso] .ab-botao{background:linear-gradient(110deg,var(--curso-claro),var(--curso-destaque));border-color:var(--curso-claro)}
+[data-tema-curso] .ab-botao:hover{background:var(--curso-claro)}
+[data-tema-curso] .ab-avatar{background:var(--curso-destaque)}
+[data-tema-curso] .ab-modulo summary>span:first-child,[data-tema-curso] .ab-video-vazio>span{color:var(--curso-claro);border-color:var(--curso-destaque)}
+[data-tema-curso] .ab-referencias .ab-ref-acoes a{color:var(--curso-claro)}
+[data-tema-curso] .ab-referencias .ab-ref-acoes .ab-ref-pdf{border-color:var(--curso-borda);background:var(--curso-painel)}
+[data-tema-curso] .ab-pular,[data-tema-curso] .quiz-aula .qa-primary:hover{background:var(--curso-claro);color:#192334}

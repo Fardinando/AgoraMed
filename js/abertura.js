@@ -4,6 +4,7 @@
  const id=new URLSearchParams(location.search).get('id');const curso=Store.acharCurso(id);
  const $=id=>document.getElementById(id),esc=UI.escapar;
  if(!curso||!curso.abertura){$('ab-estado').textContent='Esta abertura não está disponível para sua conta.';return;}
+ TemaCurso.aplicar(curso);
  $('ab-estado').classList.add('oculto');$('ab-layout').classList.remove('oculto');
  document.title=`Comece por aqui — ${curso.titulo} | AgoraMed`;
  $('ab-avatar').textContent=UI.iniciais(usuario.nome);$('ab-curso').textContent=curso.titulo;
