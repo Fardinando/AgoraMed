@@ -11,7 +11,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-v2.png">
   <link rel="stylesheet" href="css/styles.css?v=73">
   <link rel="stylesheet" href="css/sobre.css">
-  <link rel="stylesheet" href="css/inicio.css?v=69">
+  <link rel="stylesheet" href="css/inicio.css?v=83">
   <link rel="preload" href="fonts/playfair-display-400-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/dialogos.css?v=56">
 </head>
@@ -106,7 +106,7 @@
 
   <script src="js/dialogos.js?v=56"></script>
   <script src="js/store.js?v=72"></script>
-  <script src="js/catalogo-cursos.js"></script>
+  <script src="js/catalogo-cursos.js?v=83"></script>
   <script type="module">
     await Store.iniciar();
     const usuario = Store.proteger();
@@ -142,7 +142,8 @@
       const est = Store.estatisticasCurso(c);
       const prog = Store.progressoCurso(usuario.id, c);
       const percentual = Math.min(100, Math.max(0, Number(prog.percentual) || 0));
-      const acao = percentual === 100 ? 'Rever curso' : percentual > 0 ? 'Continuar curso' : 'Começar curso';
+      const estado = CatalogoCursos.estado(c, usuario, est);
+      const acao = estado.emProducao ? estado.acaoVazia : percentual === 100 ? 'Rever curso' : percentual > 0 ? 'Continuar curso' : 'Começar curso';
       return `
         <a class="cartao-curso ${resumo ? 'curso-resumo' : 'curso-destaque'}" href="/api/curso?id=${encodeURIComponent(c.id)}">
           <div class="capa">
@@ -150,7 +151,7 @@
 
           </div>
           <div class="info-curso">
-            <span class="curso-acesso">${c.tipoAcesso === 'gratis' ? 'Curso gratuito' : 'Acesso liberado'}</span>
+            <div class="curso-etiquetas"><span class="curso-acesso">${estado.etiqueta}</span>${estado.emProducao && usuario.papel === 'admin' ? '<span class="curso-acesso">Em produção</span>' : ''}</div>
             <p class="curso-categoria">${UI.escapar(c.categoria || '')}</p>
             <h3>${UI.escapar(c.titulo)}</h3>
             <div class="curso-metadados"><span>${est.modulos} módulos · ${est.aulas} aulas · ${UI.escapar(est.duracao)}${est.pdfs ? ` · ${est.pdfs} PDFs` : ''}</span>${c.nivel ? `<span class="curso-nivel">${UI.escapar(c.nivel)}</span>` : ''}</div>

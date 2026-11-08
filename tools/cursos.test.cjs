@@ -46,7 +46,7 @@ const base = [
   { id: 'pago-comprado', titulo: 'Pago comprado', tipo_acesso: 'pago', url_vendas: 'https://vendas.example/comprado' },
   { id: 'pago-sem-acesso', titulo: 'Pago anunciado', tipo_acesso: 'pago', url_vendas: 'https://vendas.example/curso' },
 ];
-function app({ admin = false, sessao = true, falha = '' } = {}) {
+function app({ admin = false, sessao = true, falha = '', estrutura = {} } = {}) {
   const calls = [];
   return { calls, handler: carregar('lib/rotas/app.js', {
     json, envFaltando: () => [], sessaoPerfil: async () => sessao ? { ...aluno, papel: admin ? 'admin' : 'aluno' } : null,
@@ -57,7 +57,7 @@ function app({ admin = false, sessao = true, falha = '' } = {}) {
       if (url.startsWith('/cursos?id=in.')) {
         const ids = url.match(/in\.\(([^)]+)\)/)[1].split(',');
         dados = base.filter(c => ids.includes(c.id)).map(c => ({ ...c, modulos: [{ aulas: [{ youtube_id: 'VIDEO_PRIVADO_' + c.id, materiais: [{ caminho: 'PDF_PRIVADO_' + c.id }] }] }] }));
-      } else if (url.startsWith('/cursos?')) dados = base;
+      } else if (url.startsWith('/cursos?')) dados = base.map(c => ({ ...c, ...estrutura[c.id] }));
       else if (url.startsWith('/matriculas?')) dados = [{ usuario_id: uid, curso_id: 'pago-comprado' }];
       else if (url.startsWith('/perfis?')) dados = [{ id: uid, email: 'privado@example.invalid' }];
       else dados = [];
@@ -174,4 +174,27 @@ for(const confirmado of [false,true])test(`entrada exige confirmação de e-mail
   const r=await chamar(handler,{method:'POST',body:{email:'teste@example.invalid',senha:'senha-ficticia'}});
   assert.equal(r.dados.ok,confirmado);assert.equal(perfis,confirmado?1:0);
   assert.equal(r.headers['Set-Cookie'],confirmado?'cookie-ficticio':undefined);
+});
+
+test('catálogo informa produção sem expor estruturas ou IDs de aulas restritas', async () => {
+  for (const aulas of [[], [{ id: 'AULA_INTERNA_SIGILOSA', youtube_id: 'VIDEO_SIGILOSO' }]]) {
+    const a = app({ estrutura: { 'pago-sem-acesso': { modulos: [{ id: 'MODULO_INTERNO', aulas }] } } });
+    const r = await chamar(a.handler, { method: 'GET' });
+    assert.equal(r.dados.catalogo[0].emProducao, aulas.length === 0);
+    assert.doesNotMatch(JSON.stringify(r.dados.catalogo), /AULA_INTERNA|MODULO_INTERNO|VIDEO_SIGILOSO/);
+    assert.equal(r.dados.catalogo[0].acessoLiberado, false);
+  }
+});
+for (const [papel, aulas, tipoAcesso, etiqueta] of [
+  ['admin', 0, 'pago', 'Acesso do professor'],
+  ['admin', 3, 'pago', 'Acesso do professor'],
+  ['aluno', 0, 'pago', 'Em produção'],
+  ['aluno', 0, 'gratis', 'Em produção'],
+  ['aluno', 3, 'gratis', 'Curso gratuito'],
+  ['aluno', 3, 'pago', 'Acesso liberado'],
+]) test(`aviso distingue perfil e disponibilidade: ${papel}/${tipoAcesso}/${aulas}`, () => {
+  const estado = catalogo().estado({ tipoAcesso }, { papel }, { aulas });
+  assert.equal(estado.etiqueta, etiqueta);
+  assert.equal(estado.emProducao, aulas === 0);
+  if (!aulas) assert.equal(estado.acaoVazia, papel === 'admin' ? 'Ver estrutura do curso' : 'Aulas em breve');
 });

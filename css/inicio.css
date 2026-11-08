@@ -193,3 +193,5 @@
   .inicio-ver-cursos[aria-expanded="true"] { display: none; }
   #secao-meus-cursos { scroll-margin-top: 20px; }
 }
+
+.pagina-cursos .curso-etiquetas{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.pagina-cursos .curso-etiquetas .curso-acesso{margin:0}

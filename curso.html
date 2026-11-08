@@ -71,6 +71,7 @@
 
   <script src="js/dialogos.js?v=56"></script>
   <script src="js/store.js?v=72"></script>
+  <script src="js/catalogo-cursos.js?v=83"></script>
   <script type="module">
     await Store.iniciar({ atualizar: new URLSearchParams(location.search).get('atualizar') === '1' });
     const usuario = Store.proteger();
@@ -107,8 +108,10 @@
       const linkAula = (m, a) => `aula.html?${new URLSearchParams({ c: curso.id, m: m.id, a: a.id })}`;
       document.getElementById('c-sub').textContent = curso.subtitulo || curso.descricao || '';
 
+      const estado = CatalogoCursos.estado(curso, usuario, est);
       const pills = [
-        curso.tipoAcesso === 'gratis' ? 'Gratuito' : 'Acesso liberado',
+        estado.etiqueta,
+        estado.emProducao && usuario.papel === 'admin' ? 'Em produção' : '',
         curso.categoria, curso.nivel,
         `${est.modulos} módulo${est.modulos === 1 ? '' : 's'}`,
         `${est.aulas} aula${est.aulas === 1 ? '' : 's'}`,
