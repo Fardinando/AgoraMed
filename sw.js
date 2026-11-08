@@ -3,10 +3,11 @@
    quando o aluno estiver sem internet. Assim as aulas e materiais novos aparecem
    na hora, e o app continua abrindo offline.
 */
-const CACHE = 'agoramed-v75';
+const CACHE = 'agoramed-v76';
 /* Recursos visuais do login e ícones também ficam disponíveis offline.
    As respostas autenticadas de /api/ continuam fora do cache. */
 const APP = [
+  'hipercalemia.html', 'css/landing-hipercalemia.css?v=76', 'img/hipercalemia-hero.webp', 'img/hipercalemia-hero-800.webp', 'img/hipercalemia-capa.webp',
   'cetoacidose-diabetica.html', 'css/landing-cetoacidose.css?v=75', 'img/cetoacidose-hero.webp', 'img/cetoacidose-hero-800.webp', 'img/cetoacidose-pancreas.webp',
   'gasometria.html', 'css/landing-gasometria.css?v=74', 'img/gasometria-hero.webp', 'img/gasometria-hero-800.webp',
   'css/quiz-aula.css?v=66', 'js/quiz-aula.js?v=67',
