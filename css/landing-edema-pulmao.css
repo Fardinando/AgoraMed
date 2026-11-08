@@ -1,0 +1,67 @@
+/* Edema agudo de pulmão hipertensivo: azul-petróleo e azul-celeste. */
+:root{--turquesa:#8ab8ff;--eap-destaque:#8ab8ff}
+::selection{background:#a8cdff;color:#082630;-webkit-text-fill-color:#082630;text-shadow:none}
+.lp-pular,.lp-botao{background:#8ab8ff;color:#10252b;border-color:#bedaff}
+.lp-botao:hover{background:#bedaff}
+a:focus-visible{outline-color:#bedaff}
+.lp-cabecalho nav a:hover,.lp-eyebrow,.lp-hero-legenda span,.lp-beneficios svg,.lp-eixo>svg,.lp-crm,.lp-historia{color:#bedaff}
+.lp-eyebrow strong{color:#8ab8ff;font-weight:650}
+.lp-login{border-color:#6f909a}
+.lp-hero-interior{min-height:720px;padding-block:78px 84px}
+.lp-hero h1{font-size:clamp(50px,5.2vw,78px);margin-block:22px 25px}
+.lp-hero-descricao{max-width:440px;font-size:1.06rem}
+.lp-hero-foto>img{object-position:center 28%}
+.lp-hero-foto::after{background:linear-gradient(90deg,#07191ff5 0%,#07191fbe 31%,#07191f25 61%,transparent 80%),linear-gradient(0deg,#07191f77,transparent 25%)}
+.lp-hero-legenda{right:32%;bottom:30px}
+.gas-dados{position:absolute;right:max(38px,calc((100vw - 1320px)/2));bottom:56px;width:190px;padding:14px 21px;border:1px solid #6b969e;border-radius:14px;background:#08242bcc;color:#e6f0f3;backdrop-filter:blur(8px);font-size:.9rem;line-height:1.6}
+.gas-dados span{display:block;padding:8px 0}.gas-dados span+span{border-top:1px solid #51727c80}
+.lp-beneficios ul{grid-template-columns:repeat(4,minmax(0,1fr))}
+.lp-proposta{background:radial-gradient(ellipse at 88% 55%,#19333c,transparent 55%)}
+.lp-proposta h2{font-size:clamp(29px,3.3vw,47px)}
+.lp-proposta p{max-width:780px}
+.lp-neural{border-color:#8ab8ff30;background:repeating-radial-gradient(circle,transparent 0 38px,#8ab8ff1c 39px 40px,transparent 41px 60px)}
+.lp-neural svg{color:#8ab8ff70;filter:none;width:130px;height:170px;stroke-width:.7}
+.lp-eixo{border-left-color:#8ab8ff}
+.lp-numero{border-color:#6284b4}
+.lp-legenda-grade{color:#bad2db;line-height:1.8}
+.lp-eixo h3{font-size:clamp(21px,1.9vw,27px)}
+.gas-pratica{margin-top:34px;border:1px solid #6284b4;border-radius:15px;padding:32px;background:linear-gradient(120deg,#0e3039,#071d25)}
+.gas-pratica h2{font-size:clamp(28px,3.2vw,43px);margin:14px 0 30px}
+.gas-pratica ol{list-style:none;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));padding:0;margin:0 0 26px}
+.gas-pratica li{display:grid;justify-items:center;gap:13px;color:#e3eef2;text-align:center;padding:8px 15px;font-size:.95rem}
+.gas-pratica li+li{border-left:1px solid #6284b480}
+.gas-pratica svg{color:#8ab8ff;width:30px;height:30px}
+.gas-pratica-nota{padding:13px 16px;border-radius:8px;background:#153640;color:#c8dce3;text-align:center;font-size:.8rem;line-height:1.7}
+.gas-programa-nota{color:#a9c3ce;font-size:.76rem;line-height:1.8;margin:22px 0 40px;text-align:center}
+.lp-convite{text-align:center;background:radial-gradient(ellipse at 50% 60%,#315e9b38,transparent 64%)}
+.lp-convite .lp-container>p.gas-aviso-ajuda{font-size:.75rem;line-height:1.8;color:#b4cbd5;margin:18px auto 0;max-width:520px;overflow-wrap:anywhere}
+.gas-aviso-ajuda a{text-underline-offset:3px}
+@media(max-width:1100px){.gas-dados{width:160px;right:30px;bottom:44px}.lp-hero-legenda{right:26%;}.lp-hero-descricao{max-width:390px}.lp-hero h1{font-size:64px}}
+@media(max-width:760px){
+ .lp-hero-interior{min-height:auto;padding-block:38px 20px}.lp-hero h1{font-size:clamp(47px,11vw,67px);line-height:1.08}
+ .lp-hero-descricao{font-size:1rem;max-width:500px}.gas-desktop-br{display:none}
+ .lp-hero-foto{height:405px;margin-top:0}.lp-hero-foto>img{object-position:73% 20%}
+ .lp-hero-foto::after{background:linear-gradient(#07191f 0,transparent 17%,transparent 73%,#07191f 100%)}
+ .lp-hero-legenda{right:20px;bottom:25px}.gas-dados{display:none}
+ .lp-beneficios ul{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 0}.lp-beneficios li{font-size:.75rem;flex-direction:row;text-align:left;justify-content:flex-start;padding-inline:12px;gap:12px}.lp-beneficios li:nth-child(3){border-left:0}
+ .lp-proposta h2{font-size:clamp(30px,6.5vw,39px)}.lp-proposta p{max-width:460px}
+ .lp-eixo h3{font-size:23px}.lp-eixo>svg{display:none}
+ .gas-pratica{padding:24px 18px;margin-top:24px}.gas-pratica h2{font-size:31px;margin-bottom:22px}.gas-pratica ol{grid-template-columns:1fr;gap:0}
+ .gas-pratica li{display:flex;justify-content:flex-start;text-align:left;padding:17px 8px;font-size:.9rem}.gas-pratica li+li{border-left:0;border-top:1px solid #6284b44d}.gas-pratica svg{width:26px;height:26px}
+ .lp-convite h2{font-size:clamp(33px,8vw,46px)}.lp-convite h2 br{display:none}
+}
+
+.landing-edema-agudo-pulmao-hipertensivo .lp-hero h1{font-size:clamp(42px,4.1vw,64px);line-height:1.1;max-width:620px}
+.landing-edema-agudo-pulmao-hipertensivo .lp-proposta>.lp-container{min-height:320px}
+.landing-edema-agudo-pulmao-hipertensivo .lp-proposta p{max-width:800px}
+
+.eap-pulmoes{opacity:.6}.eap-pulmoes svg{width:190px;height:190px;color:#8ab8ff}
+.eap-referencias{font-size:.75rem;line-height:1.8;color:#acc5d0;margin:25px 0 0;text-align:center}
+.eap-referencias a{text-underline-offset:4px}
+@media(max-width:1100px){.landing-edema-agudo-pulmao-hipertensivo .lp-hero h1{font-size:clamp(38px,4.5vw,56px)}.landing-edema-agudo-pulmao-hipertensivo .lp-proposta p{max-width:75%}}
+@media(max-width:760px){.landing-edema-agudo-pulmao-hipertensivo .lp-hero h1{font-size:clamp(32px,8vw,48px)}.landing-edema-agudo-pulmao-hipertensivo .lp-proposta p{max-width:none}.eap-pulmoes{opacity:.15}}
+
+.landing-edema-agudo-pulmao-hipertensivo .lp-hero h1{font-size:clamp(38px,4vw,58px);max-width:650px}
+@media(max-width:1100px){.landing-edema-agudo-pulmao-hipertensivo .lp-hero h1{font-size:clamp(35px,4.3vw,48px)}}
+@media(max-width:760px){.landing-edema-agudo-pulmao-hipertensivo .lp-hero h1{font-size:clamp(28px,7.1vw,43px)}.landing-edema-agudo-pulmao-hipertensivo .lp-hero h1 br{display:none}}
+@media(max-width:760px){.landing-edema-agudo-pulmao-hipertensivo .lp-hero h1{font-size:clamp(31px,8.3vw,43px)}.landing-edema-agudo-pulmao-hipertensivo .lp-hero h1 em{display:block;margin-top:.12em}}
