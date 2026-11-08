@@ -112,6 +112,12 @@
 
         <hr style="border:none;border-top:1px solid var(--linha);margin:18px 0">
 
+        <section id="editor-abertura" class="aviso oculto" aria-labelledby="editor-abertura-titulo">
+          <p class="admin-eyebrow">ABERTURA DO CURSO</p><h3 id="editor-abertura-titulo">Comece por aqui</h3>
+          <p>Apresente a plataforma e oriente o estudo antes do primeiro módulo.</p>
+          <div class="grade-2"><div class="campo"><label for="abertura-video">ID do vídeo de boas-vindas no YouTube</label><input id="abertura-video" data-abertura="youtubeId" placeholder="Ex.: aBc123XyZ_4" autocomplete="off"><small class="dica">Deixe em branco até o vídeo estar pronto. Use o código após watch?v=.</small></div><div class="campo"><label for="abertura-duracao">Duração (opcional)</label><input id="abertura-duracao" data-abertura="duracao" placeholder="Ex.: 05:30" maxlength="30"></div></div>
+          <p><a id="editor-abertura-link" target="_blank" rel="noopener">Abrir a área de boas-vindas ↗</a></p>
+        </section>
         <div class="estrutura-cab"><div><p class="admin-eyebrow">ESTRUTURA DO CURSO</p><h2>Módulos e aulas</h2><p>Abra um módulo para organizar suas aulas. Use as setas para mudar a ordem das aulas e salve as alterações. Clique em Editar para alterar os detalhes.</p></div><span id="estrutura-contagem" class="estrutura-contagem"></span></div>
         <p id="editor-ordem-status" class="editor-ordem-status" role="status" aria-live="polite"></p>
         <div id="editor-modulos"></div>
@@ -199,7 +205,7 @@
   <footer class="rodape"><div class="container">AGORAMED · Pronto para o plantão</div></footer>
 
   <script src="js/dialogos.js?v=56"></script>
-  <script src="js/store.js?v=72"></script>
+  <script src="js/store.js?v=113"></script>
   <script src="js/admin-ranking.js?v=58"></script>
   <script src="js/admin-progresso.js?v=61"></script>
   <script src="js/admin-quiz.js?v=61"></script>
@@ -329,6 +335,10 @@
       $('#editor').classList.remove('oculto');
       $('#editor-titulo').textContent = 'Editando: ' + ed.titulo;
       $('#dica-capa').textContent = ed.capaImagem ? 'Imagem de capa definida ✓' : 'Sem imagem — usando o emoji da capa.';
+      $('#editor-abertura').classList.toggle('oculto', !ed.abertura);
+      $('#abertura-video').value=ed.abertura?.youtubeId||'';
+      $('#abertura-duracao').value=ed.abertura?.duracao||'';
+      $('#editor-abertura-link').href='abertura.html?id='+encodeURIComponent(ed.id);
       pintarCamposCurso();
       pintarModulos();
       atualizarSalvar();
@@ -345,6 +355,8 @@
       $$('[data-campo]', $('#editor')).forEach(i => { if (i.dataset.mod == null) i.value = ed[i.dataset.campo] || ''; });
       pintarPagamentoCurso();
     }
+
+    $('#editor-abertura').addEventListener('input',e=>{const campo=e.target.dataset.abertura;if(!campo||!ed?.abertura)return;ed.abertura[campo]=e.target.value;modelo.marcar();atualizarSalvar();});
 
     $('#editor').addEventListener('input', (e) => {
       const i = e.target.closest('[data-campo]'); if (!i || !ed) return;

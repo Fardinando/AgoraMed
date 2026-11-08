@@ -77,3 +77,5 @@
  .pagina-curso .texto strong { font-size: .85rem; }
  .pagina-curso .aula-linha { padding: 17px 14px; }
 }
+
+.curso-abertura{display:flex;align-items:center;gap:18px;padding:22px 24px;margin-bottom:28px;border:1px solid #b6a0f4;border-radius:16px;background:linear-gradient(120deg,#332b49,#103640);color:#f2edf9;text-decoration:none}.curso-abertura>span:first-child{font-size:30px;color:#cfbfff}.curso-abertura>span:nth-child(2){flex:1}.curso-abertura strong,.curso-abertura small{display:block}.curso-abertura small{margin-top:7px;color:#c4d5df}.curso-abertura:hover{background:#293545}.curso-abertura:focus-visible{outline:3px solid #cfbfff;outline-offset:4px}

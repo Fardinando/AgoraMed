@@ -8,7 +8,7 @@ const vm = require('node:vm');
 const source = readFileSync(join(__dirname, '../js/store.js'), 'utf8');
 const usuario = { id: 'aluna-teste', nome: 'Aluna Teste', papel: 'aluno' };
 const dados = { ok: true, usuario, cursos: [{ id: 'curso-teste' }], progresso: ['aula-teste'] };
-const chave = 'agoramed_app_cache_v5';
+const chave = source.match(/const CACHE_KEY = '([^']+)'/)[1];
 
 function navegador(fetch, { cache = true, idade = 0 } = {}) {
   const storage = new Map(cache ? [[chave, JSON.stringify({ dados, ts: Date.now() - idade })]] : []);

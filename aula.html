@@ -77,7 +77,7 @@
           <div class="barra-progresso" role="progressbar" aria-label="Progresso no curso" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span style="width:0%"></span></div>
           <p class="progresso-texto" id="a-progresso-texto"></p>
         </section>
-        <section class="aula-curriculo"><h2>Conteúdo do curso</h2><div class="modulos" id="lista-modulo"></div><p class="progresso-dica">Seu progresso é atualizado ao marcar cada aula como concluída.</p></section>
+        <section class="aula-curriculo"><h2>Conteúdo do curso</h2><a id="aula-abertura" class="btn contorno oculto" style="margin-bottom:16px" href="curso.html">Comece por aqui →</a><div class="modulos" id="lista-modulo"></div><p class="progresso-dica">Seu progresso é atualizado ao marcar cada aula como concluída.</p></section>
       </aside>
     </div>
     <div class="aviso oculto" id="aula-indisponivel" role="status">Aula não encontrada ou indisponível para sua conta. <a href="app.html">Voltar para meus cursos</a></div>
@@ -85,7 +85,7 @@
   <footer class="rodape"><div class="container">AGORAMED · Pronto para o plantão</div></footer>
 
   <script src="js/dialogos.js?v=56"></script>
-  <script src="js/store.js?v=72"></script>
+  <script src="js/store.js?v=113"></script>
   <script src="js/quiz-aula.js?v=67"></script>
   <script type="module">
     await Store.iniciar();
@@ -135,6 +135,7 @@
       document.getElementById('a-desc').textContent = aula.descricao || '';
       document.getElementById('link-voltar').href = `curso.html?id=${curso.id}`;
       document.getElementById('link-voltar').textContent = curso.titulo;
+      if (curso.abertura) { const abertura = document.getElementById('aula-abertura'); abertura.href = `abertura.html?id=${curso.id}`; abertura.classList.remove('oculto'); }
       document.getElementById('a-caminho').textContent = aula.titulo;
       document.getElementById('a-modulo').textContent = modulo.titulo;
 

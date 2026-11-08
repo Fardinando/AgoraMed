@@ -11,7 +11,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-v2.png">
   <link rel="stylesheet" href="css/styles.css?v=73">
   <link rel="stylesheet" href="css/inicio.css?v=50">
-  <link rel="stylesheet" href="css/curso.css?v=52">
+  <link rel="stylesheet" href="css/curso.css?v=113">
   <link rel="stylesheet" href="css/dialogos.css?v=56">
 </head>
 <body class="pagina-cursos pagina-curso">
@@ -48,6 +48,7 @@
   <main class="container">
     <div class="curso-layout" id="curso-conteudo">
       <section class="curso-programa" aria-labelledby="programa-titulo">
+        <a id="curso-abertura" class="curso-abertura oculto" href="#"><span aria-hidden="true">▷</span><span><strong>Comece por aqui</strong><small>Boas-vindas, e-book e biblioteca de apoio</small></span><span aria-hidden="true">→</span></a>
         <div class="programa-cab"><h2 id="programa-titulo">Conteúdo do curso</h2><span id="programa-resumo"></span></div>
         <div class="modulos" id="lista-modulos"></div>
       </section>
@@ -70,7 +71,7 @@
   <footer class="rodape"><div class="container">AGORAMED · Pronto para o plantão</div></footer>
 
   <script src="js/dialogos.js?v=56"></script>
-  <script src="js/store.js?v=72"></script>
+  <script src="js/store.js?v=113"></script>
   <script src="js/catalogo-cursos.js?v=83"></script>
   <script type="module">
     await Store.iniciar({ atualizar: new URLSearchParams(location.search).get('atualizar') === '1' });
@@ -100,6 +101,7 @@
       document.getElementById('curso-conteudo').classList.add('oculto');
       document.getElementById('lista-modulos').innerHTML = '';
     } else {
+      if(curso.abertura){const inicio=document.getElementById('curso-abertura');inicio.href='abertura.html?id='+encodeURIComponent(curso.id);inicio.classList.remove('oculto');}
       const est = Store.estatisticasCurso(curso);
       document.title = `AGORAMED — ${curso.titulo}`;
       const titulo = UI.escapar(curso.titulo);
