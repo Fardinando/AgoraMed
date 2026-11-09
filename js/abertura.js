@@ -14,7 +14,7 @@
  $('ab-modulos').innerHTML=curso.modulos.map((m,i)=>`<details class="ab-modulo"><summary><span>${String(i+1).padStart(2,'0')}</span><strong>${esc(m.titulo)}</strong><span aria-hidden="true">⌄</span></summary><ul>${m.aulas.map((a,j)=>`<li><a href="${esc(link(m,a))}">${j+1}. ${esc(a.titulo)}</a></li>`).join('')}</ul></details>`).join('');
  const video=curso.abertura.youtubeId?.trim();
  if(curso.abertura.streamUid){
-  await PlayerCurso.montar($('ab-player'),{cursoId:curso.id,titulo:'Boas-vindas e orientação do curso'});
+  await PlayerCurso.montar($('ab-player'),{cursoId:curso.id,titulo:'Boas-vindas e orientação do curso',poster:curso.id==='fa3c5d8d-94c4-4321-be7a-1cc45741a983'?'img/hipercalemia-boas-vindas.png':''});
  }else if(video&&/^[a-zA-Z0-9_-]{11}$/.test(video)){
   const frame=document.createElement('iframe');frame.src=`https://www.youtube-nocookie.com/embed/${encodeURIComponent(video)}?rel=0&playsinline=1`;frame.title='Boas-vindas e orientação do curso';frame.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen';frame.allowFullscreen=true;$('ab-player').append(frame);
  }else $('ab-player').innerHTML='<div class="ab-video-vazio"><span aria-hidden="true">▷</span><h3>Conheça a plataforma</h3><p>O vídeo de boas-vindas estará disponível em breve.</p><small>Você já pode baixar o e-book e iniciar seus estudos.</small></div>';
