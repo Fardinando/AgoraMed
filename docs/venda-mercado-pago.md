@@ -17,3 +17,13 @@ A configuração é salva na mesma transação da estrutura do curso, com as pro
 7. Testar Pix pendente/expirado, aprovação, retorno sem pagamento, reenvio de notificações, compras duplicadas, expiração de acesso e reembolso. Só então ativar vendas.
 
 Documentação oficial: https://www.mercadopago.com.br/developers/pt/docs/checkout-pro-preferences/create-application e https://www.mercadopago.com.br/developers/pt/docs/checkout-pro-preferences/payment-notifications.
+
+## Homologação local em 9/11/2026 — ainda sem publicação
+
+Nova oferta de homologação aprovada: R$ 97,00. A oferta pública no banco permanece R$ 39,70 e vendas_ativas=false. O endpoint exclusivamente administrativo de sandbox usa 9700 centavos definidos no servidor, não dados do navegador. Não utilizar essa rota para vendas reais.
+
+Implementada confirmação transacional de pedidos simulados, com bloqueio por linha, preservação da data inicial e final nos reprocessamentos e rejeição de atualizações antigas. Reembolsos e contestações invalidam somente o acesso simulado. Nenhuma matrícula real é criada, removida ou alterada.
+
+Webhook de homologação: POST /api/pagamento/webhook-teste?data.id=ORDTST... ; segredo esperado MERCADO_PAGO_WEBHOOK_SECRET_TEST. Assinatura HMAC validada antes de consultar a order diretamente no provedor. Conta, aplicação, referência, moeda e total conferidos no backend. Não configurar recebimento até existir URL de homologação e segredo configurado.
+
+Testes locais: 211 aprovados. Ainda pendentes: publicação em ambiente de homologação autorizado, segredo e entrega real do webhook, compra com conta de teste, fluxo de compra autenticado para alunos, integração dos direitos pagos reais à autorização de todas as rotas, RLS e catálogo. A implementação de sandbox NÃO conclui a integração comercial.
