@@ -86,8 +86,9 @@
   <footer class="rodape"><div class="container">AGORAMED · Pronto para o plantão</div></footer>
 
   <script src="js/dialogos.js?v=56"></script>
+  <script src="js/player-curso.js?v=118"></script>
   <script src="js/tema-curso.js?v=117"></script>
-  <script src="js/store.js?v=113"></script>
+  <script src="js/store.js?v=118"></script>
   <script src="js/quiz-aula.js?v=67"></script>
   <script type="module">
     await Store.iniciar();
@@ -123,7 +124,9 @@
       /* ---------------------------- player de vídeo (YouTube, nocookie) */
       const palco = document.getElementById('palco');
       const yt = (aula.youtubeId || '').trim();
-      if (yt) {
+      if(aula.streamUid){
+        await PlayerCurso.montar(palco,{aulaId:aula.id,titulo:aula.titulo});
+      } else if (yt) {
         palco.innerHTML = `<iframe
           src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(yt)}?rel=0&modestbranding=1&playsinline=1&iv_load_policy=3"
           title="${UI.escapar(aula.titulo)}"

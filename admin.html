@@ -115,7 +115,7 @@
         <section id="editor-abertura" class="aviso oculto" aria-labelledby="editor-abertura-titulo">
           <p class="admin-eyebrow">ABERTURA DO CURSO</p><h3 id="editor-abertura-titulo">Comece por aqui</h3>
           <p>Apresente a plataforma e oriente o estudo antes do primeiro módulo.</p>
-          <div class="grade-2"><div class="campo"><label for="abertura-video">ID do vídeo de boas-vindas no YouTube</label><input id="abertura-video" data-abertura="youtubeId" placeholder="Ex.: aBc123XyZ_4" autocomplete="off"><small class="dica">Deixe em branco até o vídeo estar pronto. Use o código após watch?v=.</small></div><div class="campo"><label for="abertura-duracao">Duração (opcional)</label><input id="abertura-duracao" data-abertura="duracao" placeholder="Ex.: 05:30" maxlength="30"></div></div>
+          <div class="grade-2"><div class="campo"><label for="abertura-provedor">Hospedagem do vídeo</label><select id="abertura-provedor"><option value="youtube">YouTube</option><option value="cloudflare">Cloudflare Stream</option></select></div><div class="campo"><label for="abertura-stream">ID do vídeo no Cloudflare Stream</label><input id="abertura-stream" data-abertura="streamUid" maxlength="32" placeholder="ID de 32 caracteres" autocomplete="off"></div></div><div class="grade-2"><div class="campo"><label for="abertura-video">ID do vídeo de boas-vindas no YouTube</label><input id="abertura-video" data-abertura="youtubeId" placeholder="Ex.: aBc123XyZ_4" autocomplete="off"><small class="dica">Deixe em branco até o vídeo estar pronto. Use o código após watch?v=.</small></div><div class="campo"><label for="abertura-duracao">Duração (opcional)</label><input id="abertura-duracao" data-abertura="duracao" placeholder="Ex.: 05:30" maxlength="30"></div></div>
           <p><a id="editor-abertura-link" target="_blank" rel="noopener">Abrir a área de boas-vindas ↗</a></p>
         </section>
         <div class="estrutura-cab"><div><p class="admin-eyebrow">ESTRUTURA DO CURSO</p><h2>Módulos e aulas</h2><p>Abra um módulo para organizar suas aulas. Use as setas para mudar a ordem das aulas e salve as alterações. Clique em Editar para alterar os detalhes.</p></div><span id="estrutura-contagem" class="estrutura-contagem"></span></div>
@@ -205,7 +205,7 @@
   <footer class="rodape"><div class="container">AGORAMED · Pronto para o plantão</div></footer>
 
   <script src="js/dialogos.js?v=56"></script>
-  <script src="js/store.js?v=113"></script>
+  <script src="js/store.js?v=118"></script>
   <script src="js/admin-ranking.js?v=58"></script>
   <script src="js/admin-progresso.js?v=61"></script>
   <script src="js/admin-quiz.js?v=61"></script>
@@ -336,6 +336,10 @@
       $('#editor-titulo').textContent = 'Editando: ' + ed.titulo;
       $('#dica-capa').textContent = ed.capaImagem ? 'Imagem de capa definida ✓' : 'Sem imagem — usando o emoji da capa.';
       $('#editor-abertura').classList.toggle('oculto', !ed.abertura);
+      $('#abertura-provedor').value=ed.abertura?.streamUid?'cloudflare':'youtube';
+      $('#abertura-stream').value=ed.abertura?.streamUid||'';
+      $('#abertura-stream').closest('.campo').classList.toggle('oculto',!ed.abertura?.streamUid);
+      $('#abertura-video').closest('.campo').classList.toggle('oculto',!!ed.abertura?.streamUid);
       $('#abertura-video').value=ed.abertura?.youtubeId||'';
       $('#abertura-duracao').value=ed.abertura?.duracao||'';
       $('#editor-abertura-link').href='abertura.html?id='+encodeURIComponent(ed.id);
@@ -356,6 +360,7 @@
       pintarPagamentoCurso();
     }
 
+    $('#abertura-provedor').addEventListener('change',e=>{if(!ed?.abertura)return;const stream=e.target.value==='cloudflare';$('#abertura-stream').closest('.campo').classList.toggle('oculto',!stream);$('#abertura-video').closest('.campo').classList.toggle('oculto',stream);if(!stream){ed.abertura.streamUid='';$('#abertura-stream').value='';}modelo.marcar();atualizarSalvar();});
     $('#editor-abertura').addEventListener('input',e=>{const campo=e.target.dataset.abertura;if(!campo||!ed?.abertura)return;ed.abertura[campo]=e.target.value;modelo.marcar();atualizarSalvar();});
 
     $('#editor').addEventListener('input', (e) => {
@@ -407,7 +412,7 @@
                   <section class="editor-secao"><h3>Informações da aula</h3><label class="editor-campo" for="aula-titulo-${i}-${j}"><span>Título da aula</span><input id="aula-titulo-${i}-${j}" data-mod="${i}" data-aula="${j}" data-campo="titulo" value="${UI.escapar(a.titulo)}" placeholder="Dê um título à aula"></label>
                   <label class="editor-campo" for="aula-descricao-${i}-${j}"><span>Descrição <small>(opcional)</small></span><textarea id="aula-descricao-${i}-${j}" rows="3" data-mod="${i}" data-aula="${j}" data-campo="descricao" placeholder="O que o aluno vai aprender?">${UI.escapar(a.descricao || '')}</textarea></label></section>
                   <section class="editor-secao"><h3>${a.atividade ? 'Atividade' : 'Vídeo'}</h3><div class="editor-grade">
-                    ${a.atividade ? `<div class="editor-atividade"><span class="editor-tipo interativa">${tipoAula(a)}</span><p>Atividade interativa vinculada ao curso.</p></div>` : `<label class="editor-campo" for="aula-video-${i}-${j}"><span>ID do vídeo no YouTube</span><input id="aula-video-${i}-${j}" data-mod="${i}" data-aula="${j}" data-campo="youtubeId" value="${UI.escapar(a.youtubeId || '')}" placeholder="Ex.: aBc123XyZ_4"><small>Use o código após watch?v= no link do vídeo.</small></label>`}
+                    ${a.atividade ? `<div class="editor-atividade"><span class="editor-tipo interativa">${tipoAula(a)}</span><p>Atividade interativa vinculada ao curso.</p></div>` : `<label class="editor-campo" for="aula-video-${i}-${j}"><span>ID do vídeo no YouTube</span><input id="aula-video-${i}-${j}" data-mod="${i}" data-aula="${j}" data-campo="youtubeId" value="${UI.escapar(a.youtubeId || '')}" placeholder="Ex.: aBc123XyZ_4"><small>Use o código após watch?v= no link do vídeo.</small></label><label class="editor-campo" for="aula-stream-${i}-${j}"><span>ID do Cloudflare Stream (opcional)</span><input id="aula-stream-${i}-${j}" data-mod="${i}" data-aula="${j}" data-campo="streamUid" value="${UI.escapar(a.streamUid || '')}" maxlength="32" placeholder="ID de 32 caracteres"><small>Quando preenchido, usa o player protegido do Stream. Deixe vazio para usar YouTube.</small></label>`}
                     <label class="editor-campo" for="aula-duracao-${i}-${j}"><span>${a.atividade ? 'Duração ou etapas' : 'Duração'}</span><input id="aula-duracao-${i}-${j}" data-mod="${i}" data-aula="${j}" data-campo="duracao" value="${UI.escapar(a.duracao || '')}" placeholder="${a.atividade ? 'Ex.: 9 etapas + fechamento' : 'Ex.: 14:20'}"></label>
                   </div></section>
                   <section class="editor-secao editor-materiais"><div class="materiais-cab"><div><h3>Materiais de apoio <span class="pdf-quantidade">${(a.pdfs||[]).length}</span></h3><p>Adicione um ou mais PDFs, com até 50 MB por arquivo.</p></div><div><button type="button" class="btn pequeno secundario" data-acao="escolher-pdfs" data-mod="${i}" data-aula="${j}">＋ Adicionar PDFs</button><input type="file" accept="application/pdf,.pdf" multiple class="oculto" data-acao="add-pdf" data-mod="${i}" data-aula="${j}"></div></div>
