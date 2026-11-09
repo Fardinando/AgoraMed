@@ -62,7 +62,7 @@
           </div>
         </div>
 
-        <p class="admin-editor-dica">Para publicar uma aula, use o ID do vídeo do YouTube (a parte depois de <code>watch?v=</code>).</p>
+        <p class="admin-editor-dica">Para publicar uma aula, escolha YouTube ou Cloudflare Stream e informe o link ou ID do vídeo.</p>
         <div id="estado-editor" class="aviso oculto" role="status" aria-live="polite"></div>
         <button type="button" id="btn-reabrir-editor" class="btn secundario oculto">Reabrir versão atual</button>
         <div class="grade-2">
@@ -115,7 +115,7 @@
         <section id="editor-abertura" class="aviso oculto" aria-labelledby="editor-abertura-titulo">
           <p class="admin-eyebrow">ABERTURA DO CURSO</p><h3 id="editor-abertura-titulo">Comece por aqui</h3>
           <p>Apresente a plataforma e oriente o estudo antes do primeiro módulo.</p>
-          <div class="grade-2"><div class="campo"><label for="abertura-provedor">Hospedagem do vídeo</label><select id="abertura-provedor"><option value="youtube">YouTube</option><option value="cloudflare">Cloudflare Stream</option></select></div><div class="campo"><label for="abertura-stream">ID do vídeo no Cloudflare Stream</label><input id="abertura-stream" data-abertura="streamUid" maxlength="32" placeholder="ID de 32 caracteres" autocomplete="off"><small class="dica">No Cloudflare, ative a exigência de URLs assinadas e restrinja os domínios à AgoraMed.</small></div></div><div class="grade-2"><div class="campo"><label for="abertura-video">ID do vídeo de boas-vindas no YouTube</label><input id="abertura-video" data-abertura="youtubeId" placeholder="Ex.: aBc123XyZ_4" autocomplete="off"><small class="dica">Deixe em branco até o vídeo estar pronto. Use o código após watch?v=.</small></div><div class="campo"><label for="abertura-duracao">Duração (opcional)</label><input id="abertura-duracao" data-abertura="duracao" placeholder="Ex.: 05:30" maxlength="30"></div></div>
+          <div class="grade-2"><div class="campo"><label for="abertura-provedor">Hospedagem do vídeo</label><select id="abertura-provedor"><option value="youtube">YouTube</option><option value="cloudflare">Cloudflare Stream</option></select></div><div class="campo"><label for="abertura-stream">Link ou ID do vídeo no Cloudflare Stream</label><input id="abertura-stream" data-abertura="streamUid" placeholder="Cole o link do Stream ou o ID de 32 caracteres" autocomplete="off"><small class="dica">No Cloudflare, ative a exigência de URLs assinadas e restrinja os domínios à AgoraMed.</small></div></div><div class="grade-2"><div class="campo"><label for="abertura-video">Link ou ID do vídeo no YouTube</label><input id="abertura-video" data-abertura="youtubeId" placeholder="Ex.: aBc123XyZ_4" autocomplete="off"><small class="dica">Deixe em branco até o vídeo estar pronto. Use o código após watch?v=.</small></div><div class="campo"><label for="abertura-duracao">Duração (opcional)</label><input id="abertura-duracao" data-abertura="duracao" placeholder="Ex.: 05:30" maxlength="30"></div></div>
           <p><a id="editor-abertura-link" target="_blank" rel="noopener">Abrir a área de boas-vindas ↗</a></p>
         </section>
         <div class="estrutura-cab"><div><p class="admin-eyebrow">ESTRUTURA DO CURSO</p><h2>Módulos e aulas</h2><p>Abra um módulo para organizar suas aulas. Use as setas para mudar a ordem das aulas e salve as alterações. Clique em Editar para alterar os detalhes.</p></div><span id="estrutura-contagem" class="estrutura-contagem"></span></div>
@@ -209,6 +209,7 @@
   <script src="js/admin-ranking.js?v=58"></script>
   <script src="js/admin-progresso.js?v=61"></script>
   <script src="js/admin-quiz.js?v=61"></script>
+  <script src="js/admin-video.js?v=120"></script>
   <script src="js/editor-curso.js?v=70"></script>
   <script type="module">
     await Store.iniciar();
@@ -360,6 +361,7 @@
       pintarPagamentoCurso();
     }
 
+    $('#editor-abertura').addEventListener('change',e=>{const campo=e.target.dataset.abertura;if(!ed?.abertura||!['streamUid','youtubeId'].includes(campo))return;e.target.value=AdminVideo.identificar(e.target.value,campo==='streamUid'?'cloudflare':'youtube');ed.abertura[campo]=e.target.value;modelo.marcar();atualizarSalvar();});
     $('#abertura-provedor').addEventListener('change',e=>{if(!ed?.abertura)return;const stream=e.target.value==='cloudflare';$('#abertura-stream').closest('.campo').classList.toggle('oculto',!stream);$('#abertura-video').closest('.campo').classList.toggle('oculto',stream);if(!stream){ed.abertura.streamUid='';$('#abertura-stream').value='';}modelo.marcar();atualizarSalvar();});
     $('#editor-abertura').addEventListener('input',e=>{const campo=e.target.dataset.abertura;if(!campo||!ed?.abertura)return;ed.abertura[campo]=e.target.value;modelo.marcar();atualizarSalvar();});
 
@@ -412,7 +414,7 @@
                   <section class="editor-secao"><h3>Informações da aula</h3><label class="editor-campo" for="aula-titulo-${i}-${j}"><span>Título da aula</span><input id="aula-titulo-${i}-${j}" data-mod="${i}" data-aula="${j}" data-campo="titulo" value="${UI.escapar(a.titulo)}" placeholder="Dê um título à aula"></label>
                   <label class="editor-campo" for="aula-descricao-${i}-${j}"><span>Descrição <small>(opcional)</small></span><textarea id="aula-descricao-${i}-${j}" rows="3" data-mod="${i}" data-aula="${j}" data-campo="descricao" placeholder="O que o aluno vai aprender?">${UI.escapar(a.descricao || '')}</textarea></label></section>
                   <section class="editor-secao"><h3>${a.atividade ? 'Atividade' : 'Vídeo'}</h3><div class="editor-grade">
-                    ${a.atividade ? `<div class="editor-atividade"><span class="editor-tipo interativa">${tipoAula(a)}</span><p>Atividade interativa vinculada ao curso.</p></div>` : `<label class="editor-campo" for="aula-video-${i}-${j}"><span>ID do vídeo no YouTube</span><input id="aula-video-${i}-${j}" data-mod="${i}" data-aula="${j}" data-campo="youtubeId" value="${UI.escapar(a.youtubeId || '')}" placeholder="Ex.: aBc123XyZ_4"><small>Use o código após watch?v= no link do vídeo.</small></label><label class="editor-campo" for="aula-stream-${i}-${j}"><span>ID do Cloudflare Stream (opcional)</span><input id="aula-stream-${i}-${j}" data-mod="${i}" data-aula="${j}" data-campo="streamUid" value="${UI.escapar(a.streamUid || '')}" maxlength="32" placeholder="ID de 32 caracteres"><small>Quando preenchido, usa o Stream. Ative URLs assinadas e restrinja os domínios no Cloudflare. Deixe vazio para usar YouTube.</small></label>`}
+                    ${a.atividade ? `<div class="editor-atividade"><span class="editor-tipo interativa">${tipoAula(a)}</span><p>Atividade interativa vinculada ao curso.</p></div>` : `<label class="editor-campo" for="aula-provedor-${i}-${j}"><span>Hospedagem do vídeo</span><select id="aula-provedor-${i}-${j}" data-video-provedor data-mod="${i}" data-aula="${j}"><option value="youtube" ${(a.videoProvedor||(a.streamUid?'cloudflare':'youtube'))==='youtube'?'selected':''}>YouTube</option><option value="cloudflare" ${(a.videoProvedor||(a.streamUid?'cloudflare':'youtube'))==='cloudflare'?'selected':''}>Cloudflare Stream</option></select></label><label class="editor-campo ${(a.videoProvedor||(a.streamUid?'cloudflare':'youtube'))==='cloudflare'?'oculto':''}" for="aula-video-${i}-${j}"><span>Link ou ID do YouTube</span><input id="aula-video-${i}-${j}" data-mod="${i}" data-aula="${j}" data-campo="youtubeId" value="${UI.escapar(a.youtubeId || '')}" placeholder="Ex.: aBc123XyZ_4"><small>Cole o link do YouTube ou o ID do vídeo.</small></label><label class="editor-campo ${(a.videoProvedor||(a.streamUid?'cloudflare':'youtube'))==='cloudflare'?'':'oculto'}" for="aula-stream-${i}-${j}"><span>Link ou ID do Cloudflare Stream</span><input id="aula-stream-${i}-${j}" data-mod="${i}" data-aula="${j}" data-campo="streamUid" value="${UI.escapar(a.streamUid || '')}" placeholder="Cole o link do Stream ou o ID de 32 caracteres"><small>Copie o link do vídeo no Cloudflare Stream ou seu ID. Ative URLs assinadas e restrinja os domínios à AgoraMed.</small></label>`}
                     <label class="editor-campo" for="aula-duracao-${i}-${j}"><span>${a.atividade ? 'Duração ou etapas' : 'Duração'}</span><input id="aula-duracao-${i}-${j}" data-mod="${i}" data-aula="${j}" data-campo="duracao" value="${UI.escapar(a.duracao || '')}" placeholder="${a.atividade ? 'Ex.: 9 etapas + fechamento' : 'Ex.: 14:20'}"></label>
                   </div></section>
                   <section class="editor-secao editor-materiais"><div class="materiais-cab"><div><h3>Materiais de apoio <span class="pdf-quantidade">${(a.pdfs||[]).length}</span></h3><p>Adicione um ou mais PDFs, com até 50 MB por arquivo.</p></div><div><button type="button" class="btn pequeno secundario" data-acao="escolher-pdfs" data-mod="${i}" data-aula="${j}">＋ Adicionar PDFs</button><input type="file" accept="application/pdf,.pdf" multiple class="oculto" data-acao="add-pdf" data-mod="${i}" data-aula="${j}"></div></div>
@@ -446,6 +448,11 @@
     });
 
     $('#editor-modulos').addEventListener('change', async (e) => {
+      const prov=e.target.closest('[data-video-provedor]');
+      if(prov&&ed){const a=ed.modulos[+prov.dataset.mod]?.aulas[+prov.dataset.aula];if(!a)return;a.videoProvedor=prov.value;if(prov.value==='youtube')a.streamUid='';modelo.marcar();pintarModulos();atualizarSalvar();return;}
+      const video=e.target.closest('[data-campo="streamUid"],[data-campo="youtubeId"]');
+      if(video&&ed){const a=ed.modulos[+video.dataset.mod]?.aulas[+video.dataset.aula];if(a){video.value=AdminVideo.identificar(video.value,video.dataset.campo==='streamUid'?'cloudflare':'youtube');a[video.dataset.campo]=video.value;modelo.marcar();atualizarSalvar();}return;}
+
       const inp = e.target.closest('input[type=file]'); if (!inp || !ed) return;
       const m = ed.modulos[+inp.dataset.mod]; const a = m && m.aulas[+inp.dataset.aula];
       if (!a) return;
