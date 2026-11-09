@@ -23,6 +23,7 @@ const rotas = {
   'progresso': require('../lib/rotas/progresso'),
   'comentarios': require('../lib/rotas/comentarios'),
   'material': require('../lib/rotas/material'),
+  'pagamento/teste': require('../lib/rotas/pagamento/teste'),
   'video': require('../lib/rotas/video'),
   'admin/materiais': require('../lib/rotas/admin/materiais'),
   'admin/cursos': require('../lib/rotas/admin/cursos'),
