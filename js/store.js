@@ -160,7 +160,7 @@ const Store = (() => {
   }
 
   const cadastrar = (nome, email, senha, whats) =>
-    api('/auth/cadastro', { metodo: 'POST', corpo: { nome, email, senha, whatsapp: whats } });
+    api('/auth/cadastro', { metodo: 'POST', corpo: { nome, email, senha, whatsapp: whats, continuar: new URLSearchParams(location.search).get('continuar') } });
 
   async function sair() {
     const r = await api('/auth/sair', { metodo: 'POST' });
@@ -170,7 +170,7 @@ const Store = (() => {
     return { ok: true };
   }
 
-  const esqueciSenha = (email) => api('/auth/esqueci-senha', { metodo: 'POST', corpo: { email } });
+  const esqueciSenha = (email) => api('/auth/esqueci-senha', { metodo: 'POST', corpo: { email, continuar: new URLSearchParams(location.search).get('continuar') } });
   const redefinirSenha = (access, refresh, senha) =>
     api('/auth/redefinir-senha', { metodo: 'POST', corpo: { access, refresh, senha } });
 

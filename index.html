@@ -109,7 +109,7 @@
         </div>
         <button type="submit" class="btn">Criar conta</button>
         <p class="dica">
-          Confirme seu e-mail para acessar todos os cursos gratuitos. Cursos pagos exigem acesso concedido pelo professor.
+          Confirme seu e-mail para acessar todos os cursos gratuitos. Cursos pagos são liberados após a confirmação do pagamento.
         </p>
       </form>
     </section>
@@ -135,15 +135,19 @@
   </main>
 
   <script src="js/dialogos.js?v=56"></script>
-  <script src="js/store.js?v=72"></script>
+  <script src="js/store.js?v=136"></script>
   <script type="module">
     const msg = document.getElementById('mensagem');
     const params = new URLSearchParams(location.search);
+    const intencao=params.get('continuar')==='matricula-hipercalemia';
+    let compraSalva=false;
+    try{if(intencao)localStorage.setItem('agoramed-intencao-compra',String(Date.now()));compraSalva=Date.now()-Number(localStorage.getItem('agoramed-intencao-compra'))<86400000;}catch{}
+    const retomar=intencao||((params.has('confirmado')||params.has('redefinir'))&&compraSalva);
 
     /* link do e-mail de recuperação caiu aqui sem passar por redefinir.html?
        (acontece quando o Supabase usa a Site URL como destino) — segue com os tokens */
     if (location.hash.includes('access_token') && location.hash.includes('type=recovery')) {
-      location.replace('redefinir.html' + location.hash);
+      location.replace('redefinir.html'+(retomar?'?continuar=matricula-hipercalemia':'') + location.hash);
     }
 
     function mostrarMsg(texto, tipo = 'erro') {
@@ -205,12 +209,12 @@
     if (params.get('cadastro') === '1') abaCadastrar.click();
 
     const pedidoRetorno=params.get('pedido');
-    const destinoAposLogin=params.get('continuar')==='pagamento'&&/^[a-f0-9-]{36}$/i.test(pedidoRetorno||'') ? 'pagamento.html?'+new URLSearchParams({pedido:pedidoRetorno,modo:params.get('modo')==='teste'?'teste':'real'}) : params.get('continuar')==='matricula-hipercalemia' ? 'matricula-hipercalemia.html' : 'app.html';
+    const destinoAposLogin=params.get('continuar')==='pagamento'&&/^[a-f0-9-]{36}$/i.test(pedidoRetorno||'') ? 'pagamento.html?'+new URLSearchParams({pedido:pedidoRetorno,modo:params.get('modo')==='teste'?'teste':'real'}) : retomar ? 'matricula-hipercalemia.html' : 'app.html';
     if(params.get('cadastro')==='1')ativarAba('cadastrar');
 
     /* se já houver sessão, segue direto (exceto na página de teste visual) */
     if (!params.get('preview')) {
-      const u = await Store.iniciar();
+      const u = await Store.iniciar({atualizar:true});
       if (u) location.href = destinoAposLogin;
     }
 

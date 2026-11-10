@@ -10,3 +10,5 @@ h3{font-family:var(--fonte-titulos);font-weight:400}.passos h3,.grade-recursos h
 .modulo summary>span:nth-child(2){font:400 20px/1.35 var(--fonte-titulos)}.modulo small{font-family:var(--fonte-interface);font-size:11px;line-height:1.5}
 button,.cta{font-family:var(--fonte-interface)}
 @media(max-width:700px){.modulo summary>span:nth-child(2){font-size:19px}.etiqueta{font-size:10px;letter-spacing:.18em}.checkout-card h1{font-size:31px}}
+
+@media(max-width:700px){.checkout-grade>section:first-child{order:2}.checkout-grade>section:last-child{order:1}.checkout-caminho{font-weight:600;color:#7546aa}.checkout-acoes a.cta{min-height:52px}}

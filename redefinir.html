@@ -79,7 +79,7 @@
       btn.disabled = false;
       if (!r.ok) return mostrarMsg(r.erro || 'Não foi possível redefinir a senha. Solicite um novo link.');
       mostrarMsg('Senha redefinida! Redirecionando…', 'sucesso');
-      setTimeout(() => { location.href = 'index.html?redefinir=ok'; }, 1500);
+      setTimeout(() => { location.href = 'index.html?redefinir=ok'+(new URLSearchParams(location.search).get('continuar')==='matricula-hipercalemia'?'&continuar=matricula-hipercalemia':''); }, 1500);
     });
   </script>
 </body>

@@ -207,3 +207,12 @@ test('resposta fictícia de recadastro não tenta enviar novo aviso administrati
   })(cadastro);
   assert.equal(r.ok, true);
 });
+
+test('cadastro de compra preserva curso no retorno do e-mail sem aceitar destino arbitrário',async()=>{
+ for(const [continuar,esperado] of [['matricula-hipercalemia','https://agoramed.vercel.app/index.html?confirmado=1&continuar=matricula-hipercalemia'],['https://externo.invalid','https://agoramed.vercel.app/index.html?confirmado=1']]){
+  await handler('auth/cadastro',{gotrue:async(caminho)=>{assert.equal(new URL(caminho,'https://auth.example').searchParams.get('redirect_to'),esperado);return {ok:true,dados:user};}})({...cadastro,continuar});
+ }
+});
+test('recuperação de senha preserva intenção de matrícula no retorno autorizado',async()=>{
+ await handler('auth/esqueci-senha',{gotrue:async(caminho)=>{assert.equal(new URL(caminho,'https://auth.example').searchParams.get('redirect_to'),'https://agoramed.vercel.app/redefinir.html?continuar=matricula-hipercalemia');return {ok:true};}})({email:cadastro.email,continuar:'matricula-hipercalemia'});
+});
