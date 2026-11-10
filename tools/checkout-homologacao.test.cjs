@@ -2,6 +2,8 @@ const {test}=require('node:test');const assert=require('node:assert/strict');con
 const mp=require('../lib/mercado-pago');
 test('falha e cancelamento do provedor nunca são tratados como aprovação',()=>{
  const p={id:'p',order_id:'ORDTST1',preco_centavos:9700};const o={id:p.order_id,external_reference:p.id,currency:'BRL',user_id:'3829170862',integration_data:{application_id:'6132625255477789'},total_amount:'97.00',total_paid_amount:'97.00'};
+ assert.equal(mp.conferir({...o,status:'action_required',status_detail:'waiting_retry',transactions:{payments:[{status:'failed',status_detail:'rejected_by_issuer'}]}},p),'rejeitado');
+ assert.equal(mp.conferir({...o,status:'processed',status_detail:'accredited',transactions:{payments:[{status:'failed'},{status:'processed'}]}},p),'aprovado');
  for(const [status,esperado] of [['failed','rejeitado'],['canceled','cancelled'],['refunded','refunded'],['created','pendente']])assert.equal(mp.conferir({...o,status},p),esperado);
 });
 test('autorização de teste existe só na branch Preview exata e falha fechada',async()=>{
