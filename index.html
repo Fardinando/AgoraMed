@@ -204,10 +204,12 @@
     // A landing page conduz novos alunos diretamente ao formulário de cadastro.
     if (params.get('cadastro') === '1') abaCadastrar.click();
 
+    const destinoAposLogin = params.get('continuar') === 'matricula-hipercalemia' ? 'matricula-hipercalemia.html' : 'app.html';
+
     /* se já houver sessão, segue direto (exceto na página de teste visual) */
     if (!params.get('preview')) {
       const u = await Store.iniciar();
-      if (u) location.href = 'app.html';
+      if (u) location.href = destinoAposLogin;
     }
 
     formEntrar.addEventListener('submit', async (e) => {
@@ -218,7 +220,7 @@
       const r = await Store.entrar(document.getElementById('login-email').value, document.getElementById('login-senha').value);
       btn.disabled = false;
       if (!r.ok) return mostrarMsg(r.erro);
-      location.href = 'app.html';
+      location.href = destinoAposLogin;
     });
 
     formCadastrar.addEventListener('submit', async (e) => {

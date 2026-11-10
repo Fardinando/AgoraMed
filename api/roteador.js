@@ -24,6 +24,7 @@ const rotas = {
   'comentarios': require('../lib/rotas/comentarios'),
   'material': require('../lib/rotas/material'),
   'pagamento/webhook-teste': require('../lib/rotas/pagamento/webhook-teste'),
+  'pagamento/oferta': require('../lib/rotas/pagamento/oferta'),
   'pagamento/teste': require('../lib/rotas/pagamento/teste'),
   'pagamento/homologacao': require('../lib/rotas/pagamento/homologacao'),
   'video': require('../lib/rotas/video'),
