@@ -3,7 +3,7 @@
    quando o aluno estiver sem internet. Assim as aulas e materiais novos aparecem
    na hora, e o app continua abrindo offline.
 */
-const CACHE = 'agoramed-v83';
+const CACHE = 'agoramed-v84';
 /* Recursos visuais do login e ícones também ficam disponíveis offline.
    As respostas autenticadas de /api/ continuam fora do cache. */
 const APP = [
@@ -43,6 +43,15 @@ self.addEventListener('fetch', (e) => {
      e também /api/*: respostas autenticadas nunca vão para o cache */
   if (req.method !== 'GET' || url.origin !== location.origin) return;
   if (url.pathname.startsWith('/api/')) return;
+
+  /* Páginas de oferta e pagamento devem consultar a versão atual primeiro. */
+  if (['/hipercalemia.html', '/matricula-hipercalemia.html', '/pagamento.html'].includes(url.pathname)) {
+    e.respondWith(fetch(req).then((res) => {
+      if (res.ok) { const copia = res.clone(); e.waitUntil(caches.open(CACHE).then(c => c.put(req, copia))); }
+      return res;
+    }).catch(async () => (await caches.match(req)) || new Response('Conecte-se à internet para consultar sua matrícula.', {status:503, headers:{'Content-Type':'text/plain; charset=utf-8'}})));
+    return;
+  }
 
   /* stale-while-revalidate: serve do cache instantaneamente e revalida em segundo plano */
   e.respondWith(
