@@ -204,7 +204,9 @@
     // A landing page conduz novos alunos diretamente ao formulário de cadastro.
     if (params.get('cadastro') === '1') abaCadastrar.click();
 
-    const destinoAposLogin = params.get('continuar') === 'matricula-hipercalemia' ? 'matricula-hipercalemia.html' : 'app.html';
+    const pedidoRetorno=params.get('pedido');
+    const destinoAposLogin=params.get('continuar')==='pagamento'&&/^[a-f0-9-]{36}$/i.test(pedidoRetorno||'') ? 'pagamento.html?'+new URLSearchParams({pedido:pedidoRetorno,modo:params.get('modo')==='teste'?'teste':'real'}) : params.get('continuar')==='matricula-hipercalemia' ? 'matricula-hipercalemia.html' : 'app.html';
+    if(params.get('cadastro')==='1')ativarAba('cadastrar');
 
     /* se já houver sessão, segue direto (exceto na página de teste visual) */
     if (!params.get('preview')) {

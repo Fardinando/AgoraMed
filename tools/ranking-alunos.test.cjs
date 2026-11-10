@@ -28,7 +28,7 @@ function ambiente(options={}) {
    return {ok:true,dados:rows.slice(offset,offset+limit)};
   }
  };
- vm.runInNewContext(fs.readFileSync(path.join(__dirname,'../lib/rotas/admin/ranking.js'),'utf8'),{module,exports:module.exports,require:()=>deps});
+ vm.runInNewContext(fs.readFileSync(path.join(__dirname,'../lib/rotas/admin/ranking.js'),'utf8'),{module,exports:module.exports,require:n=>n.endsWith('matricula-validade')?require('../lib/matricula-validade'):deps});
  return {calls,async run(query={curso_id:cid},method='GET') {const res={headers:{},setHeader(k,v){this.headers[k]=v;}};await module.exports({query,method},res);return res;}};
 }
 test('top 3 por progresso, desempate alfabético e sem professores ou bloqueados',async()=>{

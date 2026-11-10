@@ -29,7 +29,7 @@ function rota(overrides = {}) {
     }, ...overrides,
   };
   vm.runInNewContext(readFileSync(join(__dirname, '../lib/rotas/admin/progresso.js'), 'utf8'), {
-    module, exports: module.exports, require: path => { assert.equal(path, '../../api'); return deps; },
+    module, exports: module.exports, require: path => { if(path==='../../matricula-validade')return require('../lib/matricula-validade'); assert.equal(path, '../../api'); return deps; },
   });
   return { consultas, async executar(query = { usuario_id: uid }, method = 'GET') {
     const res = { headers: {}, setHeader(k, v) { this.headers[k] = v; } };
