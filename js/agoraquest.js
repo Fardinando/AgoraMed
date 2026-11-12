@@ -59,7 +59,7 @@
     return ultima && ultima.seen ? s.answers.length : s.answers.length - 1;
   }
   function vistas(s) {
-    return (Array.isArray(s.answers) ? s.answers : []).filter((a) => a && a.seen).length;
+    return Array.isArray(s && s.answers) ? s.answers.length : 0;
   }
 
   async function pedir(metodo, query, corpo) {

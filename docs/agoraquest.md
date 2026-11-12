@@ -67,7 +67,9 @@ Se o curso ou a aula forem renomeados/reordenados, a migração pode ser executa
 
 `node --test tools/agoraquest.test.cjs` cobre conteúdo aprovado, não vazamento do gabarito, bloqueio de alteração, conclusão, caderno de erros, autorização, concorrência, idempotência, RLS/privilégios, migração e integração do CTA/service worker. A suíte completa é executada com `npm test`.
 
-A migração também foi exercitada em banco PostgreSQL descartável (PGlite) com os handlers reais e sessões simuladas. A interface foi revisada estaticamente e a página não carrega o gabarito no JavaScript; a validação visual/interativa com login real de aluno deve ser feita após a migração em produção.
+A migração também foi exercitada em banco PostgreSQL descartável (PGlite) com os handlers reais e sessões simuladas. A interface foi exercitada em navegador com a API real simulada em memória: início, seleção única, bloqueio após confirmar, feedback, avanço pelas cinco questões, resultado 4/5, histórico, caderno de erros e nova tentativa, sem erro de console. A página não carrega o gabarito no JavaScript nem no HTML. A validação com uma conta real de aluno deve ser feita após a migração em produção.
+
+Após o deploy, `agoraquest.html` e seus assets responderam HTTP 200 e a API sem sessão respondeu HTTP 401. O convite “Praticar no AgoraQuest” já está no HTML publicado de `aula.html`; ele permanece oculto até a migração criar o vínculo da aula.
 
 ## Limitações conhecidas
 
