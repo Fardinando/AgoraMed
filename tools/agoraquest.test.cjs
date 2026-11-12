@@ -437,7 +437,7 @@ test('migração vincula somente a Aula 01 do Módulo 1 de Hipercalemia', async 
 /* --------------------------------------------------------------- estático */
 test('página, CTA e service worker estão ligados sem levar o gabarito ao cliente', () => {
   const html = fs.readFileSync(path.join(__dirname, '../agoraquest.html'), 'utf8');
-  assert.match(html, /css\/agoraquest\.css\?v=1/);
+  assert.match(html, /css\/agoraquest\.css\?v=2/);
   assert.match(html, /js\/agoraquest\.js\?v=1/);
   assert.doesNotMatch(html, /B.*C.*B.*D.*C/);
   const js = fs.readFileSync(path.join(__dirname, '../js/agoraquest.js'), 'utf8');
@@ -455,10 +455,11 @@ test('página, CTA e service worker estão ligados sem levar o gabarito ao clien
   const sw = fs.readFileSync(path.join(__dirname, '../sw.js'), 'utf8');
   assert.match(sw, /agoramed-v85/);
   assert.match(sw, /agoraquest\.html/);
-  assert.match(sw, /css\/agoraquest\.css\?v=1/);
+  assert.match(sw, /css\/agoraquest\.css\?v=2/);
   assert.match(sw, /js\/agoraquest\.js\?v=1/);
   const css = fs.readFileSync(path.join(__dirname, '../css/agoraquest.css'), 'utf8');
   assert.match(css, /#346F77/i);
   assert.match(css, /#808080/i);
   assert.match(css, /#F5F5F5/i);
+  assert.match(css, /\.sr-only\{/);
 });
