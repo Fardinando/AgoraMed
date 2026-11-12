@@ -18,6 +18,13 @@
 .pagina-aula .btn:hover { transform: none; filter: brightness(1.08); }
 .pagina-aula .btn.secundario { background: transparent; color: #ecf8fa; border-color: #60c8d5; }
 .pagina-aula .btn:disabled { opacity: .6; cursor: wait; }
+.agoraquest-cta { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; margin: 22px 0 0; padding: 22px 24px; border: 1px solid #3d7d88; border-radius: 14px; background: linear-gradient(135deg, #103d48, #0a2933); color: #eaf7f9; }
+.agoraquest-cta[hidden] { display: none; }
+.agoraquest-cta-texto { min-width: 0; flex: 1 1 360px; }
+.agoraquest-cta-kicker { margin: 0 0 7px; font-size: .62rem; font-weight: 700; letter-spacing: .2em; color: #8de4ed; }
+.agoraquest-cta h2 { margin: 0 0 7px; font: 400 clamp(24px, 2.1vw, 30px)/1.25 'Playfair Display', Georgia, serif; color: #f1f7f9; }
+.agoraquest-cta p { margin: 0; color: #c4dce5; font-size: .84rem; line-height: 1.6; }
+.agoraquest-cta .btn { flex: none; }
 .aula-status { min-height: 1.5em; color: #b9dce4; font-size: .75rem; margin: 10px 0; }
 .aula-abas { display: flex; border-top: 1px solid #345e6b; border-bottom: 1px solid #345e6b; margin-bottom: 18px; }
 .aula-abas button { display: flex; align-items: center; gap: 10px; padding: 18px 14px; font: inherit; font-size: .84rem; background: transparent; color: #bed3dc; border: 0; border-bottom: 3px solid transparent; cursor: pointer; }
@@ -75,4 +82,7 @@
  .pagina-aula .bloco { padding: 16px; }
  .pagina-aula .form-comentario .linha-acoes { align-items: flex-start; }
  .pagina-aula .aula-lateral { gap: 18px; }
+ .agoraquest-cta { padding: 19px; }
+ .agoraquest-cta-texto { flex-basis: 100%; }
+ .agoraquest-cta .btn { width: 100%; }
 }

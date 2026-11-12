@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="css/styles.css?v=73">
   <link rel="stylesheet" href="css/inicio.css?v=50">
   <link rel="stylesheet" href="css/curso.css?v=52">
-  <link rel="stylesheet" href="css/aula.css?v=53">
+  <link rel="stylesheet" href="css/aula.css?v=54">
   <link rel="stylesheet" href="css/quiz-aula.css?v=66">
   <link rel="stylesheet" href="css/dialogos.css?v=56">
 <link rel="stylesheet" href="css/tema-curso.css?v=117">
@@ -53,6 +53,14 @@
           </div>
           <p id="a-status" role="status" aria-live="polite" class="aula-status"></p>
         </div>
+        <section id="agoraquest-cta" class="agoraquest-cta" aria-labelledby="agoraquest-cta-titulo" hidden>
+          <div class="agoraquest-cta-texto">
+            <p class="agoraquest-cta-kicker">AGORAQUEST · PRÁTICA EXTRA</p>
+            <h2 id="agoraquest-cta-titulo">Pratique o que acabou de ver</h2>
+            <p id="agoraquest-cta-desc">Cinco casos clínicos com feedback imediato, análise das quatro alternativas e pérolas de plantão.</p>
+          </div>
+          <a class="btn" id="agoraquest-cta-link" href="agoraquest.html">Praticar no AgoraQuest →</a>
+        </section>
         <section id="quiz-aula" class="quiz-aula" aria-label="AgoraQuiz da aula" hidden></section>
         <div class="aula-abas" role="tablist" aria-label="Recursos da aula">
           <button type="button" role="tab" id="aba-materiais" aria-selected="true" aria-controls="bloco-materiais" tabindex="0"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 3h8l4 4v14H6zM14 3v5h4M9 12h6m-6 4h6"/></svg>Materiais da aula</button>
@@ -146,6 +154,22 @@
       document.getElementById('a-modulo').textContent = modulo.titulo;
 
       if (aula.id === '6a095878-7bc7-4316-9f90-c317efb27406') QuizAula.montar(document.getElementById('quiz-aula'), aula.id);
+
+      /* AgoraQuest: o convite só aparece quando a atividade está publicada para esta aula. */
+      (async () => {
+        const cta = document.getElementById('agoraquest-cta');
+        try {
+          const resposta = await fetch(`/api/agoraquest?meta=1&aula_id=${encodeURIComponent(aula.id)}`, { credentials: 'same-origin', cache: 'no-store' });
+          if (!resposta.ok) return;
+          const dados = await resposta.json();
+          if (!dados.ok || !dados.disponivel) return;
+          document.getElementById('agoraquest-cta-link').href = `agoraquest.html?aula_id=${encodeURIComponent(aula.id)}`;
+          document.getElementById('agoraquest-cta-desc').textContent = dados.titulo
+            ? `${dados.titulo} · 5 questões com correção imediata.`
+            : '5 questões com correção imediata, análise das alternativas e pérolas de plantão.';
+          cta.hidden = false;
+        } catch { /* sem conexão: o convite permanece oculto */ }
+      })();
 
       /* ----------------------------------------------- concluir aula */
       const btnConcluir = document.getElementById('btn-concluir');

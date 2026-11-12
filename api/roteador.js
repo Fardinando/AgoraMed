@@ -18,6 +18,7 @@ const rotas = {
   'curso': require('../lib/rotas/curso'),
   'plantao-virtual': require('../lib/rotas/plantao-virtual'),
   'quiz-aula': require('../lib/rotas/quiz-aula'),
+  'agoraquest': require('../lib/rotas/agoraquest'),
   'agoraquiz': require('../lib/rotas/agoraquiz'),
   'admin/agoraquiz': require('../lib/rotas/admin/agoraquiz'),
   'progresso': require('../lib/rotas/progresso'),

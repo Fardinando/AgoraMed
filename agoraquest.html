@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#346F77">
+  <meta name="robots" content="noindex">
+  <title>AgoraQuest — Hipercalemia | AgoraMed</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon-192.png?v=2" type="image/png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-v2.png">
+  <link rel="stylesheet" href="css/agoraquest.css?v=1">
+</head>
+<body>
+<a class="aq-skip" href="#aq-main">Pular para a prática</a>
+
+<header class="aq-top">
+  <div class="aq-top-inner">
+    <a class="aq-brand" href="app.html" aria-label="AgoraMed — início">
+      <img src="img/agoramed-logo.png" alt="AGORAMED — Pronto para o plantão" width="1871" height="381">
+    </a>
+    <span class="aq-badge">AGORAQUEST</span>
+    <nav class="aq-top-actions" aria-label="Ações da prática">
+      <a id="back-lesson" class="aq-link" href="app.html">Voltar à aula</a>
+      <button type="button" class="aq-btn ghost compact" id="history">Histórico</button>
+      <button type="button" class="aq-btn ghost compact" id="notebook">Caderno de erros</button>
+    </nav>
+  </div>
+</header>
+
+<main class="aq-page" id="aq-main">
+  <nav class="aq-crumb" aria-label="Localização">
+    <a href="app.html">Meus cursos</a><span aria-hidden="true">/</span>
+    <a id="crumb-course" href="app.html">Curso</a><span aria-hidden="true">/</span>
+    <span>AgoraQuest</span>
+  </nav>
+
+  <section class="aq-hero" aria-labelledby="aq-title">
+    <p class="aq-eyebrow">PRÁTICA DELIBERADA · HIPERCALEMIA</p>
+    <h1 id="aq-title">Decisões seguras <em>no plantão.</em></h1>
+    <p class="aq-subtitle" id="aq-subtitle">Cinco casos clínicos com correção imediata, análise das quatro alternativas e pérolas de plantão.</p>
+    <div class="aq-tags" aria-label="Características da atividade">
+      <span>5 questões</span><span>Feedback imediato</span><span>Análise das 4 alternativas</span><span>Progresso salvo</span>
+    </div>
+  </section>
+
+  <div id="network-error" class="aq-alert" role="alert" hidden></div>
+  <div id="aq-activity" aria-live="polite">
+    <section class="aq-card">
+      <h2>Carregando AgoraQuest…</h2>
+      <p class="aq-muted">Conferindo seu acesso e suas respostas salvas.</p>
+    </section>
+  </div>
+  <p id="save-status" class="aq-save" role="status"></p>
+</main>
+
+<footer class="aq-footer">AGORAMED <span>·</span> Pronto para o plantão</footer>
+
+<dialog id="history-dialog" class="aq-dialog" aria-labelledby="history-title">
+  <div class="aq-dialog-head">
+    <div><p class="aq-eyebrow">SEU PERCURSO</p><h2 id="history-title">Tentativas</h2></div>
+    <button type="button" class="aq-btn ghost compact" data-close autofocus>Fechar ×</button>
+  </div>
+  <div class="aq-dialog-body" id="history-content"></div>
+</dialog>
+
+<dialog id="notebook-dialog" class="aq-dialog" aria-labelledby="notebook-title">
+  <div class="aq-dialog-head">
+    <div><p class="aq-eyebrow">REVISÃO DIRECIONADA</p><h2 id="notebook-title">Caderno de erros</h2></div>
+    <button type="button" class="aq-btn ghost compact" data-close autofocus>Fechar ×</button>
+  </div>
+  <div class="aq-dialog-body" id="notebook-content"></div>
+</dialog>
+
+<dialog id="restart-dialog" class="aq-dialog compact-dialog" aria-labelledby="restart-title">
+  <div class="aq-dialog-body">
+    <h2 id="restart-title">Iniciar uma nova tentativa?</h2>
+    <p>A tentativa atual continuará salva no histórico. Você voltará à primeira questão com novas respostas.</p>
+    <div class="aq-actions">
+      <button type="button" class="aq-btn ghost" data-close autofocus>Continuar nesta tentativa</button>
+      <button type="button" class="aq-btn primary" id="restart-confirm">Iniciar nova tentativa</button>
+    </div>
+  </div>
+</dialog>
+
+<noscript>Ative o JavaScript para participar da prática interativa.</noscript>
+<script src="js/agoraquest.js?v=1" defer></script>
+</body>
+</html>

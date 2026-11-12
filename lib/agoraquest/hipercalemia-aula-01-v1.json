@@ -1,0 +1,106 @@
+{
+  "slug": "hipercalemia-aula-01-v1",
+  "versao": 1,
+  "title": "AgoraQuest — Hipercalemia",
+  "subtitle": "Cinco decisões de plantão sobre hipercalemia em adultos",
+  "intro": "Cinco casos clínicos para treinar decisões rápidas e seguras diante da hipercalemia. Responda uma questão por vez: ao confirmar, a alternativa fica bloqueada e o comentário aparece imediatamente, com a análise das quatro alternativas, a pérola do plantão e a referência. Você pode refazer a prática quantas vezes quiser; o histórico e o caderno de erros ficam salvos na sua conta.",
+  "closing": "Hipercalemia é uma emergência que exige leitura do contexto, não apenas do número. Valor absoluto, velocidade de elevação, sintomas, ECG, função renal e tendência ao longo do tempo mudam a prioridade. O ECG pode ser normal em pacientes graves, e alterações elétricas novas podem definir emergência mesmo com potássio abaixo de 6,5 mEq/L. Revise o caderno de erros e volte aos casos em que a decisão não foi imediata.",
+  "references": "UpToDate. Hyperkalemia in adults. https://www.uptodate.com/contents/hyperkalemia-in-adults",
+  "questions": [
+    {
+      "number": 1,
+      "title": "O valor isolado já exige ação?",
+      "stem": "Um homem de 62 anos procura a emergência por mal-estar inespecífico. Está consciente, hemodinamicamente estável e sem alterações eletrocardiográficas evidentes. O laboratório informa potássio sérico de 6,9 mEq/L.\n\n**Qual é a conduta mais adequada?**",
+      "choices": {
+        "A": "Como o ECG está normal, repetir o potássio em 24 horas.",
+        "B": "Considerar uma emergência hipercalêmica, iniciar monitorização e tratamento imediato, avaliando simultaneamente a possibilidade de pseudohipercalemia.",
+        "C": "Aguardar o aparecimento de ondas T apiculadas antes de iniciar o tratamento.",
+        "D": "Liberar o paciente após orientação alimentar, pois não apresenta sintomas cardíacos."
+      },
+      "feedback": {
+        "A": "Adiar a conduta por 24 horas pressupõe que um ECG normal exclua risco. Isso não é verdade: as alterações eletrocardiográficas da hipercalemia são tardias e insensíveis, e um potássio de 6,9 mEq/L já configura hipercalemia grave. O paciente pode evoluir com bloqueio de condução ou arritmia ventricular antes de qualquer nova dosagem. A conduta correta é tratar e investigar a causa, não postergar.",
+        "B": "Potássio sérico de 6,9 mEq/L é hipercalemia grave, mesmo com ECG normal e estabilidade hemodinâmica. O ECG pode não mostrar alterações em uma parcela importante dos pacientes, e o risco elétrico não é linear. A conduta é colocar em monitorização, garantir acesso venoso, suspender o aporte de potássio, tratar imediatamente e, em paralelo, repetir a dosagem com coleta cuidadosa para afastar pseudohipercalemia (hemólise, trombocitose, leucocitose, garrote prolongado). Não se espera sintoma ou alteração de ECG para agir.",
+        "C": "Esperar ondas T apiculadas é uma estratégia perigosa. As ondas T apiculadas são apenas uma das manifestações e podem estar ausentes, especialmente em pacientes com doença renal crônica, uso de marca-passo ou alterações prévias do ECG. O primeiro sinal pode ser um alargamento de QRS ou um ritmo bradicárdico. O tratamento não deve aguardar uma alteração que pode nunca aparecer.",
+        "D": "A ausência de sintomas cardíacos não torna segura uma hipercalemia de 6,9 mEq/L. O paciente pode estar assintomático e, ainda assim, apresentar risco de arritmia maligna. Liberar com orientação alimentar sem monitorização, sem tratar e sem investigar a causa é inadequado. A orientação dietética é adjuvante e nunca substitui a avaliação e o tratamento da hipercalemia grave."
+      },
+      "correctExplanation": "Um potássio de 6,9 mEq/L configura hipercalemia grave. A ausência de alterações no ECG não exclui risco, porque o ECG é insensível e pode se manter normal até estágios avançados. A conduta é monitorizar, tratar imediatamente e, em paralelo, avaliar pseudohipercalemia com nova coleta cuidadosa. Não se espera sintoma, alteração de ECG ou novo limiar para agir.",
+      "pearl": "ECG normal não é salvo-conduto: potássio ≥ 6,5 mEq/L ou elevação rápida já exige monitorização e tratamento."
+    },
+    {
+      "number": 2,
+      "title": "O ECG muda a prioridade?",
+      "stem": "Uma mulher de 70 anos, com doença renal crônica, apresenta potássio de 6,1 mEq/L. O ECG mostra ondas T apiculadas, achatamento das ondas P e alargamento do QRS, alterações novas em relação ao traçado anterior.\n\n**Qual é a melhor interpretação?**",
+      "choices": {
+        "A": "O potássio está abaixo de 6,5 mEq/L, portanto não há indicação de tratamento imediato.",
+        "B": "As alterações só têm importância se o potássio ultrapassar 7,0 mEq/L.",
+        "C": "O quadro representa uma emergência hipercalêmica com comprometimento elétrico, exigindo estabilização cardíaca e tratamento imediato.",
+        "D": "É necessário repetir o ECG após seis horas antes de definir a conduta."
+      },
+      "feedback": {
+        "A": "O valor de 6,1 mEq/L não exclui gravidade quando existem alterações eletrocardiográficas novas. As manifestações elétricas podem surgir com potássio abaixo de 6,5 mEq/L, sobretudo em doença renal crônica, e são o marcador mais importante de risco imediato. O ECG alterado exige estabilização da membrana, não observação. O número isolado não deve ser usado como único critério de decisão.",
+        "B": "Não existe um limiar rígido de 7,0 mEq/L para que as alterações de ECG importem. Ondas T apiculadas, achatamento de P e alargamento de QRS são sinais de toxicidade elétrica e podem preceder arritmias graves. Em uma paciente com doença renal crônica, a reserva de condução pode ser menor. A prioridade é tratar a emergência elétrica, independentemente de o potássio estar em 6,1 mEq/L.",
+        "C": "A tríade de ondas T apiculadas, achatamento das ondas P e alargamento do QRS, quando nova, indica comprometimento elétrico e define emergência hipercalêmica. O tratamento deve ser imediato: estabilização da membrana com cálcio intravenoso quando há alterações no ECG, medidas para deslocar o potássio para o intracelular e estratégias para removê-lo do organismo. O valor de 6,1 mEq/L não reduz a urgência diante desses achados.",
+        "D": "Repetir o ECG após seis horas é uma conduta insegura. O alargamento do QRS é um sinal de risco iminente de bloqueio avançado e arritmia ventricular. O tempo de espera pode ser suficiente para deterioração clínica. O ECG deve ser monitorizado de forma contínua, e a conduta deve ser iniciada imediatamente, sem aguardar novo traçado."
+      },
+      "correctExplanation": "Alterações eletrocardiográficas novas — ondas T apiculadas, achatamento das ondas P e alargamento do QRS — indicam toxicidade elétrica e definem emergência, mesmo com potássio de 6,1 mEq/L. O tratamento deve ser imediato, com estabilização da membrana quando há alterações no ECG, medidas para deslocar o potássio para o intracelular e estratégias para removê-lo. O valor absoluto não deve atrasar a conduta.",
+      "pearl": "Quem manda é o ECG: alteração elétrica nova é emergência, mesmo com potássio abaixo de 6,5 mEq/L."
+    },
+    {
+      "number": 3,
+      "title": "Bradicardia com potássio elevado",
+      "stem": "Um homem de 76 anos, em uso de carvedilol e com piora recente da função renal, apresenta potássio de 5,9 mEq/L, frequência cardíaca de 35 bpm e pressão arterial de 85/50 mmHg.\n\n**Qual é a melhor decisão inicial?**",
+      "choices": {
+        "A": "Desconsiderar a hipercalemia como fator relevante, pois o potássio está abaixo de 6,5 mEq/L.",
+        "B": "Reconhecer uma possível emergência associada à hipercalemia, iniciar monitorização, suporte hemodinâmico e tratamento imediato, considerando a possibilidade de síndrome BRASH.",
+        "C": "Aguardar o potássio ultrapassar 6,5 mEq/L para iniciar medidas específicas.",
+        "D": "Tratar apenas a bradicardia, sem investigar a função renal ou o potássio."
+      },
+      "feedback": {
+        "A": "O potássio de 5,9 mEq/L não pode ser descartado quando o paciente está bradicárdico, hipotenso e com piora recente da função renal. A hipercalemia pode causar bradicardia e bloqueios, e a combinação com bloqueador do nó atrioventricular (carvedilol) e disfunção renal sugere a síndrome BRASH. A decisão não deve se basear apenas no número, mas no contexto hemodinâmico e elétrico.",
+        "B": "O quadro reúne bradicardia importante, hipotensão, uso de betabloqueador, piora renal e hipercalemia, uma combinação compatível com síndrome BRASH (bradicardia, falência renal, bloqueio atrioventricular, choque e hipercalemia). A conduta inicial é reconhecer a gravidade, monitorizar, garantir suporte hemodinâmico, suspender o bloqueador do nó atrioventricular, tratar a hipercalemia e avaliar necessidade de marca-passo. O potássio de 5,9 mEq/L não exclui a emergência.",
+        "C": "Aguardar o potássio ultrapassar 6,5 mEq/L ignora que a toxicidade depende do contexto. Um paciente com bradicardia de 35 bpm, pressão de 85/50 mmHg, disfunção renal e betabloqueador pode deteriorar antes de nova dosagem. O limiar de 6,5 mEq/L não é uma regra absoluta para iniciar tratamento, especialmente quando há repercussão hemodinâmica ou elétrica.",
+        "D": "Tratar apenas a bradicardia sem investigar potássio e função renal é uma conduta incompleta. A bradicardia pode ser consequência da hipercalemia e da síndrome BRASH; nesse contexto, o tratamento precisa incluir a correção do distúrbio metabólico, a revisão de fármacos e o suporte hemodinâmico. Ignorar o potássio pode perpetuar a instabilidade e atrasar a medida que muda o prognóstico."
+      },
+      "correctExplanation": "A combinação de bradicardia importante, hipotensão, uso de carvedilol, piora da função renal e potássio de 5,9 mEq/L é compatível com síndrome BRASH. A conduta inicial inclui monitorização, suporte hemodinâmico, suspensão do bloqueador do nó atrioventricular, tratamento da hipercalemia e avaliação de marca-passo. O limiar de 6,5 mEq/L não deve ser usado de forma rígida quando há repercussão hemodinâmica.",
+      "pearl": "Bradicardia + hipotensão + disfunção renal + bloqueador AV + hipercalemia: pense em BRASH e trate o conjunto, não só o número."
+    },
+    {
+      "number": 4,
+      "title": "A velocidade de elevação importa?",
+      "stem": "Um homem de 45 anos, internado após esmagamento muscular, apresenta lesão renal aguda oligúrica. O potássio passou de 4,4 para 5,8 mEq/L em três horas. O ECG ainda não apresenta alterações características.\n\n**Qual é a melhor conduta?**",
+      "choices": {
+        "A": "Aguardar o potássio ultrapassar 6,5 mEq/L, pois o ECG está normal.",
+        "B": "Considerar a elevação pouco relevante porque o paciente não apresenta alterações eletrocardiográficas.",
+        "C": "Solicitar uma nova dosagem apenas no dia seguinte, evitando intervenções desnecessárias.",
+        "D": "Reconhecer o alto risco de progressão rápida, iniciar monitorização e tratamento urgente, com reavaliações seriadas e planejamento da remoção do potássio."
+      },
+      "feedback": {
+        "A": "Esperar o potássio ultrapassar 6,5 mEq/L é inadequado diante de uma elevação de 4,4 para 5,8 mEq/L em três horas em um paciente com rabdomiólise e lesão renal aguda oligúrica. A velocidade de elevação e a incapacidade de excretar potássio indicam alto risco de progressão. O ECG normal não protege contra arritmia súbita. A monitorização e o tratamento devem começar antes de novo limiar.",
+        "B": "A ausência de alterações eletrocardiográficas não torna a elevação irrelevante. Em pacientes com rabdomiólise, lesão renal aguda e oligúria, o potássio pode subir rapidamente e a reserva elétrica pode se esgotar em pouco tempo. O ECG é um marcador insensível e pode permanecer normal até estágios avançados. A tendência ascendente é um dado de risco que exige ação.",
+        "C": "Solicitar nova dosagem apenas no dia seguinte é perigoso. Um aumento de 1,4 mEq/L em três horas, em um paciente com liberação contínua de potássio pela rabdomiólise e clearance renal reduzido, pode evoluir para hipercalemia grave em poucas horas. A reavaliação deve ser seriada e frequente, com monitorização, e não postergada por 24 horas.",
+        "D": "O paciente apresenta alto risco de progressão rápida: rabdomiólise, lesão renal aguda oligúrica e elevação de 1,4 mEq/L em três horas. O ECG ainda normal não exclui risco. A conduta é monitorizar, tratar urgentemente, reavaliar potássio e ECG de forma seriada e planejar a remoção do potássio, considerando diálise se houver refratariedade ou oligúria persistente. A velocidade da elevação é tão importante quanto o valor absoluto."
+      },
+      "correctExplanation": "A elevação de 4,4 para 5,8 mEq/L em três horas, em um paciente com rabdomiólise e lesão renal aguda oligúrica, indica alto risco de progressão rápida. O ECG normal não exclui risco. A conduta é monitorizar, tratar urgentemente, reavaliar potássio e ECG de forma seriada e planejar a remoção do potássio, considerando diálise se necessário.",
+      "pearl": "A curva do potássio importa: elevação rápida com oligúria e rabdomiólise é emergência mesmo com ECG ainda normal."
+    },
+    {
+      "number": 5,
+      "title": "Quem precisa de tratamento imediato?",
+      "stem": "Durante o plantão, você recebe os resultados de quatro pacientes. Qual deles apresenta a situação de menor urgência para redução imediata do potássio, considerando as informações disponíveis?",
+      "choices": {
+        "A": "Paciente com potássio de 6,8 mEq/L, assintomático e ECG sem alterações.",
+        "B": "Paciente com potássio de 5,8 mEq/L, bradicardia importante e QRS alargado de início recente.",
+        "C": "Paciente com potássio de 5,3 mEq/L, doença renal crônica estável, ECG sem alterações, diurese preservada e valores semelhantes nos últimos meses.",
+        "D": "Paciente com potássio de 6,0 mEq/L, lesão renal aguda oligúrica e rabdomiólise em evolução."
+      },
+      "feedback": {
+        "A": "O paciente com potássio de 6,8 mEq/L, mesmo assintomático e com ECG sem alterações, não é o de menor urgência. Valores ≥ 6,5 mEq/L configuram hipercalemia grave, e o ECG pode ser insensível. Há risco de progressão para arritmia, sobretudo se a elevação for recente ou se houver disfunção renal. Esse paciente precisa de monitorização e tratamento, ainda que a apresentação pareça estável.",
+        "B": "Este é um quadro de alta urgência: bradicardia importante com QRS alargado de início recente sugere comprometimento elétrico pela hipercalemia. A combinação de potássio de 5,8 mEq/L com bradicardia e alargamento de QRS pode preceder bloqueio avançado ou arritmia ventricular. A conduta é emergencial, com monitorização e tratamento imediato, independentemente de o potássio estar abaixo de 6,5 mEq/L.",
+        "C": "O paciente com potássio de 5,3 mEq/L, doença renal crônica estável, ECG sem alterações, diurese preservada e valores semelhantes nos últimos meses apresenta a situação de menor urgência relativa entre os quatro. A cronicidade, a estabilidade clínica e a ausência de repercussão elétrica reduzem a necessidade de redução imediata. Ainda assim, exige reavaliação, revisão de dieta e fármacos e seguimento da função renal.",
+        "D": "O paciente com potássio de 6,0 mEq/L, lesão renal aguda oligúrica e rabdomiólise em evolução tem alto risco de elevação rápida e progressiva. A liberação contínua de potássio pelo músculo lesionado e a reduzida capacidade de excreção renal podem levar a hipercalemia grave em horas. A ausência de menção a alterações de ECG não tranquiliza; esse cenário exige monitorização e tratamento urgente."
+      },
+      "correctExplanation": "O paciente com potássio de 5,3 mEq/L, doença renal crônica estável, ECG sem alterações, diurese preservada e valores semelhantes nos últimos meses apresenta a menor urgência relativa. A cronicidade e a estabilidade reduzem a necessidade de redução imediata, embora ainda exijam reavaliação e seguimento. Os demais cenários combinam hipercalemia grave, comprometimento elétrico ou risco de elevação rápida.",
+      "pearl": "Urgência não é só o número: sintomas, ECG, velocidade de elevação, função renal e tendência definem o risco."
+    }
+  ]
+}
