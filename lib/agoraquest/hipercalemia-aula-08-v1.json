@@ -1,0 +1,162 @@
+{
+  "slug": "hipercalemia-aula-08-v1",
+  "versao": 1,
+  "title": "Hipercalemia — Aula 08",
+  "subtitle": "Manifestações clínicas e sinais de alarme",
+  "intro": "Cinco casos sobre as manifestações clínicas da hipercalemia: fraqueza neuromuscular, bradicardia com instabilidade hemodinâmica, elevação rápida do potássio, paciente assintomático com ECG normal e priorização de múltiplos pacientes. Em cada um, a pergunta central é a mesma — quais sinais de alarme indicam deterioração iminente? Responda uma questão por vez: ao confirmar, a alternativa fica bloqueada e o comentário aparece imediatamente, com a análise das quatro alternativas, a pérola do plantão e a fundamentação. Você pode refazer a prática quantas vezes quiser; o histórico e o caderno de erros ficam salvos na sua conta.",
+  "closing": "A hipercalemia pode comprometer tanto a excitabilidade cardíaca quanto a muscular esquelética. Fraqueza progressiva, bradicardia, instabilidade hemodinâmica, alteração da consciência e distúrbios de condução são sinais de alarme. A ausência de sintomas ou de alterações típicas no ECG não exclui risco. A velocidade de elevação e o contexto clínico importam tanto quanto o valor absoluto. Na priorização, olhe para o paciente e para o monitor, não apenas para o número do laboratório.",
+  "references": "UpToDate. Hyperkalemia in adults. https://www.uptodate.com/contents/hyperkalemia-in-adults",
+  "key": ["C", "D", "B", "D", "C"],
+  "questions": [
+    {
+      "number": 1,
+      "title": "As pernas pararam de responder",
+      "competency": "Reconhecer manifestações neuromusculares graves da hipercalemia",
+      "stem": "Um homem de 62 anos, com doença renal crônica avançada, procura a emergência por fraqueza progressiva nos membros inferiores iniciada há aproximadamente seis horas.\n\nInicialmente, percebeu dificuldade para subir escadas. Nas últimas duas horas, passou a necessitar de ajuda para ficar em pé.\n\nNega dor lombar, trauma ou alterações sensitivas.\n\nAo exame físico:\n\n- Consciente e orientado.\n- Força muscular grau 2/5 nos membros inferiores e 4/5 nos superiores.\n- Sensibilidade preservada.\n- Sem assimetria facial ou alterações da fala.\n- Frequência cardíaca de 58 bpm.\n- Pressão arterial de 138/82 mmHg.\n\nOs exames laboratoriais mostram:",
+      "table": {
+        "caption": "Exames",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Potássio", "7,2 mEq/L"],
+          ["Creatinina", "4,8 mg/dL"],
+          ["Bicarbonato", "19 mEq/L"],
+          ["Glicemia", "126 mg/dL"]
+        ]
+      },
+      "stemAfter": "O ECG apresenta ondas T apiculadas e discreto prolongamento do intervalo PR.\n\nUm interno comenta:\n\n“Ele está acordado, sem dor torácica e com pressão normal. Talvez essa fraqueza não tenha relação com o potássio.”\n\n**Qual interpretação é mais adequada?**",
+      "choices": {
+        "A": "A hipercalemia provoca exclusivamente manifestações cardíacas; a fraqueza muscular deve ser atribuída obrigatoriamente a outra doença.",
+        "B": "A preservação da sensibilidade exclui uma manifestação neuromuscular relacionada à hipercalemia.",
+        "C": "A hipercalemia grave pode provocar fraqueza muscular progressiva e até paralisia flácida, constituindo manifestação clínica de emergência, mesmo sem hipotensão ou alteração da consciência.",
+        "D": "A fraqueza muscular só pode ser atribuída à hipercalemia após o aparecimento de arritmia ventricular."
+      },
+      "feedback": {
+        "A": "A hipercalemia pode comprometer tanto a excitabilidade cardíaca quanto a muscular esquelética. Fraqueza progressiva e paralisia são manifestações reconhecidas de hipercalemia grave.",
+        "B": "A sensibilidade pode permanecer preservada na fraqueza associada à hipercalemia. Esse achado não exclui comprometimento da excitabilidade muscular.",
+        "C": "Reconhece uma manifestação neuromuscular grave e sua relevância clínica, independentemente da presença de hipotensão ou alteração da consciência.",
+        "D": "A manifestação muscular pode ocorrer sem arritmia ventricular. Não é necessário aguardar deterioração cardíaca para reconhecer a gravidade."
+      },
+      "correctExplanation": "A hipercalemia é frequentemente associada às alterações eletrocardiográficas, mas suas manifestações não se limitam ao coração.\n\nO músculo esquelético também depende do gradiente de potássio entre os meios intracelular e extracelular para manter a excitabilidade da membrana.\n\nQuando a concentração extracelular de potássio aumenta, o potencial de repouso torna-se menos negativo.\n\nInicialmente, essa alteração pode aproximar a membrana do limiar de excitabilidade. Entretanto, quando a despolarização se torna suficientemente intensa e sustentada, parte dos canais de sódio dependentes de voltagem permanece inativada.\n\nComo consequência, a fibra muscular perde a capacidade de gerar e propagar potenciais de ação adequadamente.\n\nClinicamente, isso pode se manifestar como fraqueza muscular progressiva e, em casos graves, paralisia flácida.\n\nA fraqueza associada à hipercalemia pode apresentar padrão ascendente, começando pelos membros inferiores e progredindo para o tronco e os membros superiores.\n\nA sensibilidade e a função dos nervos cranianos costumam estar preservadas, embora isso não seja suficiente para estabelecer o diagnóstico isoladamente.\n\nO quadro pode simular outras condições neurológicas, como a síndrome de Guillain-Barré.\n\nNeste paciente, entretanto, existe uma combinação muito sugestiva:\n\n- Fraqueza muscular progressiva.\n- Potássio de 7,2 mEq/L.\n- Doença renal avançada.\n- Alterações eletrocardiográficas compatíveis com hipercalemia.\n\nA presença de fraqueza muscular importante associada à hipercalemia grave representa um sinal de alarme e exige tratamento emergencial.\n\nIsso não dispensa avaliação de diagnósticos neurológicos alternativos quando apropriado, mas impede que a correção do potássio seja postergada.\n\n**O paciente não precisa apresentar dor torácica, hipotensão ou perda de consciência para estar em uma emergência hipercalêmica.**",
+      "pearl": "Fraqueza muscular progressiva em um paciente com risco de hipercalemia deve acender um alerta imediato. Não espere aparecer uma arritmia para reconhecer que o potássio já pode estar comprometendo a excitabilidade celular.",
+      "reference": "UpToDate — Clinical manifestations of hyperkalemia in adults, seção “Severe muscle weakness or paralysis”; Treatment and prevention of hyperkalemia in adults, seção “Determining the urgency of therapy”."
+    },
+    {
+      "number": 2,
+      "title": "A bradicardia não é apenas um número",
+      "competency": "Identificar instabilidade cardíaca potencialmente associada à hipercalemia",
+      "stem": "Um homem de 76 anos, com doença renal crônica e insuficiência cardíaca, é levado à emergência após apresentar tontura intensa e episódio de quase desmaio.\n\nUtiliza carvedilol, espironolactona e losartana.\n\nNa admissão:",
+      "table": {
+        "caption": "Exames",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Frequência cardíaca", "32 bpm"],
+          ["Pressão arterial", "82/48 mmHg"],
+          ["Potássio", "6,4 mEq/L"],
+          ["Creatinina", "3,1 mg/dL"]
+        ]
+      },
+      "stemAfter": "O monitor mostra bradicardia importante. O ECG de 12 derivações evidencia ritmo juncional lento e alargamento do QRS.\n\nUm residente afirma:\n\n“Como o potássio ainda não chegou a 7,0 mEq/L, a bradicardia provavelmente é causada apenas pelo betabloqueador.”\n\n**Qual interpretação melhor orienta a avaliação inicial?**",
+      "choices": {
+        "A": "A hipercalemia não provoca bradicardia importante em concentrações inferiores a 7,0 mEq/L.",
+        "B": "A presença de betabloqueador exclui a participação da hipercalemia na alteração do ritmo.",
+        "C": "A pressão arterial baixa demonstra que o potássio elevado é apenas consequência da bradicardia, sem participação no distúrbio de condução.",
+        "D": "A combinação de hipercalemia, bradicardia importante, alterações de condução e instabilidade hemodinâmica representa um sinal de alarme, podendo haver interação entre o potássio elevado e medicamentos que reduzem a condução atrioventricular."
+      },
+      "feedback": {
+        "A": "A hipercalemia pode produzir manifestações cardíacas em concentrações inferiores a 7,0 mEq/L, especialmente quando existe elevação rápida, doença de condução ou interação com medicamentos.",
+        "B": "O uso de betabloqueador não exclui a participação do potássio. Pelo contrário, os dois fatores podem atuar de forma sinérgica, agravando a bradicardia.",
+        "C": "A relação pode ser bidirecional: a bradicardia e a instabilidade podem comprometer a perfusão renal, enquanto a hipercalemia pode agravar a alteração elétrica. Não é adequado reduzir o quadro a uma única direção causal.",
+        "D": "Integra a instabilidade clínica, a alteração eletrocardiográfica e a possível interação entre hipercalemia e bloqueio atrioventricular farmacológico."
+      },
+      "correctExplanation": "Esta questão aborda uma das apresentações mais perigosas da hipercalemia: a deterioração da condução elétrica cardíaca.\n\nO aumento da concentração extracelular de potássio modifica o potencial de membrana dos cardiomiócitos.\n\nQuando essa alteração se torna significativa, ocorre inativação de canais de sódio, com redução da velocidade de despolarização e da condução elétrica em tecidos dependentes desses canais.\n\nO resultado pode incluir prolongamento de intervalos, alargamento do QRS, bradicardia e ritmos de escape.\n\nA hipercalemia também pode estar associada a arritmias ventriculares e assistolia.\n\nEntretanto, a gravidade das manifestações elétricas não depende exclusivamente do valor absoluto do potássio.\n\nNeste paciente, existe outro elemento importante: o uso de carvedilol.\n\nMedicamentos que reduzem a condução atrioventricular podem potencializar a bradicardia em pacientes com hipercalemia e disfunção renal.\n\nEssa interação faz parte do raciocínio clínico da síndrome BRASH, que envolve bradicardia, disfunção renal, bloqueio atrioventricular farmacológico, choque e hipercalemia.\n\nO quadro apresentado é compatível com essa possibilidade, embora sua confirmação exija integração clínica.\n\nNa síndrome BRASH, a bradicardia pode ser desproporcional ao grau de elevação do potássio.\n\nO ponto mais importante é reconhecer que o paciente apresenta instabilidade hemodinâmica e alteração elétrica relevante.\n\n**Não existe um valor único de potássio abaixo do qual a hipercalemia seja incapaz de provocar manifestações cardíacas graves.**\n\nA abordagem deve reconhecer a possibilidade de emergência hipercalêmica e não atribuir automaticamente toda a bradicardia ao betabloqueador.",
+      "pearl": "Bradicardia importante em paciente com disfunção renal e potássio elevado exige pensar em hipercalemia, mesmo quando o valor não parece extremamente alto. Se houver uso de bloqueadores do nó atrioventricular, considere a possibilidade de BRASH.",
+      "reference": "UpToDate — Clinical manifestations of hyperkalemia in adults, seção “Cardiac manifestations”; Treatment and prevention of hyperkalemia in adults, seção “Determining the urgency of therapy”."
+    },
+    {
+      "number": 3,
+      "title": "O potássio subiu rápido demais",
+      "competency": "Reconhecer a velocidade de elevação como determinante do risco",
+      "stem": "Uma mulher de 48 anos é internada após sofrer politraumatismo com lesão muscular extensa.\n\nNa admissão, apresentava potássio de 4,3 mEq/L, creatinina de 1,0 mg/dL e ECG sem alterações relevantes.\n\nQuatro horas depois, a paciente apresenta fraqueza muscular, palpitações e sensação de mal-estar.\n\nUma nova avaliação mostra:",
+      "table": {
+        "caption": "Exames",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Potássio inicial", "4,3 mEq/L"],
+          ["Potássio atual", "6,2 mEq/L"],
+          ["Creatinoquinase", "32.000 U/L"],
+          ["Creatinina atual", "1,5 mg/dL"],
+          ["Frequência cardíaca", "112 bpm"]
+        ]
+      },
+      "stemAfter": "O ECG apresenta ondas T apiculadas, não observadas no traçado anterior.\n\nUm interno comenta:\n\n“Já vimos pacientes com potássio de 6,2 mEq/L que estavam completamente assintomáticos. Talvez possamos aguardar.”\n\n**Qual interpretação é mais adequada?**",
+      "choices": {
+        "A": "A velocidade de elevação do potássio não interfere na gravidade; somente o valor absoluto determina o risco de manifestações clínicas.",
+        "B": "A elevação rápida do potássio pode provocar manifestações neuromusculares e cardíacas em concentrações menores do que aquelas toleradas por alguns pacientes com hipercalemia crônica, especialmente quando existe liberação celular contínua.",
+        "C": "A creatinoquinase elevada protege o miocárdio contra os efeitos elétricos da hipercalemia.",
+        "D": "A presença de taquicardia exclui manifestações cardíacas relacionadas à hipercalemia, pois essa condição provoca exclusivamente bradicardia."
+      },
+      "feedback": {
+        "A": "O valor absoluto é importante, mas não determina sozinho a gravidade. A velocidade de elevação, as manifestações clínicas e o contexto fisiopatológico influenciam o risco.",
+        "B": "Reconhece a importância da elevação rápida e da liberação celular contínua. Também evita a interpretação equivocada de que a ausência de sintomas em outro paciente com valor semelhante significa segurança neste caso.",
+        "C": "A creatinoquinase é um marcador de lesão muscular, não um fator de proteção cardíaca. A rabdomiólise pode aumentar o risco de hipercalemia pela liberação de potássio intracelular.",
+        "D": "A hipercalemia pode provocar diferentes manifestações elétricas. A presença de taquicardia não exclui toxicidade cardíaca, especialmente quando existem alterações eletrocardiográficas novas e sintomas associados."
+      },
+      "correctExplanation": "Um dos erros mais perigosos na avaliação da hipercalemia é interpretar sua gravidade exclusivamente pelo valor absoluto do potássio.\n\nEmbora a concentração sérica seja fundamental, a velocidade de elevação também influencia o risco clínico.\n\nPacientes com hipercalemia crônica podem apresentar concentrações persistentemente elevadas sem manifestações clínicas evidentes. Isso não significa que estejam livres de risco, mas demonstra que a relação entre concentração sérica e manifestações clínicas não é perfeitamente previsível.\n\nQuando o potássio aumenta rapidamente, pode haver alterações importantes da excitabilidade muscular e cardíaca antes que o organismo consiga se adaptar à nova condição.\n\nNeste caso, a concentração aumentou de 4,3 para 6,2 mEq/L em apenas quatro horas.\n\nEssa elevação ocorreu em um contexto de lesão muscular extensa, sugerindo liberação de potássio intracelular.\n\nA creatinoquinase elevada reforça a presença de lesão muscular, mas não é a responsável direta pela alteração elétrica.\n\nOutro elemento fundamental é o surgimento de sintomas e alterações eletrocardiográficas que não estavam presentes anteriormente.\n\nA paciente passou a apresentar fraqueza, palpitações e ondas T apiculadas.\n\nPortanto, a gravidade não deve ser avaliada apenas comparando o potássio atual com um limite numérico.\n\nÉ necessário considerar:\n\n- A velocidade de elevação.\n- A presença de manifestações clínicas.\n- As alterações eletrocardiográficas.\n- A possibilidade de liberação contínua de potássio.\n- A capacidade renal de excreção.\n\n**Dois pacientes com o mesmo potássio sérico podem apresentar riscos clínicos diferentes.**\n\nNo cenário descrito, os sintomas e as alterações elétricas justificam abordagem emergencial, sem aguardar uma concentração ainda maior.",
+      "pearl": "Não pergunte apenas “quanto está o potássio?”. Pergunte também “quanto estava antes e em quanto tempo chegou aqui?”. Uma elevação rápida pode ser mais perigosa do que o número isolado sugere.",
+      "reference": "UpToDate — Clinical manifestations of hyperkalemia in adults, seções sobre manifestações neuromusculares e cardíacas; Treatment and prevention of hyperkalemia in adults, seção “Determining the urgency of therapy”."
+    },
+    {
+      "number": 4,
+      "title": "Ele não sente nada. Podemos ficar tranquilos?",
+      "competency": "Evitar falsa segurança diante da ausência de sintomas",
+      "stem": "Um homem de 66 anos, com doença renal crônica avançada, é encaminhado à emergência após um exame ambulatorial identificar potássio de 7,1 mEq/L.\n\nO paciente afirma estar bem e nega fraqueza, palpitações, tontura ou dor torácica.\n\nNa avaliação inicial:",
+      "table": {
+        "caption": "Exames",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Potássio", "7,1 mEq/L"],
+          ["Creatinina", "5,2 mg/dL"],
+          ["Frequência cardíaca", "76 bpm"],
+          ["Pressão arterial", "142/86 mmHg"]
+        ]
+      },
+      "stemAfter": "A amostra não apresenta hemólise relevante.\n\nO ECG mostra ritmo sinusal, sem alterações características de hipercalemia.\n\nUm residente comenta:\n\n“Como ele está assintomático e o ECG está normal, provavelmente podemos apenas orientar retorno ambulatorial.”\n\n**Qual interpretação é mais adequada?**",
+      "choices": {
+        "A": "A ausência de sintomas demonstra que a concentração elevada de potássio não representa risco imediato.",
+        "B": "O ECG sem alterações características exclui toxicidade cardíaca relacionada à hipercalemia.",
+        "C": "A presença de doença renal crônica significa que o organismo desenvolveu proteção completa contra os efeitos do potássio elevado.",
+        "D": "A hipercalemia grave pode estar presente sem sintomas ou alterações eletrocardiográficas típicas; o potássio de 7,1 mEq/L exige avaliação e tratamento emergenciais, mesmo diante de aparente estabilidade clínica."
+      },
+      "feedback": {
+        "A": "A hipercalemia pode ser assintomática. A ausência de manifestações clínicas não demonstra segurança, especialmente diante de concentrações graves.",
+        "B": "O ECG apresenta sensibilidade limitada para identificar hipercalemia e prever eventos adversos. Um traçado sem alterações típicas não exclui risco de deterioração.",
+        "C": "A adaptação à hipercalemia crônica não representa proteção completa. Pacientes com doença renal avançada continuam sujeitos a complicações cardíacas graves.",
+        "D": "Reconhece que a ausência de sintomas e alterações típicas no ECG não exclui uma emergência hipercalêmica. A concentração de 7,1 mEq/L exige abordagem urgente."
+      },
+      "correctExplanation": "Esta questão aborda uma armadilha frequente na prática clínica: confundir ausência de manifestações com ausência de risco.\n\nA hipercalemia pode permanecer assintomática mesmo em concentrações significativamente elevadas.\n\nDa mesma forma, o eletrocardiograma pode não apresentar alterações características, apesar da existência de hipercalemia grave.\n\nIsso ocorre porque a relação entre a concentração sérica de potássio e suas manifestações elétricas não é perfeitamente previsível.\n\nEmbora existam alterações eletrocardiográficas classicamente associadas à hipercalemia, sua presença, intensidade e sequência podem variar.\n\nPortanto, um ECG aparentemente normal não deve ser utilizado isoladamente para excluir risco.\n\nNeste paciente, o potássio é de 7,1 mEq/L.\n\nTrata-se de uma elevação grave, especialmente em um contexto de doença renal avançada, no qual a capacidade de eliminação pode estar comprometida.\n\nA ausência de sintomas não elimina o risco de deterioração elétrica.\n\nTambém é importante compreender que pacientes com hipercalemia crônica podem apresentar certa tolerância clínica a concentrações elevadas, mas isso não equivale a proteção completa.\n\nO paciente deve receber avaliação e tratamento emergenciais conforme o contexto e os protocolos aplicáveis.\n\nA monitorização cardíaca e a reavaliação laboratorial fazem parte da abordagem.\n\nA necessidade de repetir a dosagem para excluir interferências pré-analíticas deve ser avaliada sem atrasar indevidamente o tratamento de uma hipercalemia grave.\n\n**A estabilidade clínica é uma informação importante, mas não anula a gravidade de uma concentração sérica muito elevada de potássio.**",
+      "pearl": "O paciente pode estar conversando normalmente enquanto apresenta hipercalemia grave. Não utilize a ausência de sintomas ou um ECG aparentemente normal como autorização para ignorar um potássio perigosamente elevado.",
+      "reference": "UpToDate — Clinical manifestations of hyperkalemia in adults, seção “Cardiac manifestations”; Treatment and prevention of hyperkalemia in adults, seção “Determining the urgency of therapy”."
+    },
+    {
+      "number": 5,
+      "title": "Qual paciente exige sua atenção primeiro?",
+      "competency": "Integrar sinais de alarme para priorização clínica",
+      "stem": "Durante um plantão na emergência, quatro pacientes apresentam hipercalemia confirmada, sem evidências de pseudohipercalemia.\n\nTodos estão sendo avaliados pela equipe.\n\n**Paciente A:** homem de 58 anos, com doença renal crônica, potássio de 5,6 mEq/L, assintomático, ECG sem alterações características e função renal estável.\n\n**Paciente B:** mulher de 64 anos, com doença renal crônica, potássio de 6,0 mEq/L, sem sintomas, ECG sem alterações características e diurese preservada.\n\n**Paciente C:** homem de 73 anos, com doença renal crônica, potássio de 6,2 mEq/L, frequência cardíaca de 29 bpm, pressão arterial de 76/42 mmHg, confusão mental e QRS alargado.\n\n**Paciente D:** mulher de 55 anos, com potássio de 5,8 mEq/L, assintomática, ECG sem alterações características e função renal estável.\n\n**Qual paciente apresenta os sinais de alarme mais evidentes e exige intervenção imediata prioritária?**",
+      "choices": {
+        "A": "Paciente A, porque qualquer hipercalemia associada à doença renal crônica produz necessariamente instabilidade cardíaca.",
+        "B": "Paciente B, porque a concentração de 6,0 mEq/L, isoladamente, indica risco maior do que qualquer manifestação clínica.",
+        "C": "Paciente C, porque apresenta bradicardia extrema, hipotensão, alteração do estado mental e distúrbio de condução, configurando instabilidade grave potencialmente relacionada à hipercalemia.",
+        "D": "Paciente D, porque a ausência de doença renal avançada indica maior probabilidade de arritmia do que nos demais pacientes."
+      },
+      "feedback": {
+        "A": "A doença renal crônica aumenta o risco de hipercalemia, mas não significa que qualquer elevação esteja acompanhada de instabilidade cardíaca. O Paciente A está estável e não apresenta os sinais de alarme observados no Paciente C.",
+        "B": "O valor de 6,0 mEq/L é relevante e exige avaliação, mas a concentração isolada não supera a gravidade de um paciente com bradicardia extrema, hipotensão, confusão mental e alargamento do QRS.",
+        "C": "Integra os achados clínicos e eletrocardiográficos que caracterizam instabilidade grave. O paciente apresenta sinais de possível comprometimento cardiovascular associado à hipercalemia e exige intervenção prioritária.",
+        "D": "A ausência de doença renal avançada não determina maior risco imediato de arritmia. O risco depende de diversos fatores, incluindo manifestações clínicas, alterações elétricas, velocidade de elevação e condições associadas."
+      },
+      "correctExplanation": "Esta questão encerra o AgoraQuest 08 com uma competência fundamental para o plantão: identificar rapidamente qual paciente apresenta maior risco de deterioração.\n\nTodos os pacientes possuem hipercalemia e necessitam de avaliação apropriada.\n\nEntretanto, a prioridade clínica não deve ser determinada exclusivamente pela comparação dos valores laboratoriais.\n\nO Paciente C apresenta uma combinação de sinais de alarme:\n\n- Bradicardia extrema, com frequência cardíaca de 29 bpm.\n- Hipotensão importante, com pressão arterial de 76/42 mmHg.\n- Alteração do estado mental.\n- Alargamento do QRS.\n- Hipercalemia confirmada.\n\nEsses achados sugerem comprometimento hemodinâmico e elétrico grave.\n\nA bradicardia pode reduzir o débito cardíaco e comprometer a perfusão cerebral, contribuindo para confusão mental.\n\nO alargamento do QRS indica distúrbio de condução intraventricular, que pode ocorrer em consequência da toxicidade elétrica da hipercalemia.\n\nA presença simultânea desses achados aumenta a preocupação com deterioração iminente.\n\nNesse contexto, é necessário reconhecer a possibilidade de emergência hipercalêmica e iniciar tratamento imediato, incluindo medidas de estabilização cardíaca quando indicadas.\n\nO raciocínio também deve considerar outras causas de bradicardia e choque, mas essa investigação não deve atrasar a abordagem de uma possível toxicidade cardíaca pelo potássio.\n\nÉ importante observar que os demais pacientes não devem ser ignorados.\n\nA hipercalemia de 6,0 mEq/L, por exemplo, exige avaliação e definição da urgência de tratamento conforme o contexto clínico.\n\nEntretanto, nenhum dos outros três pacientes apresenta a mesma combinação de instabilidade hemodinâmica, alteração de consciência e distúrbio de condução.\n\n**O paciente mais grave não é necessariamente aquele com o maior potássio, mas aquele cuja avaliação revela maior ameaça clínica imediata.**",
+      "pearl": "Na hipercalemia, olhe primeiro para o paciente e para o monitor, não apenas para o número do laboratório. Bradicardia importante, hipotensão, alteração da consciência e distúrbios de condução são sinais de alarme que não podem esperar.",
+      "reference": "UpToDate — Clinical manifestations of hyperkalemia in adults, seção “Cardiac manifestations”; Treatment and prevention of hyperkalemia in adults, seção “Determining the urgency of therapy”."
+    }
+  ]
+}
