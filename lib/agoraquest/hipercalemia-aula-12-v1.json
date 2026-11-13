@@ -1,0 +1,152 @@
+{
+  "slug": "hipercalemia-aula-12-v1",
+  "versao": 1,
+  "title": "Hipercalemia — Aula 12",
+  "subtitle": "Cálcio intravenoso: indicação, objetivo e avaliação da resposta",
+  "intro": "Cinco casos sobre o cálcio intravenoso na hipercalemia: indicação diante de alterações elétricas, mecanismo de ação, avaliação da resposta e repetição da dose, duração limitada do efeito protetor e divergência entre especialistas quando o potássio é alto mas o ECG é normal. Em cada um, a pergunta central é a mesma — quando e por que usar o cálcio? Responda uma questão por vez: ao confirmar, a alternativa fica bloqueada e o comentário aparece imediatamente, com a análise das quatro alternativas, a pérola do plantão e a fundamentação. Você pode refazer a prática quantas vezes quiser; o histórico e o caderno de erros ficam salvos na sua conta.",
+  "closing": "O cálcio protege o coração, mas não baixa o potássio. Ele antagoniza a toxicidade elétrica em minutos, com duração de cerca de 30 a 60 minutos. A melhora do ECG não significa resolução da hipercalemia. A persistência das alterações após cinco minutos pode justificar a repetição da dose. O ECG normal não exclui risco, mas o uso rotineiro de cálcio sem alterações eletrocardiográficas é área de divergência entre especialistas. Conheça o protocolo do seu serviço.",
+  "references": "UpToDate. Hyperkalemia in adults. https://www.uptodate.com/contents/hyperkalemia-in-adults",
+  "key": ["C", "A", "D", "B", "C"],
+  "questions": [
+    {
+      "number": 1,
+      "title": "O QRS está alargando. Vamos esperar o potássio baixar?",
+      "competency": "Reconhecer a indicação de estabilização cardíaca imediata",
+      "stem": "Um homem de 68 anos, com doença renal crônica avançada, procura a emergência por fraqueza intensa e tontura.\n\nNa admissão:",
+      "table": {
+        "caption": "Exames",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Potássio", "6,8 mEq/L"],
+          ["Creatinina", "5,1 mg/dL"],
+          ["Frequência cardíaca", "38 bpm"],
+          ["Pressão arterial", "88/54 mmHg"],
+          ["Glicemia", "124 mg/dL"]
+        ]
+      },
+      "stemAfter": "O ECG apresenta ondas P de baixa amplitude e QRS de 168 ms.\n\nA equipe já iniciou monitorização cardíaca contínua e providenciou acesso venoso.\n\nUm residente sugere:\n\n“Vamos administrar insulina com glicose primeiro. Quando o potássio diminuir, o QRS deve melhorar. Talvez nem precisemos do cálcio.”\n\n**Qual é a conduta mais adequada?**",
+      "choices": {
+        "A": "Administrar insulina com glicose e aguardar a próxima dosagem de potássio antes de decidir sobre o cálcio.",
+        "B": "Priorizar a hemodiálise e evitar o cálcio, pois ele não remove potássio do organismo.",
+        "C": "Administrar imediatamente cálcio intravenoso para antagonizar a toxicidade elétrica da hipercalemia, mantendo em paralelo as medidas de redistribuição e remoção do potássio.",
+        "D": "Administrar cálcio apenas se o paciente evoluir para parada cardiorrespiratória, pois o alargamento do QRS isoladamente não representa indicação."
+      },
+      "feedback": {
+        "A": "A insulina promove redistribuição do potássio, mas não substitui a estabilização cardíaca imediata diante de alargamento importante do QRS e instabilidade hemodinâmica. Aguardar sua ação prolonga a exposição à toxicidade elétrica.",
+        "B": "A hemodiálise remove potássio efetivamente, mas isso não elimina a indicação de cálcio em um paciente com alterações elétricas graves. As medidas possuem objetivos diferentes e complementares.",
+        "C": "Reconhece a indicação imediata de cálcio intravenoso diante de alterações eletrocardiográficas importantes e mantém simultaneamente o tratamento para redução e remoção do potássio.",
+        "D": "O alargamento do QRS associado à hipercalemia é indicação de estabilização cardíaca antes que ocorra deterioração extrema. Aguardar uma parada cardiorrespiratória seria inadequado."
+      },
+      "correctExplanation": "O paciente apresenta uma emergência hipercalêmica com sinais de comprometimento elétrico cardíaco.\n\nO potássio de 6,8 mEq/L é gravemente elevado. Entretanto, o elemento que torna a administração de cálcio particularmente urgente é a associação de bradicardia importante, hipotensão e alargamento do QRS.\n\nPara compreender essa indicação, precisamos revisar o efeito da hipercalemia sobre as células cardíacas.\n\n**1. O potássio elevado modifica o potencial de repouso.**\n\nO aumento da concentração extracelular de potássio torna o potencial de membrana em repouso menos negativo.\n\nInicialmente, isso pode modificar a excitabilidade celular. Com elevações importantes, a despolarização sustentada favorece a inativação dos canais rápidos de sódio.\n\n**2. A inativação dos canais de sódio compromete a condução.**\n\nA redução da disponibilidade desses canais diminui a velocidade de despolarização das células miocárdicas de resposta rápida.\n\nComo consequência, podem surgir alterações de condução, incluindo diminuição da amplitude das ondas P e alargamento do QRS.\n\nO alargamento importante do QRS é um sinal de alerta porque pode preceder deterioração elétrica grave.\n\n**3. O cálcio antagoniza a toxicidade elétrica.**\n\nO cálcio intravenoso atua sobre a excitabilidade da membrana cardíaca, ajudando a restabelecer uma relação mais favorável entre o potencial de repouso e o limiar de ativação.\n\nDessa forma, pode melhorar a condução elétrica e reduzir temporariamente o risco de arritmias graves.\n\n**4. A ação é rápida, mas não reduz o potássio.**\n\nO efeito começa em minutos.\n\nEntretanto, o cálcio não elimina potássio nem promove sua redistribuição intracelular em quantidade clinicamente relevante.\n\nPor isso, deve ser associado às intervenções que reduzem rapidamente o potássio extracelular e às estratégias que permitem sua remoção efetiva.\n\nNeste caso, esperar a ação da insulina antes de administrar cálcio deixaria o paciente exposto à toxicidade elétrica durante um período crítico.\n\nA hemodiálise também pode ser necessária, mas sua organização não deve atrasar a estabilização cardíaca.\n\n**O cálcio é uma medida de proteção imediata, não um tratamento definitivo da hipercalemia.**",
+      "pearl": "QRS alargado em um paciente hipercalêmico não é um achado para observar passivamente. O cálcio deve ser considerado imediatamente, enquanto as medidas que reduzem o potássio são iniciadas em paralelo.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Calcium” e tabela “Hyperkalemia in adults: Rapid overview of emergency management”."
+    },
+    {
+      "number": 2,
+      "title": "O cálcio foi administrado. Quanto o potássio deve cair?",
+      "competency": "Compreender o mecanismo e o objetivo terapêutico do cálcio",
+      "stem": "Uma mulher de 73 anos, com doença renal crônica avançada, é admitida com potássio de 7,2 mEq/L.\n\nO ECG mostra ondas P pouco evidentes e QRS alargado.\n\nA equipe administra cálcio intravenoso sob monitorização cardíaca.\n\nPoucos minutos depois, observa-se redução do alargamento do QRS.\n\nUm estudante pergunta:\n\n“Se o cálcio funcionou, o potássio já deve ter diminuído bastante, certo?”\n\n**Qual explicação é mais adequada?**",
+      "choices": {
+        "A": "O cálcio antagoniza os efeitos elétricos da hipercalemia sobre a membrana cardíaca, mas não reduz diretamente a concentração sérica de potássio; a melhora do ECG indica resposta elétrica, não eliminação do excesso de potássio.",
+        "B": "O cálcio estimula a Na⁺/K⁺-ATPase e promove deslocamento rápido de potássio para o meio intracelular, mecanismo responsável pela melhora do ECG.",
+        "C": "O cálcio aumenta imediatamente a excreção renal de potássio, mesmo em pacientes com insuficiência renal avançada.",
+        "D": "O cálcio se liga diretamente ao potássio circulante, formando um composto que é eliminado pela urina."
+      },
+      "feedback": {
+        "A": "Descreve adequadamente o objetivo do cálcio: antagonizar os efeitos elétricos da hipercalemia sem reduzir diretamente o potássio sérico. A melhora do ECG não demonstra remoção de potássio.",
+        "B": "A estimulação da Na⁺/K⁺-ATPase é um mecanismo associado à ação da insulina e de agonistas beta-2, não ao principal efeito terapêutico do cálcio na hipercalemia.",
+        "C": "O cálcio intravenoso não é utilizado para estimular a excreção renal de potássio. A eliminação urinária depende de mecanismos renais que podem estar gravemente comprometidos.",
+        "D": "O cálcio não atua como quelante do potássio circulante. Não ocorre formação de um composto cálcio-potássio que explique sua ação terapêutica."
+      },
+      "correctExplanation": "Esta questão aborda uma distinção essencial: **a melhora elétrica após o cálcio não significa redução da concentração sérica de potássio**.\n\nO cálcio intravenoso é utilizado para antagonizar os efeitos da hipercalemia sobre a excitabilidade cardíaca.\n\nSeu objetivo é proteger temporariamente o coração enquanto outras medidas reduzem o potássio extracelular.\n\nPara compreender isso, precisamos separar duas variáveis diferentes.\n\n**Primeira variável: a concentração sérica de potássio.**\n\nEla representa a quantidade de potássio presente no compartimento extracelular em relação ao volume desse compartimento.\n\nA hipercalemia modifica o potencial de membrana das células excitáveis, especialmente as cardíacas.\n\n**Segunda variável: a resposta elétrica do coração.**\n\nO funcionamento cardíaco depende não apenas da concentração de potássio, mas também da relação entre o potencial de membrana e os mecanismos responsáveis pela geração e propagação dos potenciais de ação.\n\nO cálcio intravenoso modifica a excitabilidade da membrana, antagonizando parte dos efeitos elétricos da hipercalemia.\n\nAssim, o ECG pode melhorar mesmo sem redução significativa do potássio sérico.\n\nIsso explica por que não devemos utilizar a melhora eletrocardiográfica como prova de que o excesso de potássio foi eliminado.\n\nO cálcio não substitui:\n\n- A insulina, que favorece a redistribuição intracelular.\n- Outras medidas de redistribuição, quando indicadas.\n- A remoção efetiva de potássio.\n- A monitorização cardíaca e laboratorial.\n\nNo caso apresentado, a melhora do QRS é um sinal favorável de resposta elétrica.\n\nEntretanto, o paciente continua necessitando de tratamento para reduzir a concentração de potássio e evitar recorrência da toxicidade cardíaca.\n\n**A resposta ao cálcio é avaliada principalmente pela evolução elétrica e clínica, não por uma queda esperada do potássio.**",
+      "pearl": "O cálcio pode melhorar o ECG sem modificar o potássio sérico. Não confunda melhora da condução elétrica com correção da hipercalemia.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Calcium”."
+    },
+    {
+      "number": 3,
+      "title": "Cinco minutos depois, o QRS continua alargado.",
+      "competency": "Avaliar a resposta eletrocardiográfica ao cálcio e reconhecer quando repetir a dose",
+      "stem": "Um homem de 66 anos, com insuficiência renal avançada, chega à sala de emergência apresentando fraqueza intensa, bradicardia e hipotensão.\n\nNa avaliação inicial:",
+      "table": {
+        "caption": "Exames",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Potássio", "7,6 mEq/L"],
+          ["Frequência cardíaca", "36 bpm"],
+          ["Pressão arterial", "86/50 mmHg"],
+          ["QRS inicial", "174 ms"],
+          ["Glicemia", "142 mg/dL"]
+        ]
+      },
+      "stemAfter": "A equipe administra 1.000 mg de gluconato de cálcio intravenoso, correspondente a 10 mL da solução a 10%, durante aproximadamente três minutos, sob monitorização cardíaca contínua.\n\nSimultaneamente, inicia o preparo da terapia com insulina e glicose e solicita avaliação nefrológica urgente.\n\nCinco minutos após a administração do cálcio, o paciente permanece bradicárdico e o ECG continua mostrando QRS de 170 ms.\n\nUm residente comenta:\n\n“Já administramos o cálcio. Talvez seja melhor esperar meia hora para avaliar novamente.”\n\n**Qual é a conduta mais adequada?**",
+      "choices": {
+        "A": "Considerar que o cálcio não funciona nesse paciente e abandonar definitivamente a estabilização cardíaca.",
+        "B": "Aguardar obrigatoriamente 30 a 60 minutos antes de qualquer nova dose, independentemente da persistência das alterações eletrocardiográficas.",
+        "C": "Administrar doses sucessivas de cálcio sem reavaliar o ECG ou considerar a possibilidade de hipercalcemia.",
+        "D": "Reavaliar imediatamente o paciente e considerar a repetição da dose de cálcio, pois as alterações eletrocardiográficas persistem após aproximadamente cinco minutos, mantendo simultaneamente as medidas para redução e remoção do potássio."
+      },
+      "feedback": {
+        "A": "A ausência de resposta satisfatória após a primeira dose não significa que o cálcio seja definitivamente ineficaz. A repetição pode ser necessária quando as alterações elétricas persistem.",
+        "B": "O intervalo de 30 a 60 minutos está relacionado à duração aproximada do efeito protetor e à possibilidade de novas administrações quando a emergência persiste. Não representa um tempo mínimo obrigatório antes da repetição por alterações eletrocardiográficas persistentes.",
+        "C": "A administração indiscriminada de cálcio pode provocar complicações. A decisão deve ser orientada pela resposta clínica e eletrocardiográfica, considerando também o risco de hipercalcemia.",
+        "D": "Reconhece que o efeito do cálcio começa em minutos e que a persistência de alterações eletrocardiográficas importantes após aproximadamente cinco minutos pode justificar a repetição da dose."
+      },
+      "correctExplanation": "Esta questão ensina que administrar cálcio não é simplesmente cumprir uma prescrição. É necessário **avaliar se houve a resposta elétrica esperada**.\n\nO paciente apresenta uma emergência hipercalêmica grave, com potássio de 7,6 mEq/L, bradicardia, hipotensão e QRS muito alargado.\n\nO gluconato de cálcio foi administrado adequadamente, mas, após cinco minutos, o QRS permanece praticamente inalterado.\n\nIsso indica que a toxicidade elétrica ainda não foi controlada satisfatoriamente.\n\n**1. Em quanto tempo esperamos observar o efeito do cálcio?**\n\nO UpToDate descreve que o efeito do cálcio intravenoso começa em minutos.\n\nPor isso, não é necessário aguardar a próxima dosagem de potássio para avaliar sua resposta.\n\nO ECG e a evolução clínica oferecem informações imediatas.\n\n**2. O que devemos procurar no ECG?**\n\nNos pacientes com alterações de condução relacionadas à hipercalemia, podemos observar melhora do alargamento do QRS e de outros distúrbios elétricos.\n\nEntretanto, a resposta não precisa representar normalização completa de todos os parâmetros eletrocardiográficos.\n\nO importante é verificar se a toxicidade elétrica está diminuindo.\n\n**3. Quando considerar a repetição?**\n\nSegundo o material de referência, a dose de gluconato ou cloreto de cálcio pode ser repetida após aproximadamente cinco minutos quando as alterações eletrocardiográficas persistem ou recorrem.\n\nIsso significa que, diante de um paciente que permanece com QRS muito alargado e instabilidade, não devemos aguardar passivamente 30 a 60 minutos.\n\n**4. Repetir o cálcio não significa abandonar as outras medidas.**\n\nO cálcio continua sem reduzir diretamente a concentração sérica de potássio.\n\nPortanto, a equipe precisa manter as medidas de redistribuição, organizar a remoção efetiva e acompanhar o paciente.\n\n**5. A repetição exige reavaliação.**\n\nA possibilidade de doses adicionais não significa que o cálcio deva ser administrado indiscriminadamente.\n\nÉ necessário acompanhar a resposta clínica, o ECG e, conforme a evolução e as doses administradas, considerar o risco de elevação excessiva do cálcio sérico.\n\nO UpToDate também descreve a possibilidade de novas administrações durante a persistência da emergência, considerando a duração limitada do efeito e o estado do cálcio sérico.\n\n**A decisão correta é tratar a persistência da toxicidade elétrica, não apenas contar quantas doses já foram administradas.**",
+      "pearl": "Administrou cálcio e o QRS continua alargado? Reavalie em minutos, não em horas. A persistência da toxicidade elétrica pode exigir outra dose, enquanto o tratamento para reduzir o potássio continua.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Calcium”, página 6 do PDF fornecido."
+    },
+    {
+      "number": 4,
+      "title": "O ECG melhorou. Trinta minutos depois, voltou a piorar.",
+      "competency": "Reconhecer a duração limitada da proteção cardíaca e a necessidade de reavaliação",
+      "stem": "Uma mulher de 70 anos, com doença renal crônica avançada, é admitida por hipercalemia de 7,4 mEq/L.\n\nO ECG inicial apresenta ondas P de baixa amplitude e QRS de 162 ms.\n\nA equipe administra cálcio intravenoso e inicia as medidas para redistribuição do potássio.\n\nCinco minutos depois, o QRS diminui para 108 ms.\n\nA paciente permanece sob monitorização cardíaca contínua.\n\nEntretanto, aproximadamente 40 minutos após a primeira administração, o monitor mostra novo alargamento do QRS, agora medindo 154 ms.\n\nUma nova dosagem de potássio, disponível nesse momento, demonstra 6,8 mEq/L.\n\nA paciente apresenta frequência cardíaca de 44 bpm e pressão arterial de 98/62 mmHg.\n\nUm residente comenta:\n\n“O cálcio funcionou antes. Se o ECG voltou a piorar, talvez isso signifique que a primeira dose estava errada.”\n\n**Qual é a interpretação mais adequada?**",
+      "choices": {
+        "A": "O retorno do alargamento do QRS demonstra obrigatoriamente erro na administração inicial, pois o cálcio deve manter proteção cardíaca por pelo menos 24 horas.",
+        "B": "O efeito protetor do cálcio é temporário, geralmente durando cerca de 30 a 60 minutos; a recorrência das alterações elétricas exige reavaliação imediata e pode justificar nova administração, enquanto se mantém o tratamento para reduzir e remover o potássio.",
+        "C": "A melhora inicial do ECG significa que a hipercalemia foi definitivamente corrigida, tornando desnecessária qualquer nova intervenção.",
+        "D": "A recorrência do QRS alargado demonstra que a insulina deve ser suspensa, pois a redistribuição intracelular do potássio é a causa direta do alargamento."
+      },
+      "feedback": {
+        "A": "O efeito do cálcio não dura 24 horas. Sua duração é relativamente curta, e a recorrência das alterações elétricas não significa necessariamente erro de administração.",
+        "B": "Reconhece a duração aproximada de 30 a 60 minutos, a possibilidade de recorrência da toxicidade elétrica e a necessidade de reavaliação e eventual repetição do cálcio.",
+        "C": "A melhora do ECG não significa correção definitiva da hipercalemia. O cálcio não reduz diretamente o potássio sérico.",
+        "D": "A insulina promove entrada de potássio nas células e tende a reduzir sua concentração extracelular. A recorrência do alargamento do QRS não demonstra que essa intervenção seja a causa da deterioração."
+      },
+      "correctExplanation": "Esta questão aborda uma característica fundamental do cálcio intravenoso: **sua ação protetora é rápida, mas relativamente curta**.\n\nA paciente apresentou resposta inicial favorável.\n\nO QRS diminuiu de 162 para 108 ms após a administração do cálcio.\n\nIsso sugere melhora da condução elétrica cardíaca.\n\nEntretanto, aproximadamente 40 minutos depois, ocorre novo alargamento do QRS.\n\nPara compreender essa evolução, precisamos considerar três aspectos.\n\n**1. O cálcio não elimina o potássio.**\n\nO cálcio antagoniza os efeitos elétricos da hipercalemia sobre a membrana cardíaca.\n\nEntretanto, a concentração sérica de potássio pode permanecer elevada.\n\nNo caso apresentado, mesmo após as intervenções iniciais, o potássio ainda é de 6,8 mEq/L.\n\nPortanto, a condição responsável pela toxicidade elétrica não foi completamente corrigida.\n\n**2. O efeito do cálcio é temporário.**\n\nSegundo o UpToDate, a ação do cálcio intravenoso começa em minutos e dura aproximadamente 30 a 60 minutos.\n\nIsso significa que o paciente pode apresentar melhora inicial e, posteriormente, voltar a desenvolver alterações eletrocardiográficas.\n\nA recorrência não demonstra necessariamente erro na primeira administração.\n\nPode simplesmente refletir o término do efeito protetor enquanto a hipercalemia permanece importante.\n\n**3. A recorrência exige nova avaliação.**\n\nA paciente apresenta novo alargamento do QRS, bradicardia e potássio ainda gravemente elevado.\n\nA equipe deve reavaliar imediatamente a necessidade de nova administração de cálcio.\n\nTambém deve verificar a resposta às medidas de redistribuição e o andamento das estratégias de remoção efetiva.\n\n**4. A monitorização contínua permite identificar essa deterioração.**\n\nSe a equipe tivesse interrompido a monitorização após a melhora inicial, a recorrência poderia não ser reconhecida prontamente.\n\nPor isso, o acompanhamento eletrocardiográfico é parte essencial do tratamento.\n\n**5. Não devemos confundir proteção transitória com resolução da causa.**\n\nO cálcio oferece tempo para que outras intervenções atuem.\n\nEntretanto, se o potássio permanece elevado, o risco de nova toxicidade elétrica continua.\n\nO objetivo é manter o paciente protegido enquanto se alcança uma redução sustentada do potássio.",
+      "pearl": "O cálcio compra tempo, mas esse tempo é limitado. Se o potássio continua elevado, a toxicidade elétrica pode reaparecer quando a proteção diminuir. Não retire a vigilância apenas porque o primeiro ECG melhorou.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Calcium”, página 6 do PDF fornecido."
+    },
+    {
+      "number": 5,
+      "title": "Potássio 7,0. ECG normal. Precisa de cálcio?",
+      "competency": "Reconhecer as indicações do cálcio e interpretar uma área de divergência entre especialistas",
+      "stem": "Um homem de 62 anos, com doença renal crônica estágio G4, procura a emergência após receber um resultado laboratorial com potássio de 7,0 mEq/L.\n\nUma nova amostra, coletada adequadamente, confirma potássio de 6,9 mEq/L.\n\nO paciente está consciente, orientado, sem fraqueza muscular e sem queixas cardiovasculares.\n\nNa avaliação:",
+      "table": {
+        "caption": "Exames",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Potássio confirmado", "6,9 mEq/L"],
+          ["Creatinina", "3,8 mg/dL"],
+          ["Frequência cardíaca", "76 bpm"],
+          ["Pressão arterial", "142/86 mmHg"]
+        ]
+      },
+      "stemAfter": "O ECG mostra ritmo sinusal, QRS de 92 ms e ausência de alterações características de hipercalemia.\n\nA equipe reconhece a emergência hipercalêmica e organiza tratamento para reduzir o potássio.\n\nDurante a discussão, surgem duas opiniões.\n\nO primeiro médico afirma:\n\n“Com potássio acima de 6,5 mEq/L, devemos administrar cálcio mesmo sem alterações no ECG.”\n\nO segundo responde:\n\n“Sem alterações eletrocardiográficas, o cálcio não é obrigatório em todos os protocolos, embora a hipercalemia continue exigindo tratamento emergencial.”\n\n**Qual interpretação está mais alinhada ao material de referência?**",
+      "choices": {
+        "A": "O ECG normal exclui toxicidade cardíaca e permite adiar o tratamento da hipercalemia até o dia seguinte.",
+        "B": "O cálcio intravenoso é absolutamente contraindicado quando não existem alterações eletrocardiográficas, independentemente da concentração de potássio.",
+        "C": "A hipercalemia confirmada acima de 6,5 mEq/L exige tratamento emergencial; quanto ao cálcio intravenoso na ausência de alterações eletrocardiográficas, há divergência entre especialistas, e a decisão deve considerar o protocolo adotado e o contexto clínico.",
+        "D": "Todos os especialistas concordam que o cálcio intravenoso deve ser administrado obrigatoriamente em qualquer hipercalemia, inclusive nas elevações leves e crônicas."
+      },
+      "feedback": {
+        "A": "O ECG normal não exclui risco cardíaco nem afasta a necessidade de tratamento emergencial em um paciente com potássio confirmado acima de 6,5 mEq/L.",
+        "B": "O cálcio não é absolutamente contraindicado na ausência de alterações eletrocardiográficas. Alguns especialistas recomendam sua administração em pacientes com hipercalemia grave, mesmo com ECG sem alterações características.",
+        "C": "Diferencia adequadamente a indicação de tratamento emergencial da discussão específica sobre o uso de cálcio intravenoso quando o ECG não apresenta alterações. Também reconhece a divergência descrita no UpToDate.",
+        "D": "Não existe recomendação universal para administrar cálcio em qualquer elevação do potássio. A intervenção possui indicações específicas e não é necessária rotineiramente em hipercalemias leves e estáveis."
+      },
+      "correctExplanation": "Esta questão apresenta uma situação importante porque exige distinguir duas decisões que frequentemente são confundidas.\n\n**Primeira decisão: o paciente precisa de tratamento emergencial da hipercalemia?**\n\nSim.\n\nO paciente apresenta potássio confirmado de 6,9 mEq/L.\n\nO UpToDate considera concentrações superiores a 6,5 mEq/L como critério de emergência hipercalêmica, independentemente da presença de sintomas ou alterações eletrocardiográficas.\n\nPortanto, o ECG normal não autoriza adiar o tratamento.\n\n**Segunda decisão: todo paciente com potássio acima de 6,5 mEq/L e ECG normal precisa obrigatoriamente receber cálcio intravenoso?**\n\nAqui existe uma nuance.\n\nO material do UpToDate descreve que o cálcio intravenoso é indicado quando existem alterações eletrocardiográficas compatíveis com hipercalemia.\n\nEntretanto, também informa que alguns especialistas recomendam administrar cálcio quando o potássio é superior a 6,5 mEq/L, mesmo na ausência de alterações eletrocardiográficas relevantes.\n\nOutros especialistas não adotam essa recomendação de maneira universal.\n\nIsso significa que **não existe unanimidade sobre a administração rotineira de cálcio nesse cenário específico**.\n\nÉ importante compreender por que essa divergência existe.\n\n**1. O ECG possui sensibilidade limitada.**\n\nPacientes com hipercalemia grave podem apresentar ECG sem alterações características.\n\nPortanto, a ausência de alterações não garante ausência de risco.\n\nEsse é um argumento utilizado por especialistas que favorecem uma abordagem mais liberal com cálcio em concentrações muito elevadas de potássio.\n\n**2. O cálcio possui um objetivo específico.**\n\nSua principal função é antagonizar os efeitos da hipercalemia sobre a excitabilidade cardíaca.\n\nEle não reduz diretamente a concentração sérica de potássio.\n\nPortanto, a decisão de administrá-lo deve ser distinguida da decisão de iniciar medidas que efetivamente reduzam o potássio.\n\n**3. O contexto clínico continua relevante.**\n\nA decisão deve considerar a concentração de potássio, a evolução clínica, o ECG, a velocidade de elevação, a função renal e o protocolo institucional.\n\n**4. A divergência sobre o cálcio não significa divergência sobre a urgência do tratamento.**\n\nEste é o principal aprendizado da questão.\n\nIndependentemente da decisão específica sobre o cálcio, o paciente apresenta hipercalemia grave confirmada e precisa de tratamento emergencial, monitorização e avaliação da remoção efetiva do potássio.\n\n**O erro seria interpretar a ausência de alterações eletrocardiográficas como autorização para não tratar.**",
+      "pearl": "ECG normal não significa potássio seguro. Em hipercalemia grave, trate a emergência. Quanto ao cálcio sem alterações eletrocardiográficas, conheça a divergência entre especialistas e o protocolo do seu serviço.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Summary and recommendations”, página 28 do PDF fornecido."
+    }
+  ]
+}
