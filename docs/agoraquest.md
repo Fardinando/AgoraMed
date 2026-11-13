@@ -26,6 +26,8 @@ O conteúdo aprovado fica em `lib/agoraquest/`:
 - `hipercalemia-aula-04-v1.json` — Aula 04, gabarito **B-D-A-C-D**.
 - `hipercalemia-aula-05-v1.json` — Aula 05, gabarito **B-C-D-A-D**. Primeira atividade com tabelas laboratoriais (nas questões 01, 03 e 05), competência por questão e enunciado dividido em texto, tabela e trecho posterior.
 - `hipercalemia-aula-06-v1.json` — Aula 06, gabarito **B-C-D-B-D**. Tabelas laboratoriais nas questões 01, 02, 03 e 05; questão 04 é apenas texto. Competência por questão e enunciado dividido em texto, tabela e trecho posterior.
+- `hipercalemia-aula-07-v1.json` — Aula 07, gabarito **A-C-C-D-B**. Sem tabelas laboratoriais; competência por questão.
+- `hipercalemia-aula-08-v1.json` — Aula 08, gabarito **C-D-B-D-C**. Tabelas laboratoriais nas questões 01, 02, 03 e 04; questão 05 é apenas texto. Competência por questão e enunciado dividido em texto, tabela e trecho posterior.
 
 Cada JSON traz o próprio gabarito no campo `key`; o engine usa a chave do conteúdo (`Q.keyOf`). Os enunciados, as alternativas e o gabarito **não devem ser reescritos sem uma nova revisão clínica**.
 
