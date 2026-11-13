@@ -1,4 +1,4 @@
-O cadastro e edição de módulos/aulas agora usa [salvamento transacional com versão e remoções explícitas](docs/salvamento-seguro.md).
+O cadastro e edição de módulos/aulas agora usa [salvamento transacional com versão e remoções explícitas](docs/salvamento-seguro.md). Segredos de produção, rotação do `JWT_SECRET` e proteção de deployments estão em [Segurança](docs/seguranca.md).
 
 > **Arquitetura atual:** Vercel + Supabase Auth/Postgres/Storage. As seções de demonstração abaixo são históricas. Para o fluxo atual de acesso automático e cursos pagos, consulte [Cursos gratuitos e pagos](docs/cursos-gratuitos-pagos.md).
 
