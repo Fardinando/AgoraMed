@@ -1,0 +1,135 @@
+{
+  "slug": "hipercalemia-aula-13-v1",
+  "versao": 1,
+  "title": "Hipercalemia — Aula 13",
+  "subtitle": "Gluconato ou cloreto de cálcio?",
+  "intro": "Cinco casos sobre a escolha e o uso seguro do cálcio intravenoso na hipercalemia: quantidade de cálcio elementar nas formulações, escolha conforme o acesso venoso, prescrição correta sem ambiguidades, manejo do extravasamento e incompatibilidade com bicarbonato. Em cada um, a pergunta central é a mesma — como usar o cálcio de forma eficaz e segura? Responda uma questão por vez: ao confirmar, a alternativa fica bloqueada e o comentário aparece imediatamente, com a análise das quatro alternativas, a pérola do plantão e a fundamentação. Você pode refazer a prática quantas vezes quiser; o histórico e o caderno de erros ficam salvos na sua conta.",
+  "closing": "Dez mililitros de gluconato não equivalem a dez mililitros de cloreto. O cloreto fornece aproximadamente três vezes mais cálcio elementar, mas é mais irritante e deve ser preferencialmente administrado por acesso central. Prescreva o sal, a dose, o volume e a via. Se extravasar, interrompa imediatamente. Nunca misture cálcio com bicarbonato. A segurança do acesso faz parte da segurança do tratamento.",
+  "references": "UpToDate. Hyperkalemia in adults. https://www.uptodate.com/contents/hyperkalemia-in-adults",
+  "key": ["C", "A", "D", "B", "D"],
+  "questions": [
+    {
+      "number": 1,
+      "title": "Dois frascos de 10 mL. A mesma quantidade de cálcio?",
+      "competency": "Comparar a concentração de cálcio elementar das duas formulações",
+      "stem": "Um homem de 64 anos, com doença renal crônica avançada, chega à emergência apresentando fraqueza intensa e bradicardia.\n\nO potássio sérico é de 7,3 mEq/L e o ECG demonstra QRS alargado.\n\nA equipe indica estabilização cardíaca com cálcio intravenoso.\n\nNa sala de emergência, estão disponíveis duas apresentações:\n\n- Gluconato de cálcio 10%, ampola de 10 mL.\n- Cloreto de cálcio 10%, ampola de 10 mL.\n\nUm interno observa as embalagens e comenta:\n\n“Os dois são soluções a 10% e possuem 10 mL. Portanto, devem fornecer a mesma quantidade de cálcio.”\n\n**Qual explicação é mais adequada?**",
+      "table": {
+        "caption": "Cálcio elementar em 10 mL de solução a 10%",
+        "headers": ["Solução a 10%", "Cálcio elementar em 10 mL"],
+        "rows": [
+          ["Gluconato de cálcio", "Aproximadamente 4,6 mEq"],
+          ["Cloreto de cálcio", "Aproximadamente 13,6 mEq"]
+        ]
+      },
+      "stemAfter": "**Qual explicação é mais adequada?**",
+      "choices": {
+        "A": "As duas apresentações contêm exatamente a mesma quantidade de cálcio elementar, pois ambas são soluções a 10%.",
+        "B": "O gluconato de cálcio contém aproximadamente três vezes mais cálcio elementar do que o cloreto de cálcio, porque possui maior peso molecular.",
+        "C": "O cloreto de cálcio 10% contém aproximadamente três vezes mais cálcio elementar do que o gluconato de cálcio 10% no mesmo volume; portanto, as apresentações não são equivalentes mililitro por mililitro.",
+        "D": "A concentração de cálcio elementar é irrelevante na emergência, pois qualquer quantidade de cálcio produz exatamente o mesmo efeito cardíaco."
+      },
+      "feedback": {
+        "A": "Embora ambas sejam soluções a 10%, os compostos possuem proporções diferentes de cálcio elementar. O mesmo volume não fornece a mesma quantidade de cálcio.",
+        "B": "A relação está invertida. É o cloreto de cálcio que fornece aproximadamente três vezes mais cálcio elementar no mesmo volume de solução a 10%.",
+        "C": "Reconhece a diferença de concentração de cálcio elementar e evita a substituição inadequada das apresentações com base apenas no volume.",
+        "D": "A quantidade administrada importa para a eficácia e a segurança. Não é correto assumir que qualquer dose produzirá a mesma resposta."
+      },
+      "correctExplanation": "Esta questão aborda um erro potencialmente importante na prescrição: **confundir a concentração percentual do sal com a quantidade de cálcio elementar administrada**.\n\nTanto o gluconato quanto o cloreto podem ser encontrados em soluções a 10%.\n\nEntretanto, isso não significa que 10 mL das duas apresentações forneçam a mesma quantidade de cálcio.\n\n**1. O que significa uma solução a 10%?**\n\nEm apresentações expressas como massa por volume, uma solução a 10% contém 10 g do composto em 100 mL de solução, equivalentes a 100 mg/mL.\n\nAssim, uma ampola de 10 mL contém aproximadamente 1.000 mg do sal correspondente.\n\nMas o sal não é formado exclusivamente por cálcio.\n\nEle também contém os demais componentes químicos de sua estrutura.\n\n**2. Por que a quantidade de cálcio elementar é diferente?**\n\nO gluconato e o cloreto possuem composições químicas distintas.\n\nConsequentemente, a proporção de cálcio presente em determinada massa de cada sal também é diferente.\n\nSegundo o UpToDate:\n\n| Solução a 10% | Cálcio elementar em 10 mL |\n|---|---|\n| Gluconato de cálcio | Aproximadamente 4,6 mEq |\n| Cloreto de cálcio | Aproximadamente 13,6 mEq |\n\nPortanto, o cloreto fornece aproximadamente três vezes mais cálcio elementar no mesmo volume.\n\n**3. Por que isso importa na prática?**\n\nPorque as duas apresentações não devem ser substituídas automaticamente utilizando o mesmo volume, como se fossem equivalentes.\n\nA dose precisa considerar qual sal está sendo administrado, sua concentração e a apresentação disponível.\n\n**4. Mais cálcio elementar não significa que o cloreto seja sempre a melhor escolha.**\n\nO cloreto de cálcio apresenta maior potencial de irritação vascular e lesão tecidual por extravasamento.\n\nPortanto, a escolha não depende apenas da quantidade de cálcio fornecida.\n\nTambém precisamos considerar o acesso venoso, a segurança da administração e o contexto clínico.\n\n**A mensagem central é que a concentração percentual não informa, isoladamente, a quantidade de cálcio elementar disponível.**",
+      "pearl": "Dez mililitros de gluconato de cálcio a 10% não equivalem a dez mililitros de cloreto de cálcio a 10%. O cloreto fornece aproximadamente três vezes mais cálcio elementar. Antes de prescrever, confira o sal e a concentração.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Calcium”, página 6."
+    },
+    {
+      "number": 2,
+      "title": "Só temos acesso periférico. Qual apresentação escolher?",
+      "competency": "Escolher a formulação considerando o acesso venoso e o risco de extravasamento",
+      "stem": "Uma mulher de 72 anos, com doença renal crônica, é admitida na sala vermelha por hipercalemia de 7,1 mEq/L.\n\nO ECG apresenta alargamento do QRS e redução da amplitude das ondas P.\n\nA equipe indica administração imediata de cálcio intravenoso.\n\nA paciente possui um acesso venoso periférico pérvio, localizado em uma veia de bom calibre no antebraço, sem sinais de infiltração.\n\nNão há acesso venoso central disponível naquele momento.\n\nA farmácia dispõe de gluconato de cálcio 10% e cloreto de cálcio 10%.\n\n**Qual é a escolha mais adequada para essa situação?**",
+      "choices": {
+        "A": "Preferir gluconato de cálcio pelo acesso periférico adequado, sob monitorização cardíaca e vigilância do local de infusão, pois o cloreto apresenta maior potencial de irritação e lesão tecidual.",
+        "B": "Preferir cloreto de cálcio pelo acesso periférico, pois sua maior concentração de cálcio elementar elimina o risco de extravasamento.",
+        "C": "Aguardar obrigatoriamente a instalação de acesso venoso central antes de administrar qualquer formulação de cálcio, mesmo diante de toxicidade elétrica importante.",
+        "D": "Administrar gluconato de cálcio por via intramuscular, pois essa via evita os riscos associados à administração intravenosa."
+      },
+      "feedback": {
+        "A": "O gluconato de cálcio é geralmente preferido quando existe acesso periférico adequado, pois o cloreto apresenta maior potencial de irritação e lesão tecidual. A monitorização e a vigilância do acesso permanecem necessárias.",
+        "B": "A maior concentração de cálcio elementar não elimina o risco de extravasamento. O cloreto apresenta preocupação maior com irritação vascular e necrose tecidual.",
+        "C": "O gluconato pode ser administrado por acesso periférico adequado. A instalação de acesso central não deve ser exigida indiscriminadamente, sobretudo quando isso atrasaria uma intervenção urgente.",
+        "D": "A via intramuscular não é apropriada para estabilização cardíaca emergencial na hipercalemia."
+      },
+      "correctExplanation": "Esta questão ensina que a escolha entre gluconato e cloreto de cálcio não deve considerar apenas a quantidade de cálcio elementar.\n\n**O tipo de acesso venoso é um elemento importante da segurança terapêutica.**\n\nA paciente apresenta alterações eletrocardiográficas compatíveis com toxicidade pela hipercalemia.\n\nPortanto, a estabilização cardíaca não deve ser adiada desnecessariamente.\n\nEntretanto, a formulação escolhida precisa ser adequada ao acesso disponível.\n\n**1. O cloreto de cálcio é mais irritante para os tecidos.**\n\nO UpToDate destaca que soluções concentradas de cálcio podem causar irritação venosa.\n\nEssa preocupação é particularmente importante com o cloreto de cálcio.\n\nQuando ocorre extravasamento, o cálcio pode provocar lesão tecidual importante, inclusive necrose.\n\nPor isso, o documento recomenda preferencialmente acesso central ou veia profunda para administração de cloreto de cálcio.\n\n**2. O gluconato de cálcio pode ser administrado por acesso periférico.**\n\nO gluconato geralmente é preferido quando existe apenas acesso venoso periférico adequado.\n\nO material recomenda utilizar uma veia de bom calibre e um dispositivo apropriado.\n\nIsso não significa que o gluconato seja incapaz de causar lesão local.\n\nO risco de extravasamento continua existindo.\n\nPortanto, é necessário verificar a permeabilidade do acesso e observar o local durante a administração.\n\n**3. O acesso central não é obrigatório para todas as formulações.**\n\nAguardar a instalação de um cateter venoso central antes de administrar gluconato pode atrasar desnecessariamente a estabilização cardíaca.\n\nNo caso apresentado, já existe acesso periférico adequado.\n\nAssim, o gluconato é uma escolha coerente com o objetivo terapêutico e com a segurança da administração.\n\n**4. A via de administração deve ser intravenosa.**\n\nA estabilização cardíaca emergencial exige uma intervenção com início de ação rápido e previsível.\n\nA administração intramuscular não é uma alternativa adequada para esse objetivo.\n\n**5. O tratamento da hipercalemia continua em paralelo.**\n\nO cálcio não reduz diretamente a concentração sérica de potássio.\n\nPortanto, a equipe deve manter as medidas de redistribuição, remoção e monitorização.\n\n**A melhor apresentação é aquela que permite administrar o tratamento indicado de maneira rápida e segura, considerando o acesso disponível.**",
+      "pearl": "Tem acesso periférico adequado e precisa administrar cálcio imediatamente? O gluconato costuma ser a escolha mais segura. O cloreto é mais irritante e deve ser preferencialmente administrado por acesso central ou veia profunda.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Calcium”, página 6."
+    },
+    {
+      "number": 3,
+      "title": "Prescrever 10 mL de qual cálcio?",
+      "competency": "Interpretar corretamente as doses e evitar erros de prescrição entre as formulações",
+      "stem": "Um homem de 69 anos, com insuficiência renal avançada, é admitido na emergência com potássio de 7,5 mEq/L, bradicardia e QRS alargado.\n\nA equipe decide administrar cálcio intravenoso imediatamente.\n\nDurante a prescrição, um interno registra:\n\n“Cálcio 10%, 10 mL, intravenoso.”\n\nO médico responsável percebe que a prescrição não especifica se o medicamento é gluconato ou cloreto de cálcio.\n\nA farmácia dispõe das duas apresentações.\n\nO interno argumenta:\n\n“Não precisa especificar. As duas soluções são a 10%, então a dose é igual.”\n\n**Qual é a orientação mais adequada?**",
+      "table": {
+        "caption": "Doses usuais de cálcio para estabilização cardíaca na hipercalemia",
+        "headers": ["Formulação", "Dose usual", "Volume da solução a 10%"],
+        "rows": [
+          ["Gluconato de cálcio", "1.000 mg", "10 mL"],
+          ["Cloreto de cálcio", "500–1.000 mg", "5–10 mL"]
+        ]
+      },
+      "stemAfter": "**Qual é a orientação mais adequada?**",
+      "choices": {
+        "A": "Manter a prescrição, pois a concentração de 10% é suficiente para identificar a quantidade de cálcio elementar administrada.",
+        "B": "Especificar apenas o volume, pois a diferença entre os sais não interfere na quantidade de cálcio elementar nem na segurança.",
+        "C": "Prescrever obrigatoriamente cloreto de cálcio em todos os casos de hipercalemia, independentemente do acesso venoso.",
+        "D": "Especificar o sal, a concentração, a dose em miligramas e o volume correspondente, além da via e do tempo de administração, pois as apresentações não são equivalentes e possuem diferentes riscos."
+      },
+      "feedback": {
+        "A": "A concentração de 10% não identifica o sal utilizado nem garante equivalência de cálcio elementar. A prescrição permanece ambígua.",
+        "B": "O volume isolado é insuficiente. As apresentações possuem diferentes quantidades de cálcio elementar e diferentes riscos relacionados à administração.",
+        "C": "O cloreto não é obrigatório em todos os casos. O gluconato é geralmente preferido, especialmente quando a administração será realizada por acesso periférico.",
+        "D": "Reconhece a necessidade de especificar completamente o medicamento e suas condições de administração, evitando substituições inadequadas entre formulações distintas."
+      },
+      "correctExplanation": "Esta questão aborda um problema de segurança medicamentosa: **uma prescrição aparentemente simples pode ser perigosa quando não identifica corretamente o medicamento**.\n\nA expressão “cálcio 10%, 10 mL” é incompleta porque existem diferentes sais de cálcio disponíveis.\n\n**1. O mesmo volume não representa a mesma quantidade de cálcio elementar.**\n\nEm 10 mL de solução a 10%:\n\n- O gluconato fornece aproximadamente 4,6 mEq de cálcio elementar.\n- O cloreto fornece aproximadamente 13,6 mEq de cálcio elementar.\n\nPortanto, o cloreto fornece aproximadamente três vezes mais cálcio elementar.\n\nUma prescrição que não especifica o sal pode permitir que diferentes profissionais interpretem a mesma ordem de maneiras distintas.\n\n**2. As doses usuais descritas no UpToDate são diferentes.**\n\nPara a estabilização cardíaca na hipercalemia, o documento descreve:\n\n| Formulação | Dose usual | Volume da solução a 10% |\n|---|---|---|\n| Gluconato de cálcio | 1.000 mg | 10 mL |\n| Cloreto de cálcio | 500–1.000 mg | 5–10 mL |\n\nAmbas são descritas com administração intravenosa em aproximadamente dois a três minutos, sob monitorização cardíaca contínua.\n\nEsses valores correspondem aos sais e às apresentações especificadas. Não devem ser interpretados como doses equivalentes de cálcio elementar.\n\n**3. A prescrição precisa identificar exatamente o medicamento.**\n\nUma prescrição segura deve informar:\n\n- Nome completo do sal de cálcio.\n- Concentração da apresentação.\n- Dose prescrita.\n- Volume correspondente.\n- Via de administração.\n- Tempo de infusão.\n- Condições de monitorização.\n\nEssas informações reduzem ambiguidades durante a dispensação, o preparo e a administração.\n\n**4. O acesso venoso também influencia a escolha.**\n\nO cloreto apresenta maior potencial de irritação e lesão tecidual por extravasamento.\n\nPortanto, uma prescrição segura precisa ser compatível com o acesso disponível.\n\n**5. A resposta deve ser reavaliada.**\n\nIndependentemente da apresentação escolhida, o paciente precisa de monitorização cardíaca contínua.\n\nA persistência ou recorrência das alterações eletrocardiográficas pode exigir nova administração, conforme a resposta e o protocolo adotado.\n\n**Prescrever corretamente não significa apenas escolher o medicamento certo. Significa escrever uma ordem que não permita interpretações perigosas.**",
+      "pearl": "Nunca prescreva apenas “cálcio 10%, 10 mL”. Escreva qual cálcio, qual dose, qual volume e como administrar. Na emergência, uma prescrição ambígua pode transformar uma medida de proteção em um erro de medicação.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Calcium”, página 6."
+    },
+    {
+      "number": 4,
+      "title": "O acesso infiltrou durante a administração de cloreto.",
+      "competency": "Reconhecer o risco de extravasamento e tomar a primeira decisão de segurança",
+      "stem": "Um homem de 71 anos, com doença renal crônica avançada, é atendido por hipercalemia de 7,2 mEq/L e alterações eletrocardiográficas.\n\nA equipe indica estabilização cardíaca com cálcio intravenoso.\n\nDurante a administração de cloreto de cálcio por um acesso venoso periférico, o paciente refere dor intensa no local da punção.\n\nA enfermagem observa edema progressivo e palidez da pele ao redor do cateter, levantando suspeita de extravasamento.\n\nO paciente permanece sob monitorização cardíaca e ainda necessita de tratamento para a hipercalemia.\n\n**Qual é a conduta inicial mais adequada diante dessa intercorrência?**",
+      "choices": {
+        "A": "Aumentar a velocidade da infusão para terminar rapidamente a administração antes que o edema aumente.",
+        "B": "Interromper imediatamente a administração pelo acesso suspeito, avaliar a lesão e acionar o protocolo institucional de extravasamento, providenciando outro acesso seguro para continuidade do tratamento.",
+        "C": "Manter a administração, pois o cloreto de cálcio não provoca lesões teciduais relevantes quando extravasa.",
+        "D": "Retirar imediatamente o cateter e massagear vigorosamente o local, pois essa é a medida universal para neutralizar o cálcio extravasado."
+      },
+      "feedback": {
+        "A": "Aumentar a velocidade da infusão pode agravar a quantidade de medicamento extravasado e ampliar a lesão tecidual.",
+        "B": "Interromper imediatamente a administração pelo acesso suspeito é a primeira medida de segurança. A avaliação da lesão, o protocolo institucional e a obtenção de outro acesso adequado permitem tratar a complicação sem abandonar a emergência hipercalêmica.",
+        "C": "O cloreto de cálcio pode provocar lesões importantes por extravasamento, inclusive necrose tecidual. A administração não deve continuar diante de suspeita de infiltração.",
+        "D": "A retirada imediata do cateter e a massagem vigorosa não constituem uma conduta universal segura. O manejo depende do protocolo de extravasamento e da avaliação da lesão."
+      },
+      "correctExplanation": "Esta questão aborda uma complicação potencialmente grave da administração intravenosa de cálcio: **a lesão tecidual por extravasamento**.\n\nO cloreto de cálcio é uma solução irritante para os tecidos.\n\nQuando o medicamento deixa o espaço intravascular e infiltra os tecidos adjacentes, pode provocar inflamação intensa, lesão local e até necrose.\n\n**1. Como reconhecer o extravasamento?**\n\nDurante a administração, sinais como dor, edema, palidez, alteração da coloração da pele e dificuldade de infusão devem levantar suspeita de que o medicamento não está permanecendo adequadamente dentro da veia.\n\nNo caso apresentado, a associação de dor intensa, edema progressivo e palidez é preocupante.\n\n**2. Qual é a primeira decisão?**\n\nA administração pelo acesso suspeito deve ser interrompida imediatamente.\n\nContinuar infundindo pode aumentar a quantidade de medicamento que alcança os tecidos.\n\nPortanto, acelerar a infusão seria particularmente inadequado.\n\n**3. O que fazer depois de interromper?**\n\nA equipe deve seguir o protocolo institucional de extravasamento.\n\nIsso inclui avaliação da extensão da lesão, comunicação imediata à equipe responsável e definição das medidas locais apropriadas.\n\nO cateter não deve ser manipulado ou retirado automaticamente antes de considerar as orientações do protocolo, pois algumas medidas de manejo podem depender de sua permanência temporária.\n\nTambém não se deve massagear vigorosamente o local como conduta universal.\n\n**4. Por que o cloreto exige atenção especial?**\n\nO UpToDate destaca que infusões concentradas de cálcio, especialmente o cloreto, podem causar irritação vascular e necrose tecidual quando extravasam.\n\nPor esse motivo, recomenda preferencialmente acesso central ou veia profunda para sua administração.\n\n**5. A intercorrência não elimina a emergência hipercalêmica.**\n\nO paciente continua necessitando de estabilização cardíaca.\n\nPortanto, além de tratar o extravasamento, a equipe precisa providenciar outro acesso seguro e reavaliar a apresentação de cálcio mais adequada.\n\nO tratamento para redistribuir e remover potássio também deve continuar.\n\n**A segurança do acesso faz parte da segurança do tratamento.**",
+      "pearl": "Cloreto de cálcio extravasou? Interrompa a infusão imediatamente. O medicamento que deveria proteger o coração pode causar necrose quando alcança os tecidos.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Calcium”, página 6. O PDF fundamenta o risco de necrose; a conduta inicial descrita aplica princípios de segurança no manejo de extravasamento e deve seguir o protocolo institucional."
+    },
+    {
+      "number": 5,
+      "title": "Cálcio e bicarbonato na mesma solução?",
+      "competency": "Reconhecer uma incompatibilidade físico-química relevante na administração de cálcio",
+      "stem": "Uma mulher de 67 anos, com doença renal crônica avançada, é admitida na emergência por hipercalemia de 7,3 mEq/L.\n\nO ECG apresenta QRS alargado.\n\nA equipe indica administração intravenosa de gluconato de cálcio.\n\nDurante o preparo das medicações, um profissional observa que também existe uma prescrição de bicarbonato de sódio para outra indicação clínica.\n\nPara simplificar a administração, um interno sugere:\n\n“Podemos misturar o gluconato de cálcio e o bicarbonato na mesma solução. Assim, administramos tudo de uma vez.”\n\n**Qual é a orientação mais adequada?**",
+      "choices": {
+        "A": "Misturar as duas medicações é seguro, pois o cálcio e o bicarbonato são eletrólitos fisiológicos e não apresentam incompatibilidade.",
+        "B": "Misturar as duas medicações aumenta a quantidade de cálcio elementar disponível, tornando a estabilização cardíaca mais eficaz.",
+        "C": "A mistura é recomendada porque o bicarbonato impede a formação de precipitados contendo cálcio.",
+        "D": "Não misturar cálcio em soluções que contenham bicarbonato, pois pode ocorrer precipitação de carbonato de cálcio; administrar de maneira compatível e segura, conforme as orientações institucionais."
+      },
+      "feedback": {
+        "A": "O fato de cálcio e bicarbonato participarem de processos fisiológicos não significa que suas soluções intravenosas sejam compatíveis. Existe risco de precipitação.",
+        "B": "A mistura não aumenta a quantidade de cálcio elementar disponível. Pelo contrário, pode favorecer a formação de um composto insolúvel.",
+        "C": "O bicarbonato não impede a precipitação. A interação pode favorecer a formação de carbonato de cálcio.",
+        "D": "Reconhece a incompatibilidade descrita no UpToDate e orienta uma administração segura, evitando misturar cálcio em soluções que contenham bicarbonato."
+      },
+      "correctExplanation": "Esta questão aborda um aspecto frequentemente negligenciado da segurança medicamentosa: **a compatibilidade físico-química entre soluções intravenosas**.\n\nNa emergência, diferentes medicamentos podem ser necessários em um intervalo curto.\n\nEntretanto, isso não significa que possam ser misturados na mesma solução ou administrados simultaneamente pela mesma linha sem avaliação de compatibilidade.\n\n**1. O que acontece quando cálcio e bicarbonato entram em contato?**\n\nO cálcio pode reagir com espécies carbonato presentes no equilíbrio químico de soluções contendo bicarbonato.\n\nEssa interação pode levar à formação de carbonato de cálcio, um composto pouco solúvel.\n\nConsequentemente, pode ocorrer precipitação.\n\n**2. Por que a precipitação é perigosa?**\n\nA formação de partículas insolúveis compromete a segurança da administração intravenosa.\n\nAlém disso, a precipitação pode modificar a quantidade de cálcio efetivamente disponível na solução.\n\nPortanto, a mistura não deve ser considerada uma maneira segura de simplificar o tratamento.\n\n**3. O que orienta o UpToDate?**\n\nO material afirma que o cálcio não deve ser administrado em soluções contendo bicarbonato devido ao risco de precipitação de carbonato de cálcio.\n\nEssa orientação deve ser respeitada independentemente de o cálcio estar sendo utilizado para estabilização cardíaca na hipercalemia ou em outra indicação.\n\n**4. E se o paciente precisar das duas medicações?**\n\nA necessidade clínica de ambas não autoriza misturá-las.\n\nA equipe deve utilizar formas de administração compatíveis e seguras, observando as recomendações institucionais.\n\nQuando houver necessidade de utilizar o mesmo acesso venoso em momentos diferentes, devem ser verificadas as orientações específicas de compatibilidade e de lavagem da linha.\n\n**5. A segurança não termina na escolha da dose.**\n\nUma prescrição correta pode se tornar inadequada durante o preparo ou a administração.\n\nPor isso, é importante considerar o medicamento, a concentração, o diluente, a via, o acesso e as incompatibilidades.\n\n**Na emergência, rapidez não significa misturar medicamentos sem verificar sua compatibilidade.**",
+      "pearl": "Cálcio e bicarbonato não devem ser misturados na mesma solução. O risco é a precipitação de carbonato de cálcio. Na emergência, confira a compatibilidade antes de compartilhar uma linha de infusão.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Calcium”, página 6."
+    }
+  ]
+}
