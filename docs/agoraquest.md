@@ -1,6 +1,6 @@
 # AgoraQuest — prática por aula
 
-O AgoraQuest é uma prática formativa extra, vinculada a uma aula específica. Estão publicadas cinco atividades do curso **Tratamento da Hipercalemia em Adultos**: **Aula 01** (`hipercalemia-aula-01-v1`), **Aula 02** (`hipercalemia-aula-02-v1`) e **Aula 03** (`hipercalemia-aula-03-v1`), do Módulo 1, e **Aula 04** (`hipercalemia-aula-04-v1`) e **Aula 05** (`hipercalemia-aula-05-v1`), do Módulo 2. A Aula 05 aborda **Redistribuição e liberação celular de potássio**.
+O AgoraQuest é uma prática formativa extra, vinculada a uma aula específica. Estão publicadas seis atividades do curso **Tratamento da Hipercalemia em Adultos**: **Aula 01** (`hipercalemia-aula-01-v1`), **Aula 02** (`hipercalemia-aula-02-v1`) e **Aula 03** (`hipercalemia-aula-03-v1`), do Módulo 1, e **Aula 04** (`hipercalemia-aula-04-v1`), **Aula 05** (`hipercalemia-aula-05-v1`) e **Aula 06** (`hipercalemia-aula-06-v1`), do Módulo 2. A Aula 05 aborda **Redistribuição e liberação celular de potássio** e a Aula 06 aborda **Quando o rim não consegue eliminar potássio**.
 
 Ele é independente do AgoraQuiz e do Plantão Virtual: não substitui a atividade principal da aula e **não marca a aula como concluída**. O convite aparece somente quando a atividade está publicada para aquela aula.
 
@@ -25,6 +25,7 @@ O conteúdo aprovado fica em `lib/agoraquest/`:
 - `hipercalemia-aula-03-v1.json` — Aula 03, gabarito **B-D-C-A-C**.
 - `hipercalemia-aula-04-v1.json` — Aula 04, gabarito **B-D-A-C-D**.
 - `hipercalemia-aula-05-v1.json` — Aula 05, gabarito **B-C-D-A-D**. Primeira atividade com tabelas laboratoriais (nas questões 01, 03 e 05), competência por questão e enunciado dividido em texto, tabela e trecho posterior.
+- `hipercalemia-aula-06-v1.json` — Aula 06, gabarito **B-C-D-B-D**. Tabelas laboratoriais nas questões 01, 02, 03 e 05; questão 04 é apenas texto. Competência por questão e enunciado dividido em texto, tabela e trecho posterior.
 
 Cada JSON traz o próprio gabarito no campo `key`; o engine usa a chave do conteúdo (`Q.keyOf`). Os enunciados, as alternativas e o gabarito **não devem ser reescritos sem uma nova revisão clínica**.
 
@@ -76,6 +77,7 @@ As migrações são aditivas e idempotentes:
 - `supabase/migrations/20261112150000_agoraquest_aula_03.sql` — apenas vincula a **Aula 03**. Localiza a aula pelo título que contém “estoque corporal”; se não encontrar, usa a terceira aula na ordem. Não altera tabelas, funções do caderno nem as Aulas 01 e 02. **Já aplicada em produção.**
 - `supabase/migrations/20261112170000_agoraquest_aula_04.sql` — apenas vincula a **Aula 04**. Localiza a aula pelo título que contém “pseudohipercalemia”; se não encontrar, usa a quarta aula na ordem. Não altera tabelas nem as atividades anteriores. **Já aplicada em produção.**
 - `supabase/migrations/20261112190000_agoraquest_aula_05.sql` — apenas vincula a **Aula 05**. Localiza a aula pelo título que contém “redistribui”; se não encontrar, usa a quinta aula na ordem. Não altera tabelas nem as atividades anteriores. **Já aplicada em produção.**
+- `supabase/migrations/20261113000000_agoraquest_aula_06.sql` — apenas vincula a **Aula 06**. Localiza a aula pelo título que contém “rim” e “elimina”; se não encontrar, usa a sexta aula na ordem. Não altera tabelas nem as atividades anteriores. **Já aplicada em produção.**
 
 Aplique novas migrações com a CLI autenticada (`supabase db push --remote`), conferindo antes o `--dry-run`. Depois, confirme:
 
@@ -100,7 +102,7 @@ select has_table_privilege('anon','public.agoraquest_tentativas','SELECT') as an
        has_function_privilege('authenticated','public.agoraquest_caderno_sincronizar(uuid,uuid,text,jsonb)','EXECUTE') as sync_rpc;
 ```
 
-O retorno esperado são cinco linhas em `agoraquest_atividades` (Aulas 01, 02, 03, 04 e 05), `count = 0` e todos os privilégios `false`.
+O retorno esperado são seis linhas em `agoraquest_atividades` (Aulas 01, 02, 03, 04, 05 e 06), `count = 0` e todos os privilégios `false`.
 
 Se o curso ou as aulas forem renomeados/reordenados, as migrações de vínculo podem ser executadas novamente: o vínculo é recalculado e as tentativas e o caderno permanecem na conta.
 

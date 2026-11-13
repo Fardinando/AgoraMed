@@ -1,0 +1,162 @@
+{
+  "slug": "hipercalemia-aula-06-v1",
+  "versao": 1,
+  "title": "Hipercalemia — Aula 06",
+  "subtitle": "Quando o rim não consegue eliminar potássio",
+  "intro": "Cinco casos sobre a excreção renal de potássio: diurese que não significa eliminação, hipoaldosteronismo, bloqueio tubular por medicamentos, congestão com perfusão efetiva reduzida e risco de rebote na lesão renal aguda. Em cada um, a pergunta central é a mesma — o rim está realmente eliminando potássio? Responda uma questão por vez: ao confirmar, a alternativa fica bloqueada e o comentário aparece imediatamente, com a análise das quatro alternativas, a pérola do plantão e a fundamentação. Você pode refazer a prática quantas vezes quiser; o histórico e o caderno de erros ficam salvos na sua conta.",
+  "closing": "Eliminação de potássio é função tubular, não apenas volume urinário. A diurese preservada não garante secreção distal; a aldosterona presente não garante resposta tubular; a congestão não garante perfusão arterial efetiva. Quando o rim perde a capacidade de eliminar potássio, a queda após insulina é uma janela de segurança, não a resolução do problema. Trate o paciente, acompanhe a direção em que o potássio está caminhando e avalie precocemente a remoção efetiva.",
+  "references": "UpToDate. Hyperkalemia in adults. https://www.uptodate.com/contents/hyperkalemia-in-adults",
+  "key": ["B", "C", "D", "B", "D"],
+  "questions": [
+    {
+      "number": 1,
+      "title": "Ele está urinando. Então por que o potássio está alto?",
+      "competency": "Diferenciar diurese de excreção efetiva de potássio",
+      "stem": "Um homem de 71 anos, com doença renal crônica, procura atendimento após receber um resultado de potássio sérico de 5,9 mEq/L.\n\nEstá clinicamente estável, sem alterações eletrocardiográficas sugestivas de hipercalemia. Refere manter uma diurese de aproximadamente 1.500 mL por dia.\n\nOs exames mostram:",
+      "table": {
+        "caption": "Exames",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Potássio", "5,9 mEq/L"],
+          ["Creatinina", "2,6 mg/dL"],
+          ["Bicarbonato", "21 mEq/L"],
+          ["Diurese referida", "1.500 mL/dia"]
+        ]
+      },
+      "stemAfter": "Um interno comenta:\n\n“Se ele está urinando normalmente, o rim deveria conseguir eliminar o potássio. Talvez o resultado esteja errado.”\n\n**Qual interpretação é mais adequada?**",
+      "choices": {
+        "A": "A presença de diurese preservada exclui comprometimento da excreção renal de potássio, tornando a pseudohipercalemia a explicação mais provável.",
+        "B": "A eliminação renal de potássio depende da secreção tubular distal, que pode estar comprometida mesmo quando o paciente mantém volume urinário aparentemente adequado.",
+        "C": "A creatinina elevada indica que o potássio está sendo produzido pelos rins, independentemente da secreção tubular.",
+        "D": "O potássio só se eleva por doença renal quando o paciente apresenta anúria completa."
+      },
+      "feedback": {
+        "A": "A diurese preservada não garante secreção tubular adequada. Pseudohipercalemia pode ser considerada quando o contexto sugere interferência na amostra, mas não deve ser presumida apenas porque o paciente continua urinando. Um ECG normal também não exclui hipercalemia verdadeira.",
+        "B": "Identifica o principal conceito da questão: a eliminação de potássio depende da função tubular distal e de seus mecanismos reguladores, não simplesmente do volume urinário.",
+        "C": "Os rins não produzem potássio. Sua principal função no balanço corporal desse eletrólito é ajustar sua excreção. A creatinina elevada sugere comprometimento da função renal, mas não significa que o rim esteja gerando potássio.",
+        "D": "A anúria representa comprometimento extremo da eliminação urinária, mas não é necessária para o desenvolvimento de hipercalemia. Pacientes com diurese preservada podem apresentar retenção de potássio."
+      },
+      "correctExplanation": "Esta questão explora um erro frequente: considerar que produzir urina é sinônimo de eliminar potássio adequadamente.\n\nA excreção renal de potássio não depende apenas do volume de urina. Ela resulta de mecanismos de transporte tubular, especialmente da secreção de potássio nos segmentos distais do néfron.\n\nGrande parte do potássio filtrado é reabsorvida ao longo dos segmentos proximais. O ajuste fino da excreção ocorre principalmente no segmento conector e no ducto coletor cortical, onde as células principais participam da secreção de potássio.\n\nPara que esse processo funcione adequadamente, três fatores são particularmente importantes:\n\n- Secreção suficiente de aldosterona.\n- Resposta tubular adequada à aldosterona.\n- Entrega distal suficiente de sódio e água.\n\nUm paciente pode produzir 1.500 mL de urina por dia e, ainda assim, apresentar capacidade insuficiente de secretar potássio.\n\nAlém disso, na doença renal crônica, os néfrons remanescentes podem aumentar a excreção de potássio por néfron, permitindo manter o equilíbrio durante algum tempo. Essa adaptação, entretanto, pode se tornar insuficiente diante de fatores adicionais.\n\nPortanto, a presença de diurese não elimina a possibilidade de hipercalemia verdadeira.\n\n**O volume urinário informa quanto líquido está sendo eliminado, mas não revela, isoladamente, quanto potássio está sendo excretado.**",
+      "pearl": "Não pergunte apenas “quanto o paciente está urinando?”. Pergunte também se seus rins conseguem secretar potássio adequadamente. Diurese preservada não é garantia de equilíbrio do potássio.",
+      "reference": "Causes and evaluation of hyperkalemia in adults — seções “Reduced urinary potassium excretion” e “Acute and chronic kidney disease”."
+    },
+    {
+      "number": 2,
+      "title": "A creatinina está quase normal. O que está faltando?",
+      "competency": "Reconhecer deficiência funcional de aldosterona",
+      "stem": "Uma mulher de 63 anos, com diabetes mellitus tipo 2 de longa duração, apresenta hipercalemia persistente em exames ambulatoriais.\n\nOs resultados mostram:",
+      "table": {
+        "caption": "Exames",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Potássio", "5,8 mEq/L"],
+          ["Creatinina", "1,2 mg/dL"],
+          ["Bicarbonato", "18 mEq/L"],
+          ["Cloro", "110 mEq/L"],
+          ["Ânion gap", "Normal"]
+        ]
+      },
+      "stemAfter": "Não há evidência de hemólise da amostra. A paciente nega suplementação de potássio.\n\nA investigação identifica atividade de renina plasmática reduzida e concentração de aldosterona inadequadamente baixa para o grau de hipercalemia.\n\n**Qual mecanismo explica melhor os achados?**",
+      "choices": {
+        "A": "A deficiência de aldosterona estimula a secreção de potássio, mas aumenta sua absorção intestinal.",
+        "B": "A hipercalemia decorre necessariamente de liberação muscular de potássio, já que a creatinina não está muito elevada.",
+        "C": "A redução da atividade da aldosterona compromete a secreção distal de potássio e pode estar associada à acidose tubular renal tipo 4.",
+        "D": "A presença de acidose metabólica com ânion gap normal exclui mecanismos renais de hipercalemia."
+      },
+      "feedback": {
+        "A": "A aldosterona normalmente favorece a excreção renal de potássio. Sua deficiência tende a reduzir essa secreção, não a aumentá-la. A absorção intestinal não é o mecanismo principal descrito.",
+        "B": "A liberação muscular de potássio pode ocorrer em situações como rabdomiólise, mas não há elementos que sustentem esse diagnóstico. A presença de hipercalemia com creatinina relativamente preservada não obriga a procurar uma causa muscular.",
+        "C": "Relaciona a deficiência funcional de aldosterona à menor secreção distal de potássio e à possibilidade de acidose tubular renal tipo 4. É a interpretação que melhor integra os achados clínicos e laboratoriais.",
+        "D": "A acidose metabólica com ânion gap normal pode ocorrer justamente em distúrbios renais, incluindo a acidose tubular renal tipo 4. Portanto, esse achado não exclui uma causa renal; ele pode ajudar a identificá-la."
+      },
+      "correctExplanation": "O caso apresenta uma combinação importante: diabetes de longa duração, hipercalemia persistente, acidose metabólica com ânion gap normal e atividade inadequadamente baixa do sistema renina-angiotensina-aldosterona.\n\nEsse conjunto sugere hipoaldosteronismo hiporreninêmico, uma causa de hipercalemia associada à acidose tubular renal tipo 4.\n\nPara compreender o mecanismo, precisamos recordar o papel da aldosterona.\n\nNas células principais dos segmentos distais do néfron, a aldosterona favorece a reabsorção de sódio e a secreção de potássio.\n\nA entrada de sódio pela membrana luminal, associada à atividade da Na⁺/K⁺-ATPase basolateral, contribui para estabelecer condições favoráveis à secreção de potássio.\n\nQuando a ação da aldosterona está reduzida, a capacidade de excretar potássio pode diminuir.\n\nO aspecto particularmente importante deste caso é que **não é necessário existir insuficiência renal avançada para que um defeito na regulação tubular provoque hipercalemia**.\n\nA acidose tubular renal tipo 4 também pode cursar com acidose metabólica hiperclorêmica. A hipercalemia contribui para a redução da excreção renal de ácido, inclusive por interferir na produção e excreção de amônio.\n\nA presença de creatinina apenas discretamente elevada não exclui esse mecanismo.\n\nA hipótese deve ser integrada à história clínica, à função renal e à investigação de outras causas, incluindo medicamentos.",
+      "pearl": "Diabetes, hipercalemia persistente e acidose metabólica hiperclorêmica formam uma combinação que deve fazer você considerar hipoaldosteronismo e acidose tubular renal tipo 4 — mesmo sem creatinina muito elevada.",
+      "reference": "Causes and evaluation of hyperkalemia in adults — seção “Reduced aldosterone secretion” e discussão da acidose tubular renal tipo 4."
+    },
+    {
+      "number": 3,
+      "title": "A aldosterona está presente. Por que o potássio não sai?",
+      "competency": "Diferenciar deficiência hormonal de resistência tubular",
+      "stem": "Uma mulher de 59 anos, com doença renal crônica estável, apresenta elevação do potássio após iniciar trimetoprima-sulfametoxazol para tratar uma infecção.\n\nOs exames mostram:",
+      "table": {
+        "caption": "Exames",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Potássio anterior", "4,6 mEq/L"],
+          ["Potássio atual", "5,9 mEq/L"],
+          ["Creatinina anterior", "1,5 mg/dL"],
+          ["Creatinina atual", "1,6 mg/dL"]
+        ]
+      },
+      "stemAfter": "A amostra foi confirmada sem interferências pré-analíticas relevantes. A investigação não sugere deficiência de aldosterona.\n\nUm interno afirma:\n\n“Se a aldosterona está presente e a creatinina praticamente não mudou, não deveria existir retenção renal de potássio.”\n\n**Qual explicação melhor corrige essa afirmação?**",
+      "choices": {
+        "A": "A trimetoprima aumenta diretamente a produção de potássio pelas células musculares, independentemente da função renal.",
+        "B": "A presença de aldosterona garante a excreção adequada de potássio, tornando a elevação necessariamente laboratorial.",
+        "C": "A trimetoprima aumenta a reabsorção de sódio pelos canais epiteliais distais, estimulando a eliminação renal de potássio.",
+        "D": "A trimetoprima pode bloquear canais epiteliais de sódio no néfron distal, reduzindo a secreção de potássio mesmo sem deficiência de aldosterona."
+      },
+      "feedback": {
+        "A": "A trimetoprima não provoca hipercalemia por estimular a produção muscular de potássio. O problema é a redução de sua secreção renal. A alternativa confunde um distúrbio de excreção com liberação celular.",
+        "B": "A presença de aldosterona não garante secreção adequada quando os mecanismos tubulares estão comprometidos. Além disso, não há justificativa para classificar a alteração como pseudohipercalemia apenas porque a creatinina está estável.",
+        "C": "A trimetoprima exerce o efeito oposto ao descrito: ela pode inibir os canais ENaC. Isso reduz a reabsorção eletrogênica de sódio e prejudica a secreção de potássio.",
+        "D": "Identifica o mecanismo farmacológico e demonstra que a hipercalemia pode resultar de um defeito na resposta tubular, mesmo quando a aldosterona está presente."
+      },
+      "correctExplanation": "A questão apresenta uma distinção fundamental: **ter aldosterona circulante não significa necessariamente que o néfron consiga responder adequadamente a ela ou secretar potássio**.\n\nNas células principais do néfron distal, a reabsorção de sódio pelos canais epiteliais de sódio, conhecidos como ENaC, favorece a formação de um potencial elétrico luminal negativo.\n\nEsse ambiente elétrico contribui para a secreção de potássio através dos canais apropriados.\n\nA aldosterona estimula diversos componentes desse sistema, mas a secreção efetiva depende também de canais e transportadores funcionantes.\n\nA trimetoprima possui uma ação semelhante à da amilorida: pode bloquear os canais ENaC, reduzindo a reabsorção eletrogênica de sódio e dificultando a secreção de potássio.\n\nPor isso, um paciente pode desenvolver hipercalemia mesmo sem apresentar deficiência de aldosterona.\n\nOutro detalhe importante é que a trimetoprima pode elevar a creatinina sérica por inibir sua secreção tubular, sem necessariamente representar uma redução proporcional da filtração glomerular. Isso não deve, entretanto, levar à conclusão de que toda elevação da creatinina durante seu uso seja inofensiva.\n\nA doença renal preexistente aumenta a vulnerabilidade do paciente à hipercalemia.\n\nPortanto, o mecanismo predominante neste caso é uma interferência farmacológica na secreção distal de potássio.",
+      "pearl": "Na hipercalemia, não basta perguntar se existe aldosterona. É preciso perguntar se o néfron consegue responder a ela. Alguns medicamentos comprometem a secreção de potássio diretamente no túbulo distal.",
+      "reference": "Causes and evaluation of hyperkalemia in adults — seção “Reduced response to aldosterone”, especialmente o mecanismo dos bloqueadores dos canais epiteliais de sódio."
+    },
+    {
+      "number": 4,
+      "title": "O rim está recebendo sódio suficiente?",
+      "competency": "Reconhecer a importância da entrega distal de sódio e água",
+      "stem": "Um homem de 76 anos, com insuficiência cardíaca avançada, é internado por piora da dispneia, edema de membros inferiores e redução da diurese.\n\nApresenta pressão arterial de 92/58 mmHg, extremidades frias e sinais de congestão sistêmica.\n\nOs exames mostram potássio de 5,8 mEq/L e creatinina de 2,1 mg/dL.\n\nDurante a discussão, um residente comenta:\n\n“Ele está congesto, então certamente existe bastante água chegando aos túbulos renais. Isso deveria facilitar a eliminação de potássio.”\n\n**Qual interpretação fisiopatológica é mais adequada?**",
+      "choices": {
+        "A": "A congestão sistêmica garante aumento do volume arterial efetivo e, consequentemente, maior entrega distal de sódio.",
+        "B": "A redução do volume arterial efetivo e da perfusão renal pode diminuir a entrega distal de sódio e água, prejudicando a secreção de potássio mesmo em um paciente com excesso de líquido corporal.",
+        "C": "A presença de edema demonstra que a aldosterona deixou de participar da regulação do potássio.",
+        "D": "A hipercalemia na insuficiência cardíaca só pode ocorrer quando existe anúria completa."
+      },
+      "feedback": {
+        "A": "A congestão não garante perfusão arterial efetiva adequada. O paciente pode apresentar edema importante e, simultaneamente, redução da perfusão renal e da entrega distal de sódio.",
+        "B": "Reconhece a diferença entre excesso de líquido corporal e volume arterial efetivo. Também identifica o impacto da menor entrega distal de sódio e água sobre a secreção renal de potássio.",
+        "C": "O edema não demonstra ausência de atividade da aldosterona. Na insuficiência cardíaca, mecanismos neuro-hormonais podem estar intensamente ativados. A regulação do potássio continua dependendo da interação entre aldosterona, função renal e entrega distal.",
+        "D": "A anúria não é necessária para o desenvolvimento de hipercalemia. A secreção renal pode estar comprometida mesmo quando ainda existe produção de urina."
+      },
+      "correctExplanation": "Este caso apresenta um conceito que frequentemente parece contraditório: um paciente pode estar congesto e, ao mesmo tempo, apresentar redução do volume arterial efetivo.\n\nNa insuficiência cardíaca avançada, o comprometimento do débito cardíaco pode reduzir a perfusão arterial efetiva.\n\nEmbora exista excesso de líquido no organismo, parte importante desse volume está distribuída no compartimento venoso e intersticial, contribuindo para edema e congestão.\n\nOs rins podem responder à redução da perfusão efetiva com retenção de sódio e água, mediada por mecanismos neuro-hormonais.\n\nIsso pode reduzir a quantidade de sódio e água que chega aos segmentos distais responsáveis pela secreção de potássio.\n\nA secreção distal depende, entre outros fatores, da entrega de sódio, do fluxo tubular e da atividade dos canais e transportadores envolvidos.\n\nQuando a entrega distal diminui, a capacidade de excretar potássio pode ficar comprometida.\n\nPortanto, **estar congesto não significa necessariamente apresentar entrega distal adequada de sódio e água**.\n\nÉ importante reconhecer também que a hipercalemia na insuficiência cardíaca pode ser multifatorial, especialmente quando coexistem disfunção renal e medicamentos que interferem no sistema renina-angiotensina-aldosterona.\n\nA questão não exige definir a estratégia de descongestão, mas compreender por que a fisiopatologia da insuficiência cardíaca pode contribuir para retenção de potássio.",
+      "pearl": "Um paciente pode estar cheio de líquido e, ainda assim, apresentar perfusão arterial efetiva insuficiente. Na insuficiência cardíaca, não confunda congestão com entrega distal adequada de sódio e água.",
+      "reference": "Causes and evaluation of hyperkalemia in adults — seções “Reduced distal sodium and water delivery” e “Multiple factors”."
+    },
+    {
+      "number": 5,
+      "title": "O potássio caiu, mas o problema renal continua",
+      "competency": "Integrar fisiopatologia renal e risco de recorrência",
+      "stem": "Um homem de 68 anos é internado na UTI com lesão renal aguda oligúrica associada a choque séptico.\n\nNas últimas seis horas, apresentou diurese total de 45 mL.\n\nOs exames iniciais mostram:",
+      "table": {
+        "caption": "Exames iniciais",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Potássio", "7,0 mEq/L"],
+          ["Creatinina", "4,3 mg/dL"],
+          ["Bicarbonato", "16 mEq/L"],
+          ["Diurese", "45 mL/6 horas"]
+        ]
+      },
+      "stemAfter": "O eletrocardiograma mostra alargamento do QRS.\n\nO paciente recebe tratamento emergencial para hipercalemia, incluindo estabilização cardíaca com cálcio intravenoso e medidas de redistribuição do potássio.\n\nApós uma hora, o potássio diminui para 5,7 mEq/L. Entretanto, a oligúria persiste.\n\nUm interno considera a resposta satisfatória e sugere encerrar a monitorização específica da hipercalemia.\n\n**Qual é a interpretação mais adequada?**",
+      "choices": {
+        "A": "A queda do potássio demonstra recuperação da secreção tubular distal, mesmo que a diurese permaneça reduzida.",
+        "B": "A administração de cálcio intravenoso remove o potássio corporal, tornando desnecessária uma estratégia de eliminação.",
+        "C": "A resposta inicial confirma que o rim está eliminando potássio adequadamente, dispensando novas dosagens.",
+        "D": "A redução do potássio pode representar apenas redistribuição temporária; como a excreção renal permanece gravemente comprometida, existe risco de rebote e necessidade de avaliar precocemente medidas efetivas de remoção, incluindo diálise."
+      },
+      "feedback": {
+        "A": "A queda do potássio após medidas redistributivas não demonstra recuperação tubular. O paciente continua oligúrico, e não existem dados que comprovem restabelecimento da capacidade renal de excreção.",
+        "B": "O cálcio intravenoso estabiliza eletricamente o miocárdio, mas não remove potássio. Confundir proteção cardíaca com eliminação corporal pode levar à falsa conclusão de que o tratamento está completo.",
+        "C": "A resposta inicial não comprova eliminação renal. A redução pode ser explicada pela entrada de potássio nas células. Suspender a monitorização diante de oligúria importante expõe o paciente ao risco de hipercalemia recorrente.",
+        "D": "Reconhece a diferença entre redistribuição e remoção, identifica a persistência do defeito renal e orienta monitorização e avaliação precoce de estratégias definitivas."
+      },
+      "correctExplanation": "Esta questão reúne os principais conceitos da aula e os transforma em uma decisão prática.\n\nO paciente apresenta hipercalemia grave, alterações eletrocardiográficas e lesão renal aguda com oligúria importante.\n\nO tratamento inicial foi necessário para reduzir o risco imediato de complicações cardíacas.\n\nEntretanto, precisamos distinguir três efeitos terapêuticos diferentes.\n\n**Primeiro: estabilização cardíaca.**\n\nO cálcio intravenoso é utilizado para antagonizar os efeitos eletrofisiológicos da hipercalemia sobre o miocárdio. Ele não reduz diretamente a concentração sérica de potássio e não remove o eletrólito do organismo.\n\n**Segundo: redistribuição.**\n\nMedidas como insulina e glicose estimulam a entrada de potássio nas células, reduzindo temporariamente sua concentração extracelular.\n\nEssa redução pode ser significativa, mas não representa necessariamente eliminação corporal.\n\n**Terceiro: remoção.**\n\nPara resolver uma hipercalemia causada por retenção corporal, é necessário que o potássio seja efetivamente eliminado.\n\nQuando a função renal está preservada, os rins podem participar desse processo. Entretanto, no paciente apresentado, a oligúria intensa indica capacidade de eliminação muito limitada.\n\nPor isso, a redução de 7,0 para 5,7 mEq/L não garante resolução definitiva.\n\nO potássio pode voltar a subir quando o efeito das medidas redistributivas diminuir.\n\nAlém disso, o comprometimento renal pode persistir ou se agravar.\n\nA conduta exige monitorização clínica e eletrocardiográfica, novas dosagens de potássio e avaliação precoce da necessidade de remoção efetiva, incluindo terapia renal substitutiva.\n\n**A necessidade de diálise não deve ser determinada exclusivamente por um valor isolado de potássio**, mas pelo conjunto de gravidade, resposta terapêutica, capacidade de excreção e evolução clínica.",
+      "pearl": "Quando o rim não consegue eliminar potássio, a melhora do exame após insulina pode ser apenas uma janela de segurança. Aproveite esse tempo para organizar a remoção do potássio, em vez de interpretar a queda como resolução definitiva.",
+      "reference": "Treatment and prevention of hyperkalemia in adults — seção “Determining the urgency of therapy” e abordagem da remoção de potássio; Causes and evaluation of hyperkalemia in adults — seção “Acute and chronic kidney disease”."
+    }
+  ]
+}
