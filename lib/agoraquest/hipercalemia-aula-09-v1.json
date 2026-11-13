@@ -1,0 +1,140 @@
+{
+  "slug": "hipercalemia-aula-09-v1",
+  "versao": 1,
+  "title": "Hipercalemia — Aula 09",
+  "subtitle": "ECG na hipercalemia: o que procurar e quais são suas limitações",
+  "intro": "Cinco casos sobre o eletrocardiograma na hipercalemia: ondas T novas, perda da onda P com prolongamento do PR e alargamento do QRS, padrão sinusoidal, ECG normal com potássio gravemente elevado e melhora do QRS após cálcio. Em cada um, a pergunta central é a mesma — o que o ECG pode e não pode dizer sobre a hipercalemia? Responda uma questão por vez: ao confirmar, a alternativa fica bloqueada e o comentário aparece imediatamente, com a análise das quatro alternativas, a pérola do plantão e a fundamentação. Você pode refazer a prática quantas vezes quiser; o histórico e o caderno de erros ficam salvos na sua conta.",
+  "closing": "O ECG é fundamental para identificar manifestações elétricas e reconhecer pacientes com risco elevado de deterioração, mas sua sensibilidade é limitada. Ondas T altas, perda da onda P, prolongamento do PR, alargamento do QRS e padrão sinusoidal são sinais de alarme. Um ECG normal não exclui hipercalemia grave. A melhora do ECG após cálcio indica estabilização elétrica, não correção do potássio. Compare sempre com traçados anteriores e integre com o laboratório e o contexto clínico.",
+  "references": "UpToDate. Hyperkalemia in adults. https://www.uptodate.com/contents/hyperkalemia-in-adults",
+  "key": ["B", "D", "A", "C", "B"],
+  "questions": [
+    {
+      "number": 1,
+      "title": "Aquela onda T sempre esteve ali?",
+      "competency": "Reconhecer alterações de repolarização e interpretá-las no contexto clínico",
+      "stem": "Um homem de 59 anos, com doença renal crônica, procura a emergência por redução da diurese há dois dias.\n\nApresenta pressão arterial de 136/84 mmHg, frequência cardíaca de 88 bpm e encontra-se consciente, sem dor torácica.\n\nO laboratório informa potássio de 6,4 mEq/L e creatinina de 3,2 mg/dL.\n\nO ECG mostra ritmo sinusal, QRS de 96 ms e ondas T altas, estreitas, simétricas e pontiagudas em múltiplas derivações. Um ECG realizado três meses antes não apresentava essas alterações.\n\nUm interno comenta:\n\n“Como o QRS ainda está estreito, não parece haver efeito cardíaco importante do potássio.”\n\n**Qual interpretação é mais adequada?**",
+      "choices": {
+        "A": "O QRS estreito exclui alterações eletrocardiográficas relacionadas à hipercalemia.",
+        "B": "Ondas T altas, estreitas e pontiagudas, especialmente quando novas e associadas à elevação do potássio, podem representar uma manifestação eletrocardiográfica da hipercalemia, mesmo com QRS ainda estreito.",
+        "C": "As ondas T só podem ser atribuídas à hipercalemia quando acompanhadas de desaparecimento completo da onda P.",
+        "D": "Toda onda T alta e pontiaguda confirma hipercalemia, independentemente do contexto clínico e laboratorial."
+      },
+      "feedback": {
+        "A": "O QRS pode permanecer estreito mesmo quando já existem alterações de repolarização associadas à hipercalemia. Não é necessário haver alargamento do QRS para reconhecer uma manifestação eletrocardiográfica relevante.",
+        "B": "Integra a morfologia característica das ondas T, a mudança em relação ao traçado anterior e a elevação laboratorial do potássio.",
+        "C": "O desaparecimento da onda P pode ocorrer em hipercalemia mais avançada, mas não é requisito para atribuir alterações de repolarização ao potássio.",
+        "D": "Ondas T altas e pontiagudas não são específicas da hipercalemia. Interpretá-las isoladamente pode levar tanto a diagnósticos equivocados quanto à negligência de outras emergências, como a síndrome coronariana aguda."
+      },
+      "correctExplanation": "As ondas T altas e pontiagudas são uma das manifestações eletrocardiográficas classicamente associadas à hipercalemia.\n\nPara compreender esse achado, é importante lembrar que o potássio participa diretamente da repolarização das células cardíacas.\n\nO aumento do potássio extracelular modifica os gradientes eletroquímicos e as propriedades dos canais iônicos, podendo acelerar determinadas fases da repolarização ventricular.\n\nIsso pode produzir ondas T com características reconhecíveis:\n\n- Amplitude aumentada.\n- Base relativamente estreita.\n- Contorno simétrico.\n- Ápice pontiagudo.\n\nEssas alterações podem ocorrer antes do aparecimento de distúrbios importantes da condução intraventricular.\n\nPortanto, a presença de QRS estreito não exclui efeito eletrofisiológico da hipercalemia.\n\nNo caso apresentado, três informações reforçam a suspeita:\n\n**Primeiro:** o potássio está elevado.\n\n**Segundo:** as alterações da onda T são novas em relação ao ECG anterior.\n\n**Terceiro:** o paciente apresenta doença renal e piora da função renal, condições que favorecem a retenção de potássio.\n\nEntretanto, existe uma limitação fundamental: ondas T altas não são exclusivas da hipercalemia.\n\nPodem aparecer, por exemplo, na fase hiperaguda de um infarto agudo do miocárdio, em padrões de repolarização precoce e em outras situações.\n\nO contexto clínico, a distribuição das alterações e a comparação com exames anteriores são importantes.\n\n**O ECG deve aumentar ou diminuir a suspeita clínica, mas não substitui a integração com o laboratório e a avaliação do paciente.**\n\nNeste caso, a hipercalemia confirmada e as alterações novas exigem reconhecimento de possível toxicidade elétrica e tratamento urgente conforme o contexto.",
+      "pearl": "Não procure apenas ondas T apiculadas: procure ondas T que mudaram. Comparar o ECG atual com um traçado anterior pode ajudar muito mais do que avaliar apenas a altura da onda.",
+      "reference": "UpToDate — Clinical manifestations of hyperkalemia in adults, seção “ECG changes”; Treatment and prevention of hyperkalemia in adults, tabela de manejo emergencial."
+    },
+    {
+      "number": 2,
+      "title": "A onda P está desaparecendo",
+      "competency": "Reconhecer alterações da condução atrial e ventricular",
+      "stem": "Uma mulher de 71 anos, com doença renal crônica avançada, é atendida por fraqueza e mal-estar.\n\nO potássio sérico é de 7,0 mEq/L.\n\nO ECG realizado na admissão mostra:\n\n- Frequência ventricular de 54 bpm.\n- Ondas P de baixa amplitude, algumas dificilmente identificáveis.\n- Intervalo PR de 260 ms nos complexos em que a onda P é visível.\n- QRS de 148 ms.\n\nUm ECG anterior apresentava PR de 170 ms e QRS de 92 ms.\n\nUm residente afirma:\n\n“Como não existem ondas T muito apiculadas, essas alterações provavelmente não têm relação com a hipercalemia.”\n\n**Qual interpretação é mais adequada?**",
+      "choices": {
+        "A": "A ausência de ondas T muito apiculadas exclui comprometimento da condução relacionado à hipercalemia.",
+        "B": "O prolongamento do PR e o alargamento do QRS são alterações inespecíficas que não podem ocorrer na hipercalemia.",
+        "C": "A redução da amplitude da onda P demonstra exclusivamente uma alteração técnica do eletrocardiograma.",
+        "D": "A redução ou perda da onda P, o prolongamento do PR e o alargamento do QRS podem representar comprometimento progressivo da condução elétrica pela hipercalemia, mesmo sem ondas T tipicamente apiculadas."
+      },
+      "feedback": {
+        "A": "A ausência de ondas T apiculadas não exclui toxicidade elétrica. Alterações de condução podem ocorrer sem que todos os achados clássicos estejam presentes.",
+        "B": "O prolongamento do PR e o alargamento do QRS são manifestações reconhecidas da hipercalemia. Embora não sejam específicos, devem ser valorizados no contexto clínico apresentado.",
+        "C": "Artefatos técnicos podem alterar o registro eletrocardiográfico, mas a redução da onda P também pode refletir comprometimento real da condução atrial. O conjunto de alterações e a comparação com o ECG anterior favorecem uma alteração fisiopatológica.",
+        "D": "Reconhece as alterações de condução associadas à hipercalemia e evita exigir a presença de ondas T apiculadas como condição obrigatória."
+      },
+      "correctExplanation": "A hipercalemia pode comprometer tanto a repolarização quanto a condução elétrica cardíaca.\n\nEm concentrações elevadas de potássio extracelular, o potencial de repouso das células cardíacas torna-se menos negativo.\n\nEssa despolarização sustentada pode inativar parte dos canais rápidos de sódio.\n\nComo consequência, a velocidade de despolarização em tecidos dependentes desses canais diminui, comprometendo a propagação do impulso elétrico.\n\nO ECG pode apresentar alterações relacionadas a esse processo.\n\n**A onda P pode diminuir de amplitude ou desaparecer.**\n\nIsso pode refletir comprometimento da despolarização atrial.\n\n**O intervalo PR pode se prolongar.**\n\nEsse achado pode refletir atraso na condução entre a ativação atrial e a ventricular.\n\n**O QRS pode se alargar.**\n\nO alargamento indica atraso na despolarização ventricular e pode representar toxicidade elétrica importante.\n\nNo caso apresentado, há três alterações novas e simultâneas:\n\n- Redução da amplitude das ondas P.\n- PR prolongado.\n- QRS significativamente alargado.\n\nA comparação com o ECG anterior demonstra que essas alterações não eram previamente conhecidas.\n\nO potássio de 7,0 mEq/L reforça a possibilidade de que estejam relacionadas à hipercalemia.\n\nEntretanto, a ausência de ondas T muito apiculadas não exclui o diagnóstico.\n\nA sequência clássica de alterações eletrocardiográficas é útil para compreender a fisiopatologia, mas não representa uma progressão obrigatória.\n\nAlguns pacientes podem apresentar distúrbios graves de condução sem exibir todos os achados considerados típicos.\n\n**A hipercalemia não precisa seguir uma ordem fixa de alterações no ECG para produzir toxicidade cardíaca grave.**\n\nA combinação de hipercalemia e distúrbios de condução novos exige abordagem emergencial.",
+      "pearl": "Na hipercalemia, não olhe apenas para a onda T. Uma onda P que desaparece, um PR que aumenta ou um QRS que alarga podem representar uma ameaça elétrica ainda mais importante.",
+      "reference": "UpToDate — Clinical manifestations of hyperkalemia in adults, seções “ECG changes” e “Conduction abnormalities and arrhythmias”."
+    },
+    {
+      "number": 3,
+      "title": "Quando o QRS encontra a onda T",
+      "competency": "Reconhecer o padrão sinusoidal como sinal de toxicidade elétrica extrema",
+      "stem": "Um homem de 68 anos, em tratamento dialítico crônico, é levado à emergência após perder duas sessões consecutivas de hemodiálise.\n\nChega sonolento, com extremidades frias e dificuldade para responder às perguntas.\n\nNa avaliação inicial:",
+      "table": {
+        "caption": "Exames",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Frequência cardíaca", "38 bpm"],
+          ["Pressão arterial", "78/46 mmHg"],
+          ["Potássio", "8,6 mEq/L"],
+          ["Creatinina", "10,2 mg/dL"],
+          ["Bicarbonato", "13 mEq/L"]
+        ]
+      },
+      "stemAfter": "O monitor cardíaco mostra complexos QRS extremamente alargados, com transição pouco definida entre o QRS e a onda T. O traçado apresenta aspecto ondulatório contínuo, semelhante a uma senoide.\n\nAs ondas P não são identificáveis.\n\nUm interno pergunta:\n\n“Isso ainda é um ECG de hipercalemia ou já estamos diante de uma arritmia completamente diferente?”\n\n**Qual interpretação é mais adequada?**",
+      "choices": {
+        "A": "O padrão sinusoidal pode representar toxicidade elétrica extrema pela hipercalemia, com grave comprometimento da condução ventricular e risco iminente de arritmias fatais ou assistolia, exigindo intervenção imediata.",
+        "B": "O padrão sinusoidal indica apenas uma alteração benigna da repolarização, sem comprometimento da condução ventricular.",
+        "C": "O desaparecimento das ondas P demonstra que o paciente desenvolveu necessariamente fibrilação atrial, independentemente dos demais achados.",
+        "D": "A fusão entre QRS e onda T indica que o potássio começou a retornar ao espaço intracelular, representando melhora espontânea."
+      },
+      "feedback": {
+        "A": "Reconhece o padrão sinusoidal como manifestação de toxicidade elétrica extrema, identifica o risco de deterioração e estabelece a necessidade de intervenção imediata.",
+        "B": "O padrão sinusoidal não representa uma alteração benigna. O alargamento extremo do QRS indica comprometimento importante da condução elétrica e pode preceder eventos fatais.",
+        "C": "A ausência de ondas P não significa obrigatoriamente fibrilação atrial. Na hipercalemia grave, a atividade elétrica atrial pode tornar-se pouco evidente no ECG. O diagnóstico de fibrilação atrial exige interpretação do ritmo e dos demais achados.",
+        "D": "A fusão entre QRS e onda T não indica melhora do potássio. Pelo contrário, pode representar comprometimento extremo da condução ventricular."
+      },
+      "correctExplanation": "O padrão sinusoidal é uma das manifestações eletrocardiográficas mais graves associadas à hipercalemia.\n\nPara compreendê-lo, precisamos retomar a fisiologia da condução cardíaca.\n\nO aumento expressivo do potássio extracelular torna o potencial de repouso das células cardíacas menos negativo.\n\nEssa despolarização sustentada provoca inativação progressiva dos canais rápidos de sódio, reduzindo a velocidade de propagação dos potenciais de ação.\n\nNo ECG, isso pode produzir alargamento importante do QRS.\n\nEm situações extremas, o QRS se alarga tanto que sua transição para a onda T torna-se pouco definida, originando um traçado de aspecto sinusoidal.\n\nEsse padrão indica comprometimento elétrico grave.\n\nO paciente apresentado reúne múltiplos elementos de alto risco:\n\n- Potássio de 8,6 mEq/L.\n- Ausência de sessões recentes de hemodiálise.\n- Bradicardia importante.\n- Hipotensão e alteração do estado mental.\n- Ausência de ondas P identificáveis.\n- Alargamento extremo do QRS com aspecto sinusoidal.\n\nA combinação é altamente sugestiva de emergência hipercalêmica com risco iminente de deterioração cardiovascular.\n\nÉ importante compreender que o padrão sinusoidal não deve ser interpretado como uma etapa obrigatória pela qual todos os pacientes passarão antes de desenvolver uma arritmia fatal.\n\nA evolução eletrocardiográfica pode ser rápida, variável e imprevisível.\n\nAlguns pacientes apresentam arritmias graves sem exibir previamente toda a sequência clássica de alterações.\n\nNeste cenário, a prioridade é a estabilização imediata, incluindo cálcio intravenoso para estabilização da membrana cardíaca, medidas para deslocamento temporário do potássio para o meio intracelular e organização da remoção efetiva do potássio, com hemodiálise emergencial conforme a avaliação clínica.\n\n**Não se deve aguardar a evolução para fibrilação ventricular ou assistolia para iniciar o tratamento.**",
+      "pearl": "Quando o QRS se alarga a ponto de praticamente se fundir com a onda T, não perca tempo procurando a próxima alteração eletrocardiográfica. Você pode estar diante de uma emergência hipercalêmica imediatamente ameaçadora à vida.",
+      "reference": "UpToDate — Clinical manifestations of hyperkalemia in adults, seção “ECG changes”; Treatment and prevention of hyperkalemia in adults, tabela de manejo emergencial."
+    },
+    {
+      "number": 4,
+      "title": "Potássio de 7,8 com ECG normal?",
+      "competency": "Compreender a baixa sensibilidade do ECG para excluir hipercalemia",
+      "stem": "Uma mulher de 63 anos, com doença renal crônica avançada, é encaminhada à emergência após receber resultado de potássio de 7,8 mEq/L em exame ambulatorial.\n\nEstá consciente, orientada e nega palpitações, fraqueza ou dor torácica.\n\nNa avaliação:",
+      "table": {
+        "caption": "Exames",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Potássio", "7,8 mEq/L"],
+          ["Creatinina", "5,6 mg/dL"],
+          ["Frequência cardíaca", "82 bpm"],
+          ["Pressão arterial", "148/88 mmHg"]
+        ]
+      },
+      "stemAfter": "O ECG apresenta ritmo sinusal, ondas P identificáveis, QRS de 94 ms e ausência de ondas T claramente apiculadas.\n\nA coleta foi adequada, sem evidência de hemólise. Uma nova amostra, obtida prontamente, confirma potássio de 7,6 mEq/L.\n\nUm residente comenta:\n\n“Se o potássio estivesse realmente tão alto, o ECG obrigatoriamente estaria alterado.”\n\n**Qual afirmação melhor explica a situação?**",
+      "choices": {
+        "A": "Um ECG normal possui sensibilidade suficiente para excluir hipercalemia grave, mesmo quando duas amostras confirmam valores elevados.",
+        "B": "A ausência de alterações eletrocardiográficas significa que o potássio está elevado apenas no sangue, mas não produz qualquer efeito fisiológico.",
+        "C": "O ECG possui sensibilidade limitada para detectar hipercalemia; sua aparência pode permanecer pouco alterada mesmo diante de concentrações muito elevadas, e um traçado normal não exclui risco clínico.",
+        "D": "O ECG só apresenta alterações na hipercalemia quando existe infarto agudo do miocárdio associado."
+      },
+      "feedback": {
+        "A": "O ECG possui sensibilidade limitada para identificar hipercalemia. Um traçado normal não pode invalidar duas dosagens confiáveis demonstrando potássio gravemente elevado.",
+        "B": "A ausência de manifestações eletrocardiográficas não significa ausência de efeitos fisiológicos ou de risco. O potássio elevado pode comprometer a excitabilidade celular, e a deterioração elétrica pode ocorrer de maneira imprevisível.",
+        "C": "Reconhece a principal limitação diagnóstica do ECG: sua incapacidade de excluir hipercalemia grave quando não apresenta alterações características.",
+        "D": "As alterações eletrocardiográficas da hipercalemia não dependem da presença de infarto agudo do miocárdio. São condições distintas, embora possam coexistir."
+      },
+      "correctExplanation": "Esta questão aborda uma das limitações mais importantes do eletrocardiograma na hipercalemia.\n\nO ECG é fundamental para identificar manifestações elétricas e reconhecer pacientes com risco elevado de deterioração.\n\nEntretanto, ele não é suficientemente sensível para excluir hipercalemia.\n\nIsso significa que a ausência de alterações características não garante que o potássio esteja normal ou que o paciente esteja protegido contra complicações.\n\nO UpToDate destaca que a relação entre concentração sérica de potássio e alterações eletrocardiográficas apresenta grande variabilidade.\n\nEm alguns pacientes, alterações importantes podem aparecer com elevações relativamente menores, especialmente quando o potássio aumenta rapidamente.\n\nEm outros, concentrações muito elevadas podem coexistir com ECG sem alterações características.\n\nEssa variabilidade pode ser influenciada por diversos fatores, incluindo a velocidade de elevação do potássio e distúrbios eletrolíticos ou acidobásicos associados.\n\nNo caso apresentado, temos duas dosagens confirmando hipercalemia grave:\n\n- Primeira dosagem: 7,8 mEq/L.\n- Segunda dosagem: 7,6 mEq/L.\n\nA ausência de hemólise e a confirmação laboratorial reduzem a possibilidade de interferência pré-analítica.\n\nO ECG aparentemente normal não invalida esses resultados.\n\nA paciente apresenta hipercalemia grave e necessita de abordagem emergencial, com monitorização e tratamento apropriado.\n\nO erro seria utilizar o ECG como se fosse um teste capaz de excluir hipercalemia.\n\n**O ECG pode revelar toxicidade elétrica, mas não consegue garantir sua ausência.**",
+      "pearl": "ECG normal não é sinônimo de potássio seguro. Um traçado alterado pode ajudar a reconhecer a emergência, mas um traçado normal não autoriza ignorar uma hipercalemia grave confirmada.",
+      "reference": "UpToDate — Clinical manifestations of hyperkalemia in adults, seção “ECG changes”, incluindo a discussão sobre baixa sensibilidade do ECG e a possibilidade de traçados normais em hipercalemia grave."
+    },
+    {
+      "number": 5,
+      "title": "O QRS estreitou. O potássio normalizou?",
+      "competency": "Diferenciar estabilização elétrica de correção da hipercalemia",
+      "stem": "Um homem de 70 anos, com doença renal crônica avançada, é atendido por fraqueza intensa.\n\nOs exames mostram potássio de 7,4 mEq/L.\n\nO ECG inicial apresenta bradicardia, ondas P pouco evidentes e QRS de 164 ms.\n\nDiante da suspeita de toxicidade elétrica pela hipercalemia, a equipe administra cálcio intravenoso.\n\nPoucos minutos depois, o paciente apresenta frequência cardíaca de 78 bpm, com QRS de 108 ms.\n\nUm interno comenta:\n\n“Excelente! O QRS praticamente normalizou. Isso significa que o potássio já caiu e podemos encerrar o tratamento.”\n\n**Qual interpretação é mais adequada?**",
+      "choices": {
+        "A": "O estreitamento do QRS confirma que o cálcio promoveu eliminação renal de potássio, normalizando sua concentração sérica.",
+        "B": "A melhora do ECG pode indicar estabilização elétrica após o cálcio, mas não demonstra redução do potássio sérico; são necessárias medidas para redistribuir e remover potássio, além de monitorização e reavaliação laboratorial.",
+        "C": "O cálcio intravenoso reduz diretamente a quantidade total de potássio corporal, tornando desnecessárias outras intervenções.",
+        "D": "A normalização do QRS permite descartar o resultado laboratorial inicial, pois a hipercalemia verdadeira não responde ao cálcio."
+      },
+      "feedback": {
+        "A": "O cálcio intravenoso não promove eliminação renal de potássio. O estreitamento do QRS pode refletir estabilização elétrica, sem redução significativa da concentração sérica.",
+        "B": "Diferencia corretamente o efeito eletrofisiológico do cálcio das intervenções que reduzem o potássio sérico. Também reconhece a necessidade de monitorização e reavaliação laboratorial.",
+        "C": "O cálcio não reduz a quantidade total de potássio corporal. Outras medidas são necessárias para deslocar temporariamente o potássio e promover sua eliminação efetiva.",
+        "D": "A melhora do ECG após cálcio é compatível com resposta à estabilização elétrica. Não invalida o resultado laboratorial inicial nem exclui hipercalemia verdadeira."
+      },
+      "correctExplanation": "Esta questão aborda um erro de interpretação que pode comprometer a segurança do tratamento: confundir melhora eletrocardiográfica com correção da concentração sérica de potássio.\n\nO cálcio intravenoso é utilizado na hipercalemia grave para estabilizar a excitabilidade elétrica do miocárdio.\n\nSeu objetivo imediato é reduzir o risco de deterioração cardíaca enquanto outras intervenções atuam sobre o potássio.\n\nEntretanto, existe uma distinção fundamental:\n\n**O cálcio não remove potássio do organismo e não reduz diretamente sua concentração sérica.**\n\nSua ação é predominantemente eletrofisiológica.\n\nPortanto, a melhora do QRS após a administração de cálcio pode representar uma resposta favorável da condução cardíaca, mas não demonstra que a hipercalemia foi corrigida.\n\nNo caso apresentado, o QRS diminuiu de 164 para 108 ms.\n\nEssa mudança é clinicamente relevante, especialmente quando acompanhada de melhora da frequência cardíaca.\n\nEntretanto, o paciente pode continuar apresentando potássio de 7,4 mEq/L ou valor próximo disso.\n\nO tratamento precisa contemplar outros mecanismos:\n\n**Redistribuição do potássio.**\n\nMedidas como insulina com glicose, quando indicada, promovem deslocamento temporário de potássio para o meio intracelular.\n\n**Remoção do potássio.**\n\nDependendo da função renal e do contexto clínico, podem ser necessárias intervenções que promovam eliminação efetiva do potássio, incluindo hemodiálise em situações apropriadas.\n\n**Monitorização e reavaliação.**\n\nO potássio sérico deve ser reavaliado em intervalos adequados, juntamente com o estado clínico e eletrocardiográfico.\n\nA melhora do ECG não substitui a monitorização laboratorial.\n\nOutro ponto importante é que o efeito protetor do cálcio é temporário.\n\nCaso a hipercalemia persista, as alterações elétricas podem reaparecer, e pode ser necessária nova avaliação da estabilização cardíaca.\n\nO UpToDate ressalta que o ECG não deve ser utilizado isoladamente para monitorar a eficácia do tratamento da hipercalemia.\n\n**A melhora elétrica é uma vitória importante, mas não significa que o problema metabólico esteja resolvido.**",
+      "pearl": "O cálcio protege o coração, mas não baixa o potássio. Se o QRS estreitou depois do cálcio, você pode ter ganhado tempo — não necessariamente resolvido a hipercalemia.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seções sobre estabilização cardíaca com cálcio e monitorização; Clinical manifestations of hyperkalemia in adults, discussão sobre as limitações do ECG na avaliação da resposta terapêutica."
+    }
+  ]
+}
