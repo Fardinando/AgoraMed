@@ -1,0 +1,112 @@
+{
+  "slug": "hipercalemia-aula-04-v1",
+  "versao": 1,
+  "title": "Hipercalemia — Aula 04",
+  "subtitle": "Pseudohipercalemia — quando desconfiar e como confirmar",
+  "intro": "Cinco casos clínicos sobre o potássio que parece alto, mas não representa a circulação: hemólise, técnica de coleta, plaquetas, leucócitos frágeis e o limite entre confirmar e tratar. Responda uma questão por vez: ao confirmar, a alternativa fica bloqueada e o comentário aparece imediatamente, com a análise das quatro alternativas, a pérola do plantão e a fundamentação. Você pode refazer a prática quantas vezes quiser; o histórico e o caderno de erros ficam salvos na sua conta.",
+  "closing": "Pseudohipercalemia é uma hipótese que nasce da discordância entre o exame e o paciente, e se confirma com uma coleta confiável — não com otimismo nem com desconfiança automática. Hemólise, garroteamento prolongado, contração repetida da mão, coagulação em amostras com trombocitose e fragilidade leucocitária podem elevar o potássio medido sem elevar o potássio circulante. Ao mesmo tempo, um ECG normal não exclui hipercalemia verdadeira. O que separa os dois cenários é a avaliação clínica: quando há instabilidade ou sinais elétricos de toxicidade, a estabilização começa imediatamente, enquanto a confirmação laboratorial segue em paralelo.",
+  "references": "UpToDate. Hyperkalemia in adults. https://www.uptodate.com/contents/hyperkalemia-in-adults",
+  "key": ["B", "D", "A", "C", "D"],
+  "questions": [
+    {
+      "number": 1,
+      "title": "Um potássio de 6,8 que não combina com o paciente",
+      "stem": "Um homem de 42 anos, sem doença renal conhecida, apresenta potássio sérico de 6,8 mEq/L em exame de rotina. Está assintomático, hemodinamicamente estável, com creatinina de 0,9 mg/dL e ECG sem alterações sugestivas de hipercalemia. O laboratório informa hemólise significativa da amostra. Qual é a conduta mais adequada?",
+      "choices": {
+        "A": "Desconsiderar o resultado, porque o ECG normal exclui hipercalemia grave.",
+        "B": "Avaliar imediatamente o risco clínico e providenciar nova dosagem urgente, com coleta adequada, sem atrasar tratamento caso surjam indicações emergenciais.",
+        "C": "Administrar insulina e glicose obrigatoriamente antes de qualquer avaliação da confiabilidade da amostra.",
+        "D": "Aguardar até o dia seguinte para repetir o potássio, pois o paciente está assintomático."
+      },
+      "feedback": {
+        "A": "A ausência de alterações no ECG não exclui hipercalemia verdadeira ou grave.",
+        "B": "Reconhece a possibilidade de resultado espúrio sem negligenciar a avaliação e o tratamento de uma emergência verdadeira.",
+        "C": "A insulinoterapia não deve ser uma resposta automática a toda amostra hemolisada, pois pode causar hipoglicemia e hipocalemia desnecessárias. A decisão exige avaliação clínica imediata.",
+        "D": "Um resultado de 6,8 mEq/L exige esclarecimento urgente, não repetição eletiva no dia seguinte."
+      },
+      "correctExplanation": "A hemólise significativa é uma explicação plausível para a elevação artificial do potássio. A discordância entre o resultado e o contexto clínico aumenta essa suspeita, mas não confirma pseudohipercalemia. Um ECG normal não exclui hipercalemia verdadeira, inclusive grave. Por isso, a abordagem exige avaliação imediata do paciente, verificação da amostra e confirmação urgente por nova coleta adequada. A decisão de iniciar tratamento antes da confirmação depende do risco clínico, da confiabilidade da amostra, da possibilidade de obter rapidamente um resultado confiável e dos protocolos de emergência. Se houver instabilidade ou alterações elétricas compatíveis com toxicidade pelo potássio, o tratamento indicado não deve ser retardado.",
+      "pearl": "ECG normal não prova pseudohipercalemia. A suspeita nasce da combinação entre contexto clínico, qualidade da amostra e confirmação adequada.",
+      "reference": "UpToDate — Causes and evaluation of hyperkalemia in adults; Clinical manifestations of hyperkalemia in adults."
+    },
+    {
+      "number": 2,
+      "title": "O que aconteceu durante a coleta?",
+      "stem": "Uma mulher de 35 anos apresenta potássio de 5,9 mEq/L em amostra coletada após garroteamento prolongado, enquanto abria e fechava repetidamente a mão. O laboratório não identificou hemólise significativa. Uma nova amostra, coletada sem contrações repetidas e com técnica adequada, mostra potássio de 4,4 mEq/L. Qual é a explicação mais provável?",
+      "choices": {
+        "A": "A contração da mão reduziu a eliminação renal de potássio de maneira transitória.",
+        "B": "O garroteamento provocou necessariamente hemólise intensa, mesmo sem evidência laboratorial.",
+        "C": "A paciente apresentou destruição muscular sistêmica suficiente para provocar hipercalemia verdadeira.",
+        "D": "A contração muscular repetida associada à estase venosa favoreceu elevação local do potássio na amostra, sem exigir hemólise significativa."
+      },
+      "feedback": {
+        "A": "O mecanismo principal não é uma alteração aguda da eliminação renal.",
+        "B": "Contração repetida da mão e estase venosa podem elevar o potássio sem hemólise significativa.",
+        "C": "O caso descreve interferência local durante a coleta, não destruição muscular sistêmica.",
+        "D": "A técnica de coleta pode alterar o resultado mesmo sem hemólise detectável."
+      },
+      "correctExplanation": "A contração muscular repetida pode aumentar localmente a liberação de potássio pelo músculo esquelético. Quando associada ao garroteamento prolongado, a estase venosa favorece a coleta de sangue com concentração de potássio maior que a representativa da circulação sistêmica. Esse mecanismo não exige hemólise significativa. A normalização em nova amostra, obtida com técnica adequada, sustenta a hipótese de interferência pré-analítica. A avaliação da coleta deve considerar garroteamento, contração repetida da mão, punção traumática, transporte, processamento e possível contaminação por aditivos.",
+      "pearl": "A ausência de hemólise não garante que a amostra esteja livre de interferências. Perguntar como o sangue foi coletado pode mudar a interpretação do exame.",
+      "reference": "UpToDate — Causes and evaluation of hyperkalemia in adults."
+    },
+    {
+      "number": 3,
+      "title": "Soro elevado, plasma normal: o papel das plaquetas",
+      "stem": "Um paciente de 67 anos, em investigação de trombocitose, apresenta 980.000 plaquetas/mm³. O potássio sérico é de 6,1 mEq/L. Ele está clinicamente estável, com função renal preservada. Uma amostra de plasma heparinizado, coletada e processada adequadamente, apresenta potássio de 4,5 mEq/L. Qual mecanismo explica melhor essa diferença?",
+      "choices": {
+        "A": "Durante a coagulação da amostra de soro, a ativação das numerosas plaquetas pode liberar potássio, elevando artificialmente o resultado sérico.",
+        "B": "O plasma heparinizado remove o potássio verdadeiro do sangue e, portanto, sempre apresenta resultados falsamente baixos.",
+        "C": "A trombocitose provoca obrigatoriamente retenção renal de potássio, independentemente da função renal.",
+        "D": "A diferença comprova que o potássio aumentou rapidamente na circulação entre as duas coletas."
+      },
+      "feedback": {
+        "A": "A liberação plaquetária de potássio durante a coagulação pode elevar artificialmente o valor sérico.",
+        "B": "O plasma não remove seletivamente o potássio verdadeiro. A diferença decorre principalmente das condições de coagulação e processamento.",
+        "C": "Trombocitose não implica obrigatoriamente retenção renal de potássio.",
+        "D": "A diferença entre amostras, nesse contexto, é mais compatível com interferência laboratorial do que com uma elevação sistêmica súbita."
+      },
+      "correctExplanation": "Na obtenção do soro, o sangue coagula e as plaquetas podem liberar potássio. Em pacientes com trombocitose importante, essa liberação pode produzir elevação artificial do potássio sérico. O plasma heparinizado, obtido sem coagulação e processado adequadamente, pode apresentar uma concentração mais representativa da circulação. A diferença entre as amostras, associada à trombocitose e ao contexto clínico, sustenta pseudohipercalemia. Entretanto, a interpretação exige atenção à técnica e ao processamento de ambas as amostras, e não deve ser feita com base em uma comparação isolada e sem controle pré-analítico.",
+      "pearl": "Na trombocitose importante, potássio sérico elevado com plasma adequadamente processado normal deve levantar suspeita de pseudohipercalemia plaquetária.",
+      "reference": "UpToDate — Causes and evaluation of hyperkalemia in adults."
+    },
+    {
+      "number": 4,
+      "title": "Leucocitose extrema: repetir da mesma maneira resolve?",
+      "stem": "Um homem de 71 anos, com leucemia linfocítica crônica e leucócitos de 240.000/mm³, apresenta potássio plasmático de 7,0 mEq/L. Está estável, com função renal preservada e ECG sem alterações sugestivas. A amostra foi transportada por sistema pneumático. Existe suspeita de pseudohipercalemia associada à fragilidade leucocitária. Qual estratégia de confirmação é mais apropriada?",
+      "choices": {
+        "A": "Repetir a coleta e enviá-la novamente pelo mesmo sistema pneumático, sem modificar o processamento.",
+        "B": "Considerar o potássio normal apenas porque o paciente não apresenta sintomas ou alterações no ECG.",
+        "C": "Discutir com o laboratório uma nova coleta com manipulação mínima e análise rápida, preferencialmente evitando transporte pneumático, podendo utilizar sangue total conforme a disponibilidade e as limitações do método.",
+        "D": "Solicitar apenas um novo hemograma, porque a contagem de leucócitos permite calcular o potássio verdadeiro."
+      },
+      "feedback": {
+        "A": "Repetir as mesmas condições potencialmente traumáticas pode reproduzir a interferência.",
+        "B": "Ausência de sintomas e ECG normal não comprovam potássio circulante normal.",
+        "C": "Modificar coleta, transporte e processamento é essencial quando há suspeita de fragilidade leucocitária.",
+        "D": "O hemograma ajuda a identificar o fator de risco, mas não determina a concentração real de potássio."
+      },
+      "correctExplanation": "Na leucocitose extrema, especialmente em determinadas doenças hematológicas, leucócitos frágeis podem sofrer ruptura durante transporte e processamento, liberando potássio na amostra. O transporte pneumático pode contribuir para essa interferência. Em alguns casos ocorre pseudohipercalemia reversa, na qual o potássio plasmático fica artificialmente mais elevado que o sérico. A confirmação deve ser planejada com o laboratório, reduzindo a manipulação, evitando condições potencialmente traumáticas e realizando análise rápida. Sangue total analisado prontamente pode ajudar, mas muitos analisadores de gasometria não identificam hemólise; por isso, o resultado também deve ser interpretado criticamente. Um ECG normal, isoladamente, não exclui hipercalemia verdadeira.",
+      "pearl": "Na leucocitose extrema, o problema pode estar no transporte da amostra. Repetir o exame sem corrigir a causa da interferência pode repetir o erro.",
+      "reference": "UpToDate — Causes and evaluation of hyperkalemia in adults."
+    },
+    {
+      "number": 5,
+      "title": "Quando confirmar não pode atrasar o tratamento",
+      "stem": "Um homem de 69 anos, com doença renal crônica avançada, chega à emergência com fraqueza, frequência cardíaca de 34 bpm e pressão arterial de 85/50 mmHg. O ECG mostra bradicardia e QRS alargado. O laboratório informa potássio de 7,2 mEq/L, mas a amostra apresenta hemólise discreta. Qual é a melhor conduta inicial?",
+      "choices": {
+        "A": "Aguardar uma nova coleta antes de qualquer intervenção, porque a hemólise invalida completamente o resultado.",
+        "B": "Descartar hipercalemia como causa da bradicardia, já que a amostra apresenta hemólise.",
+        "C": "Administrar apenas solução cristaloide e repetir o ECG após duas horas.",
+        "D": "Iniciar imediatamente o tratamento emergencial indicado para provável hipercalemia com toxicidade cardíaca, incluindo cálcio intravenoso, enquanto se providencia confirmação laboratorial em paralelo."
+      },
+      "feedback": {
+        "A": "A hemólise não justifica postergar tratamento em um paciente instável com sinais compatíveis com toxicidade cardíaca.",
+        "B": "O conjunto clínico e eletrocardiográfico sustenta fortemente hipercalemia verdadeira, mesmo que exista alguma interferência laboratorial.",
+        "C": "Aguardar duas horas sem tratar uma possível toxicidade cardíaca grave expõe o paciente a risco de deterioração.",
+        "D": "A estabilização imediata e a confirmação laboratorial devem ocorrer em paralelo."
+      },
+      "correctExplanation": "O paciente apresenta forte suspeita de hipercalemia verdadeira com repercussão elétrica e hemodinâmica: doença renal avançada, potássio muito elevado, bradicardia importante, hipotensão e alargamento do QRS. A presença de hemólise discreta pode interferir no valor medido, mas não justifica atrasar a estabilização de um paciente potencialmente instável. O cálcio intravenoso é indicado para estabilização da membrana miocárdica diante de alterações elétricas atribuíveis à hipercalemia, enquanto outras medidas são instituídas conforme o protocolo e a avaliação clínica. A nova amostra deve ser obtida prontamente, em paralelo ao tratamento. O cálcio não reduz a concentração sérica de potássio; as medidas de redistribuição e remoção precisam ser consideradas separadamente.",
+      "pearl": "Pseudohipercalemia é uma hipótese laboratorial. Instabilidade e alterações elétricas compatíveis com hipercalemia são problemas clínicos que não podem esperar.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults; Clinical manifestations of hyperkalemia in adults."
+    }
+  ]
+}

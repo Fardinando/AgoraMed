@@ -1,6 +1,6 @@
 # AgoraQuest — prática por aula
 
-O AgoraQuest é uma prática formativa extra, vinculada a uma aula específica. Estão publicadas três atividades do curso **Tratamento da Hipercalemia em Adultos**: a **Aula 01** (`hipercalemia-aula-01-v1`), a **Aula 02** (`hipercalemia-aula-02-v1`) e a **Aula 03** (`hipercalemia-aula-03-v1`), todas do Módulo 1.
+O AgoraQuest é uma prática formativa extra, vinculada a uma aula específica. Estão publicadas quatro atividades do curso **Tratamento da Hipercalemia em Adultos**: **Aula 01** (`hipercalemia-aula-01-v1`), **Aula 02** (`hipercalemia-aula-02-v1`) e **Aula 03** (`hipercalemia-aula-03-v1`), do Módulo 1, e **Aula 04** (`hipercalemia-aula-04-v1`), do Módulo 2.
 
 Ele é independente do AgoraQuiz e do Plantão Virtual: não substitui a atividade principal da aula e **não marca a aula como concluída**. O convite aparece somente quando a atividade está publicada para aquela aula.
 
@@ -22,6 +22,7 @@ O conteúdo aprovado fica em `lib/agoraquest/`:
 - `hipercalemia-aula-01-v1.json` — Aula 01, gabarito **B-C-B-D-C**.
 - `hipercalemia-aula-02-v1.json` — Aula 02, gabarito **B-C-B-D-C**.
 - `hipercalemia-aula-03-v1.json` — Aula 03, gabarito **B-D-C-A-C**.
+- `hipercalemia-aula-04-v1.json` — Aula 04, gabarito **B-D-A-C-D**.
 
 Cada JSON traz o próprio gabarito no campo `key`; o engine usa a chave do conteúdo (`Q.keyOf`). Os enunciados, as alternativas e o gabarito **não devem ser reescritos sem uma nova revisão clínica**.
 
@@ -71,6 +72,7 @@ As migrações são aditivas e idempotentes:
 - `supabase/migrations/20261111233000_agoraquest_hipercalemia_aula_01.sql` — cria as tabelas e a RPC da prática e vincula a Aula 01 (primeira aula do primeiro módulo do curso de Hipercalemia). **Já aplicada em produção.**
 - `supabase/migrations/20261112120000_agoraquest_aula_02_e_caderno_erros.sql` — cria as tabelas e RPCs do caderno e vincula a **Aula 02**. Localiza a Aula 02 pelo título que contém “fisiologia do potássio”; se não encontrar, usa a segunda aula na ordem. Nunca reaproveita uma aula que já tenha outra atividade AgoraQuest. **Já aplicada em produção.**
 - `supabase/migrations/20261112150000_agoraquest_aula_03.sql` — apenas vincula a **Aula 03**. Localiza a aula pelo título que contém “estoque corporal”; se não encontrar, usa a terceira aula na ordem. Não altera tabelas, funções do caderno nem as Aulas 01 e 02. **Já aplicada em produção.**
+- `supabase/migrations/20261112170000_agoraquest_aula_04.sql` — apenas vincula a **Aula 04**. Localiza a aula pelo título que contém “pseudohipercalemia”; se não encontrar, usa a quarta aula na ordem. Não altera tabelas nem as atividades anteriores. **Já aplicada em produção.**
 
 Aplique novas migrações com a CLI autenticada (`supabase db push --remote`), conferindo antes o `--dry-run`. Depois, confirme:
 
@@ -95,7 +97,7 @@ select has_table_privilege('anon','public.agoraquest_tentativas','SELECT') as an
        has_function_privilege('authenticated','public.agoraquest_caderno_sincronizar(uuid,uuid,text,jsonb)','EXECUTE') as sync_rpc;
 ```
 
-O retorno esperado são três linhas em `agoraquest_atividades` (Aulas 01, 02 e 03), `count = 0` e todos os privilégios `false`.
+O retorno esperado são quatro linhas em `agoraquest_atividades` (Aulas 01, 02, 03 e 04), `count = 0` e todos os privilégios `false`.
 
 Se o curso ou as aulas forem renomeados/reordenados, as migrações de vínculo podem ser executadas novamente: o vínculo é recalculado e as tentativas e o caderno permanecem na conta.
 
@@ -103,13 +105,13 @@ Se o curso ou as aulas forem renomeados/reordenados, as migrações de vínculo 
 
 1. Crie um JSON em `lib/agoraquest/` no mesmo formato dos existentes, com `slug`, `versao`, `key` (gabarito), questões, feedback por alternativa, explicação correta, pérola e referência real.
 2. Registre o conteúdo em `lib/agoraquest/index.js` (lista `CONTEUDOS`). O gabarito vem do próprio JSON (`key`); não é mais necessário editar `KEY` no engine.
-3. Insira o vínculo na tabela `agoraquest_atividades` com o `aula_id` correspondente e a mesma `versao_conteudo` do JSON (ou estenda uma migração de vínculo, como nas Aulas 02 e 03).
+3. Insira o vínculo na tabela `agoraquest_atividades` com o `aula_id` correspondente e a mesma `versao_conteudo` do JSON (ou estenda uma migração de vínculo, como nas Aulas 02, 03 e 04).
 4. O CTA da aula e a página passam a funcionar automaticamente; não é necessário editar `aula.html` nem `agoraquest.html` para cada nova atividade.
 5. Rode `npm test` e valide a atividade em uma conta de aluno matriculada.
 
 ## Verificação
 
-`node --test tools/agoraquest.test.cjs` cobre 20 testes para os itens essenciais: conteúdo aprovado das Aulas 01, 02 e 03, gabarito por conteúdo no engine, bloqueio de alteração, feedback imediato, conclusão e nota, identificação estável de questão, indicadores e agrupamento do caderno, revisão sem gabarito antecipado, autorização, isolamento por aluno, concorrência, idempotência, RLS/privilégios, sincronização do caderno, domínio configurável, vínculo das três aulas, migração e integração do CTA/service worker. A suíte completa é executada com `npm test`.
+`node --test tools/agoraquest.test.cjs` cobre 23 testes para os itens essenciais: conteúdo aprovado das Aulas 01, 02, 03 e 04, gabarito por conteúdo no engine, bloqueio de alteração, feedback imediato, conclusão e nota, identificação estável de questão, indicadores e agrupamento do caderno, revisão sem gabarito antecipado, autorização, isolamento por aluno, concorrência, idempotência, RLS/privilégios, sincronização do caderno, domínio configurável, vínculo das quatro aulas, migração e integração do CTA/service worker. A suíte completa é executada com `npm test`.
 
 As migrações também foram exercitadas em banco PostgreSQL descartável (PGlite) com os handlers reais e sessões simuladas, incluindo idempotência de sincronização, máquina de estados do caderno, reabertura de questão dominada e isolamento entre alunos. A interface foi exercitada com a API real simulada em memória: início, seleção única, bloqueio após confirmar, feedback, avanço pelas cinco questões, resultado, histórico, caderno de erros, revisão e nova tentativa. A página não carrega o gabarito no JavaScript nem no HTML.
 
