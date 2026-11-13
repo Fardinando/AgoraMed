@@ -1,0 +1,173 @@
+{
+  "slug": "hipercalemia-aula-10-v1",
+  "versao": 1,
+  "title": "Hipercalemia — Aula 10",
+  "subtitle": "Quem precisa de tratamento imediato?",
+  "intro": "Cinco casos sobre a urgência do tratamento da hipercalemia: emergência com potássio acima de 6,5 mesmo sem sintomas, emergência por instabilidade elétrica com potássio abaixo de 6,5, liberação contínua com insuficiência renal, redução pronta em paciente dialítico e hipercalemia leve crônica sem emergência. Em cada um, a pergunta central é a mesma — este paciente precisa de tratamento agora, em horas ou pode ser acompanhado? Responda uma questão por vez: ao confirmar, a alternativa fica bloqueada e o comentário aparece imediatamente, com a análise das quatro alternativas, a pérola do plantão e a fundamentação. Você pode refazer a prática quantas vezes quiser; o histórico e o caderno de erros ficam salvos na sua conta.",
+  "closing": "A urgência do tratamento da hipercalemia depende da concentração, da velocidade de elevação, das manifestações clínicas e elétricas, da função renal e dos mecanismos causadores. Emergência exige intervenção imediata. Redução pronta, em geral dentro de 6 a 12 horas, é necessária quando não há emergência, mas o risco de progressão é relevante. Hipercalemia leve, crônica e estável pode ser manejada sem medidas emergenciais. Reconhecer qual situação está diante de você é tão importante quanto saber tratar.",
+  "references": "UpToDate. Hyperkalemia in adults. https://www.uptodate.com/contents/hyperkalemia-in-adults",
+  "key": ["B", "D", "A", "C", "B"],
+  "questions": [
+    {
+      "number": 1,
+      "title": "Ele está bem. Mas o potássio é 6,9.",
+      "competency": "Identificar hipercalemia grave como critério de emergência, independentemente dos sintomas",
+      "stem": "Um homem de 64 anos, com doença renal crônica estágio G4, procura a emergência após receber uma ligação do laboratório informando potássio elevado.\n\nEstá assintomático, consciente, orientado e sem queixas.\n\nNa avaliação inicial:",
+      "table": {
+        "caption": "Exames",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Potássio", "6,9 mEq/L"],
+          ["Creatinina", "3,6 mg/dL"],
+          ["Frequência cardíaca", "78 bpm"],
+          ["Pressão arterial", "146/88 mmHg"]
+        ]
+      },
+      "stemAfter": "O ECG mostra ritmo sinusal, QRS de 94 ms e ausência de alterações características de hipercalemia.\n\nA amostra não apresenta hemólise. Uma nova coleta, realizada prontamente, confirma potássio de 6,8 mEq/L.\n\nUm residente comenta:\n\n“Ele não apresenta sintomas nem alterações no ECG. Talvez possamos apenas suspender os medicamentos que aumentam o potássio e repetir o exame amanhã.”\n\n**Qual é a conduta mais adequada quanto à urgência do tratamento?**",
+      "choices": {
+        "A": "Considerar o paciente de baixo risco, pois a ausência de sintomas e alterações eletrocardiográficas exclui emergência hipercalêmica.",
+        "B": "Reconhecer uma emergência hipercalêmica pela concentração de potássio superior a 6,5 mEq/L, iniciando tratamento emergencial e monitorização, mesmo sem manifestações clínicas evidentes.",
+        "C": "Aguardar o aparecimento de ondas T apiculadas para iniciar qualquer intervenção.",
+        "D": "Liberar o paciente com orientações dietéticas, pois a hipercalemia crônica não produz arritmias graves."
+      },
+      "feedback": {
+        "A": "A ausência de sintomas e de alterações eletrocardiográficas não exclui risco. O potássio confirmado acima de 6,5 mEq/L já constitui critério de emergência no protocolo utilizado.",
+        "B": "Reconhece o critério laboratorial de gravidade e a necessidade de tratamento emergencial, independentemente da aparente estabilidade clínica.",
+        "C": "Aguardar alterações eletrocardiográficas é perigoso. O ECG possui sensibilidade limitada e não deve ser utilizado como requisito obrigatório para iniciar tratamento de uma hipercalemia grave.",
+        "D": "A hipercalemia crônica não confere proteção completa contra complicações cardíacas. Orientações dietéticas e revisão medicamentosa podem integrar o tratamento de longo prazo, mas não substituem a abordagem emergencial neste caso."
+      },
+      "correctExplanation": "A primeira decisão diante de um potássio elevado é determinar a urgência do tratamento.\n\nEssa decisão não pode depender exclusivamente da presença de sintomas ou alterações eletrocardiográficas.\n\nO UpToDate classifica como emergência hipercalêmica, entre outras situações, a concentração sérica de potássio superior a 6,5 mEq/L.\n\nEsse critério é importante porque pacientes com hipercalemia grave podem permanecer assintomáticos e apresentar ECG sem alterações características.\n\nNo caso apresentado, existem três informações fundamentais:\n\n**Primeira:** o potássio está gravemente elevado, com valor inicial de 6,9 mEq/L.\n\n**Segunda:** uma nova amostra confirma o resultado, reduzindo a probabilidade de pseudohipercalemia.\n\n**Terceira:** o paciente apresenta doença renal avançada, condição que compromete a eliminação renal de potássio.\n\nA ausência de sintomas e o ECG sem alterações não anulam a gravidade do resultado.\n\nO paciente necessita de monitorização cardíaca e tratamento emergencial para reduzir o risco de deterioração.\n\nConforme a abordagem descrita no material de referência, a emergência hipercalêmica requer intervenções de ação rápida, associadas à avaliação das medidas capazes de promover a remoção efetiva do potássio.\n\nA estabilização cardíaca com cálcio intravenoso também é contemplada no protocolo do UpToDate quando o potássio é superior a 6,5 mEq/L, mesmo que não haja alterações eletrocardiográficas características.\n\nA escolha e a execução das intervenções devem considerar o contexto clínico e o protocolo assistencial.\n\n**O paciente não precisa apresentar uma arritmia para preencher critérios de emergência hipercalêmica.**",
+      "pearl": "Um paciente com potássio confirmado acima de 6,5 mEq/L pode estar conversando normalmente e ainda assim preencher critérios de emergência hipercalêmica. Não espere o ECG mudar para reconhecer a urgência.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seções “Determining the urgency of therapy” e “Patients with a hyperkalemic emergency”; tabela de manejo emergencial."
+    },
+    {
+      "number": 2,
+      "title": "O potássio é 6,1. A bradicardia é 30.",
+      "competency": "Reconhecer emergência hipercalêmica por manifestação clínica e elétrica, independentemente do limiar laboratorial",
+      "stem": "Um homem de 78 anos, com doença renal crônica, hipertensão e fibrilação atrial permanente, é levado à emergência após apresentar tontura intensa e episódio de síncope.\n\nUtiliza metoprolol e espironolactona.\n\nNa admissão:",
+      "table": {
+        "caption": "Exames",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Potássio", "6,1 mEq/L"],
+          ["Creatinina", "3,4 mg/dL"],
+          ["Frequência cardíaca", "30 bpm"],
+          ["Pressão arterial", "78/44 mmHg"]
+        ]
+      },
+      "stemAfter": "O ECG mostra ritmo de escape ventricular lento, com QRS alargado.\n\nUm residente comenta:\n\n“O potássio está abaixo de 6,5 mEq/L. Talvez seja melhor tratar apenas a bradicardia e reavaliar o potássio depois.”\n\n**Qual decisão é mais adequada?**",
+      "choices": {
+        "A": "Classificar a hipercalemia como moderada e sem urgência, pois o valor é inferior a 6,5 mEq/L.",
+        "B": "Atribuir a bradicardia exclusivamente ao metoprolol, pois o potássio de 6,1 mEq/L não pode provocar manifestações cardíacas graves.",
+        "C": "Aguardar a concentração ultrapassar 6,5 mEq/L antes de iniciar tratamento específico para hipercalemia.",
+        "D": "Reconhecer uma emergência hipercalêmica pela presença de bradicardia grave, distúrbio de condução e instabilidade hemodinâmica, iniciando tratamento imediato e avaliando simultaneamente outras causas e fatores associados."
+      },
+      "feedback": {
+        "A": "Embora o valor de 6,1 mEq/L esteja abaixo do limiar laboratorial de 6,5 mEq/L, a presença de manifestações cardíacas graves configura emergência.",
+        "B": "O metoprolol pode contribuir para a bradicardia, mas não exclui a participação da hipercalemia. A associação de disfunção renal, bloqueador atrioventricular e potássio elevado pode potencializar a instabilidade.",
+        "C": "Aguardar o potássio ultrapassar 6,5 mEq/L diante de bradicardia extrema, hipotensão e alargamento do QRS atrasaria uma intervenção potencialmente salvadora.",
+        "D": "Reconhece a emergência pela gravidade clínica e elétrica, sem depender exclusivamente do valor laboratorial. Também contempla a investigação de fatores associados."
+      },
+      "correctExplanation": "Esta questão ensina um princípio fundamental: **a emergência hipercalêmica não depende exclusivamente de ultrapassar um determinado valor de potássio.**\n\nO UpToDate considera emergência hipercalêmica a presença de manifestações clínicas ou elétricas relevantes relacionadas ao potássio elevado.\n\nEntre essas manifestações estão:\n\n- Fraqueza muscular importante ou paralisia.\n- Alterações de condução cardíaca.\n- Bradicardia significativa.\n- Arritmias potencialmente fatais.\n\nNeste paciente, o potássio é de 6,1 mEq/L, mas o quadro clínico é extremamente grave.\n\nEle apresenta bradicardia de 30 bpm, hipotensão importante, síncope e ritmo de escape ventricular com QRS alargado.\n\nEsses achados sugerem comprometimento cardiovascular importante.\n\nOutro elemento relevante é o uso de metoprolol.\n\nMedicamentos que reduzem a condução atrioventricular podem interagir com a hipercalemia e a disfunção renal, contribuindo para bradicardia desproporcional ao valor do potássio.\n\nEsse mecanismo pode ocorrer na síndrome BRASH, que envolve bradicardia, disfunção renal, bloqueio atrioventricular farmacológico, choque e hipercalemia.\n\nEntretanto, a possibilidade de BRASH não significa que toda a alteração elétrica seja necessariamente causada apenas pelo potássio.\n\nO raciocínio correto é reconhecer a emergência, tratar a possível toxicidade cardíaca pela hipercalemia e investigar simultaneamente os demais fatores envolvidos.\n\nA estabilização cardíaca com cálcio intravenoso é uma das medidas imediatas indicadas quando há alterações eletrocardiográficas relacionadas à hipercalemia.\n\nOutras medidas devem reduzir temporariamente a concentração sérica de potássio e promover sua remoção efetiva.\n\n**Não existe um limiar de potássio abaixo do qual a presença de instabilidade elétrica possa ser ignorada.**",
+      "pearl": "O número do potássio não tem prioridade sobre um paciente instável. Bradicardia grave, hipotensão e distúrbio de condução em um paciente hipercalêmico exigem ação imediata, mesmo com potássio abaixo de 6,5 mEq/L.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Determining the urgency of therapy”, incluindo manifestações cardíacas e interação com bloqueadores do nó atrioventricular."
+    },
+    {
+      "number": 3,
+      "title": "O potássio ainda é 5,9. Mas continua subindo.",
+      "competency": "Reconhecer emergência hipercalêmica na presença de disfunção renal e liberação contínua de potássio",
+      "stem": "Um homem de 46 anos é admitido após permanecer aproximadamente oito horas com o membro inferior comprimido sob uma estrutura metálica durante um acidente de trabalho.\n\nApresenta dor intensa, edema muscular e urina escurecida.\n\nNa admissão, o potássio era de 4,8 mEq/L.\n\nQuatro horas depois, os exames mostram:",
+      "table": {
+        "caption": "Exames",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Potássio", "5,9 mEq/L"],
+          ["Creatinina", "3,2 mg/dL"],
+          ["Creatinoquinase", "48.000 U/L"],
+          ["Bicarbonato", "16 mEq/L"],
+          ["Diurese nas últimas 4 horas", "40 mL"]
+        ]
+      },
+      "stemAfter": "O paciente está consciente, com pressão arterial de 128/76 mmHg e frequência cardíaca de 104 bpm.\n\nO ECG não apresenta alterações características de hipercalemia.\n\nUm residente comenta:\n\n“Como o potássio ainda está abaixo de 6,5 mEq/L e o ECG está normal, podemos esperar a próxima coleta antes de iniciar qualquer tratamento.”\n\n**Qual interpretação é mais adequada?**",
+      "choices": {
+        "A": "A combinação de potássio superior a 5,5 mEq/L, comprometimento renal significativo e destruição muscular contínua configura emergência hipercalêmica, mesmo antes de atingir 6,5 mEq/L.",
+        "B": "A hipercalemia somente se torna emergencial quando o potássio ultrapassa 6,5 mEq/L, independentemente da causa.",
+        "C": "A creatinoquinase elevada indica lesão muscular, mas não existe relação entre rabdomiólise e elevação do potássio sérico.",
+        "D": "A ausência de alterações eletrocardiográficas garante que a liberação contínua de potássio não produzirá complicações cardíacas nas próximas horas."
+      },
+      "feedback": {
+        "A": "Reconhece a combinação de três fatores que caracteriza emergência hipercalêmica: potássio superior a 5,5 mEq/L, disfunção renal importante e liberação tecidual contínua de potássio.",
+        "B": "O valor superior a 6,5 mEq/L é um dos critérios de emergência, mas não o único. A gravidade também depende das manifestações clínicas, da função renal e dos mecanismos responsáveis pela elevação.",
+        "C": "A rabdomiólise pode liberar grandes quantidades de potássio intracelular para a circulação. A creatinoquinase é um marcador de lesão muscular, não um indicador de proteção contra hipercalemia.",
+        "D": "O ECG possui sensibilidade limitada e não permite prever com segurança a evolução elétrica. Em um paciente com liberação contínua de potássio e comprometimento renal, a ausência de alterações atuais não garante estabilidade futura."
+      },
+      "correctExplanation": "Esta questão aborda um cenário no qual a gravidade da hipercalemia não está apenas no valor atual, mas também na **expectativa de progressão rápida e na incapacidade de eliminar o potássio liberado**.\n\nO UpToDate considera emergência hipercalêmica a combinação de potássio superior a 5,5 mEq/L, comprometimento significativo da função renal e destruição tecidual contínua ou absorção contínua de potássio.\n\nPara compreender essa recomendação, precisamos analisar os mecanismos envolvidos.\n\n**Primeiro: a destruição muscular libera potássio.**\n\nA maior parte do potássio corporal está localizada no meio intracelular.\n\nNa rabdomiólise, ocorre lesão das fibras musculares, com liberação de componentes intracelulares para a circulação, incluindo potássio, mioglobina e enzimas musculares.\n\nA creatinoquinase elevada reforça a presença de lesão muscular extensa, embora não permita calcular diretamente a quantidade de potássio liberada.\n\n**Segundo: a função renal está comprometida.**\n\nO rim desempenha papel central na manutenção do balanço corporal de potássio.\n\nQuando existe lesão renal aguda importante, especialmente associada à oligúria, a capacidade de excreção pode estar gravemente reduzida.\n\n**Terceiro: os dois mecanismos estão acontecendo simultaneamente.**\n\nO organismo recebe potássio continuamente a partir das células musculares lesionadas, enquanto sua capacidade de eliminação está comprometida.\n\nIsso cria condições para uma elevação progressiva e potencialmente rápida da concentração sérica.\n\nNo caso apresentado, existem sinais objetivos dessa situação:\n\n- Potássio aumentou de 4,8 para 5,9 mEq/L em quatro horas.\n- Creatinoquinase de 48.000 U/L.\n- Creatinina de 3,2 mg/dL.\n- Oligúria importante.\n- Acidose metabólica associada.\n\nPortanto, a decisão não deve ser baseada apenas no fato de o potássio ainda não ter ultrapassado 6,5 mEq/L.\n\nO paciente já apresenta os elementos que caracterizam uma emergência hipercalêmica segundo o protocolo utilizado.\n\nA abordagem exige monitorização, tratamento de ação rápida e avaliação da necessidade de medidas de remoção efetiva de potássio.\n\nTambém é necessário tratar a rabdomiólise e avaliar continuamente a função renal, a volemia e a possibilidade de necessidade de terapia renal substitutiva.\n\n**A ausência de alterações eletrocardiográficas não elimina o risco de deterioração.**",
+      "pearl": "Na rabdomiólise com insuficiência renal, o potássio de agora pode não representar o potássio de daqui a uma hora. Quando há produção contínua e eliminação comprometida, não espere o número atingir 6,5 mEq/L para reconhecer a emergência.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seções “Determining the urgency of therapy” e “Patients with a hyperkalemic emergency”."
+    },
+    {
+      "number": 4,
+      "title": "Precisa tratar hoje. Mas precisa tratar agora?",
+      "competency": "Diferenciar tratamento pronto de tratamento emergencial",
+      "stem": "Uma mulher de 57 anos, com doença renal crônica terminal, realiza hemodiálise regularmente às segundas, quartas e sextas-feiras.\n\nProcura a emergência em uma sexta-feira à noite porque perdeu a sessão programada daquele dia devido a um problema de transporte.\n\nA próxima sessão ambulatorial disponível será na segunda-feira.\n\nNa avaliação:",
+      "table": {
+        "caption": "Exames",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Potássio", "5,9 mEq/L"],
+          ["Frequência cardíaca", "82 bpm"],
+          ["Pressão arterial", "138/84 mmHg"],
+          ["Saturação de oxigênio", "98%"],
+          ["Glicemia", "112 mg/dL"]
+        ]
+      },
+      "stemAfter": "Está assintomática, sem sinais de congestão pulmonar ou instabilidade hemodinâmica.\n\nO ECG não apresenta alterações características de hipercalemia.\n\nO potássio foi confirmado em amostra adequada.\n\nUm interno comenta:\n\n“Como não há critérios de emergência hipercalêmica, ela pode simplesmente voltar na segunda-feira para sua próxima sessão.”\n\n**Qual é a interpretação mais adequada?**",
+      "choices": {
+        "A": "A ausência de alterações eletrocardiográficas significa que a paciente não necessita de nenhuma intervenção antes da próxima sessão ambulatorial.",
+        "B": "Todo paciente dialítico com potássio superior a 5,5 mEq/L apresenta obrigatoriamente emergência hipercalêmica, independentemente do contexto.",
+        "C": "A paciente não apresenta os critérios descritos de emergência hipercalêmica, mas necessita de redução pronta do potássio, em geral dentro de 6 a 12 horas, pois perdeu sua sessão de diálise e não terá acesso à próxima sessão regular em tempo adequado.",
+        "D": "A hipercalemia em pacientes dialíticos é sempre fisiológica e não necessita de tratamento quando o paciente está assintomático."
+      },
+      "feedback": {
+        "A": "O ECG sem alterações não elimina o risco de progressão. A ausência de critérios de emergência não significa que a paciente possa permanecer vários dias sem reavaliação ou tratamento.",
+        "B": "O fato de realizar hemodiálise e apresentar potássio superior a 5,5 mEq/L não configura automaticamente emergência hipercalêmica. É necessário considerar os demais critérios de gravidade.",
+        "C": "Reconhece a categoria intermediária descrita pelo UpToDate: pacientes que não apresentam emergência hipercalêmica, mas precisam de redução pronta do potássio, em geral dentro de 6 a 12 horas.",
+        "D": "A hipercalemia em pacientes dialíticos não deve ser considerada fisiológica ou inofensiva. A dependência de hemodiálise aumenta a importância de avaliar o momento da próxima sessão e a possibilidade de elevação adicional do potássio."
+      },
+      "correctExplanation": "Esta questão introduz uma distinção importante para a prática clínica: **nem todo paciente que precisa de redução rápida do potássio apresenta uma emergência hipercalêmica.**\n\nO UpToDate descreve um grupo intermediário de pacientes que, embora não preencham os critérios de emergência, necessitam de redução pronta da concentração sérica de potássio.\n\nNesse contexto, o tratamento deve ocorrer, em geral, dentro de 6 a 12 horas.\n\nEntre os exemplos apresentados estão pacientes em hemodiálise que procuram atendimento fora dos horários regulares de tratamento.\n\nA paciente possui potássio de 5,9 mEq/L, não apresenta manifestações clínicas graves e não possui alterações eletrocardiográficas características.\n\nPortanto, com os dados disponíveis, não preenche os critérios de emergência hipercalêmica utilizados neste material.\n\nEntretanto, isso não significa que seja seguro aguardar até segunda-feira.\n\nPrecisamos considerar a fisiologia e o contexto assistencial.\n\n**Primeiro: a paciente depende da hemodiálise para a remoção de potássio.**\n\nEm pacientes com função renal residual muito reduzida ou ausente, a excreção renal de potássio pode ser insuficiente.\n\nA hemodiálise representa uma via fundamental para remover o excesso de potássio corporal.\n\n**Segundo: a sessão programada foi perdida.**\n\nIsso significa que a remoção de potássio prevista para aquele dia não ocorreu.\n\n**Terceiro: existe um intervalo prolongado até a próxima sessão.**\n\nDurante esse período, a concentração sérica de potássio pode aumentar, dependendo da ingestão, das transferências entre os compartimentos e da eliminação residual.\n\nA decisão adequada é organizar a redução pronta do potássio e avaliar a possibilidade de antecipar ou realizar hemodiálise, conforme os recursos disponíveis e a avaliação clínica.\n\nA paciente também necessita de reavaliação, pois o surgimento de sintomas, alterações eletrocardiográficas ou elevação adicional do potássio pode modificar a classificação de urgência.\n\n**Não estar em emergência não significa que o tratamento possa ser adiado indefinidamente.**",
+      "pearl": "Entre “tratar imediatamente” e “acompanhar sem pressa” existe uma terceira decisão: tratar prontamente. No paciente dialítico que perdeu a sessão, o calendário da hemodiálise também faz parte da avaliação do risco.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Patients needing prompt therapy” e resumo das recomendações."
+    },
+    {
+      "number": 5,
+      "title": "Todo potássio elevado precisa de insulina?",
+      "competency": "Reconhecer quando a hipercalemia pode ser manejada sem medidas emergenciais",
+      "stem": "Um homem de 69 anos, com doença renal crônica estágio G3b e insuficiência cardíaca com fração de ejeção reduzida, comparece ao ambulatório para avaliação de exames de rotina.\n\nUtiliza sacubitril/valsartana, espironolactona e outros medicamentos para insuficiência cardíaca.\n\nEstá assintomático, com pressão arterial de 126/78 mmHg e frequência cardíaca de 72 bpm.\n\nOs exames mostram:",
+      "table": {
+        "caption": "Exames",
+        "headers": ["Parâmetro", "Resultado atual", "Resultado há 3 semanas"],
+        "rows": [
+          ["Potássio", "5,3 mEq/L", "5,2 mEq/L"],
+          ["Creatinina", "1,8 mg/dL", "1,8 mg/dL"],
+          ["Bicarbonato", "24 mEq/L", "24 mEq/L"]
+        ]
+      },
+      "stemAfter": "Não há redução recente da diurese, sinais de lesão tecidual, sintomas neuromusculares ou evidências de deterioração clínica.\n\nO ECG não apresenta alterações características de hipercalemia.\n\nUm interno sugere:\n\n“Como o potássio está acima do normal, devemos administrar imediatamente insulina com glicose e cálcio intravenoso.”\n\n**Qual interpretação é mais adequada?**",
+      "choices": {
+        "A": "Qualquer concentração de potássio acima do limite superior de referência exige cálcio intravenoso e insulina com glicose.",
+        "B": "Trata-se de hipercalemia leve e aparentemente crônica, sem critérios de emergência, permitindo manejo não emergencial com investigação dos fatores contribuintes, revisão terapêutica criteriosa e acompanhamento laboratorial.",
+        "C": "A ausência de sintomas significa que o potássio de 5,3 mEq/L não merece investigação ou acompanhamento.",
+        "D": "A presença de doença renal crônica obriga a suspensão definitiva de todos os medicamentos com benefício cardiorrenal, independentemente do grau de hipercalemia."
+      },
+      "feedback": {
+        "A": "A elevação do potássio acima do valor de referência não constitui, isoladamente, indicação de cálcio intravenoso ou insulina com glicose. Essas intervenções possuem indicações específicas e podem provocar efeitos adversos quando utilizadas desnecessariamente.",
+        "B": "Reconhece uma hipercalemia leve, aparentemente crônica e estável, sem critérios de emergência, permitindo investigação e manejo não emergencial com acompanhamento adequado.",
+        "C": "A ausência de sintomas não significa que a hipercalemia deva ser ignorada. Mesmo elevações leves podem indicar alterações na excreção renal, efeitos medicamentosos ou outros fatores que exigem avaliação.",
+        "D": "Medicamentos com benefício cardiorrenal não devem ser suspensos definitivamente de maneira automática. A decisão exige avaliação individualizada, considerando os benefícios terapêuticos e o risco de hipercalemia."
+      },
+      "correctExplanation": "Esta questão encerra o AgoraQuest 10 abordando um erro oposto aos apresentados anteriormente.\n\nNas primeiras questões, o risco era deixar de reconhecer uma emergência.\n\nAgora, o risco é tratar uma hipercalemia leve e estável como se fosse uma emergência, utilizando intervenções desnecessárias e potencialmente prejudiciais.\n\nO UpToDate descreve que muitos pacientes apresentam elevações leves ou moderadas e crônicas do potássio, especialmente em associação à doença renal crônica e ao uso de medicamentos que interferem no sistema renina-angiotensina-aldosterona.\n\nEsses pacientes nem sempre necessitam de redução emergencial do potássio.\n\nNo caso apresentado, existem elementos que favorecem uma abordagem menos urgente.\n\n**Primeiro: a elevação é leve.**\n\nO potássio é de 5,3 mEq/L.\n\n**Segundo: o valor está estável.**\n\nHá três semanas, o potássio era de 5,2 mEq/L.\n\nEssa comparação reduz a preocupação com elevação aguda importante, embora não elimine a necessidade de acompanhamento.\n\n**Terceiro: não existem manifestações de emergência.**\n\nO paciente está assintomático, não apresenta deterioração renal aguda, alterações eletrocardiográficas ou sinais de destruição tecidual contínua.\n\n**Quarto: existem medicamentos com benefício cardiovascular e renal que precisam ser considerados.**\n\nO sacubitril/valsartana e a espironolactona podem contribuir para a elevação do potássio.\n\nEntretanto, esses medicamentos também podem proporcionar benefícios importantes no tratamento da insuficiência cardíaca.\n\nPor isso, a decisão de ajustar, suspender temporariamente ou manter o tratamento deve considerar o grau de hipercalemia, a função renal, as condições clínicas e as recomendações específicas para insuficiência cardíaca.\n\nNão é adequado determinar suspensão definitiva de todos esses medicamentos apenas pelo valor de 5,3 mEq/L.\n\nO manejo pode envolver:\n\n- Investigação de fatores contribuintes.\n- Revisão da ingestão de potássio e de possíveis fontes adicionais.\n- Revisão de medicamentos e interações.\n- Avaliação da função renal.\n- Definição da necessidade de intervenções para controle do potássio.\n- Planejamento de acompanhamento laboratorial.\n\nO ponto central é que **reconhecer a ausência de emergência também faz parte de uma boa decisão clínica**.\n\nO tratamento deve ser proporcional ao risco.",
+      "pearl": "Saber quando não usar insulina e cálcio é tão importante quanto saber quando utilizá-los. Hipercalemia leve, crônica e estável exige raciocínio, investigação e acompanhamento — não necessariamente tratamento emergencial.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seções “Patients who can have the potassium lowered slowly” e “Summary and recommendations”."
+    }
+  ]
+}

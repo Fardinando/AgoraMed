@@ -17,6 +17,7 @@ const MIGRACAO_AULA_06 = '20261113000000_agoraquest_aula_06.sql';
 const MIGRACAO_AULA_07 = '20261113120000_agoraquest_aula_07.sql';
 const MIGRACAO_AULA_08 = '20261113180000_agoraquest_aula_08.sql';
 const MIGRACAO_AULA_09 = '20261114000000_agoraquest_aula_09.sql';
+const MIGRACAO_AULA_10 = '20261114120000_agoraquest_aula_10.sql';
 const AULA = ids.aula;
 const CURSO_HIPER = 'fa3c5d8d-94c4-4321-be7a-1cc45741a983';
 const AULA_01 = Q.porSlug('hipercalemia-aula-01-v1');
@@ -28,6 +29,7 @@ const AULA_06 = Q.porSlug('hipercalemia-aula-06-v1');
 const AULA_07 = Q.porSlug('hipercalemia-aula-07-v1');
 const AULA_08 = Q.porSlug('hipercalemia-aula-08-v1');
 const AULA_09 = Q.porSlug('hipercalemia-aula-09-v1');
+const AULA_10 = Q.porSlug('hipercalemia-aula-10-v1');
 const SLUG_01 = 'hipercalemia-aula-01-v1';
 const SLUG_02 = 'hipercalemia-aula-02-v1';
 const SLUG_03 = 'hipercalemia-aula-03-v1';
@@ -37,6 +39,7 @@ const SLUG_06 = 'hipercalemia-aula-06-v1';
 const SLUG_07 = 'hipercalemia-aula-07-v1';
 const SLUG_08 = 'hipercalemia-aula-08-v1';
 const SLUG_09 = 'hipercalemia-aula-09-v1';
+const SLUG_10 = 'hipercalemia-aula-10-v1';
 
 const migracao = (nome) => fs.readFileSync(path.join(__dirname, '../supabase/migrations', nome), 'utf8');
 
@@ -784,6 +787,106 @@ function conferirConteudo09(conteudo, aprovado) {
     assert.equal(q.reference, aprovado[i].reference);
   });
 }
+/* Conteúdo aprovado da Aula 10, transcrito do enunciado entregue. */
+const aprovado10 = [
+  {
+    title: "Ele está bem. Mas o potássio é 6,9.",
+    competency: "Identificar hipercalemia grave como critério de emergência, independentemente dos sintomas",
+    stem: "Um homem de 64 anos, com doença renal crônica estágio G4, procura a emergência após receber uma ligação do laboratório informando potássio elevado.\n\nEstá assintomático, consciente, orientado e sem queixas.\n\nNa avaliação inicial:",
+    table: {"caption":"Exames","headers":["Parâmetro","Resultado"],"rows":[["Potássio","6,9 mEq/L"],["Creatinina","3,6 mg/dL"],["Frequência cardíaca","78 bpm"],["Pressão arterial","146/88 mmHg"]]},
+    stemAfter: "O ECG mostra ritmo sinusal, QRS de 94 ms e ausência de alterações características de hipercalemia.\n\nA amostra não apresenta hemólise. Uma nova coleta, realizada prontamente, confirma potássio de 6,8 mEq/L.\n\nUm residente comenta:\n\n“Ele não apresenta sintomas nem alterações no ECG. Talvez possamos apenas suspender os medicamentos que aumentam o potássio e repetir o exame amanhã.”\n\n**Qual é a conduta mais adequada quanto à urgência do tratamento?**",
+    choices: {
+      A: "Considerar o paciente de baixo risco, pois a ausência de sintomas e alterações eletrocardiográficas exclui emergência hipercalêmica.",
+      B: "Reconhecer uma emergência hipercalêmica pela concentração de potássio superior a 6,5 mEq/L, iniciando tratamento emergencial e monitorização, mesmo sem manifestações clínicas evidentes.",
+      C: "Aguardar o aparecimento de ondas T apiculadas para iniciar qualquer intervenção.",
+      D: "Liberar o paciente com orientações dietéticas, pois a hipercalemia crônica não produz arritmias graves."
+    },
+    pearl: "Um paciente com potássio confirmado acima de 6,5 mEq/L pode estar conversando normalmente e ainda assim preencher critérios de emergência hipercalêmica. Não espere o ECG mudar para reconhecer a urgência.",
+    reference: "UpToDate — Treatment and prevention of hyperkalemia in adults, seções “Determining the urgency of therapy” e “Patients with a hyperkalemic emergency”; tabela de manejo emergencial."
+  },
+  {
+    title: "O potássio é 6,1. A bradicardia é 30.",
+    competency: "Reconhecer emergência hipercalêmica por manifestação clínica e elétrica, independentemente do limiar laboratorial",
+    stem: "Um homem de 78 anos, com doença renal crônica, hipertensão e fibrilação atrial permanente, é levado à emergência após apresentar tontura intensa e episódio de síncope.\n\nUtiliza metoprolol e espironolactona.\n\nNa admissão:",
+    table: {"caption":"Exames","headers":["Parâmetro","Resultado"],"rows":[["Potássio","6,1 mEq/L"],["Creatinina","3,4 mg/dL"],["Frequência cardíaca","30 bpm"],["Pressão arterial","78/44 mmHg"]]},
+    stemAfter: "O ECG mostra ritmo de escape ventricular lento, com QRS alargado.\n\nUm residente comenta:\n\n“O potássio está abaixo de 6,5 mEq/L. Talvez seja melhor tratar apenas a bradicardia e reavaliar o potássio depois.”\n\n**Qual decisão é mais adequada?**",
+    choices: {
+      A: "Classificar a hipercalemia como moderada e sem urgência, pois o valor é inferior a 6,5 mEq/L.",
+      B: "Atribuir a bradicardia exclusivamente ao metoprolol, pois o potássio de 6,1 mEq/L não pode provocar manifestações cardíacas graves.",
+      C: "Aguardar a concentração ultrapassar 6,5 mEq/L antes de iniciar tratamento específico para hipercalemia.",
+      D: "Reconhecer uma emergência hipercalêmica pela presença de bradicardia grave, distúrbio de condução e instabilidade hemodinâmica, iniciando tratamento imediato e avaliando simultaneamente outras causas e fatores associados."
+    },
+    pearl: "O número do potássio não tem prioridade sobre um paciente instável. Bradicardia grave, hipotensão e distúrbio de condução em um paciente hipercalêmico exigem ação imediata, mesmo com potássio abaixo de 6,5 mEq/L.",
+    reference: "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Determining the urgency of therapy”, incluindo manifestações cardíacas e interação com bloqueadores do nó atrioventricular."
+  },
+  {
+    title: "O potássio ainda é 5,9. Mas continua subindo.",
+    competency: "Reconhecer emergência hipercalêmica na presença de disfunção renal e liberação contínua de potássio",
+    stem: "Um homem de 46 anos é admitido após permanecer aproximadamente oito horas com o membro inferior comprimido sob uma estrutura metálica durante um acidente de trabalho.\n\nApresenta dor intensa, edema muscular e urina escurecida.\n\nNa admissão, o potássio era de 4,8 mEq/L.\n\nQuatro horas depois, os exames mostram:",
+    table: {"caption":"Exames","headers":["Parâmetro","Resultado"],"rows":[["Potássio","5,9 mEq/L"],["Creatinina","3,2 mg/dL"],["Creatinoquinase","48.000 U/L"],["Bicarbonato","16 mEq/L"],["Diurese nas últimas 4 horas","40 mL"]]},
+    stemAfter: "O paciente está consciente, com pressão arterial de 128/76 mmHg e frequência cardíaca de 104 bpm.\n\nO ECG não apresenta alterações características de hipercalemia.\n\nUm residente comenta:\n\n“Como o potássio ainda está abaixo de 6,5 mEq/L e o ECG está normal, podemos esperar a próxima coleta antes de iniciar qualquer tratamento.”\n\n**Qual interpretação é mais adequada?**",
+    choices: {
+      A: "A combinação de potássio superior a 5,5 mEq/L, comprometimento renal significativo e destruição muscular contínua configura emergência hipercalêmica, mesmo antes de atingir 6,5 mEq/L.",
+      B: "A hipercalemia somente se torna emergencial quando o potássio ultrapassa 6,5 mEq/L, independentemente da causa.",
+      C: "A creatinoquinase elevada indica lesão muscular, mas não existe relação entre rabdomiólise e elevação do potássio sérico.",
+      D: "A ausência de alterações eletrocardiográficas garante que a liberação contínua de potássio não produzirá complicações cardíacas nas próximas horas."
+    },
+    pearl: "Na rabdomiólise com insuficiência renal, o potássio de agora pode não representar o potássio de daqui a uma hora. Quando há produção contínua e eliminação comprometida, não espere o número atingir 6,5 mEq/L para reconhecer a emergência.",
+    reference: "UpToDate — Treatment and prevention of hyperkalemia in adults, seções “Determining the urgency of therapy” e “Patients with a hyperkalemic emergency”."
+  },
+  {
+    title: "Precisa tratar hoje. Mas precisa tratar agora?",
+    competency: "Diferenciar tratamento pronto de tratamento emergencial",
+    stem: "Uma mulher de 57 anos, com doença renal crônica terminal, realiza hemodiálise regularmente às segundas, quartas e sextas-feiras.\n\nProcura a emergência em uma sexta-feira à noite porque perdeu a sessão programada daquele dia devido a um problema de transporte.\n\nA próxima sessão ambulatorial disponível será na segunda-feira.\n\nNa avaliação:",
+    table: {"caption":"Exames","headers":["Parâmetro","Resultado"],"rows":[["Potássio","5,9 mEq/L"],["Frequência cardíaca","82 bpm"],["Pressão arterial","138/84 mmHg"],["Saturação de oxigênio","98%"],["Glicemia","112 mg/dL"]]},
+    stemAfter: "Está assintomática, sem sinais de congestão pulmonar ou instabilidade hemodinâmica.\n\nO ECG não apresenta alterações características de hipercalemia.\n\nO potássio foi confirmado em amostra adequada.\n\nUm interno comenta:\n\n“Como não há critérios de emergência hipercalêmica, ela pode simplesmente voltar na segunda-feira para sua próxima sessão.”\n\n**Qual é a interpretação mais adequada?**",
+    choices: {
+      A: "A ausência de alterações eletrocardiográficas significa que a paciente não necessita de nenhuma intervenção antes da próxima sessão ambulatorial.",
+      B: "Todo paciente dialítico com potássio superior a 5,5 mEq/L apresenta obrigatoriamente emergência hipercalêmica, independentemente do contexto.",
+      C: "A paciente não apresenta os critérios descritos de emergência hipercalêmica, mas necessita de redução pronta do potássio, em geral dentro de 6 a 12 horas, pois perdeu sua sessão de diálise e não terá acesso à próxima sessão regular em tempo adequado.",
+      D: "A hipercalemia em pacientes dialíticos é sempre fisiológica e não necessita de tratamento quando o paciente está assintomático."
+    },
+    pearl: "Entre “tratar imediatamente” e “acompanhar sem pressa” existe uma terceira decisão: tratar prontamente. No paciente dialítico que perdeu a sessão, o calendário da hemodiálise também faz parte da avaliação do risco.",
+    reference: "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Patients needing prompt therapy” e resumo das recomendações."
+  },
+  {
+    title: "Todo potássio elevado precisa de insulina?",
+    competency: "Reconhecer quando a hipercalemia pode ser manejada sem medidas emergenciais",
+    stem: "Um homem de 69 anos, com doença renal crônica estágio G3b e insuficiência cardíaca com fração de ejeção reduzida, comparece ao ambulatório para avaliação de exames de rotina.\n\nUtiliza sacubitril/valsartana, espironolactona e outros medicamentos para insuficiência cardíaca.\n\nEstá assintomático, com pressão arterial de 126/78 mmHg e frequência cardíaca de 72 bpm.\n\nOs exames mostram:",
+    table: {"caption":"Exames","headers":["Parâmetro","Resultado atual","Resultado há 3 semanas"],"rows":[["Potássio","5,3 mEq/L","5,2 mEq/L"],["Creatinina","1,8 mg/dL","1,8 mg/dL"],["Bicarbonato","24 mEq/L","24 mEq/L"]]},
+    stemAfter: "Não há redução recente da diurese, sinais de lesão tecidual, sintomas neuromusculares ou evidências de deterioração clínica.\n\nO ECG não apresenta alterações características de hipercalemia.\n\nUm interno sugere:\n\n“Como o potássio está acima do normal, devemos administrar imediatamente insulina com glicose e cálcio intravenoso.”\n\n**Qual interpretação é mais adequada?**",
+    choices: {
+      A: "Qualquer concentração de potássio acima do limite superior de referência exige cálcio intravenoso e insulina com glicose.",
+      B: "Trata-se de hipercalemia leve e aparentemente crônica, sem critérios de emergência, permitindo manejo não emergencial com investigação dos fatores contribuintes, revisão terapêutica criteriosa e acompanhamento laboratorial.",
+      C: "A ausência de sintomas significa que o potássio de 5,3 mEq/L não merece investigação ou acompanhamento.",
+      D: "A presença de doença renal crônica obriga a suspensão definitiva de todos os medicamentos com benefício cardiorrenal, independentemente do grau de hipercalemia."
+    },
+    pearl: "Saber quando não usar insulina e cálcio é tão importante quanto saber quando utilizá-los. Hipercalemia leve, crônica e estável exige raciocínio, investigação e acompanhamento — não necessariamente tratamento emergencial.",
+    reference: "UpToDate — Treatment and prevention of hyperkalemia in adults, seções “Patients who can have the potassium lowered slowly” e “Summary and recommendations”."
+  }
+];
+/* Aula 10: cinco questões, gabarito B-D-A-C-B, tabelas nas 01-05. */
+function conferirConteudo10(conteudo, aprovado) {
+  assert.equal(conteudo.questions.length, aprovado.length);
+  assert.equal(conteudo.questions.length, 5);
+  assert.deepEqual(conteudo.key, ['B', 'D', 'A', 'C', 'B']);
+  assert.deepEqual(Q.keyOf(conteudo), ['B', 'D', 'A', 'C', 'B']);
+  conteudo.questions.forEach((q, i) => {
+    assert.equal(q.number, i + 1);
+    assert.equal(q.title, aprovado[i].title);
+    assert.equal(q.competency, aprovado[i].competency);
+    assert.equal(q.stem, aprovado[i].stem);
+    assert.deepEqual(q.table, aprovado[i].table);
+    assert.equal(q.stemAfter, aprovado[i].stemAfter);
+    assert.deepEqual(q.choices, aprovado[i].choices);
+    assert.deepEqual(Object.keys(q.feedback), ['A', 'B', 'C', 'D']);
+    for (const letra of 'ABCD') assert.ok(q.feedback[letra].length > 60);
+    assert.ok(q.correctExplanation.length > 300);
+    assert.match(q.correctExplanation, /\n\s*\n/, 'a explicação deve ter múltiplos parágrafos');
+    assert.equal(q.pearl, aprovado[i].pearl);
+    assert.equal(q.reference, aprovado[i].reference);
+  });
+}
 function conferirConteudo(conteudo, aprovado, chave) {
   assert.equal(conteudo.questions.length, aprovado.length);
   assert.equal(conteudo.questions.length, 5);
@@ -942,6 +1045,23 @@ test('Aula 09: cinco questões exatas, gabarito B-D-A-C-B e competências', () =
   assert.ok(AULA_09.closing.includes('O ECG é fundamental'));
   assert.equal(AULA_09.questions.filter((q) => q.reference).length, 5);
   assert.match(AULA_09.references, /UpToDate/);
+});
+
+/* Aula 10: cinco questões exatas, gabarito B-D-A-C-B, tabelas e competências. */
+test('Aula 10: cinco questões exatas, gabarito B-D-A-C-B e competências', () => {
+  assert.equal(AULA_10.slug, SLUG_10);
+  assert.equal(AULA_10.versao, 1);
+  assert.equal(AULA_10.title, 'Hipercalemia — Aula 10');
+  assert.equal(AULA_10.subtitle, 'Quem precisa de tratamento imediato?');
+  conferirConteudo10(AULA_10, aprovado10);
+  assert.deepEqual(AULA_10.questions.map((q) => q.number), [1, 2, 3, 4, 5]);
+  assert.deepEqual(AULA_10.questions.map((q) => q.competency), aprovado10.map((q) => q.competency));
+  assert.deepEqual(AULA_10.questions.filter((q) => q.table).map((q) => q.number), [1, 2, 3, 4, 5]);
+  assert.match(AULA_10.questions[0].correctExplanation, /emergência hipercalêmica/);
+  assert.match(AULA_10.questions[4].correctExplanation, /reconhecer a ausência de emergência/);
+  assert.ok(AULA_10.closing.includes('urgência do tratamento'));
+  assert.equal(AULA_10.questions.filter((q) => q.reference).length, 5);
+  assert.match(AULA_10.references, /UpToDate/);
 });
 
 /* 5, 6, 9, 10 — feedback imediato, bloqueio, avanço e pontuação. */
@@ -1251,6 +1371,43 @@ test('engine: Aula 09 usa o próprio gabarito, expõe tabelas e aprova com 80%',
   assert.equal(Q.E.score(perfeito, Q.keyOf(AULA_09)), 5);
 });
 
+/* Aula 10: gabarito próprio, tabelas visíveis, aprovação em 80%. */
+test('engine: Aula 10 usa o próprio gabarito, expõe tabelas e aprova com 80%', () => {
+  let s = Q.E.fresh();
+  const inicial = Q.visible(s, AULA_10);
+  assert.equal(inicial.questions[0].competency, 'Identificar hipercalemia grave como critério de emergência, independentemente dos sintomas');
+  assert.ok(inicial.questions[0].table);
+  assert.ok(inicial.questions[0].stemAfter);
+  assert.ok(inicial.questions.every((q) => !q.feedback && !q.correctChoice && !q.correctExplanation && !q.pearl && !q.reference));
+  assert.equal(inicial.closing, undefined);
+
+  s = Q.transition(s, 'answer', { choice: 'A' }, AULA_10);
+  const depois = Q.visible(s, AULA_10);
+  assert.equal(depois.questions[0].correctChoice, 'B');
+  assert.ok(depois.questions[0].table, 'a tabela continua visível após responder');
+  assert.equal(Q.publicState(s, AULA_10).answers[0].correct, false);
+  assert.throws(() => Q.transition(s, 'answer', { choice: 'B' }, AULA_10), /Seleção indisponível/);
+  s = Q.transition(s, 'next', {}, AULA_10);
+
+  for (let i = 1; i < 5; i++) {
+    s = Q.transition(s, 'answer', { choice: Q.keyOf(AULA_10)[i] }, AULA_10);
+    s = Q.transition(s, 'next', {}, AULA_10);
+  }
+  assert.ok(s.finishedAt);
+  assert.equal(Q.E.score(s, Q.keyOf(AULA_10)), 4);
+  assert.equal(Q.publicState(s, AULA_10).score, 4);
+  assert.ok(Q.visible(s, AULA_10).closing);
+  assert.equal(Q.visible(s, AULA_10).questions[4].correctChoice, 'B');
+  assert.throws(() => Q.transition(s, 'answer', { choice: 'C' }, AULA_10), /já foi concluída/);
+
+  let perfeito = Q.E.fresh();
+  for (let i = 0; i < 5; i++) {
+    perfeito = Q.transition(perfeito, 'answer', { choice: Q.keyOf(AULA_10)[i] }, AULA_10);
+    perfeito = Q.transition(perfeito, 'next', {}, AULA_10);
+  }
+  assert.equal(Q.E.score(perfeito, Q.keyOf(AULA_10)), 5);
+});
+
 /* 11, 12, 13, 15 — domínio do caderno: identificação, indicadores, agrupamento e revisão. */
 test('caderno: identificação estável, indicadores, agrupamento e revisão sem gabarito antecipado', () => {
   assert.equal(N.questaoId(SLUG_02, 3), 'hipercalemia-aula-02-v1#3');
@@ -1416,6 +1573,30 @@ test('caderno: revisão da Aula 09 preserva tabela, competência e stemAfter sem
   assert.equal(resultado.pearl, AULA_09.questions[2].pearl);
 });
 
+/* Aula 10 no caderno: revisão preserva tabela, competência e stemAfter sem vazar o gabarito. */
+test('caderno: revisão da Aula 10 preserva tabela, competência e stemAfter sem gabarito', () => {
+  const row = {
+    id: 'cad-10', questao_id: SLUG_10 + '#1', slug: SLUG_10, numero: 1, aula_id: AULA,
+    estado: 'precisa_revisar', erros: 1, revisoes: 0, acertos_seguidos: 0,
+    ultima_escolha: 'A', ultimo_erro_em: '2026-11-12T12:00:00.000Z', atualizado_em: '2026-11-12T12:00:00.000Z',
+    aulas: { titulo: 'Quem precisa de tratamento imediato?', ordem: 3, modulos: { titulo: 'Módulo 3', ordem: 3, curso_id: CURSO_HIPER, cursos: { id: CURSO_HIPER, titulo: 'Tratamento da Hipercalemia em Adultos' } } }
+  };
+  const revisao = N.revisaoView(row, AULA_10);
+  assert.equal(revisao.competency, AULA_10.questions[0].competency);
+  assert.deepEqual(revisao.table, AULA_10.questions[0].table);
+  assert.equal(revisao.stemAfter, AULA_10.questions[0].stemAfter);
+  assert.equal(revisao.correctChoice, undefined);
+  assert.equal(revisao.feedback, undefined);
+  assert.equal(revisao.correctExplanation, undefined);
+  assert.equal(revisao.pearl, undefined);
+
+  const resultado = N.resultadoRevisao(row, AULA_10, 'A');
+  assert.equal(resultado.correctChoice, 'B');
+  assert.equal(resultado.correta, false);
+  assert.match(resultado.correctExplanation, /\n\s*\n/);
+  assert.equal(resultado.pearl, AULA_10.questions[0].pearl);
+});
+
 /* ------------------------------------------------------------------ API */
 function montarRota({ aulaAtividade = null, semAtividade = false, slug = SLUG_01, cadernoInicial = [], ...overrides } = {}) {
   const logs = [];
@@ -1425,10 +1606,10 @@ function montarRota({ aulaAtividade = null, semAtividade = false, slug = SLUG_01
   const curso = 'cccccccc-cccc-4ccc-8ccc-cccccccccccc';
   const modulo = 'dddddddd-dddd-4ddd-8ddd-dddddddddddd';
   const aulaEmbed = (r) => ({
-    titulo: slug === SLUG_09 ? 'ECG na hipercalemia: o que procurar e quais são suas limitações' : slug === SLUG_08 ? 'Manifestações clínicas e sinais de alarme' : slug === SLUG_07 ? 'Medicamentos e fontes de potássio que passam despercebidos' : slug === SLUG_06 ? 'Quando o rim não consegue eliminar potássio' : slug === SLUG_05 ? 'Redistribuição e liberação celular de potássio' : slug === SLUG_04 ? 'Pseudohipercalemia — quando desconfiar e como confirmar' : slug === SLUG_03 ? 'Potássio sérico não é estoque corporal' : slug === SLUG_02 ? 'A fisiologia do potássio que muda a conduta' : 'Aula 01',
-    ordem: slug === SLUG_09 ? 2 : slug === SLUG_08 ? 1 : slug === SLUG_07 ? 4 : slug === SLUG_06 ? 3 : slug === SLUG_05 ? 2 : slug === SLUG_04 ? 1 : slug === SLUG_03 ? 3 : slug === SLUG_02 ? 2 : 1,
-    modulos: (slug === SLUG_04 || slug === SLUG_05 || slug === SLUG_06 || slug === SLUG_07 || slug === SLUG_08 || slug === SLUG_09)
-      ? { titulo: (slug === SLUG_08 || slug === SLUG_09) ? 'Reconhecer o risco antes da deterioração' : 'Esse resultado é verdadeiro? Por que o potássio subiu?', ordem: (slug === SLUG_08 || slug === SLUG_09) ? 3 : 2, curso_id: curso, cursos: { id: curso, titulo: 'Tratamento da Hipercalemia em Adultos' } }
+    titulo: slug === SLUG_10 ? 'Quem precisa de tratamento imediato?' : slug === SLUG_09 ? 'ECG na hipercalemia: o que procurar e quais são suas limitações' : slug === SLUG_08 ? 'Manifestações clínicas e sinais de alarme' : slug === SLUG_07 ? 'Medicamentos e fontes de potássio que passam despercebidos' : slug === SLUG_06 ? 'Quando o rim não consegue eliminar potássio' : slug === SLUG_05 ? 'Redistribuição e liberação celular de potássio' : slug === SLUG_04 ? 'Pseudohipercalemia — quando desconfiar e como confirmar' : slug === SLUG_03 ? 'Potássio sérico não é estoque corporal' : slug === SLUG_02 ? 'A fisiologia do potássio que muda a conduta' : 'Aula 01',
+    ordem: slug === SLUG_10 ? 3 : slug === SLUG_09 ? 2 : slug === SLUG_08 ? 1 : slug === SLUG_07 ? 4 : slug === SLUG_06 ? 3 : slug === SLUG_05 ? 2 : slug === SLUG_04 ? 1 : slug === SLUG_03 ? 3 : slug === SLUG_02 ? 2 : 1,
+    modulos: (slug === SLUG_04 || slug === SLUG_05 || slug === SLUG_06 || slug === SLUG_07 || slug === SLUG_08 || slug === SLUG_09 || slug === SLUG_10)
+      ? { titulo: (slug === SLUG_08 || slug === SLUG_09 || slug === SLUG_10) ? 'Reconhecer o risco antes da deterioração' : 'Esse resultado é verdadeiro? Por que o potássio subiu?', ordem: (slug === SLUG_08 || slug === SLUG_09 || slug === SLUG_10) ? 3 : 2, curso_id: curso, cursos: { id: curso, titulo: 'Tratamento da Hipercalemia em Adultos' } }
       : { titulo: 'Módulo 1', ordem: 1, curso_id: curso, cursos: { id: curso, titulo: 'Tratamento da Hipercalemia em Adultos' } }
   });
 
@@ -1443,7 +1624,7 @@ function montarRota({ aulaAtividade = null, semAtividade = false, slug = SLUG_01
         return { ok: true, dados: [{ id: AULA, titulo: aulaEmbed().titulo, atividade: aulaAtividade, modulo_id: modulo, modulos: { curso_id: curso, titulo: 'Módulo 1' } }] };
       }
       if (url.startsWith('/agoraquest_atividades?')) {
-        return { ok: true, dados: semAtividade ? [] : [{ slug, versao_conteudo: 1, titulo: slug === SLUG_09 ? 'Hipercalemia — Aula 09' : slug === SLUG_08 ? 'Hipercalemia — Aula 08' : slug === SLUG_07 ? 'Hipercalemia — Aula 07' : slug === SLUG_06 ? 'Hipercalemia — Aula 06' : slug === SLUG_05 ? 'Hipercalemia — Aula 05' : slug === SLUG_04 ? 'Hipercalemia — Aula 04' : slug === SLUG_03 ? 'Hipercalemia — Aula 03' : slug === SLUG_02 ? 'Hipercalemia — Aula 02' : 'Hipercalemia — Aula 01' }] };
+        return { ok: true, dados: semAtividade ? [] : [{ slug, versao_conteudo: 1, titulo: slug === SLUG_10 ? 'Hipercalemia — Aula 10' : slug === SLUG_09 ? 'Hipercalemia — Aula 09' : slug === SLUG_08 ? 'Hipercalemia — Aula 08' : slug === SLUG_07 ? 'Hipercalemia — Aula 07' : slug === SLUG_06 ? 'Hipercalemia — Aula 06' : slug === SLUG_05 ? 'Hipercalemia — Aula 05' : slug === SLUG_04 ? 'Hipercalemia — Aula 04' : slug === SLUG_03 ? 'Hipercalemia — Aula 03' : slug === SLUG_02 ? 'Hipercalemia — Aula 02' : 'Hipercalemia — Aula 01' }] };
       }
       if (url.startsWith('/cursos?')) return { ok: true, dados: [{ titulo: 'Tratamento da Hipercalemia em Adultos' }] };
       if (url.startsWith('/modulos?')) {
@@ -1618,7 +1799,7 @@ test('API da prática: sessão, acesso, identificadores e isolamento por aluno',
 
 /* 6, 9, 11, 12, 14 — fluxo completo e alimentação idempotente do caderno. */
 test('API da prática: Aulas 01 a 06 publicam o conteúdo certo sem vazar o gabarito', async () => {
-  for (const [slug, conteudo, chave] of [[SLUG_01, AULA_01, ['B', 'C', 'B', 'D', 'C']], [SLUG_02, AULA_02, ['B', 'C', 'B', 'D', 'C']], [SLUG_03, AULA_03, ['B', 'D', 'C', 'A', 'C']], [SLUG_04, AULA_04, ['B', 'D', 'A', 'C', 'D']], [SLUG_05, AULA_05, ['B', 'C', 'D', 'A', 'D']], [SLUG_06, AULA_06, ['B', 'C', 'D', 'B', 'D']], [SLUG_07, AULA_07, ['A', 'C', 'C', 'D', 'B']], [SLUG_08, AULA_08, ['C', 'D', 'B', 'D', 'C']], [SLUG_09, AULA_09, ['B', 'D', 'A', 'C', 'B']]]) {
+  for (const [slug, conteudo, chave] of [[SLUG_01, AULA_01, ['B', 'C', 'B', 'D', 'C']], [SLUG_02, AULA_02, ['B', 'C', 'B', 'D', 'C']], [SLUG_03, AULA_03, ['B', 'D', 'C', 'A', 'C']], [SLUG_04, AULA_04, ['B', 'D', 'A', 'C', 'D']], [SLUG_05, AULA_05, ['B', 'C', 'D', 'A', 'D']], [SLUG_06, AULA_06, ['B', 'C', 'D', 'B', 'D']], [SLUG_07, AULA_07, ['A', 'C', 'C', 'D', 'B']], [SLUG_08, AULA_08, ['C', 'D', 'B', 'D', 'C']], [SLUG_09, AULA_09, ['B', 'D', 'A', 'C', 'B']], [SLUG_10, AULA_10, ['B', 'D', 'A', 'C', 'B']]]) {
     const h = montarRota({ slug });
     const r = await h.call();
     assert.equal(r.status, 200);
@@ -1860,7 +2041,7 @@ test('migração: domínio configurável e nova prática reabre questão dominad
   }
 });
 
-test('migração: vincula Aulas 02, 03, 04, 05, 06, 07, 08 e 09 pelo título e preserva as anteriores', async () => {
+test('migração: vincula Aulas 02, 03, 04, 05, 06, 07, 08, 09 e 10 pelo título e preserva as anteriores', async () => {
   const db = await criarBanco();
   const modulo1 = '99999999-9999-4999-8999-999999999991';
   const modulo2 = '99999999-9999-4999-8999-999999999992';
@@ -1874,12 +2055,13 @@ test('migração: vincula Aulas 02, 03, 04, 05, 06, 07, 08 e 09 pelo título e p
   const setima = 'aaaaaaaa-0000-4000-8000-00000000000c';
   const oitava = 'aaaaaaaa-0000-4000-8000-00000000000d';
   const nona = 'aaaaaaaa-0000-4000-8000-00000000000e';
+  const decima = 'aaaaaaaa-0000-4000-8000-00000000000f';
   try {
     await db.exec('alter table public.matriculas add column if not exists expira_em timestamptz;');
     await db.exec('alter table public.aulas add column if not exists atividade text;');
     await db.query("insert into public.cursos(id,titulo) values($1,'Tratamento da Hipercalemia em Adultos')", [CURSO_HIPER]);
     await db.query("insert into public.modulos(id,curso_id,titulo,ordem) values($1,$2,'Potássio elevado: por onde começar?',1),($3,$2,'Esse resultado é verdadeiro? Por que o potássio subiu?',2),($4,$2,'Reconhecer o risco antes da deterioração',3)", [modulo1, CURSO_HIPER, modulo2, modulo3]);
-    await db.query("insert into public.aulas(id,modulo_id,titulo,ordem) values($1,$2,'Aula 01',1),($3,$2,'A fisiologia do potássio que muda a conduta',2),($4,$2,'Potássio sérico não é estoque corporal',3),($5,$6,'Pseudohipercalemia — quando desconfiar e como confirmar',1),($7,$6,'Redistribuição e liberação celular de potássio',2),($8,$6,'Quando o rim não consegue eliminar potássio',3),($9,$6,'Medicamentos e fontes de potássio que passam despercebidos',4),($11,$10,'Manifestações clínicas e sinais de alarme',1),($12,$10,'ECG na hipercalemia: o que procurar e quais são suas limitações',2)", [primeira, modulo1, segunda, terceira, quarta, modulo2, quinta, sexta, setima, modulo3, oitava, nona]);
+    await db.query("insert into public.aulas(id,modulo_id,titulo,ordem) values($1,$2,'Aula 01',1),($3,$2,'A fisiologia do potássio que muda a conduta',2),($4,$2,'Potássio sérico não é estoque corporal',3),($5,$6,'Pseudohipercalemia — quando desconfiar e como confirmar',1),($7,$6,'Redistribuição e liberação celular de potássio',2),($8,$6,'Quando o rim não consegue eliminar potássio',3),($9,$6,'Medicamentos e fontes de potássio que passam despercebidos',4),($11,$10,'Manifestações clínicas e sinais de alarme',1),($12,$10,'ECG na hipercalemia: o que procurar e quais são suas limitações',2),($13,$10,'Quem precisa de tratamento imediato?',3)", [primeira, modulo1, segunda, terceira, quarta, modulo2, quinta, sexta, setima, modulo3, oitava, nona, decima]);
     await db.exec(migracao(MIGRACAO_AULA_01));
     await db.exec(migracao(MIGRACAO_AULA_02));
     await db.exec(migracao(MIGRACAO_AULA_03));
@@ -1889,6 +2071,7 @@ test('migração: vincula Aulas 02, 03, 04, 05, 06, 07, 08 e 09 pelo título e p
     await db.exec(migracao(MIGRACAO_AULA_07));
     await db.exec(migracao(MIGRACAO_AULA_08));
     await db.exec(migracao(MIGRACAO_AULA_09));
+    await db.exec(migracao(MIGRACAO_AULA_10));
     assert.deepEqual((await db.query('select slug,aula_id,versao_conteudo,titulo from public.agoraquest_atividades order by slug')).rows, [
       { slug: SLUG_01, aula_id: primeira, versao_conteudo: 1, titulo: 'Hipercalemia — Aula 01' },
       { slug: SLUG_02, aula_id: segunda, versao_conteudo: 1, titulo: 'Hipercalemia — Aula 02' },
@@ -1898,7 +2081,8 @@ test('migração: vincula Aulas 02, 03, 04, 05, 06, 07, 08 e 09 pelo título e p
       { slug: SLUG_06, aula_id: sexta, versao_conteudo: 1, titulo: 'Hipercalemia — Aula 06' },
       { slug: SLUG_07, aula_id: setima, versao_conteudo: 1, titulo: 'Hipercalemia — Aula 07' },
       { slug: SLUG_08, aula_id: oitava, versao_conteudo: 1, titulo: 'Hipercalemia — Aula 08' },
-      { slug: SLUG_09, aula_id: nona, versao_conteudo: 1, titulo: 'Hipercalemia — Aula 09' }
+      { slug: SLUG_09, aula_id: nona, versao_conteudo: 1, titulo: 'Hipercalemia — Aula 09' },
+      { slug: SLUG_10, aula_id: decima, versao_conteudo: 1, titulo: 'Hipercalemia — Aula 10' }
     ]);
   } finally {
     await db.close();
@@ -2384,6 +2568,78 @@ test('migração: Aula 09 prefere o título e não é vinculada sem o curso', as
   }
 });
 
+test('migração: Aula 10 usa a décima aula como fallback e não invade aula com outra atividade', async () => {
+  const db = await criarBanco();
+  const modulo = '99999999-9999-4999-8999-999999999999';
+  const ids10 = ['aaaaaaaa-0000-4000-8000-000000000101','aaaaaaaa-0000-4000-8000-000000000102','aaaaaaaa-0000-4000-8000-000000000103','aaaaaaaa-0000-4000-8000-000000000104','aaaaaaaa-0000-4000-8000-000000000105','aaaaaaaa-0000-4000-8000-000000000106','aaaaaaaa-0000-4000-8000-000000000107','aaaaaaaa-0000-4000-8000-000000000108','aaaaaaaa-0000-4000-8000-000000000109','aaaaaaaa-0000-4000-8000-00000000010a'];
+  const aulasSql = "insert into public.aulas(id,modulo_id,titulo,ordem) values($1,$2,'Aula A',1),($3,$2,'Aula B',2),($4,$2,'Aula C',3),($5,$2,'Aula D',4),($6,$2,'Aula E',5),($7,$2,'Aula F',6),($8,$2,'Aula G',7),($9,$2,'Aula H',8),($10,$2,'Aula I',9),($11,$2,'Aula J',10)";
+  const params = [ids10[0], modulo, ids10[1], ids10[2], ids10[3], ids10[4], ids10[5], ids10[6], ids10[7], ids10[8], ids10[9]];
+  try {
+    await db.exec('alter table public.matriculas add column if not exists expira_em timestamptz;');
+    await db.exec('alter table public.aulas add column if not exists atividade text;');
+    await db.exec(migracao(MIGRACAO_AULA_01));
+    await db.query("insert into public.cursos(id,titulo) values($1,'Hipercalemia — curso de teste')", [CURSO_HIPER]);
+    await db.query("insert into public.modulos(id,curso_id,titulo,ordem) values($1,$2,'Módulo 1',1)", [modulo, CURSO_HIPER]);
+    await db.query(aulasSql, params);
+    await db.exec(migracao(MIGRACAO_AULA_10));
+    assert.deepEqual((await db.query('select slug,aula_id from public.agoraquest_atividades order by slug')).rows, [
+      { slug: SLUG_10, aula_id: ids10[9] }
+    ]);
+  } finally {
+    await db.close();
+  }
+
+  const db2 = await criarBanco();
+  try {
+    await db2.exec('alter table public.matriculas add column if not exists expira_em timestamptz;');
+    await db2.exec('alter table public.aulas add column if not exists atividade text;');
+    await db2.exec(migracao(MIGRACAO_AULA_01));
+    await db2.query("insert into public.cursos(id,titulo) values($1,'Hipercalemia — curso de teste')", [CURSO_HIPER]);
+    await db2.query("insert into public.modulos(id,curso_id,titulo,ordem) values($1,$2,'Módulo 1',1)", [modulo, CURSO_HIPER]);
+    await db2.query(aulasSql, params);
+    await db2.query("insert into public.agoraquest_atividades(slug,aula_id,versao_conteudo,titulo) values('outra-atividade',$1,1,'Outra')", [ids10[9]]);
+    await db2.exec(migracao(MIGRACAO_AULA_10));
+    assert.deepEqual((await db2.query('select slug,aula_id from public.agoraquest_atividades order by slug')).rows, [
+      { slug: 'outra-atividade', aula_id: ids10[9] }
+    ]);
+  } finally {
+    await db2.close();
+  }
+});
+
+test('migração: Aula 10 prefere o título e não é vinculada sem o curso', async () => {
+  const db = await criarBanco();
+  const modulo = '99999999-9999-4999-8999-999999999999';
+  const primeira = 'aaaaaaaa-0000-4000-8000-000000000111';
+  const segunda = 'aaaaaaaa-0000-4000-8000-000000000112';
+  const imediato = 'aaaaaaaa-0000-4000-8000-000000000113';
+  try {
+    await db.exec('alter table public.matriculas add column if not exists expira_em timestamptz;');
+    await db.exec('alter table public.aulas add column if not exists atividade text;');
+    await db.exec(migracao(MIGRACAO_AULA_01));
+    await db.query("insert into public.cursos(id,titulo) values($1,'Hipercalemia — curso de teste')", [CURSO_HIPER]);
+    await db.query("insert into public.modulos(id,curso_id,titulo,ordem) values($1,$2,'Módulo 1',1)", [modulo, CURSO_HIPER]);
+    await db.query("insert into public.aulas(id,modulo_id,titulo,ordem) values($1,$2,'Aula A',1),($3,$2,'Aula B',2),($4,$2,'Quem precisa de tratamento imediato?',3)", [primeira, modulo, segunda, imediato]);
+    await db.exec(migracao(MIGRACAO_AULA_10));
+    assert.deepEqual((await db.query('select slug,aula_id from public.agoraquest_atividades order by slug')).rows, [
+      { slug: SLUG_10, aula_id: imediato }
+    ]);
+  } finally {
+    await db.close();
+  }
+
+  const db2 = await criarBanco();
+  try {
+    await db2.exec('alter table public.matriculas add column if not exists expira_em timestamptz;');
+    await db2.exec('alter table public.aulas add column if not exists atividade text;');
+    await db2.exec(migracao(MIGRACAO_AULA_01));
+    await db2.exec(migracao(MIGRACAO_AULA_10));
+    assert.equal((await db2.query('select count(*)::int as n from public.agoraquest_atividades')).rows[0].n, 0);
+  } finally {
+    await db2.close();
+  }
+});
+
 /* --------------------------------------------------------------- estático */
 test('estático: páginas, link no app, service worker e ausência do gabarito no cliente', () => {
   const html = fs.readFileSync(path.join(__dirname, '../agoraquest.html'), 'utf8');
@@ -2417,7 +2673,7 @@ test('estático: páginas, link no app, service worker e ausência do gabarito n
   assert.doesNotMatch(jsCaderno, /\[\s*['"]C['"]\s*,\s*['"]D['"]\s*,\s*['"]B['"]\s*,\s*['"]D['"]\s*,\s*['"]C['"]\s*\]/);
   assert.doesNotMatch(js, /\[\s*['"]B['"]\s*,\s*['"]D['"]\s*,\s*['"]A['"]\s*,\s*['"]C['"]\s*,\s*['"]B['"]\s*\]/);
   assert.doesNotMatch(jsCaderno, /\[\s*['"]B['"]\s*,\s*['"]D['"]\s*,\s*['"]A['"]\s*,\s*['"]C['"]\s*,\s*['"]B['"]\s*\]/);
-  for (const q of aprovado01.concat(aprovado02, aprovado03, aprovado04, aprovado05, aprovado06, aprovado07, aprovado08, aprovado09)) {
+  for (const q of aprovado01.concat(aprovado02, aprovado03, aprovado04, aprovado05, aprovado06, aprovado07, aprovado08, aprovado09, aprovado10)) {
     assert.ok(!js.includes(q.stem));
     assert.ok(!jsCaderno.includes(q.stem));
     assert.ok(!js.includes(q.choices.B));
