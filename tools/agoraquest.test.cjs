@@ -21,6 +21,7 @@ const MIGRACAO_AULA_10 = '20261114120000_agoraquest_aula_10.sql';
 const MIGRACAO_AULA_11 = '20261115000000_agoraquest_aula_11.sql';
 const MIGRACAO_AULA_12 = '20261115120000_agoraquest_aula_12.sql';
 const MIGRACAO_AULA_13 = '20261115180000_agoraquest_aula_13.sql';
+const MIGRACAO_AULA_14 = '20261116000000_agoraquest_aula_14.sql';
 const AULA = ids.aula;
 const CURSO_HIPER = 'fa3c5d8d-94c4-4321-be7a-1cc45741a983';
 const AULA_01 = Q.porSlug('hipercalemia-aula-01-v1');
@@ -36,6 +37,7 @@ const AULA_10 = Q.porSlug('hipercalemia-aula-10-v1');
 const AULA_11 = Q.porSlug('hipercalemia-aula-11-v1');
 const AULA_12 = Q.porSlug('hipercalemia-aula-12-v1');
 const AULA_13 = Q.porSlug('hipercalemia-aula-13-v1');
+const AULA_14 = Q.porSlug('hipercalemia-aula-14-v1');
 const SLUG_01 = 'hipercalemia-aula-01-v1';
 const SLUG_02 = 'hipercalemia-aula-02-v1';
 const SLUG_03 = 'hipercalemia-aula-03-v1';
@@ -49,6 +51,7 @@ const SLUG_10 = 'hipercalemia-aula-10-v1';
 const SLUG_11 = 'hipercalemia-aula-11-v1';
 const SLUG_12 = 'hipercalemia-aula-12-v1';
 const SLUG_13 = 'hipercalemia-aula-13-v1';
+const SLUG_14 = 'hipercalemia-aula-14-v1';
 
 const migracao = (nome) => fs.readFileSync(path.join(__dirname, '../supabase/migrations', nome), 'utf8');
 
@@ -1196,6 +1199,106 @@ function conferirConteudo13(conteudo, aprovado) {
     assert.equal(q.reference, aprovado[i].reference);
   });
 }
+/* Conteúdo aprovado da Aula 14, transcrito do enunciado entregue. */
+const aprovado14 = [
+  {
+    title: "Potássio 7,4. Você tem dois minutos para organizar a conduta.",
+    competency: "Organizar uma prescrição inicial segura, simultânea e priorizada",
+    stem: "Um homem de 67 anos, com doença renal crônica avançada, chega à emergência apresentando fraqueza, tontura e redução importante da diurese.\n\nNa avaliação inicial:",
+    table: {"caption":"Exames","headers":["Parâmetro","Resultado"],"rows":[["Potássio","7,4 mEq/L"],["Creatinina","5,8 mg/dL"],["Glicemia","112 mg/dL"],["Frequência cardíaca","42 bpm"],["Pressão arterial","94/58 mmHg"]]},
+    stemAfter: "O ECG apresenta ondas P pouco evidentes e QRS de 156 ms.\n\nO paciente possui acesso venoso periférico adequado e está consciente.\n\nVocê precisa organizar as primeiras prescrições.\n\n**Qual conjunto de condutas é mais apropriado?**",
+    choices: {
+      A: "Prescrever apenas insulina regular intravenosa, aguardar 60 minutos e decidir sobre cálcio e monitorização após conhecer o novo potássio.",
+      B: "Iniciar monitorização cardíaca contínua, administrar gluconato de cálcio intravenoso pela via adequada, prescrever insulina regular com glicose conforme o protocolo, estabelecer vigilância glicêmica e laboratorial e providenciar precocemente avaliação para remoção efetiva do potássio.",
+      C: "Prescrever exclusivamente um quelante gastrointestinal de potássio e solicitar novo ECG após quatro horas, evitando intervenções intravenosas.",
+      D: "Administrar cálcio intravenoso e encerrar a prescrição após a melhora do QRS, pois a estabilização elétrica confirma a resolução da hipercalemia."
+    },
+    pearl: "Na hipercalemia grave, não prescreva uma medida e espere para pensar na próxima. Proteção cardíaca, redistribuição, remoção e monitorização precisam fazer parte do mesmo plano inicial.",
+    reference: "UpToDate — Treatment and prevention of hyperkalemia in adults, tabela “Hyperkalemia in adults: Rapid overview of emergency management” e seção “Monitoring”."
+  },
+  {
+    title: "A prescrição do cálcio está pronta. Você assinaria?",
+    competency: "Identificar um erro de prescrição que envolve formulação, dose e acesso venoso",
+    stem: "Uma mulher de 74 anos, com doença renal crônica avançada, é atendida por hipercalemia de 7,1 mEq/L e alargamento do QRS.\n\nA equipe decide administrar cálcio intravenoso imediatamente.\n\nA paciente possui apenas acesso venoso periférico de bom calibre.\n\nUm residente prepara a seguinte prescrição:\n\n**PRESCRIÇÃO PROPOSTA**\n\nCloreto de cálcio 10% — 10 mL IV, em acesso periférico, em 3 minutos.\n\nVocê revisa a prescrição antes da administração.\n\n**Qual é a melhor orientação?**",
+    table: undefined,
+    stemAfter: undefined,
+    choices: {
+      A: "Manter a prescrição sem revisão, pois gluconato e cloreto de cálcio são intercambiáveis mililitro por mililitro.",
+      B: "Substituir o cloreto por gluconato, mantendo a mesma prescrição apenas como “cálcio 10%”, sem necessidade de especificar o sal.",
+      C: "Suspender toda administração de cálcio até obter acesso venoso central, mesmo que a paciente apresente deterioração elétrica.",
+      D: "Reavaliar a escolha da formulação e do acesso, preferindo gluconato de cálcio por acesso periférico adequado; especificar sal, concentração, dose, volume e tempo de administração, com monitorização cardíaca."
+    },
+    pearl: "Antes de assinar uma prescrição de cálcio, confira três coisas: qual sal, qual dose e por qual acesso. Uma ampola corretamente escolhida, mas administrada por uma via inadequada, pode causar dano.",
+    reference: "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Calcium”."
+  },
+  {
+    title: "Dez unidades de insulina. E a glicose?",
+    competency: "Reconhecer o risco de hipoglicemia e completar uma prescrição de insulina",
+    stem: "Uma mulher de 76 anos, com doença renal crônica avançada, é admitida na emergência com potássio de 6,9 mEq/L.\n\nApresenta ritmo sinusal, QRS de 94 ms e ausência de alterações eletrocardiográficas características de hipercalemia.\n\nA equipe indica tratamento emergencial para reduzir o potássio extracelular.\n\nOs exames mostram:",
+    table: {"caption":"Exames","headers":["Parâmetro","Resultado"],"rows":[["Potássio","6,9 mEq/L"],["Glicemia capilar","92 mg/dL"],["Creatinina","5,2 mg/dL"],["Peso","54 kg"]]},
+    stemAfter: "O residente registra a seguinte prescrição:\n\n**PRESCRIÇÃO PROPOSTA**\n\nInsulina regular — 10 unidades IV, agora.\n\nSem glicose associada.\n\nControle glicêmico apenas na manhã seguinte.\n\nO residente justifica:\n\n“Como estamos usando insulina para tratar o potássio, não precisamos nos preocupar com a glicemia. A dose é pequena.”\n\n**Qual é a correção mais adequada?**",
+    choices: {
+      A: "Associar glicose intravenosa à insulina conforme o protocolo de hipercalemia, avaliar a adequação do esquema à paciente e prescrever monitorização glicêmica seriada, considerando o risco aumentado de hipoglicemia na disfunção renal.",
+      B: "Manter a prescrição sem glicose, pois 10 unidades de insulina intravenosa não provocam hipoglicemia em pacientes sem diabetes.",
+      C: "Substituir a insulina por cálcio intravenoso, pois o cálcio promove redistribuição intracelular de potássio sem risco de hipoglicemia.",
+      D: "Administrar insulina sem glicose e realizar apenas uma glicemia capilar imediatamente após a aplicação, pois o risco de hipoglicemia termina quando a administração é concluída."
+    },
+    pearl: "Prescreveu insulina para hipercalemia? Prescreva também a estratégia de prevenção e vigilância da hipoglicemia. O tratamento não termina quando a seringa fica vazia.",
+    reference: "UpToDate — Treatment and prevention of hyperkalemia in adults, seções “Insulin with glucose” e “Monitoring”."
+  },
+  {
+    title: "O potássio caiu. Mas quem vai removê-lo?",
+    competency: "Identificar a ausência de uma estratégia de remoção efetiva do potássio",
+    stem: "Um homem de 58 anos, em hemodiálise regular por doença renal terminal, chega à emergência após faltar às duas últimas sessões.\n\nApresenta fraqueza, náuseas e redução do nível de atividade habitual.\n\nNa admissão:",
+    table: {"caption":"Exames","headers":["Parâmetro","Resultado"],"rows":[["Potássio","7,6 mEq/L"],["Glicemia","136 mg/dL"],["Frequência cardíaca","48 bpm"],["Pressão arterial","118/72 mmHg"],["Diurese habitual","Anúria"]]},
+    stemAfter: "O ECG apresenta ondas T apiculadas e QRS discretamente alargado.\n\nA equipe administra cálcio intravenoso e inicia insulina com glicose.\n\nApós aproximadamente uma hora, o potássio diminui para 6,1 mEq/L, e o ECG apresenta melhora.\n\nO residente propõe:\n\n“Conseguimos reduzir bastante o potássio. Vamos manter observação e repetir o exame amanhã. Não precisamos chamar a nefrologia agora.”\n\n**Qual é a principal falha desse plano?**",
+    choices: {
+      A: "A administração de cálcio foi desnecessária, pois pacientes em hemodiálise não apresentam toxicidade elétrica relacionada à hipercalemia.",
+      B: "A redução do potássio após insulina demonstra que houve eliminação renal suficiente, tornando desnecessária a diálise.",
+      C: "O plano não contempla a remoção efetiva do potássio. Em um paciente anúrico, dialítico e com hipercalemia grave, é necessário providenciar avaliação nefrológica urgente e organizar hemodiálise, mantendo monitorização e tratamento de ponte conforme a evolução.",
+      D: "A melhora do ECG confirma que o potássio corporal total foi normalizado, mesmo que a concentração sérica permaneça elevada."
+    },
+    pearl: "No paciente anúrico, insulina não substitui diálise. Ela reduz temporariamente o potássio sérico, mas não resolve o excesso corporal. Acione a nefrologia enquanto o tratamento de ponte está funcionando.",
+    reference: "UpToDate — Treatment and prevention of hyperkalemia in adults, seções “Remove potassium from the body” e “Monitoring”."
+  },
+  {
+    title: "A primeira prescrição funcionou parcialmente. O que falta fazer?",
+    competency: "Reavaliar a resposta ao tratamento e ajustar o plano sem confundir melhora transitória com resolução",
+    stem: "Uma mulher de 69 anos, com doença renal crônica avançada, chega à emergência com potássio de 7,2 mEq/L, frequência cardíaca de 46 bpm e QRS de 148 ms.\n\nA equipe administra gluconato de cálcio intravenoso, inicia insulina regular com glicose e mantém monitorização cardíaca.\n\nA avaliação nefrológica já foi solicitada.\n\nDez minutos após o cálcio, o QRS diminui para 106 ms e a frequência cardíaca aumenta para 68 bpm.\n\nUma hora depois:",
+    table: {"caption":"Exames","headers":["Parâmetro","Resultado"],"rows":[["Potássio","6,4 mEq/L"],["Glicemia","84 mg/dL"],["Frequência cardíaca","70 bpm"],["QRS","104 ms"]]},
+    stemAfter: "A paciente permanece consciente e hemodinamicamente estável.\n\nUm residente sugere encerrar a monitorização e suspender os controles glicêmicos porque houve melhora clínica e eletrocardiográfica.\n\n**Qual é a conduta mais adequada nesse momento?**",
+    choices: {
+      A: "Encerrar a monitorização cardíaca e liberar a paciente, pois a normalização do QRS demonstra que o risco relacionado à hipercalemia desapareceu.",
+      B: "Manter monitorização cardíaca e glicêmica, reavaliar seriadamente o potássio, acompanhar a estratégia de remoção efetiva e ajustar o tratamento conforme a evolução, pois a melhora inicial não garante resolução sustentada.",
+      C: "Administrar cálcio intravenoso repetidamente a cada dez minutos, independentemente do ECG, até que o potássio sérico esteja abaixo de 5,0 mEq/L.",
+      D: "Repetir imediatamente a mesma dose de insulina sem considerar a glicemia atual ou o risco de hipoglicemia, pois o potássio ainda está elevado."
+    },
+    pearl: "O primeiro potássio caiu e o ECG melhorou? Ótimo. Mas ainda não terminou. Acompanhe a glicemia, o potássio e a remoção efetiva. Na hipercalemia, a reavaliação faz parte da prescrição.",
+    reference: "UpToDate — Treatment and prevention of hyperkalemia in adults, seções “Monitoring”, “Calcium”, “Insulin with glucose” e “Remove potassium from the body”."
+  }
+];
+/* Aula 14: cinco questões, gabarito B-D-A-C-B, tabelas nas 01, 03, 04 e 05. */
+function conferirConteudo14(conteudo, aprovado) {
+  assert.equal(conteudo.questions.length, aprovado.length);
+  assert.equal(conteudo.questions.length, 5);
+  assert.deepEqual(conteudo.key, ['B', 'D', 'A', 'C', 'B']);
+  assert.deepEqual(Q.keyOf(conteudo), ['B', 'D', 'A', 'C', 'B']);
+  conteudo.questions.forEach((q, i) => {
+    assert.equal(q.number, i + 1);
+    assert.equal(q.title, aprovado[i].title);
+    assert.equal(q.competency, aprovado[i].competency);
+    assert.equal(q.stem, aprovado[i].stem);
+    assert.deepEqual(q.table, aprovado[i].table);
+    assert.equal(q.stemAfter, aprovado[i].stemAfter);
+    assert.deepEqual(q.choices, aprovado[i].choices);
+    assert.deepEqual(Object.keys(q.feedback), ['A', 'B', 'C', 'D']);
+    for (const letra of 'ABCD') assert.ok(q.feedback[letra].length > 60);
+    assert.ok(q.correctExplanation.length > 300);
+    assert.match(q.correctExplanation, /\n\s*\n/, 'a explicação deve ter múltiplos parágrafos');
+    assert.equal(q.pearl, aprovado[i].pearl);
+    assert.equal(q.reference, aprovado[i].reference);
+  });
+}
 function conferirConteudo(conteudo, aprovado, chave) {
   assert.equal(conteudo.questions.length, aprovado.length);
   assert.equal(conteudo.questions.length, 5);
@@ -1422,6 +1525,23 @@ test('Aula 13: cinco questões exatas, gabarito C-A-D-B-D e competências', () =
   assert.ok(AULA_13.closing.includes('Dez mililitros'));
   assert.equal(AULA_13.questions.filter((q) => q.reference).length, 5);
   assert.match(AULA_13.references, /UpToDate/);
+});
+
+/* Aula 14: cinco questões exatas, gabarito B-D-A-C-B, tabelas e competências. */
+test('Aula 14: cinco questões exatas, gabarito B-D-A-C-B e competências', () => {
+  assert.equal(AULA_14.slug, SLUG_14);
+  assert.equal(AULA_14.versao, 1);
+  assert.equal(AULA_14.title, 'Hipercalemia — Aula 14');
+  assert.equal(AULA_14.subtitle, 'Oficina de prescrição inicial');
+  conferirConteudo14(AULA_14, aprovado14);
+  assert.deepEqual(AULA_14.questions.map((q) => q.number), [1, 2, 3, 4, 5]);
+  assert.deepEqual(AULA_14.questions.map((q) => q.competency), aprovado14.map((q) => q.competency));
+  assert.deepEqual(AULA_14.questions.filter((q) => q.table).map((q) => q.number), [1, 3, 4, 5]);
+  assert.match(AULA_14.questions[0].correctExplanation, /Uma prescrição inicial adequada/);
+  assert.match(AULA_14.questions[4].correctExplanation, /O tratamento da hipercalemia exige/);
+  assert.ok(AULA_14.closing.includes('Uma prescrição inicial adequada'));
+  assert.equal(AULA_14.questions.filter((q) => q.reference).length, 5);
+  assert.match(AULA_14.references, /UpToDate/);
 });
 
 /* 5, 6, 9, 10 — feedback imediato, bloqueio, avanço e pontuação. */
@@ -1882,6 +2002,44 @@ test('engine: Aula 13 usa o próprio gabarito, expõe tabelas e aprova com 80%',
   assert.equal(Q.E.score(perfeito, Q.keyOf(AULA_13)), 5);
 });
 
+/* Aula 14: gabarito próprio, tabelas visíveis, aprovação em 80%. */
+test('engine: Aula 14 usa o próprio gabarito, expõe tabelas e aprova com 80%', () => {
+  let s = Q.E.fresh();
+  const inicial = Q.visible(s, AULA_14);
+  assert.equal(inicial.questions[0].competency, 'Organizar uma prescrição inicial segura, simultânea e priorizada');
+  assert.ok(inicial.questions[0].table);
+  assert.ok(inicial.questions[0].stemAfter);
+  assert.equal(inicial.questions[1].table, undefined);
+  assert.ok(inicial.questions.every((q) => !q.feedback && !q.correctChoice && !q.correctExplanation && !q.pearl && !q.reference));
+  assert.equal(inicial.closing, undefined);
+
+  s = Q.transition(s, 'answer', { choice: 'A' }, AULA_14);
+  const depois = Q.visible(s, AULA_14);
+  assert.equal(depois.questions[0].correctChoice, 'B');
+  assert.ok(depois.questions[0].table, 'a tabela continua visível após responder');
+  assert.equal(Q.publicState(s, AULA_14).answers[0].correct, false);
+  assert.throws(() => Q.transition(s, 'answer', { choice: 'B' }, AULA_14), /Seleção indisponível/);
+  s = Q.transition(s, 'next', {}, AULA_14);
+
+  for (let i = 1; i < 5; i++) {
+    s = Q.transition(s, 'answer', { choice: Q.keyOf(AULA_14)[i] }, AULA_14);
+    s = Q.transition(s, 'next', {}, AULA_14);
+  }
+  assert.ok(s.finishedAt);
+  assert.equal(Q.E.score(s, Q.keyOf(AULA_14)), 4);
+  assert.equal(Q.publicState(s, AULA_14).score, 4);
+  assert.ok(Q.visible(s, AULA_14).closing);
+  assert.equal(Q.visible(s, AULA_14).questions[4].correctChoice, 'B');
+  assert.throws(() => Q.transition(s, 'answer', { choice: 'C' }, AULA_14), /já foi concluída/);
+
+  let perfeito = Q.E.fresh();
+  for (let i = 0; i < 5; i++) {
+    perfeito = Q.transition(perfeito, 'answer', { choice: Q.keyOf(AULA_14)[i] }, AULA_14);
+    perfeito = Q.transition(perfeito, 'next', {}, AULA_14);
+  }
+  assert.equal(Q.E.score(perfeito, Q.keyOf(AULA_14)), 5);
+});
+
 /* 11, 12, 13, 15 — domínio do caderno: identificação, indicadores, agrupamento e revisão. */
 test('caderno: identificação estável, indicadores, agrupamento e revisão sem gabarito antecipado', () => {
   assert.equal(N.questaoId(SLUG_02, 3), 'hipercalemia-aula-02-v1#3');
@@ -2143,6 +2301,30 @@ test('caderno: revisão da Aula 13 preserva tabela, competência e stemAfter sem
   assert.equal(resultado.pearl, AULA_13.questions[0].pearl);
 });
 
+/* Aula 14 no caderno: revisão preserva tabela, competência e stemAfter sem vazar o gabarito. */
+test('caderno: revisão da Aula 14 preserva tabela, competência e stemAfter sem gabarito', () => {
+  const row = {
+    id: 'cad-14', questao_id: SLUG_14 + '#1', slug: SLUG_14, numero: 1, aula_id: AULA,
+    estado: 'precisa_revisar', erros: 1, revisoes: 0, acertos_seguidos: 0,
+    ultima_escolha: 'A', ultimo_erro_em: '2026-11-12T12:00:00.000Z', atualizado_em: '2026-11-12T12:00:00.000Z',
+    aulas: { titulo: 'Oficina de prescrição inicial', ordem: 4, modulos: { titulo: 'Módulo 4', ordem: 4, curso_id: CURSO_HIPER, cursos: { id: CURSO_HIPER, titulo: 'Tratamento da Hipercalemia em Adultos' } } }
+  };
+  const revisao = N.revisaoView(row, AULA_14);
+  assert.equal(revisao.competency, AULA_14.questions[0].competency);
+  assert.deepEqual(revisao.table, AULA_14.questions[0].table);
+  assert.equal(revisao.stemAfter, AULA_14.questions[0].stemAfter);
+  assert.equal(revisao.correctChoice, undefined);
+  assert.equal(revisao.feedback, undefined);
+  assert.equal(revisao.correctExplanation, undefined);
+  assert.equal(revisao.pearl, undefined);
+
+  const resultado = N.resultadoRevisao(row, AULA_14, 'A');
+  assert.equal(resultado.correctChoice, 'B');
+  assert.equal(resultado.correta, false);
+  assert.match(resultado.correctExplanation, /\n\s*\n/);
+  assert.equal(resultado.pearl, AULA_14.questions[0].pearl);
+});
+
 /* ------------------------------------------------------------------ API */
 function montarRota({ aulaAtividade = null, semAtividade = false, slug = SLUG_01, cadernoInicial = [], ...overrides } = {}) {
   const logs = [];
@@ -2152,10 +2334,10 @@ function montarRota({ aulaAtividade = null, semAtividade = false, slug = SLUG_01
   const curso = 'cccccccc-cccc-4ccc-8ccc-cccccccccccc';
   const modulo = 'dddddddd-dddd-4ddd-8ddd-dddddddddddd';
   const aulaEmbed = (r) => ({
-    titulo: slug === SLUG_13 ? 'Gluconato ou cloreto de cálcio?' : slug === SLUG_12 ? 'Cálcio intravenoso: indicação, objetivo e avaliação da resposta' : slug === SLUG_11 ? 'O plano inicial: proteger, redistribuir, remover e monitorar' : slug === SLUG_10 ? 'Quem precisa de tratamento imediato?' : slug === SLUG_09 ? 'ECG na hipercalemia: o que procurar e quais são suas limitações' : slug === SLUG_08 ? 'Manifestações clínicas e sinais de alarme' : slug === SLUG_07 ? 'Medicamentos e fontes de potássio que passam despercebidos' : slug === SLUG_06 ? 'Quando o rim não consegue eliminar potássio' : slug === SLUG_05 ? 'Redistribuição e liberação celular de potássio' : slug === SLUG_04 ? 'Pseudohipercalemia — quando desconfiar e como confirmar' : slug === SLUG_03 ? 'Potássio sérico não é estoque corporal' : slug === SLUG_02 ? 'A fisiologia do potássio que muda a conduta' : 'Aula 01',
-    ordem: slug === SLUG_13 ? 3 : slug === SLUG_12 ? 2 : slug === SLUG_11 ? 1 : slug === SLUG_10 ? 3 : slug === SLUG_09 ? 2 : slug === SLUG_08 ? 1 : slug === SLUG_07 ? 4 : slug === SLUG_06 ? 3 : slug === SLUG_05 ? 2 : slug === SLUG_04 ? 1 : slug === SLUG_03 ? 3 : slug === SLUG_02 ? 2 : 1,
-    modulos: (slug === SLUG_04 || slug === SLUG_05 || slug === SLUG_06 || slug === SLUG_07 || slug === SLUG_08 || slug === SLUG_09 || slug === SLUG_10 || slug === SLUG_11 || slug === SLUG_12 || slug === SLUG_13)
-      ? { titulo: (slug === SLUG_08 || slug === SLUG_09 || slug === SLUG_10) ? 'Reconhecer o risco antes da deterioração' : (slug === SLUG_11 || slug === SLUG_12 || slug === SLUG_13) ? 'Os primeiros minutos: organizar e proteger' : 'Esse resultado é verdadeiro? Por que o potássio subiu?', ordem: (slug === SLUG_08 || slug === SLUG_09 || slug === SLUG_10) ? 3 : (slug === SLUG_11 || slug === SLUG_12 || slug === SLUG_13) ? 4 : 2, curso_id: curso, cursos: { id: curso, titulo: 'Tratamento da Hipercalemia em Adultos' } }
+    titulo: slug === SLUG_14 ? 'Oficina de prescrição inicial' : slug === SLUG_13 ? 'Gluconato ou cloreto de cálcio?' : slug === SLUG_12 ? 'Cálcio intravenoso: indicação, objetivo e avaliação da resposta' : slug === SLUG_11 ? 'O plano inicial: proteger, redistribuir, remover e monitorar' : slug === SLUG_10 ? 'Quem precisa de tratamento imediato?' : slug === SLUG_09 ? 'ECG na hipercalemia: o que procurar e quais são suas limitações' : slug === SLUG_08 ? 'Manifestações clínicas e sinais de alarme' : slug === SLUG_07 ? 'Medicamentos e fontes de potássio que passam despercebidos' : slug === SLUG_06 ? 'Quando o rim não consegue eliminar potássio' : slug === SLUG_05 ? 'Redistribuição e liberação celular de potássio' : slug === SLUG_04 ? 'Pseudohipercalemia — quando desconfiar e como confirmar' : slug === SLUG_03 ? 'Potássio sérico não é estoque corporal' : slug === SLUG_02 ? 'A fisiologia do potássio que muda a conduta' : 'Aula 01',
+    ordem: slug === SLUG_14 ? 4 : slug === SLUG_13 ? 3 : slug === SLUG_12 ? 2 : slug === SLUG_11 ? 1 : slug === SLUG_10 ? 3 : slug === SLUG_09 ? 2 : slug === SLUG_08 ? 1 : slug === SLUG_07 ? 4 : slug === SLUG_06 ? 3 : slug === SLUG_05 ? 2 : slug === SLUG_04 ? 1 : slug === SLUG_03 ? 3 : slug === SLUG_02 ? 2 : 1,
+    modulos: (slug === SLUG_04 || slug === SLUG_05 || slug === SLUG_06 || slug === SLUG_07 || slug === SLUG_08 || slug === SLUG_09 || slug === SLUG_10 || slug === SLUG_11 || slug === SLUG_12 || slug === SLUG_13 || slug === SLUG_14)
+      ? { titulo: (slug === SLUG_08 || slug === SLUG_09 || slug === SLUG_10) ? 'Reconhecer o risco antes da deterioração' : (slug === SLUG_11 || slug === SLUG_12 || slug === SLUG_13 || slug === SLUG_14) ? 'Os primeiros minutos: organizar e proteger' : 'Esse resultado é verdadeiro? Por que o potássio subiu?', ordem: (slug === SLUG_08 || slug === SLUG_09 || slug === SLUG_10) ? 3 : (slug === SLUG_11 || slug === SLUG_12 || slug === SLUG_13 || slug === SLUG_14) ? 4 : 2, curso_id: curso, cursos: { id: curso, titulo: 'Tratamento da Hipercalemia em Adultos' } }
       : { titulo: 'Módulo 1', ordem: 1, curso_id: curso, cursos: { id: curso, titulo: 'Tratamento da Hipercalemia em Adultos' } }
   });
 
@@ -2170,7 +2352,7 @@ function montarRota({ aulaAtividade = null, semAtividade = false, slug = SLUG_01
         return { ok: true, dados: [{ id: AULA, titulo: aulaEmbed().titulo, atividade: aulaAtividade, modulo_id: modulo, modulos: { curso_id: curso, titulo: 'Módulo 1' } }] };
       }
       if (url.startsWith('/agoraquest_atividades?')) {
-        return { ok: true, dados: semAtividade ? [] : [{ slug, versao_conteudo: 1, titulo: slug === SLUG_13 ? 'Hipercalemia — Aula 13' : slug === SLUG_12 ? 'Hipercalemia — Aula 12' : slug === SLUG_11 ? 'Hipercalemia — Aula 11' : slug === SLUG_10 ? 'Hipercalemia — Aula 10' : slug === SLUG_09 ? 'Hipercalemia — Aula 09' : slug === SLUG_08 ? 'Hipercalemia — Aula 08' : slug === SLUG_07 ? 'Hipercalemia — Aula 07' : slug === SLUG_06 ? 'Hipercalemia — Aula 06' : slug === SLUG_05 ? 'Hipercalemia — Aula 05' : slug === SLUG_04 ? 'Hipercalemia — Aula 04' : slug === SLUG_03 ? 'Hipercalemia — Aula 03' : slug === SLUG_02 ? 'Hipercalemia — Aula 02' : 'Hipercalemia — Aula 01' }] };
+        return { ok: true, dados: semAtividade ? [] : [{ slug, versao_conteudo: 1, titulo: slug === SLUG_14 ? 'Hipercalemia — Aula 14' : slug === SLUG_13 ? 'Hipercalemia — Aula 13' : slug === SLUG_12 ? 'Hipercalemia — Aula 12' : slug === SLUG_11 ? 'Hipercalemia — Aula 11' : slug === SLUG_10 ? 'Hipercalemia — Aula 10' : slug === SLUG_09 ? 'Hipercalemia — Aula 09' : slug === SLUG_08 ? 'Hipercalemia — Aula 08' : slug === SLUG_07 ? 'Hipercalemia — Aula 07' : slug === SLUG_06 ? 'Hipercalemia — Aula 06' : slug === SLUG_05 ? 'Hipercalemia — Aula 05' : slug === SLUG_04 ? 'Hipercalemia — Aula 04' : slug === SLUG_03 ? 'Hipercalemia — Aula 03' : slug === SLUG_02 ? 'Hipercalemia — Aula 02' : 'Hipercalemia — Aula 01' }] };
       }
       if (url.startsWith('/cursos?')) return { ok: true, dados: [{ titulo: 'Tratamento da Hipercalemia em Adultos' }] };
       if (url.startsWith('/modulos?')) {
@@ -2345,7 +2527,7 @@ test('API da prática: sessão, acesso, identificadores e isolamento por aluno',
 
 /* 6, 9, 11, 12, 14 — fluxo completo e alimentação idempotente do caderno. */
 test('API da prática: Aulas 01 a 06 publicam o conteúdo certo sem vazar o gabarito', async () => {
-  for (const [slug, conteudo, chave] of [[SLUG_01, AULA_01, ['B', 'C', 'B', 'D', 'C']], [SLUG_02, AULA_02, ['B', 'C', 'B', 'D', 'C']], [SLUG_03, AULA_03, ['B', 'D', 'C', 'A', 'C']], [SLUG_04, AULA_04, ['B', 'D', 'A', 'C', 'D']], [SLUG_05, AULA_05, ['B', 'C', 'D', 'A', 'D']], [SLUG_06, AULA_06, ['B', 'C', 'D', 'B', 'D']], [SLUG_07, AULA_07, ['A', 'C', 'C', 'D', 'B']], [SLUG_08, AULA_08, ['C', 'D', 'B', 'D', 'C']], [SLUG_09, AULA_09, ['B', 'D', 'A', 'C', 'B']], [SLUG_10, AULA_10, ['B', 'D', 'A', 'C', 'B']], [SLUG_11, AULA_11, ['C', 'A', 'D', 'B', 'C']], [SLUG_12, AULA_12, ['C', 'A', 'D', 'B', 'C']], [SLUG_13, AULA_13, ['C', 'A', 'D', 'B', 'D']]]) {
+  for (const [slug, conteudo, chave] of [[SLUG_01, AULA_01, ['B', 'C', 'B', 'D', 'C']], [SLUG_02, AULA_02, ['B', 'C', 'B', 'D', 'C']], [SLUG_03, AULA_03, ['B', 'D', 'C', 'A', 'C']], [SLUG_04, AULA_04, ['B', 'D', 'A', 'C', 'D']], [SLUG_05, AULA_05, ['B', 'C', 'D', 'A', 'D']], [SLUG_06, AULA_06, ['B', 'C', 'D', 'B', 'D']], [SLUG_07, AULA_07, ['A', 'C', 'C', 'D', 'B']], [SLUG_08, AULA_08, ['C', 'D', 'B', 'D', 'C']], [SLUG_09, AULA_09, ['B', 'D', 'A', 'C', 'B']], [SLUG_10, AULA_10, ['B', 'D', 'A', 'C', 'B']], [SLUG_11, AULA_11, ['C', 'A', 'D', 'B', 'C']], [SLUG_12, AULA_12, ['C', 'A', 'D', 'B', 'C']], [SLUG_13, AULA_13, ['C', 'A', 'D', 'B', 'D']], [SLUG_14, AULA_14, ['B', 'D', 'A', 'C', 'B']]]) {
     const h = montarRota({ slug });
     const r = await h.call();
     assert.equal(r.status, 200);

@@ -1,0 +1,163 @@
+{
+  "slug": "hipercalemia-aula-14-v1",
+  "versao": 1,
+  "title": "Hipercalemia — Aula 14",
+  "subtitle": "Oficina de prescrição inicial",
+  "intro": "Cinco casos integradores sobre a prescrição inicial da emergência hipercalêmica: organização simultânea das intervenções, erro de formulação e acesso venoso, risco de hipoglicemia com insulina, ausência de estratégia de remoção efetiva e reavaliação após melhora parcial. Em cada um, a pergunta central é a mesma — a prescrição inicial está completa, segura e coerente com a evolução do paciente? Responda uma questão por vez: ao confirmar, a alternativa fica bloqueada e o comentário aparece imediatamente, com a análise das quatro alternativas, a pérola do plantão e a fundamentação. Você pode refazer a prática quantas vezes quiser; o histórico e o caderno de erros ficam salvos na sua conta.",
+  "closing": "Uma prescrição inicial adequada não é uma lista de medicamentos isolados: é um plano coordenado de proteção, redistribuição, remoção e monitorização. Prescrever corretamente exige identificar o sal, a dose, o volume e a via. A hipoglicemia é previsível quando se usa insulina; sua prevenção começa na prescrição. No paciente anúrico, insulina não substitui diálise. A reavaliação faz parte da prescrição: a primeira dose inicia o tratamento, a resposta determina sua continuidade.",
+  "references": "UpToDate. Hyperkalemia in adults. https://www.uptodate.com/contents/hyperkalemia-in-adults",
+  "key": ["B", "D", "A", "C", "B"],
+  "questions": [
+    {
+      "number": 1,
+      "title": "Potássio 7,4. Você tem dois minutos para organizar a conduta.",
+      "competency": "Organizar uma prescrição inicial segura, simultânea e priorizada",
+      "stem": "Um homem de 67 anos, com doença renal crônica avançada, chega à emergência apresentando fraqueza, tontura e redução importante da diurese.\n\nNa avaliação inicial:",
+      "table": {
+        "caption": "Exames",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Potássio", "7,4 mEq/L"],
+          ["Creatinina", "5,8 mg/dL"],
+          ["Glicemia", "112 mg/dL"],
+          ["Frequência cardíaca", "42 bpm"],
+          ["Pressão arterial", "94/58 mmHg"]
+        ]
+      },
+      "stemAfter": "O ECG apresenta ondas P pouco evidentes e QRS de 156 ms.\n\nO paciente possui acesso venoso periférico adequado e está consciente.\n\nVocê precisa organizar as primeiras prescrições.\n\n**Qual conjunto de condutas é mais apropriado?**",
+      "choices": {
+        "A": "Prescrever apenas insulina regular intravenosa, aguardar 60 minutos e decidir sobre cálcio e monitorização após conhecer o novo potássio.",
+        "B": "Iniciar monitorização cardíaca contínua, administrar gluconato de cálcio intravenoso pela via adequada, prescrever insulina regular com glicose conforme o protocolo, estabelecer vigilância glicêmica e laboratorial e providenciar precocemente avaliação para remoção efetiva do potássio.",
+        "C": "Prescrever exclusivamente um quelante gastrointestinal de potássio e solicitar novo ECG após quatro horas, evitando intervenções intravenosas.",
+        "D": "Administrar cálcio intravenoso e encerrar a prescrição após a melhora do QRS, pois a estabilização elétrica confirma a resolução da hipercalemia."
+      },
+      "feedback": {
+        "A": "A insulina é importante para redistribuir potássio, mas não substitui o cálcio diante de toxicidade elétrica. Além disso, a ausência de glicose e de monitorização torna a proposta insegura.",
+        "B": "Integra as principais prioridades da emergência hipercalêmica e considera os riscos relacionados à função renal, à hipoglicemia e à recorrência da hipercalemia.",
+        "C": "Um quelante não substitui as medidas imediatamente necessárias diante de bradicardia, hipotensão e QRS alargado. A ausência de monitorização também é inadequada.",
+        "D": "O cálcio não reduz diretamente o potássio. A melhora do QRS não significa resolução da hipercalemia nem dispensa as outras intervenções."
+      },
+      "correctExplanation": "Este paciente apresenta uma emergência hipercalêmica, com concentração sérica de potássio de 7,4 mEq/L e alterações importantes da condução cardíaca.\n\nA bradicardia, a hipotensão e o alargamento do QRS tornam a situação especialmente preocupante.\n\nA prescrição deve responder a problemas diferentes, que precisam ser abordados em paralelo.\n\n**1. Proteger o coração.**\n\nO QRS alargado e as alterações das ondas P indicam toxicidade elétrica compatível com hipercalemia.\n\nO cálcio intravenoso antagoniza temporariamente os efeitos do potássio elevado sobre a excitabilidade cardíaca.\n\nComo o paciente possui acesso periférico adequado, o gluconato de cálcio é uma escolha apropriada.\n\nA administração deve ocorrer sob monitorização cardíaca, com reavaliação do ECG e da condição clínica.\n\n**2. Reduzir rapidamente o potássio extracelular.**\n\nA insulina regular intravenosa favorece a entrada de potássio nas células.\n\nComo a glicemia inicial é de 112 mg/dL, a administração de glicose é necessária para reduzir o risco de hipoglicemia.\n\nA escolha da dose e do esquema deve seguir o protocolo adotado, considerando a função renal e o risco de hipoglicemia.\n\n**3. Planejar a remoção efetiva do potássio.**\n\nA insulina não elimina potássio do organismo.\n\nEla apenas modifica sua distribuição entre os compartimentos intra e extracelular.\n\nNeste paciente, a disfunção renal avançada e a redução importante da diurese sugerem capacidade limitada de eliminação renal.\n\nPortanto, é necessário avaliar precocemente a necessidade de hemodiálise e outras estratégias de remoção.\n\n**4. Monitorar a resposta e os efeitos adversos.**\n\nO paciente precisa de monitorização cardíaca contínua e ECGs seriados.\n\nO potássio deve ser reavaliado em aproximadamente uma a duas horas após o início do tratamento.\n\nApós insulina, a glicemia precisa ser acompanhada periodicamente, com vigilância prolongada para hipoglicemia.\n\n**5. Tratar as causas e evitar recorrência.**\n\nA equipe também deve revisar medicamentos, função renal, volemia e possíveis fatores precipitantes.\n\n**Uma prescrição inicial adequada não é uma lista de medicamentos isolados. É um plano coordenado de proteção, redistribuição, remoção e monitorização.**",
+      "pearl": "Na hipercalemia grave, não prescreva uma medida e espere para pensar na próxima. Proteção cardíaca, redistribuição, remoção e monitorização precisam fazer parte do mesmo plano inicial.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, tabela “Hyperkalemia in adults: Rapid overview of emergency management” e seção “Monitoring”."
+    },
+    {
+      "number": 2,
+      "title": "A prescrição do cálcio está pronta. Você assinaria?",
+      "competency": "Identificar um erro de prescrição que envolve formulação, dose e acesso venoso",
+      "stem": "Uma mulher de 74 anos, com doença renal crônica avançada, é atendida por hipercalemia de 7,1 mEq/L e alargamento do QRS.\n\nA equipe decide administrar cálcio intravenoso imediatamente.\n\nA paciente possui apenas acesso venoso periférico de bom calibre.\n\nUm residente prepara a seguinte prescrição:\n\n**PRESCRIÇÃO PROPOSTA**\n\nCloreto de cálcio 10% — 10 mL IV, em acesso periférico, em 3 minutos.\n\nVocê revisa a prescrição antes da administração.\n\n**Qual é a melhor orientação?**",
+      "choices": {
+        "A": "Manter a prescrição sem revisão, pois gluconato e cloreto de cálcio são intercambiáveis mililitro por mililitro.",
+        "B": "Substituir o cloreto por gluconato, mantendo a mesma prescrição apenas como “cálcio 10%”, sem necessidade de especificar o sal.",
+        "C": "Suspender toda administração de cálcio até obter acesso venoso central, mesmo que a paciente apresente deterioração elétrica.",
+        "D": "Reavaliar a escolha da formulação e do acesso, preferindo gluconato de cálcio por acesso periférico adequado; especificar sal, concentração, dose, volume e tempo de administração, com monitorização cardíaca."
+      },
+      "feedback": {
+        "A": "As apresentações não são equivalentes em cálcio elementar. Além disso, a segurança do acesso deve ser considerada.",
+        "B": "Substituir o medicamento sem especificar corretamente o sal mantém uma prescrição ambígua e insegura.",
+        "C": "A obtenção de acesso central não é obrigatória para administração de gluconato de cálcio por acesso periférico adequado. A estabilização cardíaca não deve ser adiada desnecessariamente.",
+        "D": "Reconhece a necessidade de revisar a formulação e o acesso, além de exigir uma prescrição completa e monitorização apropriada."
+      },
+      "correctExplanation": "A prescrição contém uma escolha que exige revisão de segurança: **cloreto de cálcio concentrado administrado por acesso periférico**, apesar da disponibilidade de uma alternativa geralmente preferida para essa via.\n\nO cloreto de cálcio não é contraindicado de maneira absoluta em todas as situações de acesso periférico, mas apresenta maior potencial de irritação vascular e lesão tecidual por extravasamento.\n\n**1. O sal de cálcio importa.**\n\nDez mililitros de gluconato de cálcio a 10% fornecem aproximadamente 4,6 mEq de cálcio elementar.\n\nDez mililitros de cloreto de cálcio a 10% fornecem aproximadamente 13,6 mEq.\n\nPortanto, não se trata de apresentações equivalentes.\n\n**2. O acesso venoso importa.**\n\nO cloreto de cálcio é mais irritante e pode provocar lesões importantes quando ocorre extravasamento.\n\nPor isso, sua administração é preferencialmente realizada por acesso venoso central ou profundo.\n\nO gluconato de cálcio é geralmente preferido quando existe apenas acesso periférico adequado.\n\n**3. A prescrição precisa ser inequívoca.**\n\nO médico deve identificar o sal utilizado, a concentração, a dose, o volume e o tempo de administração.\n\nUma ordem incompleta aumenta o risco de erro durante a dispensação e o preparo.\n\n**4. A urgência não deve ser esquecida.**\n\nA paciente apresenta alterações elétricas relacionadas à hipercalemia.\n\nPortanto, a revisão da prescrição deve ser rápida e orientada para viabilizar a administração segura, sem atraso desnecessário.\n\n**5. A monitorização continua indispensável.**\n\nA paciente precisa de acompanhamento cardíaco durante a administração e reavaliação da resposta.\n\n**A prescrição mais segura é aquela que considera simultaneamente o medicamento, a dose, a via, o acesso e a urgência clínica.**",
+      "pearl": "Antes de assinar uma prescrição de cálcio, confira três coisas: qual sal, qual dose e por qual acesso. Uma ampola corretamente escolhida, mas administrada por uma via inadequada, pode causar dano.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Calcium”."
+    },
+    {
+      "number": 3,
+      "title": "Dez unidades de insulina. E a glicose?",
+      "competency": "Reconhecer o risco de hipoglicemia e completar uma prescrição de insulina",
+      "stem": "Uma mulher de 76 anos, com doença renal crônica avançada, é admitida na emergência com potássio de 6,9 mEq/L.\n\nApresenta ritmo sinusal, QRS de 94 ms e ausência de alterações eletrocardiográficas características de hipercalemia.\n\nA equipe indica tratamento emergencial para reduzir o potássio extracelular.\n\nOs exames mostram:",
+      "table": {
+        "caption": "Exames",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Potássio", "6,9 mEq/L"],
+          ["Glicemia capilar", "92 mg/dL"],
+          ["Creatinina", "5,2 mg/dL"],
+          ["Peso", "54 kg"]
+        ]
+      },
+      "stemAfter": "O residente registra a seguinte prescrição:\n\n**PRESCRIÇÃO PROPOSTA**\n\nInsulina regular — 10 unidades IV, agora.\n\nSem glicose associada.\n\nControle glicêmico apenas na manhã seguinte.\n\nO residente justifica:\n\n“Como estamos usando insulina para tratar o potássio, não precisamos nos preocupar com a glicemia. A dose é pequena.”\n\n**Qual é a correção mais adequada?**",
+      "choices": {
+        "A": "Associar glicose intravenosa à insulina conforme o protocolo de hipercalemia, avaliar a adequação do esquema à paciente e prescrever monitorização glicêmica seriada, considerando o risco aumentado de hipoglicemia na disfunção renal.",
+        "B": "Manter a prescrição sem glicose, pois 10 unidades de insulina intravenosa não provocam hipoglicemia em pacientes sem diabetes.",
+        "C": "Substituir a insulina por cálcio intravenoso, pois o cálcio promove redistribuição intracelular de potássio sem risco de hipoglicemia.",
+        "D": "Administrar insulina sem glicose e realizar apenas uma glicemia capilar imediatamente após a aplicação, pois o risco de hipoglicemia termina quando a administração é concluída."
+      },
+      "feedback": {
+        "A": "Reconhece a necessidade de associar glicose, avaliar o esquema de insulina conforme as características da paciente e manter vigilância glicêmica seriada.",
+        "B": "A insulina pode provocar hipoglicemia mesmo em pacientes sem diabetes. A indicação de tratar a hipercalemia não elimina esse risco.",
+        "C": "O cálcio não promove redistribuição significativa de potássio para o meio intracelular. Seu objetivo é antagonizar temporariamente a toxicidade elétrica.",
+        "D": "A hipoglicemia pode ocorrer horas após a administração. Uma única glicemia imediatamente após a dose não oferece monitorização suficiente."
+      },
+      "correctExplanation": "A prescrição apresentada contém dois problemas importantes: **ausência de glicose associada à insulina em uma paciente com glicemia normal e ausência de monitorização glicêmica adequada**.\n\nO fato de a insulina estar sendo utilizada para tratar a hipercalemia não modifica seus efeitos sobre o metabolismo da glicose.\n\n**1. Por que a insulina reduz o potássio?**\n\nA insulina estimula a atividade da Na⁺/K⁺-ATPase, favorecendo o deslocamento de potássio do compartimento extracelular para o intracelular.\n\nEssa ação pode reduzir rapidamente o potássio sérico, mesmo sem eliminar potássio do organismo.\n\nEntretanto, a insulina também promove redução da glicemia.\n\n**2. Por que associar glicose?**\n\nA paciente apresenta glicemia de 92 mg/dL.\n\nAdministrar insulina intravenosa sem glicose aumenta o risco de hipoglicemia.\n\nO UpToDate descreve esquemas que utilizam insulina regular intravenosa associada à glicose. Também admite omitir a glicose inicial em situações de hiperglicemia importante, como glicemia superior a 250 mg/dL, com monitorização.\n\nEssa exceção não se aplica ao caso.\n\n**3. A disfunção renal aumenta a preocupação.**\n\nPacientes com comprometimento renal avançado podem apresentar maior risco de hipoglicemia após insulina, inclusive por alterações em sua depuração.\n\nA idade avançada, a glicemia inicial relativamente baixa e o menor peso corporal reforçam a necessidade de atenção.\n\nPor isso, além de associar glicose, a equipe deve avaliar a adequação da dose de insulina conforme o protocolo adotado.\n\n**4. Uma glicemia normal imediatamente após a administração não exclui hipoglicemia posterior.**\n\nA ação da insulina pode persistir após a avaliação inicial.\n\nPortanto, uma única glicemia imediatamente após a aplicação é insuficiente.\n\nO UpToDate recomenda monitorização glicêmica aproximadamente a cada hora por até seis horas após a administração de insulina para hipercalemia.\n\n**5. A prescrição deve conter também o plano de segurança.**\n\nNão basta escrever o nome do medicamento e a dose.\n\nUma prescrição segura precisa prever como identificar e manejar seus principais efeitos adversos.\n\n**A hipoglicemia é uma complicação previsível do tratamento da hipercalemia. Portanto, sua prevenção deve começar no momento da prescrição.**",
+      "pearl": "Prescreveu insulina para hipercalemia? Prescreva também a estratégia de prevenção e vigilância da hipoglicemia. O tratamento não termina quando a seringa fica vazia.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seções “Insulin with glucose” e “Monitoring”."
+    },
+    {
+      "number": 4,
+      "title": "O potássio caiu. Mas quem vai removê-lo?",
+      "competency": "Identificar a ausência de uma estratégia de remoção efetiva do potássio",
+      "stem": "Um homem de 58 anos, em hemodiálise regular por doença renal terminal, chega à emergência após faltar às duas últimas sessões.\n\nApresenta fraqueza, náuseas e redução do nível de atividade habitual.\n\nNa admissão:",
+      "table": {
+        "caption": "Exames",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Potássio", "7,6 mEq/L"],
+          ["Glicemia", "136 mg/dL"],
+          ["Frequência cardíaca", "48 bpm"],
+          ["Pressão arterial", "118/72 mmHg"],
+          ["Diurese habitual", "Anúria"]
+        ]
+      },
+      "stemAfter": "O ECG apresenta ondas T apiculadas e QRS discretamente alargado.\n\nA equipe administra cálcio intravenoso e inicia insulina com glicose.\n\nApós aproximadamente uma hora, o potássio diminui para 6,1 mEq/L, e o ECG apresenta melhora.\n\nO residente propõe:\n\n“Conseguimos reduzir bastante o potássio. Vamos manter observação e repetir o exame amanhã. Não precisamos chamar a nefrologia agora.”\n\n**Qual é a principal falha desse plano?**",
+      "choices": {
+        "A": "A administração de cálcio foi desnecessária, pois pacientes em hemodiálise não apresentam toxicidade elétrica relacionada à hipercalemia.",
+        "B": "A redução do potássio após insulina demonstra que houve eliminação renal suficiente, tornando desnecessária a diálise.",
+        "C": "O plano não contempla a remoção efetiva do potássio. Em um paciente anúrico, dialítico e com hipercalemia grave, é necessário providenciar avaliação nefrológica urgente e organizar hemodiálise, mantendo monitorização e tratamento de ponte conforme a evolução.",
+        "D": "A melhora do ECG confirma que o potássio corporal total foi normalizado, mesmo que a concentração sérica permaneça elevada."
+      },
+      "feedback": {
+        "A": "Pacientes dialíticos podem apresentar toxicidade elétrica grave pela hipercalemia. A presença de alterações eletrocardiográficas justifica estabilização cardíaca.",
+        "B": "A redução após insulina resulta principalmente de redistribuição intracelular, não de eliminação renal. O paciente é anúrico.",
+        "C": "Identifica a ausência de uma estratégia de remoção efetiva e reconhece a necessidade de avaliação nefrológica urgente e organização de hemodiálise.",
+        "D": "A melhora do ECG não demonstra normalização do estoque corporal de potássio nem elimina o risco de recorrência."
+      },
+      "correctExplanation": "Esta questão ensina uma distinção essencial para a prescrição inicial: **reduzir a concentração sérica de potássio não significa necessariamente remover potássio do organismo**.\n\nO paciente apresenta doença renal terminal, anúria e ausência de duas sessões de hemodiálise.\n\nEssas informações modificam profundamente a estratégia terapêutica.\n\n**1. O que a insulina fez?**\n\nA insulina favoreceu o deslocamento de potássio do meio extracelular para o intracelular.\n\nIsso explica a redução de 7,6 para 6,1 mEq/L.\n\nEntretanto, essa intervenção não removeu uma quantidade significativa de potássio do organismo.\n\nO potássio foi redistribuído.\n\n**2. Por que a anúria é tão importante?**\n\nEm condições habituais, os rins participam de maneira fundamental da eliminação do potássio.\n\nNeste paciente, a ausência de diurese significa que a eliminação renal está praticamente ausente.\n\nPortanto, não é razoável esperar que o organismo elimine espontaneamente o excesso de potássio pela urina.\n\n**3. Qual é o papel da hemodiálise?**\n\nA hemodiálise permite remover potássio efetivamente do organismo.\n\nEm um paciente dialítico, anúrico e com hipercalemia grave, sua organização deve ocorrer precocemente.\n\nAs medidas iniciais com cálcio e insulina são importantes, mas funcionam como proteção e tratamento temporário enquanto a remoção efetiva é providenciada.\n\n**4. Por que não esperar até amanhã?**\n\nA redução inicial do potássio pode ser transitória.\n\nÀ medida que o efeito da insulina diminui, parte do potássio pode retornar ao compartimento extracelular.\n\nIsso pode provocar nova elevação sérica e recorrência da toxicidade elétrica.\n\n**5. A melhora do ECG não significa resolução definitiva.**\n\nO cálcio pode melhorar a condução elétrica sem reduzir o potássio.\n\nA insulina pode reduzir o potássio sérico sem eliminá-lo.\n\nPortanto, a melhora inicial deve ser interpretada dentro do contexto clínico.\n\n**O tratamento inicial só está completo quando existe um plano para remover o excesso de potássio e evitar sua recorrência.**",
+      "pearl": "No paciente anúrico, insulina não substitui diálise. Ela reduz temporariamente o potássio sérico, mas não resolve o excesso corporal. Acione a nefrologia enquanto o tratamento de ponte está funcionando.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seções “Remove potassium from the body” e “Monitoring”."
+    },
+    {
+      "number": 5,
+      "title": "A primeira prescrição funcionou parcialmente. O que falta fazer?",
+      "competency": "Reavaliar a resposta ao tratamento e ajustar o plano sem confundir melhora transitória com resolução",
+      "stem": "Uma mulher de 69 anos, com doença renal crônica avançada, chega à emergência com potássio de 7,2 mEq/L, frequência cardíaca de 46 bpm e QRS de 148 ms.\n\nA equipe administra gluconato de cálcio intravenoso, inicia insulina regular com glicose e mantém monitorização cardíaca.\n\nA avaliação nefrológica já foi solicitada.\n\nDez minutos após o cálcio, o QRS diminui para 106 ms e a frequência cardíaca aumenta para 68 bpm.\n\nUma hora depois:",
+      "table": {
+        "caption": "Exames",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Potássio", "6,4 mEq/L"],
+          ["Glicemia", "84 mg/dL"],
+          ["Frequência cardíaca", "70 bpm"],
+          ["QRS", "104 ms"]
+        ]
+      },
+      "stemAfter": "A paciente permanece consciente e hemodinamicamente estável.\n\nUm residente sugere encerrar a monitorização e suspender os controles glicêmicos porque houve melhora clínica e eletrocardiográfica.\n\n**Qual é a conduta mais adequada nesse momento?**",
+      "choices": {
+        "A": "Encerrar a monitorização cardíaca e liberar a paciente, pois a normalização do QRS demonstra que o risco relacionado à hipercalemia desapareceu.",
+        "B": "Manter monitorização cardíaca e glicêmica, reavaliar seriadamente o potássio, acompanhar a estratégia de remoção efetiva e ajustar o tratamento conforme a evolução, pois a melhora inicial não garante resolução sustentada.",
+        "C": "Administrar cálcio intravenoso repetidamente a cada dez minutos, independentemente do ECG, até que o potássio sérico esteja abaixo de 5,0 mEq/L.",
+        "D": "Repetir imediatamente a mesma dose de insulina sem considerar a glicemia atual ou o risco de hipoglicemia, pois o potássio ainda está elevado."
+      },
+      "feedback": {
+        "A": "A melhora do QRS não demonstra resolução definitiva da hipercalemia. O potássio permanece elevado e existe risco de recorrência.",
+        "B": "Reconhece a necessidade de manter monitorização cardíaca, glicêmica e laboratorial, além de acompanhar a remoção efetiva do potássio e ajustar o tratamento à evolução.",
+        "C": "O cálcio não deve ser repetido automaticamente para atingir determinado valor de potássio. Sua função é antagonizar a toxicidade elétrica, e sua repetição depende da resposta clínica e eletrocardiográfica.",
+        "D": "Repetir insulina sem considerar a glicemia atual e a resposta anterior aumenta o risco de hipoglicemia. A decisão exige reavaliação individualizada."
+      },
+      "correctExplanation": "Esta questão integra as decisões anteriores e acrescenta uma competência indispensável: **reavaliar a prescrição de acordo com a resposta clínica e laboratorial**.\n\nA paciente apresentou melhora importante após o tratamento inicial.\n\nEntretanto, a hipercalemia ainda não foi completamente corrigida.\n\n**1. O que a melhora do ECG representa?**\n\nO QRS diminuiu de 148 para 104 ms.\n\nIsso sugere melhora da condução elétrica.\n\nA administração de cálcio pode ter contribuído para essa resposta.\n\nEntretanto, o cálcio não reduz diretamente a concentração sérica de potássio.\n\n**2. O que significa o potássio de 6,4 mEq/L?**\n\nHouve redução em relação ao valor inicial de 7,2 mEq/L.\n\nEssa resposta é favorável, mas a concentração permanece elevada.\n\nAlém disso, parte da redução pode ser resultado da redistribuição intracelular provocada pela insulina.\n\nPortanto, ainda existe risco de recorrência.\n\n**3. Por que manter a monitorização cardíaca?**\n\nA paciente apresentou alterações eletrocardiográficas importantes na admissão.\n\nA melhora inicial não garante que a toxicidade elétrica não possa reaparecer.\n\nO efeito do cálcio é temporário, e o potássio pode voltar a aumentar.\n\n**4. Por que manter os controles glicêmicos?**\n\nA paciente recebeu insulina intravenosa.\n\nSua glicemia atual é de 84 mg/dL, valor que exige atenção ao contexto e à tendência glicêmica.\n\nA hipoglicemia pode surgir posteriormente, mesmo quando a glicemia inicial após o tratamento parece aceitável.\n\nO UpToDate recomenda monitorização glicêmica horária por até seis horas após a administração de insulina.\n\n**5. O que fazer com o potássio?**\n\nA concentração sérica deve continuar sendo acompanhada.\n\nO UpToDate orienta uma dosagem aproximadamente uma a duas horas após o início do tratamento, com avaliações subsequentes determinadas pela concentração encontrada e pela resposta clínica.\n\nA estratégia de remoção efetiva precisa ser acompanhada, especialmente diante da disfunção renal avançada.\n\n**6. Por que não repetir automaticamente todas as medicações?**\n\nA repetição de cálcio depende da evolução clínica e elétrica.\n\nA repetição de insulina exige considerar a resposta obtida, a glicemia e o risco de hipoglicemia.\n\nPortanto, não existe justificativa para administrar doses sucessivas de maneira automática, sem reavaliação.\n\n**O tratamento da hipercalemia exige decisões sucessivas, orientadas pela resposta do paciente. A primeira prescrição inicia o tratamento; a reavaliação determina sua continuidade.**",
+      "pearl": "O primeiro potássio caiu e o ECG melhorou? Ótimo. Mas ainda não terminou. Acompanhe a glicemia, o potássio e a remoção efetiva. Na hipercalemia, a reavaliação faz parte da prescrição.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seções “Monitoring”, “Calcium”, “Insulin with glucose” e “Remove potassium from the body”."
+    }
+  ]
+}
