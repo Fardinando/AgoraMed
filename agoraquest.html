@@ -12,6 +12,29 @@
   <link rel="stylesheet" href="css/agoraquest.css?v=4">
 </head>
 <body>
+<script>
+/* Aplica o tema do curso antes da primeira pintura, evitando flash de tema claro. */
+(function () {
+  try {
+    var p = new URLSearchParams(location.search);
+    var aulaId = p.get('aula_id');
+    if (!aulaId) return;
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', '/api/agoraquest?aula_id=' + encodeURIComponent(aulaId) + '&meta=1', false);
+    xhr.withCredentials = true;
+    xhr.send();
+    if (xhr.status !== 200) return;
+    var d = JSON.parse(xhr.responseText || '{}');
+    if (!d || !d.ok) return;
+    var titulo = String(d.cursoTitulo || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    if (d.cursoId === 'fa3c5d8d-94c4-4321-be7a-1cc45741a983' || /hiper[ck]alemia/.test(titulo)) {
+      document.body.dataset.aqTema = 'hipercalemia';
+      var metaCor = document.querySelector('meta[name="theme-color"]');
+      if (metaCor) metaCor.setAttribute('content', '#061F27');
+    }
+  } catch (e) { /* mantém o tema padrão */ }
+})();
+</script>
 <a class="aq-skip" href="#aq-main">Pular para a prática</a>
 
 <header class="aq-top">
