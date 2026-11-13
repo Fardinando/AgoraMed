@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#346F77">
+  <meta name="theme-color" content="#061F27">
   <meta name="robots" content="noindex">
   <title>AgoraQuest — Hipercalemia | AgoraMed</title>
   <link rel="manifest" href="manifest.json">
@@ -11,7 +11,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-v2.png">
   <link rel="stylesheet" href="css/agoraquest.css?v=4">
 </head>
-<body>
+<body data-aq-tema="hipercalemia">
 <script>
 /* Aplica o tema do curso antes da primeira pintura, evitando flash de tema claro. */
 (function () {
@@ -31,6 +31,10 @@
       document.body.dataset.aqTema = 'hipercalemia';
       var metaCor = document.querySelector('meta[name="theme-color"]');
       if (metaCor) metaCor.setAttribute('content', '#061F27');
+    } else {
+      delete document.body.dataset.aqTema;
+      var metaCor2 = document.querySelector('meta[name="theme-color"]');
+      if (metaCor2) metaCor2.setAttribute('content', '#346F77');
     }
   } catch (e) { /* mantém o tema padrão */ }
 })();
