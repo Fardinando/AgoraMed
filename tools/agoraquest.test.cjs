@@ -941,7 +941,9 @@ test('estático: páginas, link no app, service worker e ausência do gabarito n
   const js = fs.readFileSync(path.join(__dirname, '../js/agoraquest.js'), 'utf8');
   const jsCaderno = fs.readFileSync(path.join(__dirname, '../js/caderno-erros.js'), 'utf8');
   assert.doesNotMatch(js, /\[\s*['"]B['"]\s*,\s*['"]C['"]\s*,\s*['"]B['"]\s*,\s*['"]D['"]\s*,\s*['"]C['"]\s*\]/);
+  assert.doesNotMatch(js, /\[\s*['"]B['"]\s*,\s*['"]D['"]\s*,\s*['"]C['"]\s*,\s*['"]A['"]\s*,\s*['"]C['"]\s*\]/);
   assert.doesNotMatch(jsCaderno, /\[\s*['"]B['"]\s*,\s*['"]C['"]\s*,\s*['"]B['"]\s*,\s*['"]D['"]\s*,\s*['"]C['"]\s*\]/);
+  assert.doesNotMatch(jsCaderno, /\[\s*['"]B['"]\s*,\s*['"]D['"]\s*,\s*['"]C['"]\s*,\s*['"]A['"]\s*,\s*['"]C['"]\s*\]/);
   for (const q of aprovado01.concat(aprovado02, aprovado03)) {
     assert.ok(!js.includes(q.stem));
     assert.ok(!jsCaderno.includes(q.stem));
