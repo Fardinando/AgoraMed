@@ -1,0 +1,153 @@
+{
+  "slug": "hipercalemia-aula-05-v1",
+  "versao": 1,
+  "title": "Hipercalemia — Aula 05",
+  "subtitle": "Redistribuição e liberação celular de potássio",
+  "intro": "Cinco casos sobre o potássio que muda de compartimento: cetoacidose, insulina, rabdomiólise, acidose e lise tumoral. Em cada um, a pergunta central é a mesma — o que explica a concentração sérica e o que isso muda na conduta? Responda uma questão por vez: ao confirmar, a alternativa fica bloqueada e o comentário aparece imediatamente, com a análise das quatro alternativas, a pérola do plantão e a fundamentação. Você pode refazer a prática quantas vezes quiser; o histórico e o caderno de erros ficam salvos na sua conta.",
+  "closing": "Redistribuição e remoção são processos diferentes. Um potássio que cai após insulina pode continuar no organismo; um potássio que sobe na rabdomiólise ou na lise tumoral pode continuar subindo enquanto houver liberação celular. A acidose não explica tudo sozinha, e a creatinina inicial não garante função renal preservada. O que orienta a conduta é integrar o mecanismo, a velocidade da elevação, a capacidade de eliminação e a repercussão clínica e elétrica. Trate o paciente, não apenas o número.",
+  "references": "UpToDate. Hyperkalemia in adults. https://www.uptodate.com/contents/hyperkalemia-in-adults",
+  "key": ["B", "C", "D", "A", "D"],
+  "questions": [
+    {
+      "number": 1,
+      "title": "O potássio subiu, mas o rim está funcionando",
+      "competency": "Reconhecer o mecanismo predominante",
+      "stem": "Um homem de 28 anos, com diabetes mellitus tipo 1, é admitido na emergência com poliúria, polidipsia, vômitos e respiração de Kussmaul. Relata interrupção do uso de insulina há aproximadamente dois dias.\n\nOs exames mostram:",
+      "table": {
+        "caption": "Exames iniciais",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Glicemia", "584 mg/dL"],
+          ["pH arterial", "7,12"],
+          ["Bicarbonato", "9 mEq/L"],
+          ["Potássio", "6,2 mEq/L"],
+          ["Creatinina", "1,1 mg/dL"]
+        ]
+      },
+      "stemAfter": "Um interno observa a creatinina próxima da normalidade e questiona como o paciente poderia apresentar hipercalemia sem insuficiência renal evidente.\n\nQual explicação fisiopatológica é mais adequada?",
+      "choices": {
+        "A": "A acidemia provoca obrigatoriamente a saída de potássio das células, sendo o principal mecanismo de hipercalemia em qualquer tipo de acidose metabólica.",
+        "B": "A deficiência de insulina reduz a entrada celular de potássio, enquanto a hiperosmolalidade favorece sua saída para o meio extracelular, mesmo quando existe déficit corporal de potássio.",
+        "C": "A hiperglicemia aumenta a quantidade total de potássio do organismo por estimular sua absorção intestinal.",
+        "D": "A creatinina próxima da normalidade demonstra que a hipercalemia é necessariamente causada por aumento da ingestão de potássio."
+      },
+      "feedback": {
+        "A": "A acidemia pode interferir na distribuição do potássio, mas seu efeito depende do tipo de distúrbio ácido-base. Na cetoacidose diabética, a deficiência de insulina e a hiperosmolalidade são mecanismos especialmente importantes. Atribuir toda a hipercalemia à acidemia simplifica excessivamente a fisiopatologia.",
+        "B": "Integra os dois mecanismos predominantes de redistribuição e reconhece que a concentração sérica elevada não exclui déficit corporal.",
+        "C": "A hiperglicemia não aumenta automaticamente a quantidade total de potássio. Pelo contrário, a diurese osmótica pode causar perdas importantes. O erro consiste em confundir aumento da concentração extracelular com aumento do estoque corporal.",
+        "D": "A creatinina não permite concluir que o paciente ingeriu potássio em excesso. Além disso, alterações agudas da função renal podem não ser imediatamente refletidas por esse exame. Neste caso, já existem mecanismos de redistribuição suficientes para explicar a elevação."
+      },
+      "correctExplanation": "Este caso apresenta uma situação que costuma confundir médicos em início de carreira: um paciente com hipercalemia importante, mas sem evidência de comprometimento renal grave.\n\nA explicação está na distribuição do potássio entre os compartimentos intracelular e extracelular.\n\nEm condições fisiológicas, a insulina estimula a atividade da Na⁺/K⁺-ATPase, favorecendo a entrada de potássio nas células, especialmente no músculo esquelético.\n\nQuando existe deficiência importante de insulina, essa entrada fica prejudicada.\n\nAo mesmo tempo, a hiperglicemia intensa aumenta a osmolalidade extracelular. A água se desloca do interior das células para o espaço extracelular, e esse fenômeno pode favorecer também a saída de potássio.\n\nPortanto, dois mecanismos atuam simultaneamente: menor captação celular e maior deslocamento para o meio extracelular.\n\nO ponto decisivo é que o paciente também apresenta poliúria e vômitos, condições que favorecem perdas corporais de potássio.\n\nAssim, a concentração sérica pode estar elevada enquanto o estoque corporal total está reduzido.\n\nEssa distinção tem implicação terapêutica: durante o tratamento com fluidos e insulina, o potássio pode diminuir acentuadamente, exigindo monitorização e reposição conforme o protocolo específico de cetoacidose.",
+      "pearl": "Na cetoacidose diabética, o potássio elevado pode ser o primeiro número que chama sua atenção, mas a hipocalemia durante o tratamento pode se tornar o próximo problema. Antecipe essa mudança desde a avaliação inicial.",
+      "reference": "Causes and evaluation of hyperkalemia in adults, seção “Insulin deficiency, hyperglycemia, and hyperosmolality”; Treatment and prevention of hyperkalemia in adults, introdução."
+    },
+    {
+      "number": 2,
+      "title": "O potássio caiu. Ele foi eliminado?",
+      "competency": "Interpretar a resposta à redistribuição",
+      "stem": "Um homem de 66 anos, com doença renal crônica avançada, apresenta potássio sérico de 6,7 mEq/L. Após avaliação e início do tratamento, recebe insulina intravenosa associada à glicose.\n\nUma hora depois, o potássio é de 5,5 mEq/L. O paciente permanece oligúrico.\n\nUm interno afirma:\n\n“Ótimo. A insulina eliminou o excesso de potássio. Agora não precisamos mais nos preocupar com ele.”\n\nQual é a melhor resposta a essa afirmação?",
+      "choices": {
+        "A": "A queda do potássio demonstra que a insulina aumentou a eliminação renal, mesmo na presença de oligúria.",
+        "B": "A insulina transforma o potássio extracelular em uma substância eletricamente inativa, eliminando seu risco cardíaco.",
+        "C": "A redução da concentração sérica resulta principalmente da entrada de potássio nas células; como a eliminação renal permanece comprometida, existe risco de nova elevação.",
+        "D": "O risco de rebote só existe quando o paciente apresenta hipercalemia causada por aumento da ingestão alimentar."
+      },
+      "feedback": {
+        "A": "A principal ação aguda da insulina sobre o potássio é estimular sua entrada nas células. A oligúria continua sendo um fator de risco para retenção e recorrência.",
+        "B": "A insulina não neutraliza quimicamente o potássio. Ela altera sua distribuição entre os compartimentos. A redução do risco elétrico decorre da diminuição da concentração extracelular, não de uma transformação química do íon.",
+        "C": "Reconhece o mecanismo da resposta terapêutica e identifica o problema que permanece: a incapacidade de eliminar adequadamente o potássio corporal.",
+        "D": "O rebote não depende exclusivamente de ingestão alimentar. Pode ocorrer após o desaparecimento do efeito redistributivo, particularmente quando a excreção renal está comprometida ou existe liberação contínua de potássio."
+      },
+      "correctExplanation": "O erro do interno é interpretar uma mudança de concentração como se ela representasse necessariamente uma mudança da quantidade total de potássio no organismo.\n\nA insulina estimula a captação celular de potássio, reduzindo sua concentração no espaço extracelular.\n\nEssa estratégia é extremamente útil no tratamento agudo porque permite diminuir temporariamente a exposição do coração a concentrações elevadas de potássio.\n\nEntretanto, o potássio deslocado para dentro das células continua no organismo.\n\nQuando o efeito da insulina diminui, parte do potássio pode retornar ao espaço extracelular.\n\nSe o paciente mantém oligúria e capacidade excretora muito reduzida, não existe uma via renal eficiente para eliminar o excesso.\n\nÉ por isso que o tratamento da hipercalemia deve distinguir duas estratégias:\n- Redistribuir: reduzir temporariamente a concentração extracelular.\n- Remover: promover perda efetiva de potássio do organismo.\n\nNo caso apresentado, a resposta inicial é favorável, mas não garante resolução definitiva.\n\nO paciente precisa de monitorização e avaliação de medidas de remoção, incluindo terapia dialítica quando indicada.",
+      "pearl": "Uma queda expressiva do potássio após insulina pode dar uma falsa sensação de segurança. Pergunte sempre: “O potássio saiu do organismo ou apenas mudou de compartimento?”",
+      "reference": "Treatment and prevention of hyperkalemia in adults, abordagem da redistribuição e remoção de potássio."
+    },
+    {
+      "number": 3,
+      "title": "O paciente foi retirado dos escombros. O risco terminou?",
+      "competency": "Identificar liberação celular contínua e antecipar deterioração",
+      "stem": "Um homem de 39 anos é resgatado após permanecer seis horas com os membros inferiores comprimidos por escombros.\n\nNa admissão, apresenta dor muscular intensa, edema das coxas e urina escurecida.\n\nOs exames iniciais mostram:",
+      "table": {
+        "caption": "Exames iniciais",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Potássio", "5,8 mEq/L"],
+          ["Creatinina", "1,3 mg/dL"],
+          ["Creatinoquinase", "28.400 U/L"],
+          ["pH arterial", "7,31"]
+        ]
+      },
+      "stemAfter": "O eletrocardiograma não apresenta alterações sugestivas de hipercalemia.\n\nDuas horas depois, apesar da ausência de administração de potássio, uma nova dosagem mostra 6,4 mEq/L.\n\nQual interpretação melhor explica essa evolução e orienta a vigilância do paciente?",
+      "choices": {
+        "A": "A elevação do potássio indica necessariamente que o paciente desenvolveu insuficiência renal grave entre as duas dosagens.",
+        "B": "A creatinoquinase elevada é responsável por converter sódio em potássio, aumentando sua produção.",
+        "C": "A ausência de alterações eletrocardiográficas demonstra que a elevação decorre apenas de pseudohipercalemia.",
+        "D": "A lesão muscular pode continuar liberando potássio intracelular, produzindo elevação progressiva, que pode ser agravada por comprometimento da excreção renal."
+      },
+      "feedback": {
+        "A": "A insuficiência renal pode contribuir para a hipercalemia, mas não é necessária para explicar a elevação inicial. A destruição muscular, isoladamente, pode liberar quantidade significativa de potássio. Além disso, não é possível afirmar que houve insuficiência renal grave sem avaliação adicional.",
+        "B": "A creatinoquinase é uma enzima liberada pelas células musculares lesionadas. Ela não transforma sódio em potássio. O potássio já existia no interior das células e foi liberado após a lesão.",
+        "C": "Um ECG sem alterações características não comprova pseudohipercalemia. O paciente apresenta uma causa fisiopatológica evidente de hipercalemia verdadeira, e a ausência de alterações elétricas não elimina o risco de deterioração.",
+        "D": "Integra o mecanismo inicial, a possibilidade de liberação persistente e o risco adicional de comprometimento renal. É a interpretação que melhor orienta a vigilância."
+      },
+      "correctExplanation": "A rabdomiólise é um exemplo importante de hipercalemia relacionada à liberação do conteúdo intracelular.\n\nO músculo esquelético representa um grande reservatório de potássio. Quando as fibras musculares sofrem lesão extensa, sua integridade é comprometida e componentes intracelulares passam para o espaço extracelular.\n\nEntre esses componentes estão o potássio, a creatinoquinase e a mioglobina.\n\nEntretanto, é importante compreender que a creatinoquinase não provoca a hipercalemia. Ela funciona como marcador de lesão muscular.\n\nA elevação progressiva do potássio pode ocorrer enquanto persistir a liberação celular. A lesão renal aguda associada à rabdomiólise pode agravar ainda mais o quadro, porque reduz a capacidade de eliminação.\n\nOutro detalhe merece atenção: a creatinina inicial de 1,3 mg/dL não garante que a função renal permanecerá preservada. A creatinina pode demorar a refletir alterações agudas da filtração.\n\nO ECG sem alterações características também não exclui hipercalemia perigosa.\n\nPortanto, esse paciente precisa de reavaliação clínica e laboratorial frequente, além de tratamento conforme a gravidade. A hipercalemia pode progredir mesmo sem qualquer administração externa de potássio.",
+      "pearl": "Na rabdomiólise, o potássio pode estar subindo enquanto você ainda aguarda uma elevação expressiva da creatinina. Não espere a insuficiência renal se tornar evidente para reconhecer o risco.",
+      "reference": "Causes and evaluation of hyperkalemia in adults, seção “Increased tissue catabolism”; Treatment and prevention of hyperkalemia in adults, seção “Determining the urgency of therapy”."
+    },
+    {
+      "number": 4,
+      "title": "Toda acidose desloca potássio da mesma maneira?",
+      "competency": "Evitar uma generalização fisiopatológica",
+      "stem": "Durante uma discussão de casos na emergência, dois pacientes apresentam acidose metabólica.\n\nO primeiro tem diarreia intensa, bicarbonato de 12 mEq/L e acidose metabólica hiperclorêmica.\n\nO segundo apresenta cetoacidose diabética, com glicemia de 530 mg/dL, bicarbonato de 10 mEq/L e deficiência importante de insulina.\n\nUm residente afirma:\n\n“Nos dois casos, o potássio sobe pelo mesmo mecanismo. Quanto mais baixo o pH, maior será obrigatoriamente o potássio sérico.”\n\nQual afirmação corrige melhor esse raciocínio?",
+      "choices": {
+        "A": "O efeito da acidose sobre a distribuição do potássio depende do tipo de distúrbio; na acidose metabólica mineral, o deslocamento transcelular pode ser mais pronunciado, enquanto na cetoacidose a deficiência de insulina e a hiperosmolalidade têm papel importante.",
+        "B": "A acidose metabólica não interfere na distribuição do potássio, independentemente de sua causa.",
+        "C": "Na cetoacidose diabética, o aumento do potássio sérico demonstra que as perdas urinárias foram interrompidas.",
+        "D": "O pH permite estimar com precisão o potássio sérico, dispensando sua dosagem laboratorial."
+      },
+      "feedback": {
+        "A": "Reconhece que diferentes tipos de acidose apresentam efeitos distintos sobre a distribuição de potássio e identifica os mecanismos relevantes na cetoacidose diabética.",
+        "B": "Algumas formas de acidose metabólica podem favorecer o deslocamento de potássio para o meio extracelular. Negar qualquer influência da acidose também seria uma generalização equivocada.",
+        "C": "A cetoacidose frequentemente cursa com diurese osmótica e perdas urinárias de potássio. A concentração sérica elevada não significa interrupção dessas perdas.",
+        "D": "O pH não substitui a dosagem de potássio. A concentração sérica depende de múltiplos mecanismos, e pacientes com valores semelhantes de pH podem apresentar concentrações muito diferentes de potássio."
+      },
+      "correctExplanation": "Uma associação frequentemente ensinada é que a acidose provoca saída de potássio das células e que a alcalose favorece sua entrada.\n\nEmbora esse princípio possa ajudar na compreensão inicial, ele não descreve adequadamente todos os distúrbios ácido-base.\n\nO efeito da acidose sobre a distribuição transcelular do potássio varia conforme sua natureza e os mecanismos associados.\n\nNas acidoses metabólicas por ácidos minerais, como a acidose hiperclorêmica, pode ocorrer deslocamento de potássio para o espaço extracelular.\n\nJá nas acidoses orgânicas, como a cetoacidose e a acidose láctica, não se deve atribuir automaticamente a hipercalemia ao mesmo mecanismo.\n\nNa cetoacidose diabética, a deficiência de insulina reduz a captação celular de potássio. A hiperosmolalidade associada à hiperglicemia também favorece sua saída das células.\n\nAlém disso, o paciente pode apresentar perdas urinárias importantes de potássio, mesmo quando sua concentração sérica está elevada.\n\nPortanto, não existe uma relação universal e suficientemente previsível entre a redução do pH e o aumento do potássio sérico.\n\nO raciocínio clínico deve considerar a causa da acidose, a função renal, a distribuição transcelular e as perdas corporais.",
+      "pearl": "Diante de um paciente acidótico com hipercalemia, não encerre o raciocínio dizendo que “o potássio subiu por causa do pH”. Identifique qual acidose está presente e quais outros mecanismos estão atuando.",
+      "reference": "Causes and evaluation of hyperkalemia in adults, seções “Metabolic acidosis” e “Insulin deficiency, hyperglycemia, and hyperosmolality”."
+    },
+    {
+      "number": 5,
+      "title": "Quando dois mecanismos se encontram",
+      "competency": "Integrar mecanismos e antecipar risco clínico",
+      "stem": "Um homem de 58 anos, com doença renal crônica, é internado após iniciar quimioterapia para uma neoplasia hematológica de elevada carga tumoral.\n\nNas últimas 12 horas, apresenta redução importante da diurese.\n\nOs exames mostram:",
+      "table": {
+        "caption": "Exames laboratoriais",
+        "headers": ["Parâmetro", "Resultado"],
+        "rows": [
+          ["Potássio inicial", "5,1 mEq/L"],
+          ["Potássio atual", "6,6 mEq/L"],
+          ["Creatinina", "3,2 mg/dL"],
+          ["Fósforo", "7,1 mg/dL"],
+          ["Ácido úrico", "11,8 mg/dL"],
+          ["Diurese", "180 mL em 12 horas"]
+        ]
+      },
+      "stemAfter": "O quadro levanta forte suspeita de síndrome de lise tumoral.\n\nUm interno pergunta por que o potássio aumentou tão rapidamente, apesar de o paciente não ter recebido reposição desse eletrólito.\n\nQual interpretação melhor explica o caso e orienta a conduta?",
+      "choices": {
+        "A": "A hipercalemia é causada exclusivamente pela doença renal crônica, pois a destruição tumoral não interfere na concentração de potássio.",
+        "B": "A elevação do potássio decorre apenas de redistribuição temporária; portanto, a oligúria não modifica o risco de recorrência.",
+        "C": "A ausência de reposição de potássio indica que o resultado deve ser considerado pseudohipercalemia até prova em contrário.",
+        "D": "A lise tumoral libera potássio intracelular, enquanto o comprometimento renal reduz sua eliminação; a combinação favorece hipercalemia rápida e potencialmente persistente, exigindo avaliação e tratamento urgentes."
+      },
+      "feedback": {
+        "A": "A doença renal crônica contribui para a dificuldade de excreção, mas a lise tumoral é uma fonte importante de liberação intracelular. Ignorar esse mecanismo impede compreender a velocidade da elevação e o risco de progressão.",
+        "B": "A liberação de potássio pode ser contínua enquanto houver destruição celular. Além disso, a oligúria compromete sua eliminação e aumenta o risco de hipercalemia persistente ou recorrente.",
+        "C": "O potássio não precisa ser administrado para que sua concentração sérica aumente. A destruição celular pode liberar grandes quantidades de potássio já presentes no organismo. Não existe justificativa para presumir pseudohipercalemia apenas pela ausência de reposição.",
+        "D": "Integra liberação celular e redução da excreção renal, reconhecendo o risco de elevação rápida e persistente. Também orienta uma abordagem que considera tanto o tratamento imediato quanto a necessidade de remoção de potássio."
+      },
+      "correctExplanation": "Esta questão integra dois mecanismos diferentes de hipercalemia que podem ocorrer simultaneamente.\n\nO primeiro é a liberação de potássio a partir das células.\n\nNa síndrome de lise tumoral, a destruição rápida de grande quantidade de células neoplásicas libera componentes intracelulares para a circulação.\n\nEntre eles estão potássio, fósforo e ácidos nucleicos, cujo metabolismo contribui para a elevação do ácido úrico.\n\nO segundo mecanismo é a redução da capacidade renal de excretar potássio.\n\nO paciente apresenta doença renal prévia, elevação da creatinina e oligúria importante.\n\nDessa forma, o potássio liberado pelas células encontra uma capacidade de eliminação comprometida.\n\nEssa combinação explica por que a concentração sérica pode aumentar rapidamente e permanecer elevada.\n\nO potássio de 6,6 mEq/L, associado à liberação celular contínua e ao comprometimento renal, representa uma situação de alto risco, que exige avaliação imediata, monitorização e tratamento conforme os protocolos de hipercalemia grave.\n\nMedidas que deslocam o potássio para dentro das células podem reduzir temporariamente sua concentração sérica, mas não eliminam a carga liberada pela lise tumoral.\n\nPor isso, também é necessário avaliar precocemente a estratégia de remoção de potássio, incluindo a possibilidade de terapia renal substitutiva.\n\nO ensinamento principal é que a gravidade da hipercalemia não depende apenas do valor isolado, mas também da velocidade de elevação, da persistência do mecanismo causador e da capacidade de eliminação.",
+      "pearl": "Quando o potássio está sendo liberado continuamente e o rim perdeu a capacidade de eliminá-lo, o problema pode progredir mesmo após uma resposta inicial ao tratamento. Não acompanhe apenas o valor atual: acompanhe a direção em que ele está caminhando.",
+      "reference": "Causes and evaluation of hyperkalemia in adults, seções “Increased tissue catabolism” e “Acute and chronic kidney disease”; Treatment and prevention of hyperkalemia in adults, seção “Determining the urgency of therapy”."
+    }
+  ]
+}

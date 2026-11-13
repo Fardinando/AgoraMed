@@ -1,13 +1,14 @@
 # AgoraQuest — prática por aula
 
-O AgoraQuest é uma prática formativa extra, vinculada a uma aula específica. Estão publicadas quatro atividades do curso **Tratamento da Hipercalemia em Adultos**: **Aula 01** (`hipercalemia-aula-01-v1`), **Aula 02** (`hipercalemia-aula-02-v1`) e **Aula 03** (`hipercalemia-aula-03-v1`), do Módulo 1, e **Aula 04** (`hipercalemia-aula-04-v1`), do Módulo 2.
+O AgoraQuest é uma prática formativa extra, vinculada a uma aula específica. Estão publicadas cinco atividades do curso **Tratamento da Hipercalemia em Adultos**: **Aula 01** (`hipercalemia-aula-01-v1`), **Aula 02** (`hipercalemia-aula-02-v1`) e **Aula 03** (`hipercalemia-aula-03-v1`), do Módulo 1, e **Aula 04** (`hipercalemia-aula-04-v1`) e **Aula 05** (`hipercalemia-aula-05-v1`), do Módulo 2. A Aula 05 aborda **Redistribuição e liberação celular de potássio**.
 
 Ele é independente do AgoraQuiz e do Plantão Virtual: não substitui a atividade principal da aula e **não marca a aula como concluída**. O convite aparece somente quando a atividade está publicada para aquela aula.
 
 ## Experiência
 
-- Página standalone `agoraquest.html?aula_id=…`, em tema claro com a paleta `#346F77`, `#808080` e `#F5F5F5`.
+- Página standalone `agoraquest.html?aula_id=…`. A identidade padrão é clara (`#346F77`, `#808080`, `#F5F5F5`); o curso de Hipercalemia usa tema exclusivo azul-petróleo escuro (`#061F27`/`#0D303B`) com destaque violeta/lilás (`#9552D0`/`#CFBFFF`), escopado por `data-aq-tema` no `<body>`, aplicado condicionalmente a partir de `meta.cursoId`. O Caderno de Erros mantém a identidade global.
 - Cinco casos clínicos, uma questão por vez, quatro alternativas e seleção única.
+- Questões podem incluir tabela laboratorial responsiva (rolagem horizontal própria) e um trecho de enunciado posterior à tabela; tabelas e competências também aparecem na revisão do caderno.
 - A confirmação bloqueia a alternativa e libera imediatamente:
   - o raciocínio fisiopatológico da resposta;
   - a análise individual das quatro alternativas;
@@ -23,6 +24,7 @@ O conteúdo aprovado fica em `lib/agoraquest/`:
 - `hipercalemia-aula-02-v1.json` — Aula 02, gabarito **B-C-B-D-C**.
 - `hipercalemia-aula-03-v1.json` — Aula 03, gabarito **B-D-C-A-C**.
 - `hipercalemia-aula-04-v1.json` — Aula 04, gabarito **B-D-A-C-D**.
+- `hipercalemia-aula-05-v1.json` — Aula 05, gabarito **B-C-D-A-D**. Primeira atividade com tabelas laboratoriais (nas questões 01, 03 e 05), competência por questão e enunciado dividido em texto, tabela e trecho posterior.
 
 Cada JSON traz o próprio gabarito no campo `key`; o engine usa a chave do conteúdo (`Q.keyOf`). Os enunciados, as alternativas e o gabarito **não devem ser reescritos sem uma nova revisão clínica**.
 
@@ -73,6 +75,7 @@ As migrações são aditivas e idempotentes:
 - `supabase/migrations/20261112120000_agoraquest_aula_02_e_caderno_erros.sql` — cria as tabelas e RPCs do caderno e vincula a **Aula 02**. Localiza a Aula 02 pelo título que contém “fisiologia do potássio”; se não encontrar, usa a segunda aula na ordem. Nunca reaproveita uma aula que já tenha outra atividade AgoraQuest. **Já aplicada em produção.**
 - `supabase/migrations/20261112150000_agoraquest_aula_03.sql` — apenas vincula a **Aula 03**. Localiza a aula pelo título que contém “estoque corporal”; se não encontrar, usa a terceira aula na ordem. Não altera tabelas, funções do caderno nem as Aulas 01 e 02. **Já aplicada em produção.**
 - `supabase/migrations/20261112170000_agoraquest_aula_04.sql` — apenas vincula a **Aula 04**. Localiza a aula pelo título que contém “pseudohipercalemia”; se não encontrar, usa a quarta aula na ordem. Não altera tabelas nem as atividades anteriores. **Já aplicada em produção.**
+- `supabase/migrations/20261112190000_agoraquest_aula_05.sql` — apenas vincula a **Aula 05**. Localiza a aula pelo título que contém “redistribui”; se não encontrar, usa a quinta aula na ordem. Não altera tabelas nem as atividades anteriores. **Já aplicada em produção.**
 
 Aplique novas migrações com a CLI autenticada (`supabase db push --remote`), conferindo antes o `--dry-run`. Depois, confirme:
 
@@ -97,7 +100,7 @@ select has_table_privilege('anon','public.agoraquest_tentativas','SELECT') as an
        has_function_privilege('authenticated','public.agoraquest_caderno_sincronizar(uuid,uuid,text,jsonb)','EXECUTE') as sync_rpc;
 ```
 
-O retorno esperado são quatro linhas em `agoraquest_atividades` (Aulas 01, 02, 03 e 04), `count = 0` e todos os privilégios `false`.
+O retorno esperado são cinco linhas em `agoraquest_atividades` (Aulas 01, 02, 03, 04 e 05), `count = 0` e todos os privilégios `false`.
 
 Se o curso ou as aulas forem renomeados/reordenados, as migrações de vínculo podem ser executadas novamente: o vínculo é recalculado e as tentativas e o caderno permanecem na conta.
 
@@ -111,7 +114,7 @@ Se o curso ou as aulas forem renomeados/reordenados, as migrações de vínculo 
 
 ## Verificação
 
-`node --test tools/agoraquest.test.cjs` cobre 23 testes para os itens essenciais: conteúdo aprovado das Aulas 01, 02, 03 e 04, gabarito por conteúdo no engine, bloqueio de alteração, feedback imediato, conclusão e nota, identificação estável de questão, indicadores e agrupamento do caderno, revisão sem gabarito antecipado, autorização, isolamento por aluno, concorrência, idempotência, RLS/privilégios, sincronização do caderno, domínio configurável, vínculo das quatro aulas, migração e integração do CTA/service worker. A suíte completa é executada com `npm test`.
+`node --test tools/agoraquest.test.cjs` cobre 28 testes para os itens essenciais: conteúdo aprovado das Aulas 01, 02, 03, 04 e 05, gabarito por conteúdo no engine, bloqueio de alteração, feedback imediato, conclusão e nota, exposição de competência/tabela/stemAfter sem vazar o gabarito, identificação estável de questão, indicadores e agrupamento do caderno, revisão sem gabarito antecipado, autorização, isolamento por aluno, concorrência, idempotência, RLS/privilégios, sincronização do caderno, domínio configurável, vínculo das cinco aulas, migração e integração do CTA/service worker. A suíte completa é executada com `npm test`.
 
 As migrações também foram exercitadas em banco PostgreSQL descartável (PGlite) com os handlers reais e sessões simuladas, incluindo idempotência de sincronização, máquina de estados do caderno, reabertura de questão dominada e isolamento entre alunos. A interface foi exercitada com a API real simulada em memória: início, seleção única, bloqueio após confirmar, feedback, avanço pelas cinco questões, resultado, histórico, caderno de erros, revisão e nova tentativa. A página não carrega o gabarito no JavaScript nem no HTML.
 

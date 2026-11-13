@@ -8,6 +8,7 @@
   const caixaErro = document.getElementById('network-error');
   const status = document.getElementById('save-status');
   const TOTAL_FALLBACK = 5;
+  const CURSO_HIPERCALEMIA = 'fa3c5d8d-94c4-4321-be7a-1cc45741a983';
 
   const ESC = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
   const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ESC[c]);
@@ -19,6 +20,24 @@
   function refs(s) {
     return esc(s).replace(/(https?:\/\/[^\s<]+)/g,
       '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>');
+  }
+  /* Tabela laboratorial: legível em telas pequenas por meio de rolagem própria. */
+  function tabela(t) {
+    if (!t || !Array.isArray(t.rows) || !t.rows.length) return '';
+    const cabecalho = Array.isArray(t.headers) && t.headers.length
+      ? '<thead><tr>' + t.headers.map((h) => '<th scope="col">' + inline(h) + '</th>').join('') + '</tr></thead>'
+      : '';
+    const corpo = '<tbody>' + t.rows.map((linha) => '<tr>' +
+      (Array.isArray(linha) ? linha : []).map((celula, i) => i === 0
+        ? '<th scope="row">' + inline(celula) + '</th>'
+        : '<td>' + inline(celula) + '</td>').join('') + '</tr>').join('') + '</tbody>';
+    const legenda = t.caption ? '<caption>' + inline(t.caption) + '</caption>' : '';
+    return '<div class="aq-table-wrap" role="region" tabindex="0" aria-label="' +
+      esc(t.caption || 'Tabela de exames') + '"><table class="aq-table">' + legenda + cabecalho + corpo + '</table></div>';
+  }
+  /* Enunciado completo: texto, tabela de exames e o trecho posterior à tabela. */
+  function enunciado(q) {
+    return prose(q.stem) + tabela(q.table) + (q.stemAfter ? prose(q.stemAfter) : '');
   }
   function data(iso) {
     if (!iso) return '';
@@ -87,11 +106,23 @@
     return pedir('POST', null, Object.assign({ aula_id: aulaId }, corpo));
   }
 
+  /* O tema do curso é aplicado somente ao AgoraQuest de Hipercalemia; a
+     identidade global e os demais cursos permanecem no tema claro. */
+  function aplicarTema() {
+    const titulo = String(meta.cursoTitulo || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    const hiper = meta.cursoId === CURSO_HIPERCALEMIA || /hiper[ck]alemia/.test(titulo);
+    if (hiper) document.body.dataset.aqTema = 'hipercalemia';
+    else delete document.body.dataset.aqTema;
+    const cor = document.querySelector('meta[name="theme-color"]');
+    if (cor) cor.setAttribute('content', hiper ? '#061F27' : '#346F77');
+  }
+
   function aplicar(dados, acao) {
     conteudo = dados.content || null;
     estado = dados.state || null;
     revisao = Number(dados.revision) || 0;
     meta = Object.assign({}, meta, dados);
+    aplicarTema();
 
     const cursoUrl = meta.cursoId ? 'curso.html?id=' + encodeURIComponent(meta.cursoId) : 'app.html';
     const aulaUrl = (meta.cursoId && meta.moduloId && aulaId)
@@ -233,7 +264,7 @@
       '<h2>' + esc(conteudo.title) + '</h2>' +
       '<p class="aq-lead">' + esc(conteudo.subtitle) + '</p>' +
       prose(conteudo.intro) +
-      '<div class="aq-note"><p><strong>Como funciona:</strong> uma questão por vez, quatro alternativas e seleção única. Ao confirmar, a alternativa fica bloqueada e o comentário aparece imediatamente. Você pode refazer a prática quantas vezes quiser.</p></div>' +
+      '<div class="aq-note"><p><strong>Como funciona:</strong> uma questão por vez, quatro alternativas e seleção única. Ao confirmar, a alternativa fica bloqueada e o comentário aparece imediatamente. A aprovação exige 80% de acertos (4 de 5). Você pode refazer a prática quantas vezes quiser.</p></div>' +
       '<div class="aq-actions">' +
       '<button type="button" class="aq-btn primary" data-start>Começar prática →</button>' +
       '<button type="button" class="aq-btn ghost" data-history>Histórico</button>' +
@@ -282,7 +313,7 @@
       corpo = '<section class="aq-feedback' + (ok ? '' : ' wrong') + '" aria-live="polite">' +
         '<p class="aq-answer">SUA RESPOSTA: ' + a.choice + ' · ' + (ok ? 'CORRETA' : 'INCORRETA') + '</p>' +
         '<h3>' + (ok ? 'Resposta correta.' : 'Vale revisar este ponto.') + '</h3>' +
-        '<p>' + esc(q.correctExplanation) + '</p>' +
+        '<div class="aq-explanation">' + prose(q.correctExplanation) + '</div>' +
         '<details class="aq-analysis" open><summary>Análise das quatro alternativas</summary>' + analise + '</details>' +
         '<div class="aq-pearl"><strong>PÉROLA DO PLANTÃO</strong><p>' + esc(q.pearl) + '</p></div>' +
         '<p class="aq-ref"><strong>Referência:</strong> ' + refs(q.reference || conteudo.references) + '</p>' +
@@ -303,9 +334,9 @@
       '<div class="aq-progress-top"><span>QUESTÃO <strong>' + (i + 1) + '</strong> DE ' + total + '</span>' +
       '<span>' + vistas(estado) + ' CONFIRMADA' + (vistas(estado) === 1 ? '' : 'S') + '</span></div>' +
       '<div class="aq-segments" role="progressbar" aria-label="Progresso da prática" aria-valuemin="1" aria-valuemax="' + total + '" aria-valuenow="' + (i + 1) + '">' + segmentos + '</div>' +
-      '<p class="aq-eyebrow">CASO CLÍNICO</p>' +
+      '<p class="aq-eyebrow">' + esc(q.competency || 'CASO CLÍNICO') + '</p>' +
       '<h2 class="aq-question-title">' + esc(q.title) + '</h2>' +
-      '<div class="aq-stem">' + prose(q.stem) + '</div>' +
+      '<div class="aq-stem">' + enunciado(q) + '</div>' +
       opcoes + corpo +
       '</section>';
   }
@@ -314,6 +345,7 @@
     const total = totalQuestoes();
     const nota = acertos(estado);
     const pct = total ? Math.round(nota / total * 100) : 0;
+    const aprovado = pct >= 80;
     const mensagem = pct === 100
       ? { titulo: 'Domínio do tema.', texto: 'Você reconheceu os sinais de gravidade e a prioridade de tratamento em todos os casos.' }
       : pct >= 80
@@ -331,7 +363,7 @@
         ' · ' + esc(a.choice || '—') + (ok ? '' : ' / ' + esc(q.correctChoice)) + '</span></summary>' +
         '<div class="aq-review-body">' +
         '<p><strong>Sua resposta:</strong> ' + esc(a.choice || '—') + ' · <strong>Correta:</strong> ' + esc(q.correctChoice) + '</p>' +
-        '<p>' + esc(q.correctExplanation) + '</p>' +
+        '<div class="aq-explanation">' + prose(q.correctExplanation) + '</div>' +
         '<div class="aq-pearl"><strong>PÉROLA DO PLANTÃO</strong><p>' + esc(q.pearl) + '</p></div>' +
         '</div></details>';
     }).join('');
@@ -341,7 +373,9 @@
       '<p class="aq-eyebrow">RESULTADO DA TENTATIVA</p>' +
       '<div class="aq-result-head">' +
       '<div class="aq-score-ring" aria-label="' + nota + ' acertos de ' + total + '"><strong>' + nota + '</strong><small>de ' + total + '</small></div>' +
-      '<div><h2>' + mensagem.titulo + '</h2><p>' + mensagem.texto + '</p></div>' +
+      '<div><h2>' + mensagem.titulo + '</h2><p>' + mensagem.texto + '</p>' +
+      '<p class="aq-approval ' + (aprovado ? 'ok' : 'warn') + '">Aproveitamento: <strong>' + pct + '%</strong> · ' +
+      (aprovado ? 'Aprovado (mínimo 80%).' : 'Ainda não aprovado (mínimo 80%).') + '</p></div>' +
       '</div>' +
       '<div class="aq-review">' + revisao + '</div>' +
       (conteudo.closing ? '<div class="aq-closing"><h3>O que levar para o plantão</h3>' + prose(conteudo.closing) + '</div>' : '') +

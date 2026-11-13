@@ -36,6 +36,7 @@ a{color:var(--aq-teal)}
 .aq-top-inner{max-width:1180px;margin:0 auto;padding:14px 28px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .aq-brand{display:block;text-decoration:none}
 .aq-brand img{display:block;height:34px;width:auto}
+.aq-logo-escuro{display:none}
 .aq-badge{font-size:10px;font-weight:700;letter-spacing:.22em;color:var(--aq-teal);border-left:1px solid var(--aq-line);padding-left:18px}
 .aq-top-actions{margin-left:auto;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
 .aq-link{font-size:12px;font-weight:700;color:var(--aq-teal);text-decoration:none}
@@ -88,6 +89,21 @@ a{color:var(--aq-teal)}
 .aq-question-title{font-size:30px;margin:0 0 16px}
 .aq-stem{font-size:16px;line-height:1.75;color:#3A4241;margin:0 0 22px}
 .aq-stem strong{color:var(--aq-text)}
+/* Tabela laboratorial: rolagem horizontal própria em telas estreitas. */
+.aq-table-wrap{margin:4px 0 22px;overflow-x:auto;border:1px solid var(--aq-line);border-radius:12px;background:#fff;-webkit-overflow-scrolling:touch}
+.aq-table-wrap:focus-visible{outline:3px solid var(--aq-teal);outline-offset:2px}
+.aq-table{border-collapse:collapse;width:100%;min-width:340px;font-size:14px;line-height:1.5}
+.aq-table caption{text-align:left;padding:12px 16px 0;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--aq-muted)}
+.aq-table th,.aq-table td{padding:11px 16px;text-align:left;vertical-align:top;border-bottom:1px solid var(--aq-line)}
+.aq-table thead th{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--aq-muted);background:#F7FAFA;white-space:nowrap}
+.aq-table tbody th{font-weight:700;color:var(--aq-text);white-space:nowrap}
+.aq-table tbody tr:last-child th,.aq-table tbody tr:last-child td{border-bottom:0}
+.aq-explanation{margin:0 0 14px}
+.aq-explanation p{margin:0 0 12px}
+.aq-explanation p:last-child{margin-bottom:0}
+.aq-approval{font-size:13px;font-weight:700;margin:8px 0 0}
+.aq-approval.ok{color:var(--aq-ok)}
+.aq-approval.warn{color:var(--aq-warn)}
 
 /* -------------------------------------------------------- alternativas */
 .aq-options{border:0;padding:0;margin:22px 0;display:grid;gap:12px;min-width:0}
@@ -205,3 +221,143 @@ a{color:var(--aq-teal)}
   .aq-stats{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* ------------------------------------------------------------------ tema
+   Exclusivo do curso Tratamento da Hipercalemia: azul-petróleo profundo,
+   cartões em petróleo, violeta/lilás como destaque e texto claro. O bloco é
+   aplicado por data-aq-tema no <body>, então não altera a identidade global
+   nem o Caderno de Erros dos demais cursos. */
+body[data-aq-tema="hipercalemia"]{
+  --aq-teal:#CFBFFF;
+  --aq-teal-dark:#B6A0F4;
+  --aq-teal-soft:#173B49;
+  --aq-teal-line:#315B69;
+  --aq-gray:#7E97A1;
+  --aq-bg:#061F27;
+  --aq-card:#0D303B;
+  --aq-line:#315B69;
+  --aq-text:#F1F4F8;
+  --aq-muted:#B5CAD3;
+  --aq-ok:#6FD9A0;
+  --aq-ok-bg:#10362A;
+  --aq-warn:#FF9B92;
+  --aq-warn-bg:#3A1F20;
+  --aq-shadow:0 12px 40px rgba(0,0,0,.36),0 2px 8px rgba(0,0,0,.28);
+  background:var(--aq-bg);
+  color:var(--aq-text);
+}
+body[data-aq-tema="hipercalemia"] ::selection{background:#B6A0F4;color:#0B1E26}
+body[data-aq-tema="hipercalemia"] button:focus-visible,
+body[data-aq-tema="hipercalemia"] a:focus-visible,
+body[data-aq-tema="hipercalemia"] input:focus-visible,
+body[data-aq-tema="hipercalemia"] summary:focus-visible,
+body[data-aq-tema="hipercalemia"] .aq-table-wrap:focus-visible{outline-color:#CFBFFF}
+body[data-aq-tema="hipercalemia"] a{color:#CFBFFF}
+
+body[data-aq-tema="hipercalemia"] .aq-top{background:#0D303B;border-bottom-color:#315B69}
+body[data-aq-tema="hipercalemia"] .aq-logo-claro{display:none}
+body[data-aq-tema="hipercalemia"] .aq-logo-escuro{display:block}
+body[data-aq-tema="hipercalemia"] .aq-badge{color:#CFBFFF;border-left-color:#315B69}
+body[data-aq-tema="hipercalemia"] .aq-link{color:#CFBFFF}
+body[data-aq-tema="hipercalemia"] .aq-skip{background:#9552D0;color:#fff}
+
+body[data-aq-tema="hipercalemia"] .aq-btn{background:#0D303B;color:#CFBFFF;border-color:#315B69}
+body[data-aq-tema="hipercalemia"] .aq-btn:hover:not(:disabled){background:#173B49}
+body[data-aq-tema="hipercalemia"] .aq-btn.primary{background:#9552D0;border-color:#9552D0;color:#fff}
+body[data-aq-tema="hipercalemia"] .aq-btn.primary:hover:not(:disabled){background:#7A3FBF;border-color:#7A3FBF}
+body[data-aq-tema="hipercalemia"] .aq-btn.ghost{background:transparent;color:#CFBFFF}
+
+body[data-aq-tema="hipercalemia"] .aq-crumb{color:#B5CAD3}
+body[data-aq-tema="hipercalemia"] .aq-crumb a{color:#CFBFFF}
+body[data-aq-tema="hipercalemia"] .aq-crumb span[aria-hidden]{color:#5E7A85}
+body[data-aq-tema="hipercalemia"] .aq-hero{border-bottom-color:#315B69}
+body[data-aq-tema="hipercalemia"] .aq-hero h1 em{color:#B6A0F4}
+body[data-aq-tema="hipercalemia"] .aq-eyebrow{color:#B6A0F4}
+body[data-aq-tema="hipercalemia"] .aq-subtitle{color:#B5CAD3}
+body[data-aq-tema="hipercalemia"] .aq-tags span{color:#CFBFFF;border-color:#315B69;background:#0D303B}
+
+body[data-aq-tema="hipercalemia"] .aq-card p{color:#DDE7EC}
+body[data-aq-tema="hipercalemia"] .aq-note{background:#173B49;border-left-color:#9552D0;color:#E7EEF2}
+body[data-aq-tema="hipercalemia"] .aq-alert{background:#3A1F20;border-color:#7A4442;color:#FFD9D5}
+body[data-aq-tema="hipercalemia"] .aq-muted{color:#B5CAD3}
+body[data-aq-tema="hipercalemia"] .aq-save{color:#B5CAD3}
+
+body[data-aq-tema="hipercalemia"] .aq-progress-top{color:#B5CAD3}
+body[data-aq-tema="hipercalemia"] .aq-progress-top strong{color:#CFBFFF}
+body[data-aq-tema="hipercalemia"] .aq-segments span{background:#1C4351}
+body[data-aq-tema="hipercalemia"] .aq-segments .done{background:#9552D0}
+body[data-aq-tema="hipercalemia"] .aq-segments .current{background:#B6A0F4}
+body[data-aq-tema="hipercalemia"] .aq-stem{color:#DDE7EC}
+body[data-aq-tema="hipercalemia"] .aq-stem strong{color:#F1F4F8}
+
+body[data-aq-tema="hipercalemia"] .aq-table-wrap{background:#0D303B;border-color:#315B69}
+body[data-aq-tema="hipercalemia"] .aq-table caption{color:#B5CAD3}
+body[data-aq-tema="hipercalemia"] .aq-table th,
+body[data-aq-tema="hipercalemia"] .aq-table td{border-bottom-color:#315B69}
+body[data-aq-tema="hipercalemia"] .aq-table thead th{color:#CFBFFF;background:#123642}
+body[data-aq-tema="hipercalemia"] .aq-table tbody th{color:#F1F4F8}
+body[data-aq-tema="hipercalemia"] .aq-table td{color:#DDE7EC}
+
+body[data-aq-tema="hipercalemia"] .aq-option{background:#0D303B;border-color:#315B69;color:#E7EEF2}
+body[data-aq-tema="hipercalemia"] .aq-option:hover{border-color:#5A86A0;background:#123642}
+body[data-aq-tema="hipercalemia"] .aq-option:has(input:checked){border-color:#9552D0;background:#241F45;box-shadow:0 0 0 1px #9552D0}
+body[data-aq-tema="hipercalemia"] .aq-option input{accent-color:#9552D0}
+body[data-aq-tema="hipercalemia"] .aq-letter{background:#0D303B;border-color:#315B69;color:#CFBFFF}
+body[data-aq-tema="hipercalemia"] .aq-option:has(input:checked) .aq-letter{background:#9552D0;border-color:#9552D0;color:#fff}
+body[data-aq-tema="hipercalemia"] .aq-option.correct{border-color:#2F7A5B;background:#10362A}
+body[data-aq-tema="hipercalemia"] .aq-option.correct .aq-letter{background:#6FD9A0;border-color:#6FD9A0;color:#06231A}
+body[data-aq-tema="hipercalemia"] .aq-option.wrong{border-color:#8A4A47;background:#3A1F20}
+body[data-aq-tema="hipercalemia"] .aq-option.wrong .aq-letter{background:#FF9B92;border-color:#FF9B92;color:#3A1414}
+body[data-aq-tema="hipercalemia"] .aq-selection{color:#B5CAD3}
+
+body[data-aq-tema="hipercalemia"] .aq-feedback{background:#0B2A33;border-color:#315B69}
+body[data-aq-tema="hipercalemia"] .aq-feedback.wrong{background:#2A1B1C;border-color:#7A4442}
+body[data-aq-tema="hipercalemia"] .aq-feedback h3{color:#6FD9A0}
+body[data-aq-tema="hipercalemia"] .aq-feedback.wrong h3{color:#FF9B92}
+body[data-aq-tema="hipercalemia"] .aq-answer{color:#B6A0F4}
+body[data-aq-tema="hipercalemia"] .aq-feedback.wrong .aq-answer{color:#FF9B92}
+body[data-aq-tema="hipercalemia"] .aq-feedback p{color:#DDE7EC}
+body[data-aq-tema="hipercalemia"] .aq-analysis{border-top-color:#315B69}
+body[data-aq-tema="hipercalemia"] .aq-analysis>summary{color:#F1F4F8}
+body[data-aq-tema="hipercalemia"] .aq-alt{background:#0D303B;border-left-color:#315B69}
+body[data-aq-tema="hipercalemia"] .aq-alt.correct{border-left-color:#6FD9A0;background:#10362A}
+body[data-aq-tema="hipercalemia"] .aq-alt.chosen{border-left-color:#9552D0;background:#241F45}
+body[data-aq-tema="hipercalemia"] .aq-alt.correct.chosen{border-left-color:#6FD9A0;background:#10362A}
+body[data-aq-tema="hipercalemia"] .aq-alt-head{color:#F1F4F8}
+body[data-aq-tema="hipercalemia"] .aq-alt p{color:#DDE7EC}
+body[data-aq-tema="hipercalemia"] .aq-pearl{background:#9552D0;color:#fff}
+body[data-aq-tema="hipercalemia"] .aq-pearl strong{color:#EADDFA}
+body[data-aq-tema="hipercalemia"] .aq-ref{color:#B5CAD3}
+body[data-aq-tema="hipercalemia"] .aq-ref a{color:#CFBFFF}
+
+body[data-aq-tema="hipercalemia"] .aq-score-ring{background:#0D303B;border-color:#9552D0;color:#CFBFFF}
+body[data-aq-tema="hipercalemia"] .aq-score-ring small{color:#B5CAD3}
+body[data-aq-tema="hipercalemia"] .aq-result-head p{color:#B5CAD3}
+body[data-aq-tema="hipercalemia"] .aq-review details{background:#0D303B;border-color:#315B69}
+body[data-aq-tema="hipercalemia"] .aq-review summary{color:#F1F4F8}
+body[data-aq-tema="hipercalemia"] .aq-review .aq-tag{color:#6FD9A0}
+body[data-aq-tema="hipercalemia"] .aq-review .aq-tag.wrong{color:#FF9B92}
+body[data-aq-tema="hipercalemia"] .aq-review-body{border-top-color:#315B69}
+body[data-aq-tema="hipercalemia"] .aq-review-body p{color:#DDE7EC}
+body[data-aq-tema="hipercalemia"] .aq-closing{border-top-color:#315B69}
+
+body[data-aq-tema="hipercalemia"] .aq-dialog{background:#0D303B;border-color:#315B69;color:#F1F4F8;box-shadow:0 24px 80px rgba(0,0,0,.5)}
+body[data-aq-tema="hipercalemia"] .aq-dialog::backdrop{background:rgba(3,12,16,.72)}
+body[data-aq-tema="hipercalemia"] .aq-dialog-head{background:#0D303B;border-bottom-color:#315B69}
+body[data-aq-tema="hipercalemia"] .aq-history-item,
+body[data-aq-tema="hipercalemia"] .aq-notebook-item{background:#0D303B;border-color:#315B69}
+body[data-aq-tema="hipercalemia"] .aq-history-item strong,
+body[data-aq-tema="hipercalemia"] .aq-notebook-item strong{color:#F1F4F8}
+body[data-aq-tema="hipercalemia"] .aq-history-item p,
+body[data-aq-tema="hipercalemia"] .aq-notebook-item p{color:#B5CAD3}
+body[data-aq-tema="hipercalemia"] .aq-empty{border-color:#315B69;color:#B5CAD3}
+
+body[data-aq-tema="hipercalemia"] .aq-stat{background:#0D303B;border-color:#315B69}
+body[data-aq-tema="hipercalemia"] .aq-stat strong{color:#B6A0F4}
+body[data-aq-tema="hipercalemia"] .aq-stat span{color:#B5CAD3}
+body[data-aq-tema="hipercalemia"] .aq-state.precisa_revisar{color:#FF9B92;border-color:#8A4A47;background:#3A1F20}
+body[data-aq-tema="hipercalemia"] .aq-state.em_revisao{color:#F0C674;border-color:#8A6E33;background:#33290F}
+body[data-aq-tema="hipercalemia"] .aq-state.dominada{color:#6FD9A0;border-color:#2F7A5B;background:#10362A}
+body[data-aq-tema="hipercalemia"] .aq-footer{color:#7E97A1}
+body[data-aq-tema="hipercalemia"] .aq-approval.ok{color:#6FD9A0}
+body[data-aq-tema="hipercalemia"] .aq-approval.warn{color:#FF9B92}

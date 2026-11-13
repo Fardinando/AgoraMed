@@ -14,6 +14,24 @@
     return esc(s).replace(/(https?:\/\/[^\s<]+)/g,
       '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>');
   }
+  /* Tabela laboratorial: legível em telas pequenas por meio de rolagem própria. */
+  function tabela(t) {
+    if (!t || !Array.isArray(t.rows) || !t.rows.length) return '';
+    const cabecalho = Array.isArray(t.headers) && t.headers.length
+      ? '<thead><tr>' + t.headers.map((h) => '<th scope="col">' + inline(h) + '</th>').join('') + '</tr></thead>'
+      : '';
+    const corpo = '<tbody>' + t.rows.map((linha) => '<tr>' +
+      (Array.isArray(linha) ? linha : []).map((celula, i) => i === 0
+        ? '<th scope="row">' + inline(celula) + '</th>'
+        : '<td>' + inline(celula) + '</td>').join('') + '</tr>').join('') + '</tbody>';
+    const legenda = t.caption ? '<caption>' + inline(t.caption) + '</caption>' : '';
+    return '<div class="aq-table-wrap" role="region" tabindex="0" aria-label="' +
+      esc(t.caption || 'Tabela de exames') + '"><table class="aq-table">' + legenda + cabecalho + corpo + '</table></div>';
+  }
+  /* Enunciado completo: texto, tabela de exames e o trecho posterior à tabela. */
+  function enunciado(q) {
+    return prose(q.stem) + tabela(q.table) + (q.stemAfter ? prose(q.stemAfter) : '');
+  }
   function data(iso) {
     if (!iso) return '';
     const d = new Date(iso);
@@ -216,8 +234,9 @@
       '<div id="cd-review-error" class="aq-alert" role="alert" hidden></div>' +
       '<div class="cd-review-head"><span class="cd-review-progress">QUESTÃO ' + esc(revisao.numero) + '</span>' +
       '<span class="aq-state ' + esc(revisao.estado) + '">' + esc(rotuloEstado(revisao)) + '</span></div>' +
+      (revisao.competency ? '<p class="aq-eyebrow">' + esc(revisao.competency) + '</p>' : '') +
       '<h2>' + esc(revisao.title) + '</h2>' +
-      '<div class="cd-review-stem">' + prose(revisao.stem) + '</div>' +
+      '<div class="cd-review-stem">' + enunciado(revisao) + '</div>' +
       opcoesHTML(revisao) +
       '<p class="aq-selection" data-selection>Selecione uma alternativa para confirmar.</p>' +
       '<div class="cd-review-actions">' +
@@ -267,7 +286,7 @@
     corpoDialogo.innerHTML = '<section class="aq-feedback' + (ok ? '' : ' wrong') + '" aria-live="polite">' +
       '<p class="aq-answer">SUA RESPOSTA: ' + esc(r.escolha) + ' · ' + (ok ? 'CORRETA' : 'INCORRETA') + '</p>' +
       '<h3>' + (ok ? 'Resposta correta.' : 'Vale revisar este ponto.') + '</h3>' +
-      '<p>' + esc(r.correctExplanation) + '</p>' +
+      '<div class="aq-explanation">' + prose(r.correctExplanation) + '</div>' +
       '<details class="aq-analysis" open><summary>Análise das quatro alternativas</summary>' + analise + '</details>' +
       '<div class="aq-pearl"><strong>PÉROLA DO PLANTÃO</strong><p>' + esc(r.pearl) + '</p></div>' +
       '<p class="aq-ref"><strong>Referência:</strong> ' + refs(r.reference) + '</p>' +

@@ -12,16 +12,19 @@ const MIGRACAO_AULA_01 = '20261111233000_agoraquest_hipercalemia_aula_01.sql';
 const MIGRACAO_AULA_02 = '20261112120000_agoraquest_aula_02_e_caderno_erros.sql';
 const MIGRACAO_AULA_03 = '20261112150000_agoraquest_aula_03.sql';
 const MIGRACAO_AULA_04 = '20261112170000_agoraquest_aula_04.sql';
+const MIGRACAO_AULA_05 = '20261112190000_agoraquest_aula_05.sql';
 const AULA = ids.aula;
 const CURSO_HIPER = 'fa3c5d8d-94c4-4321-be7a-1cc45741a983';
 const AULA_01 = Q.porSlug('hipercalemia-aula-01-v1');
 const AULA_02 = Q.porSlug('hipercalemia-aula-02-v1');
 const AULA_03 = Q.porSlug('hipercalemia-aula-03-v1');
 const AULA_04 = Q.porSlug('hipercalemia-aula-04-v1');
+const AULA_05 = Q.porSlug('hipercalemia-aula-05-v1');
 const SLUG_01 = 'hipercalemia-aula-01-v1';
 const SLUG_02 = 'hipercalemia-aula-02-v1';
 const SLUG_03 = 'hipercalemia-aula-03-v1';
 const SLUG_04 = 'hipercalemia-aula-04-v1';
+const SLUG_05 = 'hipercalemia-aula-05-v1';
 
 const migracao = (nome) => fs.readFileSync(path.join(__dirname, '../supabase/migrations', nome), 'utf8');
 
@@ -276,6 +279,85 @@ const aprovado04 = [
   }
 ];
 
+/* Conteúdo aprovado da Aula 05, transcrito do enunciado entregue. */
+const aprovado05 = [
+  {
+    title: "O potássio subiu, mas o rim está funcionando",
+    competency: "Reconhecer o mecanismo predominante",
+    stem: "Um homem de 28 anos, com diabetes mellitus tipo 1, é admitido na emergência com poliúria, polidipsia, vômitos e respiração de Kussmaul. Relata interrupção do uso de insulina há aproximadamente dois dias.\n\nOs exames mostram:",
+    table: {"caption":"Exames iniciais","headers":["Parâmetro","Resultado"],"rows":[["Glicemia","584 mg/dL"],["pH arterial","7,12"],["Bicarbonato","9 mEq/L"],["Potássio","6,2 mEq/L"],["Creatinina","1,1 mg/dL"]]},
+    stemAfter: "Um interno observa a creatinina próxima da normalidade e questiona como o paciente poderia apresentar hipercalemia sem insuficiência renal evidente.\n\nQual explicação fisiopatológica é mais adequada?",
+    choices: {
+      A: "A acidemia provoca obrigatoriamente a saída de potássio das células, sendo o principal mecanismo de hipercalemia em qualquer tipo de acidose metabólica.",
+      B: "A deficiência de insulina reduz a entrada celular de potássio, enquanto a hiperosmolalidade favorece sua saída para o meio extracelular, mesmo quando existe déficit corporal de potássio.",
+      C: "A hiperglicemia aumenta a quantidade total de potássio do organismo por estimular sua absorção intestinal.",
+      D: "A creatinina próxima da normalidade demonstra que a hipercalemia é necessariamente causada por aumento da ingestão de potássio."
+    },
+    pearl: "Na cetoacidose diabética, o potássio elevado pode ser o primeiro número que chama sua atenção, mas a hipocalemia durante o tratamento pode se tornar o próximo problema. Antecipe essa mudança desde a avaliação inicial.",
+    reference: "Causes and evaluation of hyperkalemia in adults, seção “Insulin deficiency, hyperglycemia, and hyperosmolality”; Treatment and prevention of hyperkalemia in adults, introdução."
+  },
+  {
+    title: "O potássio caiu. Ele foi eliminado?",
+    competency: "Interpretar a resposta à redistribuição",
+    stem: "Um homem de 66 anos, com doença renal crônica avançada, apresenta potássio sérico de 6,7 mEq/L. Após avaliação e início do tratamento, recebe insulina intravenosa associada à glicose.\n\nUma hora depois, o potássio é de 5,5 mEq/L. O paciente permanece oligúrico.\n\nUm interno afirma:\n\n“Ótimo. A insulina eliminou o excesso de potássio. Agora não precisamos mais nos preocupar com ele.”\n\nQual é a melhor resposta a essa afirmação?",
+    table: undefined,
+    stemAfter: undefined,
+    choices: {
+      A: "A queda do potássio demonstra que a insulina aumentou a eliminação renal, mesmo na presença de oligúria.",
+      B: "A insulina transforma o potássio extracelular em uma substância eletricamente inativa, eliminando seu risco cardíaco.",
+      C: "A redução da concentração sérica resulta principalmente da entrada de potássio nas células; como a eliminação renal permanece comprometida, existe risco de nova elevação.",
+      D: "O risco de rebote só existe quando o paciente apresenta hipercalemia causada por aumento da ingestão alimentar."
+    },
+    pearl: "Uma queda expressiva do potássio após insulina pode dar uma falsa sensação de segurança. Pergunte sempre: “O potássio saiu do organismo ou apenas mudou de compartimento?”",
+    reference: "Treatment and prevention of hyperkalemia in adults, abordagem da redistribuição e remoção de potássio."
+  },
+  {
+    title: "O paciente foi retirado dos escombros. O risco terminou?",
+    competency: "Identificar liberação celular contínua e antecipar deterioração",
+    stem: "Um homem de 39 anos é resgatado após permanecer seis horas com os membros inferiores comprimidos por escombros.\n\nNa admissão, apresenta dor muscular intensa, edema das coxas e urina escurecida.\n\nOs exames iniciais mostram:",
+    table: {"caption":"Exames iniciais","headers":["Parâmetro","Resultado"],"rows":[["Potássio","5,8 mEq/L"],["Creatinina","1,3 mg/dL"],["Creatinoquinase","28.400 U/L"],["pH arterial","7,31"]]},
+    stemAfter: "O eletrocardiograma não apresenta alterações sugestivas de hipercalemia.\n\nDuas horas depois, apesar da ausência de administração de potássio, uma nova dosagem mostra 6,4 mEq/L.\n\nQual interpretação melhor explica essa evolução e orienta a vigilância do paciente?",
+    choices: {
+      A: "A elevação do potássio indica necessariamente que o paciente desenvolveu insuficiência renal grave entre as duas dosagens.",
+      B: "A creatinoquinase elevada é responsável por converter sódio em potássio, aumentando sua produção.",
+      C: "A ausência de alterações eletrocardiográficas demonstra que a elevação decorre apenas de pseudohipercalemia.",
+      D: "A lesão muscular pode continuar liberando potássio intracelular, produzindo elevação progressiva, que pode ser agravada por comprometimento da excreção renal."
+    },
+    pearl: "Na rabdomiólise, o potássio pode estar subindo enquanto você ainda aguarda uma elevação expressiva da creatinina. Não espere a insuficiência renal se tornar evidente para reconhecer o risco.",
+    reference: "Causes and evaluation of hyperkalemia in adults, seção “Increased tissue catabolism”; Treatment and prevention of hyperkalemia in adults, seção “Determining the urgency of therapy”."
+  },
+  {
+    title: "Toda acidose desloca potássio da mesma maneira?",
+    competency: "Evitar uma generalização fisiopatológica",
+    stem: "Durante uma discussão de casos na emergência, dois pacientes apresentam acidose metabólica.\n\nO primeiro tem diarreia intensa, bicarbonato de 12 mEq/L e acidose metabólica hiperclorêmica.\n\nO segundo apresenta cetoacidose diabética, com glicemia de 530 mg/dL, bicarbonato de 10 mEq/L e deficiência importante de insulina.\n\nUm residente afirma:\n\n“Nos dois casos, o potássio sobe pelo mesmo mecanismo. Quanto mais baixo o pH, maior será obrigatoriamente o potássio sérico.”\n\nQual afirmação corrige melhor esse raciocínio?",
+    table: undefined,
+    stemAfter: undefined,
+    choices: {
+      A: "O efeito da acidose sobre a distribuição do potássio depende do tipo de distúrbio; na acidose metabólica mineral, o deslocamento transcelular pode ser mais pronunciado, enquanto na cetoacidose a deficiência de insulina e a hiperosmolalidade têm papel importante.",
+      B: "A acidose metabólica não interfere na distribuição do potássio, independentemente de sua causa.",
+      C: "Na cetoacidose diabética, o aumento do potássio sérico demonstra que as perdas urinárias foram interrompidas.",
+      D: "O pH permite estimar com precisão o potássio sérico, dispensando sua dosagem laboratorial."
+    },
+    pearl: "Diante de um paciente acidótico com hipercalemia, não encerre o raciocínio dizendo que “o potássio subiu por causa do pH”. Identifique qual acidose está presente e quais outros mecanismos estão atuando.",
+    reference: "Causes and evaluation of hyperkalemia in adults, seções “Metabolic acidosis” e “Insulin deficiency, hyperglycemia, and hyperosmolality”."
+  },
+  {
+    title: "Quando dois mecanismos se encontram",
+    competency: "Integrar mecanismos e antecipar risco clínico",
+    stem: "Um homem de 58 anos, com doença renal crônica, é internado após iniciar quimioterapia para uma neoplasia hematológica de elevada carga tumoral.\n\nNas últimas 12 horas, apresenta redução importante da diurese.\n\nOs exames mostram:",
+    table: {"caption":"Exames laboratoriais","headers":["Parâmetro","Resultado"],"rows":[["Potássio inicial","5,1 mEq/L"],["Potássio atual","6,6 mEq/L"],["Creatinina","3,2 mg/dL"],["Fósforo","7,1 mg/dL"],["Ácido úrico","11,8 mg/dL"],["Diurese","180 mL em 12 horas"]]},
+    stemAfter: "O quadro levanta forte suspeita de síndrome de lise tumoral.\n\nUm interno pergunta por que o potássio aumentou tão rapidamente, apesar de o paciente não ter recebido reposição desse eletrólito.\n\nQual interpretação melhor explica o caso e orienta a conduta?",
+    choices: {
+      A: "A hipercalemia é causada exclusivamente pela doença renal crônica, pois a destruição tumoral não interfere na concentração de potássio.",
+      B: "A elevação do potássio decorre apenas de redistribuição temporária; portanto, a oligúria não modifica o risco de recorrência.",
+      C: "A ausência de reposição de potássio indica que o resultado deve ser considerado pseudohipercalemia até prova em contrário.",
+      D: "A lise tumoral libera potássio intracelular, enquanto o comprometimento renal reduz sua eliminação; a combinação favorece hipercalemia rápida e potencialmente persistente, exigindo avaliação e tratamento urgentes."
+    },
+    pearl: "Quando o potássio está sendo liberado continuamente e o rim perdeu a capacidade de eliminá-lo, o problema pode progredir mesmo após uma resposta inicial ao tratamento. Não acompanhe apenas o valor atual: acompanhe a direção em que ele está caminhando.",
+    reference: "Causes and evaluation of hyperkalemia in adults, seções “Increased tissue catabolism” e “Acute and chronic kidney disease”; Treatment and prevention of hyperkalemia in adults, seção “Determining the urgency of therapy”."
+  }
+];
+
 function conferirConteudo(conteudo, aprovado, chave) {
   assert.equal(conteudo.questions.length, aprovado.length);
   assert.equal(conteudo.questions.length, 5);
@@ -291,6 +373,29 @@ function conferirConteudo(conteudo, aprovado, chave) {
     assert.ok(q.correctExplanation.length > 80);
     assert.equal(q.pearl, aprovado[i].pearl);
     assert.ok((q.reference || conteudo.references).length > 10);
+  });
+}
+
+/* Aula 05 acrescenta competência, tabela laboratorial e trecho após a tabela. */
+function conferirConteudo05(conteudo, aprovado) {
+  assert.equal(conteudo.questions.length, aprovado.length);
+  assert.equal(conteudo.questions.length, 5);
+  assert.deepEqual(conteudo.key, ['B', 'C', 'D', 'A', 'D']);
+  assert.deepEqual(Q.keyOf(conteudo), ['B', 'C', 'D', 'A', 'D']);
+  conteudo.questions.forEach((q, i) => {
+    assert.equal(q.number, i + 1);
+    assert.equal(q.title, aprovado[i].title);
+    assert.equal(q.competency, aprovado[i].competency);
+    assert.equal(q.stem, aprovado[i].stem);
+    assert.deepEqual(q.table, aprovado[i].table);
+    assert.equal(q.stemAfter, aprovado[i].stemAfter);
+    assert.deepEqual(q.choices, aprovado[i].choices);
+    assert.deepEqual(Object.keys(q.feedback), ['A', 'B', 'C', 'D']);
+    for (const letra of 'ABCD') assert.ok(q.feedback[letra].length > 60);
+    assert.ok(q.correctExplanation.length > 300);
+    assert.match(q.correctExplanation, /\n\s*\n/, 'a explicação deve ter múltiplos parágrafos');
+    assert.equal(q.pearl, aprovado[i].pearl);
+    assert.equal(q.reference, aprovado[i].reference);
   });
 }
 
@@ -341,6 +446,29 @@ test('Aula 04: cinco questões exatas, gabarito B-D-A-C-D, análises e pérolas'
   assert.equal(AULA_04.questions[4].pearl, 'Pseudohipercalemia é uma hipótese laboratorial. Instabilidade e alterações elétricas compatíveis com hipercalemia são problemas clínicos que não podem esperar.');
   assert.ok(AULA_04.closing.includes('Pseudohipercalemia é uma hipótese'));
   assert.equal(AULA_04.questions.filter((q) => q.reference || AULA_04.references).length, 5);
+});
+
+/* Aula 05: cinco questões exatas, gabarito B-C-D-A-D, tabelas, competências e pérolas. */
+test('Aula 05: cinco questões exatas, gabarito B-C-D-A-D, tabelas e competências', () => {
+  assert.equal(AULA_05.slug, SLUG_05);
+  assert.equal(AULA_05.versao, 1);
+  assert.equal(AULA_05.title, 'Hipercalemia — Aula 05');
+  assert.equal(AULA_05.subtitle, 'Redistribuição e liberação celular de potássio');
+  conferirConteudo05(AULA_05, aprovado05);
+  assert.deepEqual(AULA_05.questions.map((q) => q.number), [1, 2, 3, 4, 5]);
+  assert.deepEqual(AULA_05.questions.map((q) => q.competency), aprovado05.map((q) => q.competency));
+  /* Somente as questões 01, 03 e 05 trazem tabela laboratorial. */
+  assert.deepEqual(AULA_05.questions.filter((q) => q.table).map((q) => q.number), [1, 3, 5]);
+  assert.deepEqual(AULA_05.questions[0].table.rows, [
+    ['Glicemia', '584 mg/dL'], ['pH arterial', '7,12'], ['Bicarbonato', '9 mEq/L'],
+    ['Potássio', '6,2 mEq/L'], ['Creatinina', '1,1 mg/dL']
+  ]);
+  assert.equal(AULA_05.questions[0].table.caption, 'Exames iniciais');
+  assert.match(AULA_05.questions[0].correctExplanation, /Na⁺\/K⁺-ATPase/);
+  assert.match(AULA_05.questions[4].correctExplanation, /síndrome de lise tumoral/);
+  assert.ok(AULA_05.closing.includes('Redistribuição e remoção são processos diferentes'));
+  assert.equal(AULA_05.questions.filter((q) => q.reference).length, 5);
+  assert.match(AULA_05.references, /UpToDate/);
 });
 
 /* 5, 6, 9, 10 — feedback imediato, bloqueio, avanço e pontuação. */
@@ -461,6 +589,46 @@ test('engine: Aula 04 usa o próprio gabarito, bloqueia a resposta e aprova com 
   assert.equal(Q.E.score(perfeito, Q.keyOf(AULA_04)), 5);
 });
 
+/* Aula 05: gabarito próprio, tabelas visíveis antes e depois, aprovação em 80%. */
+test('engine: Aula 05 usa o próprio gabarito, expõe tabelas e aprova com 80%', () => {
+  let s = Q.E.fresh();
+  const inicial = Q.visible(s, AULA_05);
+  assert.equal(inicial.questions[0].competency, 'Reconhecer o mecanismo predominante');
+  assert.ok(inicial.questions[0].table);
+  assert.ok(inicial.questions[0].stemAfter);
+  assert.equal(inicial.questions[1].table, undefined);
+  assert.equal(inicial.questions[3].stemAfter, undefined);
+  assert.ok(inicial.questions.every((q) => !q.feedback && !q.correctChoice && !q.correctExplanation && !q.pearl && !q.reference));
+  assert.equal(inicial.closing, undefined);
+
+  s = Q.transition(s, 'answer', { choice: 'A' }, AULA_05);
+  const depois = Q.visible(s, AULA_05);
+  assert.equal(depois.questions[0].correctChoice, 'B');
+  assert.ok(depois.questions[0].table, 'a tabela continua visível após responder');
+  assert.equal(depois.questions[0].stemAfter, AULA_05.questions[0].stemAfter);
+  assert.equal(Q.publicState(s, AULA_05).answers[0].correct, false);
+  assert.throws(() => Q.transition(s, 'answer', { choice: 'B' }, AULA_05), /Seleção indisponível/);
+  s = Q.transition(s, 'next', {}, AULA_05);
+
+  for (let i = 1; i < 5; i++) {
+    s = Q.transition(s, 'answer', { choice: Q.keyOf(AULA_05)[i] }, AULA_05);
+    s = Q.transition(s, 'next', {}, AULA_05);
+  }
+  assert.ok(s.finishedAt);
+  assert.equal(Q.E.score(s, Q.keyOf(AULA_05)), 4);
+  assert.equal(Q.publicState(s, AULA_05).score, 4);
+  assert.ok(Q.visible(s, AULA_05).closing);
+  assert.equal(Q.visible(s, AULA_05).questions[4].correctChoice, 'D');
+  assert.throws(() => Q.transition(s, 'answer', { choice: 'C' }, AULA_05), /já foi concluída/);
+
+  let perfeito = Q.E.fresh();
+  for (let i = 0; i < 5; i++) {
+    perfeito = Q.transition(perfeito, 'answer', { choice: Q.keyOf(AULA_05)[i] }, AULA_05);
+    perfeito = Q.transition(perfeito, 'next', {}, AULA_05);
+  }
+  assert.equal(Q.E.score(perfeito, Q.keyOf(AULA_05)), 5);
+});
+
 /* 11, 12, 13, 15 — domínio do caderno: identificação, indicadores, agrupamento e revisão. */
 test('caderno: identificação estável, indicadores, agrupamento e revisão sem gabarito antecipado', () => {
   assert.equal(N.questaoId(SLUG_02, 3), 'hipercalemia-aula-02-v1#3');
@@ -506,6 +674,30 @@ test('caderno: identificação estável, indicadores, agrupamento e revisão sem
   assert.equal(resultado.pearl, AULA_02.questions[2].pearl);
 });
 
+/* Aula 05 no caderno: revisão preserva tabela, competência e stemAfter sem vazar o gabarito. */
+test('caderno: revisão da Aula 05 preserva tabela, competência e stemAfter sem gabarito', () => {
+  const row = {
+    id: 'cad-5', questao_id: SLUG_05 + '#1', slug: SLUG_05, numero: 1, aula_id: AULA,
+    estado: 'precisa_revisar', erros: 1, revisoes: 0, acertos_seguidos: 0,
+    ultima_escolha: 'A', ultimo_erro_em: '2026-11-12T12:00:00.000Z', atualizado_em: '2026-11-12T12:00:00.000Z',
+    aulas: { titulo: 'Redistribuição e liberação celular de potássio', ordem: 2, modulos: { titulo: 'Módulo 2', ordem: 2, curso_id: CURSO_HIPER, cursos: { id: CURSO_HIPER, titulo: 'Tratamento da Hipercalemia em Adultos' } } }
+  };
+  const revisao = N.revisaoView(row, AULA_05);
+  assert.equal(revisao.competency, AULA_05.questions[0].competency);
+  assert.deepEqual(revisao.table, AULA_05.questions[0].table);
+  assert.equal(revisao.stemAfter, AULA_05.questions[0].stemAfter);
+  assert.equal(revisao.correctChoice, undefined);
+  assert.equal(revisao.feedback, undefined);
+  assert.equal(revisao.correctExplanation, undefined);
+  assert.equal(revisao.pearl, undefined);
+
+  const resultado = N.resultadoRevisao(row, AULA_05, 'A');
+  assert.equal(resultado.correctChoice, 'B');
+  assert.equal(resultado.correta, false);
+  assert.match(resultado.correctExplanation, /\n\s*\n/);
+  assert.equal(resultado.pearl, AULA_05.questions[0].pearl);
+});
+
 /* ------------------------------------------------------------------ API */
 function montarRota({ aulaAtividade = null, semAtividade = false, slug = SLUG_01, cadernoInicial = [], ...overrides } = {}) {
   const logs = [];
@@ -515,9 +707,9 @@ function montarRota({ aulaAtividade = null, semAtividade = false, slug = SLUG_01
   const curso = 'cccccccc-cccc-4ccc-8ccc-cccccccccccc';
   const modulo = 'dddddddd-dddd-4ddd-8ddd-dddddddddddd';
   const aulaEmbed = (r) => ({
-    titulo: slug === SLUG_04 ? 'Pseudohipercalemia — quando desconfiar e como confirmar' : slug === SLUG_03 ? 'Potássio sérico não é estoque corporal' : slug === SLUG_02 ? 'A fisiologia do potássio que muda a conduta' : 'Aula 01',
-    ordem: slug === SLUG_04 ? 1 : slug === SLUG_03 ? 3 : slug === SLUG_02 ? 2 : 1,
-    modulos: slug === SLUG_04
+    titulo: slug === SLUG_05 ? 'Redistribuição e liberação celular de potássio' : slug === SLUG_04 ? 'Pseudohipercalemia — quando desconfiar e como confirmar' : slug === SLUG_03 ? 'Potássio sérico não é estoque corporal' : slug === SLUG_02 ? 'A fisiologia do potássio que muda a conduta' : 'Aula 01',
+    ordem: slug === SLUG_05 ? 2 : slug === SLUG_04 ? 1 : slug === SLUG_03 ? 3 : slug === SLUG_02 ? 2 : 1,
+    modulos: (slug === SLUG_04 || slug === SLUG_05)
       ? { titulo: 'Esse resultado é verdadeiro? Por que o potássio subiu?', ordem: 2, curso_id: curso, cursos: { id: curso, titulo: 'Tratamento da Hipercalemia em Adultos' } }
       : { titulo: 'Módulo 1', ordem: 1, curso_id: curso, cursos: { id: curso, titulo: 'Tratamento da Hipercalemia em Adultos' } }
   });
@@ -533,7 +725,7 @@ function montarRota({ aulaAtividade = null, semAtividade = false, slug = SLUG_01
         return { ok: true, dados: [{ id: AULA, titulo: aulaEmbed().titulo, atividade: aulaAtividade, modulo_id: modulo, modulos: { curso_id: curso, titulo: 'Módulo 1' } }] };
       }
       if (url.startsWith('/agoraquest_atividades?')) {
-        return { ok: true, dados: semAtividade ? [] : [{ slug, versao_conteudo: 1, titulo: slug === SLUG_04 ? 'Hipercalemia — Aula 04' : slug === SLUG_03 ? 'Hipercalemia — Aula 03' : slug === SLUG_02 ? 'Hipercalemia — Aula 02' : 'Hipercalemia — Aula 01' }] };
+        return { ok: true, dados: semAtividade ? [] : [{ slug, versao_conteudo: 1, titulo: slug === SLUG_05 ? 'Hipercalemia — Aula 05' : slug === SLUG_04 ? 'Hipercalemia — Aula 04' : slug === SLUG_03 ? 'Hipercalemia — Aula 03' : slug === SLUG_02 ? 'Hipercalemia — Aula 02' : 'Hipercalemia — Aula 01' }] };
       }
       if (url.startsWith('/cursos?')) return { ok: true, dados: [{ titulo: 'Tratamento da Hipercalemia em Adultos' }] };
       if (url.startsWith('/modulos?')) {
@@ -707,8 +899,8 @@ test('API da prática: sessão, acesso, identificadores e isolamento por aluno',
 });
 
 /* 6, 9, 11, 12, 14 — fluxo completo e alimentação idempotente do caderno. */
-test('API da prática: Aulas 01 a 04 publicam o conteúdo certo sem vazar o gabarito', async () => {
-  for (const [slug, conteudo, chave] of [[SLUG_01, AULA_01, ['B', 'C', 'B', 'D', 'C']], [SLUG_02, AULA_02, ['B', 'C', 'B', 'D', 'C']], [SLUG_03, AULA_03, ['B', 'D', 'C', 'A', 'C']], [SLUG_04, AULA_04, ['B', 'D', 'A', 'C', 'D']]]) {
+test('API da prática: Aulas 01 a 05 publicam o conteúdo certo sem vazar o gabarito', async () => {
+  for (const [slug, conteudo, chave] of [[SLUG_01, AULA_01, ['B', 'C', 'B', 'D', 'C']], [SLUG_02, AULA_02, ['B', 'C', 'B', 'D', 'C']], [SLUG_03, AULA_03, ['B', 'D', 'C', 'A', 'C']], [SLUG_04, AULA_04, ['B', 'D', 'A', 'C', 'D']], [SLUG_05, AULA_05, ['B', 'C', 'D', 'A', 'D']]]) {
     const h = montarRota({ slug });
     const r = await h.call();
     assert.equal(r.status, 200);
@@ -716,6 +908,13 @@ test('API da prática: Aulas 01 a 04 publicam o conteúdo certo sem vazar o gaba
     assert.equal(r.body.state, null);
     assert.equal(r.body.content.questions.length, 5);
     assert.ok(r.body.content.questions.every((q) => !q.feedback && !q.correctChoice && !q.correctExplanation && !q.pearl));
+    /* Aula 05: tabelas, competências e stemAfter são enunciado, não gabarito. */
+    if (slug === SLUG_05) {
+      assert.equal(r.body.content.questions[0].competency, AULA_05.questions[0].competency);
+      assert.deepEqual(r.body.content.questions[0].table, AULA_05.questions[0].table);
+      assert.equal(r.body.content.questions[0].stemAfter, AULA_05.questions[0].stemAfter);
+      assert.deepEqual(r.body.content.questions.filter((q) => q.table).map((q) => q.number), [1, 3, 5]);
+    }
     const meta = await h.call(null, { aula_id: AULA, meta: '1' });
     assert.equal(meta.status, 200);
     assert.equal(meta.body.slug, slug);
@@ -943,7 +1142,7 @@ test('migração: domínio configurável e nova prática reabre questão dominad
   }
 });
 
-test('migração: vincula Aulas 02, 03 e 04 pelo título e preserva as anteriores', async () => {
+test('migração: vincula Aulas 02, 03, 04 e 05 pelo título e preserva as anteriores', async () => {
   const db = await criarBanco();
   const modulo1 = '99999999-9999-4999-8999-999999999991';
   const modulo2 = '99999999-9999-4999-8999-999999999992';
@@ -951,21 +1150,24 @@ test('migração: vincula Aulas 02, 03 e 04 pelo título e preserva as anteriore
   const segunda = 'aaaaaaaa-0000-4000-8000-000000000002';
   const terceira = 'aaaaaaaa-0000-4000-8000-000000000005';
   const quarta = 'aaaaaaaa-0000-4000-8000-000000000009';
+  const quinta = 'aaaaaaaa-0000-4000-8000-00000000000a';
   try {
     await db.exec('alter table public.matriculas add column if not exists expira_em timestamptz;');
     await db.exec('alter table public.aulas add column if not exists atividade text;');
     await db.query("insert into public.cursos(id,titulo) values($1,'Tratamento da Hipercalemia em Adultos')", [CURSO_HIPER]);
     await db.query("insert into public.modulos(id,curso_id,titulo,ordem) values($1,$2,'Potássio elevado: por onde começar?',1),($3,$2,'Esse resultado é verdadeiro? Por que o potássio subiu?',2)", [modulo1, CURSO_HIPER, modulo2]);
-    await db.query("insert into public.aulas(id,modulo_id,titulo,ordem) values($1,$2,'Aula 01',1),($3,$2,'A fisiologia do potássio que muda a conduta',2),($4,$2,'Potássio sérico não é estoque corporal',3),($5,$6,'Pseudohipercalemia — quando desconfiar e como confirmar',1)", [primeira, modulo1, segunda, terceira, quarta, modulo2]);
+    await db.query("insert into public.aulas(id,modulo_id,titulo,ordem) values($1,$2,'Aula 01',1),($3,$2,'A fisiologia do potássio que muda a conduta',2),($4,$2,'Potássio sérico não é estoque corporal',3),($5,$6,'Pseudohipercalemia — quando desconfiar e como confirmar',1),($7,$6,'Redistribuição e liberação celular de potássio',2)", [primeira, modulo1, segunda, terceira, quarta, modulo2, quinta]);
     await db.exec(migracao(MIGRACAO_AULA_01));
     await db.exec(migracao(MIGRACAO_AULA_02));
     await db.exec(migracao(MIGRACAO_AULA_03));
     await db.exec(migracao(MIGRACAO_AULA_04));
+    await db.exec(migracao(MIGRACAO_AULA_05));
     assert.deepEqual((await db.query('select slug,aula_id,versao_conteudo,titulo from public.agoraquest_atividades order by slug')).rows, [
       { slug: SLUG_01, aula_id: primeira, versao_conteudo: 1, titulo: 'Hipercalemia — Aula 01' },
       { slug: SLUG_02, aula_id: segunda, versao_conteudo: 1, titulo: 'Hipercalemia — Aula 02' },
       { slug: SLUG_03, aula_id: terceira, versao_conteudo: 1, titulo: 'Hipercalemia — Aula 03' },
-      { slug: SLUG_04, aula_id: quarta, versao_conteudo: 1, titulo: 'Hipercalemia — Aula 04' }
+      { slug: SLUG_04, aula_id: quarta, versao_conteudo: 1, titulo: 'Hipercalemia — Aula 04' },
+      { slug: SLUG_05, aula_id: quinta, versao_conteudo: 1, titulo: 'Hipercalemia — Aula 05' }
     ]);
   } finally {
     await db.close();
@@ -1087,17 +1289,96 @@ test('migração: Aula 04 usa a quarta aula como fallback e não invade aula com
   }
 });
 
+test('migração: Aula 05 usa a quinta aula como fallback e não invade aula com outra atividade', async () => {
+  const db = await criarBanco();
+  const modulo = '99999999-9999-4999-8999-999999999999';
+  const primeira = 'aaaaaaaa-0000-4000-8000-000000000021';
+  const segunda = 'aaaaaaaa-0000-4000-8000-000000000022';
+  const terceira = 'aaaaaaaa-0000-4000-8000-000000000023';
+  const quarta = 'aaaaaaaa-0000-4000-8000-000000000024';
+  const quinta = 'aaaaaaaa-0000-4000-8000-000000000025';
+  const aulasSql = "insert into public.aulas(id,modulo_id,titulo,ordem) values($1,$2,'Aula A',1),($3,$2,'Aula B',2),($4,$2,'Aula C',3),($5,$2,'Aula D',4),($6,$2,'Aula E',5)";
+  const params = [primeira, modulo, segunda, terceira, quarta, quinta];
+  try {
+    await db.exec('alter table public.matriculas add column if not exists expira_em timestamptz;');
+    await db.exec('alter table public.aulas add column if not exists atividade text;');
+    await db.exec(migracao(MIGRACAO_AULA_01));
+    await db.query("insert into public.cursos(id,titulo) values($1,'Hipercalemia — curso de teste')", [CURSO_HIPER]);
+    await db.query("insert into public.modulos(id,curso_id,titulo,ordem) values($1,$2,'Módulo 1',1)", [modulo, CURSO_HIPER]);
+    await db.query(aulasSql, params);
+    await db.exec(migracao(MIGRACAO_AULA_05));
+    assert.deepEqual((await db.query('select slug,aula_id from public.agoraquest_atividades order by slug')).rows, [
+      { slug: SLUG_05, aula_id: quinta }
+    ]);
+  } finally {
+    await db.close();
+  }
+
+  const db2 = await criarBanco();
+  try {
+    await db2.exec('alter table public.matriculas add column if not exists expira_em timestamptz;');
+    await db2.exec('alter table public.aulas add column if not exists atividade text;');
+    await db2.exec(migracao(MIGRACAO_AULA_01));
+    await db2.query("insert into public.cursos(id,titulo) values($1,'Hipercalemia — curso de teste')", [CURSO_HIPER]);
+    await db2.query("insert into public.modulos(id,curso_id,titulo,ordem) values($1,$2,'Módulo 1',1)", [modulo, CURSO_HIPER]);
+    await db2.query(aulasSql, params);
+    await db2.query("insert into public.agoraquest_atividades(slug,aula_id,versao_conteudo,titulo) values('outra-atividade',$1,1,'Outra')", [quinta]);
+    await db2.exec(migracao(MIGRACAO_AULA_05));
+    assert.deepEqual((await db2.query('select slug,aula_id from public.agoraquest_atividades order by slug')).rows, [
+      { slug: 'outra-atividade', aula_id: quinta }
+    ]);
+  } finally {
+    await db2.close();
+  }
+});
+
+test('migração: Aula 05 prefere o título de redistribuição e não é vinculada sem o curso', async () => {
+  const db = await criarBanco();
+  const modulo = '99999999-9999-4999-8999-999999999999';
+  const primeira = 'aaaaaaaa-0000-4000-8000-000000000031';
+  const segunda = 'aaaaaaaa-0000-4000-8000-000000000032';
+  const redistribuicao = 'aaaaaaaa-0000-4000-8000-000000000033';
+  try {
+    await db.exec('alter table public.matriculas add column if not exists expira_em timestamptz;');
+    await db.exec('alter table public.aulas add column if not exists atividade text;');
+    await db.exec(migracao(MIGRACAO_AULA_01));
+    await db.query("insert into public.cursos(id,titulo) values($1,'Hipercalemia — curso de teste')", [CURSO_HIPER]);
+    await db.query("insert into public.modulos(id,curso_id,titulo,ordem) values($1,$2,'Módulo 1',1)", [modulo, CURSO_HIPER]);
+    await db.query("insert into public.aulas(id,modulo_id,titulo,ordem) values($1,$2,'Aula A',1),($3,$2,'Aula B',2),($4,$2,'Redistribuição e liberação celular de potássio',3)", [primeira, modulo, segunda, redistribuicao]);
+    await db.exec(migracao(MIGRACAO_AULA_05));
+    assert.deepEqual((await db.query('select slug,aula_id from public.agoraquest_atividades order by slug')).rows, [
+      { slug: SLUG_05, aula_id: redistribuicao }
+    ]);
+  } finally {
+    await db.close();
+  }
+
+  const db2 = await criarBanco();
+  try {
+    await db2.exec('alter table public.matriculas add column if not exists expira_em timestamptz;');
+    await db2.exec('alter table public.aulas add column if not exists atividade text;');
+    await db2.exec(migracao(MIGRACAO_AULA_01));
+    await db2.exec(migracao(MIGRACAO_AULA_05));
+    assert.equal((await db2.query('select count(*)::int as n from public.agoraquest_atividades')).rows[0].n, 0);
+  } finally {
+    await db2.close();
+  }
+});
+
 /* --------------------------------------------------------------- estático */
 test('estático: páginas, link no app, service worker e ausência do gabarito no cliente', () => {
   const html = fs.readFileSync(path.join(__dirname, '../agoraquest.html'), 'utf8');
-  assert.match(html, /css\/agoraquest\.css\?v=3/);
-  assert.match(html, /js\/agoraquest\.js\?v=3/);
+  assert.match(html, /css\/agoraquest\.css\?v=4/);
+  assert.match(html, /js\/agoraquest\.js\?v=4/);
   assert.doesNotMatch(html, /B.*C.*B.*D.*C/);
+  assert.doesNotMatch(html, /B.*C.*D.*A.*D/);
+  assert.match(html, /img\/agoramed-logo-branco\.png/);
+  assert.match(html, /class="aq-logo-escuro"/);
 
   const caderno = fs.readFileSync(path.join(__dirname, '../caderno-erros.html'), 'utf8');
-  assert.match(caderno, /css\/agoraquest\.css\?v=3/);
+  assert.match(caderno, /css\/agoraquest\.css\?v=4/);
   assert.match(caderno, /css\/caderno-erros\.css\?v=1/);
-  assert.match(caderno, /js\/caderno-erros\.js\?v=1/);
+  assert.match(caderno, /js\/caderno-erros\.js\?v=2/);
   assert.match(caderno, /id="cd-review"/);
 
   const js = fs.readFileSync(path.join(__dirname, '../js/agoraquest.js'), 'utf8');
@@ -1105,10 +1386,12 @@ test('estático: páginas, link no app, service worker e ausência do gabarito n
   assert.doesNotMatch(js, /\[\s*['"]B['"]\s*,\s*['"]C['"]\s*,\s*['"]B['"]\s*,\s*['"]D['"]\s*,\s*['"]C['"]\s*\]/);
   assert.doesNotMatch(js, /\[\s*['"]B['"]\s*,\s*['"]D['"]\s*,\s*['"]C['"]\s*,\s*['"]A['"]\s*,\s*['"]C['"]\s*\]/);
   assert.doesNotMatch(js, /\[\s*['"]B['"]\s*,\s*['"]D['"]\s*,\s*['"]A['"]\s*,\s*['"]C['"]\s*,\s*['"]D['"]\s*\]/);
+  assert.doesNotMatch(js, /\[\s*['"]B['"]\s*,\s*['"]C['"]\s*,\s*['"]D['"]\s*,\s*['"]A['"]\s*,\s*['"]D['"]\s*\]/);
   assert.doesNotMatch(jsCaderno, /\[\s*['"]B['"]\s*,\s*['"]C['"]\s*,\s*['"]B['"]\s*,\s*['"]D['"]\s*,\s*['"]C['"]\s*\]/);
   assert.doesNotMatch(jsCaderno, /\[\s*['"]B['"]\s*,\s*['"]D['"]\s*,\s*['"]C['"]\s*,\s*['"]A['"]\s*,\s*['"]C['"]\s*\]/);
   assert.doesNotMatch(jsCaderno, /\[\s*['"]B['"]\s*,\s*['"]D['"]\s*,\s*['"]A['"]\s*,\s*['"]C['"]\s*,\s*['"]D['"]\s*\]/);
-  for (const q of aprovado01.concat(aprovado02, aprovado03, aprovado04)) {
+  assert.doesNotMatch(jsCaderno, /\[\s*['"]B['"]\s*,\s*['"]C['"]\s*,\s*['"]D['"]\s*,\s*['"]A['"]\s*,\s*['"]D['"]\s*\]/);
+  for (const q of aprovado01.concat(aprovado02, aprovado03, aprovado04, aprovado05)) {
     assert.ok(!js.includes(q.stem));
     assert.ok(!jsCaderno.includes(q.stem));
     assert.ok(!js.includes(q.choices.B));
@@ -1128,13 +1411,21 @@ test('estático: páginas, link no app, service worker e ausência do gabarito n
   assert.match(roteador, /'agoraquest-caderno': require\('\.\.\/lib\/rotas\/agoraquest-caderno'\)/);
 
   const sw = fs.readFileSync(path.join(__dirname, '../sw.js'), 'utf8');
-  assert.match(sw, /agoramed-v86/);
+  assert.match(sw, /agoramed-v87/);
   assert.match(sw, /agoraquest\.html/);
   assert.match(sw, /caderno-erros\.html/);
-  assert.match(sw, /css\/agoraquest\.css\?v=3/);
-  assert.match(sw, /js\/agoraquest\.js\?v=3/);
+  assert.match(sw, /css\/agoraquest\.css\?v=4/);
+  assert.match(sw, /js\/agoraquest\.js\?v=4/);
   assert.match(sw, /css\/caderno-erros\.css\?v=1/);
-  assert.match(sw, /js\/caderno-erros\.js\?v=1/);
+  assert.match(sw, /js\/caderno-erros\.js\?v=2/);
+
+  /* Tema exclusivo do curso de Hipercalemia, escopado por data-aq-tema. */
+  assert.match(js, /data\.aqTema = 'hipercalemia'|dataset\.aqTema = 'hipercalemia'/);
+  assert.match(js, /fa3c5d8d-94c4-4321-be7a-1cc45741a983/);
+  assert.match(js, /function tabela\(/);
+  assert.match(js, /stemAfter/);
+  assert.match(jsCaderno, /function tabela\(/);
+  assert.match(jsCaderno, /stemAfter/);
 
   const css = fs.readFileSync(path.join(__dirname, '../css/agoraquest.css'), 'utf8');
   assert.match(css, /#346F77/i);
@@ -1142,6 +1433,14 @@ test('estático: páginas, link no app, service worker e ausência do gabarito n
   assert.match(css, /#F5F5F5/i);
   assert.match(css, /\.sr-only\{/);
   assert.match(css, /@media\(max-width:760px\)/);
+  assert.match(css, /\.aq-table\{/);
+  assert.match(css, /\.aq-table-wrap\{/);
+  assert.match(css, /body\[data-aq-tema="hipercalemia"\]/);
+  assert.match(css, /--aq-bg:#061F27/);
+  assert.match(css, /--aq-card:#0D303B/);
+  assert.match(css, /#9552D0/);
+  assert.match(css, /#CFBFFF/);
+  assert.match(css, /\.aq-explanation/);
 
   const cssCaderno = fs.readFileSync(path.join(__dirname, '../css/caderno-erros.css'), 'utf8');
   assert.match(cssCaderno, /@media\(max-width:760px\)/);
