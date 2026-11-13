@@ -101,6 +101,39 @@ Todas em Production; rotacionar uma de cada vez, com redeploy e verificação.
 | `CLOUDFLARE_STREAM_KEY_ID` / `CLOUDFLARE_STREAM_PRIVATE_KEY` / `CLOUDFLARE_STREAM_CUSTOMER_CODE` | assinatura de vídeo | revogar o token no Cloudflare |
 | `SUPABASE_ANON_KEY` | cliente público, protegido por RLS | pública por desenho; depende de RLS correta |
 
+## CLI do Supabase
+
+Instalada globalmente por npm (não há Homebrew nesta máquina), em `~/.editor-video/node/bin/supabase`. `supabase init` gerou `supabase/config.toml` e `supabase/.gitignore` (que ignora `.temp`, `.branches` e `.env.local`).
+
+- **Login:** `supabase login` guarda o token no Keychain do macOS. Em automação, preferir `SUPABASE_ACCESS_TOKEN` com token de escopo limitado — o login pelo navegador cria um token clássico com acesso a toda a conta.
+- **Link:** projeto `dfpmkdlkgafswljifyhz`. O ref fica em `supabase/.temp/project-ref` (ignorado) e a senha do banco também vai para o Keychain, nunca para o repositório.
+- **v3 mira o local por padrão:** comandos de banco exigem `--remote` para atingir produção (`migration list --remote`, `db push --remote`). `--linked`, `--project-ref` e `--db-url` estão deprecados e saem na v4.
+- **Mutação em produção pede confirmação:** em execução não interativa, é preciso `--yes`, e ele deve ser usado só depois de conferir o que será feito.
+
+### Histórico de migrações divergente
+
+Na primeira verificação, `migration list --remote` mostrou 10 versões casadas, 8 só locais e 6 só remotas. As 6 remotas tinham os **mesmos nomes** dos arquivos locais, com timestamp do momento da execução (migração aplicada por ferramenta, que grava o horário em vez do nome do arquivo), e as 2 migrações do AgoraQuest não tinham registro algum.
+
+Antes de reparar, confira o conteúdo — o histórico guarda o SQL em `supabase_migrations.schema_migrations.statements`:
+
+```bash
+supabase db query --remote --read-only \
+  "select version, name, statements from supabase_migrations.schema_migrations order by version"
+```
+
+As 6 entradas bateram caractere a caractere com os arquivos locais. O reparo troca o histórico pelo nome canônico dos arquivos, sem executar SQL:
+
+```bash
+supabase migration repair --remote --status reverted --yes <6 versões remotas>
+supabase migration repair --remote --status applied  --yes <8 versões locais>
+```
+
+Resultado: 18 casadas, 0 divergências, e `supabase db push --remote --dry-run` responde `up to date`. A partir daqui o fluxo é `supabase migration new <nome>` → editar → `supabase db push --remote`.
+
+### Limitações locais
+
+`supabase start`, `db reset`, `db pull` e `db diff` exigem Docker, que não está instalado. Sem ele, a validação local continua sendo a suíte PGlite (`node --test tools/*.test.cjs`). A pasta `supabase/migracoes/` (português) e os arquivos `schema.sql` e `promover-admin.sql` são legado e não são lidos pela CLI — ela só considera `supabase/migrations/`.
+
 ## Checklist rápido
 
 - [ ] `vercel whoami` e `vercel env ls` respondendo no projeto `agoramed`.
@@ -109,3 +142,4 @@ Todas em Production; rotacionar uma de cada vez, com redeploy e verificação.
 - [ ] Cookie antigo rejeitado e login novo funcionando no navegador.
 - [ ] URLs `*.vercel.app` respondendo `302` sem sessão Vercel.
 - [ ] Cron do dia seguinte executado com `200`.
+- [ ] `supabase migration list --remote` com 18 casadas e 0 divergências.
