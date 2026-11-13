@@ -285,7 +285,7 @@
         '<p>' + esc(q.correctExplanation) + '</p>' +
         '<details class="aq-analysis" open><summary>Análise das quatro alternativas</summary>' + analise + '</details>' +
         '<div class="aq-pearl"><strong>PÉROLA DO PLANTÃO</strong><p>' + esc(q.pearl) + '</p></div>' +
-        '<p class="aq-ref"><strong>Referência:</strong> ' + refs(conteudo.references) + '</p>' +
+        '<p class="aq-ref"><strong>Referência:</strong> ' + refs(q.reference || conteudo.references) + '</p>' +
         '<div class="aq-actions">' +
         '<button type="button" class="aq-btn primary" data-next>' +
         (i === total - 1 ? 'Ver resultado' : 'Próxima questão') + ' →</button>' +
@@ -420,20 +420,26 @@
     try {
       const dados = await get({ caderno: '1' });
       const itens = Array.isArray(dados.caderno) ? dados.caderno : [];
+      const ind = dados.indicadores || {};
       if (!itens.length) {
-        alvo.innerHTML = '<div class="aq-empty">Nenhum erro registrado até agora. As questões erradas aparecerão aqui para revisão direcionada.</div>';
+        alvo.innerHTML = '<div class="aq-empty">Nenhum erro registrado nesta aula até agora. As questões erradas aparecem aqui para revisão direcionada.</div>';
         return;
       }
-      alvo.innerHTML = itens.map((item) => '<article class="aq-notebook-item">' +
-        '<p class="aq-eyebrow">QUESTÃO ' + esc(item.number) + '</p>' +
+      const stats = '<div class="aq-stats">' +
+        '<div class="aq-stat"><strong>' + (ind.total || 0) + '</strong><span>QUESTÕES</span></div>' +
+        '<div class="aq-stat"><strong>' + (ind.precisaRevisar || 0) + '</strong><span>PRECISAM REVISAR</span></div>' +
+        '<div class="aq-stat"><strong>' + (ind.emRevisao || 0) + '</strong><span>EM REVISÃO</span></div>' +
+        '<div class="aq-stat"><strong>' + (ind.dominadas || 0) + '</strong><span>DOMINADAS</span></div>' +
+        '</div>';
+      alvo.innerHTML = stats + itens.map((item) => '<article class="aq-notebook-item">' +
+        '<div class="aq-notebook-top"><p class="aq-eyebrow">QUESTÃO ' + esc(item.numero) + '</p>' +
+        '<span class="aq-state ' + esc(item.estado) + '">' + esc(item.estadoRotulo) + '</span></div>' +
         '<h3>' + esc(item.title) + '</h3>' +
-        '<p><strong>' + esc(item.errors) + '</strong> erro' + (item.errors === 1 ? '' : 's') +
-        ' · última alternativa: ' + esc(item.lastWrong || '—') + (item.lastAt ? ' · ' + esc(data(item.lastAt)) : '') + '</p>' +
-        '<p><strong>Resposta correta: ' + esc(item.correctChoice) + '</strong></p>' +
-        '<p>' + esc(item.correctExplanation) + '</p>' +
-        '<div class="aq-pearl"><strong>PÉROLA DO PLANTÃO</strong><p>' + esc(item.pearl) + '</p></div>' +
+        '<p><strong>' + esc(item.erros) + '</strong> erro' + (item.erros === 1 ? '' : 's') +
+        ' · <strong>' + esc(item.revisoes) + '</strong> revis' + (item.revisoes === 1 ? 'ão' : 'ões') + '</p>' +
+        '<a class="aq-btn ghost compact" href="caderno-erros.html?questao=' + encodeURIComponent(item.questaoId) + '">Revisar questão →</a>' +
         '</article>').join('') +
-        '<p class="aq-ref"><strong>Referência:</strong> ' + refs(itens[0].references) + '</p>';
+        '<div class="aq-actions"><a class="aq-btn primary" href="caderno-erros.html">Abrir Meu Caderno de Erros</a></div>';
     } catch (e) {
       alvo.innerHTML = '<div class="aq-alert"><p>' + esc(e.message) + '</p></div>';
     }

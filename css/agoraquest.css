@@ -160,6 +160,20 @@ a{color:var(--aq-teal)}
 .aq-notebook-item .aq-pearl{margin-top:14px;padding:15px 17px}
 .aq-notebook-item .aq-pearl p{color:#fff;font-size:14px}
 .aq-empty{padding:24px;text-align:center;border:1px dashed var(--aq-teal-line);border-radius:12px;color:var(--aq-muted);font-size:14px}
+
+/* ---------------------------------------------- caderno: indicadores */
+.aq-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:0 0 22px}
+.aq-stat{border:1px solid var(--aq-line);border-radius:12px;padding:14px 10px;text-align:center;background:#fff;min-width:0}
+.aq-stat strong{display:block;font-size:24px;line-height:1.1;color:var(--aq-teal);font-weight:700}
+.aq-stat span{display:block;font-size:9px;letter-spacing:.1em;color:var(--aq-muted);margin-top:6px;text-transform:uppercase}
+.aq-notebook-top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.aq-notebook-top .aq-eyebrow{margin:0}
+.aq-state{display:inline-flex;align-items:center;border:1px solid transparent;border-radius:999px;padding:3px 10px;font-size:10px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;white-space:nowrap}
+.aq-state.precisa_revisar{color:var(--aq-warn);border-color:#E3B8B2;background:var(--aq-warn-bg)}
+.aq-state.em_revisao{color:#8A5A17;border-color:#E5CFA3;background:#FBF6EA}
+.aq-state.dominada{color:var(--aq-ok);border-color:#8CC7AB;background:var(--aq-ok-bg)}
+.aq-notebook-item .aq-actions{margin-top:12px}
+.aq-notebook-item .aq-muted{font-size:12px}
 .aq-footer{text-align:center;padding:30px 20px 42px;font-size:10px;letter-spacing:.18em;color:var(--aq-gray)}
 .aq-footer span{margin:0 6px}
 
@@ -188,5 +202,6 @@ a{color:var(--aq-teal)}
   .aq-dialog-head h2{font-size:24px}
   .aq-dialog-body{padding:18px 19px}
   .aq-review summary{flex-direction:column;gap:6px}
+  .aq-stats{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}

@@ -1,0 +1,112 @@
+{
+  "slug": "hipercalemia-aula-02-v1",
+  "versao": 1,
+  "title": "Hipercalemia — Aula 02",
+  "subtitle": "A fisiologia do potássio que muda a conduta",
+  "intro": "Cinco casos clínicos sobre o potássio que sai e entra das células, sobre a excreção renal e sobre o que cada tratamento realmente faz. Responda uma questão por vez: ao confirmar, a alternativa fica bloqueada e o comentário aparece imediatamente, com a análise das quatro alternativas, a pérola do plantão e a fundamentação. Você pode refazer a prática quantas vezes quiser; o histórico e o caderno de erros ficam salvos na sua conta.",
+  "closing": "Entender a fisiologia muda a conduta porque separa três coisas que parecem iguais no exame: o potássio que está fora da célula, o que foi deslocado para dentro e o que foi efetivamente eliminado do organismo. A membrana parcialmente despolarizada conduz pior; a insulina reduz o potássio sérico sem removê-lo; a secreção distal depende de aldosterona, entrega de sódio e fluxo tubular; e o cálcio protege o coração sem baixar o potássio. Quando a diurese não acompanha, a queda laboratorial inicial pede monitorização e plano de remoção, não alta.",
+  "references": "UpToDate. Hyperkalemia in adults. https://www.uptodate.com/contents/hyperkalemia-in-adults",
+  "key": ["B", "C", "B", "D", "C"],
+  "questions": [
+    {
+      "number": 1,
+      "title": "Potássio extracelular e condução cardíaca",
+      "stem": "Um paciente de 68 anos, com lesão renal aguda, apresenta potássio sérico de 6,7 mEq/L. O ECG mostra redução da amplitude da onda P e alargamento do QRS, alterações novas em relação ao traçado anterior. Qual mecanismo fisiológico explica melhor o comprometimento da condução cardíaca?",
+      "choices": {
+        "A": "A elevação do potássio extracelular torna o potencial de repouso mais negativo, impedindo a ativação dos canais de cálcio.",
+        "B": "A elevação do potássio extracelular despolariza parcialmente a membrana, reduz a disponibilidade dos canais rápidos de sódio e prejudica a condução elétrica.",
+        "C": "O excesso de potássio extracelular aumenta diretamente a velocidade de abertura dos canais rápidos de sódio, acelerando a condução.",
+        "D": "A hipercalemia bloqueia diretamente a bomba de sódio e potássio, interrompendo imediatamente toda atividade elétrica cardíaca."
+      },
+      "feedback": {
+        "A": "A hipercalemia tende a tornar o potencial de repouso menos negativo, e não mais negativo. A alteração dos canais rápidos de sódio é central para compreender o comprometimento da condução.",
+        "B": "Esta alternativa descreve a relação fisiopatológica mais importante entre a hipercalemia e as alterações de condução observadas no ECG.",
+        "C": "A despolarização persistente pode reduzir a disponibilidade dos canais de sódio, em vez de acelerar continuamente a condução.",
+        "D": "A Na⁺/K⁺-ATPase é essencial para manter os gradientes iônicos, mas não ocorre um bloqueio imediato e completo dessa bomba como mecanismo principal das alterações descritas."
+      },
+      "correctExplanation": "O potássio é um dos principais determinantes do potencial de repouso das células excitáveis. Quando sua concentração extracelular aumenta, o gradiente transmembrana diminui e o potencial de repouso se torna menos negativo. A despolarização persistente favorece a inativação de canais rápidos de sódio, reduzindo sua disponibilidade para o próximo potencial de ação. Isso diminui a velocidade de condução, contribuindo para alterações como redução da onda P, prolongamento do PR e alargamento do QRS. A toxicidade não depende apenas da concentração medida: a velocidade de elevação e as condições clínicas também influenciam as manifestações.",
+      "pearl": "Na hipercalemia, uma membrana parcialmente despolarizada pode conduzir pior, não melhor. O problema não é apenas gerar o impulso, mas conseguir propagá-lo.",
+      "reference": "UpToDate — Clinical manifestations of hyperkalemia in adults; Causes and evaluation of hyperkalemia in adults. https://www.uptodate.com/contents/clinical-manifestations-of-hyperkalemia-in-adults"
+    },
+    {
+      "number": 2,
+      "title": "Insulina e redistribuição do potássio",
+      "stem": "Um paciente com hipercalemia grave recebe insulina intravenosa associada à glicose. Uma hora depois, o potássio sérico apresenta redução significativa. Qual mecanismo explica melhor essa resposta?",
+      "choices": {
+        "A": "A insulina aumenta diretamente a excreção renal de potássio, mesmo em pacientes anúricos.",
+        "B": "A insulina neutraliza eletricamente o potássio extracelular, reduzindo sua atividade biológica sem alterar sua distribuição.",
+        "C": "A insulina estimula a Na⁺/K⁺-ATPase, principalmente no músculo esquelético, favorecendo a entrada de potássio nas células.",
+        "D": "A insulina promove a ligação irreversível do potássio às proteínas plasmáticas, impedindo sua circulação."
+      },
+      "feedback": {
+        "A": "A queda inicial do potássio após insulina não depende de aumento da excreção renal. O efeito ocorre mesmo quando o paciente não produz urina.",
+        "B": "A insulina não neutraliza quimicamente o potássio. Ela modifica sua distribuição entre os compartimentos corporal e extracelular.",
+        "C": "A ativação da captação celular de potássio explica a redução sérica, mas não significa que o excesso de potássio tenha sido eliminado do organismo.",
+        "D": "A insulina não funciona promovendo ligação irreversível do potássio às proteínas plasmáticas. Seu efeito depende de mecanismos de transporte celular."
+      },
+      "correctExplanation": "A insulina estimula a captação de potássio pelas células, principalmente musculares, por mecanismos que incluem maior atividade da Na⁺/K⁺-ATPase. Assim, o potássio deixa o compartimento extracelular e sua concentração sérica diminui. Esse efeito pode ocorrer mesmo na ausência de função renal. Entretanto, não representa eliminação corporal do potássio. A glicose é administrada conforme a glicemia e o protocolo clínico para reduzir o risco de hipoglicemia, uma complicação importante do tratamento. Como o efeito de redistribuição é temporário, o paciente continua necessitando de reavaliação laboratorial e, quando indicada, remoção efetiva do potássio.",
+      "pearl": "Insulina reduz o potássio que aparece no exame, mas não remove potássio do corpo. Uma boa resposta inicial não dispensa o plano de eliminação.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults; Causes and evaluation of hyperkalemia in adults. https://www.uptodate.com/contents/treatment-and-prevention-of-hyperkalemia-in-adults"
+    },
+    {
+      "number": 3,
+      "title": "Excreção renal do potássio",
+      "stem": "Um paciente de 72 anos, com lesão renal aguda oligúrica, apresenta hipercalemia persistente. Além da redução da função renal, qual conjunto de fatores influencia diretamente a secreção distal de potássio?",
+      "choices": {
+        "A": "Concentração de albumina, pressão oncótica plasmática e produção hepática de ureia.",
+        "B": "Secreção de aldosterona, entrega distal de sódio e fluxo tubular distal.",
+        "C": "Concentração sérica de cálcio, absorção intestinal de ferro e secreção pancreática de glucagon.",
+        "D": "Pressão arterial sistólica, concentração de hemoglobina e frequência respiratória, independentemente da função tubular."
+      },
+      "feedback": {
+        "A": "Essas variáveis podem ter importância em outros processos fisiológicos, mas não constituem os principais determinantes diretos da secreção distal de potássio.",
+        "B": "A ação da aldosterona, a disponibilidade distal de sódio e o fluxo tubular são determinantes fisiológicos essenciais para a secreção renal de potássio.",
+        "C": "Cálcio, ferro e glucagon não compõem o conjunto principal de mecanismos que regula diretamente a secreção distal de potássio.",
+        "D": "Pressão arterial, hemoglobina e frequência respiratória podem fornecer informações clínicas, mas não substituem a avaliação dos mecanismos tubulares de secreção de potássio."
+      },
+      "correctExplanation": "O ajuste fino da excreção renal de potássio ocorre principalmente nos segmentos distais do néfron. A aldosterona estimula mecanismos que favorecem a reabsorção de sódio e a secreção de potássio pelas células principais. A entrega distal de sódio contribui para estabelecer o gradiente elétrico favorável à secreção, enquanto o fluxo tubular ajuda a manter as condições necessárias à eliminação. Por isso, redução da ação da aldosterona, baixa entrega distal de sódio e oligúria podem comprometer a capacidade de excretar potássio. Na doença renal crônica, mecanismos compensatórios podem preservar a excreção durante algum tempo; portanto, a gravidade da disfunção renal deve ser interpretada junto ao contexto clínico.",
+      "pearl": "Para eliminar potássio, não basta ter rins: é necessário que os mecanismos de secreção distal estejam funcionando.",
+      "reference": "UpToDate — Causes and evaluation of hyperkalemia in adults. https://www.uptodate.com/contents/causes-and-evaluation-of-hyperkalemia-in-adults"
+    },
+    {
+      "number": 4,
+      "title": "Proteger, redistribuir e remover",
+      "stem": "Um paciente apresenta potássio de 7,2 mEq/L e alargamento do QRS. A equipe inicia tratamento da emergência hipercalêmica. Qual alternativa relaciona corretamente a intervenção ao seu principal objetivo fisiológico?",
+      "choices": {
+        "A": "Cálcio intravenoso remove potássio; insulina estabiliza diretamente a membrana; hemodiálise redistribui potássio para as células.",
+        "B": "Cálcio intravenoso reduz a concentração sérica de potássio; salbutamol aumenta a excreção urinária; hemodiálise protege o coração sem remover potássio.",
+        "C": "Cálcio intravenoso e insulina eliminam potássio do organismo, enquanto a hemodiálise atua exclusivamente sobre a condução cardíaca.",
+        "D": "Cálcio intravenoso antagoniza os efeitos cardíacos da hipercalemia; insulina promove redistribuição celular; hemodiálise remove potássio do organismo."
+      },
+      "feedback": {
+        "A": "As funções estão invertidas. O cálcio não remove potássio, a insulina não é um estabilizador direto de membrana e a hemodiálise promove eliminação efetiva.",
+        "B": "O cálcio não diminui diretamente o potássio sérico. O salbutamol favorece a captação celular, e a hemodiálise remove potássio.",
+        "C": "Cálcio e insulina não eliminam potássio corporal. A hemodiálise não atua exclusivamente sobre a condução cardíaca.",
+        "D": "A alternativa distingue corretamente proteção cardíaca, redistribuição temporária e remoção efetiva, três objetivos fundamentais do tratamento."
+      },
+      "correctExplanation": "O tratamento da emergência hipercalêmica envolve objetivos diferentes e complementares. O cálcio intravenoso antagoniza os efeitos da hipercalemia sobre a excitabilidade cardíaca, sem diminuir diretamente a concentração de potássio. A insulina estimula a entrada de potássio nas células, reduzindo temporariamente sua concentração extracelular. Já a hemodiálise promove remoção efetiva de potássio do organismo, sendo especialmente importante quando existe comprometimento renal grave e indicação de terapia dialítica. Nenhuma dessas estratégias substitui automaticamente as demais. A escolha depende das manifestações clínicas, da função renal, da resposta inicial e da necessidade de eliminação do potássio.",
+      "pearl": "Cálcio protege. Insulina redistribui. Hemodiálise remove. Saber o que cada intervenção não faz é tão importante quanto saber o que ela faz.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults. https://www.uptodate.com/contents/treatment-and-prevention-of-hyperkalemia-in-adults"
+    },
+    {
+      "number": 5,
+      "title": "Rebote após o tratamento",
+      "stem": "Um paciente de 67 anos, com lesão renal aguda e oligúria importante, chega com potássio de 7,0 mEq/L e QRS alargado. Após cálcio intravenoso e insulina com glicose, o potássio cai para 5,8 mEq/L. A diurese permanece muito reduzida. Qual interpretação é mais adequada?",
+      "choices": {
+        "A": "A redução do potássio demonstra que a capacidade renal de excreção foi restaurada.",
+        "B": "A melhora laboratorial inicial permite encerrar a monitorização, desde que o QRS tenha diminuído.",
+        "C": "O potássio pode voltar a subir quando o efeito redistributivo diminuir, exigindo monitorização e avaliação de estratégias de remoção.",
+        "D": "A redução após insulina confirma que a maior parte do excesso de potássio já foi eliminada do organismo."
+      },
+      "feedback": {
+        "A": "A queda após insulina pode ocorrer sem qualquer recuperação da função renal. A oligúria persistente sugere que a excreção continua limitada.",
+        "B": "A normalização parcial do potássio ou a melhora do ECG não elimina o risco de nova elevação. É necessário acompanhar a evolução clínica e laboratorial.",
+        "C": "A persistência da oligúria e o caráter temporário da redistribuição justificam vigilância para rebote e planejamento de eliminação efetiva.",
+        "D": "A insulina desloca potássio para as células, mas não o elimina. Portanto, a queda laboratorial não comprova remoção corporal."
+      },
+      "correctExplanation": "A queda do potássio sérico após insulina reflete predominantemente sua redistribuição para o interior das células. O cálcio, por sua vez, atua sobre os efeitos cardíacos da hipercalemia e não remove potássio. Como o paciente permanece oligúrico, sua capacidade de excreção renal continua comprometida. Quando o efeito da insulina diminuir, o potássio pode retornar ao compartimento extracelular e provocar nova elevação sérica. Esse fenômeno reforça a necessidade de monitorização cardíaca, dosagens seriadas de potássio e avaliação de medidas capazes de promover sua eliminação, inclusive diálise quando indicada. A melhora inicial é relevante, mas não deve ser confundida com resolução definitiva.",
+      "pearl": "O potássio caiu, mas para onde ele foi? Essa pergunta ajuda a distinguir resposta temporária de resolução do problema.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults. https://www.uptodate.com/contents/treatment-and-prevention-of-hyperkalemia-in-adults"
+    }
+  ]
+}

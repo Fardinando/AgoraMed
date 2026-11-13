@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#346F77">
+  <meta name="robots" content="noindex">
+  <title>Meu Caderno de Erros — AgoraMed</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon-192.png?v=2" type="image/png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-v2.png">
+  <link rel="stylesheet" href="css/agoraquest.css?v=3">
+  <link rel="stylesheet" href="css/caderno-erros.css?v=1">
+</head>
+<body>
+<a class="aq-skip" href="#cd-main">Pular para o caderno</a>
+
+<header class="aq-top">
+  <div class="aq-top-inner">
+    <a class="aq-brand" href="app.html" aria-label="AgoraMed — início">
+      <img src="img/agoramed-logo.png" alt="AGORAMED — Pronto para o plantão" width="1871" height="381">
+    </a>
+    <span class="aq-badge">CADERNO DE ERROS</span>
+    <nav class="aq-top-actions" aria-label="Ações do caderno">
+      <a class="aq-link" href="app.html">Meus cursos</a>
+    </nav>
+  </div>
+</header>
+
+<main class="aq-page" id="cd-main">
+  <nav class="aq-crumb" aria-label="Localização">
+    <a href="app.html">Meus cursos</a><span aria-hidden="true">/</span>
+    <span>Meu Caderno de Erros</span>
+  </nav>
+
+  <section class="aq-hero" aria-labelledby="cd-title">
+    <p class="aq-eyebrow">REVISÃO DIRECIONADA</p>
+    <h1 id="cd-title">Meu <em>Caderno de Erros.</em></h1>
+    <p class="aq-subtitle">As questões que você errou ficam reunidas aqui, organizadas por curso, módulo e aula. Revise uma por vez: o gabarito só aparece depois que você confirmar a nova resposta.</p>
+    <div class="aq-tags" aria-label="Como funciona o caderno">
+      <span>Uma questão por vez</span><span>Feedback imediato</span><span>Progresso salvo</span><span>2 acertos para dominar</span>
+    </div>
+  </section>
+
+  <div id="cd-error" class="aq-alert" role="alert" hidden></div>
+
+  <section id="cd-summary" aria-label="Indicadores do caderno"></section>
+
+  <section id="cd-list" aria-live="polite" aria-busy="true">
+    <div class="aq-card">
+      <h2>Carregando seu caderno…</h2>
+      <p class="aq-muted">Conferindo suas questões e seus indicadores de revisão.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="aq-footer">AGORAMED <span>·</span> Pronto para o plantão</footer>
+
+<dialog id="cd-review" class="aq-dialog" aria-labelledby="cd-review-title">
+  <div class="aq-dialog-head">
+    <div><p class="aq-eyebrow">REVISÃO DE QUESTÃO</p><h2 id="cd-review-title">Revisar questão</h2></div>
+    <button type="button" class="aq-btn ghost compact" data-close autofocus>Fechar ×</button>
+  </div>
+  <div class="aq-dialog-body" id="cd-review-body"></div>
+</dialog>
+
+<noscript>Ative o JavaScript para consultar seu caderno de erros.</noscript>
+<script src="js/caderno-erros.js?v=1" defer></script>
+</body>
+</html>
