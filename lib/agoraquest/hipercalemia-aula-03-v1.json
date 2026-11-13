@@ -1,0 +1,112 @@
+{
+  "slug": "hipercalemia-aula-03-v1",
+  "versao": 1,
+  "title": "Hipercalemia — Aula 03",
+  "subtitle": "Potássio sérico não é estoque corporal",
+  "intro": "Cinco casos clínicos sobre a diferença entre o potássio que aparece no exame e o potássio que existe no organismo: por que o valor sobe na cetoacidose, o que a insulina revela ao baixá-lo e por que o mesmo número pode significar problemas diferentes. Responda uma questão por vez: ao confirmar, a alternativa fica bloqueada e o comentário aparece imediatamente, com a análise das quatro alternativas, a pérola do plantão e a fundamentação. Você pode refazer a prática quantas vezes quiser; o histórico e o caderno de erros ficam salvos na sua conta.",
+  "closing": "Concentração não é inventário: o mesmo potássio sérico pode esconder estoques corporais muito diferentes. Na cetoacidose, a deficiência de insulina e a hiperosmolalidade elevam o potássio fora da célula enquanto a diurese osmótica esvazia o estoque corporal. Iniciar insulina redistribui esse potássio para dentro das células e pode transformar hipercalemia em hipocalemia. Por isso, o número inicial não autoriza concluir nada sobre o total do organismo: o mecanismo, a função renal, a diurese e a tendência ao longo do tratamento é que orientam a conduta.",
+  "references": "UpToDate. Hyperkalemia in adults. https://www.uptodate.com/contents/hyperkalemia-in-adults",
+  "key": ["B", "D", "C", "A", "C"],
+  "questions": [
+    {
+      "number": 1,
+      "title": "O exame mostra todo o potássio do organismo?",
+      "stem": "Um homem de 58 anos apresenta potássio sérico de 6,1 mEq/L. Um interno afirma que esse resultado comprova que o paciente possui excesso de potássio corporal total. Qual interpretação está correta?",
+      "choices": {
+        "A": "O potássio sérico representa diretamente o estoque corporal, porque a maior parte do potássio circula no sangue.",
+        "B": "O potássio sérico informa a concentração no compartimento extracelular e, isoladamente, não permite determinar o estoque corporal total.",
+        "C": "A concentração sérica depende exclusivamente da quantidade de potássio ingerida nas últimas 24 horas.",
+        "D": "Um potássio sérico elevado sempre indica que houve retenção renal de potássio."
+      },
+      "feedback": {
+        "A": "A maior parte do potássio é intracelular. A concentração sérica não corresponde diretamente ao estoque corporal.",
+        "B": "O exame informa a concentração extracelular, mas não quantifica isoladamente o conteúdo corporal total.",
+        "C": "A ingestão pode contribuir, mas a concentração também depende de redistribuição, excreção e outros mecanismos.",
+        "D": "A retenção renal é uma causa importante, mas a hipercalemia também pode resultar de redistribuição e liberação celular."
+      },
+      "correctExplanation": "Aproximadamente 98% do potássio corporal encontra-se no interior das células. A dosagem sérica reflete a concentração de potássio em uma pequena parcela do conteúdo corporal. Essa concentração depende da quantidade total de potássio, de sua distribuição entre os compartimentos e da capacidade de excreção. Assim, a hipercalemia pode ocorrer por retenção renal, deslocamento de potássio para o espaço extracelular ou liberação celular. Um paciente com cetoacidose diabética, por exemplo, pode ter potássio sérico elevado apesar de déficit corporal total. Isso não diminui a importância clínica do resultado: a concentração extracelular é fundamental para a atividade elétrica cardíaca.",
+      "pearl": "Potássio sérico é concentração, não inventário. O mesmo resultado pode esconder estoques corporais muito diferentes.",
+      "reference": "UpToDate — Causes and evaluation of hyperkalemia in adults."
+    },
+    {
+      "number": 2,
+      "title": "Por que o potássio sobe na cetoacidose?",
+      "stem": "Uma mulher de 26 anos, com diabetes tipo 1, apresenta glicemia de 520 mg/dL, pH de 7,10, bicarbonato de 8 mEq/L e potássio sérico de 6,0 mEq/L. Está desidratada, com poliúria e vômitos. Qual explicação fisiopatológica é mais adequada?",
+      "choices": {
+        "A": "O potássio elevado comprova que não ocorreram perdas urinárias de potássio.",
+        "B": "A acidemia é a única responsável pela hipercalemia, independentemente da insulina e da osmolaridade.",
+        "C": "A hiperglicemia aumenta obrigatoriamente a quantidade corporal total de potássio.",
+        "D": "A deficiência de insulina e a hiperosmolalidade favorecem a elevação sérica, enquanto a diurese osmótica pode produzir déficit corporal de potássio."
+      },
+      "feedback": {
+        "A": "A poliúria e a diurese osmótica podem provocar perdas significativas, mesmo quando o potássio sérico está elevado.",
+        "B": "A acidemia não é a única explicação. Deficiência de insulina e hiperosmolalidade têm papel central.",
+        "C": "Hiperglicemia não significa ganho obrigatório de potássio corporal. Pode coexistir com perdas importantes.",
+        "D": "A elevação sérica por redistribuição pode coexistir com déficit corporal por perdas urinárias e gastrointestinais."
+      },
+      "correctExplanation": "Na cetoacidose diabética, a deficiência de insulina prejudica a captação de potássio pelas células. A hiperosmolalidade associada à hiperglicemia também favorece sua redistribuição para o compartimento extracelular. Simultaneamente, a diurese osmótica aumenta a perda urinária de água e eletrólitos, incluindo potássio. Vômitos e outros fatores podem ampliar as perdas. Portanto, o paciente pode apresentar hipercalemia sérica com déficit corporal total. A acidemia não deve ser tratada como explicação isolada ou universal para esse fenômeno, especialmente porque os efeitos sobre o potássio variam conforme a natureza do distúrbio ácido-base.",
+      "pearl": "Na cetoacidose, o potássio que aparece alto no exame pode estar escondendo um organismo que já perdeu muito potássio.",
+      "reference": "UpToDate — Causes and evaluation of hyperkalemia in adults; Treatment and prevention of hyperkalemia in adults."
+    },
+    {
+      "number": 3,
+      "title": "O que acontece quando iniciamos insulina?",
+      "stem": "Um paciente com cetoacidose diabética chega com potássio de 5,7 mEq/L. Após iniciar tratamento com reposição volêmica e insulina, o potássio sérico diminui progressivamente. Qual é a principal preocupação relacionada a essa evolução?",
+      "choices": {
+        "A": "A queda comprova que o déficit corporal de potássio foi corrigido.",
+        "B": "A insulina elimina potássio diretamente pelos rins, mesmo que não exista produção de urina.",
+        "C": "A insulina promove entrada celular de potássio e pode revelar ou agravar hipocalemia em um paciente com déficit corporal preexistente.",
+        "D": "A redução do potássio significa que não são mais necessárias dosagens seriadas."
+      },
+      "feedback": {
+        "A": "A redução sérica não comprova correção do déficit; pode refletir redistribuição para o interior das células.",
+        "B": "O principal efeito imediato da insulina é redistribuir potássio, não aumentar diretamente sua eliminação renal.",
+        "C": "A entrada celular de potássio pode causar queda sérica importante sobre um estoque corporal já reduzido.",
+        "D": "O risco de hipocalemia torna as dosagens seriadas especialmente importantes durante o tratamento."
+      },
+      "correctExplanation": "A insulina estimula a captação celular de potássio, principalmente por aumento da atividade da Na⁺/K⁺-ATPase. Durante o tratamento da cetoacidose, a correção da hiperosmolalidade e a reposição volêmica também modificam o equilíbrio do potássio. Como o paciente frequentemente apresenta perdas corporais prévias importantes, a concentração sérica pode cair de forma acentuada e produzir hipocalemia clinicamente relevante. Por isso, é indispensável monitorar o potássio e avaliar sua reposição conforme o protocolo de cetoacidose, a função renal e a diurese. Se o potássio estiver abaixo do limite de segurança previsto no protocolo, a insulinoterapia deve ser temporariamente adiada até a correção adequada. A queda sérica não comprova recuperação do estoque corporal.",
+      "pearl": "Na cetoacidose, a insulina pode transformar uma hipercalemia inicial em hipocalemia. Antecipar essa mudança faz parte do tratamento seguro.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults; princípios de manejo da cetoacidose diabética em adultos."
+    },
+    {
+      "number": 4,
+      "title": "Mesmo potássio, mecanismos diferentes",
+      "stem": "Dois pacientes apresentam potássio sérico de 6,3 mEq/L. O primeiro tem lesão renal aguda oligúrica. O segundo apresenta rabdomiólise extensa após trauma, com função renal inicialmente preservada. Qual afirmação é a mais adequada?",
+      "choices": {
+        "A": "No primeiro, a redução da excreção pode causar retenção corporal; no segundo, a destruição muscular pode elevar o potássio sérico pela liberação de conteúdo intracelular.",
+        "B": "Os dois pacientes necessariamente apresentam a mesma quantidade corporal total de potássio.",
+        "C": "A rabdomiólise aumenta o potássio sérico exclusivamente por maior absorção intestinal.",
+        "D": "Na lesão renal aguda oligúrica, a hipercalemia só pode ocorrer se houver aumento da ingestão alimentar."
+      },
+      "feedback": {
+        "A": "Retenção renal e liberação intracelular são mecanismos diferentes, embora possam ocorrer simultaneamente.",
+        "B": "Valores séricos iguais não significam estoques corporais iguais, pois a distribuição e a excreção podem diferir.",
+        "C": "Na rabdomiólise, o potássio provém principalmente das células musculares lesionadas, não da absorção intestinal.",
+        "D": "A redução da excreção pode produzir hipercalemia mesmo sem aumento da ingestão alimentar."
+      },
+      "correctExplanation": "A mesma concentração sérica pode resultar de mecanismos fisiopatológicos diferentes. Na lesão renal aguda oligúrica, a redução da excreção urinária favorece retenção de potássio e pode aumentar seu conteúdo corporal total. Na rabdomiólise, a destruição muscular libera potássio previamente armazenado no interior das células, elevando a concentração extracelular sem representar, por si só, uma entrada de potássio no organismo. Os mecanismos também podem coexistir: a rabdomiólise pode causar lesão renal aguda, agravando a hipercalemia por redução da excreção. A interpretação exige avaliar a função renal, a diurese, a velocidade de elevação e a persistência da liberação celular.",
+      "pearl": "Dois pacientes podem ter o mesmo potássio sérico e problemas completamente diferentes. O mecanismo orienta o tratamento e a vigilância.",
+      "reference": "UpToDate — Causes and evaluation of hyperkalemia in adults."
+    },
+    {
+      "number": 5,
+      "title": "O potássio caiu: o problema foi resolvido?",
+      "stem": "Um homem de 24 anos, com cetoacidose diabética, apresenta inicialmente potássio de 6,2 mEq/L, glicemia de 480 mg/dL e pH de 7,12. Durante o tratamento, após reposição volêmica e insulinoterapia, o potássio cai para 3,4 mEq/L. Qual é a melhor interpretação?",
+      "choices": {
+        "A": "A queda comprova que o paciente eliminou todo o excesso de potássio e não apresenta risco de hipocalemia.",
+        "B": "O potássio inicial elevado exclui a possibilidade de déficit corporal de potássio.",
+        "C": "A queda pode refletir redistribuição para as células sobre um déficit corporal preexistente; é necessário reavaliar a insulinoterapia e a reposição de potássio conforme o protocolo.",
+        "D": "A redução do potássio demonstra que a insulina bloqueou a absorção intestinal de potássio."
+      },
+      "feedback": {
+        "A": "A queda não comprova eliminação do excesso e pode representar uma situação de risco de hipocalemia.",
+        "B": "A hipercalemia inicial pode coexistir com déficit corporal importante, especialmente na cetoacidose.",
+        "C": "A queda deve ser interpretada considerando a redistribuição, as perdas prévias e a necessidade de tratamento seguro.",
+        "D": "A insulina reduz o potássio principalmente ao estimular sua entrada nas células, não ao bloquear a absorção intestinal."
+      },
+      "correctExplanation": "O paciente com cetoacidose diabética frequentemente apresenta déficit corporal de potássio devido à diurese osmótica e a outras perdas, mesmo quando o valor sérico inicial está elevado. Com a administração de insulina e a correção da hiperosmolalidade, o potássio é redistribuído para o interior das células, reduzindo sua concentração no sangue. A queda para 3,4 mEq/L exige atenção porque pode indicar risco de agravamento da hipocalemia durante o tratamento. Deve-se seguir o protocolo institucional de cetoacidose, com monitorização seriada, avaliação da função renal, reposição de potássio quando indicada e ajuste ou suspensão temporária da insulina conforme os limites de segurança aplicáveis. A concentração sérica não permite inferir, sozinha, a magnitude do déficit corporal.",
+      "pearl": "O tratamento mudou o número. Agora você precisa descobrir o que esse número significa para o paciente e qual risco vem a seguir.",
+      "reference": "UpToDate — Causes and evaluation of hyperkalemia in adults; Treatment and prevention of hyperkalemia in adults; princípios de manejo da cetoacidose diabética em adultos."
+    }
+  ]
+}
