@@ -1,0 +1,206 @@
+{
+  "slug": "hipercalemia-aula-16-v1",
+  "versao": 1,
+  "title": "AgoraQuest 16 — Hipoglicemia após o tratamento: prevenção e reconhecimento",
+  "subtitle": "Hipoglicemia após o tratamento: prevenção e reconhecimento",
+  "intro": "Pratique a prevenção, o reconhecimento e o manejo da hipoglicemia após insulina intravenosa para hipercalemia.",
+  "references": "UpToDate — Treatment and prevention of hyperkalemia in adults. https://www.uptodate.com/contents/treatment-and-prevention-of-hyperkalemia-in-adults",
+  "key": [
+    "B",
+    "D",
+    "A",
+    "C",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "id": "hipercalemia-aq16-q01",
+      "title": "O POTÁSSIO CAIU. POR QUE A GLICEMIA TAMBÉM?",
+      "competency": "Reconhecer a hipoglicemia tardia após insulina intravenosa.",
+      "stem": "Um homem de 68 anos, com doença renal crônica avançada, é admitido na emergência com potássio sérico de 7,1 mEq/L.\n\nRecebe 10 unidades de insulina regular intravenosa associadas a 25 g de glicose, conforme o protocolo da unidade.\n\nA equipe mantém monitorização cardíaca e acompanha o potássio.\n\nOs controles glicêmicos mostram:\n\nNa terceira hora, o paciente apresenta sudorese, tremores e dificuldade para se concentrar.\n\nUm residente comenta:\n\n“Mas nós administramos glicose junto com a insulina. Não deveria ter acontecido hipoglicemia.”\n\n**Qual é a melhor explicação?**",
+      "table": {
+        "caption": "Dados do caso",
+        "headers": [
+          "Momento",
+          "Glicemia"
+        ],
+        "rows": [
+          [
+            "Antes do tratamento",
+            "132 mg/dL"
+          ],
+          [
+            "Após 1 hora",
+            "118 mg/dL"
+          ],
+          [
+            "Após 2 horas",
+            "91 mg/dL"
+          ],
+          [
+            "Após 3 horas",
+            "58 mg/dL"
+          ]
+        ]
+      },
+      "choices": {
+        "A": "A administração de glicose deveria ter neutralizado completamente o efeito metabólico da insulina; portanto, a hipoglicemia não pode estar relacionada ao tratamento.",
+        "B": "A insulina pode continuar promovendo utilização de glicose por várias horas, especialmente na disfunção renal, enquanto o efeito protetor de um bolus isolado de glicose pode ser insuficiente para todo esse período.",
+        "C": "A queda do potássio provoca obrigatoriamente uma queda proporcional da glicemia, independentemente da administração de insulina.",
+        "D": "A hipoglicemia após insulina para hipercalemia ocorre exclusivamente nos primeiros 15 minutos; portanto, o episódio após três horas deve ter outra causa."
+      },
+      "feedback": {
+        "A": "A glicose inicial reduz o risco, mas não neutraliza permanentemente o efeito da insulina. Hipoglicemia pode ocorrer apesar da administração concomitante.",
+        "B": "Explica a persistência do efeito metabólico da insulina, a proteção limitada de um bolus isolado e o maior risco associado à disfunção renal.",
+        "C": "Não existe relação obrigatória ou proporcional entre a queda do potássio e a queda da glicemia. São efeitos distintos da insulina.",
+        "D": "A hipoglicemia pode ocorrer várias horas após a administração, justificando monitorização prolongada."
+      },
+      "correctExplanation": "O erro do residente é imaginar que a administração de 25 g de glicose garante proteção durante todo o período de ação da insulina.\n\n**1. A insulina tem dois efeitos relevantes.**\n\nNo tratamento da hipercalemia, utilizamos a insulina para estimular a Na⁺/K⁺-ATPase e favorecer a entrada de potássio nas células.\n\nEntretanto, a mesma insulina continua exercendo seus efeitos sobre o metabolismo da glicose.\n\n**2. A glicose administrada não dura necessariamente o mesmo tempo que a insulina.**\n\nUm bolus intravenoso fornece glicose rapidamente, mas essa oferta não garante disponibilidade suficiente nas horas seguintes.\n\nO UpToDate explica que a hipoglicemia pode surgir uma hora ou mais após o início do tratamento porque a glicose administrada em bolus pode ser insuficiente para compensar a utilização estimulada pela insulina.\n\n**3. A doença renal agrava esse descompasso.**\n\nNa disfunção renal, a depuração da insulina pode estar reduzida, prolongando seus efeitos metabólicos.\n\nAssim, o paciente pode apresentar uma resposta adequada sobre o potássio e, posteriormente, desenvolver hipoglicemia.\n\n**4. A tendência glicêmica já indicava risco.**\n\nA glicemia caiu progressivamente de 132 para 118, depois para 91 e finalmente para 58 mg/dL.\n\nO valor de 91 mg/dL ainda não caracterizava hipoglicemia, mas a tendência descendente justificava atenção e reavaliação da oferta de glicose.\n\n**5. O episódio atual exige tratamento imediato.**\n\nUma glicemia de 58 mg/dL, acompanhada de sintomas, representa hipoglicemia clinicamente relevante.\n\nO tratamento deve ser iniciado imediatamente, sem esperar o próximo controle programado.\n\n**O problema não é apenas a dose inicial de glicose: é a diferença entre a duração da ação da insulina e a disponibilidade de glicose ao longo do tempo.**",
+      "pearl": "A glicose administrada junto com a insulina não é um seguro contra hipoglicemia. Ela é apenas a primeira parte de uma estratégia que precisa continuar nas horas seguintes.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Insulin with glucose”, página 7."
+    },
+    {
+      "number": 2,
+      "id": "hipercalemia-aq16-q02",
+      "title": "DOIS PACIENTES, A MESMA INSULINA. QUEM EXIGE MAIS ATENÇÃO?",
+      "competency": "Identificar fatores que aumentam o risco de hipoglicemia após o tratamento.",
+      "stem": "Dois pacientes recebem insulina intravenosa para tratamento de hipercalemia, seguindo o protocolo da unidade.\n\n**Paciente A**\n\n- Homem de 46 anos.\n- Potássio: 6,7 mEq/L.\n- Glicemia inicial: 184 mg/dL.\n- Função renal discretamente reduzida.\n- Alimentação preservada.\n- Sem insulina administrada previamente.\n\n**Paciente B**\n\n- Mulher de 79 anos.\n- Potássio: 6,8 mEq/L.\n- Glicemia inicial: 83 mg/dL.\n- Doença renal crônica avançada.\n- Baixa ingestão alimentar nas últimas 24 horas.\n- Recebeu insulina subcutânea anteriormente.\n\nAmbos apresentam indicação de redução rápida do potássio e estão sob monitorização.\n\nUm interno pergunta qual paciente merece maior preocupação com hipoglicemia após a administração.\n\n**Qual é a melhor resposta?**",
+      "choices": {
+        "A": "O paciente A, porque a glicemia inicial mais elevada aumenta obrigatoriamente a chance de hipoglicemia após qualquer dose de insulina.",
+        "B": "Os dois apresentam risco idêntico, pois a probabilidade de hipoglicemia depende exclusivamente da quantidade de insulina intravenosa administrada.",
+        "C": "Nenhum dos dois apresenta risco significativo, desde que receba 25 g de glicose no momento da administração.",
+        "D": "A paciente B apresenta maior preocupação clínica, devido à glicemia inicial mais baixa, à disfunção renal avançada, à ingestão alimentar reduzida e à exposição prévia à insulina."
+      },
+      "feedback": {
+        "A": "A glicemia mais elevada não implica, isoladamente, maior risco de hipoglicemia. A avaliação precisa considerar outros fatores.",
+        "B": "A dose de insulina é relevante, mas a glicemia inicial, a função renal e outras exposições à insulina também influenciam o risco.",
+        "C": "O bolus de glicose não elimina a possibilidade de hipoglicemia tardia.",
+        "D": "Integra os fatores clínicos que tornam a paciente B mais vulnerável e justificam maior atenção preventiva."
+      },
+      "correctExplanation": "A questão não pretende afirmar que o paciente A está livre de hipoglicemia. Ambos precisam de monitorização.\n\nO objetivo é reconhecer que **o risco não depende exclusivamente da dose de insulina administrada**.\n\n**1. Glicemia inicial mais baixa significa menor margem de segurança.**\n\nA paciente B inicia o tratamento com glicemia de 83 mg/dL.\n\nIsso não representa hipoglicemia, mas significa que uma redução relativamente pequena poderá levá-la a valores inferiores a 70 mg/dL.\n\nO paciente A, com glicemia inicial de 184 mg/dL, possui uma margem inicial maior, embora também possa desenvolver hipoglicemia.\n\n**2. A disfunção renal altera a duração da exposição à insulina.**\n\nA doença renal avançada pode reduzir a depuração da insulina.\n\nO UpToDate destaca esse mecanismo como uma das explicações para hipoglicemia tardia após o tratamento da hipercalemia.\n\n**3. A ingestão alimentar reduzida exige atenção.**\n\nUma paciente que se alimentou pouco pode ter menor disponibilidade de substratos para sustentar a glicemia durante o período de ação da insulina.\n\nEssa é uma consideração fisiológica adicional ao mecanismo descrito no UpToDate.\n\n**4. A insulina administrada anteriormente também importa.**\n\nA paciente recebeu insulina subcutânea antes da intervenção intravenosa.\n\nDependendo da formulação, da dose e do horário, ainda pode existir atividade farmacológica.\n\nA equipe deve verificar esses dados e considerar a possível sobreposição de efeitos.\n\n**5. O plano preventivo deve ser individualizado.**\n\nA avaliação deve considerar a glicemia inicial, a função renal, a exposição prévia à insulina, a ingestão alimentar e a possibilidade de monitorização.\n\nO UpToDate descreve a utilização de 5 unidades em determinadas situações como uma estratégia que pode reduzir o risco de hipoglicemia, mas ressalta a necessidade de considerar a gravidade da hipercalemia e o efeito hipocalemiante desejado.\n\n**O reconhecimento de maior risco deve melhorar a prevenção e a vigilância, sem atrasar o tratamento de uma hipercalemia grave.**",
+      "pearl": "Antes de administrar insulina para hipercalemia, não olhe apenas o potássio. Confira também a glicemia, a função renal, a alimentação recente e a insulina que o paciente já recebeu.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Insulin with glucose”, páginas 7–8."
+    },
+    {
+      "number": 3,
+      "id": "hipercalemia-aq16-q03",
+      "title": "PRESCREVEU INSULINA E GLICOSE. O QUE AINDA FALTA?",
+      "competency": "Identificar falhas na prevenção e na monitorização da hipoglicemia.",
+      "stem": "Uma mulher de 73 anos, com doença renal crônica avançada, chega à emergência com potássio sérico de 7,0 mEq/L e glicemia de 106 mg/dL.\n\nA equipe indica insulina regular intravenosa associada à glicose.\n\nUm residente registra a seguinte prescrição:\n\n**PRESCRIÇÃO PROPOSTA**\n\n- Insulina regular: 10 unidades IV, agora.\n- Glicose 50%: 50 mL IV, agora.\n- Glicemia capilar: repetir em 60 minutos.\n- Após a primeira glicemia: suspender os controles se o resultado estiver acima de 70 mg/dL.\n\nVocê identifica uma falha no plano de segurança.\n\n**Qual é a melhor correção?**",
+      "choices": {
+        "A": "Manter a insulina e a glicose iniciais, acrescentar uma estratégia de oferta subsequente de glicose, como glicose a 10% a 50–75 mL/h conforme o esquema do UpToDate e as condições clínicas, e programar monitorização glicêmica horária por cinco a seis horas.",
+        "B": "Substituir os 25 g de glicose por 5 g, pois quantidades maiores aumentam a chance de hipoglicemia tardia.",
+        "C": "Manter a prescrição original, pois uma glicemia acima de 70 mg/dL após uma hora exclui hipoglicemia nas horas seguintes.",
+        "D": "Suspender a insulina e administrar apenas glicose intravenosa, pois a glicose isolada produz redução previsível do potássio sérico."
+      },
+      "feedback": {
+        "A": "Mantém o tratamento hipocalemiante, acrescenta a oferta de glicose subsequente descrita no UpToDate e estabelece monitorização pelo período de risco.",
+        "B": "Reduzir arbitrariamente a quantidade de glicose não previne hipoglicemia; pode aumentar esse risco. A dose deve considerar o esquema adotado e a glicemia do paciente.",
+        "C": "Uma glicemia normal após uma hora não exclui hipoglicemia tardia. O efeito da insulina pode persistir.",
+        "D": "A glicose isolada não substitui a insulina como estratégia confiável de redistribuição do potássio."
+      },
+      "correctExplanation": "A prescrição contém uma medida adequada para o momento inicial, mas não estabelece proteção suficiente para as horas seguintes.\n\n**1. O bolus inicial está corretamente calculado.**\n\nCinquenta mililitros de glicose a 50% fornecem 25 g de glicose.\n\nEssa quantidade corresponde ao bolus descrito no esquema do UpToDate associado a 10 unidades de insulina regular intravenosa.\n\nPortanto, o principal problema não está na conversão da concentração ou na quantidade inicial.\n\n**2. A proteção não pode terminar após a primeira hora.**\n\nA insulina pode continuar promovendo utilização de glicose por várias horas.\n\nEm pacientes com doença renal avançada, sua depuração pode estar diminuída, prolongando o risco de hipoglicemia.\n\nUma glicemia normal após 60 minutos não exclui uma queda posterior.\n\n**3. O que acrescentar à prescrição?**\n\nO UpToDate recomenda, no esquema apresentado, infusão de glicose a 10% a 50–75 mL/h após o bolus inicial de 25 g, associada à monitorização glicêmica horária por cinco a seis horas.\n\nEssa estratégia busca compensar a utilização de glicose estimulada pela insulina durante um período mais prolongado.\n\nA velocidade e a duração devem ser avaliadas conforme o protocolo institucional, a glicemia e o estado clínico.\n\n**4. E o volume administrado?**\n\nA glicose a 10% contém 10 g em 100 mL.\n\nPortanto:\n\n| Velocidade | Glicose fornecida por hora |\n|---|---|\n| 50 mL/h | 5 g/h |\n| 75 mL/h | 7,5 g/h |\n\nIsso representa oferta contínua de glicose, diferente de um bolus único.\n\nEm pacientes com restrição hídrica, a equipe precisa considerar o volume e individualizar o esquema.\n\n**5. O controle glicêmico precisa ser programado desde o início.**\n\nUma prescrição segura não deve depender de alguém se lembrar de solicitar uma glicemia mais tarde.\n\nO acompanhamento precisa estar claramente definido.\n\n**A prevenção da hipoglicemia deve ser prescrita junto com a insulina, e não improvisada depois que a glicemia começa a cair.**",
+      "pearl": "A prescrição de insulina para hipercalemia só está completa quando você também prescreve como prevenir, detectar e acompanhar a hipoglicemia.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Insulin with glucose”, página 7, e “Monitoring”, página 5."
+    },
+    {
+      "number": 4,
+      "id": "hipercalemia-aq16-q04",
+      "title": "O PACIENTE ESTÁ CONFUSO. O POTÁSSIO OU A GLICOSE?",
+      "competency": "Reconhecer e tratar prontamente a hipoglicemia estabelecida.",
+      "stem": "Um homem de 76 anos, com insuficiência renal avançada, foi tratado por hipercalemia de 7,2 mEq/L.\n\nRecebeu cálcio intravenoso, insulina regular e glicose.\n\nDuas horas e meia depois, a enfermagem informa que o paciente está sudoreico, agitado e progressivamente confuso.\n\nNa avaliação:\n\nO ECG não apresenta novas alterações relevantes.\n\n**Qual deve ser a conduta imediata?**",
+      "table": {
+        "caption": "Dados do caso",
+        "headers": [
+          "Parâmetro",
+          "Resultado"
+        ],
+        "rows": [
+          [
+            "Glicemia capilar",
+            "42 mg/dL"
+          ],
+          [
+            "Frequência cardíaca",
+            "104 bpm"
+          ],
+          [
+            "Pressão arterial",
+            "126/74 mmHg"
+          ],
+          [
+            "Saturação",
+            "97%"
+          ],
+          [
+            "Estado neurológico",
+            "Confuso, não consegue deglutir com segurança"
+          ]
+        ]
+      },
+      "choices": {
+        "A": "Aguardar o resultado de uma nova dosagem de potássio, pois a alteração neurológica provavelmente representa persistência da hipercalemia.",
+        "B": "Oferecer imediatamente um copo de suco por via oral, mesmo sem capacidade segura de deglutição, pois a glicose oral é sempre preferível.",
+        "C": "Reconhecer hipoglicemia sintomática importante, administrar glicose intravenosa prontamente conforme o protocolo de hipoglicemia, reavaliar a glicemia e o estado neurológico em curto intervalo e manter vigilância para recorrência.",
+        "D": "Administrar outra dose de insulina intravenosa, pois a hipoglicemia indica que o potássio provavelmente ainda está elevado."
+      },
+      "feedback": {
+        "A": "A glicemia de 42 mg/dL associada à confusão exige tratamento imediato. Não há justificativa para aguardar o potássio antes de corrigir a hipoglicemia.",
+        "B": "A administração oral não é segura em um paciente confuso e incapaz de deglutir adequadamente, devido ao risco de aspiração.",
+        "C": "Identifica a hipoglicemia sintomática, prioriza a correção intravenosa, exige reavaliação precoce e reconhece o risco de recorrência.",
+        "D": "A insulina adicional agravaria a hipoglicemia. A concentração atual de potássio deve ser avaliada separadamente."
+      },
+      "correctExplanation": "O paciente apresenta glicemia de 42 mg/dL acompanhada de alteração do estado mental.\n\nTrata-se de uma hipoglicemia importante que exige intervenção imediata.\n\n**1. O quadro clínico é compatível com hipoglicemia.**\n\nA hipoglicemia pode produzir manifestações autonômicas, como sudorese, tremores e palpitações, e manifestações neuroglicopênicas, como confusão, alterações comportamentais, convulsões e redução do nível de consciência.\n\nNeste caso, a associação entre glicemia de 42 mg/dL e confusão é suficiente para justificar tratamento imediato.\n\n**2. Por que a hipoglicemia ocorreu?**\n\nO paciente recebeu insulina intravenosa para promover redistribuição intracelular de potássio.\n\nEntretanto, a insulina também aumenta a utilização de glicose.\n\nO UpToDate destaca que a hipoglicemia pode ocorrer uma hora ou mais após a administração, especialmente quando a oferta de glicose é insuficiente para compensar a duração do efeito da insulina.\n\n**3. Qual é a prioridade?**\n\nA prioridade é corrigir prontamente a hipoglicemia.\n\nComo o paciente não consegue deglutir com segurança, não se deve administrar líquidos ou alimentos por via oral.\n\nA via intravenosa é apropriada, utilizando a apresentação e a quantidade de glicose estabelecidas no protocolo de tratamento de hipoglicemia da instituição.\n\n**4. Por que não basta administrar glicose e encerrar o atendimento?**\n\nA insulina pode continuar ativa.\n\nPortanto, mesmo após a correção inicial, existe risco de nova queda glicêmica.\n\nÉ necessário reavaliar a glicemia em curto intervalo, verificar a recuperação neurológica e definir a necessidade de oferta adicional de glicose.\n\n**5. A hipercalemia ainda precisa ser acompanhada.**\n\nO tratamento da hipoglicemia não significa abandonar o problema inicial.\n\nApós a estabilização, a equipe deve continuar monitorando o potássio e as medidas de remoção efetiva.\n\nEntretanto, a presença de hipoglicemia sintomática não deve ser negligenciada enquanto se aguarda um novo exame de potássio.\n\n**O tratamento da hipercalemia pode gerar uma segunda emergência. Reconhecer essa complicação rapidamente faz parte da segurança do paciente.**",
+      "pearl": "Paciente que recebeu insulina para hipercalemia e ficou confuso, sudoreico ou sonolento? Confira imediatamente a glicemia. A complicação pode ser do tratamento, não da doença inicial.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Insulin with glucose”, página 7."
+    },
+    {
+      "number": 5,
+      "id": "hipercalemia-aq16-q05",
+      "title": "A GLICEMIA AINDA ESTÁ NORMAL. VOCÊ ESPERARIA CAIR MAIS?",
+      "competency": "Interpretar a tendência glicêmica e prevenir hipoglicemia recorrente.",
+      "stem": "Uma mulher de 71 anos, com doença renal crônica avançada, recebe 10 unidades de insulina regular intravenosa e 25 g de glicose para tratar hipercalemia de 7,0 mEq/L.\n\nA unidade dispõe de monitorização glicêmica seriada.\n\nOs controles mostram:\n\nA paciente está consciente, sem sudorese, tremores ou confusão.\n\nNão foi prescrita infusão contínua de glicose após o bolus inicial.\n\nUm residente comenta:\n\n“A glicemia ainda está acima de 70 mg/dL. Vamos esperar mais uma hora antes de fazer qualquer coisa.”\n\n**Qual é a melhor decisão?**",
+      "table": {
+        "caption": "Dados do caso",
+        "headers": [
+          "Momento",
+          "Glicemia"
+        ],
+        "rows": [
+          [
+            "Antes da insulina",
+            "158 mg/dL"
+          ],
+          [
+            "Após 1 hora",
+            "129 mg/dL"
+          ],
+          [
+            "Após 2 horas",
+            "101 mg/dL"
+          ],
+          [
+            "Após 3 horas",
+            "76 mg/dL"
+          ]
+        ]
+      },
+      "choices": {
+        "A": "Concordar com o residente, pois valores acima de 70 mg/dL excluem qualquer necessidade de reavaliar a prescrição de glicose.",
+        "B": "Reconhecer a tendência descendente e o risco de hipoglicemia iminente, reavaliar imediatamente a oferta de glicose, considerar suplementação ou infusão conforme o protocolo e manter monitorização glicêmica seriada, sem esperar que o valor caia abaixo de 70 mg/dL.",
+        "C": "Administrar mais insulina para impedir que o potássio volte a subir, pois a glicemia ainda está dentro da faixa considerada normal.",
+        "D": "Suspender definitivamente os controles glicêmicos, pois a ausência de sintomas indica que a paciente não desenvolverá hipoglicemia."
+      },
+      "feedback": {
+        "A": "Um valor acima de 70 mg/dL não elimina o risco de hipoglicemia iminente, especialmente quando existe queda progressiva e persistência do efeito da insulina.",
+        "B": "Valoriza a tendência, reconhece o risco, orienta reavaliar a oferta de glicose e mantém monitorização adequada.",
+        "C": "Administrar insulina adicional sem considerar a tendência glicêmica pode precipitar hipoglicemia. A decisão exige avaliação individualizada.",
+        "D": "A ausência de sintomas não garante segurança. A monitorização deve continuar durante o período de risco."
+      },
+      "correctExplanation": "Esta questão avalia uma habilidade essencial: **interpretar a tendência dos resultados, e não apenas um valor isolado**.\n\nA glicemia de 76 mg/dL ainda não caracteriza hipoglicemia pelo limiar habitual inferior a 70 mg/dL.\n\nEntretanto, a evolução da paciente exige atenção.\n\n**1. Observe a tendência.**\n\nA glicemia caiu progressivamente:\n\n158 → 129 → 101 → 76 mg/dL.\n\nIsso representa uma redução de 82 mg/dL em três horas.\n\nA paciente está se aproximando do limiar de hipoglicemia enquanto ainda se encontra dentro do período de risco relacionado à insulina intravenosa.\n\n**2. Por que a ausência de sintomas não tranquiliza completamente?**\n\nNem todos os pacientes apresentam manifestações autonômicas evidentes antes de desenvolver hipoglicemia.\n\nAlém disso, esperar sintomas pode significar perder a oportunidade de prevenção.\n\nO objetivo da monitorização é identificar alterações antes que produzam deterioração clínica.\n\n**3. A prescrição inicial está incompleta.**\n\nA paciente recebeu um bolus de 25 g de glicose, mas não possui estratégia de oferta subsequente.\n\nO UpToDate recomenda, em seu esquema descrito, infusão de glicose a 10% a 50–75 mL/h após o bolus inicial, com monitorização horária por cinco a seis horas.\n\nA ausência dessa estratégia deve ser reavaliada, especialmente diante da tendência de queda.\n\n**4. É necessário administrar glicose imediatamente?**\n\nA conduta depende do protocolo, da tendência, do estado clínico, da oferta de glicose em curso e da possibilidade de reavaliação.\n\nO ponto central não é tratar automaticamente toda glicemia de 76 mg/dL como hipoglicemia estabelecida.\n\nÉ reconhecer que uma paciente de alto risco, com glicemia em queda progressiva, precisa de reavaliação ativa da prevenção.\n\nPode ser necessário iniciar ou ajustar a oferta de glicose e antecipar um novo controle, conforme a avaliação clínica.\n\n**5. Por que não esperar passivamente mais uma hora?**\n\nO efeito da insulina pode persistir por várias horas.\n\nA glicemia já está próxima do limiar de hipoglicemia.\n\nAguardar sem revisar o plano pode permitir uma queda adicional até valores perigosos.\n\n**6. E quanto ao potássio?**\n\nA equipe deve continuar acompanhando o potássio sérico e a estratégia de remoção efetiva.\n\nUma nova dose de insulina não deve ser administrada automaticamente sem considerar a glicemia atual, a resposta anterior e o risco de hipoglicemia.\n\n**Monitorizar não é apenas registrar números. É utilizar os resultados para antecipar complicações e modificar a conduta.**",
+      "pearl": "Não espere a glicemia ficar vermelha no monitor para perceber que ela está caindo. Uma tendência descendente pode ser o aviso que permite prevenir a hipoglicemia.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seções “Insulin with glucose” e “Monitoring”, páginas 5 e 7–8."
+    }
+  ]
+}

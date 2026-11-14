@@ -1,0 +1,127 @@
+{
+  "slug": "hipercalemia-aula-33-v1",
+  "versao": 1,
+  "title": "AgoraQuest 33 — Caso integrado: do resultado laboratorial ao plano de seguimento",
+  "subtitle": "Questões que ensinam a decidir.",
+  "intro": "Acompanhe um caso clínico progressivo, da identificação da hipercalemia ao plano de seguimento.",
+  "references": "UpToDate — Treatment and prevention of hyperkalemia in adults.",
+  "key": [
+    "B",
+    "D",
+    "A",
+    "D",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "id": "hipercalemia-aq33-q01",
+      "title": "O laboratório ligou: potássio de 6,7. Qual é a primeira decisão?",
+      "competency": "Reconhecer uma emergência hipercalêmica e organizar a avaliação inicial sem atrasar o tratamento.",
+      "stem": "Um homem de 68 anos procura a emergência por fraqueza progressiva, náuseas e redução do volume urinário nas últimas 24 horas.\n\nAntecedentes:\n\n- Doença renal crônica estágio G4.\n- Insuficiência cardíaca com fração de ejeção reduzida.\n- Diabetes mellitus tipo 2.\n- Hipertensão arterial.\n\nMedicamentos habituais: losartana, espironolactona, carvedilol e furosemida.\n\nHá quatro dias, iniciou ibuprofeno por dor lombar.\n\nNa avaliação:\n\n- PA: 108/66 mmHg.\n- FC: 56 bpm.\n- FR: 20 irpm.\n- SpO₂: 97% em ar ambiente.\n- Potássio: 6,7 mEq/L.\n- Creatinina: 3,4 mg/dL (habitual: 2,2 mg/dL).\n- Glicemia: 184 mg/dL.\n\nO laboratório não informa hemólise significativa na amostra.\n\nO paciente está consciente e orientado. O ECG ainda não foi realizado.\n\nUm interno afirma:\n\n“Ele está conversando normalmente. Podemos repetir o potássio amanhã antes de decidir qualquer coisa.”\n\n**Qual é a melhor conduta inicial?**",
+      "choices": {
+        "A": "Aguardar nova coleta no dia seguinte, pois a ausência de sintomas cardiovasculares exclui risco imediato.",
+        "B": "Reconhecer uma emergência hipercalêmica, obter ECG imediatamente, iniciar monitorização cardíaca contínua e organizar tratamento urgente, sem permitir que a confirmação laboratorial atrase intervenções necessárias.",
+        "C": "Prescrever apenas restrição alimentar de potássio e suspender a espironolactona, aguardando a resposta.",
+        "D": "Considerar pseudohipercalemia como diagnóstico mais provável, porque o paciente está consciente e orientado."
+      },
+      "feedback": {
+        "A": "Incorreta. A ausência de manifestações cardiovasculares aparentes não exclui risco de arritmia.",
+        "B": "Correta. Reconhece a emergência, prioriza ECG, monitorização e tratamento oportuno.",
+        "C": "Incorreta. Suspender fatores precipitantes e orientar a alimentação são medidas importantes, mas insuficientes isoladamente diante da gravidade.",
+        "D": "Incorreta. Pseudohipercalemia deve ser considerada quando pertinente, mas não pode ser presumida apenas porque o paciente está consciente."
+      },
+      "correctExplanation": "**1. Qual é a informação mais importante?**\n\nO paciente apresenta potássio de 6,7 mEq/L, associado a piora da função renal e redução da diurese.\n\nEssa combinação representa risco elevado de complicações cardíacas.\n\n**2. A ausência de sintomas cardiovasculares exclui gravidade?**\n\nNão.\n\nA hipercalemia pode permanecer pouco sintomática até ocorrer deterioração elétrica importante.\n\nA capacidade de conversar normalmente não demonstra segurança cardíaca.\n\n**3. Por que a piora da função renal importa?**\n\nPorque a redução da excreção renal de potássio favorece sua acumulação.\n\nNesse paciente, a creatinina aumentou de 2,2 para 3,4 mg/dL, sugerindo lesão renal aguda sobre doença renal crônica.\n\n**4. Qual é o papel dos medicamentos?**\n\nA losartana e a espironolactona podem reduzir a excreção renal de potássio.\n\nO ibuprofeno pode contribuir para deterioração da função renal e hipercalemia.\n\nÉ necessário revisar esses medicamentos, mas isso não substitui o tratamento urgente.\n\n**5. Por que realizar ECG imediatamente?**\n\nPorque ele pode revelar alterações de condução e repolarização associadas à hipercalemia.\n\nEntretanto, a ausência de alterações não exclui risco.\n\n**6. Por que iniciar monitorização contínua?**\n\nPorque alterações elétricas e arritmias podem surgir durante a evolução.\n\nA monitorização permite reconhecer rapidamente a deterioração.\n\n**7. Devemos repetir o potássio?**\n\nUma nova dosagem pode ser apropriada para confirmar o resultado e acompanhar a evolução.\n\nContudo, diante de hipercalemia importante e contexto clínico compatível, a repetição não deve atrasar o tratamento necessário.\n\n**8. O potássio de 6,7 mEq/L, por si só, já é preocupante?**\n\nSim.\n\nO PDF do UpToDate considera, em geral, valores superiores a 6,5 mEq/L entre as situações que exigem abordagem de emergência, mesmo antes de considerar outros fatores agravantes.\n\n**9. Qual é a principal lição?**\n\n**O primeiro erro diante de uma hipercalemia grave é esperar que o paciente pareça grave para começar a agir.**",
+      "pearl": "**Na hipercalemia grave, o paciente não precisa estar em colapso para estar em perigo. Um potássio de 6,7 mEq/L com lesão renal aguda já exige uma resposta organizada e imediata.**",
+      "reference": "UpToDate — *Treatment and prevention of hyperkalemia in adults*, seção “Determining the urgency of therapy”."
+    },
+    {
+      "number": 2,
+      "id": "hipercalemia-aq33-q02",
+      "title": "O ECG chegou. Qual é a prioridade?",
+      "competency": "Reconhecer toxicidade cardíaca pela hipercalemia e organizar medidas complementares de estabilização e redução do potássio.",
+      "stem": "O mesmo paciente de 68 anos, com doença renal crônica e lesão renal aguda, permanece na emergência.\n\nO potássio é de 6,7 mEq/L.\n\nO ECG revela:\n\n- Ondas T apiculadas.\n- Achatamento das ondas P.\n- Alargamento do QRS.\n\nO paciente apresenta frequência cardíaca de 48 bpm e pressão arterial de 102/64 mmHg.\n\nO interno pergunta:\n\n“Se vamos administrar insulina com glicose para baixar o potássio, precisamos mesmo do cálcio?”\n\n**Qual é a melhor estratégia terapêutica?**",
+      "choices": {
+        "A": "Administrar apenas insulina com glicose, porque a redução do potássio torna desnecessária a estabilização cardíaca.",
+        "B": "Administrar cálcio intravenoso e aguardar, porque o cálcio remove potássio do organismo.",
+        "C": "Administrar bicarbonato de sódio isoladamente, independentemente do estado acidobásico, porque ele é suficiente para tratar qualquer hipercalemia grave.",
+        "D": "Administrar cálcio intravenoso para estabilização cardíaca, associar tratamento de redistribuição do potássio e iniciar planejamento de sua remoção, com monitorização contínua."
+      },
+      "feedback": {
+        "A": "Incorreta. A insulina reduz temporariamente o potássio extracelular, mas não substitui a estabilização cardíaca diante de alterações eletrocardiográficas.",
+        "B": "Incorreta. O cálcio estabiliza a membrana cardíaca, mas não reduz o potássio sérico.",
+        "C": "Incorreta. O bicarbonato não é tratamento isolado universal e sua indicação depende do contexto clínico e acidobásico.",
+        "D": "Correta. Integra estabilização cardíaca, redistribuição, remoção e monitorização."
+      },
+      "correctExplanation": "**1. O que mudou em relação à primeira questão?**\n\nAgora existem alterações eletrocardiográficas compatíveis com toxicidade cardíaca pela hipercalemia.\n\nIsso reforça a necessidade de intervenção imediata.\n\n**2. Qual é a função do cálcio intravenoso?**\n\nO cálcio antagoniza os efeitos da hipercalemia sobre a excitabilidade das membranas cardíacas.\n\nSeu objetivo imediato é reduzir o risco de deterioração elétrica.\n\n**3. O cálcio reduz o potássio sérico?**\n\nNão.\n\nO cálcio não redistribui nem remove potássio.\n\nEssa distinção é fundamental.\n\n**4. Qual é a função da insulina?**\n\nEstimular a entrada de potássio nas células, reduzindo temporariamente sua concentração extracelular.\n\n**5. Por que geralmente associamos glicose à insulina?**\n\nPara reduzir o risco de hipoglicemia, conforme a glicemia inicial e o protocolo utilizado.\n\nA administração de insulina exige acompanhamento glicêmico posterior.\n\n**6. Qual é o papel do salbutamol?**\n\nPode contribuir para a redistribuição intracelular do potássio por estímulo beta-2-adrenérgico.\n\nÉ uma medida adjuvante, não substituta das intervenções essenciais.\n\n**7. Por que não utilizar bicarbonato indiscriminadamente?**\n\nPorque sua utilidade depende do contexto acidobásico.\n\nNão deve ser considerado tratamento isolado e universal da hipercalemia grave.\n\n**8. Por que pensar na remoção desde o início?**\n\nPorque a redistribuição reduz temporariamente a concentração extracelular, mas não elimina o excesso corporal de potássio.\n\nSe a eliminação estiver comprometida, o potássio pode voltar a subir.\n\n**9. Qual é a principal lição?**\n\n**O tratamento da hipercalemia grave não é uma escolha entre cálcio e insulina. São intervenções com objetivos diferentes e complementares.**",
+      "pearl": "**O cálcio protege o coração. A insulina desloca o potássio. A remoção impede que o problema continue. Tratar hipercalemia grave exige compreender essas três funções, não apenas decorar medicamentos.**",
+      "reference": "UpToDate — *Treatment and prevention of hyperkalemia in adults*, seções “Calcium”, “Insulin with glucose” e “Remove potassium from the body”."
+    },
+    {
+      "number": 3,
+      "id": "hipercalemia-aq33-q03",
+      "title": "O potássio caiu para 5,4. O problema foi resolvido?",
+      "competency": "Diferenciar redução temporária do potássio sérico de remoção efetiva do potássio corporal, reconhecendo o risco de rebote.",
+      "stem": "O paciente recebeu cálcio intravenoso devido às alterações eletrocardiográficas, seguido de insulina com glicose e salbutamol nebulizado, conforme o protocolo institucional.\n\nNoventa minutos após o início do tratamento:\n\n- Potássio: 5,4 mEq/L, anteriormente 6,7 mEq/L.\n- Frequência cardíaca: 72 bpm.\n- QRS: estreitou em relação ao ECG inicial.\n- Glicemia capilar: 116 mg/dL.\n- Creatinina: 3,4 mg/dL.\n- Diurese nas últimas duas horas: aproximadamente 30 mL.\n\nO paciente refere melhora da fraqueza.\n\nO interno afirma:\n\n“O potássio já caiu e o ECG melhorou. Podemos encerrar o tratamento e suspender a monitorização.”\n\n**Qual é a interpretação mais adequada?**",
+      "choices": {
+        "A": "A redução do potássio após insulina e salbutamol indica redistribuição intracelular, mas não garante remoção do excesso corporal; é necessário manter monitorização e estabelecer uma estratégia de eliminação.",
+        "B": "A normalização parcial do ECG comprova que todo o excesso de potássio foi eliminado pelos rins.",
+        "C": "A melhora clínica permite suspender imediatamente a monitorização cardíaca e glicêmica, independentemente do tratamento administrado.",
+        "D": "O cálcio intravenoso foi o principal responsável pela redução do potássio de 6,7 para 5,4 mEq/L."
+      },
+      "feedback": {
+        "A": "Correta. Reconhece a diferença entre redistribuição e remoção, além da necessidade de monitorização e prevenção do rebote.",
+        "B": "Incorreta. A melhora eletrocardiográfica não comprova eliminação renal de potássio.",
+        "C": "Incorreta. A melhora clínica não exclui hipoglicemia tardia, recorrência da hipercalemia ou deterioração elétrica.",
+        "D": "Incorreta. O cálcio intravenoso estabiliza a membrana cardíaca, mas não reduz diretamente a concentração sérica de potássio."
+      },
+      "correctExplanation": "**1. O que significa a redução do potássio?**\n\nA concentração sérica diminuiu após o tratamento.\n\nIsso representa uma resposta inicial favorável, mas ainda não demonstra que o excesso corporal de potássio tenha sido removido.\n\n**2. Qual é o mecanismo da insulina?**\n\nA insulina estimula a atividade da Na⁺/K⁺-ATPase, favorecendo a entrada de potássio nas células.\n\nConsequentemente, a concentração extracelular diminui.\n\n**3. E o salbutamol?**\n\nA estimulação beta-2-adrenérgica também favorece a entrada intracelular de potássio.\n\nSeu efeito pode complementar o da insulina, embora a magnitude da resposta seja variável.\n\n**4. Por que essas intervenções não resolvem necessariamente o problema?**\n\nPorque redistribuir potássio não significa eliminá-lo.\n\nQuando o efeito das intervenções diminui, parte do potássio pode retornar ao compartimento extracelular.\n\nEsse fenômeno contribui para o chamado rebote.\n\n**5. Qual é o fator mais preocupante neste paciente?**\n\nA função renal permanece comprometida e a diurese está bastante reduzida.\n\nIsso limita a capacidade de eliminação urinária de potássio.\n\n**6. A melhora do ECG permite encerrar a vigilância?**\n\nNão.\n\nO ECG pode melhorar após estabilização cardíaca e redução do potássio, mas o risco pode persistir ou reaparecer.\n\n**7. Por que continuar monitorando a glicemia?**\n\nPorque a insulina utilizada para tratar hipercalemia pode provocar hipoglicemia tardia, especialmente em pacientes com disfunção renal.\n\nUma glicemia normal aos 90 minutos não elimina esse risco.\n\n**8. Qual é a monitorização recomendada no material de referência?**\n\nO UpToDate recomenda dosar novamente o potássio aproximadamente uma a duas horas após o início do tratamento e individualizar as dosagens seguintes conforme a resposta.\n\nPara pacientes que recebem insulina, com ou sem glicose, descreve monitorização glicêmica horária por até seis horas.\n\n**9. Qual é a próxima prioridade?**\n\nDeterminar como o potássio será efetivamente removido.\n\nIsso exige avaliar função renal, diurese, possibilidade de tratamento farmacológico e necessidade de terapia dialítica.\n\n**10. Qual é a principal lição?**\n\n**A queda inicial do potássio demonstra que o tratamento começou a funcionar. Não demonstra que o problema terminou.**",
+      "pearl": "**O potássio caiu depois da insulina? Ótimo. Agora faça a pergunta que define a continuidade do tratamento: “Para onde foi esse potássio?”. Se ele apenas entrou nas células, ainda precisamos garantir sua eliminação.**",
+      "reference": "UpToDate — *Treatment and prevention of hyperkalemia in adults*, seções “Insulin with glucose”, “Remove potassium from the body” e “Monitoring”."
+    },
+    {
+      "number": 4,
+      "id": "hipercalemia-aq33-q04",
+      "title": "Três horas depois, o potássio voltou a subir",
+      "competency": "Reconhecer hipercalemia persistente ou recorrente em paciente com lesão renal aguda oligúrica e indicar avaliação nefrológica urgente para remoção efetiva de potássio.",
+      "stem": "Três horas após o tratamento inicial, o paciente permanece sob monitorização na emergência.\n\nO potássio, que havia diminuído de 6,7 para 5,4 mEq/L, voltou a subir.\n\nResultados atuais:\n\n- Potássio: 6,3 mEq/L.\n- Creatinina: 3,6 mg/dL.\n- Diurese acumulada nas últimas quatro horas: 45 mL.\n- Glicemia: 132 mg/dL.\n- Pressão arterial: 110/68 mmHg.\n- Frequência cardíaca: 68 bpm.\n- ECG: sem novo alargamento do QRS.\n\nA equipe suspendeu temporariamente os medicamentos potencialmente agravantes e iniciou investigação da lesão renal aguda.\n\nO hospital dispõe de serviço de nefrologia e hemodiálise.\n\nUm residente comenta:\n\n“O ECG está melhor. Podemos repetir insulina sempre que o potássio subir e aguardar a recuperação renal.”\n\n**Qual é a melhor decisão?**",
+      "choices": {
+        "A": "Aguardar até o dia seguinte, porque o ECG atual não apresenta alargamento do QRS.",
+        "B": "Considerar a recorrência esperada e sem importância, já que o paciente recebeu tratamento adequado inicialmente.",
+        "C": "Repetir indefinidamente medidas de redistribuição, sem investigar alternativas de remoção de potássio.",
+        "D": "Reconhecer a recorrência da hipercalemia em contexto de disfunção renal importante, solicitar avaliação nefrológica urgente para possível hemodiálise e manter tratamento, monitorização e medidas de estabilização conforme a gravidade durante a organização da terapia definitiva."
+      },
+      "feedback": {
+        "A": "Incorreta. O ECG sem novas alterações não exclui risco, especialmente diante de hipercalemia recorrente e oligúria.",
+        "B": "Incorreta. A recorrência é clinicamente relevante e indica que o controle obtido inicialmente não foi sustentado.",
+        "C": "Incorreta. A redistribuição isolada não remove potássio e pode ser insuficiente para evitar novas elevações.",
+        "D": "Correta. Reconhece a necessidade de avaliação nefrológica urgente, possível terapia dialítica e manutenção das medidas de segurança enquanto a remoção é organizada."
+      },
+      "correctExplanation": "**1. O que aconteceu com o potássio?**\n\nApós uma redução inicial, o potássio voltou a subir.\n\nEsse comportamento sugere que o efeito temporário das medidas de redistribuição está diminuindo enquanto a eliminação corporal permanece insuficiente.\n\n**2. Por que a recorrência era previsível?**\n\nPorque o paciente apresenta lesão renal aguda sobre doença renal crônica e oligúria importante.\n\nA capacidade de excreção renal de potássio está comprometida.\n\n**3. A ausência de novas alterações no ECG exclui gravidade?**\n\nNão.\n\nO ECG apresenta sensibilidade limitada para identificar a gravidade da hipercalemia.\n\nA decisão deve considerar a concentração sérica, a evolução, a função renal e o contexto clínico.\n\n**4. Por que repetir insulina indefinidamente não é uma solução adequada?**\n\nPorque a insulina desloca temporariamente o potássio para o interior das células.\n\nEla não elimina o excesso corporal.\n\nAlém disso, administrações repetidas aumentam a necessidade de vigilância para hipoglicemia.\n\n**5. Qual é a importância da oligúria?**\n\nA diurese muito reduzida sugere capacidade limitada de eliminação urinária.\n\nIsso torna menos provável que estratégias dependentes da excreção renal sejam suficientes.\n\n**6. Quando considerar hemodiálise?**\n\nA hemodiálise deve ser considerada particularmente em pacientes com hipercalemia grave, persistente ou recorrente e comprometimento importante da função renal, especialmente quando a eliminação por outras vias é insuficiente.\n\n**7. A indicação de hemodiálise depende exclusivamente do valor de potássio?**\n\nNão.\n\nA decisão considera gravidade, resposta ao tratamento, função renal, diurese, alterações eletrocardiográficas, condições clínicas e possibilidade de controle por outras medidas.\n\n**8. Por que acionar a nefrologia antes de uma deterioração maior?**\n\nPorque a organização da terapia dialítica exige tempo.\n\nA avaliação precoce permite planejar acesso, modalidade e condições necessárias, evitando atrasos quando a terapia for indicada.\n\n**9. Podemos simplesmente aguardar a hemodiálise sem outras medidas?**\n\nNão.\n\nEnquanto a remoção definitiva é organizada, o paciente deve permanecer monitorizado e receber as intervenções necessárias conforme o potássio, o ECG e a condição clínica.\n\nSe surgirem novas alterações elétricas, a estabilização cardíaca deve ser reavaliada imediatamente.\n\n**10. Qual é a principal lição?**\n\n**Quando o potássio volta a subir e o rim não consegue eliminá-lo, repetir medidas temporárias não substitui a necessidade de uma estratégia efetiva de remoção.**",
+      "pearl": "**Insulina compra tempo. Hemodiálise, quando indicada, remove potássio. O erro é gastar todo o tempo que a insulina proporcionou sem organizar uma forma de eliminar o excesso.**",
+      "reference": "UpToDate — *Treatment and prevention of hyperkalemia in adults*, seções “Remove potassium from the body”, “Dialysis” e “Monitoring”."
+    },
+    {
+      "number": 5,
+      "id": "hipercalemia-aq33-q05",
+      "title": "O potássio normalizou. O paciente está pronto para ir embora?",
+      "competency": "Integrar estabilidade clínica, controle sustentado do potássio, recuperação renal, revisão medicamentosa e plano de seguimento para definir o destino do paciente.",
+      "stem": "O paciente foi avaliado pela nefrologia e submetido à hemodiálise devido à hipercalemia recorrente associada à lesão renal aguda oligúrica.\n\nApós a sessão:\n\n- Potássio: 4,6 mEq/L.\n- Frequência cardíaca: 76 bpm.\n- Pressão arterial: 122/74 mmHg.\n- ECG: sem alterações sugestivas de hipercalemia.\n- Glicemias: estáveis.\n- Creatinina: 3,1 mg/dL.\n- Diurese: ainda reduzida.\n\nO paciente refere melhora completa da fraqueza.\n\nSua esposa pergunta:\n\n“Agora que o potássio está normal, ele já pode receber alta?”\n\nO interno comenta:\n\n“Se o potássio está normal e o ECG melhorou, não há motivo para continuar internado.”\n\n**Qual é a melhor decisão?**",
+      "choices": {
+        "A": "Dar alta imediatamente, porque a normalização do potássio após hemodiálise garante que não haverá recorrência.",
+        "B": "Manter todos os medicamentos habituais nas doses anteriores, sem revisão, pois o tratamento dialítico corrigiu definitivamente o problema.",
+        "C": "Manter acompanhamento hospitalar enquanto persistirem fatores de risco relevantes, monitorar potássio e função renal, avaliar a necessidade de novas intervenções, revisar medicamentos e organizar um plano de seguimento antes da alta.",
+        "D": "Suspender definitivamente todos os medicamentos cardiovasculares e renais, independentemente de seus benefícios, para impedir qualquer nova hipercalemia."
+      },
+      "feedback": {
+        "A": "Incorreta. A normalização após hemodiálise não elimina o risco de recorrência, especialmente quando a função renal permanece comprometida.",
+        "B": "Incorreta. Os medicamentos precisam ser revisados à luz dos fatores que contribuíram para a hipercalemia e da situação renal atual.",
+        "C": "Correta. Integra controle laboratorial, evolução renal, estabilidade clínica, revisão terapêutica e planejamento do seguimento.",
+        "D": "Incorreta. A suspensão definitiva e indiscriminada de medicamentos pode privar o paciente de benefícios importantes e não substitui a prevenção individualizada."
+      },
+      "correctExplanation": "**1. O que significa o potássio de 4,6 mEq/L?**\n\nO paciente apresenta uma concentração sérica de potássio adequada naquele momento.\n\nIsso representa resposta favorável ao tratamento, mas não garante estabilidade futura.\n\n**2. Por que ainda existe risco?**\n\nPorque a lesão renal aguda não foi resolvida.\n\nA diurese permanece reduzida, e a capacidade de eliminar potássio pode continuar comprometida.\n\n**3. A hemodiálise resolve definitivamente a causa da hipercalemia?**\n\nNão necessariamente.\n\nEla remove potássio do organismo, mas não corrige automaticamente a doença renal, os fatores precipitantes ou a predisposição à recorrência.\n\n**4. O potássio pode voltar a subir após a hemodiálise?**\n\nSim.\n\nPode ocorrer elevação posterior por redistribuição entre compartimentos e, sobretudo, pela persistência dos mecanismos que provocaram a hipercalemia.\n\nPor isso, a monitorização após a sessão deve ser individualizada.\n\n**5. O que precisa ser acompanhado antes da alta?**\n\n- Potássio sérico em avaliações seriadas.\n- Função renal e tendência da creatinina.\n- Diurese.\n- Estabilidade clínica e hemodinâmica.\n- Evolução eletrocardiográfica, conforme indicação.\n- Necessidade de novas sessões dialíticas.\n- Correção ou controle dos fatores precipitantes.\n\n**6. O que fazer com os medicamentos habituais?**\n\nÉ necessário revisar individualmente cada medicamento.\n\nO ibuprofeno deve ser reconhecido como possível fator agravante e sua utilização deve ser interrompida ou evitada conforme avaliação clínica.\n\nLosartana e espironolactona exigem reavaliação de segurança diante da hipercalemia e da lesão renal aguda.\n\n**7. Esses medicamentos devem ser suspensos definitivamente?**\n\nNão automaticamente.\n\nAlguns oferecem benefícios cardiovasculares e renais importantes.\n\nA decisão sobre reintrodução deve considerar recuperação clínica, função renal, potássio, indicação e capacidade de monitorização.\n\n**8. Quais orientações são importantes para o paciente?**\n\n- Não utilizar anti-inflamatórios por conta própria.\n- Informar todos os medicamentos e suplementos em uso.\n- Evitar substitutos do sal contendo potássio sem orientação.\n- Realizar os exames de controle.\n- Comparecer ao acompanhamento clínico e nefrológico.\n- Procurar atendimento diante de sintomas ou intercorrências relevantes.\n\n**9. Quando a alta pode ser considerada?**\n\nQuando a equipe concluir que existe estabilidade clínica suficiente, controle sustentado ou adequadamente monitorável do potássio, um plano seguro para a disfunção renal e condições de seguimento compatíveis com o risco.\n\nO valor isolado de potássio não é critério suficiente.\n\n**10. Qual é a principal lição?**\n\n**O tratamento da hipercalemia não termina quando o laboratório mostra um número normal. Termina quando existe segurança clínica e um plano para impedir que o paciente volte à emergência pelo mesmo problema.**",
+      "pearl": "**Antes de dar alta a um paciente que teve hipercalemia grave, faça três perguntas: “O potássio está controlado?”, “O que impediu sua eliminação foi resolvido?” e “Quem vai verificar se ele voltou a subir?”. A alta segura precisa responder às três.**",
+      "reference": "UpToDate — *Treatment and prevention of hyperkalemia in adults*, seções “Monitoring”, “Drug-induced hyperkalemia” e “Prevention”."
+    }
+  ]
+}

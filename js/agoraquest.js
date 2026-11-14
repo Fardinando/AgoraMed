@@ -39,6 +39,9 @@
   function enunciado(q) {
     return prose(q.stem) + tabela(q.table) + (q.stemAfter ? prose(q.stemAfter) : '');
   }
+  function explicacao(q) {
+    return prose(q.correctExplanation) + tabela(q.explanationTable) + prose(q.explanationAfter);
+  }
   function data(iso) {
     if (!iso) return '';
     const d = new Date(iso);
@@ -313,8 +316,13 @@
       corpo = '<section class="aq-feedback' + (ok ? '' : ' wrong') + '" aria-live="polite">' +
         '<p class="aq-answer">SUA RESPOSTA: ' + a.choice + ' · ' + (ok ? 'CORRETA' : 'INCORRETA') + '</p>' +
         '<h3>' + (ok ? 'Resposta correta.' : 'Vale revisar este ponto.') + '</h3>' +
-        '<div class="aq-explanation">' + prose(q.correctExplanation) + '</div>' +
-        '<details class="aq-analysis" open><summary>Análise das quatro alternativas</summary>' + analise + '</details>' +
+        (/^hipercalemia-aq1[567890]-/.test(q.questionId)
+          ? '<p><strong>Gabarito:</strong> ' + esc(q.correctChoice) + '</p><p><strong>Entendendo o raciocínio clínico</strong></p>'
+          : '') +
+        '<div class="aq-explanation">' + explicacao(q) + '</div>' +
+        '<details class="aq-analysis" open><summary>' +
+        (/^hipercalemia-aq1[567890]-/.test(q.questionId) ? 'Analisando as alternativas' : 'Análise das quatro alternativas') +
+        '</summary>' + analise + '</details>' +
         '<div class="aq-pearl"><strong>PÉROLA DO PLANTÃO</strong><p>' + esc(q.pearl) + '</p></div>' +
         '<p class="aq-ref"><strong>Referência:</strong> ' + refs(q.reference || conteudo.references) + '</p>' +
         '<div class="aq-actions">' +
@@ -363,7 +371,7 @@
         ' · ' + esc(a.choice || '—') + (ok ? '' : ' / ' + esc(q.correctChoice)) + '</span></summary>' +
         '<div class="aq-review-body">' +
         '<p><strong>Sua resposta:</strong> ' + esc(a.choice || '—') + ' · <strong>Correta:</strong> ' + esc(q.correctChoice) + '</p>' +
-        '<div class="aq-explanation">' + prose(q.correctExplanation) + '</div>' +
+        '<div class="aq-explanation">' + explicacao(q) + '</div>' +
         '<div class="aq-pearl"><strong>PÉROLA DO PLANTÃO</strong><p>' + esc(q.pearl) + '</p></div>' +
         '</div></details>';
     }).join('');

@@ -32,6 +32,9 @@
   function enunciado(q) {
     return prose(q.stem) + tabela(q.table) + (q.stemAfter ? prose(q.stemAfter) : '');
   }
+  function explicacao(q) {
+    return prose(q.correctExplanation) + tabela(q.explanationTable) + prose(q.explanationAfter);
+  }
   function data(iso) {
     if (!iso) return '';
     const d = new Date(iso);
@@ -286,8 +289,13 @@
     corpoDialogo.innerHTML = '<section class="aq-feedback' + (ok ? '' : ' wrong') + '" aria-live="polite">' +
       '<p class="aq-answer">SUA RESPOSTA: ' + esc(r.escolha) + ' · ' + (ok ? 'CORRETA' : 'INCORRETA') + '</p>' +
       '<h3>' + (ok ? 'Resposta correta.' : 'Vale revisar este ponto.') + '</h3>' +
-      '<div class="aq-explanation">' + prose(r.correctExplanation) + '</div>' +
-      '<details class="aq-analysis" open><summary>Análise das quatro alternativas</summary>' + analise + '</details>' +
+      (/^hipercalemia-aq1[567890]-/.test(String(r.questaoId || ''))
+        ? '<p><strong>Gabarito:</strong> ' + esc(r.correctChoice) + '</p><p><strong>Entendendo o raciocínio clínico</strong></p>'
+        : '') +
+      '<div class="aq-explanation">' + explicacao(r) + '</div>' +
+      '<details class="aq-analysis" open><summary>' +
+      (/^hipercalemia-aq1[567890]-/.test(String(r.questaoId || '')) ? 'Analisando as alternativas' : 'Análise das quatro alternativas') +
+      '</summary>' + analise + '</details>' +
       '<div class="aq-pearl"><strong>PÉROLA DO PLANTÃO</strong><p>' + esc(r.pearl) + '</p></div>' +
       '<p class="aq-ref"><strong>Referência:</strong> ' + refs(r.reference) + '</p>' +
       '<p class="cd-nota">Estado: <strong>' + esc(r.estadoRotulo || rotuloEstado(item)) + '</strong>' +

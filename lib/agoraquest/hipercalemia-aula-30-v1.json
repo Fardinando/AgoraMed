@@ -1,0 +1,127 @@
+{
+  "slug": "hipercalemia-aula-30-v1",
+  "versao": 1,
+  "title": "AgoraQuest 30 — Hipercalemia peri-parada e na parada cardiorrespiratória",
+  "subtitle": "Questões que ensinam a decidir.",
+  "intro": "Pratique a resposta à deterioração elétrica e à parada associadas à hipercalemia.",
+  "references": "UpToDate — Clinical manifestations of hyperkalemia in adults; Treatment and prevention of hyperkalemia in adults.",
+  "key": [
+    "C",
+    "A",
+    "B",
+    "D",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "id": "hipercalemia-aq30-q01",
+      "title": "O QRS está alargando. Vamos esperar a próxima gasometria?",
+      "competency": "Reconhecer deterioração elétrica iminente e iniciar tratamento da hipercalemia antes da parada.",
+      "stem": "Um homem de 68 anos, com doença renal crônica avançada, chega à emergência após dois dias de fraqueza progressiva e redução da diurese.\n\nNa avaliação:\n\n- Frequência cardíaca: 38 bpm.\n- Pressão arterial: 78/42 mmHg.\n- Potássio: 7,6 mEq/L.\n- Creatinina: 6,1 mg/dL.\n- ECG: ausência de ondas P identificáveis, QRS muito alargado e tendência à fusão entre QRS e onda T.\n- Estado mental: sonolento, porém responsivo.\n\nEnquanto a equipe organiza a transferência para uma sala de maior complexidade, a frequência cardíaca cai para 29 bpm e a pressão arterial torna-se dificilmente mensurável.\n\nUm residente sugere repetir a gasometria antes de administrar qualquer medicação.\n\n**Qual é a conduta mais adequada?**",
+      "choices": {
+        "A": "Repetir o potássio antes de qualquer intervenção, porque a alteração eletrocardiográfica pode não estar relacionada à hipercalemia.",
+        "B": "Administrar apenas atropina e observar a resposta, deixando o tratamento do potássio para depois da estabilização da frequência cardíaca.",
+        "C": "Reconhecer a emergência hipercalêmica com deterioração peri-parada, iniciar imediatamente cálcio intravenoso, medidas de redistribuição do potássio e suporte hemodinâmico, com monitorização contínua e preparação para ressuscitação e remoção de potássio.",
+        "D": "Aguardar a hemodiálise, porque as intervenções farmacológicas não conseguem remover potássio do organismo."
+      },
+      "feedback": {
+        "A": "Incorreta. A confirmação laboratorial não deve atrasar o tratamento diante de toxicidade cardíaca evidente.",
+        "B": "Incorreta. A atropina pode ser considerada na abordagem de bradicardia instável, mas não substitui a correção imediata da hipercalemia.",
+        "C": "Correta. Reconhece a deterioração peri-parada e integra proteção cardíaca, redução do potássio, suporte circulatório e preparação para ressuscitação.",
+        "D": "Incorreta. A hemodiálise pode ser fundamental para remoção do potássio, mas não substitui as intervenções emergenciais enquanto sua realização é organizada."
+      },
+      "correctExplanation": "**1. O que torna esse paciente extremamente grave?**\n\nNão é apenas o potássio de 7,6 mEq/L. É a associação entre hipercalemia importante, bradicardia progressiva, hipotensão grave e alterações eletrocardiográficas compatíveis com toxicidade cardíaca.\n\nO paciente está em deterioração circulatória e pode evoluir rapidamente para parada cardiorrespiratória.\n\n**2. O que significa o alargamento acentuado do QRS?**\n\nA hipercalemia modifica o potencial de membrana das células cardíacas e pode comprometer a condução do impulso elétrico.\n\nCom a progressão da toxicidade, podem ocorrer redução da amplitude das ondas P, prolongamento da condução e alargamento do QRS.\n\nNos casos extremos, o traçado pode adquirir aspecto sinusoidal.\n\n**3. O ECG precisa seguir essa sequência obrigatoriamente?**\n\nNão.\n\nEmbora existam alterações clássicas descritas, sua evolução pode ser rápida e imprevisível.\n\nA ausência de determinada alteração não garante segurança.\n\n**4. Por que não devemos aguardar outro potássio?**\n\nPorque o paciente apresenta um quadro clínico e eletrocardiográfico altamente sugestivo de toxicidade cardíaca pela hipercalemia.\n\nA repetição laboratorial pode ser realizada em paralelo, mas não deve atrasar o tratamento emergencial.\n\n**5. Qual é o papel do cálcio intravenoso?**\n\nAntagonizar os efeitos cardíacos da hipercalemia e reduzir o risco de deterioração elétrica.\n\nO cálcio não diminui a concentração sérica de potássio.\n\n**6. Por que precisamos de medidas de redistribuição?**\n\nPorque é necessário reduzir rapidamente a concentração extracelular de potássio.\n\nA insulina favorece sua entrada nas células, com glicose administrada conforme a glicemia e o protocolo, acompanhada de monitorização glicêmica.\n\n**7. O que fazer se a circulação desaparecer?**\n\nIniciar imediatamente o protocolo de ressuscitação cardiopulmonar, reconhecendo a hipercalemia como possível causa reversível.\n\n**8. Qual é a importância da remoção de potássio?**\n\nAs medidas de redistribuição são temporárias.\n\nA estratégia de eliminação deve ser organizada precocemente, especialmente diante da disfunção renal avançada.\n\n**9. Qual é a principal lição?**\n\n**Quando a hipercalemia já está comprometendo a condução cardíaca e a circulação, esperar mais um exame pode significar perder a oportunidade de tratar antes da parada.**",
+      "pearl": "**Na hipercalemia, o ECG pode estar mostrando os últimos minutos antes da parada. Se o QRS está alargando e a circulação está deteriorando, o tratamento não pode esperar a próxima coleta.**",
+      "reference": "UpToDate — *Clinical manifestations of hyperkalemia in adults*; *Treatment and prevention of hyperkalemia in adults*, seções sobre emergência hipercalêmica e cálcio intravenoso."
+    },
+    {
+      "number": 2,
+      "id": "hipercalemia-aq30-q02",
+      "title": "AESP no paciente renal: o potássio pode ser a causa?",
+      "competency": "Identificar a hipercalemia como causa potencialmente reversível de parada em atividade elétrica sem pulso.",
+      "stem": "Um homem de 61 anos, em hemodiálise regular, é levado à emergência após faltar às duas últimas sessões.\n\nFamiliares relatam fraqueza intensa, náuseas e piora progressiva do estado geral.\n\nDurante a avaliação, apresenta perda súbita da consciência.\n\nA equipe identifica ausência de pulso central e inicia ressuscitação cardiopulmonar.\n\nO monitor mostra ritmo elétrico organizado, lento e com complexos QRS alargados, mas sem pulso palpável.\n\nUma gasometria colhida imediatamente antes da parada revela:\n\n- Potássio: 8,2 mEq/L.\n- pH: 7,09.\n- Bicarbonato: 11 mEq/L.\n\nUm residente afirma:\n\n“Como existe atividade elétrica no monitor, precisamos apenas continuar as compressões e aguardar o coração voltar a bombear.”\n\n**Qual é a melhor abordagem?**",
+      "choices": {
+        "A": "Reconhecer atividade elétrica sem pulso, manter RCP de alta qualidade e seguir o algoritmo de parada não chocável, tratando simultaneamente a hipercalemia como causa potencialmente reversível, com terapias específicas e organização de remoção de potássio.",
+        "B": "Realizar desfibrilação imediatamente, porque qualquer atividade elétrica durante a parada deve receber choque.",
+        "C": "Interromper as compressões para repetir o potássio antes de iniciar o tratamento metabólico.",
+        "D": "Administrar cálcio intravenoso e suspender as compressões, porque a correção da toxicidade elétrica substitui a ressuscitação cardiopulmonar."
+      },
+      "feedback": {
+        "A": "Correta. Integra RCP, algoritmo de ritmo não chocável e investigação e tratamento da causa reversível.",
+        "B": "Incorreta. AESP não é indicação de desfibrilação.",
+        "C": "Incorreta. Interromper compressões para repetir exames compromete a ressuscitação e atrasa o tratamento.",
+        "D": "Incorreta. O cálcio não substitui compressões torácicas nem o algoritmo de PCR."
+      },
+      "correctExplanation": "**1. Qual é o ritmo de parada?**\n\nO paciente apresenta atividade elétrica sem pulso (AESP).\n\nExiste atividade elétrica organizada no monitor, mas não há circulação efetiva detectável.\n\n**2. AESP é um ritmo chocável?**\n\nNão.\n\nAESP e assistolia são ritmos não chocáveis.\n\nA desfibrilação é indicada para fibrilação ventricular e taquicardia ventricular sem pulso.\n\n**3. Qual é a primeira prioridade?**\n\nManter ressuscitação cardiopulmonar de alta qualidade, seguindo o algoritmo correspondente.\n\nO tratamento da causa reversível ocorre simultaneamente, sem atrasar compressões, ventilação e demais intervenções indicadas.\n\n**4. Por que suspeitar de hipercalemia?**\n\nO paciente apresenta múltiplas pistas:\n\n- Dependência de hemodiálise.\n- Ausência às últimas sessões.\n- Fraqueza progressiva.\n- Potássio de 8,2 mEq/L.\n- Acidose metabólica.\n- Complexos QRS alargados.\n\nO conjunto torna a hipercalemia uma causa altamente plausível da parada.\n\n**5. A hipercalemia é uma causa reversível reconhecida nos algoritmos de ressuscitação?**\n\nSim.\n\nOs distúrbios de potássio estão entre as causas metabólicas potencialmente reversíveis que devem ser consideradas durante a PCR.\n\n**6. Qual é o papel do cálcio?**\n\nEm parada com hipercalemia fortemente suspeita ou confirmada, o cálcio pode ser utilizado como tratamento específico da toxicidade cardíaca, conforme protocolo de ressuscitação e orientação especializada.\n\nÉ importante distinguir esse cenário da administração rotineira de cálcio em qualquer PCR, que não é recomendada.\n\n**7. E a insulina com glicose?**\n\nA redistribuição do potássio pode integrar o tratamento da hipercalemia, considerando as particularidades da PCR e a evidência disponível.\n\nAs decisões específicas durante a ressuscitação devem seguir o protocolo vigente, pois os benefícios clínicos dessas intervenções durante a parada não são tão bem estabelecidos quanto no paciente com circulação espontânea.\n\n**8. Por que a hemodiálise é relevante?**\n\nPorque o paciente apresenta falência da eliminação renal e hipercalemia grave.\n\nA necessidade de remoção extracorpórea deve ser discutida urgentemente, sem interromper as medidas essenciais de ressuscitação.\n\n**9. Qual é a principal lição?**\n\n**Na AESP, a RCP mantém a circulação artificial enquanto procuramos e tratamos a causa. Se o potássio é a causa, compressões isoladas não corrigem o distúrbio metabólico.**",
+      "pearl": "**Na AESP do paciente dialítico que faltou às sessões, o potássio deve entrar imediatamente no raciocínio. A RCP sustenta a circulação; o tratamento da causa reversível busca permitir que ela retorne.**",
+      "reference": "UpToDate — *Clinical manifestations of hyperkalemia in adults*; *Treatment and prevention of hyperkalemia in adults*. Complementação necessária: diretrizes vigentes de suporte avançado de vida para AESP, causas reversíveis e uso de tratamentos específicos durante a PCR."
+    },
+    {
+      "number": 3,
+      "id": "hipercalemia-aq30-q03",
+      "title": "Fibrilação ventricular com potássio de 8,0: choque ou cálcio primeiro?",
+      "competency": "Integrar desfibrilação, ressuscitação cardiopulmonar e tratamento da hipercalemia.",
+      "stem": "Um homem de 56 anos, com doença renal crônica avançada, procura a emergência com fraqueza intensa, palpitações e tontura.\n\nNa avaliação inicial:\n\n- Potássio: 8,0 mEq/L.\n- Creatinina: 7,2 mg/dL.\n- Frequência cardíaca: 46 bpm.\n- ECG: QRS alargado e ondas T apiculadas.\n\nEnquanto a equipe prepara o tratamento da hipercalemia, o paciente perde a consciência e deixa de apresentar pulso central.\n\nO monitor mostra fibrilação ventricular.\n\nUm residente afirma:\n\n“Como sabemos que a causa é a hipercalemia, precisamos administrar cálcio antes de desfibrilar. O choque não funcionará enquanto o potássio estiver elevado.”\n\n**Qual é a melhor conduta?**",
+      "choices": {
+        "A": "Administrar cálcio e aguardar a normalização do potássio antes de iniciar desfibrilação.",
+        "B": "Iniciar imediatamente RCP e desfibrilação conforme o algoritmo de fibrilação ventricular, enquanto a equipe trata simultaneamente a hipercalemia como causa potencialmente reversível.",
+        "C": "Evitar desfibrilação porque a fibrilação ventricular causada por hipercalemia não responde ao choque elétrico.",
+        "D": "Administrar insulina e glicose e observar o monitor por alguns minutos antes de iniciar compressões."
+      },
+      "feedback": {
+        "A": "Incorreta. Aguardar a normalização do potássio atrasa a desfibrilação de um ritmo chocável.",
+        "B": "Correta. Integra ressuscitação imediata, desfibrilação e tratamento direcionado à causa potencialmente reversível.",
+        "C": "Incorreta. A hipercalemia não transforma a FV em ritmo não chocável.",
+        "D": "Incorreta. A administração de medicamentos não substitui RCP nem desfibrilação imediata."
+      },
+      "correctExplanation": "**1. Qual é o ritmo de parada?**\n\nFibrilação ventricular (FV), caracterizada por atividade elétrica ventricular desorganizada, sem contração mecânica eficaz.\n\nNa ausência de pulso, trata-se de uma parada cardiorrespiratória em ritmo chocável.\n\n**2. Qual é a prioridade imediata?**\n\nIniciar RCP de alta qualidade e desfibrilação o mais rapidamente possível, seguindo o algoritmo de parada em FV/TV sem pulso.\n\n**3. Por que não devemos esperar o cálcio para desfibrilar?**\n\nPorque a desfibrilação é a intervenção elétrica indicada para a FV.\n\nO tratamento da hipercalemia é importante, mas não deve atrasar o choque.\n\n**4. A hipercalemia pode dificultar a ressuscitação?**\n\nSim.\n\nA hipercalemia altera as propriedades elétricas do miocárdio e pode contribuir para arritmias graves ou persistentes.\n\nPor isso, é necessário tratar a causa metabólica enquanto a ressuscitação prossegue.\n\n**5. O cálcio pode ser utilizado?**\n\nEm uma PCR com hipercalemia grave conhecida ou fortemente suspeita, o cálcio pode integrar o tratamento direcionado à causa, conforme o protocolo adotado.\n\nIsso não equivale a recomendar cálcio rotineiramente para todas as paradas cardíacas.\n\n**6. E a insulina com glicose?**\n\nSão intervenções capazes de reduzir o potássio sérico por redistribuição no paciente com circulação espontânea.\n\nDurante a PCR, a evidência de benefício em desfechos clínicos é limitada, e sua utilização deve considerar as recomendações específicas de ressuscitação.\n\n**7. A desfibrilação remove potássio?**\n\nNão.\n\nA desfibrilação busca interromper a atividade elétrica ventricular desorganizada.\n\nA hipercalemia permanece como causa potencialmente ativa e precisa ser abordada.\n\n**8. E se a FV persistir?**\n\nDeve-se continuar o algoritmo de ressuscitação para ritmo chocável, com ciclos de RCP, desfibrilação e medicamentos indicados, enquanto são investigadas e tratadas causas reversíveis.\n\n**9. Qual é a principal lição?**\n\n**Na FV associada à hipercalemia, não escolha entre desfibrilar e tratar o potássio. A desfibrilação não deve esperar, e a causa metabólica não deve ser esquecida.**",
+      "pearl": "**Na fibrilação ventricular, o choque não espera o potássio. Mas, se a hipercalemia provocou a arritmia, desfibrilar sem tratar a causa pode não ser suficiente para sustentar o retorno da circulação.**",
+      "reference": "UpToDate — *Clinical manifestations of hyperkalemia in adults*, manifestações cardíacas; *Treatment and prevention of hyperkalemia in adults*, tratamento emergencial. Complementação necessária: diretrizes de suporte avançado de vida para FV/TV sem pulso e intervenções específicas na PCR hipercalêmica."
+    },
+    {
+      "number": 4,
+      "id": "hipercalemia-aq30-q04",
+      "title": "O cálcio foi administrado. O potássio foi corrigido?",
+      "competency": "Diferenciar estabilização elétrica e redução da concentração sérica de potássio.",
+      "stem": "Um homem de 70 anos, com doença renal crônica avançada, é atendido com fraqueza intensa, bradicardia e hipotensão.\n\nNa avaliação:\n\n- Frequência cardíaca: 34 bpm.\n- Pressão arterial: 72/40 mmHg.\n- Potássio: 7,8 mEq/L.\n- ECG: QRS muito alargado e ausência de ondas P identificáveis.\n\nA equipe administra cálcio intravenoso diante da toxicidade cardíaca.\n\nPoucos minutos depois, o ECG apresenta redução do alargamento do QRS e a frequência cardíaca aumenta para 52 bpm.\n\nEntretanto, uma nova amostra mostra potássio de 7,7 mEq/L.\n\nUm residente comenta:\n\n“O cálcio praticamente não reduziu o potássio. Então o tratamento não funcionou.”\n\n**Qual é a melhor interpretação?**",
+      "choices": {
+        "A": "O cálcio intravenoso só funciona quando provoca redução imediata de pelo menos 1 mEq/L no potássio sérico.",
+        "B": "A melhora do ECG significa que o potássio foi eliminado e que não há necessidade de outras medidas.",
+        "C": "A ausência de redução do potássio comprova que a melhora eletrocardiográfica foi apenas coincidência.",
+        "D": "O cálcio pode antagonizar os efeitos cardíacos da hipercalemia sem reduzir sua concentração sérica. A melhora elétrica é compatível com o efeito esperado, mas o paciente continua necessitando de redução e remoção do potássio, além de monitorização e reavaliação."
+      },
+      "feedback": {
+        "A": "Incorreta. A redução do potássio sérico não é o mecanismo de ação do cálcio.",
+        "B": "Incorreta. A melhora do ECG não comprova eliminação do potássio nem afasta o risco de recorrência.",
+        "C": "Incorreta. A melhora elétrica é compatível com a ação esperada do cálcio, apesar da persistência da hipercalemia.",
+        "D": "Correta. Distingue estabilização cardíaca, redistribuição e remoção de potássio."
+      },
+      "correctExplanation": "**1. Qual é a finalidade do cálcio intravenoso?**\n\nO cálcio é utilizado para antagonizar os efeitos cardíacos da hipercalemia.\n\nSeu objetivo imediato é reduzir a toxicidade elétrica, não eliminar potássio.\n\n**2. Por que o ECG melhorou?**\n\nA melhora da condução cardíaca é compatível com o efeito esperado da administração de cálcio em um paciente com toxicidade cardíaca por hipercalemia.\n\n**3. Por que o potássio permaneceu elevado?**\n\nPorque o cálcio não promove deslocamento significativo de potássio para o interior das células nem sua remoção do organismo.\n\n**4. A melhora do ECG significa que o risco desapareceu?**\n\nNão.\n\nO efeito protetor do cálcio é temporário.\n\nSe a hipercalemia persistir, as alterações elétricas podem reaparecer.\n\n**5. O que deve acontecer simultaneamente?**\n\nDevem ser implementadas medidas para reduzir a concentração extracelular de potássio, como insulina com glicose conforme indicação, e estratégias para removê-lo do organismo.\n\n**6. Quando considerar repetir o cálcio?**\n\nNa persistência ou recorrência de alterações eletrocardiográficas compatíveis com toxicidade cardíaca, pode ser necessária nova administração conforme o protocolo e a reavaliação clínica.\n\nA decisão não deve depender exclusivamente do número do potássio.\n\n**7. Qual é o papel da hemodiálise?**\n\nNos pacientes com comprometimento renal importante e hipercalemia grave, a hemodiálise pode ser necessária para remoção efetiva do potássio.\n\n**8. O raciocínio é o mesmo durante a PCR?**\n\nA finalidade farmacológica do cálcio continua sendo antagonizar a toxicidade cardíaca. Entretanto, durante a PCR, sua utilização é direcionada a situações específicas, como hipercalemia suspeita ou confirmada, e deve seguir o protocolo de ressuscitação.\n\nA melhora eletrocardiográfica observada neste caso ocorreu antes de uma parada, com circulação espontânea, e não deve ser interpretada como prova de benefício em todas as situações de PCR.\n\n**9. Qual é a principal lição?**\n\n**O cálcio protege o coração dos efeitos do potássio, mas não resolve a hipercalemia.**",
+      "pearl": "**O cálcio pode melhorar o ECG sem mudar o potássio. Não confunda coração temporariamente protegido com hipercalemia resolvida.**",
+      "reference": "UpToDate — *Treatment and prevention of hyperkalemia in adults*, seções sobre cálcio intravenoso, insulina com glicose e remoção de potássio."
+    },
+    {
+      "number": 5,
+      "id": "hipercalemia-aq30-q05",
+      "title": "O pulso voltou. A emergência terminou?",
+      "competency": "Organizar o tratamento pós-parada em paciente com hipercalemia grave.",
+      "stem": "Um homem de 64 anos, com doença renal crônica terminal em hemodiálise, apresenta parada cardiorrespiratória em atividade elétrica sem pulso.\n\nAntes da parada, havia sido identificado potássio sérico de 8,1 mEq/L.\n\nA equipe realiza ressuscitação cardiopulmonar conforme protocolo e aborda a hipercalemia como causa potencialmente reversível.\n\nApós as intervenções, ocorre retorno da circulação espontânea.\n\nNa avaliação inicial pós-parada:\n\n- Frequência cardíaca: 88 bpm.\n- Pressão arterial: 106/64 mmHg, com suporte vasoativo.\n- Potássio: 6,6 mEq/L.\n- Creatinina: 8,4 mg/dL.\n- Diurese: ausente.\n- ECG: QRS menos alargado que antes da parada.\n- Paciente permanece intubado e sob cuidados intensivos.\n\nUm residente afirma:\n\n“Como o paciente recuperou o pulso e o ECG melhorou, podemos esperar até amanhã para decidir sobre a hemodiálise.”\n\n**Qual é a melhor conduta?**",
+      "choices": {
+        "A": "Considerar a hipercalemia resolvida, porque o retorno da circulação espontânea demonstra que a concentração de potássio deixou de ser perigosa.",
+        "B": "Suspender a monitorização cardíaca, pois o ECG melhorou após a ressuscitação.",
+        "C": "Manter cuidados pós-parada, monitorização cardíaca e laboratorial, reavaliar e tratar a hipercalemia persistente, antecipar a remoção efetiva de potássio com avaliação nefrológica urgente e acompanhar a possibilidade de recorrência.",
+        "D": "Aguardar a próxima sessão regular de hemodiálise, porque as medidas realizadas durante a ressuscitação impedem novas elevações do potássio."
+      },
+      "feedback": {
+        "A": "Incorreta. O retorno da circulação não comprova resolução da hipercalemia.",
+        "B": "Incorreta. O risco de recorrência elétrica permanece, especialmente com potássio ainda elevado.",
+        "C": "Correta. Integra cuidados pós-parada, monitorização, reavaliação da hipercalemia e planejamento urgente de remoção efetiva.",
+        "D": "Incorreta. A espera pela sessão regular pode ser perigosa diante de hipercalemia persistente e ausência de eliminação renal."
+      },
+      "correctExplanation": "**1. O retorno da circulação significa que a hipercalemia foi resolvida?**\n\nNão.\n\nO retorno da circulação espontânea representa recuperação de circulação efetiva, mas não comprova normalização do potássio.\n\n**2. O que o potássio de 6,6 mEq/L indica?**\n\nIndica hipercalemia ainda importante.\n\nO paciente apresenta fatores adicionais de risco, como ausência de diurese e dependência de hemodiálise.\n\n**3. Por que o ECG melhorou?**\n\nA melhora pode refletir os efeitos das intervenções realizadas durante a ressuscitação e a redução parcial da toxicidade cardíaca.\n\nEntretanto, não garante que a concentração sérica esteja segura.\n\n**4. Qual é o risco das medidas temporárias?**\n\nAs intervenções que deslocam potássio para o interior das células podem produzir redução transitória da concentração sérica.\n\nQuando seu efeito diminui, pode ocorrer nova elevação.\n\n**5. Por que a ausência de diurese importa?**\n\nPorque o paciente não dispõe de eliminação renal efetiva de potássio.\n\nIsso limita sua capacidade de manter o equilíbrio após as medidas temporárias.\n\n**6. A hemodiálise deve ser discutida urgentemente?**\n\nSim.\n\nO paciente apresenta hipercalemia importante persistente após uma parada potencialmente relacionada ao potássio.\n\nÉ necessária avaliação nefrológica urgente para definir a remoção extracorpórea, considerando a estabilidade hemodinâmica e a modalidade mais apropriada.\n\n**7. O que deve ser monitorado?**\n\n- ECG e ritmo cardíaco.\n- Potássio sérico em avaliações seriadas.\n- Glicemia, especialmente após insulinoterapia.\n- Estado hemodinâmico e necessidade de suporte vasoativo.\n- Equilíbrio ácido-base.\n- Função renal e diurese.\n- Resposta às intervenções de redução e remoção do potássio.\n\n**8. O tratamento pós-parada se resume ao potássio?**\n\nNão.\n\nO paciente precisa receber cuidados pós-ressuscitação conforme as diretrizes vigentes, incluindo avaliação hemodinâmica, respiratória e neurológica.\n\nA correção da hipercalemia é parte fundamental desse cuidado, mas não substitui o manejo pós-parada.\n\n**9. O que poderia acontecer se a equipe simplesmente aguardasse?**\n\nO potássio poderia permanecer elevado ou voltar a aumentar, favorecendo novas alterações de condução e arritmias potencialmente fatais.\n\n**10. Qual é a principal lição?**\n\n**O retorno da circulação encerra a parada, não necessariamente a emergência que provocou a parada.**",
+      "pearl": "**Depois de uma PCR por hipercalemia, recuperar o pulso é apenas a primeira vitória. Se o potássio continua elevado e o rim não consegue eliminá-lo, o paciente permanece em risco.**",
+      "reference": "UpToDate — *Treatment and prevention of hyperkalemia in adults*, tratamento emergencial, monitorização e hemodiálise. Complementação necessária: diretrizes vigentes de cuidados pós-parada cardiorrespiratória."
+    }
+  ]
+}

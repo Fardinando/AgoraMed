@@ -1,0 +1,256 @@
+{
+  "slug": "hipercalemia-aula-15-v1",
+  "versao": 1,
+  "title": "AgoraQuest 15 — Insulina e glicose: do mecanismo à prescrição",
+  "subtitle": "Insulina e glicose: do mecanismo à prescrição",
+  "intro": "Pratique a escolha da dose de insulina, o cálculo do volume de glicose e a monitorização após o tratamento da hipercalemia.",
+  "references": "UpToDate — Treatment and prevention of hyperkalemia in adults. https://www.uptodate.com/contents/treatment-and-prevention-of-hyperkalemia-in-adults",
+  "key": [
+    "C",
+    "A",
+    "D",
+    "B",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "id": "hipercalemia-aq15-q01",
+      "title": "A INSULINA FEZ O POTÁSSIO DESAPARECER?",
+      "competency": "Compreender o mecanismo de ação e a resposta temporal à insulina.",
+      "stem": "Um homem de 63 anos, com doença renal crônica avançada, chega à emergência com potássio sérico de 7,0 mEq/L.\n\nO paciente recebe tratamento para hipercalemia, incluindo insulina regular intravenosa associada à glicose.\n\nUma hora depois, o potássio diminui para 6,0 mEq/L.\n\nUm interno comenta:\n\n“Excelente! A insulina eliminou 1 mEq/L de potássio do organismo. Agora podemos suspender as medidas de remoção.”\n\n**Qual interpretação está correta?**",
+      "choices": {
+        "A": "A insulina aumenta diretamente a excreção renal de potássio, sendo especialmente eficaz para essa finalidade em pacientes com insuficiência renal avançada.",
+        "B": "A insulina promove eliminação intestinal de potássio, de modo que a redução sérica observada demonstra perda corporal efetiva.",
+        "C": "A insulina estimula a Na⁺/K⁺-ATPase, especialmente no músculo esquelético, promovendo entrada de potássio nas células. A redução sérica é temporária e não representa eliminação do excesso corporal.",
+        "D": "A insulina age neutralizando quimicamente o potássio extracelular, transformando-o em uma substância eletricamente inativa."
+      },
+      "feedback": {
+        "A": "O principal efeito hipocalemiante da insulina é a redistribuição intracelular, não o aumento da excreção renal.",
+        "B": "A insulina não atua como agente de eliminação intestinal de potássio. A queda sérica não comprova remoção corporal.",
+        "C": "Descreve adequadamente o mecanismo da Na⁺/K⁺-ATPase, a redistribuição intracelular e o caráter temporário do efeito.",
+        "D": "A insulina não neutraliza quimicamente o potássio. Ela modifica sua distribuição entre os compartimentos."
+      },
+      "correctExplanation": "A insulina é uma das principais medidas para reduzir rapidamente a concentração sérica de potássio na emergência. Entretanto, seu mecanismo é frequentemente interpretado de maneira equivocada.\n\n**1. O potássio não foi eliminado.**\n\nAproximadamente 98% do potássio corporal encontra-se no compartimento intracelular.\n\nA insulina favorece o transporte de potássio do meio extracelular para o intracelular, principalmente pela estimulação da Na⁺/K⁺-ATPase no músculo esquelético.\n\nA concentração sérica diminui, mas isso não significa que o organismo tenha eliminado o excesso de potássio.\n\n**2. A redução pode ocorrer rapidamente.**\n\nSegundo o UpToDate, o efeito começa aproximadamente entre 10 e 20 minutos, atinge seu pico entre 30 e 60 minutos e pode persistir por quatro a seis horas.\n\nA redução sérica geralmente fica entre 0,5 e 1,2 mEq/L.\n\nPortanto, a queda de 7,0 para 6,0 mEq/L é compatível com a resposta esperada.\n\n**3. O efeito é temporário.**\n\nQuando a ação redistributiva diminui, o potássio pode retornar ao compartimento extracelular.\n\nIsso é especialmente preocupante em pacientes com eliminação renal comprometida.\n\n**4. A insuficiência renal não elimina a resposta hipocalemiante à insulina.**\n\nMesmo pacientes com insuficiência renal avançada podem apresentar deslocamento intracelular significativo de potássio.\n\nPor outro lado, a depuração reduzida da insulina pode aumentar o risco de hipoglicemia prolongada.\n\n**5. Redistribuição e remoção são estratégias diferentes.**\n\nA insulina proporciona tempo para implementar medidas que efetivamente eliminem potássio, como diálise, eliminação urinária quando possível ou estratégias gastrointestinais apropriadas.\n\n**A redução do potássio sérico é uma resposta importante, mas não deve ser confundida com resolução do excesso corporal.**",
+      "pearl": "A insulina não elimina potássio: ela o esconde temporariamente dentro das células. Se o organismo não conseguir removê-lo, ele poderá voltar a subir.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Insulin with glucose”, páginas 7–8."
+    },
+    {
+      "number": 2,
+      "id": "hipercalemia-aq15-q02",
+      "title": "PRESCREVERAM 25 GRAMAS DE GLICOSE. QUANTOS MILILITROS?",
+      "competency": "Calcular corretamente o volume de glicose a partir da concentração disponível.",
+      "stem": "Uma mulher de 68 anos, com doença renal crônica avançada, apresenta potássio sérico de 6,9 mEq/L e glicemia de 108 mg/dL.\n\nA equipe indica insulina regular intravenosa associada a 25 g de glicose, conforme o protocolo utilizado.\n\nNa unidade estão disponíveis as seguintes apresentações:",
+      "table": {
+        "caption": "Apresentações disponíveis",
+        "headers": [
+          "Apresentação",
+          "Concentração"
+        ],
+        "rows": [
+          [
+            "Glicose 50%",
+            "50 g em 100 mL"
+          ],
+          [
+            "Glicose 25%",
+            "25 g em 100 mL"
+          ],
+          [
+            "Glicose 10%",
+            "10 g em 100 mL"
+          ]
+        ]
+      },
+      "stemAfter": "Um interno precisa identificar qual volume de cada apresentação contém exatamente 25 g de glicose.\n\n**Qual alternativa apresenta as conversões corretas?**",
+      "choices": {
+        "A": "Glicose 50%: 50 mL; glicose 25%: 100 mL; glicose 10%: 250 mL.",
+        "B": "Glicose 50%: 25 mL; glicose 25%: 50 mL; glicose 10%: 100 mL.",
+        "C": "Glicose 50%: 100 mL; glicose 25%: 50 mL; glicose 10%: 25 mL.",
+        "D": "Glicose 50%: 50 mL; glicose 25%: 50 mL; glicose 10%: 50 mL, pois o volume deve ser igual independentemente da concentração."
+      },
+      "feedback": {
+        "A": "As conversões estão matematicamente corretas: 50 mL de glicose 50%, 100 mL de glicose 25% ou 250 mL de glicose 10% fornecem 25 g.",
+        "B": "Esses volumes fornecem quantidades inferiores a 25 g nas respectivas apresentações.",
+        "C": "Os volumes estão invertidos em relação às concentrações. Quanto mais concentrada a solução, menor o volume necessário para fornecer a mesma quantidade de glicose.",
+        "D": "Volumes iguais de soluções com concentrações diferentes não fornecem a mesma massa de glicose."
+      },
+      "correctExplanation": "Esta questão aborda uma competência prática essencial: **converter uma dose prescrita em gramas para o volume correspondente à apresentação disponível**.\n\nA dose de glicose deve ser interpretada em gramas, não apenas em mililitros.\n\n**1. O que significa uma solução de glicose a 50%?**\n\nEm uma solução expressa em massa por volume, 50% significa 50 g de glicose em 100 mL.\n\nPortanto:\n\n50 g ÷ 100 mL = 0,5 g/mL.\n\nPara administrar 25 g:\n\n25 g ÷ 0,5 g/mL = **50 mL**.\n\n**2. E se a apresentação for glicose a 25%?**\n\nA solução contém 25 g em 100 mL, equivalentes a 0,25 g/mL.\n\n25 g ÷ 0,25 g/mL = **100 mL**.\n\n**3. E se for glicose a 10%?**\n\nA solução contém 10 g em 100 mL, equivalentes a 0,1 g/mL.\n\n25 g ÷ 0,1 g/mL = **250 mL**.\n\n**4. Comparando as apresentações**",
+      "pearl": "Não prescreva glicose pensando apenas em mililitros. Primeiro determine quantos gramas deseja administrar; depois converta para o volume da apresentação disponível.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Insulin with glucose”, página 7. As conversões são cálculos farmacotécnicos derivados da definição de porcentagem massa/volume.",
+      "explanationTable": {
+        "caption": "Comparando as apresentações",
+        "headers": [
+          "Solução",
+          "Quantidade de glicose",
+          "Volume necessário"
+        ],
+        "rows": [
+          [
+            "50%",
+            "0,5 g/mL",
+            "50 mL"
+          ],
+          [
+            "25%",
+            "0,25 g/mL",
+            "100 mL"
+          ],
+          [
+            "10%",
+            "0,1 g/mL",
+            "250 mL"
+          ]
+        ]
+      },
+      "explanationAfter": "Os três volumes fornecem a mesma quantidade de glicose: 25 g.\n\nEntretanto, não são equivalentes em volume, osmolaridade ou características de administração.\n\n**5. O volume importa clinicamente.**\n\nEm pacientes com insuficiência renal avançada, o volume de solução administrado pode ser relevante, especialmente quando há restrição hídrica ou congestão.\n\nSoluções mais concentradas também exigem atenção à segurança do acesso venoso e ao risco de irritação ou extravasamento.\n\nA escolha da apresentação deve respeitar o protocolo institucional e a disponibilidade.\n\n**6. Glicose em bolus não elimina o risco de hipoglicemia tardia.**\n\nO UpToDate recomenda, em seu esquema descrito, glicose a 10% em infusão contínua de 50–75 mL/h após o bolus inicial de 25 g, além de monitorização glicêmica horária por cinco a seis horas.\n\nEssa infusão posterior é uma medida de prevenção de hipoglicemia e não deve ser confundida com o volume equivalente à dose inicial de 25 g.\n\n**A prescrição segura exige compreender a dose em gramas, calcular o volume e considerar as características da solução escolhida.**"
+    },
+    {
+      "number": 3,
+      "id": "hipercalemia-aq15-q03",
+      "title": "CINCO OU DEZ UNIDADES DE INSULINA?",
+      "competency": "Selecionar a dose de insulina considerando a gravidade da hipercalemia e o risco de hipoglicemia.",
+      "stem": "Um homem de 72 anos, com doença renal crônica avançada, chega à emergência apresentando fraqueza muscular e bradicardia.\n\nNa avaliação inicial:",
+      "table": {
+        "caption": "Avaliação inicial",
+        "headers": [
+          "Parâmetro",
+          "Resultado"
+        ],
+        "rows": [
+          [
+            "Potássio",
+            "7,3 mEq/L"
+          ],
+          [
+            "Glicemia",
+            "118 mg/dL"
+          ],
+          [
+            "Creatinina",
+            "5,9 mg/dL"
+          ],
+          [
+            "Frequência cardíaca",
+            "43 bpm"
+          ],
+          [
+            "QRS",
+            "152 ms"
+          ]
+        ]
+      },
+      "stemAfter": "A equipe já iniciou monitorização cardíaca e administrou cálcio intravenoso para estabilização elétrica.\n\nAgora é necessário prescrever insulina para redistribuir o potássio.\n\nUm residente questiona:\n\n“Em pacientes renais, não deveríamos utilizar sempre 5 unidades de insulina para evitar hipoglicemia?”\n\n**Qual é a orientação mais adequada, considerando o esquema descrito no UpToDate?**",
+      "choices": {
+        "A": "Utilizar obrigatoriamente 5 unidades em todos os pacientes com doença renal, pois doses maiores não produzem redução adicional do potássio.",
+        "B": "Evitar insulina, pois a insuficiência renal impede a estimulação da Na⁺/K⁺-ATPase e torna o tratamento ineficaz.",
+        "C": "Utilizar 10 unidades de insulina sem glicose, pois a hipercalemia grave protege o paciente contra hipoglicemia.",
+        "D": "Considerar 10 unidades de insulina regular intravenosa, associadas a glicose e a medidas de prevenção e monitorização de hipoglicemia, pois a hipercalemia grave com repercussão cardíaca favorece um esquema com maior efeito hipocalemiante, embora doses menores possam ser consideradas em outros contextos."
+      },
+      "feedback": {
+        "A": "Doses de 5 unidades podem ser apropriadas em situações selecionadas, mas não são obrigatórias em todos os pacientes com doença renal. A gravidade clínica deve ser considerada.",
+        "B": "A insuficiência renal não elimina a resposta hipocalemiante da insulina. A estimulação da Na⁺/K⁺-ATPase permanece eficaz.",
+        "C": "A hipercalemia não protege contra hipoglicemia. Com glicemia inicial de 118 mg/dL, a omissão de glicose seria inadequada no esquema descrito.",
+        "D": "Considera a gravidade da hipercalemia, o benefício potencial de 10 unidades e a necessidade de prevenção e monitorização da hipoglicemia."
+      },
+      "correctExplanation": "A decisão entre 5 e 10 unidades de insulina regular intravenosa exige ponderar dois objetivos: **obter redução suficiente do potássio e minimizar o risco de hipoglicemia**.\n\nNão existe justificativa para utilizar uma dose fixa e invariável em todos os pacientes.\n\n**1. A gravidade da hipercalemia modifica a decisão.**\n\nO paciente apresenta potássio de 7,3 mEq/L, bradicardia e QRS alargado.\n\nExiste risco de deterioração elétrica.\n\nA estabilização com cálcio é importante, mas não substitui a redistribuição do potássio.\n\n**2. O que o UpToDate descreve?**\n\nO documento reconhece que doses de 5 unidades podem reduzir o risco de hipoglicemia e, em determinados contextos, produzir redução de potássio comparável à obtida com 10 unidades.\n\nEntretanto, também ressalta que a dose de 10 unidades pode ser mais eficaz quando o potássio está acima de 6 mEq/L.\n\nOs autores utilizam 10 unidades para hipercalemia grave, definida no texto como potássio superior a 6,5 mEq/L ou hipercalemia com consequências cardíacas, desde que exista monitorização glicêmica adequada e administração contínua de glicose a 10%.\n\n**3. Por que a insuficiência renal não impede o efeito?**\n\nA ação hipocalemiante depende principalmente da estimulação da Na⁺/K⁺-ATPase e do deslocamento intracelular de potássio.\n\nEsse mecanismo permanece funcional em pacientes com insuficiência renal.\n\nPortanto, a doença renal não torna a insulina ineficaz.\n\n**4. O que muda na segurança?**\n\nA depuração da insulina pode estar reduzida na insuficiência renal.\n\nIsso contribui para o risco de hipoglicemia prolongada.\n\nPor esse motivo, a escolha de 10 unidades deve estar acompanhada de uma estratégia de prevenção, incluindo glicose intravenosa e monitorização glicêmica seriada.\n\n**5. Como fica a prescrição neste caso?**\n\nConsiderando o esquema do UpToDate e a glicemia de 118 mg/dL, uma abordagem compatível é:\n\n- Insulina regular 10 unidades IV.\n- Glicose 25 g IV associada.\n- Considerar a infusão subsequente de glicose a 10% a 50–75 mL/h, conforme o esquema descrito no material e as condições clínicas.\n- Monitorização glicêmica aproximadamente a cada hora por cinco a seis horas.\n- Reavaliação do potássio e manutenção das medidas de remoção efetiva.\n\nA administração deve seguir a padronização institucional, com atenção às apresentações disponíveis, à segurança do acesso e ao estado volêmico.\n\n**A dose de insulina deve ser escolhida considerando a gravidade da hipercalemia, o efeito desejado e a capacidade de monitorar e prevenir complicações.**",
+      "pearl": "Cinco unidades podem reduzir o risco de hipoglicemia, mas a dose não deve ser escolhida isoladamente pela função renal. Na hipercalemia grave, a intensidade do efeito desejado e a segurança da monitorização também importam.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Insulin with glucose”, páginas 7–8."
+    },
+    {
+      "number": 4,
+      "id": "hipercalemia-aq15-q04",
+      "title": "GLICEMIA DE 328 MG/DL. AINDA PRECISO ADMINISTRAR GLICOSE?",
+      "competency": "Interpretar a glicemia inicial e reconhecer quando a glicose pode ser omitida no momento da insulina.",
+      "stem": "Um homem de 59 anos, com diabetes mellitus tipo 2 e doença renal crônica, chega à emergência com potássio sérico de 6,8 mEq/L.\n\nO ECG não apresenta alterações características de hipercalemia.\n\nOs exames mostram:",
+      "table": {
+        "caption": "Avaliação inicial",
+        "headers": [
+          "Parâmetro",
+          "Resultado"
+        ],
+        "rows": [
+          [
+            "Potássio",
+            "6,8 mEq/L"
+          ],
+          [
+            "Glicemia",
+            "328 mg/dL"
+          ],
+          [
+            "Creatinina",
+            "3,8 mg/dL"
+          ],
+          [
+            "pH",
+            "7,37"
+          ],
+          [
+            "Bicarbonato",
+            "23 mEq/L"
+          ]
+        ]
+      },
+      "stemAfter": "A equipe decide administrar insulina regular intravenosa para reduzir rapidamente o potássio.\n\nUm interno pergunta:\n\n“Se a glicemia está em 328 mg/dL, precisamos administrar os 25 g de glicose junto com a insulina?”\n\n**Qual é a melhor orientação, considerando o UpToDate?**",
+      "choices": {
+        "A": "Administrar obrigatoriamente 25 g de glicose, independentemente da glicemia inicial, pois a glicose é responsável pelo deslocamento intracelular de potássio.",
+        "B": "Com glicemia inicial igual ou superior a 250 mg/dL, o esquema descrito permite administrar insulina sem o bolus inicial de glicose, desde que seja mantida monitorização glicêmica rigorosa e reavaliada a necessidade posterior de glicose.",
+        "C": "Evitar insulina e administrar apenas glicose hipertônica, pois a hiperglicemia estimulará a secreção endógena de insulina de maneira suficiente e previsível.",
+        "D": "Administrar insulina sem glicose e dispensar controles glicêmicos posteriores, pois pacientes inicialmente hiperglicêmicos não desenvolvem hipoglicemia após esse tratamento."
+      },
+      "feedback": {
+        "A": "A glicose não é o principal agente responsável pela redistribuição intracelular de potássio. O esquema descrito permite omitir o bolus inicial quando existe hiperglicemia importante.",
+        "B": "Reconhece o limiar de 250 mg/dL descrito no UpToDate e mantém a necessidade de monitorização e reavaliação glicêmica.",
+        "C": "A resposta de insulina endógena é variável. A glicose hipertônica isolada pode até aumentar o potássio em determinados pacientes.",
+        "D": "A hiperglicemia inicial não elimina o risco de hipoglicemia posterior, especialmente em pacientes com comprometimento renal."
+      },
+      "correctExplanation": "Esta questão ensina que **a glicemia inicial modifica a necessidade de administrar glicose junto com a insulina**, mas não elimina o risco de hipoglicemia posterior.\n\nO paciente apresenta hipercalemia grave e glicemia de 328 mg/dL.\n\nNão há evidências de acidose metabólica importante nos dados apresentados, embora a avaliação de uma eventual emergência hiperglicêmica deva considerar o contexto clínico completo.\n\n**1. Por que geralmente administramos glicose?**\n\nA insulina estimula a entrada de potássio nas células, mas também reduz a glicemia.\n\nA glicose associada busca prevenir a hipoglicemia provocada pela insulina exógena.\n\nPortanto, sua finalidade principal nesse esquema não é promover diretamente a redistribuição de potássio.\n\n**2. O que muda quando a glicemia inicial está elevada?**\n\nO UpToDate orienta que, quando a glicemia é igual ou superior a 250 mg/dL, a insulina pode ser administrada sem o bolus inicial de glicose.\n\nNesse contexto, a glicemia elevada reduz a necessidade imediata de suplementação.\n\nEntretanto, isso não significa que o paciente esteja protegido contra hipoglicemia durante as horas seguintes.\n\n**3. Por que a monitorização continua obrigatória?**\n\nA insulina pode permanecer metabolicamente ativa depois da redução inicial do potássio.\n\nEm pacientes com doença renal, sua depuração pode estar diminuída.\n\nAssim, a glicemia pode cair progressivamente e alcançar valores baixos algumas horas após a administração.\n\nO UpToDate recomenda controles glicêmicos aproximadamente a cada hora durante cinco a seis horas.\n\n**4. E se a glicemia diminuir?**\n\nA equipe deve acompanhar a tendência glicêmica e administrar glicose quando necessário, conforme o protocolo e a evolução clínica.\n\nA omissão do bolus inicial não equivale à proibição de administrar glicose posteriormente.\n\n**5. Por que não administrar apenas glicose?**\n\nA liberação de insulina endógena após glicose é variável.\n\nAlém disso, em pacientes suscetíveis, a glicose hipertônica sem insulina pode aumentar a osmolaridade plasmática e favorecer a saída de potássio das células.\n\nPortanto, glicose isolada não substitui de maneira confiável a insulina no tratamento emergencial da hipercalemia.\n\n**A decisão sobre a glicose deve considerar a glicemia inicial e sua evolução, e não apenas o fato de a insulina ter sido prescrita.**",
+      "pearl": "Glicemia acima de 250 mg/dL pode permitir omitir a glicose inicial, mas nunca a monitorização. O paciente pode começar hiperglicêmico e terminar hipoglicêmico.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Insulin with glucose”, páginas 7–8."
+    },
+    {
+      "number": 5,
+      "id": "hipercalemia-aq15-q05",
+      "title": "O POTÁSSIO CAIU EM UMA HORA. E AGORA?",
+      "competency": "Interpretar a resposta à insulina e planejar monitorização e continuidade terapêutica.",
+      "stem": "Uma mulher de 70 anos, com doença renal crônica avançada, apresenta potássio sérico de 7,1 mEq/L.\n\nRecebe insulina regular intravenosa associada a 25 g de glicose, conforme o protocolo da unidade.\n\nA equipe também inicia medidas para organizar a remoção efetiva de potássio.\n\nOs controles mostram:",
+      "table": {
+        "caption": "Controles",
+        "headers": [
+          "Momento",
+          "Potássio",
+          "Glicemia"
+        ],
+        "rows": [
+          [
+            "Antes do tratamento",
+            "7,1 mEq/L",
+            "126 mg/dL"
+          ],
+          [
+            "Após 1 hora",
+            "6,2 mEq/L",
+            "104 mg/dL"
+          ]
+        ]
+      },
+      "stemAfter": "A paciente permanece consciente e estável.\n\nUm residente comenta:\n\n“Já passou uma hora, o potássio caiu quase 1 mEq/L e a glicemia está normal. Podemos suspender os controles, porque o efeito da insulina já terminou.”\n\n**Qual é a melhor interpretação?**",
+      "choices": {
+        "A": "A redução do potássio indica que a insulina já foi completamente eliminada do organismo e não existe risco de hipoglicemia tardia.",
+        "B": "A glicemia normal após uma hora confirma que a quantidade de glicose administrada foi suficiente para prevenir hipoglicemia durante todo o período de ação da insulina.",
+        "C": "A redução do potássio é compatível com o efeito esperado da insulina, mas a ação pode persistir por várias horas. É necessário manter monitorização glicêmica e laboratorial e acompanhar a estratégia de remoção efetiva do potássio.",
+        "D": "Como o potássio diminuiu, não há necessidade de tratamento adicional, pois a insulina já eliminou o excesso corporal de potássio."
+      },
+      "feedback": {
+        "A": "A queda do potássio não demonstra eliminação completa da insulina. Seu efeito metabólico pode persistir por várias horas.",
+        "B": "Uma glicemia normal após uma hora não exclui hipoglicemia tardia. A dose inicial de glicose pode ser insuficiente para todo o período de ação.",
+        "C": "Reconhece a resposta esperada, a duração do efeito, o risco de hipoglicemia tardia e a necessidade de monitorização e remoção efetiva.",
+        "D": "A insulina não elimina o excesso corporal de potássio. A melhora inicial pode ser temporária e não substitui estratégias de remoção."
+      },
+      "correctExplanation": "A paciente apresentou uma resposta inicial favorável.\n\nEntretanto, **a melhora do potássio e uma glicemia normal após uma hora não autorizam encerrar a monitorização**.\n\n**1. A redução do potássio está dentro do esperado.**\n\nO potássio diminuiu de 7,1 para 6,2 mEq/L, uma queda de 0,9 mEq/L.\n\nSegundo o UpToDate, a redução geralmente observada após insulina fica entre 0,5 e 1,2 mEq/L.\n\nPortanto, a resposta é compatível com o efeito farmacológico esperado.\n\n**2. O efeito não termina após uma hora.**\n\nO início da ação ocorre aproximadamente entre 10 e 20 minutos.\n\nO efeito máximo sobre o potássio costuma ocorrer entre 30 e 60 minutos.\n\nEntretanto, a ação pode persistir por quatro a seis horas.\n\nAssim, a primeira hora não representa o encerramento do efeito farmacológico.\n\n**3. Por que a glicemia pode cair posteriormente?**\n\nA insulina continua favorecendo a utilização de glicose mesmo depois do bolus inicial.\n\nUma dose única de 25 g de glicose pode não ser suficiente para prevenir hipoglicemia durante todo o período de ação.\n\nA doença renal avançada também pode contribuir para prolongar a exposição à insulina.\n\n**4. O que o UpToDate recomenda?**\n\nO documento recomenda:\n\n- Monitorização glicêmica aproximadamente a cada hora por cinco a seis horas.\n- Considerar infusão de glicose a 10% a 50–75 mL/h após o bolus inicial de 25 g, conforme o esquema descrito.\n- Reavaliar o potássio aproximadamente uma a duas horas após o início do tratamento.\n- Ajustar os controles posteriores conforme a resposta clínica e laboratorial.\n\n**5. A redução do potássio não significa eliminação corporal.**\n\nA insulina promove redistribuição intracelular.\n\nPortanto, é necessário acompanhar as medidas destinadas à remoção efetiva do potássio.\n\nEm pacientes com disfunção renal avançada, essa preocupação é particularmente importante.\n\n**6. Por que não repetir insulina automaticamente?**\n\nUma nova dose pode ser necessária em determinadas situações, especialmente quando a remoção efetiva está atrasada.\n\nEntretanto, doses repetidas aumentam o risco de hipoglicemia.\n\nA decisão exige considerar a concentração de potássio, a evolução clínica, a glicemia, o tratamento já administrado e a possibilidade de remoção efetiva.\n\n**A prescrição de insulina deve incluir não apenas a administração, mas também o acompanhamento de seus efeitos terapêuticos e adversos.**",
+      "pearl": "O pico do efeito sobre o potássio não é o fim do efeito da insulina. Uma hora depois, o potássio pode estar melhor e a hipoglicemia ainda estar por vir.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seções “Insulin with glucose”, “Repeated dosing” e “Monitoring”, páginas 5 e 7–8."
+    }
+  ]
+}

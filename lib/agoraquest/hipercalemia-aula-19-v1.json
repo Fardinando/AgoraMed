@@ -1,0 +1,244 @@
+{
+  "slug": "hipercalemia-aula-19-v1",
+  "versao": 1,
+  "title": "AgoraQuest 19 — Diuréticos e avaliação da volemia",
+  "subtitle": "Diuréticos e avaliação da volemia",
+  "intro": "Pratique a avaliação da volemia e o papel dos diuréticos na eliminação urinária de potássio.",
+  "references": "UpToDate — Treatment and prevention of hyperkalemia in adults. https://www.uptodate.com/contents/treatment-and-prevention-of-hyperkalemia-in-adults",
+  "key": [
+    "C",
+    "A",
+    "D",
+    "B",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "id": "hipercalemia-aq19-q01",
+      "title": "A FUROSEMIDA FAZ O POTÁSSIO ENTRAR NAS CÉLULAS?",
+      "competency": "Compreender o mecanismo da eliminação renal de potássio.",
+      "stem": "Um homem de 62 anos, com insuficiência cardíaca e doença renal crônica leve, apresenta potássio sérico de 5,8 mEq/L.\n\nEstá hemodinamicamente estável, com edema de membros inferiores, diurese preservada e sem alterações eletrocardiográficas atribuíveis à hipercalemia.\n\nA equipe considera utilizar furosemida para tratar a congestão e favorecer a eliminação urinária de potássio.\n\nUm interno pergunta:\n\n“Professor, a furosemida baixa o potássio da mesma maneira que a insulina, colocando-o dentro das células?”\n\n**Qual alternativa explica corretamente seu mecanismo?**",
+      "choices": {
+        "A": "A furosemida estimula diretamente a Na⁺/K⁺-ATPase muscular, deslocando potássio para o compartimento intracelular.",
+        "B": "A furosemida promove eliminação intestinal de potássio por ligação direta ao eletrólito no cólon.",
+        "C": "A furosemida bloqueia o cotransportador Na⁺-K⁺-2Cl⁻ na alça espessa ascendente de Henle, aumentando a oferta distal de sódio e o fluxo tubular, o que pode favorecer a secreção e a excreção urinária de potássio quando existe função renal suficiente.",
+        "D": "A furosemida estabiliza diretamente a membrana dos cardiomiócitos, reduzindo a toxicidade elétrica da hipercalemia."
+      },
+      "feedback": {
+        "A": "Esse mecanismo corresponde à redistribuição intracelular promovida por intervenções como a insulina, não à principal ação hipocalemiante da furosemida.",
+        "B": "A furosemida não é um quelante gastrointestinal. Sua ação ocorre no néfron.",
+        "C": "Descreve a ação na alça de Henle, o aumento da oferta distal de sódio e fluxo tubular e a possibilidade de maior excreção urinária de potássio.",
+        "D": "A estabilização elétrica da hipercalemia é uma finalidade do cálcio intravenoso quando indicado, não da furosemida."
+      },
+      "correctExplanation": "O primeiro conceito desta aula é diferenciar **redistribuir potássio** de **remover potássio**.\n\n**1. Onde a furosemida atua?**\n\nA furosemida é um diurético de alça. Seu principal local de ação é a porção espessa ascendente da alça de Henle, onde inibe o cotransportador Na⁺-K⁺-2Cl⁻, conhecido como NKCC2.\n\nEssa inibição reduz a reabsorção de cloreto de sódio nesse segmento do néfron.\n\n**2. Como isso aumenta a eliminação de potássio?**\n\nCom menor reabsorção de sódio na alça de Henle, aumenta a quantidade de sódio e líquido que alcança segmentos distais do néfron.\n\nA reabsorção distal de sódio, associada ao aumento do fluxo tubular, pode favorecer a secreção de potássio para o lúmen.\n\nO resultado é maior eliminação urinária de potássio, desde que o rim mantenha capacidade de responder.\n\n**3. Qual é a diferença em relação à insulina?**\n\nA insulina reduz o potássio sérico principalmente por deslocamento para o meio intracelular.\n\nA furosemida, quando eficaz, promove perda urinária real de potássio.\n\nPortanto, os mecanismos e os objetivos terapêuticos são diferentes.\n\n**4. Por que a função renal importa?**\n\nPara eliminar potássio pela urina, é necessário haver funcionamento renal e produção urinária suficientes.\n\nSe a capacidade de excreção estiver muito comprometida, a resposta pode ser pequena ou ausente.\n\n**5. O que torna a furosemida interessante neste caso?**\n\nO paciente apresenta congestão e diurese preservada.\n\nAssim, a furosemida pode contribuir para dois objetivos: melhorar a sobrecarga de volume e aumentar a eliminação urinária de potássio.\n\nEntretanto, a magnitude da redução do potássio não deve ser presumida.\n\n**A furosemida não esconde o potássio dentro das células: quando funciona, ajuda o organismo a eliminá-lo pela urina.**",
+      "pearl": "Insulina redistribui. Furosemida pode eliminar. Mas, para eliminar potássio pela urina, o rim precisa conseguir responder.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Loop diuretics in patients without severe kidney function impairment”, página 9. A descrição do NKCC2 e do mecanismo tubular é fundamentação fisiológica complementar."
+    },
+    {
+      "number": 2,
+      "id": "hipercalemia-aq19-q02",
+      "title": "O POTÁSSIO ESTÁ ALTO, MAS O PACIENTE ESTÁ HIPOVOLÊMICO",
+      "competency": "Avaliar a volemia antes de prescrever diuréticos.",
+      "stem": "Uma mulher de 54 anos procura a emergência após três dias de vômitos e diarreia.\n\nApresenta fraqueza, tontura ao levantar e redução do volume urinário.\n\nA avaliação mostra:\n\nAo exame físico, apresenta mucosas secas e ausência de edema. O ECG não mostra alterações atribuíveis à hipercalemia.\n\nUm residente propõe administrar imediatamente 40 mg de furosemida intravenosa para aumentar a eliminação de potássio.\n\n**Qual é a melhor decisão inicial?**",
+      "table": {
+        "caption": "Dados do caso",
+        "headers": [
+          "Parâmetro",
+          "Resultado"
+        ],
+        "rows": [
+          [
+            "Pressão arterial",
+            "92/58 mmHg"
+          ],
+          [
+            "Frequência cardíaca",
+            "112 bpm"
+          ],
+          [
+            "Potássio",
+            "5,9 mEq/L"
+          ],
+          [
+            "Creatinina",
+            "1,5 mg/dL"
+          ],
+          [
+            "Creatinina basal",
+            "0,9 mg/dL"
+          ]
+        ]
+      },
+      "choices": {
+        "A": "Reconhecer a provável hipovolemia, avaliar e iniciar reposição volêmica isotônica de maneira apropriada, reavaliando perfusão, função renal e potássio antes de considerar diurético. A hipercalemia deve continuar sendo acompanhada e tratada conforme sua gravidade.",
+        "B": "Administrar furosemida imediatamente, pois a hipovolemia aumenta a eficácia dos diuréticos de alça.",
+        "C": "Associar furosemida e restrição hídrica rigorosa, pois o objetivo é reduzir o volume corporal para diminuir a concentração sérica de potássio.",
+        "D": "Desconsiderar a hipercalemia, pois pacientes com vômitos e diarreia necessariamente apresentam hipocalemia."
+      },
+      "feedback": {
+        "A": "Reconhece a hipovolemia, prioriza perfusão renal e mantém a necessidade de acompanhar e tratar a hipercalemia.",
+        "B": "A hipovolemia não aumenta automaticamente a eficácia da furosemida. Pode agravar a disfunção renal e reduzir a resposta desejada.",
+        "C": "Restringir líquidos e intensificar perdas em uma paciente provavelmente hipovolêmica pode piorar a perfusão renal.",
+        "D": "Perdas gastrointestinais não excluem hipercalemia, especialmente quando existe disfunção renal associada."
+      },
+      "correctExplanation": "Esta questão mostra por que a prescrição de diuréticos não deve começar pelo valor do potássio, mas pela avaliação clínica do paciente.\n\n**1. O que os achados sugerem?**\n\nA paciente apresenta perdas gastrointestinais, hipotensão, taquicardia, mucosas secas e elevação da creatinina em relação ao basal.\n\nO conjunto sugere hipovolemia com possível redução da perfusão renal.\n\n**2. Por que a hipovolemia interfere na eliminação de potássio?**\n\nA perfusão renal inadequada pode reduzir a filtração glomerular e comprometer a entrega de sódio e líquido aos segmentos distais do néfron.\n\nA secreção renal de potássio depende, entre outros fatores, dessa entrega distal.\n\n**3. O que pode acontecer se administrarmos furosemida imediatamente?**\n\nA furosemida pode agravar a perda de volume, reduzir ainda mais a perfusão renal e piorar a disfunção renal.\n\nNesse cenário, a tentativa de aumentar a excreção urinária de potássio pode se tornar contraproducente.\n\n**4. O que recomenda o UpToDate?**\n\nO documento descreve que, em pacientes euvolêmicos ou hipovolêmicos com função renal preservada, a administração de solução salina isotônica pode ser utilizada para corrigir a hipovolemia e manter a euvolemia antes da administração de furosemida.\n\nIsso não significa administrar volume indiscriminadamente. A reposição deve ser orientada pela avaliação clínica e pela resposta do paciente.\n\n**5. Corrigir a hipovolemia resolve automaticamente a hipercalemia?**\n\nNão.\n\nA melhora da perfusão renal pode favorecer a excreção de potássio quando existe capacidade renal suficiente, mas o resultado precisa ser acompanhado.\n\nSe houver hipercalemia grave, manifestações clínicas ou alterações eletrocardiográficas, o tratamento específico não deve ser adiado.\n\n**6. Por que a paciente pode ter hipercalemia apesar das perdas gastrointestinais?**\n\nVômitos e diarreia frequentemente estão associados a perdas de potássio, mas a redução da perfusão renal e da capacidade de excreção pode provocar elevação do potássio sérico.\n\nAlém disso, distúrbios ácido-base e medicamentos podem contribuir.\n\n**A prioridade é corrigir o problema hemodinâmico sem perder de vista o risco da hipercalemia.**",
+      "pearl": "Antes de prescrever furosemida para eliminar potássio, avalie a volemia. Um rim mal perfundido pode não conseguir eliminar o potássio que você pretende remover.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Loop diuretics in patients without severe kidney function impairment”, página 9."
+    },
+    {
+      "number": 3,
+      "id": "hipercalemia-aq19-q03",
+      "title": "ANÚRIA E POTÁSSIO DE 7,2: AUMENTAR A FUROSEMIDA RESOLVE?",
+      "competency": "Reconhecer as limitações dos diuréticos na disfunção renal grave.",
+      "stem": "Um homem de 68 anos, com doença renal crônica avançada, chega à emergência com fraqueza muscular e mal-estar.\n\nA esposa relata que ele praticamente não urina há 24 horas.\n\nOs exames mostram:\n\nA equipe inicia as medidas de emergência para hipercalemia.\n\nDurante a discussão, um residente sugere administrar doses progressivamente maiores de furosemida intravenosa, na expectativa de aumentar a eliminação de potássio e evitar hemodiálise.\n\n**Qual é a conduta mais adequada?**",
+      "table": {
+        "caption": "Dados do caso",
+        "headers": [
+          "Parâmetro",
+          "Resultado"
+        ],
+        "rows": [
+          [
+            "Potássio",
+            "7,2 mEq/L"
+          ],
+          [
+            "Creatinina",
+            "8,1 mg/dL"
+          ],
+          [
+            "Frequência cardíaca",
+            "38 bpm"
+          ],
+          [
+            "Pressão arterial",
+            "105/65 mmHg"
+          ],
+          [
+            "ECG",
+            "Ondas P pouco evidentes e QRS alargado"
+          ]
+        ]
+      },
+      "choices": {
+        "A": "Administrar furosemida em doses crescentes até ocorrer diurese, pois todo paciente com hipercalemia responde ao medicamento quando a dose é suficientemente elevada.",
+        "B": "Substituir as medidas de redistribuição pela furosemida, porque a eliminação urinária é sempre mais rápida que a entrada de potássio nas células.",
+        "C": "Aguardar seis horas após a administração de furosemida antes de solicitar avaliação nefrológica, pois a ausência de diurese inicial não modifica a estratégia.",
+        "D": "Reconhecer que a anúria e a disfunção renal grave tornam improvável uma eliminação urinária efetiva de potássio. Manter o tratamento emergencial e solicitar avaliação nefrológica urgente para remoção extracorpórea, sem depender de resposta à furosemida."
+      },
+      "feedback": {
+        "A": "Não existe garantia de resposta à furosemida com doses progressivamente maiores. Na anúria, a eliminação urinária de potássio pode ser inviável.",
+        "B": "A furosemida não substitui as medidas emergenciais de estabilização elétrica e redistribuição do potássio.",
+        "C": "A avaliação nefrológica não deve ser adiada para testar a resposta diurética diante de hipercalemia grave com disfunção renal importante.",
+        "D": "Reconhece a limitação fisiológica da estratégia urinária e prioriza o tratamento emergencial associado à avaliação para remoção extracorpórea."
+      },
+      "correctExplanation": "Este caso reúne três achados preocupantes: hipercalemia grave, alterações eletrocardiográficas e ausência praticamente completa de produção urinária.\n\nA questão central é reconhecer que **um medicamento que aumenta a eliminação urinária de potássio precisa de função renal residual para produzir esse efeito**.\n\n**1. O paciente apresenta uma emergência hipercalêmica.**\n\nO potássio de 7,2 mEq/L, associado à bradicardia e ao alargamento do QRS, indica risco de deterioração cardiovascular.\n\nAs medidas para reduzir a toxicidade elétrica e promover a redistribuição do potássio devem ser instituídas imediatamente, conforme a avaliação clínica.\n\n**2. Qual é a principal limitação da furosemida?**\n\nA furosemida atua no néfron, aumentando a excreção de sódio e água e favorecendo a perda urinária de potássio.\n\nEntretanto, essa estratégia depende da capacidade renal de produzir urina e excretar eletrólitos.\n\nEm um paciente com anúria, a possibilidade de remover quantidades clinicamente relevantes de potássio por essa via é muito limitada.\n\n**3. Aumentar a dose resolve a ausência de função renal?**\n\nNão necessariamente.\n\nDoses maiores podem ser necessárias em determinadas situações de disfunção renal com função residual, mas não restauram automaticamente a capacidade excretora de um rim que não está produzindo urina.\n\nA insistência em doses crescentes não deve atrasar intervenções mais efetivas.\n\n**4. O que o UpToDate recomenda?**\n\nO documento ressalta que diuréticos não devem ser utilizados como único método de remoção de potássio em emergências hipercalêmicas.\n\nTambém recomenda avaliação nefrológica urgente nos pacientes com emergência hipercalêmica e comprometimento da função renal.\n\nA hemodiálise é uma estratégia de remoção particularmente importante na disfunção renal grave.\n\n**5. Por que a hemodiálise é diferente?**\n\nA hemodiálise remove potássio diretamente do sangue por meio de um circuito extracorpóreo.\n\nPortanto, não depende da produção urinária do paciente para realizar a remoção.\n\n**6. O que fazer enquanto a hemodiálise é organizada?**\n\nO paciente deve permanecer sob monitorização e receber as medidas temporárias indicadas, com reavaliação clínica, eletrocardiográfica e laboratorial.\n\nA remoção definitiva não deve ser confundida com a redução transitória do potássio sérico.\n\n**Na hipercalemia grave com anúria, não basta escolher um medicamento que aumenta a diurese: é necessário reconhecer que o rim pode não conseguir responder.**",
+      "pearl": "Furosemida não substitui rim funcionante. Se o paciente está anúrico e com hipercalemia grave, não aposte a segurança dele em uma diurese que talvez nunca aconteça.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seções “Loop diuretics in patients without severe kidney function impairment” e “Hemodialysis in patients with severe kidney dysfunction”, páginas 9–10."
+    },
+    {
+      "number": 4,
+      "id": "hipercalemia-aq19-q04",
+      "title": "O PACIENTE URINOU DOIS LITROS. O POTÁSSIO FOI ELIMINADO?",
+      "competency": "Diferenciar resposta diurética de resposta hipocalemiante efetiva.",
+      "stem": "Um homem de 70 anos, com insuficiência cardíaca descompensada e doença renal crônica moderada, apresenta congestão pulmonar e potássio sérico de 6,0 mEq/L.\n\nEstá monitorizado e recebe o tratamento indicado para a hipercalemia, além de furosemida intravenosa para controle da congestão.\n\nApós quatro horas, a equipe observa:\n\nO paciente apresenta melhora respiratória.\n\nUm residente afirma:\n\n“Ele urinou dois litros. Isso significa que já eliminou bastante potássio. Podemos considerar a hipercalemia resolvida.”\n\n**Qual interpretação é mais adequada?**",
+      "table": {
+        "caption": "Dados do caso",
+        "headers": [
+          "Parâmetro",
+          "Antes",
+          "Após 4 horas"
+        ],
+        "rows": [
+          [
+            "Potássio",
+            "6,0 mEq/L",
+            "5,9 mEq/L"
+          ],
+          [
+            "Diurese acumulada",
+            "—",
+            "2.000 mL"
+          ],
+          [
+            "Saturação de O₂",
+            "91%",
+            "96%"
+          ],
+          [
+            "Edema e congestão",
+            "Presentes",
+            "Em melhora"
+          ]
+        ]
+      },
+      "choices": {
+        "A": "A diurese de dois litros comprova eliminação de quantidade suficiente de potássio para normalizar o risco cardíaco, independentemente da concentração sérica atual.",
+        "B": "A melhora da diurese e da congestão demonstra resposta ao tratamento diurético, mas não comprova resolução da hipercalemia. É necessário acompanhar o potássio, a função renal e a evolução clínica, sem presumir uma redução proporcional à quantidade de urina produzida.",
+        "C": "A ausência de queda expressiva do potássio demonstra que a furosemida não produziu nenhum efeito fisiológico, apesar da diurese e da melhora da congestão.",
+        "D": "A quantidade de potássio eliminada na urina pode ser calculada diretamente pelo volume urinário, considerando que cada litro contém obrigatoriamente 100 mEq de potássio."
+      },
+      "feedback": {
+        "A": "O volume urinário isolado não comprova eliminação suficiente de potássio. O potássio sérico permanece elevado.",
+        "B": "Diferencia resposta diurética de resposta hipocalemiante e mantém a necessidade de acompanhamento clínico e laboratorial.",
+        "C": "Houve resposta fisiológica evidente à furosemida, com aumento da diurese e melhora da congestão. Isso não garante uma redução importante do potássio.",
+        "D": "A concentração urinária de potássio não é fixa. Não existe uma equivalência universal de 100 mEq por litro de urina."
+      },
+      "correctExplanation": "Esta questão trabalha uma distinção que tem grande importância na prática: **produzir urina não significa necessariamente eliminar uma quantidade suficiente de potássio**.\n\n**1. O paciente respondeu à furosemida?**\n\nSim, pelo menos em relação à diurese e ao controle da congestão.\n\nO aumento do volume urinário e a melhora respiratória sugerem resposta diurética e benefício clínico no manejo da sobrecarga volêmica.\n\nEntretanto, isso não significa que todos os objetivos terapêuticos foram alcançados.\n\n**2. O que determina a quantidade de potássio eliminada pela urina?**\n\nA excreção urinária de potássio depende de dois componentes principais:\n\n- Volume de urina produzido.\n- Concentração de potássio presente nessa urina.\n\nDe forma simplificada:\n\n**Excreção urinária de potássio = volume urinário × concentração urinária de potássio.**\n\nPortanto, dois pacientes que produzem o mesmo volume de urina podem eliminar quantidades diferentes de potássio.\n\n**3. Por que a resposta pode ser limitada?**\n\nA secreção distal de potássio depende de vários fatores, incluindo:\n\n- Função renal residual.\n- Entrega distal de sódio.\n- Fluxo tubular.\n- Atividade mineralocorticoide.\n- Capacidade secretora dos segmentos distais.\n\nEm pacientes com doença renal, esses mecanismos podem estar comprometidos.\n\n**4. O que o UpToDate destaca?**\n\nO documento reconhece que diuréticos de alça aumentam a excreção urinária de potássio em pacientes com função renal normal ou comprometimento leve a moderado.\n\nEntretanto, ressalta que não existem dados demonstrando uma resposta caliurética de curto prazo clinicamente importante e suficientemente previsível para utilizar diuréticos isoladamente em uma emergência hipercalêmica.\n\n**5. Como interpretar o potássio de 5,9 mEq/L?**\n\nO valor permanece elevado.\n\nA melhora da congestão não autoriza concluir que o problema do potássio foi resolvido.\n\nO paciente precisa de acompanhamento laboratorial, avaliação da tendência do potássio e revisão das medidas de remoção e controle da causa.\n\n**6. Por que a queda observada não pode ser atribuída automaticamente à furosemida?**\n\nO paciente recebeu outras intervenções para hipercalemia.\n\nAlém disso, a concentração sérica pode variar por redistribuição, excreção, alterações metabólicas e características da coleta.\n\nNão é possível determinar a contribuição isolada da furosemida apenas pelos valores apresentados.\n\n**Uma boa resposta diurética é uma informação útil. Mas não substitui a avaliação da resposta do potássio.**",
+      "pearl": "Não confunda diurese com caliúria suficiente. O paciente pode urinar bastante, melhorar da congestão e continuar com hipercalemia.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Loop diuretics in patients without severe kidney function impairment”, página 9. A relação entre volume urinário, concentração e excreção de potássio é uma explicação fisiológica complementar."
+    },
+    {
+      "number": 5,
+      "id": "hipercalemia-aq19-q05",
+      "title": "HIPERCALEMIA PERSISTENTE: QUANDO O DIURÉTICO AJUDA NO TRATAMENTO CONTÍNUO?",
+      "competency": "Identificar o papel dos diuréticos na hipercalemia não emergencial.",
+      "stem": "Uma mulher de 65 anos, com doença renal crônica estágio 3 e hipertensão arterial, retorna ao ambulatório para acompanhamento.\n\nApresenta potássio sérico de 5,6 mEq/L, confirmado em duas coletas adequadas.\n\nEstá assintomática, sem alterações eletrocardiográficas atribuíveis à hipercalemia e sem critérios clínicos de emergência.\n\nA avaliação mostra:\n\nA equipe revisa medicamentos, alimentação e possíveis causas reversíveis da hipercalemia.\n\nDurante a discussão, um residente pergunta se diuréticos podem contribuir para o controle do potássio em pacientes como essa.\n\n**Qual alternativa apresenta a melhor estratégia?**",
+      "table": {
+        "caption": "Dados do caso",
+        "headers": [
+          "Parâmetro",
+          "Resultado"
+        ],
+        "rows": [
+          [
+            "Potássio",
+            "5,6 mEq/L"
+          ],
+          [
+            "Creatinina",
+            "1,6 mg/dL"
+          ],
+          [
+            "Pressão arterial",
+            "154/92 mmHg"
+          ],
+          [
+            "Edema de membros inferiores",
+            "Discreto"
+          ],
+          [
+            "Diurese",
+            "Preservada"
+          ]
+        ]
+      },
+      "choices": {
+        "A": "Evitar qualquer diurético, pois pacientes com doença renal crônica não conseguem aumentar a excreção urinária de potássio.",
+        "B": "Utilizar furosemida em dose elevada exclusivamente para normalizar o potássio em poucas horas, dispensando investigação de causas e acompanhamento laboratorial.",
+        "C": "Considerar diurético de alça ou tiazídico conforme função renal, pressão arterial e estado volêmico, especialmente quando também existe hipertensão ou hipervolemia, mantendo correção das causas reversíveis e monitorização do potássio e da função renal.",
+        "D": "Utilizar diurético poupador de potássio como primeira escolha para aumentar a excreção urinária de potássio e corrigir a hipercalemia."
+      },
+      "feedback": {
+        "A": "A doença renal crônica não elimina universalmente a resposta aos diuréticos. Pacientes com função renal residual podem apresentar aumento da excreção urinária de potássio.",
+        "B": "O tratamento da hipercalemia persistente não deve se limitar a doses elevadas de furosemida. É necessário investigar causas e monitorar a resposta.",
+        "C": "Considera a função renal, a pressão arterial, a volemia, as causas reversíveis e a necessidade de acompanhamento.",
+        "D": "Diuréticos poupadores de potássio podem agravar a hipercalemia e não devem ser escolhidos com o objetivo de aumentar sua eliminação."
+      },
+      "correctExplanation": "A última questão amplia o raciocínio para além da emergência.\n\nNem toda hipercalemia exige intervenções intravenosas imediatas. Em situações selecionadas, o tratamento pode envolver correção de causas, ajustes terapêuticos e estratégias para aumentar a eliminação de potássio ao longo do tempo.\n\n**1. O cenário é diferente de uma emergência hipercalêmica.**\n\nA paciente apresenta hipercalemia persistente, porém estável, sem manifestações clínicas de gravidade descritas no caso.\n\nIsso permite uma abordagem planejada, com avaliação das causas e acompanhamento.\n\n**2. Qual é o papel dos diuréticos nesse contexto?**\n\nO UpToDate descreve que diuréticos de alça e tiazídicos podem ser utilizados em pacientes com hipercalemia persistente que também apresentam hipertensão ou hipervolemia.\n\nEsses medicamentos podem favorecer a excreção urinária de potássio quando existe função renal residual suficiente.\n\n**3. Por que hipertensão e hipervolemia importam?**\n\nPorque o diurético pode atender simultaneamente a diferentes objetivos terapêuticos.\n\nNo caso apresentado, existe hipertensão e edema.\n\nPortanto, a escolha de um diurético pode contribuir para o controle pressórico, o manejo do volume e a eliminação urinária de potássio.\n\n**4. Qual diurético escolher?**\n\nA decisão depende do contexto clínico.\n\nDiuréticos de alça podem ser particularmente úteis quando existe congestão.\n\nTiazídicos também podem favorecer a excreção urinária de potássio e contribuir para o controle da pressão arterial em pacientes selecionados.\n\nA função renal, o estado volêmico e a resposta clínica influenciam a escolha.\n\n**5. Por que revisar as causas reversíveis?**\n\nA hipercalemia persistente pode estar relacionada a:\n\n- Redução da excreção renal.\n- Medicamentos que interferem na excreção de potássio.\n- Fontes alimentares ou suplementares.\n- Distúrbios hormonais e metabólicos.\n\nA prescrição de um diurético não substitui a investigação dessas possibilidades.\n\n**6. Quais riscos precisam ser acompanhados?**\n\nDiuréticos podem provocar hipovolemia, alterações da função renal e distúrbios eletrolíticos.\n\nUma resposta excessiva também pode resultar em hipocalemia.\n\nPor isso, o acompanhamento do potássio e da função renal é parte do tratamento.\n\n**7. Por que não escolher um diurético poupador de potássio?**\n\nMedicamentos que reduzem a secreção renal de potássio podem elevar ainda mais sua concentração sérica.\n\nPortanto, não são a escolha apropriada com a finalidade de aumentar a eliminação urinária de potássio em uma paciente já hipercalêmica.\n\n**O tratamento contínuo da hipercalemia deve corrigir a causa e, quando possível, aproveitar intervenções que também beneficiem a pressão arterial e o estado volêmico.**",
+      "pearl": "Na hipercalemia persistente, o diurético pode tratar três problemas ao mesmo tempo: hipertensão, congestão e retenção de potássio. Mas a escolha depende da função renal e da volemia.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seções “Treatment of nonemergent hyperkalemia” e “Diuretics”, páginas 18–19."
+    }
+  ]
+}

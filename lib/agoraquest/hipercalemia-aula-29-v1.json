@@ -1,0 +1,127 @@
+{
+  "slug": "hipercalemia-aula-29-v1",
+  "versao": 1,
+  "title": "AgoraQuest 29 — Cetoacidose, rabdomiólise e liberação contínua de potássio",
+  "subtitle": "Questões que ensinam a decidir.",
+  "intro": "Pratique a interpretação do potássio na cetoacidose, rabdomiólise e liberação contínua de potássio.",
+  "references": "UpToDate — Causes and evaluation of hyperkalemia in adults; Treatment and prevention of hyperkalemia in adults.",
+  "key": [
+    "C",
+    "B",
+    "D",
+    "A",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "id": "hipercalemia-aq29-q01",
+      "title": "Potássio de 6,1 na cetoacidose: excesso ou deficiência?",
+      "competency": "Interpretar o potássio sérico na cetoacidose diabética.",
+      "stem": "Uma mulher de 24 anos, com diabetes mellitus tipo 1, procura a emergência com vômitos, poliúria, polidipsia e respiração profunda.\n\nRelata que deixou de aplicar insulina nas últimas 24 horas.\n\nNa avaliação inicial:\n\n- Glicemia: 528 mg/dL.\n- pH: 7,12.\n- Bicarbonato: 8 mEq/L.\n- Cetonemia: elevada.\n- Potássio sérico: 6,1 mEq/L.\n- Creatinina: 1,2 mg/dL.\n- ECG: sem alterações sugestivas de hipercalemia.\n- Sinais clínicos de desidratação.\n\nUm interno afirma:\n\n“Como o potássio está elevado, essa paciente provavelmente tem excesso de potássio no organismo.”\n\n**Qual é a interpretação mais adequada?**",
+      "choices": {
+        "A": "A concentração sérica de 6,1 mEq/L confirma aumento do estoque corporal total de potássio.",
+        "B": "O potássio elevado é explicado exclusivamente pela acidemia; a deficiência de insulina e a hiperosmolalidade não participam.",
+        "C": "A paciente pode apresentar deficiência corporal total de potássio apesar da concentração sérica elevada, devido às perdas urinárias e gastrointestinais, enquanto a deficiência de insulina e a hiperosmolalidade favorecem a elevação extracelular.",
+        "D": "A presença de hipercalemia significa que o potássio não precisa ser monitorado durante o tratamento da cetoacidose."
+      },
+      "feedback": {
+        "A": "Incorreta. O potássio sérico representa concentração extracelular, não o estoque total.",
+        "B": "Incorreta. A deficiência de insulina e a hiperosmolalidade são mecanismos relevantes para a elevação sérica do potássio.",
+        "C": "Correta. Integra a redistribuição extracelular com as perdas corporais de potássio.",
+        "D": "Incorreta. O potássio precisa ser monitorado repetidamente porque pode diminuir de forma importante durante o tratamento."
+      },
+      "correctExplanation": "**1. O que o exame realmente mostra?**\n\nO potássio sérico de 6,1 mEq/L indica aumento da concentração de potássio no compartimento extracelular.\n\nEle não informa, isoladamente, quanto potássio existe no organismo.\n\n**2. Por que o potássio pode estar elevado na cetoacidose?**\n\nDois mecanismos são particularmente importantes:\n\n- **Deficiência de insulina:** reduz o estímulo à entrada de potássio nas células.\n- **Hiperosmolalidade:** favorece o deslocamento de água e pode contribuir para a saída de potássio do compartimento intracelular.\n\nA acidose pode participar de alterações do potássio, mas sua influência depende do tipo de distúrbio ácido-base. Não é correto atribuir toda a hipercalemia da cetoacidose à acidemia.\n\n**3. Como a paciente pode ter deficiência corporal de potássio?**\n\nA hiperglicemia provoca diurese osmótica, aumentando as perdas urinárias de água e eletrólitos, incluindo potássio.\n\nVômitos também podem contribuir para perdas e depleção de volume.\n\n**4. Então o potássio elevado é falso?**\n\nNão.\n\nA concentração sérica está realmente elevada, mas pode coexistir com redução do estoque corporal.\n\nÉ justamente essa diferença que torna a interpretação da cetoacidose tão importante.\n\n**5. O que acontece quando iniciamos o tratamento?**\n\nA insulina favorece a entrada de potássio nas células.\n\nA correção da hiperglicemia e da hiperosmolalidade também modifica sua distribuição.\n\nAssim, a concentração sérica pode cair rapidamente.\n\n**6. Qual é o risco?**\n\nO paciente pode evoluir com hipocalemia durante o tratamento, especialmente quando já apresenta déficit corporal importante.\n\n**7. Devemos ignorar o potássio inicial de 6,1?**\n\nNão.\n\nÉ necessário avaliar ECG, gravidade, função renal e evolução laboratorial, além de seguir o protocolo específico de cetoacidose.\n\nA interpretação do estoque corporal não elimina a necessidade de reconhecer uma hipercalemia clinicamente perigosa.\n\n**8. Qual é a principal lição?**\n\n**Na cetoacidose diabética, potássio sérico elevado não significa necessariamente excesso de potássio corporal.**",
+      "pearl": "**Na cetoacidose, o potássio pode estar alto no sangue e baixo no estoque. O exame mostra onde o potássio está naquele momento, não quanto o paciente ainda tem para perder.**",
+      "reference": "UpToDate — *Causes and evaluation of hyperkalemia in adults*, seções sobre deficiência de insulina, hiperglicemia, hiperosmolalidade e redistribuição do potássio. A descrição das perdas e do acompanhamento durante a CAD complementa a interpretação fisiopatológica e deve ser conferida no protocolo específico de cetoacidose."
+    },
+    {
+      "number": 2,
+      "id": "hipercalemia-aq29-q02",
+      "title": "O potássio caiu para 3,2 durante o tratamento. E agora?",
+      "competency": "Reconhecer o risco de hipocalemia durante o tratamento da cetoacidose.",
+      "stem": "Um homem de 31 anos é admitido com cetoacidose diabética.\n\nNa chegada:\n\n- Glicemia: 612 mg/dL.\n- pH: 7,08.\n- Bicarbonato: 7 mEq/L.\n- Potássio: 5,7 mEq/L.\n\nO paciente inicia tratamento com reposição volêmica e insulina intravenosa, conforme protocolo institucional.\n\nApós algumas horas:\n\n- Glicemia: 286 mg/dL.\n- Potássio: 3,2 mEq/L.\n- pH: 7,23.\n- Bicarbonato: 12 mEq/L.\n- Diurese preservada.\n\nO paciente permanece com acidose metabólica e cetonemia elevada.\n\nUm residente afirma:\n\n“Como a cetoacidose ainda não resolveu, devemos continuar a insulina na mesma velocidade. Depois corrigimos o potássio.”\n\n**Qual é a melhor conduta?**",
+      "choices": {
+        "A": "Continuar a insulina sem modificações, pois o tratamento da acidose tem prioridade absoluta sobre a hipocalemia.",
+        "B": "Reconhecer a hipocalemia como uma complicação potencialmente grave, interromper temporariamente a infusão de insulina conforme protocolo de CAD, iniciar reposição de potássio com monitorização e retomar a insulina quando a concentração atingir o limiar de segurança previsto no protocolo.",
+        "C": "Administrar cálcio intravenoso para aumentar o potássio sérico e manter a insulina.",
+        "D": "Suspender definitivamente o tratamento da cetoacidose, pois o potássio de 3,2 mEq/L indica resolução do distúrbio metabólico."
+      },
+      "feedback": {
+        "A": "Incorreta. A manutenção da insulina com potássio de 3,2 mEq/L pode agravar a hipocalemia.",
+        "B": "Correta. Reconhece o risco, prioriza reposição de potássio e permite retomada segura da insulina.",
+        "C": "Incorreta. O cálcio não corrige hipocalemia nem substitui reposição de potássio.",
+        "D": "Incorreta. A hipocalemia não indica resolução da cetoacidose; o paciente permanece com cetonemia e acidose."
+      },
+      "correctExplanation": "**1. O que aconteceu com o potássio?**\n\nHouve redução de 5,7 para 3,2 mEq/L.\n\nA queda é compatível com o efeito da insulina e com as mudanças de distribuição de potássio durante a correção metabólica.\n\nAs perdas corporais prévias também contribuem para o risco.\n\n**2. Por que a insulina reduz o potássio?**\n\nPorque estimula a Na⁺/K⁺-ATPase e favorece a entrada de potássio nas células.\n\nEsse efeito é desejável quando precisamos reduzir uma hipercalemia, mas pode se tornar perigoso na presença de depleção corporal.\n\n**3. Por que 3,2 mEq/L é preocupante?**\n\nPorque já existe hipocalemia.\n\nA manutenção da insulina pode intensificar a queda e aumentar o risco de arritmias e fraqueza muscular.\n\n**4. A cetoacidose ainda precisa de insulina?**\n\nSim.\n\nA insulina é necessária para interromper a cetogênese e resolver o distúrbio metabólico.\n\nEntretanto, o tratamento precisa ser conduzido com segurança.\n\n**5. O que deve ser feito neste momento?**\n\nDeve-se priorizar a correção da hipocalemia e seguir o protocolo específico de CAD, incluindo suspensão temporária da insulina quando o potássio estiver abaixo do limiar recomendado.\n\nO consenso internacional de crises hiperglicêmicas em adultos de 2024 utiliza o limiar de 3,5 mmol/L para adiar ou suspender temporariamente a insulina até correção adequada.\n\n**6. Por que não simplesmente manter a insulina?**\n\nPorque a insulina pode provocar queda adicional do potássio.\n\nA resolução da cetoacidose não deve ser buscada à custa de uma hipocalemia potencialmente fatal.\n\n**7. O cálcio intravenoso resolveria?**\n\nNão.\n\nO cálcio não repõe potássio.\n\nSeu papel na hipercalemia é antagonizar efeitos elétricos cardíacos, não elevar a concentração sérica de potássio.\n\n**8. O que deve ser monitorado?**\n\n- Potássio sérico.\n- Glicemia.\n- Função renal e diurese.\n- ECG conforme gravidade.\n- Evolução da cetonemia e da acidose.\n- Resposta à reposição de potássio.\n\n**9. Qual é a principal lição?**\n\n**O tratamento da cetoacidose precisa continuar, mas a hipocalemia importante pode exigir uma pausa temporária na insulina para evitar deterioração cardíaca.**",
+      "pearl": "**Na cetoacidose, a insulina salva o paciente ao interromper a cetogênese, mas pode colocá-lo em risco se o potássio cair demais. Antes de insistir na infusão, confira o potássio.**",
+      "reference": "UpToDate — *Causes and evaluation of hyperkalemia in adults*, mecanismos de deficiência de insulina e redistribuição; consenso internacional de 2024 sobre crises hiperglicêmicas em adultos, utilizado como fonte complementar para o limiar de segurança do potássio na insulinoterapia. Conferir o documento específico antes da publicação."
+    },
+    {
+      "number": 3,
+      "id": "hipercalemia-aq29-q03",
+      "title": "O potássio continua subindo. De onde ele está vindo?",
+      "competency": "Reconhecer liberação contínua de potássio na rabdomiólise.",
+      "stem": "Um homem de 38 anos é admitido após permanecer várias horas imobilizado no chão, depois de uma queda.\n\nApresenta dor muscular intensa, fraqueza e urina escurecida.\n\nNa avaliação inicial:\n\n- Potássio: 5,6 mEq/L.\n- Creatinina: 1,8 mg/dL.\n- CK: 24.000 U/L.\n- Diurese: reduzida.\n- ECG: sem alterações sugestivas de hipercalemia.\n\nA equipe inicia avaliação e tratamento da rabdomiólise, incluindo reposição volêmica individualizada.\n\nDuas horas depois, os exames mostram:\n\n- Potássio: 6,4 mEq/L.\n- Creatinina: 2,3 mg/dL.\n- CK: 38.000 U/L.\n- Diurese: persistentemente reduzida.\n\nUm residente comenta:\n\n“Como o primeiro potássio era apenas 5,6 e o ECG estava normal, não esperávamos uma elevação tão rápida.”\n\n**Qual é a melhor explicação e abordagem?**",
+      "choices": {
+        "A": "A rabdomiólise reduz a quantidade de potássio liberada pelas células, portanto o aumento é provavelmente um erro laboratorial.",
+        "B": "A elevação do potássio decorre exclusivamente da acidose; a lesão muscular e a disfunção renal não são relevantes.",
+        "C": "A ausência de alterações eletrocardiográficas iniciais garante que não haverá toxicidade cardíaca durante a evolução.",
+        "D": "A destruição muscular pode liberar continuamente potássio intracelular, enquanto a lesão renal reduz sua eliminação. A tendência ascendente exige reavaliação urgente, monitorização e tratamento conforme a gravidade, sem esperar alterações eletrocardiográficas."
+      },
+      "feedback": {
+        "A": "Incorreta. A destruição muscular favorece liberação de potássio, não sua redução. Erros laboratoriais podem ocorrer, mas não explicam obrigatoriamente uma elevação coerente com o quadro.",
+        "B": "Incorreta. A lesão muscular e a disfunção renal são mecanismos diretamente relevantes.",
+        "C": "Incorreta. Um ECG inicialmente normal não garante segurança diante de elevação progressiva do potássio.",
+        "D": "Correta. Integra liberação celular persistente, redução da eliminação renal e necessidade de reavaliação e tratamento."
+      },
+      "correctExplanation": "**1. O que a rabdomiólise provoca?**\n\nA rabdomiólise envolve lesão e destruição de fibras musculares, com liberação de componentes intracelulares para a circulação.\n\nEntre esses componentes está o potássio.\n\n**2. Por que a quantidade liberada pode ser importante?**\n\nO músculo esquelético representa um grande compartimento de potássio corporal.\n\nA destruição muscular extensa pode disponibilizar quantidades significativas desse eletrólito ao compartimento extracelular.\n\n**3. Por que o potássio continua subindo?**\n\nPorque a liberação celular pode persistir enquanto a lesão muscular evolui.\n\nO resultado inicial representa apenas a concentração naquele momento, não a quantidade de potássio que ainda poderá ser liberada.\n\n**4. Qual é a importância da creatinina crescente?**\n\nA elevação da creatinina e a redução da diurese sugerem deterioração da função renal.\n\nIsso pode comprometer a excreção urinária de potássio, intensificando a hipercalemia.\n\n**5. A CK permite prever exatamente o potássio?**\n\nNão.\n\nA CK é útil como marcador de lesão muscular, mas não permite calcular diretamente a concentração de potássio ou sua velocidade de elevação.\n\nO risco depende também da função renal, da extensão e continuidade da lesão e de outros fatores metabólicos.\n\n**6. O ECG normal na chegada era tranquilizador?**\n\nNão o suficiente para afastar risco futuro.\n\nA concentração sérica pode aumentar rapidamente, e as manifestações eletrocardiográficas não seguem obrigatoriamente uma sequência previsível.\n\n**7. O que deve ser feito agora?**\n\nReavaliar imediatamente a situação clínica e eletrocardiográfica, acompanhar potássio, função renal e diurese e iniciar medidas de redução do potássio conforme a gravidade.\n\nA possibilidade de remoção extracorpórea deve ser considerada se houver hipercalemia grave, persistente ou refratária, especialmente com comprometimento renal importante.\n\n**8. Por que a monitorização precisa ser seriada?**\n\nPorque o processo de liberação pode continuar mesmo após uma medida terapêutica reduzir temporariamente a concentração sérica.\n\n**9. Qual é a principal lição?**\n\n**Na rabdomiólise, o problema não é apenas o potássio que já apareceu no exame. É também o potássio que ainda pode ser liberado pelo músculo lesionado.**",
+      "pearl": "**Na rabdomiólise, não pergunte apenas “Quanto está o potássio?”. Pergunte também: “Quanto potássio ainda pode estar sendo liberado e quanto o rim consegue eliminar?”.**",
+      "reference": "UpToDate — *Causes and evaluation of hyperkalemia in adults*, seção “Increased tissue catabolism”; *Treatment and prevention of hyperkalemia in adults*, critérios de urgência em pacientes com destruição tecidual contínua."
+    },
+    {
+      "number": 4,
+      "id": "hipercalemia-aq29-q04",
+      "title": "Esmagamento, potássio de 7,1 e oligúria: esperar a diálise?",
+      "competency": "Tratar a emergência hipercalêmica e antecipar a necessidade de remoção de potássio.",
+      "stem": "Um homem de 46 anos é resgatado após permanecer seis horas com os membros inferiores comprimidos por uma estrutura metálica.\n\nChega à emergência com dor muscular intensa, edema importante nas pernas e urina escurecida.\n\nNa avaliação:\n\n- Potássio: 7,1 mEq/L.\n- Creatinina: 3,0 mg/dL.\n- CK: 52.000 U/L.\n- Frequência cardíaca: 48 bpm.\n- Pressão arterial: 94/58 mmHg.\n- ECG: ondas T apiculadas e alargamento do QRS.\n- Diurese: muito reduzida.\n\nA nefrologia é acionada, mas a hemodiálise não estará disponível imediatamente.\n\nUm residente afirma:\n\n“Como a causa é a destruição muscular, o cálcio e a insulina não resolverão. Precisamos esperar a hemodiálise.”\n\n**Qual é a melhor conduta?**",
+      "choices": {
+        "A": "Iniciar imediatamente estabilização cardíaca com cálcio intravenoso, medidas de redistribuição do potássio, monitorização contínua e tratamento da rabdomiólise, enquanto organiza urgentemente a avaliação para terapia renal substitutiva.",
+        "B": "Aguardar a hemodiálise sem tratamento farmacológico, porque a liberação muscular contínua torna todas as medidas temporárias inúteis.",
+        "C": "Administrar apenas furosemida, pois a presença de oligúria garante resposta diurética suficiente para eliminar o potássio.",
+        "D": "Repetir o potássio somente após a normalização da CK, pois o tratamento da lesão muscular elimina imediatamente o risco cardíaco."
+      },
+      "feedback": {
+        "A": "Correta. Integra estabilização imediata, redução temporária do potássio, monitorização e organização da remoção efetiva.",
+        "B": "Incorreta. As medidas temporárias continuam sendo importantes, especialmente diante de toxicidade elétrica.",
+        "C": "Incorreta. Oligúria não garante resposta a diuréticos. A furosemida não substitui o tratamento emergencial da hipercalemia.",
+        "D": "Incorreta. A CK não determina isoladamente a resolução do risco cardíaco. A hipercalemia precisa de tratamento e monitorização próprios."
+      },
+      "correctExplanation": "**1. Por que este paciente está em situação crítica?**\n\nExiste hipercalemia grave associada a alterações eletrocardiográficas compatíveis com toxicidade cardíaca.\n\nAlém disso, há destruição muscular extensa, oligúria e disfunção renal.\n\n**2. Qual é a primeira prioridade?**\n\nProteger o coração contra os efeitos elétricos da hipercalemia.\n\nO cálcio intravenoso é indicado diante das alterações eletrocardiográficas relevantes.\n\n**3. O cálcio remove o potássio?**\n\nNão.\n\nSeu objetivo é antagonizar a toxicidade cardíaca.\n\nA concentração sérica de potássio precisa ser reduzida por outras intervenções.\n\n**4. Por que a insulina continua sendo útil?**\n\nPorque promove entrada de potássio nas células e reduz temporariamente sua concentração extracelular.\n\nA existência de liberação muscular contínua não elimina esse efeito.\n\n**5. Qual é a limitação da insulina neste caso?**\n\nEla não interrompe a destruição muscular nem remove potássio do organismo.\n\nPortanto, o potássio pode voltar a subir quando seu efeito diminuir ou quando houver liberação celular adicional.\n\n**6. Por que a função renal é tão importante?**\n\nA oligúria e a elevação da creatinina sugerem capacidade reduzida de eliminação urinária de potássio.\n\nIsso aumenta a possibilidade de hipercalemia persistente ou recorrente.\n\n**7. A hemodiálise deve ser considerada precocemente?**\n\nSim.\n\nO paciente apresenta hipercalemia grave, alterações eletrocardiográficas, lesão renal e fonte potencialmente contínua de potássio.\n\nA avaliação nefrológica urgente é necessária para definir a estratégia de remoção, inclusive a possibilidade de terapia renal substitutiva.\n\n**8. A reposição volêmica é importante?**\n\nO tratamento da rabdomiólise frequentemente inclui reposição volêmica para corrigir hipovolemia e preservar perfusão renal.\n\nEntretanto, o volume e a velocidade precisam considerar a situação hemodinâmica, a diurese e o risco de sobrecarga.\n\n**9. O que não devemos fazer?**\n\nNão devemos aguardar passivamente a hemodiálise enquanto o paciente apresenta toxicidade cardíaca.\n\n**10. Qual é a principal lição?**\n\n**A remoção definitiva pode demorar. A proteção cardíaca não pode esperar.**",
+      "pearl": "**Na síndrome de esmagamento, o músculo pode continuar liberando potássio enquanto o rim deixa de eliminá-lo. Trate o coração agora, reduza temporariamente o potássio e antecipe a estratégia de remoção.**",
+      "reference": "UpToDate — *Treatment and prevention of hyperkalemia in adults*, seções sobre emergência hipercalêmica, destruição tecidual contínua e hemodiálise. Os detalhes do tratamento da rabdomiólise exigem consulta a protocolos específicos."
+    },
+    {
+      "number": 5,
+      "id": "hipercalemia-aq29-q05",
+      "title": "O potássio voltou a subir depois da hemodiálise. O tratamento falhou?",
+      "competency": "Reconhecer hipercalemia recorrente por liberação celular contínua e rebote pós-dialítico.",
+      "stem": "Um homem de 57 anos é internado na UTI após extensa lesão muscular por esmagamento.\n\nApresenta rabdomiólise grave, lesão renal aguda oligúrica e hipercalemia.\n\nNa admissão:\n\n- Potássio: 7,4 mEq/L.\n- Creatinina: 4,2 mg/dL.\n- CK: 68.000 U/L.\n- ECG: QRS alargado.\n\nRecebe tratamento emergencial e é submetido à hemodiálise.\n\nO potássio diminui para 4,2 mEq/L imediatamente após a sessão.\n\nEntretanto, quatro horas depois:\n\n- Potássio: 6,5 mEq/L.\n- Diurese: praticamente ausente.\n- CK: permanece muito elevada.\n- ECG: novas ondas T apiculadas.\n\nUm residente afirma:\n\n“Como a hemodiálise já removeu o potássio, essa nova elevação deve ser apenas um erro do laboratório.”\n\n**Qual é a melhor interpretação e conduta?**",
+      "choices": {
+        "A": "A hemodiálise elimina definitivamente o risco de hipercalemia, independentemente da continuidade da destruição muscular.",
+        "B": "A nova elevação é necessariamente pseudohipercalemia e deve ser ignorada até a próxima sessão programada.",
+        "C": "O aumento do potássio pode refletir rebote pós-dialítico associado à liberação celular contínua e à ausência de eliminação renal; exige reavaliação e tratamento imediato conforme a gravidade, além de reconsideração da estratégia de remoção de potássio.",
+        "D": "A CK elevada comprova que o potássio não foi removido durante a hemodiálise."
+      },
+      "feedback": {
+        "A": "Incorreta. A hemodiálise remove potássio, mas não interrompe necessariamente sua liberação por células lesionadas.",
+        "B": "Incorreta. A nova elevação é plausível no contexto clínico e não deve ser ignorada, especialmente com alterações eletrocardiográficas.",
+        "C": "Correta. Reconhece a combinação de rebote, liberação contínua e eliminação renal comprometida, exigindo nova avaliação terapêutica.",
+        "D": "Incorreta. CK elevada indica lesão muscular, mas não comprova ausência de remoção dialítica de potássio."
+      },
+      "correctExplanation": "**1. A hemodiálise removeu potássio?**\n\nSim.\n\nA redução sérica durante a sessão é compatível com remoção dialítica de potássio.\n\nEntretanto, isso não garante que a concentração permanecerá controlada nas horas seguintes.\n\n**2. O que é rebote pós-dialítico?**\n\nÉ a elevação da concentração sérica de potássio após a hemodiálise, em parte pela redistribuição entre os compartimentos intracelular e extracelular.\n\n**3. Por que o rebote pode ser especialmente importante na rabdomiólise?**\n\nPorque, além da redistribuição habitual, pode existir liberação contínua de potássio pelas células musculares lesionadas.\n\nAssim, o potássio pode continuar chegando ao compartimento extracelular após a sessão.\n\n**4. Qual é o papel da lesão renal?**\n\nA ausência de eliminação urinária efetiva reduz a capacidade de compensar a nova entrada de potássio no plasma.\n\n**5. A queda para 4,2 mEq/L foi inútil?**\n\nNão.\n\nA hemodiálise reduziu o potássio naquele momento.\n\nO problema é que o mecanismo responsável pela hipercalemia permanece ativo.\n\n**6. Por que o valor de 6,5 mEq/L exige atenção imediata?**\n\nPorque há nova hipercalemia importante, associada a alterações eletrocardiográficas.\n\nA situação requer reavaliação e tratamento emergencial da toxicidade cardíaca, além de nova estratégia de controle do potássio.\n\n**7. Uma nova hemodiálise pode ser necessária?**\n\nSim.\n\nEm situações de liberação celular intensa e recorrência de hipercalemia grave, podem ser necessárias sessões adicionais ou modalidades contínuas de terapia renal substitutiva, conforme avaliação nefrológica e condições clínicas.\n\n**8. O que o UpToDate destaca?**\n\nO documento descreve que o rebote pós-dialítico pode ser mais pronunciado quando existe liberação maciça de potássio por células lesionadas, como na rabdomiólise e na síndrome de lise tumoral.\n\nTambém menciona a possibilidade de diálise diária ou terapia renal substitutiva contínua em pacientes com rebote importante.\n\n**9. Como deve ser o acompanhamento?**\n\nCom monitorização cardíaca, dosagens seriadas de potássio, avaliação da função renal, acompanhamento da diurese e reavaliação da necessidade de novas intervenções.\n\n**10. Qual é a principal lição?**\n\n**Quando a fonte de potássio continua ativa, uma sessão de hemodiálise pode remover o que está circulando sem impedir que mais potássio apareça depois.**",
+      "pearl": "**Na rabdomiólise grave, a hemodiálise pode vencer uma batalha contra o potássio sem encerrar o problema. Se a destruição muscular continua, a hipercalemia pode voltar — e você precisa estar preparado para tratá-la novamente.**",
+      "reference": "UpToDate — *Treatment and prevention of hyperkalemia in adults*, seção “Dialysis”, discussão sobre rebote pós-dialítico em pacientes com liberação maciça de potássio por células lesionadas."
+    }
+  ]
+}

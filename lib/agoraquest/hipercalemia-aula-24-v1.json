@@ -1,0 +1,240 @@
+{
+  "slug": "hipercalemia-aula-24-v1",
+  "versao": 1,
+  "title": "AgoraQuest 24 — Efeito rebote e hipercalemia persistente",
+  "subtitle": "Questões que ensinam a decidir.",
+  "intro": "Pratique o reconhecimento do rebote, da hipercalemia persistente e dos mecanismos de recorrência.",
+  "references": "UpToDate — Treatment and prevention of hyperkalemia in adults.",
+  "key": [
+    "B",
+    "D",
+    "A",
+    "C",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "id": "hipercalemia-aq24-q01",
+      "title": "O potássio caiu com insulina. Quatro horas depois, voltou a subir.",
+      "competency": "Reconhecer o rebote após terapia de redistribuição.",
+      "stem": "Um homem de 67 anos, com doença renal crônica avançada, chega à emergência com potássio de 7,0 mEq/L.\n\nApresenta ondas T apiculadas e alargamento do QRS.\n\nRecebe cálcio intravenoso e insulina com glicose, com melhora eletrocardiográfica.\n\nA evolução do potássio é apresentada:",
+      "choices": {
+        "A": "A insulina inicialmente reduz o potássio, mas após quatro horas passa a estimular diretamente sua liberação pelas células.",
+        "B": "A insulina deslocou temporariamente potássio para o interior das células, sem removê-lo do organismo. Com a diminuição do efeito, o potássio pode retornar ao meio extracelular, especialmente quando a eliminação renal permanece comprometida.",
+        "C": "A elevação posterior comprova que a primeira dosagem de potássio estava incorreta.",
+        "D": "O rebote significa que o cálcio intravenoso aumentou a quantidade total de potássio corporal."
+      },
+      "feedback": {
+        "A": "Incorreta. A insulina não passa a estimular diretamente a liberação de potássio após quatro horas. A recorrência decorre da redução de seu efeito de redistribuição e da persistência dos mecanismos responsáveis pela hipercalemia.",
+        "B": "Correta. Explica a queda inicial, a natureza temporária do efeito da insulina e a recorrência em um paciente com capacidade renal de eliminação comprometida.",
+        "C": "Incorreta. A elevação posterior não comprova erro laboratorial. O comportamento é fisiologicamente compatível com rebote após redistribuição.",
+        "D": "Incorreta. O cálcio intravenoso não aumenta o estoque corporal de potássio e não explica o rebote."
+      },
+      "correctExplanation": "Esta questão apresenta um dos erros mais perigosos no tratamento da hipercalemia: **confundir redução temporária da concentração sérica com eliminação do excesso de potássio**.\n\n**1. O que aconteceu na primeira hora?**\n\nA insulina estimulou a entrada de potássio nas células, principalmente no músculo esquelético, por aumento da atividade da Na⁺/K⁺-ATPase.\n\nO potássio sérico caiu de 7,0 para 5,8 mEq/L.\n\nEssa redução representa uma resposta compatível com o mecanismo de ação da insulina.\n\n**2. O potássio foi eliminado do organismo?**\n\nNão.\n\nA insulina não promove remoção direta de potássio corporal.\n\nEla modifica temporariamente sua distribuição entre os compartimentos intra e extracelular.\n\n**3. Por que o potássio voltou a subir?**\n\nO UpToDate descreve que o efeito hipocalemiante da insulina começa em aproximadamente 10–20 minutos, atinge o pico em 30–60 minutos e dura cerca de 4–6 horas.\n\nÀ medida que esse efeito diminui, o potássio pode retornar ao espaço extracelular.\n\n**4. Qual é a importância da oligúria?**\n\nA oligúria indica que a capacidade de eliminação renal está comprometida.\n\nPortanto, o paciente pode não conseguir excretar quantidade suficiente de potássio para manter a concentração sérica reduzida.\n\n**5. Isso significa que a insulina falhou?**\n\nNão.\n\nA insulina cumpriu seu objetivo de promover redistribuição temporária.\n\nO problema foi a ausência de remoção efetiva e persistente de potássio.\n\n**6. Como interpretar a curva laboratorial?**\n\nO comportamento do potássio apresenta três momentos:\n\n- Inicialmente, hipercalemia grave.\n- Depois, resposta à redistribuição.\n- Posteriormente, recorrência da elevação.\n\nA sequência é compatível com rebote após tratamento temporário.\n\n**7. Qual é a implicação clínica?**\n\nO médico precisa garantir que exista uma estratégia para remover potássio ou corrigir o mecanismo reversível responsável pela hipercalemia.\n\nEm pacientes com comprometimento renal grave, pode ser necessária avaliação nefrológica urgente e terapia dialítica.\n\n**8. Qual é a principal lição?**\n\nO tratamento não deve ser considerado concluído apenas porque houve queda inicial do potássio.\n\n**A insulina compra tempo. A remoção de potássio ou a correção da causa é o que permite sustentar a melhora.**",
+      "pearl": "**Se o potássio caiu após insulina, pergunte: “O que vai mantê-lo baixo quando a insulina perder o efeito?” Se não houver uma resposta, o risco de recorrência continua presente.**",
+      "reference": "UpToDate — *Treatment and prevention of hyperkalemia in adults*, página 8, seções “Insulin with glucose”, “Repeated dosing” e “Remove potassium from the body”.",
+      "table": {
+        "headers": [
+          "Momento",
+          "Potássio"
+        ],
+        "rows": [
+          [
+            "Antes do tratamento",
+            "7,0 mEq/L"
+          ],
+          [
+            "1 hora após",
+            "5,8 mEq/L"
+          ],
+          [
+            "4 horas após",
+            "6,5 mEq/L"
+          ]
+        ]
+      },
+      "stemAfter": "O paciente permanece oligúrico e ainda não recebeu uma intervenção efetiva para remover potássio do organismo.\n\nO residente afirma:\n\n“A insulina funcionou inicialmente, mas depois parece ter provocado hipercalemia.”\n\n**Qual é a explicação mais adequada?**"
+    },
+    {
+      "number": 2,
+      "id": "hipercalemia-aq24-q02",
+      "title": "O potássio continua em 6,7. É rebote ou hipercalemia persistente?",
+      "competency": "Diferenciar resposta insuficiente de recorrência após melhora.",
+      "stem": "Uma mulher de 74 anos, com doença renal crônica e oligúria, é atendida por hipercalemia de 7,1 mEq/L.\n\nRecebe as medidas emergenciais indicadas, incluindo cálcio intravenoso por alterações eletrocardiográficas e insulina com glicose.\n\nAs dosagens mostram:",
+      "choices": {
+        "A": "O padrão demonstra rebote clássico, pois qualquer valor de potássio acima de 6,0 mEq/L após o tratamento caracteriza recorrência.",
+        "B": "A melhora do ECG comprova que o potássio foi corrigido, independentemente das dosagens.",
+        "C": "O potássio permaneceu elevado porque o cálcio bloqueou o efeito da insulina.",
+        "D": "O padrão é mais compatível com hipercalemia persistente e resposta inicial insuficiente do que com rebote, pois não houve queda expressiva seguida de nova elevação. É necessário reavaliar a eficácia do tratamento, os mecanismos envolvidos e a estratégia de remoção."
+      },
+      "feedback": {
+        "A": "Incorreta. Um valor elevado após o tratamento não caracteriza automaticamente rebote. É necessário observar se houve queda seguida de nova elevação.",
+        "B": "Incorreta. A melhora eletrocardiográfica após cálcio não comprova correção da hipercalemia.",
+        "C": "Incorreta. O cálcio não bloqueia o mecanismo hipocalemiante da insulina.",
+        "D": "Correta. Reconhece a ausência de rebote demonstrável, identifica a persistência da hipercalemia e orienta reavaliação do tratamento e da remoção de potássio."
+      },
+      "correctExplanation": "Esta questão introduz uma distinção importante: **hipercalemia persistente e hipercalemia recorrente não descrevem exatamente o mesmo comportamento**.\n\n**1. O que significa hipercalemia persistente?**\n\nSignifica que a concentração de potássio permanece elevada apesar das intervenções realizadas.\n\nA redução pode ser pequena, insuficiente ou ausente.\n\n**2. O que caracteriza o rebote?**\n\nNo contexto do tratamento, o termo rebote descreve uma nova elevação do potássio após uma redução anterior.\n\nÉ particularmente relevante após terapias temporárias de redistribuição e após a hemodiálise.\n\n**3. O que aconteceu neste caso?**\n\nO potássio diminuiu discretamente de 7,1 para 6,8 e depois para 6,7 mEq/L.\n\nNão houve uma queda expressiva seguida de elevação.\n\nPortanto, a sequência não demonstra rebote.\n\n**4. O que pode explicar a resposta insuficiente?**\n\nDiferentes fatores devem ser considerados:\n\n- Redistribuição insuficiente para a gravidade do quadro.\n- Persistência da causa da hipercalemia.\n- Comprometimento importante da eliminação renal.\n- Liberação contínua de potássio para o plasma.\n- Necessidade de uma estratégia adicional de remoção.\n\nA curva, isoladamente, não permite identificar qual desses mecanismos predomina.\n\n**5. O cálcio explica a redução discreta?**\n\nNão.\n\nO cálcio atua sobre a toxicidade elétrica e não reduz diretamente o potássio sérico.\n\nA melhora do ECG não demonstra resposta bioquímica suficiente.\n\n**6. O que fazer diante da persistência?**\n\nÉ necessário reavaliar imediatamente o paciente, confirmar que as intervenções indicadas foram administradas adequadamente, verificar a evolução laboratorial e eletrocardiográfica e assegurar uma estratégia apropriada de remoção.\n\nQuando houver comprometimento renal grave ou hipercalemia ameaçadora à vida, a avaliação nefrológica urgente é especialmente importante.\n\n**7. A insulina pode ser repetida?**\n\nO UpToDate descreve a possibilidade de doses repetidas de insulina com glicose em determinadas circunstâncias, especialmente quando a remoção está indisponível ou atrasada.\n\nEntretanto, a repetição exige avaliação individualizada e monitorização glicêmica, pois aumenta o risco de hipoglicemia.\n\n**8. Qual é a principal lição?**\n\nAntes de chamar uma nova dosagem elevada de rebote, observe a tendência.\n\n**Se o potássio nunca caiu adequadamente, o problema principal pode ser persistência da hipercalemia, não recorrência.**",
+      "pearl": "**Potássio persistentemente alto não é sinônimo de rebote. Primeiro examine a curva: ele caiu e voltou a subir ou nunca respondeu adequadamente? Essa diferença muda o raciocínio clínico.**",
+      "reference": "UpToDate — *Treatment and prevention of hyperkalemia in adults*, seções “Monitoring”, “Repeated dosing” e “Remove potassium from the body”.",
+      "table": {
+        "headers": [
+          "Momento",
+          "Potássio"
+        ],
+        "rows": [
+          [
+            "Inicial",
+            "7,1 mEq/L"
+          ],
+          [
+            "1 hora",
+            "6,8 mEq/L"
+          ],
+          [
+            "2 horas",
+            "6,7 mEq/L"
+          ]
+        ]
+      },
+      "stemAfter": "O ECG apresentou melhora após o cálcio, mas o potássio permanece significativamente elevado.\n\nUm residente afirma:\n\n“Isso é um rebote da insulina. O potássio voltou a subir.”\n\n**Qual é a interpretação mais adequada?**"
+    },
+    {
+      "number": 3,
+      "id": "hipercalemia-aq24-q03",
+      "title": "A insulina funcionou, mas a rabdomiólise continua.",
+      "competency": "Identificar liberação celular contínua como causa de hipercalemia recorrente.",
+      "stem": "Um homem de 38 anos é admitido na UTI após um acidente automobilístico, com esmagamento prolongado dos membros inferiores.\n\nApresenta rabdomiólise grave, lesão renal aguda e oligúria.\n\nNa admissão, o potássio é de 7,2 mEq/L, com alterações eletrocardiográficas compatíveis com hipercalemia.\n\nRecebe as medidas emergenciais indicadas, incluindo cálcio intravenoso e insulina com glicose.\n\nA evolução laboratorial é a seguinte:",
+      "choices": {
+        "A": "A elevação recorrente pode resultar da combinação entre a perda progressiva do efeito temporário da insulina, a liberação contínua de potássio pelas células musculares lesionadas e a redução da capacidade renal de excreção. É necessário manter o tratamento emergencial conforme a condição clínica e assegurar remoção efetiva de potássio.",
+        "B": "A rabdomiólise provoca hipocalemia porque as células musculares lesionadas absorvem potássio do plasma, tornando improvável que ela contribua para a elevação observada.",
+        "C": "O aumento da CK total comprova que a insulina perdeu sua capacidade de estimular a Na⁺/K⁺-ATPase e não deve mais ser considerada em nenhuma circunstância.",
+        "D": "Como o potássio caiu inicialmente, a lesão muscular deixou de ter importância e a elevação posterior deve ser atribuída exclusivamente a erro de coleta."
+      },
+      "feedback": {
+        "A": "Correta. Integra os três mecanismos presentes no caso: redistribuição temporária, liberação muscular contínua e comprometimento da eliminação renal.",
+        "B": "Incorreta. A rabdomiólise pode liberar grandes quantidades de potássio das células musculares lesionadas para o espaço extracelular, provocando hipercalemia.",
+        "C": "Incorreta. A elevação da CK não demonstra perda da ação da insulina sobre a Na⁺/K⁺-ATPase. O problema é que a redistribuição pode ser insuficiente diante da liberação contínua de potássio.",
+        "D": "Incorreta. A queda inicial não interrompe o processo de lesão muscular. Embora interferências laboratoriais devam ser consideradas quando apropriado, a recorrência é fisiologicamente plausível nesse contexto."
+      },
+      "correctExplanation": "Esta questão ensina que **nem toda recorrência de hipercalemia pode ser explicada apenas pelo desaparecimento do efeito da insulina**.\n\nAlguns pacientes continuam recebendo potássio no compartimento extracelular porque existe um processo patológico ativo liberando o conteúdo intracelular.\n\n**1. Onde está a maior parte do potássio corporal?**\n\nAproximadamente 98% do potássio encontra-se no compartimento intracelular.\n\nO músculo esquelético representa um importante reservatório corporal desse eletrólito.\n\n**2. O que acontece na rabdomiólise?**\n\nA lesão muscular provoca ruptura de células e liberação de seus componentes para o meio extracelular.\n\nEntre esses componentes está o potássio.\n\nPortanto, a rabdomiólise grave pode provocar uma entrada importante e contínua de potássio na circulação.\n\n**3. Por que o potássio caiu inicialmente?**\n\nA insulina estimulou a entrada de potássio nas células ainda funcionantes.\n\nA redução de 7,2 para 5,9 mEq/L demonstra resposta inicial à intervenção.\n\nEntretanto, essa redistribuição não elimina o potássio corporal.\n\n**4. Por que ele voltou a subir?**\n\nExistem pelo menos três mecanismos relevantes neste caso:\n\n- **Redução do efeito da insulina:** o deslocamento intracelular é temporário.\n- **Liberação muscular contínua:** as células lesionadas continuam contribuindo com potássio para o plasma.\n- **Comprometimento renal:** a oligúria reduz a capacidade de eliminar o potássio liberado.\n\nA combinação desses mecanismos pode produzir recorrência importante.\n\n**5. O aumento da CK ajuda no raciocínio?**\n\nSim, porque reforça a presença de lesão muscular significativa.\n\nEntretanto, a CK não mede diretamente a quantidade de potássio liberada e não permite calcular sua velocidade de entrada na circulação.\n\nA evolução da CK deve ser interpretada junto aos demais dados clínicos e laboratoriais.\n\n**6. Por que repetir apenas insulina pode ser insuficiente?**\n\nPorque a insulina continua atuando sobre a distribuição do potássio, enquanto a lesão muscular pode continuar liberando novas quantidades para o plasma.\n\nA repetição de medidas temporárias pode ser necessária em determinadas situações, mas não substitui a remoção efetiva quando indicada.\n\nAlém disso, doses repetidas de insulina aumentam o risco de hipoglicemia.\n\n**7. Qual é o papel da hemodiálise?**\n\nEm pacientes com hipercalemia grave e comprometimento renal importante, a hemodiálise pode proporcionar remoção rápida de potássio.\n\nNa rabdomiólise com liberação celular persistente, alguns pacientes podem necessitar de sessões adicionais ou terapia renal substitutiva contínua, conforme avaliação nefrológica.\n\n**8. Qual é a principal lição?**\n\nQuando a hipercalemia retorna, o médico deve perguntar não apenas se o tratamento perdeu o efeito, mas também se existe uma fonte ativa de potássio.\n\n**Se o organismo continua liberando potássio e o rim não consegue eliminá-lo, a hipercalemia pode reaparecer mesmo após uma boa resposta inicial.**",
+      "pearl": "**Na rabdomiólise, o potássio pode continuar chegando ao plasma enquanto você tenta reduzi-lo. Se a lesão muscular persiste e o rim não elimina, a insulina pode ganhar tempo, mas não encerra a emergência.**",
+      "reference": "UpToDate — *Treatment and prevention of hyperkalemia in adults*, páginas 8 e 16–17, seções “Remove potassium from the body” e “Dialysis”.",
+      "table": {
+        "headers": [
+          "Parâmetro",
+          "Inicial",
+          "Após 1 hora",
+          "Após 4 horas"
+        ],
+        "rows": [
+          [
+            "Potássio",
+            "7,2 mEq/L",
+            "5,9 mEq/L",
+            "6,8 mEq/L"
+          ],
+          [
+            "CK total",
+            "42.000 U/L",
+            "—",
+            "78.000 U/L"
+          ],
+          [
+            "Diurese",
+            "Muito reduzida",
+            "Muito reduzida",
+            "Muito reduzida"
+          ]
+        ]
+      },
+      "stemAfter": "A equipe observa que o potássio voltou a subir apesar da resposta inicial.\n\n**Qual é a explicação mais adequada?**"
+    },
+    {
+      "number": 4,
+      "id": "hipercalemia-aq24-q04",
+      "title": "O potássio era 3,7 após a hemodiálise. Seis horas depois, está em 5,5.",
+      "competency": "Compreender o reequilíbrio entre compartimentos e o rebote pós-diálise.",
+      "stem": "Uma mulher de 59 anos, com doença renal terminal em hemodiálise, é internada após faltar a duas sessões.\n\nApresenta potássio de 7,0 mEq/L e recebe tratamento emergencial, seguido de hemodiálise.\n\nA evolução laboratorial é:",
+      "choices": {
+        "A": "A hemodiálise remove potássio apenas temporariamente porque todo o potássio retirado do sangue retorna automaticamente ao organismo após o término da sessão.",
+        "B": "O aumento do potássio comprova que a sessão de hemodiálise foi tecnicamente inadequada.",
+        "C": "Durante a hemodiálise, ocorre remoção de potássio do compartimento extracelular. Após o procedimento, o reequilíbrio com o compartimento intracelular pode elevar novamente sua concentração sérica, caracterizando rebote pós-diálise, mesmo quando houve remoção efetiva.",
+        "D": "A elevação é impossível após uma hemodiálise adequada e, portanto, deve ser considerada necessariamente pseudohipercalemia."
+      },
+      "feedback": {
+        "A": "Incorreta. O potássio removido pelo circuito dialítico não retorna automaticamente ao organismo. O rebote decorre principalmente da redistribuição do potássio que permaneceu nos compartimentos corporais.",
+        "B": "Incorreta. O rebote pode ocorrer mesmo após uma sessão tecnicamente adequada.",
+        "C": "Correta. Descreve corretamente a remoção extracorpórea e o reequilíbrio entre os compartimentos intra e extracelular.",
+        "D": "Incorreta. A elevação pós-diálise é fisiologicamente possível. Pseudohipercalemia deve ser considerada quando houver elementos que sugiram interferência na amostra, mas não é a explicação obrigatória."
+      },
+      "correctExplanation": "Esta questão aborda um fenômeno fundamental da fisiologia do potássio: **a concentração sérica não representa diretamente o estoque corporal total**.\n\n**1. O que a hemodiálise faz?**\n\nA hemodiálise remove potássio do organismo por transferência através da membrana do dialisador.\n\nO processo depende, entre outros fatores, do gradiente entre o sangue e o dialisato.\n\n**2. Por que o potássio diminui durante a sessão?**\n\nO potássio é removido do sangue que circula pelo circuito extracorpóreo.\n\nCom isso, a concentração no compartimento extracelular diminui.\n\n**3. O que acontece com o potássio intracelular?**\n\nA maior parte do potássio corporal permanece dentro das células.\n\nQuando a concentração extracelular diminui, estabelece-se um gradiente que favorece a transferência de potássio do compartimento intracelular para o extracelular.\n\nEsse movimento contribui para o reequilíbrio entre os compartimentos.\n\n**4. O que acontece após o término da sessão?**\n\nA remoção extracorpórea é interrompida.\n\nEntretanto, a redistribuição de potássio entre os compartimentos pode continuar.\n\nAssim, a concentração sérica pode aumentar nas horas seguintes.\n\n**5. Esse fenômeno significa que a diálise não removeu potássio?**\n\nNão.\n\nA remoção foi real.\n\nO rebote não significa que o potássio retirado pela máquina retornou ao organismo.\n\nSignifica que parte do potássio que permaneceu no compartimento intracelular passou para o extracelular.\n\n**6. O que o UpToDate descreve?**\n\nO documento apresenta um estudo com 14 pacientes em hemodiálise de manutenção.\n\nAs concentrações médias de potássio foram aproximadamente:\n\n- Antes da hemodiálise: 5,7 mEq/L.\n- Durante a hemodiálise: 3,6 mEq/L.\n- Até seis horas após a hemodiálise: 5,0 mEq/L.\n\nEsses resultados ilustram que o potássio pode aumentar significativamente após o procedimento.\n\nOs números não devem ser interpretados como uma evolução obrigatória para todos os pacientes.\n\n**7. O que pode aumentar o rebote pós-diálise?**\n\nO documento destaca situações como:\n\n- Potássio pré-diálise muito elevado.\n- Liberação celular importante, como na rabdomiólise e na síndrome de lise tumoral.\n- Uso de terapias de redistribuição antes da hemodiálise, cujos efeitos posteriormente diminuem.\n\nTambém descreve a influência de fatores relacionados ao dialisato.\n\n**8. Por que as terapias de redistribuição antes da diálise podem influenciar o rebote?**\n\nInsulina e salbutamol reduzem temporariamente a concentração extracelular de potássio.\n\nIsso pode diminuir a quantidade removida durante a sessão, ao reduzir o gradiente disponível para transferência.\n\nPosteriormente, quando o efeito dessas terapias diminui, a concentração sérica pode aumentar.\n\nEssa observação não significa que insulina ou salbutamol devam ser omitidos quando necessários para tratar uma emergência hipercalêmica.\n\n**9. O potássio imediatamente após a diálise é suficiente para avaliar o resultado?**\n\nNão necessariamente.\n\nO UpToDate alerta que a dosagem imediatamente após a hemodiálise pode ser enganosa devido ao rebote.\n\nO acompanhamento deve considerar a evolução nas horas seguintes, de acordo com o risco clínico.\n\n**10. Qual é a principal lição?**\n\nO potássio sérico imediatamente após a sessão representa um momento de um processo dinâmico.\n\n**A hemodiálise remove potássio do organismo, mas a concentração sérica pode voltar a subir porque o potássio intracelular continua se redistribuindo.**",
+      "pearl": "**O potássio imediatamente após a hemodiálise pode contar apenas parte da história. A máquina remove potássio, mas o reequilíbrio entre as células e o plasma continua depois que a sessão termina.**",
+      "reference": "UpToDate — *Treatment and prevention of hyperkalemia in adults*, páginas 16–17, seção “Dialysis”, discussão sobre rebote pós-hemodiálise.",
+      "table": {
+        "headers": [
+          "Momento",
+          "Potássio"
+        ],
+        "rows": [
+          [
+            "Antes da hemodiálise",
+            "7,0 mEq/L"
+          ],
+          [
+            "Imediatamente após",
+            "3,7 mEq/L"
+          ],
+          [
+            "6 horas após",
+            "5,5 mEq/L"
+          ]
+        ]
+      },
+      "stemAfter": "A paciente permanece estável e sem novas alterações eletrocardiográficas.\n\nUm interno pergunta:\n\n“Se a hemodiálise realmente remove potássio, por que ele voltou a subir depois?”\n\n**Qual é a explicação mais adequada?**"
+    },
+    {
+      "number": 5,
+      "id": "hipercalemia-aq24-q05",
+      "title": "O potássio voltou a 6,9. Devemos apenas repetir a insulina?",
+      "competency": "Definir uma estratégia segura diante de hipercalemia recorrente.",
+      "stem": "Um homem de 73 anos, com doença renal crônica avançada e oligúria importante, é atendido por hipercalemia grave.\n\nO potássio inicial é de 7,3 mEq/L, acompanhado de bradicardia e alargamento do QRS.\n\nRecebe cálcio intravenoso e insulina com glicose, com melhora clínica e eletrocardiográfica.\n\nA evolução é apresentada:",
+      "choices": {
+        "A": "Repetir insulina e glicose indefinidamente, sem monitorização adicional, pois a resposta inicial demonstra que essa estratégia é suficiente para resolver o problema.",
+        "B": "Reconhecer a recorrência de hipercalemia grave com toxicidade elétrica, realizar imediatamente a estabilização cardíaca indicada, reavaliar as medidas de redistribuição com atenção ao risco de hipoglicemia e acionar urgentemente a nefrologia para organizar remoção efetiva de potássio, mantendo monitorização contínua.",
+        "C": "Aguardar mais seis horas sem intervenção, pois a recorrência após insulina é esperada e não exige nova avaliação clínica.",
+        "D": "Administrar apenas um agente ligante gastrointestinal e suspender a monitorização cardíaca, pois esses medicamentos oferecem proteção elétrica imediata."
+      },
+      "feedback": {
+        "A": "Incorreta. A insulina promove redistribuição temporária. Sua repetição indiscriminada aumenta o risco de hipoglicemia e não resolve necessariamente o excesso corporal de potássio.",
+        "B": "Correta. Reconhece a emergência recorrente, prioriza a estabilização elétrica, considera medidas temporárias de forma segura e organiza a remoção efetiva.",
+        "C": "Incorreta. A recorrência acompanhada de bradicardia e QRS alargado exige intervenção imediata. Não é seguro aguardar passivamente.",
+        "D": "Incorreta. Agentes ligantes gastrointestinais não oferecem estabilização elétrica imediata e não substituem as medidas emergenciais indicadas."
+      },
+      "correctExplanation": "Esta questão integra os conhecimentos anteriores e exige que o aluno tome uma decisão clínica.\n\nO ponto central é compreender que **a recorrência de hipercalemia grave exige mais do que repetir indefinidamente a mesma medida temporária**.\n\n**1. O que aconteceu com esse paciente?**\n\nInicialmente, o potássio estava em 7,3 mEq/L, com alterações eletrocardiográficas graves.\n\nApós o tratamento, diminuiu para 5,9 mEq/L.\n\nCinco horas depois, voltou a 6,9 mEq/L, acompanhado de nova bradicardia e alargamento do QRS.\n\nPortanto, houve melhora inicial seguida de recorrência da hipercalemia e de toxicidade elétrica.\n\n**2. Qual é o risco imediato?**\n\nO paciente apresenta novamente alterações cardíacas compatíveis com hipercalemia ameaçadora à vida.\n\nA prioridade é reconhecer e tratar imediatamente a toxicidade elétrica.\n\n**3. O cálcio deve ser considerado novamente?**\n\nSim.\n\nDiante de alterações eletrocardiográficas graves atribuíveis à hipercalemia, o cálcio intravenoso está indicado para estabilização cardíaca, conforme o protocolo utilizado.\n\nA necessidade de novas administrações deve ser avaliada pela evolução clínica e eletrocardiográfica.\n\n**4. Podemos repetir insulina com glicose?**\n\nEm determinadas circunstâncias, sim.\n\nO UpToDate descreve que, quando a remoção de potássio não está disponível ou precisa ser adiada, podem ser utilizadas doses repetidas de insulina com glicose, com monitorização seriada.\n\nEntretanto, isso não deve ocorrer automaticamente.\n\n**5. Qual é o problema da repetição indiscriminada?**\n\nO risco de hipoglicemia aumenta com doses repetidas.\n\nNeste caso, a glicemia é de 84 mg/dL.\n\nEsse valor não representa, isoladamente, uma contraindicação absoluta à utilização de insulina quando clinicamente indicada, mas exige planejamento cuidadoso da administração de glicose e da monitorização.\n\n**6. Por que a nefrologia deve ser acionada urgentemente?**\n\nPorque o paciente apresenta hipercalemia grave recorrente, comprometimento renal importante e sinais de toxicidade cardíaca.\n\nA capacidade renal de eliminar potássio é limitada.\n\nA hemodiálise pode ser necessária para promover remoção efetiva e rápida.\n\n**7. O que acontece se utilizarmos apenas medidas de redistribuição?**\n\nPodemos conseguir novas reduções temporárias da concentração sérica.\n\nEntretanto, se o potássio não for eliminado e a causa persistir, ele poderá voltar a subir.\n\nAlém disso, o tratamento repetido pode produzir complicações.\n\n**8. Qual é o papel dos agentes ligantes gastrointestinais?**\n\nPodem contribuir para a remoção de potássio em situações apropriadas.\n\nEntretanto, não substituem o cálcio intravenoso quando existe toxicidade elétrica nem devem atrasar a hemodiálise indicada.\n\n**9. Como acompanhar o paciente?**\n\nO plano deve incluir:\n\n- Monitorização cardíaca contínua.\n- Reavaliação eletrocardiográfica.\n- Dosagens seriadas de potássio.\n- Monitorização rigorosa da glicemia após insulina.\n- Avaliação da função renal e da diurese.\n- Organização de uma estratégia efetiva de remoção de potássio.\n\n**10. Qual é a decisão correta?**\n\nA abordagem deve integrar três objetivos:\n\n**Primeiro:** proteger imediatamente o coração.\n\n**Segundo:** reduzir temporariamente a concentração extracelular de potássio quando indicado.\n\n**Terceiro:** garantir remoção efetiva ou correção da causa responsável pela hipercalemia.\n\n**A recorrência não deve ser tratada apenas repetindo a intervenção que produziu melhora temporária. É necessário corrigir a razão pela qual o potássio continua elevado.**",
+      "pearl": "**Se o potássio voltou a subir e o ECG voltou a piorar, não trate apenas o número. Proteja novamente o coração, controle o risco da redistribuição e organize a remoção definitiva.**",
+      "reference": "UpToDate — *Treatment and prevention of hyperkalemia in adults*, páginas 5, 8–10 e 16–17, seções sobre cálcio, insulina, doses repetidas, remoção de potássio e diálise.",
+      "table": {
+        "headers": [
+          "Momento",
+          "Potássio"
+        ],
+        "rows": [
+          [
+            "Inicial",
+            "7,3 mEq/L"
+          ],
+          [
+            "Após 1 hora",
+            "5,9 mEq/L"
+          ],
+          [
+            "Após 5 horas",
+            "6,9 mEq/L"
+          ]
+        ]
+      },
+      "stemAfter": "Na quinta hora, o paciente apresenta novamente bradicardia, com frequência cardíaca de 42 bpm e QRS alargado.\n\nA glicemia é de 84 mg/dL.\n\nA nefrologia ainda não foi acionada.\n\nUm residente sugere:\n\n“Vamos repetir insulina e glicose e continuar fazendo isso sempre que o potássio subir.”\n\n**Qual é a melhor conduta?**"
+    }
+  ]
+}

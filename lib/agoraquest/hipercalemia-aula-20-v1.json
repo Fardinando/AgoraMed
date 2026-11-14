@@ -1,0 +1,127 @@
+{
+  "slug": "hipercalemia-aula-20-v1",
+  "versao": 1,
+  "title": "AgoraQuest 20 — Quelantes de potássio: diferenças que importam",
+  "subtitle": "Quelantes de potássio: diferenças que importam",
+  "intro": "Pratique as diferenças entre os quelantes de potássio, sua velocidade de ação e o uso seguro.",
+  "references": "UpToDate — Treatment and prevention of hyperkalemia in adults. https://www.uptodate.com/contents/treatment-and-prevention-of-hyperkalemia-in-adults",
+  "key": [
+    "B",
+    "D",
+    "A",
+    "C",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "id": "hipercalemia-aq20-q01",
+      "title": "O quelante coloca o potássio dentro da célula?",
+      "competency": "Diferenciar remoção gastrointestinal de redistribuição.",
+      "stem": "Um homem de 64 anos, com doença renal crônica, apresenta potássio sérico de 5,9 mEq/L, confirmado em nova coleta.\n\nEstá estável, sem alterações eletrocardiográficas atribuíveis à hipercalemia.\n\nA equipe considera utilizar um agente ligante de potássio por via oral.\n\nDurante a discussão, um interno pergunta:\n\n“Professor, esse medicamento funciona como a insulina, fazendo o potássio entrar nas células?”\n\n**Pergunta:**\n\nQual alternativa explica corretamente o mecanismo desses medicamentos?",
+      "choices": {
+        "A": "Os quelantes estimulam diretamente a Na⁺/K⁺-ATPase muscular, promovendo entrada rápida de potássio nas células.",
+        "B": "Os agentes ligantes de potássio atuam no trato gastrointestinal, ligando-se ao potássio e favorecendo sua eliminação pelas fezes, em troca de outros cátions, conforme o medicamento utilizado.",
+        "C": "Os quelantes aumentam diretamente a filtração glomerular e a excreção urinária de potássio, mesmo em pacientes anúricos.",
+        "D": "Os quelantes bloqueiam os efeitos elétricos do potássio sobre o miocárdio, estabilizando imediatamente a membrana cardíaca."
+      },
+      "feedback": {
+        "A": "Esse mecanismo corresponde à redistribuição intracelular, característica de intervenções como a insulina.",
+        "B": "Descreve a ação gastrointestinal e a eliminação fecal do potássio.",
+        "C": "Os quelantes não dependem de aumento da filtração glomerular nem atuam diretamente promovendo diurese.",
+        "D": "A estabilização elétrica do miocárdio é uma finalidade do cálcio intravenoso quando indicado, não dos agentes ligantes de potássio."
+      },
+      "correctExplanation": "Esta questão estabelece o fundamento da aula: **os agentes ligantes de potássio promovem remoção gastrointestinal, não redistribuição intracelular**.\n\n**1. Por que essa distinção importa?**\n\nNa hipercalemia, algumas intervenções reduzem temporariamente a concentração sérica sem eliminar o excesso de potássio do organismo.\n\nA insulina, por exemplo, estimula a entrada de potássio nas células.\n\nO potássio continua presente no organismo, apenas distribuído de maneira diferente.\n\n**2. O que os agentes ligantes fazem?**\n\nEles permanecem predominantemente no trato gastrointestinal e se ligam ao potássio presente no lúmen intestinal.\n\nEsse potássio é eliminado nas fezes.\n\nPortanto, trata-se de uma estratégia de remoção efetiva.\n\n**3. Todos utilizam o mesmo mecanismo de troca?**\n\nNão.\n\nO UpToDate descreve diferenças entre os agentes:\n\n- **Patiromer:** liga potássio em troca de cálcio.\n- **SZC:** liga potássio em troca de sódio e hidrogênio.\n- **SPS:** resina de troca catiônica que utiliza sódio.\n\nApesar das diferenças, o objetivo é reduzir a quantidade de potássio disponível para permanecer no organismo.\n\n**4. Eles dependem da função renal?**\n\nNão diretamente.\n\nDiferentemente dos diuréticos, os agentes ligantes podem favorecer a eliminação de potássio mesmo em pacientes com comprometimento importante da função renal.\n\n**5. Isso significa que substituem a hemodiálise?**\n\nNão necessariamente.\n\nEmbora ambos possam promover remoção de potássio, a velocidade, a previsibilidade e a capacidade de remoção são diferentes.\n\nA hemodiálise permanece uma estratégia importante quando é necessária remoção mais eficiente, particularmente em pacientes com disfunção renal grave.\n\n**6. Qual é a principal mensagem?**\n\nO aluno deve distinguir três objetivos:\n\n- Proteger o coração.\n- Redistribuir temporariamente o potássio.\n- Remover potássio do organismo.\n\nOs quelantes pertencem ao terceiro grupo.\n\n**O quelante não esconde o potássio dentro das células: ele ajuda a eliminá-lo pelas fezes.**",
+      "pearl": "Insulina redistribui, diurético pode eliminar pela urina e quelante elimina pelas fezes. Saber onde cada tratamento atua evita confundir melhora temporária com remoção efetiva.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seções “Dialysis and gastrointestinal cation exchangers” e “Gastrointestinal cation exchangers”, páginas 9 e 19 do PDF de referência."
+    },
+    {
+      "number": 2,
+      "id": "hipercalemia-aq20-q02",
+      "title": "SZC ou patiromer: qual começa a agir primeiro?",
+      "competency": "Comparar a velocidade de ação e as limitações da evidência.",
+      "stem": "Uma mulher de 69 anos, com doença renal crônica avançada, apresenta potássio de 6,3 mEq/L.\n\nEstá estável, sem alterações eletrocardiográficas sugestivas de toxicidade hipercalêmica.\n\nA equipe já avaliou a gravidade, iniciou a monitorização e está definindo uma estratégia para remoção de potássio.\n\nHá disponibilidade de dois medicamentos:\n\n- Ciclosilicato de zircônio sódico (SZC).\n- Patiromer.\n\nUm residente afirma:\n\n“Os dois medicamentos são equivalentes em velocidade. Tanto faz qual utilizamos quando queremos uma redução mais precoce.”\n\n**Pergunta:**\n\nQual é a interpretação mais adequada?",
+      "choices": {
+        "A": "O patiromer apresenta efeito estabilizador cardíaco imediato, sendo preferível ao SZC quando existe necessidade de redução precoce do risco elétrico.",
+        "B": "O SZC e o patiromer apresentam exatamente a mesma velocidade de ação em todos os pacientes, sem diferenças clinicamente relevantes.",
+        "C": "O SZC só começa a agir após sete dias de tratamento, enquanto o patiromer apresenta redução obrigatória do potássio em cinco minutos.",
+        "D": "O SZC geralmente apresenta início de ação mais rápido que o patiromer, sendo frequentemente preferido quando se deseja um efeito gastrointestinal mais precoce, embora a magnitude da resposta seja variável e os dados no contexto de emergência sejam limitados."
+      },
+      "feedback": {
+        "A": "O patiromer não oferece estabilização elétrica imediata do miocárdio.",
+        "B": "O UpToDate reconhece diferenças de início de ação, favorecendo o SZC quando se deseja resposta mais precoce.",
+        "C": "Os tempos apresentados não correspondem aos dados descritos para esses medicamentos.",
+        "D": "Reconhece a diferença de velocidade e preserva as limitações da evidência."
+      },
+      "correctExplanation": "Esta questão ensina que **medicamentos com o mesmo objetivo terapêutico podem apresentar velocidades de ação diferentes**.\n\n**1. O que os dois medicamentos têm em comum?**\n\nTanto o SZC quanto o patiromer são agentes não absorvíveis que promovem ligação gastrointestinal ao potássio.\n\nAmbos podem contribuir para reduzir sua concentração sérica.\n\n**2. Qual é a principal diferença nesta questão?**\n\nO tempo necessário para observar o efeito.\n\nO UpToDate descreve início de ação mais rápido do SZC e, por esse motivo, apresenta preferência por ele em relação ao patiromer quando se utiliza um agente ligante em determinadas situações de hipercalemia aguda.\n\n**3. Qual é a magnitude do efeito descrito?**\n\nO documento informa que o efeito do SZC pode começar a ser observado dentro de uma hora.\n\nTambém apresenta redução média do potássio de aproximadamente **0,37 mEq/L após quatro horas** de uma dose de 10 g.\n\nÉ fundamental interpretar corretamente esse número.\n\nTrata-se de uma média observada em estudos, não de uma garantia de resposta individual.\n\n**4. O patiromer não funciona em situações agudas?**\n\nEssa conclusão seria inadequada.\n\nO documento reconhece que ambos podem reduzir o potássio no cenário agudo, embora a evidência seja limitada.\n\nA diferença é que o SZC apresenta início de ação geralmente mais rápido.\n\n**5. Por que isso importa na escolha?**\n\nPorque a urgência da redução do potássio influencia a estratégia terapêutica.\n\nEntretanto, o tempo de ação dos agentes ligantes não deve ser confundido com o das intervenções de estabilização elétrica ou redistribuição.\n\n**6. Qual é o principal cuidado?**\n\nMesmo escolhendo o SZC, o médico não deve assumir que haverá redução suficiente para resolver uma hipercalemia perigosa em curto intervalo.\n\nO acompanhamento e as demais medidas indicadas continuam necessários.\n\n**Mais rápido não significa imediato, e uma redução média não é uma promessa de resposta individual.**",
+      "pearl": "Entre SZC e patiromer, o SZC costuma agir mais cedo. Mas nenhum quelante deve ser confundido com uma intervenção de efeito imediato para proteger o coração.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Patiromer or sodium zirconium cyclosilicate (SZC)”, página 10."
+    },
+    {
+      "number": 3,
+      "id": "hipercalemia-aq20-q03",
+      "title": "Potássio de 7,1 e QRS alargado: posso esperar o quelante agir?",
+      "competency": "Reconhecer o papel adjuvante dos quelantes na emergência hipercalêmica.",
+      "stem": "Um homem de 72 anos, com doença renal crônica avançada, chega à emergência com fraqueza intensa.\n\nOs exames e a avaliação inicial mostram:\n\n- Potássio: 7,1 mEq/L.\n- Frequência cardíaca: 39 bpm.\n- Creatinina: 7,4 mg/dL.\n- Diurese: muito reduzida.\n- ECG: QRS alargado.\n\nA equipe dispõe de ciclosilicato de zircônio sódico (SZC).\n\nUm residente sugere:\n\n“Como o SZC começa a reduzir o potássio relativamente cedo, podemos administrá-lo e aguardar uma hora antes de decidir se precisamos de cálcio, insulina ou hemodiálise.”\n\n**Pergunta:**\n\nQual é a melhor conduta?",
+      "choices": {
+        "A": "Reconhecer a emergência hipercalêmica e instituir imediatamente as medidas indicadas para estabilização elétrica e redistribuição do potássio, além de avaliação nefrológica urgente para remoção efetiva. O SZC pode ser considerado como medida complementar, mas não deve atrasar essas intervenções.",
+        "B": "Administrar SZC isoladamente, pois seu início de ação relativamente rápido garante reversão das alterações eletrocardiográficas em até uma hora.",
+        "C": "Administrar patiromer isoladamente, pois ele oferece proteção cardíaca mais rápida do que o cálcio intravenoso.",
+        "D": "Aguardar nova dosagem do potássio após seis horas, pois a presença de QRS alargado não modifica a urgência do tratamento."
+      },
+      "feedback": {
+        "A": "Prioriza a emergência elétrica, a redistribuição e a avaliação para remoção definitiva, reconhecendo o papel complementar do SZC.",
+        "B": "O SZC não garante reversão rápida das alterações eletrocardiográficas e não deve ser utilizado isoladamente nesse cenário.",
+        "C": "O patiromer não estabiliza imediatamente o miocárdio nem substitui o cálcio intravenoso.",
+        "D": "O QRS alargado é um sinal de alarme que exige intervenção imediata no contexto de hipercalemia."
+      },
+      "correctExplanation": "O erro mais perigoso no uso de agentes ligantes é confundir **início de efeito hipocalemiante** com **capacidade de tratar imediatamente uma emergência elétrica**.\n\n**1. Por que este paciente está em emergência?**\n\nO potássio de 7,1 mEq/L está associado a bradicardia e alargamento do QRS.\n\nEsses achados sugerem toxicidade cardíaca importante e risco de deterioração rápida.\n\nA conduta não pode depender exclusivamente de um medicamento administrado por via gastrointestinal.\n\n**2. O que o cálcio faz que o SZC não faz?**\n\nO cálcio intravenoso, quando indicado, antagoniza os efeitos elétricos da hipercalemia sobre o miocárdio.\n\nEle não remove potássio do organismo, mas pode reduzir o risco elétrico imediato.\n\nO SZC, por sua vez, atua no trato gastrointestinal e não substitui a estabilização cardíaca.\n\n**3. Qual é o papel da insulina?**\n\nA insulina promove deslocamento de potássio para o interior das células.\n\nEssa intervenção pode reduzir a concentração sérica mais rapidamente do que seria seguro esperar pela remoção gastrointestinal.\n\nEntretanto, o efeito é temporário.\n\n**4. Por que pensar em hemodiálise?**\n\nO paciente apresenta disfunção renal grave e diurese muito reduzida.\n\nA hemodiálise é uma forma eficiente de remover potássio diretamente do sangue, particularmente importante quando a capacidade renal de excreção está comprometida.\n\nA avaliação nefrológica deve ser solicitada com urgência.\n\n**5. Então o SZC não tem nenhuma utilidade?**\n\nEssa conclusão também seria incorreta.\n\nO UpToDate descreve a utilização de SZC ou patiromer como agentes complementares em determinadas emergências hipercalêmicas, especialmente quando a hemodiálise não pode ser realizada prontamente.\n\nEntretanto, a evidência é limitada, e o uso de um agente ligante não substitui medidas imediatas.\n\n**6. Qual é a sequência de raciocínio?**\n\nO aluno precisa identificar simultaneamente:\n\n- O risco elétrico imediato.\n- A necessidade de redistribuição temporária.\n- A necessidade de remoção efetiva.\n- A limitação da função renal.\n- O tempo necessário para cada intervenção produzir efeito.\n\n**O SZC pode começar a reduzir o potássio em horas, mas uma emergência elétrica exige decisões em minutos.**",
+      "pearl": "Quelante remove potássio, mas não protege imediatamente o coração. Se o ECG mostra toxicidade hipercalêmica, trate a emergência antes de esperar o intestino fazer seu trabalho.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seções “Dialysis and gastrointestinal cation exchangers” e “Patiromer or sodium zirconium cyclosilicate (SZC)”, páginas 9–10."
+    },
+    {
+      "number": 4,
+      "id": "hipercalemia-aq20-q04",
+      "title": "Insuficiência cardíaca, edema e magnésio baixo: qual detalhe muda a escolha?",
+      "competency": "Individualizar a escolha conforme efeitos adversos e comorbidades.",
+      "stem": "Uma mulher de 68 anos, com doença renal crônica e insuficiência cardíaca, apresenta hipercalemia persistente de 5,7 mEq/L.\n\nEstá estável, sem alterações eletrocardiográficas atribuíveis à hipercalemia.\n\nA equipe considera iniciar um agente ligante de potássio para controle contínuo.\n\nNa avaliação, observa:\n\n- Potássio: 5,7 mEq/L.\n- Magnésio: 1,4 mg/dL.\n- Edema de membros inferiores: presente.\n- Diurético de alça: em uso.\n\nHá disponibilidade de SZC e patiromer.\n\nUm residente afirma:\n\n“Como os dois eliminam potássio pelo intestino, podemos escolher qualquer um sem considerar o magnésio ou a congestão.”\n\n**Pergunta:**\n\nQual é a melhor resposta?",
+      "choices": {
+        "A": "O SZC não possui relação com carga de sódio ou edema, e o patiromer não interfere no magnésio. Portanto, não existe motivo para individualizar a escolha.",
+        "B": "O patiromer é obrigatoriamente contraindicado em qualquer paciente que utilize diurético de alça, e o SZC é obrigatoriamente contraindicado em qualquer paciente com insuficiência cardíaca.",
+        "C": "A escolha deve considerar que o patiromer pode provocar hipomagnesemia, enquanto o SZC pode favorecer edema relacionado à carga de sódio. Neste caso, tanto o magnésio reduzido quanto a congestão exigem avaliação e monitorização, sem estabelecer automaticamente uma escolha universal.",
+        "D": "A presença de edema indica que o paciente não apresenta hipercalemia verdadeira, dispensando tratamento e acompanhamento."
+      },
+      "feedback": {
+        "A": "Ignora efeitos adversos relevantes dos dois medicamentos.",
+        "B": "Os fatores apresentados exigem cautela, mas não representam contraindicações universais e absolutas nas condições descritas.",
+        "C": "Reconhece os riscos específicos de cada medicamento e a necessidade de individualização.",
+        "D": "Edema não exclui hipercalemia verdadeira. Os dois problemas podem coexistir."
+      },
+      "correctExplanation": "Esta questão ensina que **a escolha de um agente ligante não deve considerar apenas a capacidade de reduzir o potássio**.\n\nO perfil clínico do paciente pode modificar a segurança e a conveniência de cada medicamento.\n\n**1. Qual é a principal preocupação com o patiromer?**\n\nO patiromer liga potássio no trato gastrointestinal em troca de cálcio.\n\nEntretanto, também pode interferir na disponibilidade de magnésio.\n\nO UpToDate descreve hipomagnesemia em pacientes tratados com patiromer.\n\nNo estudo AMETHYST-DN, a hipomagnesemia foi observada em aproximadamente 8,6% dos participantes.\n\n**2. Por que o magnésio de 1,4 mg/dL importa?**\n\nA paciente já apresenta magnésio reduzido.\n\nIniciar um medicamento associado à redução adicional do magnésio exige cautela, avaliação da necessidade de reposição e acompanhamento laboratorial.\n\n**3. O diurético de alça modifica esse risco?**\n\nSim.\n\nDiuréticos de alça também podem contribuir para perda renal de magnésio.\n\nPortanto, a associação pode aumentar a preocupação com hipomagnesemia.\n\n**4. Qual é a principal preocupação com o SZC?**\n\nO SZC promove troca gastrointestinal envolvendo sódio e hidrogênio.\n\nO UpToDate descreve maior frequência de edema em determinados grupos tratados com SZC, particularmente em doses mais elevadas.\n\nEsse efeito é associado à carga de sódio.\n\n**5. O que os estudos mostram?**\n\nNo estudo HARMONIZE, o edema ocorreu em:\n\n- 2% dos participantes que receberam placebo.\n- 6% dos participantes tratados com 10 g de SZC diariamente.\n- 14% dos participantes tratados com 15 g diariamente.\n\nEsses números pertencem às condições específicas do estudo e não devem ser interpretados como risco individual exato.\n\n**6. Qual medicamento escolher neste caso?**\n\nO enunciado não oferece informações suficientes para estabelecer uma escolha obrigatória.\n\nO patiromer exige atenção ao magnésio reduzido.\n\nO SZC exige atenção à congestão e ao risco de edema.\n\nA decisão deve considerar a gravidade desses problemas, a possibilidade de corrigi-los, o acompanhamento disponível e as características do tratamento.\n\n**7. Existe outra preocupação com o patiromer?**\n\nSim.\n\nO UpToDate descreve interações gastrointestinais com outros medicamentos, incluindo tiroxina, metformina e ciprofloxacino, exigindo separação dos horários de administração conforme as recomendações do medicamento.\n\nEsse detalhe é especialmente relevante em pacientes que utilizam múltiplos medicamentos.\n\n**O melhor quelante não é necessariamente o que parece mais potente: é aquele cuja eficácia e segurança fazem sentido para o paciente.**",
+      "pearl": "Patiromer: lembre do magnésio. SZC: lembre do sódio e do edema. Antes de escolher, olhe para o paciente — não apenas para o potássio.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seções “Patiromer” e “Sodium zirconium cyclosilicate (SZC)”, páginas 20–22."
+    },
+    {
+      "number": 5,
+      "id": "hipercalemia-aq20-q05",
+      "title": "O potássio voltou a subir depois da suspensão. O tratamento falhou?",
+      "competency": "Entender o papel dos quelantes no controle contínuo da hipercalemia.",
+      "stem": "Um homem de 65 anos, com doença renal crônica e insuficiência cardíaca com fração de ejeção reduzida, apresenta episódios recorrentes de hipercalemia durante o acompanhamento.\n\nO paciente utiliza medicamentos com benefício cardiorrenal, mas a elevação persistente do potássio tem dificultado a continuidade do tratamento.\n\nApós avaliação das causas e dos fatores reversíveis, a equipe inicia patiromer.\n\nNas semanas seguintes, o potássio permanece controlado.\n\nEntretanto, o paciente interrompe o medicamento por conta própria.\n\nTrês dias depois, apresenta nova elevação do potássio.\n\nUm residente conclui:\n\n“O patiromer não funcionou. Se tivesse tratado corretamente a hipercalemia, o potássio não teria voltado a subir.”\n\n**Pergunta:**\n\nQual é a interpretação mais adequada?",
+      "choices": {
+        "A": "A recorrência comprova que o patiromer não promove eliminação gastrointestinal de potássio, pois seu efeito é exclusivamente intracelular.",
+        "B": "A recorrência após a suspensão pode refletir a persistência dos mecanismos responsáveis pela hipercalemia. O patiromer pode contribuir para o controle contínuo, mas não necessariamente corrige a causa subjacente; por isso, a necessidade de manutenção e o acompanhamento devem ser individualizados.",
+        "C": "Uma vez normalizado o potássio, qualquer agente ligante pode ser interrompido definitivamente, independentemente da função renal e dos medicamentos utilizados.",
+        "D": "A recorrência significa que todos os medicamentos com benefício cardiorrenal devem ser suspensos permanentemente, sem avaliação individualizada."
+      },
+      "feedback": {
+        "A": "O patiromer promove eliminação gastrointestinal de potássio. A recorrência não demonstra ausência de efeito.",
+        "B": "Reconhece que a causa da hipercalemia pode persistir e que o controle contínuo pode depender da manutenção da estratégia terapêutica.",
+        "C": "A interrupção automática após a normalização ignora o risco de recorrência em pacientes com fatores persistentes.",
+        "D": "A suspensão definitiva de medicamentos com benefício cardiorrenal não deve ser uma decisão automática, sem considerar riscos, benefícios e alternativas para controlar o potássio."
+      },
+      "correctExplanation": "A última questão ensina que **controlar a concentração sérica de potássio não significa necessariamente eliminar a causa da hipercalemia**.\n\n**1. Por que o potássio pode voltar a subir?**\n\nA doença renal crônica pode comprometer persistentemente a excreção de potássio.\n\nAlém disso, determinados medicamentos podem modificar sua regulação renal.\n\nSe esses fatores continuam presentes, a suspensão de uma estratégia de controle pode permitir nova elevação do potássio.\n\n**2. O que o patiromer faz durante o tratamento?**\n\nO patiromer promove eliminação gastrointestinal de potássio.\n\nEnquanto utilizado, pode ajudar a manter o equilíbrio entre a entrada e a eliminação desse eletrólito.\n\nEntretanto, não restaura automaticamente a função renal nem elimina todas as causas de hipercalemia.\n\n**3. O que os estudos apresentados no UpToDate demonstram?**\n\nNo estudo AMETHYST-DN, pacientes tratados com patiromer apresentaram manutenção do potássio dentro da faixa normal durante o acompanhamento.\n\nO documento também descreve elevação do potássio dentro de três dias após a interrupção do tratamento.\n\n**4. O que o estudo OPAL-HK acrescenta?**\n\nNa fase de retirada randomizada do estudo, a recorrência de hipercalemia foi mais frequente entre os pacientes que passaram a receber placebo.\n\nA frequência de hipercalemia, definida como potássio de pelo menos 5,5 mEq/L, foi de aproximadamente:\n\n- 60% no grupo placebo.\n- 15% no grupo que continuou patiromer.\n\nEsses dados demonstram a importância da manutenção do tratamento em determinados pacientes com risco persistente de recorrência.\n\n**5. Isso significa que todo paciente precisará de quelante para sempre?**\n\nNão.\n\nA duração do tratamento depende da causa da hipercalemia, da função renal, dos medicamentos associados, da resposta e dos efeitos adversos.\n\nA estratégia deve ser reavaliada periodicamente.\n\n**6. Qual é a relação com os medicamentos cardiorrenais?**\n\nEm pacientes com doença renal e insuficiência cardíaca, a hipercalemia pode dificultar o uso de medicamentos com benefício clínico importante.\n\nO controle do potássio pode ajudar a viabilizar sua continuidade em pacientes selecionados.\n\nEntretanto, essa possibilidade exige avaliação individualizada e não significa manter qualquer medicamento independentemente do risco.\n\n**7. Qual é o aprendizado principal?**\n\nO objetivo não é apenas obter um resultado laboratorial normal em uma consulta.\n\nÉ desenvolver uma estratégia segura e sustentável de controle do potássio.\n\n**A normalização do potássio pode demonstrar que o tratamento está funcionando — não necessariamente que ele deixou de ser necessário.**",
+      "pearl": "Potássio normal durante o tratamento não significa causa resolvida. Antes de suspender um quelante, pergunte: o que provocou a hipercalemia deixou de existir?",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Patiromer”, páginas 19–21, incluindo os estudos AMETHYST-DN e OPAL-HK."
+    }
+  ]
+}

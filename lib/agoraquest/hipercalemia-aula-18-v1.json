@@ -1,0 +1,226 @@
+{
+  "slug": "hipercalemia-aula-18-v1",
+  "versao": 1,
+  "title": "AgoraQuest 18 — Bicarbonato: quando faz sentido e quando não ajuda",
+  "subtitle": "Bicarbonato: quando faz sentido e quando não ajuda",
+  "intro": "Pratique quando considerar bicarbonato na hipercalemia, como avaliar sua resposta, formulações e riscos.",
+  "references": "UpToDate — Treatment and prevention of hyperkalemia in adults. https://www.uptodate.com/contents/treatment-and-prevention-of-hyperkalemia-in-adults",
+  "key": [
+    "B",
+    "D",
+    "A",
+    "C",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "id": "hipercalemia-aq18-q01",
+      "title": "POTÁSSIO DE 7,4. UMA AMPOLA DE BICARBONATO RESOLVE?",
+      "competency": "Reconhecer as limitações do bicarbonato no tratamento agudo.",
+      "stem": "Um homem de 72 anos, com doença renal crônica avançada, chega à emergência com fraqueza intensa.\n\nA avaliação inicial mostra:\n\nUm residente sugere administrar imediatamente uma ampola de bicarbonato de sódio a 8,4% e aguardar 30 minutos para verificar se o potássio diminui antes de iniciar outras medidas.\n\n**Qual é a melhor resposta?**",
+      "table": {
+        "caption": "Dados do caso",
+        "headers": [
+          "Parâmetro",
+          "Resultado"
+        ],
+        "rows": [
+          [
+            "Potássio",
+            "7,4 mEq/L"
+          ],
+          [
+            "pH arterial",
+            "7,36"
+          ],
+          [
+            "Bicarbonato sérico",
+            "23 mEq/L"
+          ],
+          [
+            "Frequência cardíaca",
+            "42 bpm"
+          ],
+          [
+            "ECG",
+            "QRS alargado"
+          ]
+        ]
+      },
+      "choices": {
+        "A": "Concordar, pois o bicarbonato hipertônico reduz rapidamente o potássio e oferece proteção elétrica equivalente ao cálcio intravenoso.",
+        "B": "Não utilizar bicarbonato como tratamento isolado. O paciente apresenta emergência hipercalêmica, exigindo medidas imediatas para estabilização elétrica e redução do potássio, além de avaliação da necessidade de remoção efetiva.",
+        "C": "Administrar bicarbonato porque qualquer potássio acima de 6,5 mEq/L representa indicação obrigatória de alcalinização, independentemente do estado ácido-base.",
+        "D": "Administrar bicarbonato e dispensar monitorização cardíaca caso a frequência cardíaca aumente."
+      },
+      "feedback": {
+        "A": "O bicarbonato não apresenta redução rápida e previsível do potássio nem substitui o efeito estabilizador do cálcio intravenoso.",
+        "B": "Reconhece a emergência hipercalêmica e evita o uso do bicarbonato como tratamento isolado.",
+        "C": "O valor do potássio, isoladamente, não estabelece indicação obrigatória de bicarbonato.",
+        "D": "A monitorização cardíaca permanece necessária. Uma eventual melhora da frequência cardíaca não comprova resolução da toxicidade elétrica."
+      },
+      "correctExplanation": "Este paciente apresenta hipercalemia grave acompanhada de alterações elétricas potencialmente fatais.\n\nA prioridade não é simplesmente escolher um medicamento que possa modificar o potássio. É escolher intervenções capazes de reduzir o risco imediato de deterioração.\n\n**1. O ECG já demonstra toxicidade cardíaca.**\n\nA bradicardia e o alargamento do QRS são achados preocupantes no contexto de potássio de 7,4 mEq/L.\n\nA presença dessas alterações exige intervenção imediata.\n\n**2. O bicarbonato não oferece proteção elétrica equivalente ao cálcio.**\n\nO cálcio intravenoso é utilizado para reduzir a toxicidade elétrica da hipercalemia quando indicado.\n\nO bicarbonato não deve ser considerado um substituto dessa intervenção.\n\n**3. A eficácia hipocalemiante do bicarbonato é limitada no cenário agudo.**\n\nO UpToDate destaca que o bicarbonato apresenta eficácia limitada na redução rápida do potássio, inclusive em pacientes com acidose metabólica.\n\nNeste caso, o paciente sequer apresenta acidemia significativa.\n\nNão há justificativa para esperar uma resposta rápida e confiável ao bicarbonato enquanto persistem alterações eletrocardiográficas.\n\n**4. O tratamento precisa contemplar objetivos diferentes.**\n\nA abordagem deve considerar:\n\n- **Proteger:** reduzir a toxicidade elétrica quando indicada.\n- **Redistribuir:** promover temporariamente a entrada do potássio nas células.\n- **Remover:** eliminar o excesso de potássio do organismo.\n- **Monitorar:** acompanhar ECG, potássio e complicações do tratamento.\n\nO bicarbonato não substitui esse conjunto de medidas.\n\n**5. A gravidade da hipercalemia não transforma automaticamente o bicarbonato em uma intervenção obrigatória.**\n\nA decisão de utilizá-lo depende do contexto clínico e ácido-base.\n\nMesmo quando há indicação para tratar acidemia, o bicarbonato não deve ser a única medida diante de uma emergência hipercalêmica.\n\n**O erro não é apenas escolher bicarbonato. É esperar que ele resolva uma emergência elétrica para a qual existem intervenções mais apropriadas.**",
+      "pearl": "Potássio muito alto não é sinônimo de indicação de bicarbonato. Se o paciente está eletricamente instável, não espere uma ampola corrigir o problema.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Sodium bicarbonate”, página 14, e abordagem da emergência hipercalêmica nas seções anteriores."
+    },
+    {
+      "number": 2,
+      "id": "hipercalemia-aq18-q02",
+      "title": "HIPERCALEMIA COM ACIDOSE METABÓLICA: AGORA FAZ SENTIDO?",
+      "competency": "Identificar o contexto em que o bicarbonato pode ter utilidade adicional.",
+      "stem": "Uma mulher de 63 anos, com doença renal crônica e redução importante da função renal, apresenta potássio sérico de 6,1 mEq/L.\n\nEstá hemodinamicamente estável, sem alterações eletrocardiográficas atribuíveis à hipercalemia.\n\nA gasometria e os exames laboratoriais mostram:\n\nA paciente apresenta acidose metabólica e não possui sinais de congestão pulmonar.\n\nA equipe avalia a correção da acidose e o tratamento da hipercalemia, considerando também a função renal e a necessidade de outras intervenções.\n\n**Qual afirmação é mais adequada?**",
+      "table": {
+        "caption": "Dados do caso",
+        "headers": [
+          "Parâmetro",
+          "Resultado"
+        ],
+        "rows": [
+          [
+            "pH arterial",
+            "7,24"
+          ],
+          [
+            "Bicarbonato sérico",
+            "14 mEq/L"
+          ],
+          [
+            "Potássio",
+            "6,1 mEq/L"
+          ],
+          [
+            "Sódio",
+            "138 mEq/L"
+          ]
+        ]
+      },
+      "choices": {
+        "A": "O bicarbonato é contraindicado em qualquer paciente com doença renal crônica, mesmo quando existe acidose metabólica.",
+        "B": "A presença de acidose metabólica garante que uma ampola de bicarbonato hipertônico reduzirá o potássio em pelo menos 1,5 mEq/L em 15 minutos.",
+        "C": "Como não existem alterações eletrocardiográficas, não é necessário acompanhar o potássio nem tratar a acidose.",
+        "D": "O bicarbonato pode ser considerado para tratar a acidose metabólica e eventualmente contribuir para a redução do potássio, especialmente por infusão isotônica quando apropriada e tolerada, sem substituir as demais medidas indicadas."
+      },
+      "feedback": {
+        "A": "A doença renal crônica não contraindica universalmente o bicarbonato. O tratamento da acidose metabólica pode ser indicado em situações específicas.",
+        "B": "Não existe garantia de redução de 1,5 mEq/L em 15 minutos. A eficácia aguda é limitada e variável.",
+        "C": "ECG sem alterações não dispensa acompanhamento da hipercalemia nem avaliação da acidose.",
+        "D": "Reconhece a possível utilidade do bicarbonato no contexto de acidose metabólica, suas limitações e a importância da tolerância ao volume."
+      },
+      "correctExplanation": "A presença de acidose metabólica modifica a avaliação do bicarbonato, mas não transforma sua resposta hipocalemiante em algo garantido.\n\n**1. A paciente apresenta acidose metabólica.**\n\nO pH de 7,24 indica acidemia, e o bicarbonato de 14 mEq/L é compatível com componente metabólico importante.\n\nA interpretação completa da gasometria também exige avaliação da compensação respiratória e do contexto clínico.\n\n**2. Como o bicarbonato pode influenciar o potássio?**\n\nA elevação do pH extracelular pode favorecer movimentos de hidrogênio e potássio entre os compartimentos celular e extracelular, por mecanismos de transporte acoplados.\n\nEsse efeito não ocorre de forma uniforme em todos os pacientes.\n\n**3. O que diz o UpToDate?**\n\nO documento reconhece que a eficácia aguda do bicarbonato é limitada.\n\nEntretanto, descreve possível benefício em pacientes com acidose metabólica, especialmente quando o bicarbonato é administrado por infusão isotônica, em vez de bolus de solução hipertônica.\n\n**4. Qual é a finalidade principal neste caso?**\n\nO bicarbonato pode ser considerado para tratar a acidose metabólica quando houver indicação clínica.\n\nUma eventual redução do potássio representa um benefício adicional possível, mas não deve ser presumida.\n\n**5. O tratamento da hipercalemia continua necessário.**\n\nO potássio de 6,1 mEq/L exige avaliação clínica, monitorização e decisão sobre a velocidade e o tipo de intervenção.\n\nA ausência de alterações eletrocardiográficas não exclui risco.\n\n**6. A tolerância ao volume importa.**\n\nA administração de bicarbonato isotônico implica oferta de líquido.\n\nEm pacientes com doença renal, é necessário avaliar volemia, diurese e risco de congestão.\n\n**Acidose metabólica pode tornar o bicarbonato razoável, mas não torna seu efeito sobre o potássio rápido ou previsível.**",
+      "pearl": "Quando existe acidose metabólica, o bicarbonato pode ter uma indicação própria. A eventual queda do potássio é um benefício adicional possível, não uma promessa de efeito imediato.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Sodium bicarbonate”, páginas 14–15."
+    },
+    {
+      "number": 3,
+      "id": "hipercalemia-aq18-q03",
+      "title": "UMA HORA DEPOIS, O POTÁSSIO NÃO CAIU. O BICARBONATO FALHOU?",
+      "competency": "Interpretar a magnitude e o tempo de resposta do bicarbonato.",
+      "stem": "Um homem de 67 anos, com doença renal crônica, apresenta hipercalemia de 6,0 mEq/L e acidose metabólica.\n\nEstá estável, sem alterações eletrocardiográficas sugestivas de toxicidade hipercalêmica.\n\nA equipe identifica indicação clínica de tratamento da acidose e inicia uma infusão de bicarbonato isotônico, após avaliar a tolerância ao volume.\n\nOs exames mostram:\n\nUm residente afirma:\n\n“O bicarbonato já subiu, mas o potássio não caiu. Isso prova que a infusão não terá nenhum efeito hipocalemiante.”\n\n**Qual é a interpretação mais adequada?**",
+      "table": {
+        "caption": "Dados do caso",
+        "headers": [
+          "Momento",
+          "Potássio",
+          "Bicarbonato sérico"
+        ],
+        "rows": [
+          [
+            "Antes da infusão",
+            "6,0 mEq/L",
+            "18 mEq/L"
+          ],
+          [
+            "Após 1 hora",
+            "6,0 mEq/L",
+            "25 mEq/L"
+          ]
+        ]
+      },
+      "choices": {
+        "A": "A ausência de queda do potássio na primeira hora não exclui um efeito posterior. Estudos descritos no UpToDate observaram resposta hipocalemiante tardia, embora variável, e isso não dispensa o acompanhamento nem outras medidas indicadas.",
+        "B": "A elevação do bicarbonato sérico obriga o potássio a cair imediatamente na mesma proporção; portanto, o resultado laboratorial está necessariamente errado.",
+        "C": "O bicarbonato isotônico atinge obrigatoriamente seu efeito máximo sobre o potássio em cinco minutos; após esse período, qualquer benefício é impossível.",
+        "D": "Como o bicarbonato sérico aumentou, a hipercalemia está resolvida mesmo que o potássio permaneça em 6,0 mEq/L."
+      },
+      "feedback": {
+        "A": "Reconhece a possibilidade de resposta tardia e variável, sem transformar o bicarbonato em tratamento suficiente para a hipercalemia.",
+        "B": "Não existe relação proporcional obrigatória entre a elevação do bicarbonato sérico e a queda imediata do potássio.",
+        "C": "O efeito do bicarbonato sobre o potássio não apresenta pico obrigatório em cinco minutos. Os estudos descritos mostram resultados variáveis ao longo de horas.",
+        "D": "O potássio permanece elevado. A melhora do bicarbonato sérico não significa resolução da hipercalemia."
+      },
+      "correctExplanation": "Esta questão ensina uma distinção fundamental: **a correção laboratorial da acidose e a redução do potássio não acontecem necessariamente na mesma velocidade**.\n\n**1. O bicarbonato sérico aumentou. Isso significa que o potássio precisa cair imediatamente?**\n\nNão.\n\nA administração de bicarbonato modifica o equilíbrio ácido-base, mas a resposta do potássio depende de processos de transporte entre os compartimentos intra e extracelular.\n\nA relação não é obrigatoriamente imediata nem proporcional.\n\n**2. O que mostram os estudos apresentados no UpToDate?**\n\nO documento descreve uma série de pacientes com bicarbonato sérico inicial de aproximadamente 18 mEq/L.\n\nApós infusão isotônica, observou-se pouca alteração do potássio nas primeiras uma a duas horas.\n\nEntretanto, o potássio médio diminuiu de aproximadamente 6,0 mEq/L para:\n\n- 5,4 mEq/L após quatro horas.\n- 5,3 mEq/L após seis horas.\n\nEsse resultado sugere que pode existir efeito tardio em determinados pacientes com acidose metabólica.\n\n**3. Podemos transformar esse resultado em uma previsão individual?**\n\nNão.\n\nO UpToDate também apresenta estudos em pacientes em hemodiálise nos quais a administração de bicarbonato não produziu redução significativa do potássio.\n\nPortanto, os resultados não são uniformes.\n\nA resposta de uma série de pacientes não deve ser interpretada como garantia de eficácia em outro paciente.\n\n**4. O que fazer diante do potássio de 6,0 mEq/L?**\n\nÉ necessário continuar avaliando a gravidade, a tendência laboratorial, a função renal e o ECG.\n\nSe houver indicação de outras intervenções para reduzir ou remover o potássio, elas não devem ser adiadas com a expectativa de um efeito tardio do bicarbonato.\n\n**5. Por que a distinção é importante no plantão?**\n\nPorque o médico pode cometer dois erros opostos:\n\n- Declarar que o bicarbonato nunca funciona porque não houve queda imediata.\n- Confiar excessivamente em uma possível resposta tardia e deixar de tratar uma hipercalemia perigosa.\n\nA conduta correta reconhece as limitações da evidência e acompanha o paciente.\n\n**O bicarbonato pode corrigir a acidose antes de produzir uma redução mensurável do potássio — e essa redução pode nem ocorrer.**",
+      "pearl": "Bicarbonato subindo não significa potássio descendo. Acompanhe os dois resultados separadamente e nunca espere uma resposta tardia para tratar uma emergência.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Sodium bicarbonate”, página 14."
+    },
+    {
+      "number": 4,
+      "id": "hipercalemia-aq18-q04",
+      "title": "BICARBONATO A 8,4% OU INFUSÃO ISOTÔNICA?",
+      "competency": "Avaliar formulação, carga de sódio e tolerância ao volume.",
+      "stem": "Uma mulher de 75 anos, com doença renal crônica avançada e insuficiência cardíaca, apresenta potássio sérico de 6,2 mEq/L e acidose metabólica.\n\nA equipe considera utilizar bicarbonato para tratar a acidose.\n\nNa avaliação clínica, a paciente apresenta dispneia, crepitações pulmonares bilaterais, edema de membros inferiores e necessidade crescente de oxigênio.\n\nUm residente sugere:\n\n“Vamos administrar várias ampolas de bicarbonato a 8,4%. Assim evitamos o grande volume de uma infusão isotônica.”\n\n**Qual é a melhor avaliação dessa proposta?**",
+      "choices": {
+        "A": "A administração repetida de bicarbonato hipertônico não oferece carga relevante de sódio, sendo a estratégia preferencial para pacientes com insuficiência cardíaca.",
+        "B": "A infusão isotônica deve ser iniciada obrigatoriamente, independentemente da congestão pulmonar, pois o bicarbonato é sempre capaz de corrigir rapidamente a hipercalemia.",
+        "C": "A presença de congestão exige cautela com a carga de volume, enquanto bolus repetidos de bicarbonato hipertônico também apresentam riscos, incluindo carga elevada de sódio e hipernatremia. A indicação e a forma de administração devem ser reavaliadas conforme o contexto clínico.",
+        "D": "A concentração de bicarbonato não influencia os riscos da administração, pois todas as formulações possuem exatamente a mesma quantidade de sódio por mililitro."
+      },
+      "feedback": {
+        "A": "O bicarbonato hipertônico fornece carga significativa de sódio, e doses repetidas podem causar hipernatremia.",
+        "B": "A infusão isotônica exige avaliação da tolerância ao volume. A presença de congestão pulmonar não pode ser ignorada.",
+        "C": "Considera tanto os riscos da sobrecarga volêmica quanto os riscos da administração de solução hipertônica.",
+        "D": "As formulações possuem concentrações diferentes de sódio e bicarbonato por mililitro."
+      },
+      "correctExplanation": "Esta questão aborda um problema prático: a escolha da formulação não pode ser separada da avaliação da volemia e da carga de sódio.\n\n**1. O que o UpToDate recomenda quando o bicarbonato é utilizado no cenário agudo?**\n\nO documento favorece uma solução isotônica quando a administração de bicarbonato está indicada e o paciente consegue tolerar o volume.\n\nUm exemplo descrito é o preparo contendo 150 mEq de bicarbonato em 1 litro de solução de glicose a 5%, administrado ao longo de duas a quatro horas.\n\nEsse exemplo não deve ser interpretado como prescrição universal para qualquer paciente com acidose.\n\n**2. Por que o volume importa?**\n\nUm litro de solução pode representar carga hídrica importante em pacientes com insuficiência cardíaca, oligúria ou doença renal avançada.\n\nA paciente do caso já apresenta sinais clínicos de congestão.\n\nPortanto, a administração desse volume sem avaliação individualizada pode agravar a situação respiratória.\n\n**3. A solução hipertônica elimina esse problema?**\n\nNão.\n\nUma ampola de bicarbonato de sódio a 8,4%, com 50 mL, contém aproximadamente 50 mEq de bicarbonato e 50 mEq de sódio.\n\nEmbora o volume seja menor, a solução é concentrada e fornece carga significativa de sódio.\n\nA repetição de doses pode aumentar o risco de hipernatremia e outras complicações relacionadas à administração de sódio hipertônico.\n\n**4. Qual é o erro do residente?**\n\nEle considera apenas o volume da solução e ignora a carga de sódio e a concentração administrada.\n\nO raciocínio adequado precisa avaliar os dois aspectos.\n\n**5. Qual é a conduta conceitualmente correta?**\n\nAntes de administrar bicarbonato, é necessário verificar:\n\n- A indicação de tratar a acidose.\n- A gravidade e a urgência da hipercalemia.\n- O estado volêmico.\n- A função renal e a diurese.\n- A concentração de sódio.\n- As alternativas terapêuticas disponíveis.\n\nEm uma paciente congesta, pode ser necessário priorizar outras estratégias para o manejo da hipercalemia e da acidose, incluindo avaliação nefrológica quando apropriada.\n\n**Menos volume não significa automaticamente menos risco. A concentração de sódio também importa.**",
+      "pearl": "Antes de prescrever bicarbonato, faça duas perguntas: o paciente precisa dessa alcalinização? E ele tolera o sódio e o volume que vou administrar?",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Sodium bicarbonate”, página 15."
+    },
+    {
+      "number": 5,
+      "id": "hipercalemia-aq18-q05",
+      "title": "O POTÁSSIO NORMALIZOU. POSSO SUSPENDER O TRATAMENTO DA ACIDOSE?",
+      "competency": "Diferenciar o tratamento da acidose metabólica do tratamento da hipercalemia.",
+      "stem": "Um homem de 66 anos, com doença renal crônica, foi atendido por hipercalemia associada à acidose metabólica.\n\nApós investigação e tratamento, apresenta melhora clínica.\n\nOs exames de controle mostram:\n\nO paciente está estável e sem sinais de emergência hipercalêmica.\n\nDurante a discussão do caso, um residente afirma:\n\n“O potássio já normalizou. Portanto, não existe mais motivo para avaliar ou tratar a acidose metabólica.”\n\n**Qual é a melhor resposta?**",
+      "table": {
+        "caption": "Dados do caso",
+        "headers": [
+          "Parâmetro",
+          "Resultado"
+        ],
+        "rows": [
+          [
+            "Potássio",
+            "4,8 mEq/L"
+          ],
+          [
+            "Bicarbonato sérico",
+            "17 mEq/L"
+          ],
+          [
+            "pH arterial",
+            "7,30"
+          ],
+          [
+            "Creatinina",
+            "3,1 mg/dL"
+          ]
+        ]
+      },
+      "choices": {
+        "A": "Concordar, pois o tratamento da acidose metabólica na doença renal crônica só apresenta benefício quando o potássio está elevado.",
+        "B": "Reconhecer que a acidose metabólica pode exigir investigação e tratamento independentemente do potássio. A correção da acidose na doença renal crônica possui objetivos próprios, e a decisão sobre terapia alcalina deve considerar o contexto clínico e o acompanhamento laboratorial.",
+        "C": "Administrar obrigatoriamente bicarbonato hipertônico intravenoso até o pH atingir 7,45, mesmo sem instabilidade ou indicação de correção intravenosa.",
+        "D": "Reiniciar insulina intravenosa para corrigir a acidose, pois a insulina é o tratamento de escolha para qualquer acidose metabólica associada à doença renal crônica."
+      },
+      "feedback": {
+        "A": "O tratamento da acidose metabólica na doença renal crônica pode ter objetivos independentes da concentração sérica de potássio.",
+        "B": "Reconhece a persistência da acidose e a necessidade de avaliá-la separadamente da hipercalemia.",
+        "C": "Não existe indicação automática de bicarbonato hipertônico intravenoso nem de elevar o pH até 7,45 em todo paciente com acidose metabólica.",
+        "D": "A insulina não é tratamento universal da acidose metabólica da doença renal crônica. Sua indicação depende da causa do distúrbio e do contexto clínico."
+      },
+      "correctExplanation": "A questão encerra o módulo com uma distinção importante: **hipercalemia e acidose metabólica podem estar relacionadas, mas são problemas clínicos diferentes**.\n\n**1. O potássio foi corrigido. A acidose também?**\n\nNão necessariamente.\n\nO potássio atual de 4,8 mEq/L está dentro da faixa habitual.\n\nEntretanto, o bicarbonato sérico de 17 mEq/L permanece reduzido, e o pH de 7,30 indica acidemia.\n\nA normalização do potássio não demonstra resolução do distúrbio ácido-base.\n\n**2. Por que a acidose metabólica pode persistir na doença renal crônica?**\n\nA redução da função renal compromete a capacidade de excretar a carga ácida diária e de manter adequadamente o equilíbrio ácido-base.\n\nEsse mecanismo pode contribuir para acidose metabólica persistente.\n\n**3. O que o UpToDate destaca?**\n\nO documento afirma que o tratamento da acidose metabólica na doença renal crônica pode oferecer benefícios independentes da redução do potássio.\n\nPortanto, a avaliação da necessidade de terapia alcalina não deve depender exclusivamente da presença de hipercalemia.\n\n**4. Isso significa administrar bicarbonato intravenoso imediatamente?**\n\nNão.\n\nO paciente está estável e não apresenta uma emergência hipercalêmica.\n\nA necessidade, a via e a intensidade da correção da acidose dependem da gravidade, da causa, do contexto clínico e dos riscos do tratamento.\n\nA acidose metabólica crônica não exige automaticamente uma infusão intravenosa.\n\n**5. Qual deve ser o raciocínio clínico?**\n\nA equipe deve avaliar se a acidose é persistente, investigar fatores associados e definir o tratamento apropriado.\n\nO acompanhamento deve considerar bicarbonato sérico, função renal, potássio, sódio, pressão arterial e estado volêmico.\n\n**6. Qual é a principal lição?**\n\nUm tratamento pode melhorar o potássio sem resolver a acidose.\n\nDa mesma forma, a correção da acidose pode ser clinicamente útil mesmo quando o potássio está normal.\n\nSão objetivos relacionados, mas não equivalentes.\n\n**O tratamento não termina quando um único número normaliza. É preciso identificar quais problemas foram resolvidos e quais ainda precisam de acompanhamento.**",
+      "pearl": "Potássio normal não significa equilíbrio ácido-base normal. Na doença renal crônica, tratar a acidose pode continuar sendo importante mesmo depois que a hipercalemia foi corrigida.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Sodium bicarbonate”, página 15."
+    }
+  ]
+}

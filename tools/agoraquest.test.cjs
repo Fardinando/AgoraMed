@@ -3382,7 +3382,7 @@ test('migração: Aula 10 prefere o título e não é vinculada sem o curso', as
 test('estático: páginas, link no app, service worker e ausência do gabarito no cliente', () => {
   const html = fs.readFileSync(path.join(__dirname, '../agoraquest.html'), 'utf8');
   assert.match(html, /css\/agoraquest\.css\?v=4/);
-  assert.match(html, /js\/agoraquest\.js\?v=4/);
+  assert.match(html, /js\/agoraquest\.js\?v=5/);
   assert.doesNotMatch(html, /B.*C.*B.*D.*C/);
   assert.doesNotMatch(html, /B.*C.*D.*A.*D/);
   assert.match(html, /img\/agoramed-logo-branco\.png/);
@@ -3391,7 +3391,7 @@ test('estático: páginas, link no app, service worker e ausência do gabarito n
   const caderno = fs.readFileSync(path.join(__dirname, '../caderno-erros.html'), 'utf8');
   assert.match(caderno, /css\/agoraquest\.css\?v=4/);
   assert.match(caderno, /css\/caderno-erros\.css\?v=2/);
-  assert.match(caderno, /js\/caderno-erros\.js\?v=2/);
+  assert.match(caderno, /js\/caderno-erros\.js\?v=3/);
   assert.match(caderno, /id="cd-review"/);
 
   const js = fs.readFileSync(path.join(__dirname, '../js/agoraquest.js'), 'utf8');
@@ -3431,13 +3431,13 @@ test('estático: páginas, link no app, service worker e ausência do gabarito n
   assert.match(roteador, /'agoraquest-caderno': require\('\.\.\/lib\/rotas\/agoraquest-caderno'\)/);
 
   const sw = fs.readFileSync(path.join(__dirname, '../sw.js'), 'utf8');
-  assert.match(sw, /agoramed-v91/);
+  assert.match(sw, /agoramed-v92/);
   assert.match(sw, /agoraquest\.html/);
   assert.match(sw, /caderno-erros\.html/);
   assert.match(sw, /css\/agoraquest\.css\?v=4/);
-  assert.match(sw, /js\/agoraquest\.js\?v=4/);
+  assert.match(sw, /js\/agoraquest\.js\?v=5/);
   assert.match(sw, /css\/caderno-erros\.css\?v=2/);
-  assert.match(sw, /js\/caderno-erros\.js\?v=2/);
+  assert.match(sw, /js\/caderno-erros\.js\?v=3/);
 
   /* Tema exclusivo do curso de Hipercalemia, escopado por data-aq-tema. */
   assert.match(js, /data\.aqTema = 'hipercalemia'|dataset\.aqTema = 'hipercalemia'/);

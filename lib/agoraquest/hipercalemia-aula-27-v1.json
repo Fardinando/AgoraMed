@@ -1,0 +1,173 @@
+{
+  "slug": "hipercalemia-aula-27-v1",
+  "versao": 1,
+  "title": "AgoraQuest 27 — Hipercalemia no paciente dialítico",
+  "subtitle": "Questões que ensinam a decidir.",
+  "intro": "Pratique a avaliação e o manejo da hipercalemia em pacientes dialíticos.",
+  "references": "UpToDate — Treatment and prevention of hyperkalemia in adults.",
+  "key": [
+    "C",
+    "B",
+    "D",
+    "C",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "id": "hipercalemia-aq27-q01",
+      "title": "Faltou à hemodiálise. Podemos esperar a máquina?",
+      "competency": "Reconhecer emergência hipercalêmica no paciente dialítico.",
+      "stem": "Um homem de 61 anos, com doença renal crônica dialítica, realiza hemodiálise três vezes por semana. Por dificuldades de transporte, faltou às duas últimas sessões.\n\nProcura a emergência com fraqueza intensa, náuseas e sensação de desmaio.\n\nNa avaliação inicial:\n\n- Potássio sérico: 7,6 mEq/L.\n- Frequência cardíaca: 38 bpm.\n- Pressão arterial: 92/58 mmHg.\n- ECG: ondas T apiculadas e QRS alargado.\n- Diurese residual: ausente.\n\nA equipe entra em contato com a nefrologia, que informa que a hemodiálise poderá ser iniciada em aproximadamente 90 minutos.\n\nUm residente afirma:\n\n“Como ele é dialítico, o tratamento é a hemodiálise. Vamos aguardar sem administrar outros medicamentos.”\n\n**Qual é a melhor conduta?**",
+      "choices": {
+        "A": "Aguardar a hemodiálise sem tratamento adicional, pois as medidas farmacológicas são ineficazes em pacientes dialíticos.",
+        "B": "Administrar apenas furosemida intravenosa, pois ela é a maneira mais rápida de eliminar potássio em pacientes anúricos.",
+        "C": "Iniciar imediatamente estabilização cardíaca com cálcio intravenoso, medidas de redistribuição como insulina com glicose, monitorização contínua e organização urgente da hemodiálise, sem aguardar passivamente seu início.",
+        "D": "Repetir o potássio após a próxima sessão programada, pois a bradicardia é esperada em pacientes dialíticos."
+      },
+      "feedback": {
+        "A": "Incorreta. As medidas farmacológicas de estabilização e redistribuição continuam sendo úteis no paciente dialítico. O erro é deixar um paciente com toxicidade elétrica aguardando sem tratamento.",
+        "B": "Incorreta. A furosemida não oferece eliminação urinária efetiva de potássio em um paciente anúrico.",
+        "C": "Correta. Integra proteção cardíaca imediata, redistribuição temporária, monitorização e remoção definitiva por hemodiálise.",
+        "D": "Incorreta. Bradicardia e QRS alargado em um paciente com potássio de 7,6 mEq/L representam sinais de alarme, não alterações a serem consideradas habituais."
+      },
+      "correctExplanation": "**1. Qual é o problema imediato?**\n\nO paciente apresenta hipercalemia grave acompanhada de alterações eletrocardiográficas e bradicardia importante.\n\nIsso caracteriza uma emergência hipercalêmica com risco de arritmias potencialmente fatais.\n\n**2. A hemodiálise é o tratamento definitivo?**\n\nNeste contexto, é a principal estratégia de remoção efetiva de potássio.\n\nComo o paciente é anúrico, a eliminação renal não é uma alternativa confiável.\n\nEntretanto, reconhecer a necessidade de diálise não significa que o paciente possa permanecer sem tratamento enquanto aguarda o procedimento.\n\n**3. Qual deve ser a primeira intervenção?**\n\nO cálcio intravenoso está indicado diante das alterações eletrocardiográficas compatíveis com toxicidade cardíaca da hipercalemia.\n\nSeu objetivo é antagonizar os efeitos elétricos do potássio sobre o miocárdio.\n\n**4. O cálcio reduz o potássio sérico?**\n\nNão.\n\nO cálcio melhora a estabilidade elétrica, mas não promove redistribuição nem remoção de potássio.\n\n**5. Por que utilizar insulina com glicose?**\n\nPorque a insulina estimula a entrada de potássio nas células, reduzindo temporariamente sua concentração extracelular.\n\nEsse mecanismo permanece funcional mesmo em pacientes com insuficiência renal avançada.\n\n**6. A insuficiência renal altera a segurança da insulina?**\n\nSim. Pacientes com insuficiência renal avançada apresentam risco importante de hipoglicemia após a administração.\n\nPor isso, é indispensável acompanhar a glicemia e aplicar o protocolo institucional de prevenção e tratamento de hipoglicemia.\n\n**7. Por que não utilizar furosemida como estratégia principal?**\n\nPorque o paciente é anúrico.\n\nA furosemida depende de resposta renal e produção urinária para aumentar a excreção de potássio.\n\n**8. O que deve acontecer enquanto a hemodiálise é preparada?**\n\n- Monitorização cardíaca contínua.\n- Reavaliação clínica e eletrocardiográfica.\n- Dosagens seriadas de potássio.\n- Monitorização glicêmica.\n- Reavaliação da necessidade de estabilização cardíaca.\n- Comunicação com a nefrologia e preparação para diálise urgente.\n\n**9. Qual é a principal lição?**\n\nA hemodiálise é essencial, mas não substitui a necessidade de proteger imediatamente o paciente que apresenta toxicidade cardíaca.",
+      "pearl": "**No paciente dialítico com hipercalemia grave e ECG alterado, a hemodiálise remove o potássio, mas o cálcio protege o coração enquanto você organiza a diálise. Não espere a máquina para começar a tratar.**",
+      "reference": "UpToDate — *Treatment and prevention of hyperkalemia in adults*, seções “Patients with a hyperkalemic emergency”, “Calcium”, “Insulin with glucose” e “Dialysis”."
+    },
+    {
+      "number": 2,
+      "id": "hipercalemia-aq27-q02",
+      "title": "A hemodiálise vai demorar quatro horas.",
+      "competency": "Organizar tratamento temporário enquanto aguarda remoção definitiva.",
+      "stem": "Uma mulher de 68 anos, com doença renal crônica em hemodiálise, procura a emergência com fraqueza muscular.\n\nA última sessão ocorreu há quatro dias.\n\nOs exames mostram:\n\n- Potássio: 7,0 mEq/L.\n- Glicemia: 146 mg/dL.\n- ECG: ondas T apiculadas.\n- Diurese: ausente.\n\nRecebe cálcio intravenoso e insulina com glicose, conforme protocolo institucional.\n\nUma hora depois, o potássio é de 6,3 mEq/L e o ECG apresenta melhora.\n\nA nefrologia confirma necessidade de hemodiálise urgente, mas informa que o procedimento só poderá começar em aproximadamente quatro horas.\n\nUm residente pergunta:\n\n“Como a insulina já foi administrada, precisamos apenas esperar?”\n\n**Qual é a melhor estratégia?**",
+      "choices": {
+        "A": "Considerar o tratamento concluído, pois a redução para 6,3 mEq/L elimina o risco imediato.",
+        "B": "Manter monitorização clínica, cardíaca, laboratorial e glicêmica, reavaliar a necessidade de novas medidas temporárias e considerar terapias adjuvantes apropriadas enquanto a equipe organiza a hemodiálise, sem confundir redistribuição com remoção.",
+        "C": "Repetir insulina em intervalos fixos, independentemente da glicemia ou do potássio, até a hemodiálise começar.",
+        "D": "Administrar solução contendo potássio para evitar que a concentração diminua excessivamente antes da sessão."
+      },
+      "feedback": {
+        "A": "Incorreta. O potássio permanece elevado e a intervenção foi temporária. Não existe garantia de manutenção da resposta.",
+        "B": "Correta. Mantém o controle clínico, considera a segurança das terapias adicionais e preserva a hemodiálise como estratégia efetiva de remoção.",
+        "C": "Incorreta. A repetição indiscriminada de insulina aumenta o risco de hipoglicemia e não substitui a remoção de potássio.",
+        "D": "Incorreta. Administrar potássio a uma paciente com hipercalemia grave pode agravar a situação."
+      },
+      "correctExplanation": "**1. A paciente respondeu à insulina?**\n\nSim. O potássio diminuiu de 7,0 para 6,3 mEq/L.\n\nEntretanto, a hipercalemia permanece relevante, e a paciente não dispõe de excreção urinária de potássio.\n\n**2. Qual é o principal risco durante a espera?**\n\nO efeito da insulina é temporário.\n\nÀ medida que diminui, o potássio pode voltar a se redistribuir para o compartimento extracelular.\n\n**3. Quanto tempo dura o efeito da insulina?**\n\nO documento de referência descreve início de ação em aproximadamente 10–20 minutos, pico em 30–60 minutos e duração em torno de quatro a seis horas.\n\nEssa duração é aproximada e não garante que o paciente permaneça protegido durante todo esse período.\n\n**4. A insulina pode ser repetida?**\n\nSim, em situações selecionadas, quando a remoção não está disponível imediatamente.\n\nEntretanto, a decisão depende da concentração atual de potássio, da resposta anterior, do tempo desde a administração e da segurança glicêmica.\n\n**5. Por que a repetição automática é perigosa?**\n\nPorque doses adicionais aumentam o risco de hipoglicemia.\n\nEsse risco é particularmente relevante em pacientes com insuficiência renal avançada.\n\n**6. Existe alguma terapia adjuvante?**\n\nO salbutamol nebulizado pode ser considerado como terapia complementar de redistribuição, respeitando contraindicações e efeitos adversos.\n\nOs quelantes gastrointestinais podem ter papel em situações selecionadas, conforme disponibilidade e protocolo, mas não substituem a hemodiálise urgente nem a estabilização cardíaca.\n\n**7. Qual é a importância da monitorização?**\n\nPermite identificar:\n\n- Nova elevação do potássio.\n- Alterações eletrocardiográficas.\n- Hipoglicemia.\n- Necessidade de novas intervenções.\n- Deterioração clínica durante a espera.\n\n**8. Quando devemos repetir o potássio?**\n\nO UpToDate recomenda nova dosagem em aproximadamente uma a duas horas após o início do tratamento emergencial, com avaliações posteriores individualizadas conforme concentração e resposta.\n\n**9. Qual é a principal lição?**\n\nA espera pela hemodiálise deve ser um período de tratamento e vigilância ativa, não de observação passiva.",
+      "pearl": "**Enquanto a hemodiálise não começa, o paciente continua sendo seu paciente. Reavalie potássio, ECG e glicemia; não transforme a espera pela máquina em uma pausa no tratamento.**",
+      "reference": "UpToDate — *Treatment and prevention of hyperkalemia in adults*, seções “Monitoring”, “Insulin with glucose”, “Repeated dosing”, “Beta-2-adrenergic agonists” e “Dialysis”."
+    },
+    {
+      "number": 3,
+      "id": "hipercalemia-aq27-q03",
+      "title": "O potássio caiu com insulina. A diálise ainda é necessária?",
+      "competency": "Distinguir redistribuição temporária de remoção efetiva no paciente anúrico.",
+      "stem": "Um homem de 73 anos, em hemodiálise crônica, é admitido na emergência após faltar à última sessão.\n\nNa chegada, apresenta potássio sérico de 7,2 mEq/L, fraqueza muscular e ondas T apiculadas no ECG.\n\nRecebe cálcio intravenoso e insulina com glicose.\n\nApós 60 minutos, os resultados são:",
+      "choices": {
+        "A": "A redução do potássio após insulina demonstra que o excesso corporal foi eliminado e a hemodiálise perdeu sua indicação.",
+        "B": "A ausência de sintomas confirma que não existe risco de nova elevação do potássio.",
+        "C": "A insulina restaurou temporariamente a função renal, permitindo que o paciente elimine potássio nas próximas horas.",
+        "D": "A queda do potássio demonstra redistribuição eficaz, mas não remoção corporal. Como o paciente permanece anúrico e apresentou hipercalemia grave, a hemodiálise urgente continua indicada, com reavaliação clínica e laboratorial."
+      },
+      "feedback": {
+        "A": "Incorreta. A insulina não elimina potássio corporal. A queda sérica não significa que a indicação de hemodiálise tenha desaparecido.",
+        "B": "Incorreta. A ausência de sintomas não exclui recorrência da hipercalemia ou risco elétrico.",
+        "C": "Incorreta. A insulina não restaura a função renal. Seu efeito é promover entrada de potássio nas células.",
+        "D": "Correta. Reconhece a resposta favorável, mas distingue redistribuição de remoção e preserva a necessidade de diálise no contexto clínico."
+      },
+      "correctExplanation": "**1. O tratamento funcionou?**\n\nSim. O potássio caiu de 7,2 para 5,8 mEq/L, uma redução de 1,4 mEq/L.\n\nA melhora laboratorial e eletrocardiográfica é favorável.\n\nEntretanto, o mecanismo responsável pela queda precisa ser compreendido antes de decidir suspender a diálise.\n\n**2. O que a insulina fez?**\n\nA insulina aumentou a entrada de potássio nas células, principalmente por estímulo à atividade da Na⁺/K⁺-ATPase.\n\nIsso reduziu a concentração extracelular de potássio.\n\n**3. O potássio foi eliminado do organismo?**\n\nNão pela ação da insulina.\n\nO potássio foi deslocado para outro compartimento.\n\nPortanto, o efeito laboratorial não corresponde necessariamente à redução do estoque corporal de potássio.\n\n**4. Por que a anúria é tão importante?**\n\nPorque o paciente não apresenta excreção urinária efetiva.\n\nSem remoção por outra via, a capacidade de eliminar o excesso corporal é muito limitada.\n\n**5. O que acontecerá quando o efeito da insulina diminuir?**\n\nA concentração sérica poderá voltar a subir.\n\nO efeito da insulina é temporário, e a persistência dos mecanismos responsáveis pela hipercalemia aumenta o risco de recorrência.\n\n**6. O paciente está assintomático. Isso muda a decisão?**\n\nA ausência de sintomas é favorável, mas não demonstra resolução do problema.\n\nA hipercalemia pode apresentar manifestações clínicas discretas até ocorrer deterioração elétrica importante.\n\n**7. A diálise ainda está indicada?**\n\nSim, no contexto descrito.\n\nTrata-se de paciente anúrico, em hemodiálise crônica, com sessão perdida e hipercalemia grave recente.\n\nA melhora após insulina não substitui a remoção efetiva de potássio.\n\n**8. Existe algum cuidado adicional?**\n\nSim. É necessário monitorar glicemia e potássio enquanto a hemodiálise é organizada.\n\nO risco de hipoglicemia permanece mesmo após a melhora do potássio.\n\n**9. Qual é a principal lição?**\n\n**No paciente anúrico, a insulina pode melhorar o exame sem resolver o problema que tornou a diálise necessária.**",
+      "pearl": "**No paciente anúrico, não confunda potássio menor com potássio eliminado. A insulina muda o endereço do potássio; a hemodiálise remove potássio do organismo.**",
+      "reference": "UpToDate — *Treatment and prevention of hyperkalemia in adults*, seções “Insulin with glucose”, “Remove potassium from the body” e “Dialysis”.",
+      "table": {
+        "headers": [
+          "Parâmetro",
+          "Inicial",
+          "Após tratamento"
+        ],
+        "rows": [
+          [
+            "Potássio",
+            "7,2 mEq/L",
+            "5,8 mEq/L"
+          ],
+          [
+            "Glicemia",
+            "178 mg/dL",
+            "136 mg/dL"
+          ],
+          [
+            "Frequência cardíaca",
+            "52 bpm",
+            "78 bpm"
+          ]
+        ]
+      },
+      "stemAfter": "O ECG apresenta melhora e o paciente está assintomático.\n\nEntretanto, permanece anúrico.\n\nUm residente afirma:\n\n“Como o potássio já caiu bastante, talvez não precise mais de hemodiálise hoje.”\n\n**Qual é a interpretação mais adequada?**"
+    },
+    {
+      "number": 4,
+      "id": "hipercalemia-aq27-q04",
+      "title": "Terminou a hemodiálise com potássio de 3,7. Problema resolvido?",
+      "competency": "Reconhecer o rebote pós-dialítico e interpretar o momento da coleta.",
+      "stem": "Uma mulher de 59 anos, com doença renal crônica dialítica e anúria, é submetida à hemodiálise urgente após apresentar potássio de 7,0 mEq/L.\n\nAntes da sessão, recebeu insulina com glicose devido à gravidade da hipercalemia.\n\nA hemodiálise transcorre sem intercorrências importantes.\n\nUma dosagem realizada imediatamente após o término mostra potássio de 3,7 mEq/L.\n\nO médico considera o resultado excelente e afirma:\n\n“Agora sabemos que o potássio permanecerá normal. Não precisamos mais acompanhar.”\n\nEntretanto, quatro horas depois, uma nova dosagem mostra potássio de 5,4 mEq/L.\n\nA paciente está estável e sem novas alterações eletrocardiográficas.\n\n**Qual é a melhor interpretação?**",
+      "choices": {
+        "A": "O aumento após a hemodiálise comprova obrigatoriamente que a sessão não removeu potássio.",
+        "B": "O resultado de 3,7 mEq/L imediatamente após a sessão garante que não haverá nova elevação nas horas seguintes.",
+        "C": "O aumento é compatível com rebote pós-dialítico, relacionado à redistribuição de potássio do compartimento intracelular para o extracelular; o momento da coleta e as terapias temporárias anteriores devem ser considerados na interpretação.",
+        "D": "A insulina administrada antes da hemodiálise impede qualquer rebote posterior."
+      },
+      "feedback": {
+        "A": "Incorreta. A elevação posterior não comprova ausência de remoção. O rebote pode ocorrer mesmo após uma sessão eficaz.",
+        "B": "Incorreta. O potássio imediatamente após a sessão pode subestimar a concentração observada algumas horas depois.",
+        "C": "Correta. Reconhece o rebote, seu mecanismo fisiológico e a importância do momento da coleta e das terapias prévias.",
+        "D": "Incorreta. A insulina não impede o rebote. A diminuição de seu efeito pode contribuir para a elevação posterior."
+      },
+      "correctExplanation": "**1. A hemodiálise removeu potássio?**\n\nSim. A redução de 7,0 para 3,7 mEq/L é compatível com importante redução da concentração sérica durante o tratamento.\n\nEntretanto, a concentração sérica imediatamente após a sessão não representa necessariamente o equilíbrio final entre os compartimentos corporais.\n\n**2. O que é rebote pós-dialítico?**\n\nÉ a elevação da concentração sérica de potássio após o término da hemodiálise.\n\nDurante a sessão, o potássio é removido do compartimento extracelular, criando um gradiente que favorece sua saída das células após o procedimento.\n\n**3. Esse fenômeno é esperado?**\n\nSim.\n\nO UpToDate descreve aumento pós-dialítico do potássio em pacientes submetidos à remoção dialítica.\n\nA magnitude varia conforme as condições clínicas e o tratamento realizado.\n\n**4. Por que o resultado imediatamente após a sessão pode enganar?**\n\nPorque o potássio ainda não terminou de se redistribuir entre os compartimentos.\n\nUm valor baixo naquele momento pode não refletir a concentração que será observada algumas horas depois.\n\n**5. O documento apresenta dados sobre esse fenômeno?**\n\nSim.\n\nEm um estudo com 14 pacientes em hemodiálise de manutenção, citado pelo UpToDate, as concentrações médias de potássio foram aproximadamente:",
+      "pearl": "**O potássio de saída da hemodiálise não conta a história inteira. Antes de concluir que o problema foi resolvido, lembre-se de que o potássio ainda pode sair das células e voltar a elevar sua concentração sérica.**",
+      "reference": "UpToDate — *Treatment and prevention of hyperkalemia in adults*, seção “Dialysis”, discussão sobre *postdialysis rebound*, páginas 16–17 do PDF.",
+      "explanationTable": {
+        "headers": [
+          "Momento",
+          "Potássio médio"
+        ],
+        "rows": [
+          [
+            "Antes da hemodiálise",
+            "5,7 mEq/L"
+          ],
+          [
+            "Durante a hemodiálise",
+            "3,6 mEq/L"
+          ],
+          [
+            "Até seis horas após",
+            "5,0 mEq/L"
+          ]
+        ]
+      },
+      "explanationAfter": "Esses valores ilustram o rebote e não devem ser interpretados como uma trajetória obrigatória para todos os pacientes.\n\n**6. A insulina administrada antes da sessão pode influenciar?**\n\nSim.\n\nA insulina desloca potássio para dentro das células e reduz temporariamente sua concentração plasmática.\n\nO UpToDate descreve que terapias de redistribuição administradas antes da diálise podem reduzir a quantidade removida durante o procedimento e contribuir para maior rebote quando seu efeito diminui.\n\nIsso não significa que a insulina deva ser omitida quando existe emergência hipercalêmica.\n\n**7. O aumento para 5,4 significa falha da diálise?**\n\nNão necessariamente.\n\nPode representar redistribuição esperada.\n\nEntretanto, é necessário avaliar o valor absoluto, a tendência, o ECG, a causa da hipercalemia e a possibilidade de recorrência importante.\n\n**8. Como interpretar o potássio após a sessão?**\n\nConsiderando:\n\n- O valor antes da hemodiálise.\n- O momento da coleta.\n- As terapias temporárias utilizadas.\n- A função renal residual.\n- A presença de liberação contínua de potássio.\n- A evolução clínica e eletrocardiográfica.\n\n**9. Qual é a principal lição?**\n\n**O potássio imediatamente após a hemodiálise é uma fotografia de um momento em que a redistribuição ainda pode estar acontecendo.**"
+    },
+    {
+      "number": 5,
+      "id": "hipercalemia-aq27-q05",
+      "title": "Faz hemodiálise regularmente, mas o potássio continua elevado.",
+      "competency": "Investigar hipercalemia recorrente no paciente em hemodiálise.",
+      "stem": "Um homem de 66 anos realiza hemodiálise três vezes por semana.\n\nNas últimas três semanas, apresentou potássio pré-dialítico persistentemente elevado, variando entre 6,0 e 6,4 mEq/L.\n\nHoje, chega para avaliação com potássio de 6,2 mEq/L, sem sintomas, hemodinamicamente estável e sem alterações eletrocardiográficas sugestivas de hipercalemia.\n\nA equipe confirma que não houve falta às sessões.\n\nEntretanto, durante a investigação, identifica:\n\n- Encurtamento frequente das sessões por solicitação do paciente.\n- Dificuldades recentes de fluxo no acesso vascular.\n- Uso diário de substituto de sal contendo potássio.\n- Ausência de revisão recente da prescrição dialítica.\n\nUm residente afirma:\n\n“Ele já faz hemodiálise. Não há muito mais o que investigar.”\n\n**Qual é a melhor abordagem?**",
+      "choices": {
+        "A": "Reconhecer que a hipercalemia recorrente exige avaliação da urgência atual e investigação de fatores como duração e eficácia das sessões, funcionamento do acesso vascular, fontes de potássio, medicamentos e prescrição dialítica, em conjunto com a nefrologia.",
+        "B": "Considerar que potássio acima de 6,0 mEq/L é sempre normal em pacientes dialíticos e dispensa avaliação.",
+        "C": "Suspender definitivamente todas as sessões de hemodiálise, pois a recorrência demonstra que o tratamento é inútil.",
+        "D": "Orientar o paciente a aumentar o consumo de substitutos de sal ricos em potássio, pois isso facilita a remoção durante a próxima sessão."
+      },
+      "feedback": {
+        "A": "Correta. Integra avaliação do risco atual, investigação das causas modificáveis e revisão do tratamento dialítico.",
+        "B": "Incorreta. Potássio acima de 6,0 mEq/L não deve ser considerado automaticamente normal em pacientes dialíticos.",
+        "C": "Incorreta. A recorrência não demonstra inutilidade da hemodiálise. Indica necessidade de reavaliar a adequação do tratamento e os fatores associados.",
+        "D": "Incorreta. Substitutos de sal ricos em potássio podem agravar a hipercalemia."
+      },
+      "correctExplanation": "**1. O que caracteriza o problema deste paciente?**\n\nHipercalemia recorrente em um paciente que realiza hemodiálise de manutenção.\n\nO fato de estar em tratamento dialítico não significa que o controle do potássio esteja automaticamente adequado.\n\n**2. O potássio de 6,2 mEq/L pode ser ignorado porque ele está assintomático?**\n\nNão.\n\nÉ necessário avaliar a urgência conforme o valor, a tendência, as condições clínicas, o ECG e os fatores que possam provocar agravamento.\n\nUm ECG normal não exclui risco elétrico.\n\n**3. Qual é a importância do tempo de hemodiálise?**\n\nA remoção de potássio depende, entre outros fatores, da duração e das condições da sessão.\n\nQuando o paciente encerra sessões precocemente, pode receber uma quantidade menor de tratamento do que a prescrita.\n\n**4. Por que investigar o acesso vascular?**\n\nPorque problemas de fluxo podem comprometer a realização adequada da hemodiálise.\n\nO acesso deve ser avaliado pela equipe responsável, sem presumir que toda dificuldade de fluxo resulte obrigatoriamente em remoção insuficiente de potássio.\n\n**5. O que influencia a remoção dialítica de potássio?**\n\nO UpToDate destaca diferentes fatores:\n\n- Concentração inicial de potássio.\n- Tipo e superfície do dialisador.\n- Fluxo sanguíneo.\n- Fluxo do dialisato.\n- Duração da sessão.\n- Concentração de potássio no dialisato.\n- Massa muscular do paciente.\n\nO gradiente entre o potássio plasmático e o do dialisato é um dos principais determinantes da remoção.\n\n**6. Por que o substituto de sal é relevante?**\n\nPorque muitos substitutos de sal contêm cloreto de potássio.\n\nSeu uso pode aumentar a ingestão desse eletrólito e contribuir para hipercalemia em pacientes com capacidade renal de excreção muito reduzida.\n\n**7. Devemos simplesmente reduzir ao máximo o potássio do dialisato?**\n\nNão.\n\nA prescrição do dialisato exige avaliação nefrológica individualizada.\n\nGradientes muito elevados podem produzir mudanças rápidas na concentração sérica, com possíveis consequências cardiovasculares.\n\nA escolha da concentração de potássio do dialisato não deve ser feita de maneira automática.\n\n**8. O que mais deve ser revisado?**\n\n- Medicamentos associados à hipercalemia.\n- Adesão e duração das sessões.\n- Intervalos entre as sessões.\n- Ingestão de potássio.\n- Condições do acesso vascular.\n- Prescrição e execução da hemodiálise.\n- Possíveis processos de liberação celular de potássio.\n\n**9. Qual é o papel da nefrologia?**\n\nAvaliar a adequação do tratamento dialítico, a necessidade de ajustes e as medidas para reduzir recorrências.\n\nA investigação da causa não substitui o tratamento da hipercalemia atual quando houver indicação de redução urgente.\n\n**10. Qual é a principal lição?**\n\n**A hipercalemia recorrente em um paciente dialítico não deve ser tratada como algo inevitável. É necessário investigar por que o equilíbrio entre entrada e remoção de potássio não está sendo alcançado.**",
+      "pearl": "**O paciente fazer hemodiálise não significa que esteja recebendo hemodiálise suficiente. Quando o potássio permanece elevado, investigue o que entra, o que é removido e o que está impedindo o equilíbrio.**",
+      "reference": "UpToDate — *Treatment and prevention of hyperkalemia in adults*, seções “Dialysis”, “Drug-induced hyperkalemia” e “Prevention of recurrent hyperkalemia”. A avaliação de adesão, acesso e execução da prescrição é uma aplicação clínica dos determinantes de remoção descritos no documento."
+    }
+  ]
+}

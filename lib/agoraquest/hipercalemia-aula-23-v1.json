@@ -1,0 +1,127 @@
+{
+  "slug": "hipercalemia-aula-23-v1",
+  "versao": 1,
+  "title": "AgoraQuest 23 — Como acompanhar a resposta ao tratamento",
+  "subtitle": "Questões que ensinam a decidir.",
+  "intro": "Pratique a monitorização, a interpretação da resposta e os próximos passos após o tratamento da hipercalemia.",
+  "references": "UpToDate — Treatment and prevention of hyperkalemia in adults.",
+  "key": [
+    "C",
+    "A",
+    "D",
+    "B",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "id": "hipercalemia-aq23-q01",
+      "title": "O potássio era 7,1. Quando repetir o exame?",
+      "competency": "Definir a primeira reavaliação laboratorial após o tratamento.",
+      "stem": "Um homem de 63 anos, com doença renal crônica, procura a emergência com fraqueza muscular.\n\nA avaliação mostra potássio de 7,1 mEq/L e alterações eletrocardiográficas compatíveis com hipercalemia.\n\nA equipe inicia imediatamente as medidas indicadas de estabilização cardíaca e redistribuição de potássio.\n\nApós 20 minutos, o paciente refere melhora da fraqueza e permanece hemodinamicamente estável.\n\nUm residente pergunta:\n\n“Ele melhorou clinicamente. Quando precisamos repetir o potássio?”\n\n**Qual é a melhor conduta?**",
+      "choices": {
+        "A": "Repetir o potássio somente após seis horas, pois antes desse período a insulina ainda não terá produzido qualquer efeito.",
+        "B": "Dispensar a nova dosagem caso o ECG normalize, pois a melhora elétrica comprova a correção da hipercalemia.",
+        "C": "Reavaliar o potássio aproximadamente uma a duas horas após o início do tratamento e individualizar as dosagens seguintes conforme o resultado, a evolução clínica e as intervenções realizadas.",
+        "D": "Solicitar uma nova dosagem apenas no dia seguinte, desde que o paciente permaneça assintomático."
+      },
+      "feedback": {
+        "A": "Incorreta. A insulina começa a reduzir o potássio antes de seis horas. Adiar a primeira avaliação para esse momento pode retardar o reconhecimento de resposta inadequada.",
+        "B": "Incorreta. O ECG não substitui a dosagem de potássio. Além disso, o cálcio pode melhorar as alterações elétricas sem reduzir o potássio sérico.",
+        "C": "Correta. Corresponde à recomendação do UpToDate e permite ajustar o acompanhamento conforme a resposta.",
+        "D": "Incorreta. A ausência de sintomas não torna seguro aguardar até o dia seguinte após uma emergência hipercalêmica."
+      },
+      "correctExplanation": "Esta questão ensina que **a melhora clínica não substitui a confirmação laboratorial da resposta ao tratamento**.\n\n**1. O que esperamos após iniciar o tratamento?**\n\nAs intervenções utilizadas na hipercalemia possuem mecanismos diferentes.\n\nO cálcio intravenoso antagoniza os efeitos elétricos do potássio sobre o miocárdio, mas não reduz sua concentração sérica.\n\nA insulina promove deslocamento de potássio para o interior das células.\n\nAs medidas de remoção eliminam potássio do organismo, dependendo do método utilizado.\n\nPortanto, a melhora clínica isolada não permite determinar quanto o potássio diminuiu.\n\n**2. Quando repetir o potássio?**\n\nO UpToDate orienta dosar o potássio aproximadamente **uma a duas horas após o início do tratamento** em pacientes que necessitam de terapias de ação rápida.\n\nEsse intervalo permite avaliar a resposta inicial às intervenções.\n\n**3. Por que não esperar seis horas?**\n\nPorque o paciente pode apresentar resposta insuficiente, persistência de hipercalemia grave ou nova deterioração.\n\nEsperar seis horas sem uma avaliação laboratorial pode atrasar o reconhecimento de falha terapêutica.\n\n**4. Por que não dosar apenas no dia seguinte?**\n\nO potássio inicial de 7,1 mEq/L, associado a alterações eletrocardiográficas, caracteriza uma situação de alto risco.\n\nA ausência de sintomas após o tratamento não demonstra que o risco foi eliminado.\n\n**5. Uma dosagem é suficiente?**\n\nNão necessariamente.\n\nO momento das dosagens seguintes deve considerar:\n\n- O valor encontrado na primeira reavaliação.\n- A resposta clínica e eletrocardiográfica.\n- A função renal.\n- As intervenções utilizadas.\n- A existência de remoção efetiva de potássio.\n- A possibilidade de nova elevação.\n\n**6. Qual é a decisão prática?**\n\nO médico deve planejar a primeira reavaliação desde o momento em que inicia o tratamento, e não apenas quando alguém lembrar de repetir o exame.\n\n**A primeira dose trata a hipercalemia. A primeira reavaliação mostra se o plano está funcionando.**",
+      "pearl": "**Prescreveu o tratamento da hipercalemia? Prescreva também a reavaliação. Em pacientes que necessitam de medidas rápidas, programe o primeiro controle de potássio em aproximadamente 1–2 horas.**",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Monitoring”, página 5."
+    },
+    {
+      "number": 2,
+      "id": "hipercalemia-aq23-q02",
+      "title": "O QRS estreitou após o cálcio. Podemos considerar o problema resolvido?",
+      "competency": "Interpretar a resposta eletrocardiográfica sem confundi-la com redução do potássio.",
+      "stem": "Um homem de 70 anos apresenta potássio sérico de 7,4 mEq/L, bradicardia e alargamento do QRS.\n\nA equipe administra cálcio intravenoso imediatamente.\n\nMinutos depois, o QRS torna-se mais estreito e a frequência cardíaca aumenta.\n\nA insulina com glicose já foi prescrita, e a estratégia de remoção de potássio está sendo organizada.\n\nUm residente afirma:\n\n“O ECG melhorou muito. Isso significa que o potássio já deve ter normalizado.”\n\n**Qual é a interpretação correta?**",
+      "choices": {
+        "A": "A melhora eletrocardiográfica sugere resposta à estabilização cardíaca promovida pelo cálcio, mas não comprova redução do potássio sérico. O paciente ainda necessita das medidas de redistribuição, remoção e monitorização.",
+        "B": "A normalização do QRS comprova que o cálcio promoveu eliminação renal de potássio.",
+        "C": "A melhora do ECG significa que a insulina e as demais medidas de tratamento podem ser suspensas imediatamente.",
+        "D": "O ECG não deve ser reavaliado após cálcio, pois alterações elétricas não possuem utilidade no acompanhamento da hipercalemia."
+      },
+      "feedback": {
+        "A": "Correta. Interpreta adequadamente a resposta elétrica ao cálcio e mantém a necessidade de tratamento e monitorização.",
+        "B": "Incorreta. O cálcio não promove eliminação renal de potássio.",
+        "C": "Incorreta. A melhora do ECG não demonstra normalização do potássio e não justifica interromper as outras medidas necessárias.",
+        "D": "Incorreta. A reavaliação eletrocardiográfica é importante no acompanhamento de pacientes com toxicidade cardíaca por hipercalemia."
+      },
+      "correctExplanation": "Esta questão trabalha uma distinção fundamental: **resposta elétrica não é sinônimo de resposta laboratorial**.\n\n**1. Qual é o objetivo do cálcio intravenoso?**\n\nO cálcio antagoniza os efeitos da hipercalemia sobre a membrana das células cardíacas.\n\nSeu principal objetivo é reduzir o risco de arritmias graves relacionadas à toxicidade elétrica.\n\n**2. O cálcio diminui o potássio sérico?**\n\nNão.\n\nO cálcio não promove deslocamento significativo do potássio para o interior das células nem remove potássio do organismo.\n\nPortanto, não se pode atribuir uma eventual queda laboratorial ao cálcio.\n\n**3. O que significa o estreitamento do QRS?**\n\nPode indicar melhora da toxicidade elétrica após a administração de cálcio.\n\nÉ uma informação clínica relevante e deve ser considerada na reavaliação.\n\nEntretanto, não informa diretamente a concentração sérica de potássio.\n\n**4. Por que o risco pode persistir?**\n\nPorque o cálcio possui duração limitada.\n\nSe o potássio permanecer elevado, as alterações elétricas podem reaparecer quando seu efeito diminuir.\n\n**5. Como acompanhar a resposta?**\n\nO UpToDate recomenda monitorização cardíaca contínua e ECGs seriados em pacientes que necessitam de tratamento rápido.\n\nIsso permite acompanhar a evolução elétrica e reconhecer deterioração.\n\nA resposta laboratorial deve ser avaliada separadamente.\n\n**6. O que fazer se as alterações elétricas persistirem ou reaparecerem?**\n\nO paciente deve ser reavaliado imediatamente.\n\nA necessidade de nova administração de cálcio depende da evolução clínica, das alterações eletrocardiográficas e do protocolo aplicável.\n\nSimultaneamente, é necessário manter as medidas de redução e remoção do potássio.\n\n**7. Qual é a mensagem principal?**\n\nO ECG informa sobre os efeitos cardíacos da hipercalemia, enquanto a dosagem sérica informa sobre a concentração de potássio.\n\nSão avaliações complementares.\n\n**O cálcio pode melhorar o ECG antes que o potássio tenha diminuído. Não confunda proteção temporária com resolução da hipercalemia.**",
+      "pearl": "**O QRS estreitou após o cálcio? Você ganhou proteção elétrica temporária, não a certeza de que o potássio caiu. Continue tratando e monitorando.**",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seções “Calcium” e “Monitoring”."
+    },
+    {
+      "number": 3,
+      "id": "hipercalemia-aq23-q03",
+      "title": "A glicemia está normal duas horas após a insulina. Podemos parar de monitorar?",
+      "competency": "Reconhecer o risco de hipoglicemia tardia após o tratamento da hipercalemia.",
+      "stem": "Uma mulher de 76 anos, com doença renal crônica avançada, é admitida na emergência com potássio sérico de 6,8 mEq/L.\n\nApós avaliação clínica, recebe insulina regular intravenosa associada à glicose para promover redistribuição intracelular do potássio.\n\nA evolução glicêmica é apresentada:\n\n- Antes do tratamento: 132 mg/dL.\n- Uma hora após insulina: 168 mg/dL.\n- Duas horas após insulina: 112 mg/dL.\n\nO potássio diminuiu para 5,6 mEq/L.\n\nA paciente está consciente, orientada e sem sintomas.\n\nUm residente afirma:\n\n“Já se passaram duas horas, a glicemia está normal e o potássio caiu. Podemos suspender as glicemias capilares.”\n\n**Qual é a melhor conduta?**",
+      "choices": {
+        "A": "Suspender a monitorização glicêmica, pois a ausência de hipoglicemia nas primeiras duas horas exclui a possibilidade de eventos posteriores.",
+        "B": "Monitorar a glicemia apenas se a paciente apresentar sudorese, tremores ou alteração do nível de consciência.",
+        "C": "Administrar uma nova dose de insulina para evitar que o potássio volte a subir, independentemente da glicemia atual.",
+        "D": "Manter a monitorização glicêmica horária por até seis horas após a administração da insulina, conforme a recomendação do UpToDate, pois a hipoglicemia pode ocorrer tardiamente, especialmente em pacientes com comprometimento renal."
+      },
+      "feedback": {
+        "A": "Incorreta. A hipoglicemia pode ocorrer após as primeiras duas horas, especialmente em pacientes com disfunção renal.",
+        "B": "Incorreta. A monitorização não deve depender exclusivamente do aparecimento de sintomas. A hipoglicemia pode ser identificada antes de manifestações clínicas evidentes.",
+        "C": "Incorreta. A repetição de insulina não deve ser automática. É necessário considerar o potássio, a evolução clínica e o risco de hipoglicemia.",
+        "D": "Correta. Mantém a vigilância durante o período de risco descrito no UpToDate."
+      },
+      "correctExplanation": "Esta questão ensina que **a melhora do potássio não encerra a necessidade de monitorar os efeitos adversos do tratamento**.\n\n**1. Por que utilizamos insulina na hipercalemia?**\n\nA insulina estimula a atividade da Na⁺/K⁺-ATPase, principalmente no músculo esquelético, promovendo deslocamento de potássio para o interior das células.\n\nEsse mecanismo reduz a concentração sérica de potássio sem remover o elemento do organismo.\n\n**2. Por que administramos glicose?**\n\nPorque a insulina também promove utilização e captação de glicose, podendo provocar hipoglicemia.\n\nA glicose administrada tem a finalidade de reduzir esse risco, conforme a glicemia inicial e o protocolo utilizado.\n\n**3. Por que a hipoglicemia pode surgir depois de duas horas?**\n\nO efeito da insulina sobre a glicose pode persistir após a administração inicial.\n\nUma quantidade de glicose fornecida em bolus pode não ser suficiente para compensar toda a utilização de glicose provocada pela insulina.\n\nAssim, uma glicemia inicialmente normal ou elevada não garante que ela permanecerá adequada.\n\n**4. O que muda na doença renal?**\n\nPacientes com comprometimento renal podem apresentar prolongamento do efeito da insulina, aumentando a preocupação com hipoglicemia tardia.\n\nO risco depende de fatores como função renal, glicemia inicial, dose de insulina e quantidade de glicose administrada.\n\n**5. O que o UpToDate recomenda?**\n\nO documento orienta realizar **glicemias horárias por até seis horas após a administração de insulina**, com ou sem glicose, para detectar hipoglicemia.\n\nEssa recomendação não significa que todos os pacientes obrigatoriamente desenvolverão hipoglicemia, mas que existe risco suficiente para justificar vigilância.\n\n**6. O valor de 112 mg/dL é tranquilizador?**\n\nÉ uma informação favorável naquele momento, mas não garante segurança nas horas seguintes.\n\nAlém disso, houve redução de 168 para 112 mg/dL entre a primeira e a segunda hora.\n\nEssa tendência reforça a importância de acompanhar a evolução.\n\n**7. E se ocorrer hipoglicemia?**\n\nA equipe deve tratá-la imediatamente conforme a gravidade e o protocolo institucional, reavaliando a necessidade de suplementação de glicose e de monitorização adicional.\n\n**8. Qual é a principal lição?**\n\nAo prescrever insulina para hipercalemia, o médico deve planejar simultaneamente a prevenção e a detecção de hipoglicemia.\n\n**Não basta acompanhar se o potássio caiu. É necessário verificar se o tratamento não provocou outro problema.**",
+      "pearl": "**A insulina pode continuar provocando hipoglicemia mesmo depois que o potássio já melhorou. Não encerre a monitorização glicêmica apenas porque as primeiras medidas foram normais.**",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seções “Insulin with glucose” e “Monitoring”, páginas 5 e 7."
+    },
+    {
+      "number": 4,
+      "id": "hipercalemia-aq23-q04",
+      "title": "O potássio caiu de 7,0 para 6,1. Isso é sucesso terapêutico?",
+      "competency": "Interpretar a magnitude da resposta sem confundir melhora parcial com resolução.",
+      "stem": "Um homem de 69 anos, com lesão renal aguda oligúrica, apresenta hipercalemia de 7,0 mEq/L.\n\nO ECG inicial mostra ondas T apiculadas e alargamento discreto do QRS.\n\nA equipe administra cálcio intravenoso e insulina com glicose, além de iniciar a organização de uma estratégia de remoção de potássio.\n\nUma hora depois:\n\n- Potássio: de 7,0 para 6,1 mEq/L.\n- Frequência cardíaca: de 52 para 76 bpm.\n- QRS: inicialmente alargado, agora mais estreito.\n- Diurese: permanece muito reduzida.\n\nO paciente está clinicamente melhor.\n\nUm residente comenta:\n\n“O potássio caiu quase 1 mEq/L. O tratamento funcionou e podemos considerar a hipercalemia resolvida.”\n\n**Qual interpretação é mais adequada?**",
+      "choices": {
+        "A": "A queda de 0,9 mEq/L representa ausência completa de resposta terapêutica, pois a insulina só funciona quando normaliza imediatamente o potássio.",
+        "B": "Houve resposta inicial favorável, mas o potássio permanece elevado, a capacidade renal de eliminação continua comprometida e o efeito da redistribuição é temporário. É necessário manter a reavaliação e garantir uma estratégia efetiva de remoção.",
+        "C": "Como o QRS estreitou, o potássio de 6,1 mEq/L pode ser ignorado e não são necessárias novas dosagens.",
+        "D": "A queda do potássio comprova que o paciente recuperou a função renal e não precisará mais de acompanhamento."
+      },
+      "feedback": {
+        "A": "Incorreta. A queda de 0,9 mEq/L demonstra resposta laboratorial. Não é necessário que a insulina normalize completamente o potássio para reconhecer seu efeito.",
+        "B": "Correta. Reconhece a melhora inicial, mas identifica o risco residual e a necessidade de remoção efetiva.",
+        "C": "Incorreta. A melhora do QRS não substitui a avaliação laboratorial nem garante ausência de risco.",
+        "D": "Incorreta. A queda do potássio após insulina não demonstra recuperação da função renal."
+      },
+      "correctExplanation": "Esta questão trabalha uma distinção fundamental: **responder ao tratamento não é a mesma coisa que resolver a condição clínica**.\n\n**1. Houve resposta ao tratamento?**\n\nSim.\n\nO potássio diminuiu de 7,0 para 6,1 mEq/L.\n\nAlém disso, houve melhora da frequência cardíaca e do QRS.\n\nEsses achados indicam uma resposta inicial favorável às intervenções.\n\n**2. Podemos considerar o tratamento concluído?**\n\nNão.\n\nO potássio permanece elevado e o paciente apresenta comprometimento importante da excreção renal.\n\nPortanto, continua existindo risco de persistência ou recorrência da hipercalemia.\n\n**3. Por que a queda de 0,9 mEq/L é compatível com o tratamento utilizado?**\n\nO UpToDate descreve que a administração de insulina pode reduzir o potássio sérico em aproximadamente 1 mEq/L, embora a magnitude da resposta varie.\n\nA redução observada é compatível com um efeito de redistribuição.\n\nEntretanto, não é possível determinar a contribuição exata de cada intervenção apenas pelo resultado laboratorial.\n\n**4. Qual é o problema de depender apenas da redistribuição?**\n\nA insulina desloca potássio para o interior das células, mas não o remove do organismo.\n\nAssim, o potássio pode voltar a aumentar quando seu efeito diminui.\n\n**5. Por que a oligúria é relevante?**\n\nPorque sugere capacidade reduzida de excreção renal de potássio.\n\nSe não houver remoção suficiente por outra via, o organismo pode continuar apresentando excesso de potássio.\n\n**6. O ECG melhorou. Isso modifica a avaliação?**\n\nSim, porque representa uma informação favorável sobre a condição elétrica naquele momento.\n\nEntretanto, não elimina a necessidade de acompanhar o potássio e a evolução clínica.\n\nO ECG não deve ser utilizado isoladamente para declarar resolução da hipercalemia.\n\n**7. Qual é o próximo passo?**\n\nManter monitorização e dosagens seriadas, avaliar a necessidade de novas intervenções e assegurar uma estratégia de remoção adequada à função renal e à gravidade do quadro.\n\n**8. Qual é o aprendizado principal?**\n\nO médico deve interpretar simultaneamente a tendência laboratorial, a condição elétrica, a função renal e o mecanismo das intervenções realizadas.\n\n**Uma redução importante pode representar sucesso inicial sem representar resolução definitiva.**",
+      "pearl": "**O potássio caiu? Avalie quanto caiu, quanto ainda está elevado e, principalmente, se alguma intervenção realmente removeu potássio do organismo. Melhora parcial não é alta terapêutica.**",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seções “Insulin with glucose”, “Monitoring” e “Remove potassium from the body”."
+    },
+    {
+      "number": 5,
+      "id": "hipercalemia-aq23-q05",
+      "title": "O tratamento terminou. Qual é o plano de acompanhamento?",
+      "competency": "Construir um plano integrado de monitorização após tratamento de emergência.",
+      "stem": "Uma mulher de 72 anos, com doença renal crônica, é admitida com hipercalemia de 6,9 mEq/L e alterações eletrocardiográficas.\n\nRecebe cálcio intravenoso e insulina com glicose. A equipe também inicia as medidas apropriadas de remoção de potássio.\n\nUma hora depois, o potássio é de 5,8 mEq/L, o ECG apresenta melhora e a paciente permanece estável.\n\nO médico responsável solicita ao residente que organize o acompanhamento das próximas horas.\n\nO residente apresenta quatro propostas.\n\n**Qual delas é a mais adequada?**",
+      "choices": {
+        "A": "Como houve melhora do potássio e do ECG, suspender a monitorização cardíaca e realizar apenas uma nova dosagem de potássio na manhã seguinte.",
+        "B": "Monitorar exclusivamente o potássio sérico, pois as alterações eletrocardiográficas e a glicemia deixam de ser relevantes após a primeira hora.",
+        "C": "Manter monitorização cardíaca e reavaliação eletrocardiográfica conforme a evolução, programar dosagens seriadas de potássio de acordo com a resposta, monitorar a glicemia horariamente por até seis horas após a insulina, acompanhar a função renal e verificar se existe remoção efetiva de potássio.",
+        "D": "Repetir insulina com glicose em horários fixos, independentemente dos resultados, e suspender as dosagens de potássio para evitar coletas desnecessárias."
+      },
+      "feedback": {
+        "A": "Incorreta. A melhora inicial não elimina o risco de recorrência e não justifica interromper precocemente a vigilância.",
+        "B": "Incorreta. A avaliação deve incluir ECG, condição clínica e glicemia, além do potássio.",
+        "C": "Correta. Integra os principais componentes de acompanhamento recomendados no UpToDate e permite decisões individualizadas.",
+        "D": "Incorreta. Repetir insulina sem reavaliar o paciente pode provocar hipoglicemia. Suspender as dosagens de potássio impede avaliar a eficácia do tratamento."
+      },
+      "correctExplanation": "Esta questão integra os conceitos trabalhados nas quatro anteriores.\n\nO objetivo é ensinar que **acompanhar a hipercalemia exige avaliar simultaneamente a resposta ao tratamento, os riscos persistentes e as complicações das intervenções realizadas**.\n\n**1. O que precisamos acompanhar após o tratamento?**\n\nA resposta não pode ser avaliada por um único parâmetro.\n\nDevemos considerar:\n\n- Evolução clínica.\n- Condição eletrocardiográfica.\n- Concentração sérica de potássio.\n- Glicemia após insulina.\n- Função renal e diurese.\n- Efetividade da estratégia de remoção de potássio.\n\n**2. Por que manter a monitorização cardíaca?**\n\nPorque a paciente apresentou alterações elétricas relacionadas à hipercalemia.\n\nMesmo após melhora inicial, pode ocorrer nova deterioração, especialmente se o potássio permanecer elevado ou voltar a aumentar.\n\n**3. Qual é o papel dos ECGs seriados?**\n\nPermitem acompanhar a evolução das alterações elétricas.\n\nA normalização ou melhora do ECG é favorável, mas não substitui as dosagens laboratoriais.\n\n**4. Como organizar as dosagens de potássio?**\n\nO UpToDate recomenda uma primeira reavaliação aproximadamente uma a duas horas após iniciar o tratamento.\n\nAs dosagens seguintes devem ser individualizadas conforme a concentração encontrada e a resposta terapêutica.\n\nPortanto, não existe justificativa para adotar o mesmo intervalo fixo para todos os pacientes, independentemente da evolução.\n\n**5. Por que acompanhar a glicemia?**\n\nPorque a insulina utilizada para redistribuir potássio pode provocar hipoglicemia.\n\nO documento recomenda glicemias horárias por até seis horas após sua administração.\n\nA melhora do potássio não elimina esse risco.\n\n**6. Por que avaliar a função renal e a diurese?**\n\nPorque a capacidade de eliminar potássio influencia o risco de persistência e recorrência.\n\nEm pacientes com comprometimento renal importante, pode ser necessária remoção por outras estratégias, incluindo hemodiálise quando indicada.\n\n**7. Por que verificar se houve remoção efetiva?**\n\nPorque as intervenções não possuem o mesmo mecanismo.\n\nO cálcio protege o miocárdio.\n\nA insulina desloca potássio para o interior das células.\n\nJá os diuréticos, os agentes ligantes gastrointestinais e a diálise podem promover eliminação de potássio, conforme suas indicações e limitações.\n\nSe o paciente recebeu apenas medidas temporárias, o risco de recorrência permanece.\n\n**8. Qual é a diferença entre monitorizar e apenas solicitar exames?**\n\nMonitorizar não significa simplesmente coletar resultados.\n\nSignifica utilizar as informações obtidas para decidir se o plano está funcionando e se precisa ser modificado.\n\n**9. Qual é a mensagem final?**\n\nO acompanhamento deve responder a quatro perguntas:\n\n- O paciente está eletricamente mais seguro?\n- O potássio está diminuindo de forma adequada?\n- O tratamento provocou alguma complicação?\n- Existe uma estratégia efetiva para impedir que a hipercalemia persista ou retorne?\n\n**A monitorização só é completa quando os resultados ajudam a orientar a próxima decisão clínica.**",
+      "pearl": "**Depois de tratar a hipercalemia, acompanhe quatro coisas: coração, potássio, glicemia e capacidade de eliminação. O tratamento só está sob controle quando você sabe o que melhorou, o que ainda preocupa e qual será a próxima decisão.**",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Monitoring” e recomendações resumidas de tratamento e acompanhamento."
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "slug": "hipercalemia-aula-17-v1",
+  "versao": 1,
+  "title": "AgoraQuest 17 — Salbutamol: quando acrescentar e o que esperar",
+  "subtitle": "Salbutamol: quando acrescentar e o que esperar",
+  "intro": "Pratique o uso adjuvante do salbutamol na hipercalemia, sua dose, resposta e riscos cardiovasculares.",
+  "references": "UpToDate — Treatment and prevention of hyperkalemia in adults. https://www.uptodate.com/contents/treatment-and-prevention-of-hyperkalemia-in-adults",
+  "key": [
+    "C",
+    "A",
+    "D",
+    "B",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "id": "hipercalemia-aq17-q01",
+      "title": "O SALBUTAMOL ELIMINA POTÁSSIO?",
+      "competency": "Compreender o mecanismo e diferenciar redistribuição de remoção.",
+      "stem": "Um homem de 64 anos, com doença renal crônica avançada, apresenta potássio sérico de 6,9 mEq/L.\n\nA equipe considera acrescentar salbutamol nebulizado ao tratamento.\n\nUm interno comenta:\n\n“Se o salbutamol baixar o potássio, talvez não precisemos mais pensar em diálise ou outras medidas de eliminação.”\n\n**Qual afirmação explica corretamente o papel do salbutamol na hipercalemia?**",
+      "choices": {
+        "A": "O salbutamol estimula diretamente a excreção renal de potássio, sendo especialmente eficaz em pacientes com função renal muito reduzida.",
+        "B": "O salbutamol liga-se ao potássio no intestino, impedindo sua absorção e promovendo eliminação fecal.",
+        "C": "A estimulação beta-2-adrenérgica aumenta a atividade da Na⁺/K⁺-ATPase no músculo esquelético, promovendo entrada de potássio nas células, mas sem remover o excesso corporal.",
+        "D": "O salbutamol reduz o potássio porque estabiliza diretamente a membrana dos cardiomiócitos, de maneira equivalente ao cálcio intravenoso."
+      },
+      "feedback": {
+        "A": "A ação hipocalemiante do salbutamol não depende principalmente de aumentar a excreção renal.",
+        "B": "Esse não é o mecanismo do salbutamol. A ligação intestinal de potássio é característica de outra classe terapêutica.",
+        "C": "Descreve a estimulação beta-2, a atividade da Na⁺/K⁺-ATPase e a redistribuição intracelular.",
+        "D": "O salbutamol não substitui a ação estabilizadora do cálcio intravenoso sobre a toxicidade cardíaca da hipercalemia."
+      },
+      "correctExplanation": "O salbutamol é um agonista beta-2-adrenérgico. Sua utilização mais conhecida é a broncodilatação, mas a estimulação desses receptores também modifica a distribuição do potássio.\n\n**1. O mecanismo acontece principalmente no músculo esquelético.**\n\nA ativação dos receptores beta-2 aumenta a atividade da Na⁺/K⁺-ATPase, transportando potássio do compartimento extracelular para o intracelular.\n\nO UpToDate também descreve a participação do cotransportador Na⁺-K⁺-2Cl⁻ no músculo esquelético, que pode contribuir significativamente para a captação de potássio estimulada por catecolaminas.\n\n**2. A concentração sérica diminui, mas o estoque corporal não necessariamente muda.**\n\nAssim como ocorre com a insulina, o efeito é predominantemente redistributivo.\n\nIsso significa que uma redução laboratorial após salbutamol não comprova que o potássio foi eliminado do organismo.\n\n**3. Por que essa distinção importa?**\n\nEm pacientes com insuficiência renal avançada, o excesso de potássio pode persistir no organismo mesmo depois da melhora transitória da concentração sérica.\n\nSe não houver remoção efetiva, existe risco de nova elevação do potássio.\n\n**4. O salbutamol não substitui o cálcio.**\n\nO cálcio intravenoso é utilizado para reduzir a toxicidade elétrica da hipercalemia quando indicado.\n\nO salbutamol atua sobre a distribuição do potássio, não oferecendo a mesma estabilização elétrica imediata.\n\n**5. O salbutamol também não substitui a remoção de potássio.**\n\nDiálise, eliminação urinária quando possível e terapias gastrointestinais apropriadas cumprem funções diferentes.\n\nA escolha depende da gravidade, da função renal e da evolução do paciente.\n\n**O salbutamol pode ajudar a ganhar tempo, mas não resolve sozinho a retenção corporal de potássio.**",
+      "pearl": "Salbutamol e insulina empurram o potássio para dentro das células. Nenhum dos dois garante que o excesso de potássio tenha saído do organismo.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Beta-2-adrenergic agonists”, página 13."
+    },
+    {
+      "number": 2,
+      "id": "hipercalemia-aq17-q02",
+      "title": "QUANDO VALE A PENA ACRESCENTAR SALBUTAMOL?",
+      "competency": "Identificar o papel adjuvante do salbutamol na hipercalemia grave.",
+      "stem": "Uma mulher de 69 anos, em hemodiálise crônica, chega à emergência após faltar à última sessão.\n\nApresenta fraqueza muscular, potássio sérico de 7,5 mEq/L e alargamento do QRS.\n\nA equipe administra cálcio intravenoso e insulina regular associada à glicose. A nefrologia é acionada para organizar hemodiálise urgente.\n\nEnquanto aguarda, a paciente permanece monitorizada, e a equipe considera acrescentar salbutamol nebulizado.\n\n**Qual é a melhor decisão?**",
+      "choices": {
+        "A": "Considerar salbutamol nebulizado como tratamento adicional, após avaliação de contraindicações e riscos, para potencializar temporariamente a redução do potássio, sem substituir o cálcio, a insulina com glicose ou a hemodiálise indicada.",
+        "B": "Suspender a organização da hemodiálise, pois o salbutamol elimina potássio do organismo de maneira definitiva.",
+        "C": "Substituir o cálcio intravenoso pelo salbutamol, pois ambos estabilizam a membrana cardíaca com a mesma rapidez.",
+        "D": "Evitar salbutamol em qualquer paciente dialítico, pois sua ação depende da filtração glomerular."
+      },
+      "feedback": {
+        "A": "Reconhece o salbutamol como terapia adicional, considera seus riscos e mantém as medidas essenciais.",
+        "B": "O salbutamol não elimina o excesso corporal de potássio e não substitui a hemodiálise quando ela está indicada.",
+        "C": "O cálcio e o salbutamol possuem mecanismos e objetivos diferentes. O salbutamol não oferece a mesma estabilização elétrica.",
+        "D": "A ação redistributiva do salbutamol não depende da filtração glomerular. Entretanto, sua utilização exige avaliação clínica individualizada."
+      },
+      "correctExplanation": "A paciente apresenta uma emergência hipercalêmica, com potássio muito elevado e alteração da condução cardíaca.\n\n**1. As medidas fundamentais já foram iniciadas.**\n\nO cálcio intravenoso foi utilizado para reduzir a toxicidade elétrica.\n\nA insulina associada à glicose foi administrada para promover redistribuição intracelular.\n\nA hemodiálise está sendo organizada para remover efetivamente potássio.\n\nEssas intervenções possuem objetivos diferentes e complementares.\n\n**2. Onde entra o salbutamol?**\n\nO UpToDate descreve que o salbutamol pode ser considerado como tratamento transitório adicional, especialmente quando persistem manifestações clínicas ou eletrocardiográficas importantes apesar do cálcio e da insulina com glicose, ou quando a diálise não é apropriada ou não está disponível.\n\nPortanto, não é uma intervenção obrigatória em todos os casos de hipercalemia.\n\n**3. Por que combiná-lo com insulina?**\n\nA insulina e o salbutamol estimulam a entrada de potássio nas células por vias relacionadas, mas distintas.\n\nO documento descreve um efeito aditivo quando ambos são utilizados, com redução sérica aproximada de 1,2 a 1,5 mEq/L nos estudos citados.\n\nEsse valor é uma estimativa observada, não uma garantia individual.\n\n**4. A hemodiálise continua necessária quando indicada.**\n\nO salbutamol não elimina potássio do organismo.\n\nEm uma paciente dialítica com hipercalemia grave, a melhora transitória não deve ser confundida com resolução definitiva.\n\n**5. É preciso considerar o risco cardiovascular.**\n\nA paciente deve permanecer sob monitorização, e a equipe precisa avaliar a possibilidade de taquicardia e isquemia miocárdica.\n\nO uso de salbutamol deve ser individualizado, especialmente diante de doença coronariana ativa.\n\n**O salbutamol pode reforçar a redução temporária do potássio enquanto se organiza o tratamento definitivo, mas não deve atrasá-lo.**",
+      "pearl": "Na hipercalemia grave, o salbutamol pode somar efeito à insulina. Mas somar efeito não significa substituir o cálcio nem cancelar a diálise.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Other therapies — Beta-2-adrenergic agonists”, páginas 13–14."
+    },
+    {
+      "number": 3,
+      "id": "hipercalemia-aq17-q03",
+      "title": "QUANTAS GOTAS DE SALBUTAMOL SÃO NECESSÁRIAS?",
+      "competency": "Diferenciar a dose broncodilatadora da dose hipocalemiante e calcular o volume necessário.",
+      "stem": "Um homem de 58 anos, com doença renal crônica avançada, apresenta potássio sérico de 7,0 mEq/L.\n\nJá recebeu as medidas iniciais indicadas, e a equipe considera acrescentar salbutamol nebulizado como terapia adjuvante.\n\nO médico prescreve **10 mg de salbutamol por nebulização**, conforme um dos esquemas descritos no UpToDate.\n\nA farmácia informa que a apresentação disponível contém:\n\n**SOLUÇÃO DE SALBUTAMOL PARA NEBULIZAÇÃO**\n\n- Concentração: **5 mg/mL**.\n- A equipe deverá medir o volume em mililitros, utilizando seringa graduada.\n\nO interno comenta:\n\n“Eu costumo utilizar doses muito menores de salbutamol para broncoespasmo. Será que 10 mg não é um erro?”\n\n**Qual alternativa apresenta o cálculo correto e a melhor interpretação?**",
+      "choices": {
+        "A": "Administrar 0,2 mL, pois a dose hipocalemiante deve ser menor que a broncodilatadora para evitar taquicardia.",
+        "B": "Administrar 1 mL, pois 5 mg correspondem à dose máxima utilizada para qualquer indicação de salbutamol.",
+        "C": "Administrar 10 mL, pois a concentração de 5 mg/mL deve ser multiplicada por dois para atingir 10 mg.",
+        "D": "Administrar 2 mL da solução de 5 mg/mL, obtendo 10 mg, e preparar a nebulização conforme o esquema e o dispositivo disponíveis. A dose utilizada para hipercalemia é superior à habitualmente empregada para broncodilatação."
+      },
+      "feedback": {
+        "A": "O volume de 0,2 mL contém apenas 1 mg de salbutamol. Além disso, a dose hipocalemiante não é necessariamente menor que a broncodilatadora.",
+        "B": "Um mililitro contém 5 mg, quantidade inferior aos 10 mg prescritos. Não existe uma dose máxima universal de 5 mg para todas as indicações.",
+        "C": "Dez mililitros de uma solução com 5 mg/mL contêm 50 mg de salbutamol, cinco vezes a dose prescrita.",
+        "D": "Dois mililitros fornecem 10 mg. A alternativa também reconhece que a dose hipocalemiante é maior que a broncodilatadora e exige preparo adequado."
+      },
+      "correctExplanation": "Esta questão combina dois conhecimentos: a diferença entre as doses utilizadas para broncodilatação e hipercalemia e a conversão correta entre miligramas e mililitros.\n\n**1. A dose para hipercalemia é maior.**\n\nO UpToDate descreve a administração de salbutamol (albuterol) em doses de **10 a 20 mg por nebulização**, em um preparo com 4 mL de solução salina, administrados ao longo de aproximadamente 10 minutos.\n\nO documento destaca que essas doses são aproximadamente quatro a oito vezes superiores às utilizadas habitualmente para broncodilatação.\n\nPortanto, o fato de a dose ser maior não significa, isoladamente, que exista erro de prescrição.\n\n**2. Como calcular o volume?**\n\nA apresentação contém 5 mg de salbutamol em cada mililitro.\n\nA dose prescrita é 10 mg.\n\nVolume = Dose ÷ Concentração\n\nVolume = 10 mg ÷ 5 mg/mL\n\n**Volume = 2 mL.**\n\nPortanto, são necessários **2 mL da solução concentrada** para fornecer 10 mg.\n\n**3. O volume de medicamento não é necessariamente o volume final da nebulização.**\n\nA solução concentrada pode precisar ser diluída para alcançar o volume adequado ao nebulizador.\n\nNo esquema descrito pelo UpToDate, o salbutamol é administrado em um preparo com 4 mL de solução salina.\n\nA preparação final deve respeitar as instruções do medicamento, o equipamento e o protocolo institucional. Não se deve confundir o volume de salbutamol concentrado com o volume final colocado no reservatório.\n\n**4. Por que não prescrever em gotas sem conferir a apresentação?**\n\nO número de gotas por mililitro pode variar conforme o gotejador e a apresentação comercial.\n\nPor isso, a conversão para gotas não deve ser presumida.\n\nA utilização de uma seringa graduada para medir o volume em mililitros evita depender de uma equivalência não verificada.\n\n**5. Uma dose maior exige atenção aos efeitos adversos.**\n\nO uso de doses elevadas de beta-2-agonistas pode provocar taquicardia e outros efeitos cardiovasculares.\n\nPortanto, o cálculo correto não elimina a necessidade de avaliar riscos e monitorar o paciente.\n\n**O aluno precisa saber calcular a dose, mas também compreender por que ela é diferente daquela utilizada no broncoespasmo.**",
+      "pearl": "Na hipercalemia, a dose nebulizada de salbutamol é muito maior que a utilizada habitualmente no broncoespasmo. Prescreva em miligramas, confira a concentração e calcule o volume antes de administrar.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Beta-2-adrenergic agonists”, página 13."
+    },
+    {
+      "number": 4,
+      "id": "hipercalemia-aq17-q04",
+      "title": "TRINTA MINUTOS DEPOIS, O POTÁSSIO AINDA ESTÁ ELEVADO",
+      "competency": "Interpretar o tempo de resposta e a magnitude esperada do efeito hipocalemiante.",
+      "stem": "Um homem de 65 anos, com doença renal crônica avançada, apresenta potássio sérico de 7,1 mEq/L.\n\nA equipe inicia o tratamento indicado e acrescenta salbutamol nebulizado, em dose hipocalemiante, como terapia adjuvante.\n\nO medicamento é administrado por nebulização.\n\nOs controles mostram:\n\nUm residente comenta:\n\n“O salbutamol praticamente não funcionou. Como já passaram 30 minutos, não devemos esperar mais nenhum efeito.”\n\n**Qual interpretação é mais adequada?**",
+      "table": {
+        "caption": "Dados do caso",
+        "headers": [
+          "Momento",
+          "Potássio sérico"
+        ],
+        "rows": [
+          [
+            "Antes do salbutamol",
+            "7,1 mEq/L"
+          ],
+          [
+            "Após 30 minutos",
+            "6,9 mEq/L"
+          ]
+        ]
+      },
+      "choices": {
+        "A": "O salbutamol nebulizado atinge obrigatoriamente seu efeito máximo em cinco minutos; portanto, a ausência de grande redução aos 30 minutos comprova resistência farmacológica.",
+        "B": "O efeito máximo do salbutamol nebulizado pode ocorrer por volta de 90 minutos. Uma redução discreta aos 30 minutos não permite concluir isoladamente que o tratamento falhou, mas também não justifica aguardar passivamente diante de hipercalemia grave.",
+        "C": "O salbutamol só começa a agir após seis horas, motivo pelo qual não tem qualquer papel no tratamento agudo.",
+        "D": "O potássio deve cair exatamente 1,5 mEq/L em todos os pacientes que recebem salbutamol nebulizado, independentemente da dose e das condições clínicas."
+      },
+      "feedback": {
+        "A": "O efeito máximo da nebulização não ocorre obrigatoriamente em cinco minutos. A avaliação aos 30 minutos pode ser precoce.",
+        "B": "Reconhece o pico de efeito descrito para a nebulização e mantém a prioridade do tratamento da hipercalemia grave.",
+        "C": "O salbutamol possui ação suficientemente rápida para ser considerado uma terapia adjuvante no tratamento agudo.",
+        "D": "A redução de potássio varia entre pacientes. Não existe garantia de queda exata de 1,5 mEq/L."
+      },
+      "correctExplanation": "A questão aborda um erro frequente: avaliar uma intervenção farmacológica sem considerar seu tempo esperado de resposta.\n\n**1. A via de administração influencia o tempo de ação.**\n\nO UpToDate descreve que o efeito máximo do albuterol sobre o potássio é observado aproximadamente:\n\n- Em 30 minutos, quando administrado por infusão intravenosa.\n- Em 90 minutos, quando administrado por nebulização.\n\nPortanto, não se deve interpretar uma medida obtida 30 minutos após a nebulização como se ela necessariamente representasse o efeito máximo.\n\n**2. Qual redução pode ser esperada?**\n\nO documento descreve reduções do potássio sérico aproximadamente entre 0,5 e 1,5 mEq/L com beta-2-agonistas.\n\nEntretanto, essa faixa não é uma promessa de resposta individual.\n\nA magnitude da redução pode variar conforme as condições clínicas e a resposta farmacológica.\n\n**3. O resultado aos 30 minutos não prova falha.**\n\nA redução de 7,1 para 6,9 mEq/L é discreta.\n\nComo o efeito máximo da nebulização ainda pode não ter ocorrido, essa medida isolada não permite afirmar que o medicamento foi ineficaz.\n\n**4. Isso significa que podemos simplesmente esperar?**\n\nNão.\n\nO paciente continua com potássio de 6,9 mEq/L, valor associado a risco importante.\n\nA equipe deve manter monitorização, reavaliar o ECG, acompanhar o tratamento já instituído e assegurar que as estratégias de remoção de potássio estejam sendo executadas.\n\nO salbutamol não deve ser utilizado como justificativa para adiar intervenções necessárias.\n\n**5. O resultado deve ser interpretado dentro do conjunto do tratamento.**\n\nSe o paciente recebeu insulina, cálcio e outras intervenções, a evolução do potássio reflete o conjunto das medidas e da condição clínica.\n\nNão é possível atribuir automaticamente toda a variação laboratorial a um único medicamento.\n\n**Conhecer o tempo de ação evita tanto declarar falha precocemente quanto esperar demais por um tratamento insuficiente.**",
+      "pearl": "Não confunda ausência de efeito máximo com ausência de efeito. Mas também não espere 90 minutos por um medicamento adjuvante enquanto o paciente continua eletricamente ameaçado.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Beta-2-adrenergic agonists”, página 13."
+    },
+    {
+      "number": 5,
+      "id": "hipercalemia-aq17-q05",
+      "title": "E SE O PACIENTE TIVER DOENÇA CORONARIANA ATIVA?",
+      "competency": "Reconhecer efeitos adversos e individualizar a utilização do salbutamol.",
+      "stem": "Um homem de 74 anos, com doença renal crônica avançada e doença arterial coronariana conhecida, chega à emergência com potássio sérico de 6,9 mEq/L.\n\nApresenta dor torácica em repouso, sugestiva de isquemia miocárdica ativa, e frequência cardíaca de 112 bpm.\n\nA equipe inicia a avaliação e o tratamento da hipercalemia conforme a gravidade clínica.\n\nUm interno sugere acrescentar salbutamol nebulizado em dose hipocalemiante para potencializar a redução do potássio.\n\n**Qual é a melhor orientação?**",
+      "choices": {
+        "A": "Administrar salbutamol obrigatoriamente, pois os beta-2-agonistas reduzem a frequência cardíaca e o consumo de oxigênio do miocárdio.",
+        "B": "Substituir o cálcio e a insulina pelo salbutamol, pois o medicamento apresenta menor risco cardiovascular que as outras intervenções.",
+        "C": "Reconhecer que o salbutamol pode provocar taquicardia e precipitar ou agravar angina em pacientes suscetíveis. Diante de suspeita de doença coronariana ativa, deve-se evitar seu uso como adjuvante, priorizando as demais medidas indicadas e a remoção efetiva do potássio.",
+        "D": "Administrar salbutamol sem monitorização cardíaca, pois seus efeitos adversos são exclusivamente respiratórios."
+      },
+      "feedback": {
+        "A": "O salbutamol pode provocar taquicardia. Não deve ser considerado um medicamento destinado a reduzir a frequência cardíaca ou o consumo miocárdico de oxigênio.",
+        "B": "O salbutamol não substitui cálcio ou insulina quando essas intervenções estão indicadas.",
+        "C": "Reconhece os riscos cardiovasculares e a recomendação do UpToDate de evitar beta-2-agonistas em pacientes com doença coronariana ativa.",
+        "D": "Os efeitos adversos não são exclusivamente respiratórios. A monitorização cardiovascular é particularmente importante em pacientes vulneráveis."
+      },
+      "correctExplanation": "O salbutamol pode contribuir para reduzir o potássio, mas isso não significa que seja apropriado para todos os pacientes.\n\n**1. O efeito beta-2 não se limita ao potássio.**\n\nA estimulação beta-adrenérgica também pode produzir efeitos cardiovasculares.\n\nO UpToDate destaca a possibilidade de taquicardia e indução de angina em indivíduos suscetíveis.\n\n**2. Por que a doença coronariana ativa é importante?**\n\nO paciente já apresenta dor torácica sugestiva de isquemia e frequência cardíaca elevada.\n\nUma intervenção capaz de aumentar ainda mais a frequência cardíaca pode elevar a demanda miocárdica de oxigênio e agravar o desequilíbrio entre oferta e consumo.\n\nPor isso, os autores do UpToDate recomendam evitar beta-2-agonistas em pacientes com doença coronariana ativa.\n\n**3. Isso significa abandonar o tratamento da hipercalemia?**\n\nNão.\n\nA hipercalemia continua exigindo tratamento conforme sua gravidade.\n\nA equipe deve utilizar as medidas apropriadas para estabilização elétrica, redistribuição e remoção de potássio, considerando as condições clínicas e as contraindicações específicas.\n\n**4. Por que o salbutamol não deve substituir as outras intervenções?**\n\nO medicamento é uma terapia adjuvante.\n\nSua ação redistributiva não substitui a estabilização elétrica com cálcio quando indicada nem a remoção efetiva do potássio.\n\n**5. A avaliação de segurança precisa anteceder a prescrição.**\n\nAntes de acrescentar salbutamol em dose hipocalemiante, é importante verificar:\n\n- Frequência cardíaca.\n- Presença de dor torácica ou suspeita de isquemia.\n- História de doença coronariana.\n- Condições de monitorização.\n\nEssa avaliação não deve atrasar as medidas essenciais para tratar uma emergência hipercalêmica.\n\n**O melhor tratamento não é necessariamente aquele que acrescenta mais medicamentos, mas aquele que oferece benefício considerando os riscos específicos do paciente.**",
+      "pearl": "Antes de acrescentar salbutamol para baixar o potássio, olhe para o coração do paciente. Uma redução adicional do potássio não compensa automaticamente o risco de agravar uma isquemia ativa.",
+      "reference": "UpToDate — Treatment and prevention of hyperkalemia in adults, seção “Beta-2-adrenergic agonists”, página 14."
+    }
+  ]
+}
