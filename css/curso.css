@@ -118,3 +118,40 @@
 #curso-agoraprescreva {
   margin-block-end: 28px;
 }
+
+.atividades-curriculo {
+  --espaco-entre-modulos: 14px;
+  display: grid;
+  gap: var(--espaco-entre-modulos);
+  margin-top: var(--espaco-entre-modulos);
+}
+
+.atividades-curriculo .curso-atividade {
+  margin: 0;
+  padding: 12px;
+  gap: 10px;
+  flex-wrap: nowrap;
+}
+
+.atividades-curriculo .curso-atividade-selo {
+  width: 34px;
+  height: 34px;
+}
+
+.atividades-curriculo .curso-atividade > span:nth-child(2) {
+  flex: 1;
+}
+
+.atividades-curriculo .curso-atividade strong {
+  margin-top: 0;
+  font-size: 1rem;
+  overflow-wrap: anywhere;
+}
+
+.atividades-curriculo .curso-atividade-acao {
+  margin-left: 0;
+}
+
+.pagina-aula #lista-modulo:has(+ .atividades-curriculo) {
+  margin-bottom: 0;
+}

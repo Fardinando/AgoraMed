@@ -12,6 +12,7 @@
  const visao='curso.html?id='+encodeURIComponent(curso.id);$('ab-visao').href=visao;
  const link=(m,a)=>`aula.html?${new URLSearchParams({c:curso.id,m:m.id,a:a.id})}`;
  $('ab-modulos').innerHTML=curso.modulos.map((m,i)=>`<details class="ab-modulo"><summary><span>${String(i+1).padStart(2,'0')}</span><strong>${esc(m.titulo)}</strong><span aria-hidden="true">⌄</span></summary><ul>${m.aulas.map((a,j)=>`<li><a href="${esc(link(m,a))}">${j+1}. ${esc(a.titulo)}</a></li>`).join('')}</ul></details>`).join('');
+ AtividadesCurso.mostrarNaNavegacao(curso, $('ab-modulos'));
  const video=curso.abertura.youtubeId?.trim();
  if(curso.abertura.streamUid){
   await PlayerCurso.montar($('ab-player'),{cursoId:curso.id,titulo:'Boas-vindas e orientação do curso',poster:curso.id==='fa3c5d8d-94c4-4321-be7a-1cc45741a983'?'img/hipercalemia-boas-vindas.png':''});

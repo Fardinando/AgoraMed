@@ -11,7 +11,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-v2.png">
   <link rel="stylesheet" href="css/styles.css?v=73">
   <link rel="stylesheet" href="css/inicio.css?v=50">
-  <link rel="stylesheet" href="css/curso.css?v=52">
+  <link rel="stylesheet" href="css/curso.css?v=116">
   <link rel="stylesheet" href="css/aula.css?v=54">
   <link rel="stylesheet" href="css/quiz-aula.css?v=66">
   <link rel="stylesheet" href="css/dialogos.css?v=56">
@@ -98,6 +98,7 @@
   <script src="js/tema-curso.js?v=117"></script>
   <script src="js/store.js?v=118"></script>
   <script src="js/quiz-aula.js?v=67"></script>
+  <script src="js/atividades-curso.js?v=1"></script>
   <script type="module">
     await Store.iniciar();
     const usuario = Store.proteger();
@@ -129,6 +130,7 @@
       const destino=aula.atividade==='plantao-pos-parada-v1'?'plantao-virtual.html':'agoraquiz.html';
       location.replace(`${destino}?aula_id=${encodeURIComponent(aula.id)}`);
     } else {
+      AtividadesCurso.mostrarNaNavegacao(curso, document.getElementById('lista-modulo'));
       /* ---------------------------- player de vídeo (YouTube, nocookie) */
       const palco = document.getElementById('palco');
       const yt = (aula.youtubeId || '').trim();

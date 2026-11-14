@@ -3,7 +3,7 @@
    quando o aluno estiver sem internet. Assim as aulas e materiais novos aparecem
    na hora, e o app continua abrindo offline.
 */
-const CACHE = 'agoramed-v99';
+const CACHE = 'agoramed-v100';
 /* Recursos visuais do login e ícones também ficam disponíveis offline.
    As respostas autenticadas de /api/ continuam fora do cache. */
 const APP = [
@@ -19,7 +19,7 @@ const APP = [
   'agoraquest.html', 'css/agoraquest.css?v=4', 'js/agoraquest.js?v=5',
   'caderno-erros.html', 'css/caderno-erros.css?v=2', 'js/caderno-erros.js?v=3',
   'morte-encefalica.html', 'css/landing-me.css?v=57', 'index.html', 'app.html', 'curso.html', 'aula.html', 'admin.html', 'redefinir.html', 'sobre.html',
-  'agoraprescreva.html', 'css/agoraprescreva.css?v=2', 'js/agoraprescreva-rules.js?v=1', 'js/agoraprescreva.js?v=1', 'css/curso.css?v=115', 'js/store.js?v=118',
+  'agoraprescreva.html', 'css/agoraprescreva.css?v=2', 'js/agoraprescreva-rules.js?v=1', 'js/agoraprescreva.js?v=1', 'css/curso.css?v=116', 'js/atividades-curso.js?v=1', 'abertura.html', 'js/abertura.js?v=127', 'js/store.js?v=118',
   'css/dialogos.css?v=56', 'js/dialogos.js?v=56', 'css/redefinir.css?v=56', 'css/admin.css?v=82', 'css/aula.css?v=54', 'css/curso.css?v=52', 'css/styles.css?v=73', 'css/inicio.css?v=84', 'css/sobre.css', 'css/sobre-petroleo.css?v=51', 'img/anderson-uti.jpg', 'js/store.js?v=72', 'js/admin-ranking.js?v=58', 'js/admin-progresso.js?v=61', 'js/catalogo-cursos.js?v=83', 'js/editor-curso.js?v=70', 'manifest.json',
   'icons/icon-192.png?v=2', 'icons/icon-512.png?v=2', 'icons/icon-maskable-v2.png', 'icons/apple-touch-icon-v2.png',
   'css/login.css?v=48', 'js/login-ui.js', 'fonts/playfair-display-400-latin.woff2',
