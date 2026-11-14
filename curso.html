@@ -52,6 +52,11 @@
         <a id="curso-abertura" class="curso-abertura oculto" href="#"><span aria-hidden="true">▷</span><span><strong>Comece por aqui</strong><small>Boas-vindas, e-book e biblioteca de apoio</small></span><span aria-hidden="true">→</span></a>
         <div class="programa-cab"><h2 id="programa-titulo">Conteúdo do curso</h2><span id="programa-resumo"></span></div>
         <div class="modulos" id="lista-modulos"></div>
+        <a id="curso-agoraprescreva" class="curso-agoraprescreva oculto" href="agoraprescreva.html?atualizar=1">
+          <span class="curso-agoraprescreva-selo" aria-hidden="true">Rx</span>
+          <span><small>SIMULAÇÃO CLÍNICA · PRÁTICA DE PRESCRIÇÃO</small><strong>AgoraPrescreva</strong><em>Organize suas condutas, receba feedback e reavalie o caso.</em></span>
+          <span class="curso-agoraprescreva-acao">Iniciar atividade <b aria-hidden="true">→</b></span>
+        </a>
       </section>
       <aside class="curso-lateral" aria-label="Seu aprendizado">
         <section class="painel-progresso" id="c-progresso">
@@ -97,6 +102,9 @@
     /* o servidor já devolve só os cursos que este usuário pode ver */
     const permitido = !!curso;
     if(curso) TemaCurso.aplicar(curso);
+
+      const acessoAgoraPrescreva = cursoId === 'fa3c5d8d-94c4-4321-be7a-1cc45741a983' && permitido;
+      document.getElementById('curso-agoraprescreva').classList.toggle('oculto', !acessoAgoraPrescreva);
 
     if (!permitido) {
       document.getElementById('sem-acesso').classList.remove('oculto');

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071d22">
+  <title>AgoraPrescreva · AgoraMed</title>
+  <link rel="stylesheet" href="css/agoraprescreva.css?v=1">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="curso.html?id=fa3c5d8d-94c4-4321-be7a-1cc45741a983&atualizar=1" aria-label="Voltar ao curso de hipercalemia"><img src="img/agoramed-logo-branco.png" alt="AgoraMed · Pronto para o plantão" width="906" height="184"></a>
+    <div class="top-context"><span class="course-dot"></span><span>TRATAMENTO DA HIPERCALEMIA EM ADULTOS</span></div>
+    <div class="top-actions"><a class="text-button" href="curso.html?id=fa3c5d8d-94c4-4321-be7a-1cc45741a983&atualizar=1">← Voltar ao curso</a></div>
+  </header>
+
+  <main class="shell" id="inicio">
+    <div class="breadcrumb"><a href="curso.html?id=fa3c5d8d-94c4-4321-be7a-1cc45741a983&atualizar=1">Curso de hipercalemia</a><b>/</b><strong>AgoraPrescreva</strong></div>
+    <section class="page-heading">
+      <div><div class="eyebrow">SIMULAÇÃO CLÍNICA · OF-HPK-001</div><h1>Transforme sua avaliação em uma <em>prescrição organizada.</em></h1><p>Consulte o prontuário, componha as ordens e revise tudo em uma tela de conferência.</p></div>
+      <div class="heading-meta"><span class="status"><i></i> Caso em andamento</span><span class="time">◷ &nbsp;15–20 min</span></div>
+    </section>
+
+    <nav class="steps" aria-label="Etapas da oficina">
+      <div class="step done"><span>01</span><div><b>Avaliação</b><small>Caso e dados clínicos</small></div><i></i></div>
+      <div class="step active"><span>02</span><div><b>Prescrição</b><small>Ordens e monitorização</small></div><i></i></div>
+      <div class="step" id="stepFeedback"><span>03</span><div><b>Feedback</b><small>Desempenho e reavaliação</small></div></div>
+    </nav>
+
+    <div class="mobile-tabs" role="tablist" aria-label="Alternar painel"><button class="active" data-pane="patient" type="button">Paciente</button><button data-pane="orders" type="button">Prescrição <b id="mobileCount">0</b></button></div>
+
+    <div class="work-grid" id="workGrid">
+      <aside class="patient-column" id="patientPane">
+        <section class="patient-card card">
+          <div class="card-heading"><div><span class="eyebrow">PRONTUÁRIO · SALA VERMELHA</span><h2>José Carlos M.</h2></div><span class="age-badge">68 anos</span></div>
+          <p class="patient-line">Masculino <span>·</span> 72 kg <span>·</span> Leito 03</p>
+          <div class="acuity"><span class="pulse"></span><div><b>Atenção prioritária</b><small>Hipercalemia grave · ECG alterado</small></div></div>
+          <div class="vital-grid">
+            <div><small>PRESSÃO</small><strong>105/65</strong><em>mmHg</em></div><div><small>FREQUÊNCIA</small><strong>48</strong><em>bpm</em></div>
+            <div><small>RESPIRAÇÃO</small><strong>20</strong><em>irpm</em></div><div><small>SATURAÇÃO</small><strong>97%</strong><em>ar ambiente</em></div>
+          </div>
+          <div class="patient-tabs"><button class="selected" data-record="summary" type="button">Resumo</button><button data-record="labs" type="button">Exames</button><button data-record="history" type="button">História</button></div>
+          <div class="record-view" id="recordView"></div>
+        </section>
+        <section class="clinical-note card"><span class="note-icon">i</span><div><b>Simulação educacional</b><p>Dados fictícios. Esta proposta não orienta atendimento real; critérios e condutas precisam de revisão clínica.</p></div></section>
+      </aside>
+
+      <section class="orders-column card" id="ordersPane">
+        <div class="orders-title"><div><span class="eyebrow">AGORAPRESCREVA</span><h2>Ordens do atendimento</h2><p>Adicione os itens que deseja registrar. As doses permanecem em branco para você preencher.</p></div><div class="order-count"><b id="orderCount">0</b><small>itens</small></div></div>
+        <div class="order-toolbar"><label class="sr-only" for="catalog">Adicionar ordem</label><select id="catalog"><option value="">Escolha no catálogo para adicionar…</option></select><button id="addOrder" class="button secondary" type="button">＋ Adicionar</button></div>
+
+        <div class="subsection-head"><div><span class="eyebrow">01 · PRESCRIÇÃO MEDICAMENTOSA</span><h3>Medicamentos e soluções</h3></div><span class="sub-count" id="medCount">0 registrados</span></div>
+        <div class="orders-list" id="ordersList"><div class="empty-state"><span>＋</span><b>Nenhuma ordem adicionada</b><small>Selecione um item do catálogo para começar a compor a prescrição.</small></div></div>
+
+        <div class="subsection-head conduct-head"><div><span class="eyebrow">02 · PLANO DE CUIDADO</span><h3>Monitorização e outras condutas</h3></div></div>
+        <div class="conduct-grid" id="conductGrid"></div>
+        <label class="label-block" for="notes">Orientações adicionais <span>Opcional</span></label><textarea id="notes" class="notes" placeholder="Registre observações e justificativas para sua equipe…"></textarea>
+        <div class="editor-footer"><div><span class="saved-dot"></span><span>Rascunho mantido neste navegador</span></div><button id="reviewBtn" class="button primary" type="button">Revisar prescrição <span>→</span></button></div>
+      </section>
+    </div>
+
+    <section id="review" class="review card hidden" aria-live="polite">
+      <div class="review-head"><div><span class="eyebrow">ETAPA 03 · FEEDBACK DA PRESCRIÇÃO</span><h2>Veja como suas decisões se organizaram.</h2><p>Notas por domínio, alertas prioritários e pontos que ainda precisam de revisão manual.</p></div><button id="backBtn" class="button secondary" type="button">← Voltar à edição</button></div>
+      <div class="score-overview"><div class="score-ring"><strong id="scoreTotal">0</strong><span>/ 100</span></div><div class="score-copy"><span id="passStatus" class="score-status">ANÁLISE FORMATIVA</span><h3 id="scoreTitle">Sua devolutiva está pronta.</h3><p id="scoreSummary"></p></div></div>
+      <div id="domainGrid" class="domain-grid"></div>
+      <div id="feedbackAlerts" class="feedback-alerts hidden"></div>
+      <div class="review-grid"><article class="review-section"><span class="eyebrow">O QUE VOCÊ REGISTROU</span><h3>Minha prescrição</h3><div id="reviewOrders" class="review-content"></div><h4>Plano de cuidado</h4><div id="reviewPlan" class="review-content"></div></article><article class="review-section reference-section"><span class="eyebrow">PLANO DE REFERÊNCIA</span><h3>Elementos esperados neste cenário</h3><div id="referencePlan" class="review-content"></div></article></div>
+      <div class="review-disclaimer"><b>Feedback educacional baseado em regras preliminares.</b><span>As doses, apresentações, preparos, alternativas e critérios de pontuação precisam de revisão médica antes de uso avaliativo. A nota não mede competência clínica nem substitui supervisão.</span></div>
+      <div class="review-actions"><button id="editBtn" class="button secondary" type="button">Editar prescrição</button><button id="reassessBtn" class="button primary" type="button">Avançar para reavaliação <span>→</span></button></div>
+    </section>
+
+    <section id="reassess" class="reassess hidden" aria-live="polite">
+      <div class="review-head reassess-heading"><div><span class="eyebrow">ETAPA 03 · EVOLUÇÃO SIMULADA</span><h2>Reavalie a resposta do paciente.</h2><p>Os resultados abaixo são eventos pré-programados para esta atividade.</p></div><button id="backFeedback" class="button secondary" type="button">← Voltar à devolutiva</button></div>
+      <div class="timeline-line"><span>INÍCIO</span><i></i><span>15 MIN</span><i></i><span>90 MIN</span></div>
+      <div class="reassess-grid">
+        <article class="time-card"><span class="time-label">15 MINUTOS · RESPOSTA INICIAL</span><h3>O ECG apresentou melhora.</h3><div class="response-data"><div><small>FREQUÊNCIA</small><strong>68 bpm</strong></div><div><small>QRS</small><strong>110 ms</strong></div></div><p>A resposta eletrocardiográfica inicial não representa, por si só, remoção do potássio.</p><h4>É possível encerrar o tratamento?</h4><div class="choice-list" data-group="time15"><button data-answer="stop" type="button">Sim. A alteração do ECG resolveu.</button><button data-answer="continue" type="button">Não. Manter vigilância e concluir a estratégia de remoção.</button></div><div class="answer-feedback hidden" id="fb15"></div></article>
+        <article class="time-card"><span class="time-label">90 MINUTOS · NOVA AVALIAÇÃO</span><h3>O potássio permanece elevado.</h3><div class="response-data"><div><small>POTÁSSIO</small><strong>6,1 mEq/L</strong></div><div><small>GLICEMIA</small><strong>82 mg/dL</strong></div></div><p>Os resultados programados pedem continuidade da vigilância e revisão do plano.</p><h4>O que deve continuar?</h4><div class="choice-list" data-group="time90"><button data-answer="observe" type="button">Observar sem novos controles, pois houve melhora.</button><button data-answer="monitor" type="button">Manter controles, reavaliar o potássio e seguir o plano de remoção.</button></div><div class="answer-feedback hidden" id="fb90"></div></article>
+      </div>
+      <div class="review-disclaimer"><b>Resposta simulada e previamente programada.</b><span>Este cenário não modela a fisiologia individual nem substitui protocolos institucionais ou avaliação clínica.</span></div>
+      <div class="review-actions"><button id="returnToRx" class="button secondary" type="button">Refazer prescrição</button><button id="finishBtn" class="button primary" type="button">Concluir reavaliação <span>✓</span></button></div>
+    </section>
+
+    <section id="finished" class="finished card hidden" aria-live="polite"><div class="finished-mark">✓</div><span class="eyebrow">TENTATIVA CONCLUÍDA</span><h2>Feedback e reavaliação concluídos.</h2><p>Escolha se deseja revisar a devolutiva, refazer a atividade ou finalizar e voltar à página do curso.</p><div class="review-actions finish-actions"><button id="backToFeedbackFinal" class="button secondary" type="button">← Voltar à devolutiva</button><button id="againBtn" class="button secondary" type="button">Refazer AgoraPrescreva</button><button id="finalizeBtn" class="button primary" type="button">Finalizar tentativa <span>✓</span></button></div><p id="saveStatus" class="finish-note" role="status" aria-live="polite"></p></section>
+    <footer class="footer"><span>AGORAMED · PRONTO PARA O PLANTÃO</span><span>AgoraPrescreva · atividade educacional</span></footer>
+  </main>
+
+  <template id="orderTemplate"><article class="order-card"><div class="order-card-top"><div class="order-identity"><span class="order-number"></span><span class="med-icon">Rx</span><div><b class="order-name"></b><small>Ordem medicamentosa · simulação</small></div></div><div class="order-actions"><button class="up" type="button" aria-label="Mover ordem para cima">↑</button><button class="down" type="button" aria-label="Mover ordem para baixo">↓</button><button class="delete" type="button">Remover</button></div></div><div class="form-grid"><label>Apresentação<input data-field="presentation" placeholder="Apresentação / concentração"></label><label>Dose<input data-field="dose" placeholder="Preencher dose"></label><label>Unidade<select data-field="unit"><option value="">Selecionar</option><option>mg</option><option>g</option><option>UI</option><option>mL</option><option>mcg</option><option>mEq</option></select></label><label>Via<select data-field="route"><option value="">Selecionar</option><option>IV</option><option>VO</option><option>Inalatória</option><option>Outra</option></select></label><label class="span2">Preparo / diluição<input data-field="diluent" placeholder="Conforme referência validada"></label><label>Volume final<input data-field="volume" placeholder="Preencher"></label><label>Tempo / velocidade<input data-field="rate" placeholder="Preencher"></label><label>Frequência<input data-field="frequency" placeholder="Preencher"></label><label class="span3">Instruções e observações<input data-field="instructions" placeholder="Indicação, monitorização e observações"></label></div></article></template>
+  <script src="js/store.js?v=118"></script>
+  <script src="js/agoraprescreva-rules.js?v=1"></script>
+  <script src="js/agoraprescreva.js?v=1"></script>
+</body>
+</html>

@@ -79,3 +79,10 @@
 }
 
 .curso-abertura{display:flex;align-items:center;gap:18px;padding:22px 24px;margin-bottom:28px;border:1px solid #b6a0f4;border-radius:16px;background:linear-gradient(120deg,#332b49,#103640);color:#f2edf9;text-decoration:none}.curso-abertura>span:first-child{font-size:30px;color:#cfbfff}.curso-abertura>span:nth-child(2){flex:1}.curso-abertura strong,.curso-abertura small{display:block}.curso-abertura small{margin-top:7px;color:#c4d5df}.curso-abertura:hover{background:#293545}.curso-abertura:focus-visible{outline:3px solid #cfbfff;outline-offset:4px}
+
+.curso-agoraprescreva{display:flex;align-items:center;gap:18px;padding:22px 24px;margin:0 0 28px;border:1px solid #b6a0f4;border-radius:16px;background:linear-gradient(120deg,#28233a,#102f38);color:#f2edf9;text-decoration:none;transition:background .18s ease,border-color .18s ease,transform .18s ease}
+.curso-agoraprescreva:hover{background:linear-gradient(120deg,#38304f,#123943);border-color:#d1bfff;transform:translateY(-1px)}
+.curso-agoraprescreva:focus-visible{outline:3px solid #cfbfff;outline-offset:4px}
+.curso-agoraprescreva-selo{display:grid;place-items:center;width:52px;height:52px;flex:none;border:1px solid #b6a0f4;border-radius:13px;background:#352c4a;color:#dfd0ff;font-weight:700}
+.curso-agoraprescreva>span:nth-child(2){flex:1;min-width:0}.curso-agoraprescreva small,.curso-agoraprescreva strong,.curso-agoraprescreva em{display:block}.curso-agoraprescreva small{color:#d1bdff;font-size:.65rem;letter-spacing:.16em;font-style:normal}.curso-agoraprescreva strong{margin-top:5px;font:400 1.3rem 'Playfair Display',Georgia,serif}.curso-agoraprescreva em{margin-top:5px;color:#c4d5df;font-size:.86rem;font-style:normal}.curso-agoraprescreva-acao{display:flex;align-items:center;gap:10px;white-space:nowrap;color:#dccbff;font-weight:600}
+@media(max-width:760px){.curso-agoraprescreva{gap:12px;padding:17px;flex-wrap:wrap}.curso-agoraprescreva-selo{width:44px;height:44px}.curso-agoraprescreva>span:nth-child(2){flex:1 1 calc(100% - 60px)}.curso-agoraprescreva-acao{margin-left:56px;font-size:.85rem}}
