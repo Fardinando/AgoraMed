@@ -18,3 +18,6 @@
 .ab-referencias li{padding:15px 0}.ab-ref-titulo{font-size:.86rem;color:#e3eef2;line-height:1.5}.ab-ref-acoes{display:flex;flex-wrap:wrap;gap:10px 20px;margin-top:10px}.ab-referencias .ab-ref-acoes a{display:inline-flex;flex:none;padding:6px 0;color:#cfbfff;font-size:.78rem;min-height:36px;align-items:center}.ab-referencias .ab-ref-acoes .ab-ref-pdf{padding:7px 13px;border:1px solid #a68bd6;border-radius:8px;background:#b6a0f414;color:#e5d8ff}.ab-ref-acoes a:hover{text-decoration:underline;text-underline-offset:4px}
 
 .pagina-abertura .ab-selecionado{transition:background-color .18s,color .18s,border-color .18s}.pagina-abertura .ab-selecionado:hover,.pagina-abertura .ab-selecionado:focus-visible{background-color:#cfbfff;border-color:#e2d6ff;color:#192334;text-decoration:none}.ab-selecionado:hover .ab-selecionado-texto,.ab-selecionado:focus-visible .ab-selecionado-texto{text-decoration:underline;text-underline-offset:4px}.ab-selecionado .ab-play{text-decoration:none}@media(prefers-reduced-motion:reduce){.pagina-abertura .ab-selecionado{transition:none}}
+
+.ab-sidebar #ab-agoraquiz,.ab-sidebar #ab-agoraprescreva{margin-top:12px;color:#e4d7ff;border-color:#8d78bd}
+.ab-sidebar #ab-agoraquiz:hover,.ab-sidebar #ab-agoraprescreva:hover{background:#302a45}

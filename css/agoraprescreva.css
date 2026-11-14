@@ -8,3 +8,15 @@
 .finish-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:24px}.finish-actions .button{flex:1 1 190px}.finish-note{margin:18px 0 0;color:var(--muted);font-size:13px}
 @media(max-width:640px){.finish-actions{flex-direction:column-reverse}.finish-actions .button{width:100%;flex-basis:auto}.finish-note{font-size:11px}}
 .alert-block.positive{border-color:#4b9678;background:#102f29;color:#c8f0dd}
+
+/* Cabeçalho da atividade com a logomarca oficial. */
+.topbar{grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:16px;background:linear-gradient(100deg,#041e26,#07323e);border-color:#345a64}
+.topbar .brand{display:block;width:min(100%,220px);min-width:0}
+.topbar .brand img{display:block;width:100%;height:auto}
+.topbar .top-context{text-align:center}
+.topbar .top-actions a{display:inline-flex;align-items:center;min-height:44px;padding:8px 14px;border:1px solid #4b6975;border-radius:999px;text-decoration:none;white-space:nowrap;color:#ece2ff}
+.topbar .top-actions a:hover{background:#302a45;border-color:var(--accent)}
+.breadcrumb a,.breadcrumb a:visited{color:var(--accent)}
+.topbar a:focus-visible,.breadcrumb a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+@media(max-width:980px){.topbar{grid-template-columns:minmax(0,1fr) auto}}
+@media(max-width:640px){.topbar .brand{width:min(100%,170px)}.topbar .top-actions a{font-size:.75rem;padding-inline:9px}}
