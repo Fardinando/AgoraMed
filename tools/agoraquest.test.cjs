@@ -3431,7 +3431,7 @@ test('estático: páginas, link no app, service worker e ausência do gabarito n
   assert.match(roteador, /'agoraquest-caderno': require\('\.\.\/lib\/rotas\/agoraquest-caderno'\)/);
 
   const sw = fs.readFileSync(path.join(__dirname, '../sw.js'), 'utf8');
-  assert.match(sw, /agoramed-v90/);
+  assert.match(sw, /agoramed-v91/);
   assert.match(sw, /agoraquest\.html/);
   assert.match(sw, /caderno-erros\.html/);
   assert.match(sw, /css\/agoraquest\.css\?v=4/);
