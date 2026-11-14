@@ -3390,7 +3390,7 @@ test('estático: páginas, link no app, service worker e ausência do gabarito n
 
   const caderno = fs.readFileSync(path.join(__dirname, '../caderno-erros.html'), 'utf8');
   assert.match(caderno, /css\/agoraquest\.css\?v=4/);
-  assert.match(caderno, /css\/caderno-erros\.css\?v=1/);
+  assert.match(caderno, /css\/caderno-erros\.css\?v=2/);
   assert.match(caderno, /js\/caderno-erros\.js\?v=2/);
   assert.match(caderno, /id="cd-review"/);
 
@@ -3431,12 +3431,12 @@ test('estático: páginas, link no app, service worker e ausência do gabarito n
   assert.match(roteador, /'agoraquest-caderno': require\('\.\.\/lib\/rotas\/agoraquest-caderno'\)/);
 
   const sw = fs.readFileSync(path.join(__dirname, '../sw.js'), 'utf8');
-  assert.match(sw, /agoramed-v88/);
+  assert.match(sw, /agoramed-v90/);
   assert.match(sw, /agoraquest\.html/);
   assert.match(sw, /caderno-erros\.html/);
   assert.match(sw, /css\/agoraquest\.css\?v=4/);
   assert.match(sw, /js\/agoraquest\.js\?v=4/);
-  assert.match(sw, /css\/caderno-erros\.css\?v=1/);
+  assert.match(sw, /css\/caderno-erros\.css\?v=2/);
   assert.match(sw, /js\/caderno-erros\.js\?v=2/);
 
   /* Tema exclusivo do curso de Hipercalemia, escopado por data-aq-tema. */
