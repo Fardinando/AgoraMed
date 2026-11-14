@@ -87,20 +87,17 @@
 .curso-atividade>span:nth-child(2){flex:1;min-width:0}.curso-atividade small,.curso-atividade strong,.curso-atividade em{display:block}.curso-atividade small{color:#d1bdff;font-size:.65rem;letter-spacing:.16em;font-style:normal}.curso-atividade strong{margin-top:5px;font:400 1.3rem 'Playfair Display',Georgia,serif}.curso-atividade em{margin-top:5px;color:#c4d5df;font-size:.86rem;font-style:normal}.curso-atividade-acao{display:flex;align-items:center;gap:10px;white-space:nowrap;color:#dccbff;font-weight:600}
 @media(max-width:760px){.curso-atividade{gap:12px;padding:17px;flex-wrap:wrap}.curso-atividade-selo{width:44px;height:44px}.curso-atividade>span:nth-child(2){flex:1 1 calc(100% - 60px)}.curso-atividade-acao{margin-left:56px;font-size:.85rem}}
 
-/* A abertura é um link inteiro, mas só o título recebe o sublinhado. */
-#curso-abertura:hover,
-#curso-abertura:focus-visible,
+#curso-abertura {
+  margin: 0 0 28px;
+}
+
 .curso-atividade:is(:hover, :focus-visible) {
   background: var(--curso-claro, #cfbfff);
   color: #192334;
   text-decoration: none;
 }
 
-#curso-abertura:is(:hover, :focus-visible) > span,
-#curso-abertura:is(:hover, :focus-visible) small {
-  color: inherit;
-}
-
+/* Apenas o título da abertura recebe o sublinhado. */
 #curso-abertura:is(:hover, :focus-visible) strong {
   text-decoration: underline;
   text-underline-offset: 4px;
