@@ -52,6 +52,7 @@
         <a id="curso-abertura" class="curso-abertura oculto" href="#"><span aria-hidden="true">▷</span><span><strong>Comece por aqui</strong><small>Boas-vindas, e-book e biblioteca de apoio</small></span><span aria-hidden="true">→</span></a>
         <div class="programa-cab"><h2 id="programa-titulo">Conteúdo do curso</h2><span id="programa-resumo"></span></div>
         <div class="modulos" id="lista-modulos"></div>
+        <a id="curso-agoraquiz" class="curso-abertura oculto" href="#"><span aria-hidden="true">✓</span><span><strong>AgoraQuiz</strong><small>Pratique decisões clínicas no modo Estudo ou Simulado</small></span><span aria-hidden="true">→</span></a>
         <a id="curso-agoraprescreva" class="curso-agoraprescreva oculto" href="agoraprescreva.html?atualizar=1">
           <span class="curso-agoraprescreva-selo" aria-hidden="true">Rx</span>
           <span><small>SIMULAÇÃO CLÍNICA · PRÁTICA DE PRESCRIÇÃO</small><strong>AgoraPrescreva</strong><em>Organize suas condutas, receba feedback e reavalie o caso.</em></span>
@@ -105,6 +106,11 @@
 
       const acessoAgoraPrescreva = cursoId === 'fa3c5d8d-94c4-4321-be7a-1cc45741a983' && permitido;
       document.getElementById('curso-agoraprescreva').classList.toggle('oculto', !acessoAgoraPrescreva);
+      if (acessoAgoraPrescreva) {
+        const quiz = document.getElementById('curso-agoraquiz');
+        quiz.href = 'agoraquiz-curso.html?curso_id=' + encodeURIComponent(curso.id);
+        quiz.classList.remove('oculto');
+      }
 
     if (!permitido) {
       document.getElementById('sem-acesso').classList.remove('oculto');

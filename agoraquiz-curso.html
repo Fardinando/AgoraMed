@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#061F27">
+  <meta name="robots" content="noindex">
+  <title>AgoraQuiz de Hipercalemia | AgoraMed</title>
+  <link rel="icon" href="icons/icon-192.png?v=2" type="image/png">
+  <link rel="stylesheet" href="css/agoraquest.css?v=5">
+  <link rel="stylesheet" href="css/agoraquiz-curso.css?v=2">
+  <script src="js/agoraquiz-curso.js?v=2" defer></script>
+</head>
+<body data-aq-tema="hipercalemia">
+  <a class="aq-skip" href="#quiz">Ir para a avaliação</a>
+  <header class="aq-top">
+    <div class="aq-top-inner">
+      <a class="aq-brand" href="app.html" aria-label="AgoraMed — início">
+        <img src="img/agoramed-logo-branco.png" alt="AgoraMed — Pronto para o plantão" width="906" height="184">
+      </a>
+      <span class="aq-badge">AGORAQUIZ</span>
+      <nav class="aq-top-actions" aria-label="Ações da avaliação">
+        <a id="voltar-curso" class="aq-link" href="app.html">Voltar ao curso</a>
+        <button id="historico-topo" type="button" class="aq-btn ghost compact" disabled>Histórico</button>
+        <a class="aq-btn ghost compact" href="caderno-erros.html">Caderno de erros</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="quiz" class="aq-page quiz-curso" tabindex="-1">
+    <nav class="aq-crumb" aria-label="Localização">
+      <a href="app.html">Meus cursos</a><span aria-hidden="true">/</span>
+      <a id="curso-caminho" href="app.html">TRATAMENTO DA HIPERCALEMIA</a><span aria-hidden="true">/</span>
+      <span aria-current="page">AgoraQuiz</span>
+    </nav>
+    <section class="aq-hero" aria-labelledby="quiz-titulo">
+      <p class="aq-eyebrow">AVALIAÇÃO DO CURSO · HIPERCALEMIA</p>
+      <h1 id="quiz-titulo">Decisões seguras <em>no plantão.</em></h1>
+      <p class="aq-subtitle">Questões clínicas integradoras sobre o tratamento da hipercalemia em adultos.</p>
+      <div id="quiz-tags" class="aq-tags" hidden></div>
+    </section>
+    <p id="aviso" class="aq-alert" role="status"></p>
+    <div id="atividade" aria-busy="true">Carregando avaliação…</div>
+    <noscript>Ative o JavaScript para abrir o AgoraQuiz.</noscript>
+  </main>
+  <footer class="aq-footer">AGORAMED <span>·</span> Pronto para o plantão</footer>
+</body>
+</html>

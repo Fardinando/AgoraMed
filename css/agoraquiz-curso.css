@@ -1,0 +1,77 @@
+.quiz-curso {
+  overflow-wrap: anywhere;
+}
+
+.quiz-curso #quiz-tags[hidden],
+.quiz-curso #aviso:empty {
+  display: none;
+}
+
+.quiz-curso h2[tabindex="-1"] {
+  scroll-margin-top: 88px;
+}
+
+.quiz-curso .aq-progress-top {
+  flex-wrap: wrap;
+}
+
+.quiz-curso .aq-options legend {
+  padding: 0;
+}
+
+.quiz-curso .quiz-navegacao,
+.quiz-curso .quiz-campos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin-bottom: 1rem;
+}
+
+.quiz-curso .quiz-navegacao .aq-btn {
+  min-width: 2.75rem;
+  padding-inline: .55rem;
+}
+
+.quiz-curso [aria-current="step"] {
+  outline: 2px solid var(--aq-teal);
+  outline-offset: 1px;
+}
+
+.quiz-curso .quiz-campos {
+  gap: 1rem;
+}
+
+.quiz-curso .quiz-campos label {
+  display: grid;
+  gap: .4rem;
+}
+
+.quiz-curso select {
+  color: var(--aq-text);
+  background: var(--aq-card);
+  border: 1px solid var(--aq-line);
+  font: inherit;
+  padding: .55rem .7rem;
+  border-radius: .5rem;
+}
+
+body[data-aq-tema="hipercalemia"] .quiz-curso .aq-aproveitamento {
+  color: var(--aq-ok);
+  font-weight: 700;
+}
+
+.quiz-curso .aq-feedback a {
+  color: var(--aq-teal);
+}
+
+.quiz-curso .aq-btn:disabled,
+#historico-topo:disabled {
+  opacity: .65;
+  cursor: not-allowed;
+}
+
+@media (max-width: 760px) {
+  .quiz-curso h2[tabindex="-1"] {
+    scroll-margin-top: 128px;
+  }
+}

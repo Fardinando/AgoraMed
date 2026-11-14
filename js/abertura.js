@@ -5,10 +5,6 @@
  const $=id=>document.getElementById(id),esc=UI.escapar;
  if(!curso||!curso.abertura){$('ab-estado').textContent='Esta abertura não está disponível para sua conta.';return;}
  TemaCurso.aplicar(curso);
- if(curso.id==='fa3c5d8d-94c4-4321-be7a-1cc45741a983'){
-  $('ab-agoraquiz').classList.remove('oculto');
-  $('ab-agoraprescreva').classList.remove('oculto');
- }
  $('ab-estado').classList.add('oculto');$('ab-layout').classList.remove('oculto');
  document.title=`Comece por aqui — ${curso.titulo} | AgoraMed`;
  $('ab-avatar').textContent=UI.iniciais(usuario.nome);$('ab-curso').textContent=curso.titulo;

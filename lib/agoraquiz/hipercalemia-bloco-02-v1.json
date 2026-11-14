@@ -1,0 +1,280 @@
+{
+  "cursoId": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+  "cursoOrigem": "Tratamento da Hipercalemia em Adultos",
+  "bancoOrigem": "AgoraQuiz Hipercalemia",
+  "bloco": "02",
+  "temaEditorial": "ECG, gravidade e decisões imediatas",
+  "questoes": [
+    {
+      "id": "aqz-hiper-006",
+      "numero": 6,
+      "titulo": "A ONDA T QUE NÃO DEVE SER IGNORADA",
+      "dificuldade": "Intermediária.",
+      "competenciaPrincipal": "Reconhecimento de alterações eletrocardiográficas sugestivas de hipercalemia.",
+      "competenciasSecundarias": "Repolarização ventricular; interpretação do ECG; avaliação da função renal; reconhecimento de toxicidade cardíaca.",
+      "eixoTematico": "ECG e reconhecimento precoce.",
+      "aulasRelacionadas": [
+        {
+          "numero": 8,
+          "aulaId": "cb5aa5ff-db3b-4591-9010-0fff0bb90bab",
+          "moduloId": "787d750b-0433-41be-9a36-08e17acc671c"
+        },
+        {
+          "numero": 9,
+          "aulaId": "c7b5e07a-75b2-48af-a17a-268654cbe861",
+          "moduloId": "787d750b-0433-41be-9a36-08e17acc671c"
+        },
+        {
+          "numero": 10,
+          "aulaId": "b9426387-fb4c-42f8-a546-3d6cb2c8b729",
+          "moduloId": "787d750b-0433-41be-9a36-08e17acc671c"
+        }
+      ],
+      "tipo": "Caso clínico de interpretação eletrocardiográfica e decisão clínica.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 63 anos, com doença renal crônica e diabetes mellitus, procura atendimento por fraqueza e mal-estar progressivo.\n\nUtiliza enalapril e apresenta redução da diurese nos últimos dois dias.\n\nNa avaliação:\n\n- PA: 132/78 mmHg.\n- FC: 86 bpm.\n- Potássio: 6,2 mEq/L.\n- Creatinina: 3,1 mg/dL.\n- ECG: ritmo sinusal, ondas T altas, estreitas, simétricas e pontiagudas em múltiplas derivações, com QRS ainda estreito.\n\nO médico observa que o complexo QRS não está alargado e considera as alterações eletrocardiográficas pouco relevantes.\n\n**Qual é a interpretação mais adequada?**",
+      "alternativas": {
+        "A": "As ondas T descritas são inespecíficas e só podem ser atribuídas à hipercalemia quando acompanhadas de alargamento do QRS.",
+        "B": "O padrão descrito é sugestivo de alteração da repolarização associada à hipercalemia e, no contexto clínico apresentado, exige reconhecimento de possível toxicidade cardíaca e abordagem imediata.",
+        "C": "O QRS estreito exclui repercussão cardíaca da hipercalemia, permitindo adiar a avaliação até o próximo exame laboratorial.",
+        "D": "A presença de ondas T apiculadas demonstra que o potássio já está sendo eliminado adequadamente pelos rins."
+      },
+      "gabarito": "B",
+      "raciocinioClinico": "**1. Por que a onda T se modifica na hipercalemia?**\n\nA concentração extracelular de potássio influencia o potencial de membrana e as propriedades eletrofisiológicas dos cardiomiócitos. Alterações na repolarização ventricular podem produzir ondas T altas, estreitas e apiculadas.\n\n**2. Qual é a importância do formato da onda T?**\n\nA onda T sugestiva de hipercalemia costuma apresentar aspecto pontiagudo e relativamente simétrico. O reconhecimento deve considerar a distribuição nas derivações, o contexto clínico e, quando disponíveis, os traçados anteriores.\n\n**3. Uma onda T apiculada confirma hipercalemia?**\n\nNão isoladamente. Outras condições podem produzir ondas T proeminentes. Neste caso, porém, existe hipercalemia documentada, disfunção renal e um padrão eletrocardiográfico compatível.\n\n**4. O QRS precisa estar alargado?**\n\nNão. Alterações da repolarização podem ocorrer antes de alterações importantes da condução intraventricular. A ausência de QRS largo não invalida o significado das ondas T.\n\n**5. Existe uma sequência eletrocardiográfica clássica?**\n\nDescreve-se uma progressão possível envolvendo ondas T apiculadas, alterações do intervalo PR e da onda P, alargamento do QRS e padrões elétricos mais graves. Entretanto, essa sequência não é obrigatória nem previsível em todos os pacientes.\n\n**6. O valor de 6,2 mEq/L pode produzir manifestações elétricas?**\n\nSim. Não existe uma concentração única a partir da qual todos os pacientes começam a apresentar alterações. A velocidade de elevação e as condições cardíacas e metabólicas influenciam a expressão eletrocardiográfica.\n\n**7. O que a disfunção renal acrescenta?**\n\nSugere dificuldade na excreção de potássio e possibilidade de persistência ou progressão da hipercalemia.\n\n**8. Qual é a decisão clínica?**\n\nO paciente deve ser avaliado como possível emergência hipercalêmica com manifestação eletrocardiográfica, exigindo monitorização e tratamento rápido, incluindo avaliação para cálcio intravenoso e medidas de redução e remoção de potássio.\n\n**9. O que não podemos concluir?**\n\nNão podemos afirmar que o paciente está seguro porque o QRS permanece estreito, nem estimar precisamente o valor do potássio apenas pelo formato da onda T.",
+      "comentarios": {
+        "A": "O alargamento do QRS não é requisito para reconhecer alterações eletrocardiográficas associadas à hipercalemia. A onda T apiculada pode ser uma manifestação anterior.",
+        "B": "Integra o padrão de repolarização, a hipercalemia documentada e o comprometimento renal, reconhecendo a necessidade de abordagem imediata.",
+        "C": "QRS estreito não exclui toxicidade elétrica. Adiar a avaliação apenas porque a condução intraventricular ainda está preservada pode permitir deterioração clínica.",
+        "D": "A morfologia da onda T não demonstra eliminação renal de potássio. A excreção depende de mecanismos renais e não pode ser inferida desse achado."
+      },
+      "perola": "**Não espere o QRS alargar para levar a hipercalemia a sério. Alterações da onda T podem ser o primeiro aviso elétrico, embora nem sempre estejam presentes.**",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeção: Determining the urgency of therapy — manifestações eletrocardiográficas."
+    },
+    {
+      "id": "aqz-hiper-007",
+      "numero": 7,
+      "titulo": "QUANDO O QRS COMEÇA A DESAPARECER DENTRO DA ONDA T",
+      "dificuldade": "Avançada.",
+      "competenciaPrincipal": "Reconhecimento de toxicidade elétrica grave e risco iminente de arritmia fatal.",
+      "competenciasSecundarias": "Condução cardíaca; padrão sinusoidal; cálcio intravenoso; redistribuição do potássio; hemodiálise.",
+      "eixoTematico": "ECG e decisões emergenciais.",
+      "aulasRelacionadas": [
+        {
+          "numero": 9,
+          "aulaId": "c7b5e07a-75b2-48af-a17a-268654cbe861",
+          "moduloId": "787d750b-0433-41be-9a36-08e17acc671c"
+        },
+        {
+          "numero": 10,
+          "aulaId": "b9426387-fb4c-42f8-a546-3d6cb2c8b729",
+          "moduloId": "787d750b-0433-41be-9a36-08e17acc671c"
+        },
+        {
+          "numero": 11,
+          "aulaId": "6ffea441-00a6-4415-a826-415317082d35",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 12,
+          "aulaId": "57d7dc97-84d2-494f-9d89-ae9745a8eaf9",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 22,
+          "aulaId": "f99d47de-7f1e-4079-98ed-1209390ea2df",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        }
+      ],
+      "tipo": "Caso clínico de tomada de decisão terapêutica.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 70 anos, portador de doença renal terminal, é levado à emergência após faltar às duas últimas sessões de hemodiálise.\n\nChega sonolento, mas responde a estímulos verbais.\n\nNa avaliação:\n\n- PA: 94/60 mmHg.\n- FC: 48 bpm.\n- Potássio: 8,1 mEq/L.\n- ECG: ausência de ondas P identificáveis, QRS extremamente alargado e fusão progressiva entre QRS e onda T, produzindo aspecto quase sinusoidal.\n\nA equipe considera aguardar a instalação de um acesso para hemodiálise antes de iniciar o tratamento.\n\n**Qual é a decisão mais apropriada?**",
+      "alternativas": {
+        "A": "Aguardar a hemodiálise, pois o padrão sinusoidal representa apenas uma alteração de repolarização sem repercussão sobre a condução cardíaca.",
+        "B": "Solicitar troponina seriada antes de tratar, pois o padrão descrito é diagnóstico de síndrome coronariana aguda.",
+        "C": "Administrar exclusivamente insulina com glicose, porque a redução do potássio extracelular substitui a necessidade de estabilização cardíaca.",
+        "D": "Reconhecer toxicidade elétrica grave com risco iminente de arritmia fatal, iniciar estabilização cardíaca imediata com cálcio intravenoso, associar medidas rápidas de redução do potássio extracelular e organizar hemodiálise urgente, sem atrasar o tratamento inicial."
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. Qual é o achado mais preocupante?**\n\nA combinação de hipercalemia grave com ausência de ondas P, alargamento extremo do QRS e padrão quase sinusoidal indica comprometimento importante da atividade elétrica cardíaca.\n\n**2. Por que o QRS alarga?**\n\nA elevação importante do potássio extracelular altera o potencial de membrana. A despolarização sustentada pode inativar parte dos canais rápidos de sódio, reduzindo a velocidade de condução do impulso cardíaco.\n\n**3. O que significa a perda da onda P?**\n\nPode representar importante alteração da condução atrial. Em hipercalemia grave, a atividade atrial pode tornar-se pouco evidente no ECG, mesmo quando existe atividade elétrica organizada em outras estruturas cardíacas.\n\n**4. O que é o padrão sinusoidal?**\n\nÉ uma alteração extrema em que o QRS muito alargado e a onda T tendem a se fundir, produzindo um traçado com aspecto de onda sinusoidal. Trata-se de sinal de grave instabilidade elétrica.\n\n**5. O padrão sinusoidal precisa aparecer antes da parada cardíaca?**\n\nNão. A evolução eletrocardiográfica não é obrigatoriamente sequencial. Arritmias graves podem ocorrer sem que todos os padrões clássicos sejam documentados.\n\n**6. Por que o cálcio é prioritário?**\n\nO cálcio intravenoso antagoniza os efeitos da hipercalemia sobre a excitabilidade cardíaca e pode melhorar rapidamente a estabilidade elétrica. Não remove potássio e não substitui outras medidas.\n\n**7. Por que a insulina com glicose não basta?**\n\nPorque promove redistribuição intracelular temporária do potássio. O paciente permanece com excesso de potássio corporal e incapacidade renal de eliminá-lo adequadamente.\n\n**8. Qual é o papel da hemodiálise?**\n\nNesse contexto de doença renal terminal e hipercalemia grave, a hemodiálise é uma estratégia fundamental de remoção efetiva de potássio.\n\n**9. Por que não esperar a hemodiálise para iniciar o tratamento?**\n\nA organização da terapia dialítica exige tempo. O paciente pode apresentar arritmia fatal antes que o procedimento seja iniciado.\n\n**10. Como organizar as intervenções?**\n\nA estabilização cardíaca e as medidas de redistribuição devem começar imediatamente, enquanto a equipe organiza, em paralelo, a remoção efetiva de potássio e a monitorização contínua.\n\n**11. Qual é a principal competência avaliada?**\n\nReconhecer que o risco elétrico imediato e a remoção definitiva do potássio exigem intervenções complementares, com prioridades temporais diferentes.",
+      "comentarios": {
+        "A": "O padrão sinusoidal não é uma alteração benigna de repolarização. Representa comprometimento elétrico grave, e aguardar exclusivamente a hemodiálise deixa o paciente desprotegido durante um período crítico.",
+        "B": "A avaliação de outras causas de alterações eletrocardiográficas pode ser necessária, mas o contexto clínico e o padrão descrito exigem tratamento imediato da hipercalemia. A dosagem de troponina não deve atrasá-lo.",
+        "C": "A insulina reduz temporariamente o potássio extracelular, mas não substitui a estabilização cardíaca em um paciente com alterações elétricas graves.",
+        "D": "Reconhece a gravidade, prioriza o cálcio intravenoso, associa redistribuição e organiza a remoção efetiva de potássio por hemodiálise."
+      },
+      "perola": "**Quando o QRS se alarga progressivamente e começa a se fundir à onda T, o coração está demonstrando grave comprometimento elétrico. A hemodiálise remove potássio; o cálcio ajuda a proteger o coração enquanto as demais medidas são realizadas.**",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeções:\n\n- Determining the urgency of therapy.\n- Calcium.\n- Patients with a hyperkalemic emergency."
+    },
+    {
+      "id": "aqz-hiper-008",
+      "numero": 8,
+      "titulo": "UMA BRADICARDIA DESPROPORCIONAL AO VALOR DO POTÁSSIO",
+      "dificuldade": "Avançada.",
+      "competenciaPrincipal": "Reconhecimento de bradicardia grave em contexto de síndrome BRASH.",
+      "competenciasSecundarias": "Bloqueio nodal atrioventricular; lesão renal aguda; hipercalemia; choque; farmacologia; avaliação hemodinâmica.",
+      "eixoTematico": "Interação entre distúrbios eletrolíticos, medicamentos e condução cardíaca.",
+      "aulasRelacionadas": [
+        {
+          "numero": 6,
+          "aulaId": "5ba508c9-bfb5-472c-bf69-254036832a95",
+          "moduloId": "55b01307-2855-453b-8489-78e3fe20cb14"
+        },
+        {
+          "numero": 7,
+          "aulaId": "2ef9f9aa-c6e4-4ca3-889b-ae780b1bb487",
+          "moduloId": "55b01307-2855-453b-8489-78e3fe20cb14"
+        },
+        {
+          "numero": 8,
+          "aulaId": "cb5aa5ff-db3b-4591-9010-0fff0bb90bab",
+          "moduloId": "787d750b-0433-41be-9a36-08e17acc671c"
+        },
+        {
+          "numero": 9,
+          "aulaId": "c7b5e07a-75b2-48af-a17a-268654cbe861",
+          "moduloId": "787d750b-0433-41be-9a36-08e17acc671c"
+        },
+        {
+          "numero": 10,
+          "aulaId": "b9426387-fb4c-42f8-a546-3d6cb2c8b729",
+          "moduloId": "787d750b-0433-41be-9a36-08e17acc671c"
+        }
+      ],
+      "tipo": "Caso clínico integrador de reconhecimento sindrômico e decisão emergencial.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Uma mulher de 76 anos, com hipertensão arterial, fibrilação atrial permanente e doença renal crônica, procura a emergência por tontura intensa, fraqueza e redução da diurese.\n\nUtiliza metoprolol e losartana. Há três dias apresenta diarreia e baixa ingestão de líquidos.\n\nNa avaliação:\n\n- PA: 78/46 mmHg.\n- FC: 32 bpm.\n- Potássio: 5,9 mEq/L.\n- Creatinina: 3,0 mg/dL, anteriormente 1,4 mg/dL.\n- ECG: ritmo de escape juncional lento, sem ondas T apiculadas evidentes e sem alargamento expressivo do QRS.\n\nO médico considera que o potássio de 5,9 mEq/L é insuficiente para justificar uma bradicardia tão importante.\n\n**Qual interpretação integra melhor os achados?**",
+      "alternativas": {
+        "A": "A ausência de ondas T apiculadas exclui participação da hipercalemia, e o tratamento deve ser direcionado exclusivamente à investigação de doença do nó sinusal.",
+        "B": "A bradicardia grave só pode ser atribuída ao potássio quando a concentração sérica ultrapassa 7,0 mEq/L.",
+        "C": "O quadro é compatível com a possibilidade de síndrome BRASH, na qual disfunção renal, hipercalemia e bloqueio nodal atrioventricular podem potencializar seus efeitos, exigindo abordagem simultânea da instabilidade hemodinâmica, da hipercalemia e dos fatores precipitantes.",
+        "D": "A principal conduta é manter o betabloqueador para evitar taquicardia reflexa, pois a redução da frequência cardíaca não interfere na perfusão renal."
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. Qual é a característica mais importante do caso?**\n\nA paciente apresenta bradicardia profunda e choque, associados a lesão renal aguda, hipercalemia moderada e uso de medicamento bloqueador nodal atrioventricular.\n\n**2. O que significa BRASH?**\n\nÉ o acrônimo de *Bradycardia, Renal failure, AV nodal blockade, Shock, Hyperkalemia*: bradicardia, disfunção renal, bloqueio nodal atrioventricular, choque e hipercalemia.\n\n**3. Por que o potássio de 5,9 mEq/L não tranquiliza?**\n\nPorque o risco não depende apenas da concentração sérica. A hipercalemia pode potencializar os efeitos de medicamentos que reduzem a condução nodal, produzindo bradicardia importante mesmo sem elevações extremas do potássio.\n\n**4. Qual é o papel do metoprolol?**\n\nO metoprolol reduz a atividade beta-adrenérgica e pode diminuir a frequência cardíaca e a condução atrioventricular. Em conjunto com hipercalemia e disfunção renal, seus efeitos podem contribuir para instabilidade importante.\n\n**5. Como a disfunção renal participa?**\n\nA redução da função renal dificulta a excreção de potássio. Dependendo do medicamento e das condições clínicas, também pode alterar a exposição a fármacos ou intensificar seus efeitos hemodinâmicos.\n\n**6. Como o ciclo pode se perpetuar?**\n\nA bradicardia reduz o débito cardíaco e pode agravar a perfusão renal. A piora renal favorece a retenção de potássio, que intensifica a instabilidade elétrica e hemodinâmica.\n\n**7. Qual foi o possível fator precipitante?**\n\nA diarreia e a baixa ingestão hídrica podem ter provocado hipovolemia, redução da perfusão renal e deterioração da função renal.\n\n**8. Por que o ECG pode não apresentar as alterações clássicas?**\n\nNa síndrome BRASH, a bradicardia pode ser desproporcional à concentração de potássio, e as alterações clássicas de hipercalemia podem não estar presentes.\n\n**9. Qual é a prioridade clínica?**\n\nReconhecer e tratar a instabilidade hemodinâmica, monitorizar continuamente, abordar a hipercalemia, avaliar a necessidade de estabilização cardíaca e suspender temporariamente os fatores farmacológicos precipitantes conforme a avaliação clínica.\n\n**10. Basta tratar a bradicardia isoladamente?**\n\nNão. Uma intervenção exclusivamente cronotrópica pode ser insuficiente enquanto persistirem hipercalemia, hipoperfusão renal e bloqueio nodal.\n\n**11. Qual é o cuidado com o diagnóstico?**\n\nBRASH é uma hipótese sindrômica sustentada pelo conjunto dos achados. Outras causas de bradicardia e choque devem ser consideradas e investigadas simultaneamente, sem atrasar a ressuscitação.\n\n**12. Qual é a lição principal?**\n\nEm pacientes que utilizam bloqueadores nodais, uma hipercalemia moderada pode coexistir com bradicardia potencialmente fatal. O reconhecimento da interação entre mecanismos é mais importante do que esperar um potássio extremamente elevado.",
+      "comentarios": {
+        "A": "A ausência de ondas T apiculadas não exclui participação da hipercalemia. O contexto clínico sugere interação entre bloqueio nodal, disfunção renal e alterações eletrolíticas.",
+        "B": "Não existe um ponto de corte absoluto de potássio para manifestações cardíacas. Na síndrome BRASH, bradicardia importante pode ocorrer com elevações moderadas.",
+        "C": "Reconhece a interação entre os cinco componentes da síndrome e a necessidade de tratamento simultâneo da instabilidade e dos fatores precipitantes.",
+        "D": "Manter indiscriminadamente o bloqueador nodal em paciente com bradicardia profunda e choque pode agravar a instabilidade. Além disso, a redução do débito cardíaco pode comprometer a perfusão renal."
+      },
+      "perola": "**Na síndrome BRASH, o potássio pode não parecer tão alto, mas a bradicardia pode ser extremamente grave. O perigo está na interação entre os mecanismos, e não apenas no valor do eletrólito.**",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeção: Determining the urgency of therapy.\n\nA referência menciona síndrome BRASH e manifestações cardíacas em concentrações menores de potássio.\n\n**Nota científica:** A explicação detalhada do ciclo fisiopatológico é uma expansão didática. Antes da publicação definitiva, verificar também uma referência científica específica sobre síndrome BRASH. Não inventar citações adicionais.",
+      "referenciasComplementares": [
+        {
+          "titulo": "Esteves et al. — BRASH Syndrome: Clinical Features, Outcomes, and Therapeutic Implications",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12916453/"
+        }
+      ]
+    },
+    {
+      "id": "aqz-hiper-009",
+      "numero": 9,
+      "titulo": "DOIS PACIENTES, O MESMO POTÁSSIO, ECGs DIFERENTES",
+      "dificuldade": "Intermediária.",
+      "competenciaPrincipal": "Interpretação das limitações do ECG na estratificação de risco da hipercalemia.",
+      "competenciasSecundarias": "Variabilidade clínica; velocidade de elevação; avaliação comparativa; função renal; tomada de decisão.",
+      "eixoTematico": "Relação entre concentração sérica e manifestações eletrocardiográficas.",
+      "aulasRelacionadas": [
+        {
+          "numero": 8,
+          "aulaId": "cb5aa5ff-db3b-4591-9010-0fff0bb90bab",
+          "moduloId": "787d750b-0433-41be-9a36-08e17acc671c"
+        },
+        {
+          "numero": 9,
+          "aulaId": "c7b5e07a-75b2-48af-a17a-268654cbe861",
+          "moduloId": "787d750b-0433-41be-9a36-08e17acc671c"
+        },
+        {
+          "numero": 10,
+          "aulaId": "b9426387-fb4c-42f8-a546-3d6cb2c8b729",
+          "moduloId": "787d750b-0433-41be-9a36-08e17acc671c"
+        }
+      ],
+      "tipo": "Caso clínico comparativo.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Dois pacientes são avaliados na emergência.\n\n**Paciente A:** homem de 67 anos, com doença renal crônica, potássio de 6,7 mEq/L e ECG sem alterações típicas de hipercalemia.\n\n**Paciente B:** mulher de 54 anos, com lesão renal aguda e elevação recente do potássio de 4,2 para 6,0 mEq/L, apresentando ondas T apiculadas e prolongamento do intervalo PR.\n\nAmbos estão conscientes e sem dor torácica.\n\nUm estudante conclui que o paciente A necessariamente apresenta maior toxicidade cardíaca, pois possui maior concentração sérica de potássio.\n\n**Qual afirmação corrige adequadamente esse raciocínio?**",
+      "alternativas": {
+        "A": "O ECG do paciente B está necessariamente incorreto, pois alterações de condução não ocorrem com potássio inferior a 6,5 mEq/L.",
+        "B": "A concentração sérica de potássio é o único parâmetro necessário para determinar o risco de arritmia, tornando o ECG dispensável.",
+        "C": "A ausência de alterações no ECG do paciente A comprova adaptação cardíaca suficiente para excluir risco de deterioração elétrica.",
+        "D": "A relação entre potássio sérico e manifestações eletrocardiográficas é variável; o ECG não permite quantificar com precisão a concentração de potássio nem excluir risco quando está normal, devendo ambos os pacientes ser avaliados conforme seus critérios de gravidade."
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. Por que dois pacientes com potássio semelhante podem ter ECGs diferentes?**\n\nA expressão eletrocardiográfica da hipercalemia varia entre indivíduos. O valor sérico é importante, mas não determina sozinho o padrão de alterações elétricas.\n\n**2. A velocidade de elevação influencia?**\n\nSim. Uma elevação rápida pode produzir manifestações eletrocardiográficas em concentrações inferiores às observadas em alguns pacientes com hipercalemia crônica.\n\n**3. O paciente A está protegido por ter ECG normal?**\n\nNão. Um ECG normal não exclui risco de arritmias ou de deterioração elétrica. O potássio de 6,7 mEq/L permanece clinicamente relevante.\n\n**4. O paciente B pode apresentar toxicidade com potássio de 6,0 mEq/L?**\n\nSim. A elevação recente, a disfunção renal e as alterações eletrocardiográficas compatíveis justificam preocupação.\n\n**5. O ECG permite estimar exatamente o potássio?**\n\nNão. O ECG fornece informações sobre a atividade elétrica cardíaca, mas não funciona como método quantitativo confiável para determinar a concentração sérica de potássio.\n\n**6. O que significa prolongamento do PR?**\n\nPode indicar lentificação da condução atrioventricular. Em contexto de hipercalemia, é uma manifestação possível de comprometimento da condução.\n\n**7. O ECG precisa seguir uma progressão clássica?**\n\nNão. A sequência frequentemente ensinada é útil para reconhecer padrões, mas não deve ser utilizada como regra obrigatória de evolução.\n\n**8. Qual é a principal diferença entre avaliar risco e prever eventos?**\n\nIdentificar critérios de gravidade permite reconhecer a necessidade de tratamento. Isso não significa prever com precisão quando ou se uma arritmia ocorrerá.\n\n**9. Como avaliar o paciente A?**\n\nA concentração de potássio superior a 6,5 mEq/L exige abordagem rápida mesmo sem alterações típicas no ECG.\n\n**10. Como avaliar o paciente B?**\n\nAs alterações eletrocardiográficas compatíveis com hipercalemia, em contexto de elevação recente do potássio, exigem avaliação e tratamento emergencial.\n\n**11. Qual é a conclusão integradora?**\n\nA decisão clínica deve reunir concentração de potássio, ECG, sintomas, velocidade de elevação, função renal e causas associadas.",
+      "comentarios": {
+        "A": "Alterações eletrocardiográficas podem ocorrer abaixo de 6,5 mEq/L, especialmente quando o potássio aumenta rapidamente ou existem fatores adicionais.",
+        "B": "O valor sérico isolado não descreve adequadamente a repercussão cardíaca. O ECG é importante, embora também apresente limitações.",
+        "C": "A ausência de alterações típicas não comprova proteção cardíaca. A hipercalemia grave continua exigindo abordagem apropriada.",
+        "D": "Reconhece a variabilidade das manifestações eletrocardiográficas e a necessidade de integrar diferentes parâmetros clínicos."
+      },
+      "perola": "**O ECG não é um medidor de potássio. Dois pacientes podem ter valores semelhantes e manifestações elétricas diferentes. Não utilize o ECG para adivinhar o potássio nem o potássio para adivinhar o ECG.**",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeção: Determining the urgency of therapy.\n\nQuadro de manifestações eletrocardiográficas."
+    },
+    {
+      "id": "aqz-hiper-010",
+      "numero": 10,
+      "titulo": "O ECG MELHOROU. O TRATAMENTO TERMINOU?",
+      "dificuldade": "Avançada.",
+      "competenciaPrincipal": "Reavaliação após estabilização elétrica inicial.",
+      "competenciasSecundarias": "Cálcio intravenoso; monitorização; redistribuição de potássio; remoção efetiva; risco de recorrência.",
+      "eixoTematico": "Resposta terapêutica e persistência do risco.",
+      "aulasRelacionadas": [
+        {
+          "numero": 11,
+          "aulaId": "6ffea441-00a6-4415-a826-415317082d35",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 12,
+          "aulaId": "57d7dc97-84d2-494f-9d89-ae9745a8eaf9",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 13,
+          "aulaId": "744bc45c-cae3-42d5-a7aa-9b9ca0e85044",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 22,
+          "aulaId": "f99d47de-7f1e-4079-98ed-1209390ea2df",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        }
+      ],
+      "tipo": "Caso clínico de reavaliação terapêutica.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 65 anos, com doença renal crônica avançada, é atendido na sala de emergência por fraqueza e palpitações.\n\nOs exames iniciais mostram potássio de 7,2 mEq/L, creatinina de 5,1 mg/dL e ECG com QRS alargado e ondas P de baixa amplitude.\n\nDiante da suspeita de toxicidade cardíaca associada à hipercalemia, recebe cálcio intravenoso sob monitorização contínua.\n\nPoucos minutos depois, o ECG mostra estreitamento importante do QRS e melhora da definição das ondas P.\n\nA equipe considera encerrar o tratamento, pois as alterações elétricas regrediram.\n\n**Qual é a interpretação mais adequada?**",
+      "alternativas": {
+        "A": "A melhora eletrocardiográfica demonstra que o potássio sérico já foi normalizado pelo cálcio intravenoso, tornando desnecessárias outras intervenções.",
+        "B": "A melhora do ECG sugere resposta à estabilização cardíaca, mas não comprova redução do potássio sérico; é necessário manter monitorização, promover redistribuição e remoção de potássio e realizar reavaliações clínicas, eletrocardiográficas e laboratoriais.",
+        "C": "O cálcio intravenoso promove eliminação renal acelerada de potássio, de modo que sua administração isolada resolve a hipercalemia mesmo em pacientes com disfunção renal grave.",
+        "D": "A melhora inicial do ECG permite suspender a monitorização cardíaca, desde que o paciente permaneça consciente."
+      },
+      "gabarito": "B",
+      "raciocinioClinico": "**1. O que significa a melhora do ECG após o cálcio?**\n\nSugere resposta à estabilização elétrica cardíaca. É um achado favorável, mas precisa ser interpretado de acordo com o mecanismo de ação do medicamento.\n\n**2. O cálcio reduz a concentração sérica de potássio?**\n\nNão. O cálcio antagoniza os efeitos da hipercalemia sobre a membrana cardíaca, mas não desloca potássio para dentro das células nem o elimina do organismo.\n\n**3. Por que o QRS pode estreitar?**\n\nA melhora da estabilidade elétrica pode favorecer a recuperação das propriedades de condução comprometidas pela hipercalemia.\n\n**4. A resposta ao cálcio é permanente?**\n\nNão. O efeito protetor é temporário. Se a hipercalemia persistir, as alterações eletrocardiográficas podem reaparecer.\n\n**5. Por que não encerrar o tratamento?**\n\nPorque o distúrbio eletrolítico responsável pelo risco ainda não foi necessariamente corrigido. O ECG pode melhorar enquanto a concentração de potássio permanece elevada.\n\n**6. Qual é o papel da redistribuição?**\n\nMedidas como insulina com glicose reduzem temporariamente a concentração extracelular de potássio, proporcionando uma redução mais direta do distúrbio laboratorial.\n\n**7. Por que a remoção é indispensável?**\n\nPorque a redistribuição não elimina o potássio corporal. Em pacientes com função renal gravemente comprometida, pode ser necessária terapia dialítica para remoção efetiva.\n\n**8. Qual é o papel da monitorização contínua?**\n\nPermitir reconhecimento rápido de novas alterações de condução, bradiarritmias ou outras manifestações de instabilidade elétrica.\n\n**9. Quando reavaliar o potássio?**\n\nA referência utilizada recomenda nova dosagem aproximadamente uma a duas horas após o início do tratamento, com medições adicionais conforme a resposta e a gravidade.\n\n**10. E a glicemia?**\n\nSe o paciente receber insulina, deve ser monitorado para hipoglicemia. A referência recomenda verificações horárias da glicose por até seis horas após a administração, conforme o risco e o protocolo adotado.\n\n**11. O que fazer se as alterações elétricas reaparecerem?**\n\nA equipe deve reavaliar imediatamente o paciente, a persistência da hipercalemia e a necessidade de novas medidas de estabilização cardíaca, além de garantir a continuidade do tratamento para redução e remoção do potássio.\n\n**12. Qual é o conceito central desta questão?**\n\nA resposta elétrica inicial e a correção do distúrbio eletrolítico são objetivos relacionados, mas distintos. Melhorar o ECG não equivale a resolver a hipercalemia.",
+      "comentarios": {
+        "A": "O cálcio pode melhorar o ECG sem reduzir a concentração sérica de potássio. Interpretar a melhora elétrica como normalização laboratorial é um erro mecanístico importante.",
+        "B": "Reconhece a resposta à estabilização cardíaca sem confundi-la com eliminação de potássio. Inclui monitorização, redistribuição, remoção e reavaliação.",
+        "C": "O cálcio não aumenta diretamente a excreção renal de potássio. Em pacientes com disfunção renal avançada, sua administração isolada não resolve o distúrbio.",
+        "D": "A melhora inicial do ECG não elimina o risco de recorrência das alterações elétricas. A monitorização deve continuar conforme a gravidade e a evolução clínica."
+      },
+      "perola": "**O cálcio pode melhorar o ECG sem reduzir um único mEq/L do potássio sérico. Não confunda proteção elétrica temporária com correção da hipercalemia.**",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeções:\n\n- Calcium.\n- Monitoring.\n- Patients with a hyperkalemic emergency."
+    }
+  ]
+}
