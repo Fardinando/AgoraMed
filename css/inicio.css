@@ -222,3 +222,17 @@
 }
 
 .pagina-cursos .curso-etiquetas{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.pagina-cursos .curso-etiquetas .curso-acesso{margin:0}
+
+.pagina-cursos .cartao-curso.cartao-hipercalemia {
+  border-color: #a58bdd;
+}
+
+.pagina-cursos .cartao-hipercalemia .curso-acao {
+  border-color: #a58bdd;
+  background: linear-gradient(110deg, #583788, #422868);
+  color: #fff;
+}
+
+.pagina-cursos .cartao-curso.cartao-hipercalemia:is(:hover, :focus-visible) {
+  border-color: #cfbfff;
+}
