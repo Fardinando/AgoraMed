@@ -19,10 +19,37 @@
 .pagina-cursos .topo { position: relative; background: transparent; box-shadow: none; }
 .pagina-cursos .topo .container { height: 100px; gap: 40px; border-bottom: 1px solid #2f5964; }
 .logo-inicio { width: 255px; height: auto; }
-.inicio-nav { height: 100%; display: flex; align-items: stretch; }
-.inicio-nav a { display: flex; align-items: center; border-bottom: 2px solid #62d9e3;
-  color: #f4f8f9; font-size: .88rem; font-weight: 600; padding-top: 2px; }
-.inicio-nav a:hover { text-decoration: none; color: #8ce8ef; }
+.inicio-nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+}
+.inicio-nav a {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 12px;
+  border-radius: 8px;
+  color: #d6e8ed;
+  font-size: .88rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.inicio-nav a[aria-current="page"] {
+  background: #103e48;
+  color: #8ce8ef;
+}
+.inicio-nav a:hover,
+.inicio-nav a:focus-visible {
+  background: #194653;
+  color: #fff;
+  text-decoration: none;
+}
+.inicio-nav a:focus-visible {
+  outline: 2px solid #62d9e3;
+  outline-offset: 2px;
+}
 .pagina-cursos .usuario-chip { border: 0; padding: 0; gap: 12px; background: transparent; font-weight: 500; white-space: nowrap; }
 .pagina-cursos .usuario-chip .avatar { width: 44px; height: 44px; border: 1px solid #5dd4df;
   background: #0b2e39; font-size: .85rem; }
