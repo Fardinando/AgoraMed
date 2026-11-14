@@ -1,0 +1,264 @@
+{
+  "cursoId": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+  "cursoOrigem": "Tratamento da Hipercalemia em Adultos",
+  "bancoOrigem": "AgoraQuiz Hipercalemia",
+  "bloco": "06",
+  "temaEditorial": "Monitorização, recorrência e destino",
+  "questoes": [
+    {
+      "id": "aqz-hiper-026",
+      "numero": 26,
+      "titulo": "QUANDO REPETIR O POTÁSSIO APÓS O TRATAMENTO?",
+      "dificuldade": "Intermediária.",
+      "competenciaPrincipal": "Reconhecer a necessidade de monitorização laboratorial precoce e seriada após o tratamento da hipercalemia grave.",
+      "competenciasSecundarias": "Resposta terapêutica; monitorização laboratorial; redistribuição intracelular; recorrência; monitorização eletrocardiográfica; função renal.",
+      "eixoTematico": "Monitorização laboratorial e resposta terapêutica.",
+      "categoria": "Monitorização, recorrência e destino",
+      "subtemas": "Resposta terapêutica; monitorização laboratorial; redistribuição intracelular; recorrência; monitorização eletrocardiográfica; função renal.",
+      "aulasRelacionadas": [
+        {
+          "numero": 26,
+          "aulaId": "8d392762-12f2-496d-ad0a-be8cbaaa0d8a",
+          "moduloId": "18dc5aa4-8311-4f3c-b95f-8831cc6a2269"
+        },
+        {
+          "numero": 27,
+          "aulaId": "039e69cc-0aee-435a-bb07-71885a8878b5",
+          "moduloId": "09f41441-7485-4722-a595-56106a808f3f"
+        }
+      ],
+      "tipo": "Caso clínico de decisão sobre monitorização.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0.",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 64 anos, com doença renal crônica, é admitido na emergência com potássio de 6,8 mEq/L e ondas T apiculadas.\n\nRecebe cálcio intravenoso, insulina regular associada à glicose e medidas para remoção do potássio.\n\nApós 30 minutos, refere melhora da fraqueza muscular. A equipe considera repetir o potássio apenas na manhã seguinte, pois o paciente apresenta melhora clínica.\n\n**Qual é a conduta mais adequada?**",
+      "alternativas": {
+        "A": "Aguardar 12 a 24 horas para repetir o potássio, pois a melhora dos sintomas comprova a eficácia do tratamento.",
+        "B": "Repetir o potássio somente se houver novas alterações eletrocardiográficas.",
+        "C": "Dosar novamente o potássio aproximadamente uma a duas horas após o início do tratamento e programar novas avaliações conforme o resultado e a resposta clínica.",
+        "D": "Evitar novas dosagens de potássio, pois a insulina torna os resultados laboratoriais pouco confiáveis.\n\n**GABARITO: C**"
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. Por que o paciente precisa de monitorização laboratorial?**\n\nPorque a hipercalemia grave pode persistir ou recorrer mesmo após melhora dos sintomas e do ECG.\n\n**2. A melhora clínica comprova normalização do potássio?**\n\nNão. Sintomas e concentração sérica de potássio não apresentam correlação suficientemente confiável para substituir a dosagem laboratorial.\n\n**3. Qual intervalo inicial é recomendado no material-base?**\n\nO UpToDate recomenda repetir o potássio sérico entre uma e duas horas após o início do tratamento.\n\n**4. Por que esse intervalo é importante?**\n\nPorque permite avaliar a resposta às medidas de ação rápida e identificar uma redução insuficiente do potássio.\n\n**5. A insulina elimina potássio?**\n\nNão. A insulina desloca potássio para o interior das células, produzindo redução temporária da concentração extracelular.\n\n**6. Por que isso exige novas dosagens?**\n\nPorque o potássio pode voltar a aumentar quando o efeito redistributivo diminuir.\n\n**7. Uma única dosagem de controle é suficiente?**\n\nNem sempre. O intervalo das avaliações seguintes depende do potássio encontrado, da resposta terapêutica e do contexto clínico.\n\n**8. O ECG também precisa ser repetido?**\n\nSim. Nas emergências hipercalêmicas, a referência recomenda monitorização cardíaca contínua e ECGs seriados.\n\n**9. A função renal modifica o acompanhamento?**\n\nSim. A disfunção renal pode limitar a eliminação do potássio e aumentar o risco de persistência ou recorrência.\n\n**10. O que fazer se o potássio permanecer perigosamente elevado?**\n\nReavaliar imediatamente o ECG, a necessidade de medidas temporizadoras adicionais e a estratégia de remoção efetiva de potássio.\n\n**11. Existe um intervalo fixo para todas as dosagens posteriores?**\n\nNão. A referência determina que as medições subsequentes sejam individualizadas conforme o resultado e a evolução.\n\n**12. Qual é a competência principal?**\n\nReconhecer que o tratamento da hipercalemia exige reavaliação laboratorial precoce e seriada.",
+      "comentarios": {
+        "A": "A melhora dos sintomas não justifica adiar a dosagem de controle por 12 a 24 horas.",
+        "B": "O ECG pode não refletir adequadamente a gravidade da hipercalemia. A dosagem de potássio continua necessária.",
+        "C": "Corresponde à recomendação de reavaliação inicial entre uma e duas horas, seguida de monitorização individualizada.",
+        "D": "A ação da insulina não invalida a dosagem laboratorial. Pelo contrário, torna necessária a avaliação da resposta."
+      },
+      "perola": "O paciente melhorou? Ótimo. Agora confirme se o potássio também melhorou. Na hipercalemia grave, a evolução clínica não substitui a reavaliação laboratorial.",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeção: Monitoring.\n\n---"
+    },
+    {
+      "id": "aqz-hiper-027",
+      "numero": 27,
+      "titulo": "O ECG NORMALIZOU. PODEMOS RETIRAR A MONITORIZAÇÃO?",
+      "dificuldade": "Avançada.",
+      "competenciaPrincipal": "Diferenciar estabilização elétrica temporária de resolução da emergência hipercalêmica.",
+      "competenciasSecundarias": "Toxicidade cardíaca; cálcio intravenoso; ECG seriado; monitorização contínua; redistribuição de potássio; risco de recorrência.",
+      "eixoTematico": "Monitorização cardíaca após estabilização com cálcio.",
+      "categoria": "Monitorização, recorrência e destino",
+      "subtemas": "Toxicidade cardíaca; cálcio intravenoso; ECG seriado; monitorização contínua; redistribuição de potássio; risco de recorrência.",
+      "aulasRelacionadas": [
+        {
+          "numero": 11,
+          "aulaId": "6ffea441-00a6-4415-a826-415317082d35",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 12,
+          "aulaId": "57d7dc97-84d2-494f-9d89-ae9745a8eaf9",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 26,
+          "aulaId": "8d392762-12f2-496d-ad0a-be8cbaaa0d8a",
+          "moduloId": "18dc5aa4-8311-4f3c-b95f-8831cc6a2269"
+        }
+      ],
+      "tipo": "Caso clínico de decisão sobre segurança e monitorização.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0.",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Uma mulher de 70 anos, com lesão renal aguda, apresenta potássio sérico de 7,3 mEq/L, bradicardia e QRS alargado.\n\nRecebe gluconato de cálcio intravenoso e apresenta melhora do QRS poucos minutos depois.\n\nA insulina com glicose já foi administrada, mas ainda não existe uma dosagem de controle do potássio. A estratégia de remoção está sendo organizada.\n\nUm profissional sugere suspender a monitorização cardíaca porque o ECG voltou ao padrão habitual.\n\n**Qual é a melhor decisão?**",
+      "alternativas": {
+        "A": "Suspender a monitorização, pois a normalização do QRS comprova eliminação do excesso de potássio.",
+        "B": "Manter monitorização cardíaca contínua e ECGs seriados, pois o cálcio tem efeito protetor temporário e não reduz a concentração sérica de potássio.",
+        "C": "Suspender as medidas de remoção, pois a resposta ao cálcio demonstra resolução definitiva da emergência.",
+        "D": "Substituir a monitorização cardíaca por uma única dosagem de glicemia, pois o risco elétrico desaparece após o cálcio.\n\n**GABARITO: B**"
+      },
+      "gabarito": "B",
+      "raciocinioClinico": "**1. Qual é o significado do QRS alargado na hipercalemia?**\n\nPode representar toxicidade elétrica importante, com comprometimento da condução cardíaca.\n\n**2. Por que o cálcio melhora o ECG?**\n\nPorque antagoniza os efeitos da hipercalemia sobre a membrana das células cardíacas.\n\n**3. O cálcio reduz o potássio sérico?**\n\nNão. Seu objetivo é estabilização cardíaca, não redistribuição ou eliminação de potássio.\n\n**4. A normalização do QRS significa que o potássio foi eliminado?**\n\nNão. O paciente pode continuar com hipercalemia grave mesmo após melhora eletrocardiográfica.\n\n**5. O efeito do cálcio é permanente?**\n\nNão. É temporário, e a toxicidade elétrica pode reaparecer enquanto persistir a hipercalemia.\n\n**6. Qual é a importância da insulina administrada?**\n\nPromover redução rápida do potássio extracelular por redistribuição intracelular.\n\n**7. A insulina resolve definitivamente o problema?**\n\nNão. Seu efeito é temporário e precisa ser acompanhado de estratégias de remoção de potássio.\n\n**8. Por que manter monitorização cardíaca contínua?**\n\nPara identificar prontamente recorrência de alterações de condução e arritmias durante a evolução da emergência.\n\n**9. O que acrescentam os ECGs seriados?**\n\nPermitem documentar a evolução das alterações elétricas e a resposta às intervenções.\n\n**10. Quando considerar nova administração de cálcio?**\n\nQuando alterações eletrocardiográficas relevantes persistirem ou recorrerem, mediante reavaliação clínica, monitorização e consideração dos riscos da administração.\n\n**11. Qual é a importância da dosagem de controle do potássio?**\n\nConfirmar a resposta bioquímica ao tratamento, independentemente da melhora elétrica inicial.\n\n**12. Quando a monitorização pode ser reduzida?**\n\nA decisão deve considerar a estabilidade clínica, o ECG, a evolução do potássio e a resolução do risco de recorrência. Não deve depender apenas de um ECG normal após cálcio.\n\n**13. Qual é a competência principal?**\n\nDiferenciar estabilização elétrica temporária de resolução da emergência hipercalêmica.",
+      "comentarios": {
+        "A": "A normalização do QRS após cálcio não demonstra eliminação do excesso corporal de potássio.",
+        "B": "Reconhece o efeito temporário do cálcio e a necessidade de monitorização cardíaca e eletrocardiográfica.",
+        "C": "A resposta ao cálcio não elimina a necessidade de estratégias de remoção efetiva.",
+        "D": "Monitorização glicêmica e cardíaca avaliam riscos diferentes e não são intercambiáveis."
+      },
+      "perola": "O cálcio pode melhorar o ECG antes de o potássio cair. Não confunda um coração temporariamente protegido com uma hipercalemia resolvida.",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeções: Calcium; Monitoring.\n\n---"
+    },
+    {
+      "id": "aqz-hiper-028",
+      "numero": 28,
+      "titulo": "O POTÁSSIO VOLTOU A SUBIR APÓS A INSULINA",
+      "dificuldade": "Avançada.",
+      "competenciaPrincipal": "Reconhecer recorrência após terapias redistributivas e reorganizar a abordagem da emergência.",
+      "competenciasSecundarias": "Insulina; salbutamol; redistribuição intracelular; oligúria; recorrência; hemodiálise; monitorização cardíaca; hipoglicemia.",
+      "eixoTematico": "Recorrência após tratamento redistributivo.",
+      "categoria": "Monitorização, recorrência e destino",
+      "subtemas": "Insulina; salbutamol; redistribuição intracelular; oligúria; recorrência; hemodiálise; monitorização cardíaca; hipoglicemia.",
+      "aulasRelacionadas": [
+        {
+          "numero": 14,
+          "aulaId": "2df7a533-2188-425f-a045-0b3520bd5741",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 15,
+          "aulaId": "759984ad-df44-4a0a-9543-3c3602e75e5e",
+          "moduloId": "26bdbea9-55a7-4549-b922-4fd1db60f887"
+        },
+        {
+          "numero": 26,
+          "aulaId": "8d392762-12f2-496d-ad0a-be8cbaaa0d8a",
+          "moduloId": "18dc5aa4-8311-4f3c-b95f-8831cc6a2269"
+        },
+        {
+          "numero": 27,
+          "aulaId": "039e69cc-0aee-435a-bb07-71885a8878b5",
+          "moduloId": "09f41441-7485-4722-a595-56106a808f3f"
+        }
+      ],
+      "tipo": "Caso clínico de reavaliação terapêutica.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0.",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 59 anos, com lesão renal aguda oligúrica, é atendido por hipercalemia grave.\n\nNa admissão:\n\n- Potássio: 7,1 mEq/L.\n- Creatinina: 4,8 mg/dL.\n- ECG: ondas T apiculadas e prolongamento do intervalo PR.\n\nRecebe cálcio intravenoso, insulina com glicose e salbutamol nebulizado.\n\nUma hora depois, o potássio diminui para 5,6 mEq/L.\n\nA equipe considera o tratamento encerrado, embora a diurese permaneça muito reduzida e nenhuma estratégia efetiva de remoção tenha sido realizada.\n\nQuatro horas após a administração de insulina, o potássio volta a subir para 6,7 mEq/L.\n\n**Qual é a melhor interpretação e conduta?**",
+      "alternativas": {
+        "A": "A elevação demonstra que a insulina não teve qualquer efeito, sendo necessário desconsiderar a primeira dosagem de controle.",
+        "B": "A elevação indica obrigatoriamente pseudohipercalemia, pois o potássio não pode voltar a aumentar após tratamento intravenoso.",
+        "C": "O aumento do potássio comprova que o cálcio intravenoso provocou liberação celular de potássio, devendo ser permanentemente contraindicado.",
+        "D": "O aumento é compatível com recorrência após o término do efeito redistributivo; é necessário reavaliar imediatamente ECG, potássio e condição clínica, considerar novas medidas temporizadoras e garantir uma estratégia efetiva de remoção.\n\n**GABARITO: D**"
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. A insulina foi inicialmente eficaz?**\n\nSim. A queda de 7,1 para 5,6 mEq/L é compatível com resposta à redistribuição intracelular.\n\n**2. O que acontece com o potássio após a administração de insulina?**\n\nA insulina estimula a captação celular de potássio, principalmente no músculo esquelético.\n\n**3. O potássio foi eliminado do organismo?**\n\nNão necessariamente. A insulina reduz a concentração extracelular, mas não remove o excesso corporal.\n\n**4. Por que ocorreu nova elevação?**\n\nO efeito redistributivo diminui com o tempo. Se o excesso de potássio persistir, a concentração sérica pode voltar a aumentar.\n\n**5. Qual é a importância da oligúria?**\n\nA capacidade de eliminação renal está comprometida, aumentando o risco de persistência e recorrência da hipercalemia.\n\n**6. O salbutamol impede essa recorrência?**\n\nNão. Ele também promove redistribuição intracelular temporária, e sua resposta pode variar.\n\n**7. O cálcio impede definitivamente o risco elétrico?**\n\nNão. O efeito protetor do cálcio é temporário e não reduz o potássio sérico.\n\n**8. Qual deve ser a primeira preocupação diante do novo potássio de 6,7 mEq/L?**\n\nReavaliar imediatamente a condição clínica e elétrica, com monitorização e ECG.\n\n**9. Pode ser necessário repetir intervenções de ação rápida?**\n\nSim. A necessidade depende da gravidade, das alterações elétricas, do tempo decorrido e dos riscos associados a cada intervenção.\n\n**10. Por que a repetição de insulina exige cautela?**\n\nPorque a ação hipoglicemiante pode persistir, especialmente na disfunção renal. Novas doses aumentam a necessidade de vigilância glicêmica.\n\n**11. Qual é o tratamento que faltou?**\n\nUma estratégia efetiva de remoção de potássio, adequada à função renal e à gravidade do caso.\n\n**12. Quando considerar hemodiálise?**\n\nA disfunção renal grave associada à hipercalemia recorrente deve motivar avaliação urgente da necessidade de terapia dialítica.\n\n**13. Qual foi o erro da equipe?**\n\nInterpretar a melhora laboratorial transitória como resolução definitiva.\n\n**14. Qual é a competência principal?**\n\nReconhecer recorrência após terapias redistributivas e reorganizar a abordagem da emergência.",
+      "comentarios": {
+        "A": "A queda inicial demonstra resposta ao tratamento. A recorrência posterior não invalida esse resultado.",
+        "B": "A hipercalemia pode recorrer após o término da ação redistributiva. Pseudohipercalemia não é a explicação obrigatória.",
+        "C": "O cálcio não provoca, como mecanismo habitual, liberação celular de potássio que explique a recorrência.",
+        "D": "Reconhece o caráter temporário da redistribuição e prioriza reavaliação elétrica, tratamento emergencial quando indicado e remoção efetiva."
+      },
+      "perola": "Quando o potássio cai após insulina, você ganhou tempo. Se não houver remoção efetiva, o mesmo potássio pode voltar a ameaçar o paciente horas depois.",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeções: Insulin with glucose; Monitoring; Remove potassium from the body.\n\n---"
+    },
+    {
+      "id": "aqz-hiper-029",
+      "numero": 29,
+      "titulo": "O POTÁSSIO NORMALIZOU, MAS A GLICEMIA CONTINUA CAINDO",
+      "dificuldade": "Intermediária.",
+      "competenciaPrincipal": "Manter vigilância glicêmica durante toda a janela de risco após insulina intravenosa.",
+      "competenciasSecundarias": "Hipoglicemia tardia; doença renal crônica; depuração da insulina; suplementação de glicose; monitorização horária; segurança terapêutica.",
+      "eixoTematico": "Prevenção de hipoglicemia após tratamento da hipercalemia.",
+      "categoria": "Monitorização, recorrência e destino",
+      "subtemas": "Hipoglicemia tardia; doença renal crônica; depuração da insulina; suplementação de glicose; monitorização horária; segurança terapêutica.",
+      "aulasRelacionadas": [
+        {
+          "numero": 15,
+          "aulaId": "759984ad-df44-4a0a-9543-3c3602e75e5e",
+          "moduloId": "26bdbea9-55a7-4549-b922-4fd1db60f887"
+        },
+        {
+          "numero": 16,
+          "aulaId": "15e2011c-d795-4343-b8a6-e3d6c00a57d4",
+          "moduloId": "26bdbea9-55a7-4549-b922-4fd1db60f887"
+        },
+        {
+          "numero": 26,
+          "aulaId": "8d392762-12f2-496d-ad0a-be8cbaaa0d8a",
+          "moduloId": "18dc5aa4-8311-4f3c-b95f-8831cc6a2269"
+        }
+      ],
+      "tipo": "Caso clínico de reconhecimento e prevenção de evento adverso.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0.",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Uma mulher de 76 anos, com doença renal crônica avançada, recebe 10 unidades de insulina regular intravenosa e 25 g de glicose para tratar hipercalemia grave.\n\nA glicemia inicial era de 118 mg/dL.\n\nApós duas horas:\n\n- Potássio: 4,9 mEq/L.\n- Glicemia: 96 mg/dL.\n- ECG: sem alterações sugestivas de hipercalemia.\n\nA equipe decide suspender as verificações glicêmicas porque o potássio já normalizou.\n\nNa quarta hora, a paciente apresenta sudorese, sonolência e glicemia capilar de 48 mg/dL.\n\n**Qual medida de segurança deveria ter sido mantida?**",
+      "alternativas": {
+        "A": "Encerrar a monitorização glicêmica assim que o potássio estiver normal, pois os efeitos da insulina sobre glicose e potássio terminam simultaneamente.",
+        "B": "Realizar apenas uma glicemia na primeira hora, pois a hipoglicemia associada à insulina intravenosa ocorre exclusivamente nos primeiros 60 minutos.",
+        "C": "Manter verificações glicêmicas aproximadamente a cada hora por cinco a seis horas após a insulina, considerando suplementação adicional de glicose conforme o risco individual e a evolução.",
+        "D": "Suspender a monitorização de potássio e glicose após a melhora eletrocardiográfica, pois o ECG é suficiente para avaliar todas as complicações do tratamento.\n\n**GABARITO: C**"
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. Qual complicação ocorreu?**\n\nHipoglicemia sintomática tardia após administração intravenosa de insulina.\n\n**2. Por que a insulina pode causar hipoglicemia?**\n\nPorque estimula a utilização e a captação de glicose pelos tecidos.\n\n**3. Por que a glicose inicial pode ser insuficiente?**\n\nA glicose administrada em bolus pode ser consumida enquanto a ação metabólica da insulina persiste.\n\n**4. Qual é o papel da doença renal?**\n\nA redução da depuração de insulina pode prolongar sua ação e aumentar o risco de hipoglicemia.\n\n**5. A normalização do potássio significa que a insulina deixou de agir sobre a glicose?**\n\nNão. Os efeitos sobre a glicose podem persistir mesmo depois da melhora do potássio.\n\n**6. Por que a glicemia de 96 mg/dL na segunda hora não era suficiente?**\n\nPorque era apenas uma medida pontual. A glicemia poderia continuar diminuindo nas horas seguintes.\n\n**7. Qual é a recomendação de monitorização do material-base?**\n\nVerificar a glicemia aproximadamente a cada hora por cinco a seis horas após a administração de insulina.\n\n**8. Como reduzir o risco de hipoglicemia?**\n\nO material-base recomenda considerar infusão de glicose a 10% após o bolus inicial, acompanhada de controle glicêmico seriado.\n\n**9. Qual esquema é descrito na referência?**\n\nInfusão de glicose a 10% a 50–75 mL/h, individualizada conforme glicemia, risco de hipoglicemia e condições clínicas.\n\n**10. Por que o estado volêmico importa?**\n\nPacientes com disfunção renal avançada podem apresentar risco de sobrecarga hídrica, exigindo individualização da suplementação.\n\n**11. Qual deve ser a conduta diante da glicemia de 48 mg/dL com sintomas?**\n\nTratar imediatamente a hipoglicemia conforme o protocolo assistencial e manter reavaliações glicêmicas.\n\n**12. O tratamento da hipercalemia pode ser considerado seguro apenas porque o potássio normalizou?**\n\nNão. Também é necessário reconhecer e prevenir complicações das intervenções utilizadas.\n\n**13. Qual é a competência principal?**\n\nManter vigilância glicêmica durante toda a janela de risco após insulina intravenosa.",
+      "comentarios": {
+        "A": "A normalização do potássio não determina o fim do efeito hipoglicemiante da insulina.",
+        "B": "A hipoglicemia pode ocorrer várias horas após a administração.",
+        "C": "Corresponde à monitorização recomendada e permite reconhecer precocemente quedas posteriores da glicemia.",
+        "D": "O ECG não identifica hipoglicemia nem substitui monitorização laboratorial e glicêmica."
+      },
+      "perola": "O potássio pode estar normal enquanto a insulina ainda representa perigo. Depois de tratar a hipercalemia, continue procurando a complicação que você mesmo pode ter provocado: hipoglicemia.",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeções: Insulin with glucose; Monitoring.\n\n---"
+    },
+    {
+      "id": "aqz-hiper-030",
+      "numero": 30,
+      "titulo": "O PACIENTE ESTÁ PRONTO PARA SAIR DA EMERGÊNCIA?",
+      "dificuldade": "Avançada.",
+      "competenciaPrincipal": "Integrar resposta terapêutica, monitorização e controle da causa antes de considerar encerrada a abordagem da emergência.",
+      "competenciasSecundarias": "Transição segura do cuidado; recorrência; oligúria; monitorização glicêmica; ECG; função renal; tratamento definitivo; fatores reversíveis.",
+      "eixoTematico": "Avaliação integrada e continuidade do cuidado.",
+      "categoria": "Monitorização, recorrência e destino",
+      "subtemas": "Transição segura do cuidado; recorrência; oligúria; monitorização glicêmica; ECG; função renal; tratamento definitivo; fatores reversíveis.",
+      "aulasRelacionadas": [
+        {
+          "numero": 26,
+          "aulaId": "8d392762-12f2-496d-ad0a-be8cbaaa0d8a",
+          "moduloId": "18dc5aa4-8311-4f3c-b95f-8831cc6a2269"
+        },
+        {
+          "numero": 27,
+          "aulaId": "039e69cc-0aee-435a-bb07-71885a8878b5",
+          "moduloId": "09f41441-7485-4722-a595-56106a808f3f"
+        },
+        {
+          "numero": 28,
+          "aulaId": "d8b27ec2-ef72-4ba7-b6d3-ad4694a6e474",
+          "moduloId": "09f41441-7485-4722-a595-56106a808f3f"
+        }
+      ],
+      "tipo": "Caso clínico integrador de decisão assistencial.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0.",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 68 anos, com doença renal crônica estágio G4, é admitido na emergência por hipercalemia grave.\n\nNa admissão:\n\n- Potássio: 7,0 mEq/L.\n- Creatinina: 3,7 mg/dL.\n- Glicemia: 126 mg/dL.\n- ECG: ondas T apiculadas.\n\nRecebe cálcio intravenoso, insulina regular com glicose e salbutamol nebulizado.\n\nApós duas horas, apresenta melhora clínica, ECG sem alterações sugestivas de hipercalemia e potássio de 5,4 mEq/L.\n\nEntretanto, o paciente permanece oligúrico, ainda não recebeu uma estratégia efetiva de remoção do excesso de potássio e está apenas na segunda hora de monitorização glicêmica após a insulina.\n\nUm profissional sugere alta imediata, argumentando que o potássio já não está em faixa de emergência.\n\n**Qual é a melhor decisão?**",
+      "alternativas": {
+        "A": "Dar alta imediatamente, pois um potássio de 5,4 mEq/L exclui qualquer risco de recorrência.",
+        "B": "Considerar a melhora clínica e eletrocardiográfica suficiente para encerrar o acompanhamento, independentemente da função renal.",
+        "C": "Liberar o paciente desde que receba orientação para repetir o potássio em sete dias, sem necessidade de monitorização adicional.",
+        "D": "Manter observação e reavaliação, completar a vigilância glicêmica, acompanhar a evolução do potássio e definir uma estratégia efetiva de remoção e controle da causa antes de considerar uma transição segura do cuidado.\n\n**GABARITO: D**"
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. O paciente apresentou hipercalemia grave?**\n\nSim. O potássio de 7,0 mEq/L, associado a alterações eletrocardiográficas, exigiu tratamento emergencial.\n\n**2. A resposta inicial foi favorável?**\n\nSim. Houve melhora clínica, elétrica e laboratorial.\n\n**3. Essa melhora comprova resolução definitiva?**\n\nNão. As intervenções realizadas produziram principalmente estabilização cardíaca e redistribuição intracelular.\n\n**4. Qual é o risco relacionado à oligúria?**\n\nA capacidade de eliminação renal de potássio está reduzida, aumentando a possibilidade de persistência ou recorrência.\n\n**5. Por que o potássio pode voltar a subir?**\n\nPorque a ação redistributiva da insulina e do salbutamol diminui com o tempo, enquanto o excesso corporal pode persistir.\n\n**6. O ECG normal exclui recorrência?**\n\nNão. O ECG não apresenta sensibilidade suficiente para excluir hipercalemia clinicamente importante.\n\n**7. Qual é a importância de uma nova dosagem de potássio?**\n\nAvaliar a tendência da concentração sérica e identificar recorrência ou redução insuficiente.\n\n**8. Por que a glicemia ainda precisa ser monitorizada?**\n\nPorque a insulina pode causar hipoglicemia tardia, particularmente em pacientes com doença renal.\n\n**9. Qual é a janela de monitorização glicêmica descrita no UpToDate?**\n\nAproximadamente cinco a seis horas após a administração de insulina, com verificações horárias.\n\n**10. O que falta no tratamento?**\n\nDefinir e executar uma estratégia efetiva de remoção de potássio, adequada à função renal e à evolução.\n\n**11. É necessário investigar a causa da hipercalemia?**\n\nSim. A abordagem deve identificar fatores reversíveis, como medicamentos que aumentam o potássio, hipovolemia e deterioração da função renal.\n\n**12. Todos os medicamentos associados à hipercalemia devem ser suspensos permanentemente?**\n\nNão. A decisão sobre interrupção temporária, ajuste ou reintrodução depende da indicação, do risco e da evolução clínica.\n\n**13. Existe um único valor de potássio que autoriza alta?**\n\nO material-base não estabelece um limiar universal isolado de alta após emergência hipercalêmica. A decisão exige avaliação integrada.\n\n**14. Quais fatores devem orientar a transição do cuidado?**\n\nEstabilidade clínica, evolução do ECG e do potássio, função renal, risco de recorrência, segurança após as medicações administradas e continuidade do tratamento.\n\n**15. Qual é a competência principal?**\n\nIntegrar resposta terapêutica, monitorização e controle da causa antes de considerar encerrada a abordagem da emergência.",
+      "comentarios": {
+        "A": "O valor de 5,4 mEq/L após terapia redistributiva não exclui recorrência, especialmente em paciente oligúrico.",
+        "B": "A melhora elétrica e clínica não substitui a avaliação da função renal e da eliminação de potássio.",
+        "C": "Adiar a reavaliação por sete dias ignora o risco de recorrência precoce e de hipoglicemia tardia.",
+        "D": "Integra vigilância clínica, laboratorial e glicêmica com a necessidade de remoção efetiva e controle da causa."
+      },
+      "perola": "O tratamento da hipercalemia não termina quando o número melhora. Termina quando a emergência está controlada, os riscos das intervenções foram acompanhados e existe um plano seguro para evitar a recorrência.",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeções: Monitoring; Remove potassium from the body; Drug-induced hyperkalemia.\n\n---\n\n# 5. METADADOS OBRIGATÓRIOS\n\nCada questão deverá possuir os seguintes dados, respeitando os nomes e relacionamentos já utilizados no projeto:\n\n- `question_id`: identificador estável.\n- `source_bank`: AgoraQuiz.\n- `source_course`: Tratamento da Hipercalemia em Adultos.\n- `course_id`: identificador real do curso.\n- `block_number`: 6.\n- `question_number`: 26, 27, 28, 29 ou 30.\n- `title`: título integral.\n- `primary_competency`: competência principal.\n- `secondary_competencies`: competências secundárias.\n- `topic`: eixo temático.\n- `difficulty`: dificuldade.\n- `question_type`: caso clínico.\n- `related_lessons`: relacionamentos reais.\n- `stem`: enunciado integral.\n- `alternatives`: quatro alternativas completas.\n- `correct_answer`: gabarito.\n- `clinical_reasoning`: tópicos numerados completos.\n- `alternative_feedback`: comentários de A, B, C e D.\n- `clinical_pearl`: Pérola do Plantão.\n- `references`: referências científicas.\n- `editorial_status`: aprovado.\n- `version`: 1.0.\n- `scientific_review_status`: estado real da conferência científica.\n- `created_at`: data real de criação.\n- `updated_at`: data real de atualização.\n\nSe o projeto já possuir campos equivalentes, reutilizá-los.\n\nNão criar duplicações desnecessárias.\n\nNão inventar nomes de revisores, datas de validação ou resultados de testes.\n\n## Matriz de vinculação pedagógica\n\n| Questão | Competência principal | Aulas propostas |\n|---|---|---|\n| 026 | Monitorização laboratorial precoce | 26, 27 |\n| 027 | Monitorização elétrica após cálcio | 11, 12, 26 |\n| 028 | Reconhecimento de recorrência após redistribuição | 14, 15, 26, 27 |\n| 029 | Prevenção de hipoglicemia tardia | 15, 16, 26 |\n| 030 | Avaliação integrada e continuidade do cuidado | 26, 27, 28 |\n\n**Importante:** Os números das aulas são propostas editoriais. Antes de criar relacionamentos, conferir os títulos e identificadores reais das 34 aulas do curso.\n\nSe não houver correspondência pedagógica adequada, registrar a pendência em vez de criar vínculos incorretos.\n\n---\n\n# 6. MODO ESTUDO\n\nIntegrar as questões ao Modo Estudo existente.\n\nFluxo esperado:\n\n1. Apresentar o enunciado integral.\n2. Apresentar as quatro alternativas.\n3. Permitir seleção de uma alternativa.\n4. Permitir confirmação da resposta.\n5. Registrar a tentativa.\n6. Exibir acerto ou erro.\n7. Exibir o gabarito.\n8. Exibir o raciocínio clínico completo.\n9. Exibir os comentários das quatro alternativas.\n10. Exibir a Pérola do Plantão.\n11. Exibir a referência científica.\n12. Permitir avançar para outra questão.\n\nApós confirmar a resposta, impedir sua alteração dentro da mesma tentativa.\n\nPermitir a organização do conteúdo em seções expansíveis, desde que nenhuma informação seja omitida.\n\nO conteúdo pedagógico não deve ser truncado em telas pequenas.\n\n---\n\n# 7. MODO SIMULADO\n\nPreservar o funcionamento atual.\n\nRequisitos:\n\n- Não revelar respostas corretas durante a resolução.\n- Não revelar explicações antes do encerramento.\n- Permitir navegação entre questões.\n- Permitir revisar respostas antes de finalizar.\n- Registrar respostas e sessão.\n- Calcular pontuação corretamente.\n- Exibir correção completa após a finalização.\n- Exibir o raciocínio clínico e as Pérolas do Plantão.\n- Impedir duplicação indevida de questões na mesma sessão.\n- Preservar as regras atuais de seleção e distribuição de questões.\n\nAs questões 026 a 030 devem integrar o banco disponível do curso, respeitando as regras reais de acesso.\n\n---\n\n# 8. CADERNO DE ERROS\n\nIntegrar as cinco questões ao Caderno de Erros compartilhado.\n\nNão criar um Caderno de Erros paralelo para o AgoraQuiz.\n\nPreservar os estados:\n\n- **Precisa revisar**\n- **Em revisão**\n- **Dominada**\n\nPreservar a regra de **duas respostas corretas consecutivas durante a revisão** para classificar uma questão como Dominada.\n\nUma resposta incorreta durante a revisão reinicia a sequência de acertos.\n\nRegistrar, conforme a estrutura existente:\n\n- Usuário.\n- Questão.\n- Curso.\n- Banco de origem.\n- Modalidade.\n- Sessão.\n- Tentativa.\n- Alternativa selecionada.\n- Gabarito.\n- Resultado.\n- Data.\n- Estado de revisão.\n- Sequência de acertos.\n\nEvitar duplicação de registros principais de erro para a mesma combinação de usuário e questão.\n\nPreservar o histórico individual de tentativas.\n\nGarantir isolamento de dados entre usuários.\n\n---\n\n# 9. PREPARAÇÃO PARA O AGORAARENA\n\nO AgoraArena será desenvolvido futuramente como ambiente multidisciplinar de simulados e desafios.\n\nAs questões do AgoraQuiz deverão poder ser reutilizadas sem duplicação de conteúdo.\n\nPreservar:\n\n1. IDs estáveis.\n2. Curso de origem.\n3. Banco de origem.\n4. Dificuldade.\n5. Competências.\n6. Eixo temático.\n7. Referências.\n8. Versionamento editorial.\n9. Histórico de tentativas.\n10. Separação entre questão e sessão.\n11. Separação entre questão e usuário.\n12. Registro da modalidade.\n\n**Não implementar o AgoraArena agora.**\n\n---\n\n# 10. IDENTIDADE VISUAL\n\nPreservar a identidade visual existente do AgoraMed.\n\nCores institucionais:\n\n- Azul-petróleo: `#346f77`.\n- Cinza: `#808080`.\n- Branco suave: `#F5F5F5`.\n\nO curso de hipercalemia utiliza também destaques em violeta e superfícies escuras.\n\nReutilizar componentes, estilos e tokens já presentes.\n\nNão introduzir uma nova identidade visual.\n\nGarantir:\n\n- Responsividade.\n- Boa leitura em dispositivos móveis.\n- Contraste adequado.\n- Navegação por teclado.\n- Identificação acessível de alternativas.\n- Feedback compreensível.\n- Boa apresentação de textos longos.\n\n---\n\n# 11. AUDITORIA CIENTÍFICA\n\nReferência principal:\n\n**UpToDate — Treatment and prevention of hyperkalemia in adults.**\n\nMaterial-base disponibilizado pelo responsável pedagógico.\n\nConferir especialmente as seções:\n\n- Monitoring.\n- Calcium.\n- Insulin with glucose.\n- Remove potassium from the body.\n- Drug-induced hyperkalemia.\n\n## Pontos obrigatórios de verificação\n\n1. Monitorização cardíaca contínua na emergência hipercalêmica.\n2. Indicação de ECGs seriados.\n3. Dosagem de potássio uma a duas horas após o início do tratamento.\n4. Individualização das dosagens posteriores.\n5. Limitações da melhora clínica como indicador de resposta.\n6. Limitações do ECG como indicador da concentração sérica.\n7. Efeito estabilizador do cálcio.\n8. Ausência de efeito direto do cálcio sobre o potássio sérico.\n9. Duração limitada do efeito protetor do cálcio.\n10. Indicações de reavaliação e eventual repetição de cálcio.\n11. Mecanismo de redistribuição da insulina.\n12. Mecanismo de redistribuição do salbutamol.\n13. Risco de recorrência após o término das medidas redistributivas.\n14. Relação entre oligúria e recorrência.\n15. Importância da remoção efetiva de potássio.\n16. Indicações de avaliação para hemodiálise.\n17. Risco de hipoglicemia tardia após insulina.\n18. Efeito da disfunção renal sobre a depuração de insulina.\n19. Monitorização glicêmica horária por cinco a seis horas.\n20. Infusão de glicose a 10% após o bolus inicial.\n21. Faixa de 50–75 mL/h descrita na referência.\n22. Individualização conforme glicemia e volemia.\n23. Tratamento imediato da hipoglicemia sintomática.\n24. Identificação de fatores reversíveis da hipercalemia.\n25. Revisão de medicamentos associados à hipercalemia.\n26. Critérios clínicos de segurança para transição do cuidado.\n27. Ausência de um limiar universal isolado de potássio para alta após emergência hipercalêmica.\n\n## Regra de segurança científica\n\nNão modificar silenciosamente o conteúdo aprovado.\n\nSe houver divergência entre o material-base e recomendações atuais, registrar:\n\n- Questão afetada.\n- Trecho envolvido.\n- Referência consultada.\n- Natureza da divergência.\n- Possível repercussão clínica.\n- Sugestão de correção.\n\nEncaminhar alterações de conteúdo para aprovação editorial antes de publicá-las.\n\nSe a fonte não estiver acessível, declarar essa limitação e não afirmar que a conferência foi concluída.\n\n---\n\n# 12. AUDITORIA PEDAGÓGICA\n\nVerificar:\n\n- Cinco questões completas.\n- Cinco enunciados integrais.\n- Vinte alternativas.\n- Gabaritos C, B, D, C e D.\n- Sessenta e sete tópicos numerados de raciocínio clínico.\n- Vinte comentários individuais de alternativas.\n- Cinco Pérolas do Plantão.\n- Cinco conjuntos de referências.\n- Metadados completos.\n- Competências classificadas.\n- Coerência entre enunciados e gabaritos.\n- Ausência de contradições internas.\n- Ausência de duplicação indevida com os Blocos 01 a 05.\n- Vínculos corretos com as aulas reais.\n\nAtenção especial às questões 028 e 029, que retomam conhecimentos anteriores com enfoque na monitorização e nas decisões após a intervenção inicial.\n\nNão reduzir a profundidade dos comentários para economizar espaço ou código.\n\n---\n\n# 13. TESTES OBRIGATÓRIOS\n\nExecutar os testes aplicáveis ao projeto:\n\n1. Cadastro das questões 026 a 030.\n2. Validação dos IDs.\n3. Validação dos gabaritos.\n4. Preservação das questões 001 a 025.\n5. Integridade dos enunciados.\n6. Integridade das alternativas.\n7. Integridade dos raciocínios clínicos.\n8. Integridade dos comentários.\n9. Exibição das Pérolas do Plantão.\n10. Exibição das referências.\n11. Funcionamento do Modo Estudo.\n12. Funcionamento do Modo Simulado.\n13. Persistência das tentativas.\n14. Integração com o Caderno de Erros.\n15. Regra de duas revisões corretas consecutivas.\n16. Reinício da sequência após erro.\n17. Isolamento entre usuários.\n18. Ausência de registros duplicados.\n19. Responsividade.\n20. Acessibilidade.\n21. Ausência de regressões nos AgoraQuest.\n22. Ausência de regressões em outros cursos.\n23. Compatibilidade com o Bloco 07.\n24. Preservação dos dados existentes.\n25. Preparação arquitetural para o AgoraArena.\n\nNão declarar aprovação de testes que não foram executados.\n\n---\n\n# 14. CRITÉRIOS DE ACEITE\n\nA implementação estará concluída quando:\n\n- As questões 026 a 030 estiverem cadastradas.\n- Todos os textos estiverem integrais.\n- Os gabaritos estiverem corretos.\n- Os metadados estiverem completos.\n- As referências estiverem registradas.\n- Os Blocos 01 a 05 permanecerem intactos.\n- Os AgoraQuest continuarem funcionando.\n- O Modo Estudo estiver operacional.\n- O Modo Simulado estiver operacional.\n- O Caderno de Erros estiver integrado.\n- Os dados dos alunos estiverem protegidos.\n- Não houver duplicações indevidas.\n- A identidade visual estiver preservada.\n- A arquitetura permitir novos blocos.\n- O AgoraArena não tiver sido implementado.\n- Pendências científicas e técnicas estiverem documentadas.\n\n---\n\n# 15. RELATÓRIO FINAL OBRIGATÓRIO\n\nApós implementar, apresentar:\n\n1. Resumo das alterações.\n2. Arquivos modificados.\n3. Tabelas ou coleções utilizadas.\n4. IDs cadastrados.\n5. Confirmação dos gabaritos.\n6. Confirmação da integridade dos textos.\n7. Quantidade total de questões.\n8. Situação dos Blocos 01 a 05.\n9. Situação do Caderno de Erros.\n10. Situação dos modos Estudo e Simulado.\n11. Metadados cadastrados.\n12. Vínculos com as aulas reais.\n13. Testes executados.\n14. Testes não executados e motivos.\n15. Pendências científicas.\n16. Pendências técnicas.\n17. Preparação para o Bloco 07.\n\n## INSTRUÇÃO FINAL\n\nImplemente o **Bloco 06 do AgoraQuiz de Hipercalemia**, incorporando integralmente as questões 026 a 030.\n\nPreserve os Blocos 01 a 05.\n\nNão modifique os AgoraQuest ou outros cursos.\n\nNão implemente o AgoraArena.\n\n**Priorize a integridade pedagógica, o rigor científico, a segurança dos dados e a capacidade de expansão do AgoraMed.**"
+    }
+  ]
+}

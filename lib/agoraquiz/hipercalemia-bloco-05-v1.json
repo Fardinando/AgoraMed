@@ -1,0 +1,264 @@
+{
+  "cursoId": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+  "cursoOrigem": "Tratamento da Hipercalemia em Adultos",
+  "bancoOrigem": "AgoraQuiz Hipercalemia",
+  "bloco": "05",
+  "temaEditorial": "Remoção de potássio e diálise",
+  "questoes": [
+    {
+      "id": "aqz-hiper-021",
+      "numero": 21,
+      "titulo": "FUROSEMIDA FUNCIONA EM UM PACIENTE ANÚRICO?",
+      "dificuldade": "Intermediária.",
+      "competenciaPrincipal": "Reconhecer quando a furosemida pode promover eliminação renal de potássio.",
+      "competenciasSecundarias": "Diuréticos de alça; função renal residual; kaliurese; anúria; hemodiálise; avaliação da volemia.",
+      "eixoTematico": "Diuréticos e capacidade de excreção renal.",
+      "categoria": "Remoção de potássio e diálise",
+      "subtemas": "Diuréticos de alça; função renal residual; kaliurese; anúria; hemodiálise; avaliação da volemia.",
+      "aulasRelacionadas": [
+        {
+          "numero": 19,
+          "aulaId": "8d71d49a-70b9-4078-8d4c-6235d04caeea",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        },
+        {
+          "numero": 20,
+          "aulaId": "aad65f01-fab2-47dc-b146-cb82f1234796",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        },
+        {
+          "numero": 21,
+          "aulaId": "89e1038e-82a1-42d0-ad9a-a55676dc005d",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        }
+      ],
+      "tipo": "Caso clínico de decisão terapêutica.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0.",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 67 anos, com doença renal terminal em hemodiálise, procura a emergência com fraqueza muscular e potássio sérico de 6,9 mEq/L.\n\nEstá há 48 horas sem urinar e perdeu a última sessão de hemodiálise.\n\nApresenta ondas T apiculadas e QRS discretamente alargado.\n\nApós iniciar as medidas emergenciais de estabilização cardíaca e redistribuição do potássio, um profissional sugere administrar furosemida intravenosa em dose elevada como principal estratégia de eliminação do potássio.\n\n**Qual é a interpretação mais adequada?**",
+      "alternativas": {
+        "A": "A furosemida elimina potássio diretamente pela circulação sanguínea, independentemente da produção urinária.",
+        "B": "A furosemida é mais eficaz em pacientes anúricos, porque a ausência de diurese aumenta a concentração do medicamento nos túbulos renais.",
+        "C": "A furosemida depende de função renal residual e produção urinária para promover kaliurese; em um paciente anúrico, não constitui estratégia efetiva de remoção, sendo necessário priorizar hemodiálise.",
+        "D": "A administração de furosemida substitui a hemodiálise em qualquer paciente com potássio inferior a 7,0 mEq/L.\n\n**GABARITO: C**"
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. Qual é o mecanismo de ação da furosemida?**\n\nA furosemida inibe o cotransportador Na⁺/K⁺/2Cl⁻ na alça espessa ascendente de Henle, aumentando a excreção urinária de sódio e água.\n\n**2. Como isso pode aumentar a eliminação de potássio?**\n\nO maior aporte de sódio e fluxo ao néfron distal pode favorecer a secreção tubular de potássio e sua eliminação urinária.\n\n**3. Qual condição é necessária para esse efeito?**\n\nÉ preciso haver função renal residual suficiente e produção de urina.\n\n**4. O que significa anúria neste caso?**\n\nO paciente não apresenta produção urinária clinicamente relevante. Portanto, a capacidade de eliminar potássio pela urina é praticamente inexistente.\n\n**5. Aumentar a dose de furosemida resolve a ausência de função renal?**\n\nNão. Aumentar a dose não cria capacidade excretora em um rim sem resposta funcional.\n\n**6. Em quais pacientes a furosemida pode ser útil?**\n\nEm pacientes não oligúricos, com função renal preservada ou comprometimento não grave, especialmente quando existe hipervolemia.\n\n**7. A furosemida pode ser a única estratégia em uma emergência hipercalêmica?**\n\nNão. O UpToDate ressalta que a resposta kaliurética aguda é pouco previsível e que diuréticos não devem ser a única forma de remoção de potássio em emergências.\n\n**8. Por que o estado volêmico importa?**\n\nA administração de diuréticos pode agravar hipovolemia e reduzir a perfusão renal. A estratégia deve considerar volemia, função renal e resposta urinária.\n\n**9. Qual é a importância da hemodiálise neste paciente?**\n\nO paciente apresenta doença renal terminal, anúria e hipercalemia grave com alterações eletrocardiográficas. A hemodiálise permite remoção efetiva de potássio.\n\n**10. A hemodiálise substitui as medidas iniciais de emergência?**\n\nNão. A estabilização cardíaca e a redistribuição devem ser iniciadas enquanto a diálise é organizada.\n\n**11. Qual é o erro conceitual da sugestão?**\n\nPresumir que uma medicação diurética produzirá excreção de potássio mesmo na ausência de produção urinária.\n\n**12. Qual competência está sendo avaliada?**\n\nRelacionar mecanismo farmacológico, função renal e escolha da estratégia de remoção de potássio.",
+      "comentarios": {
+        "A": "A furosemida não remove potássio diretamente do sangue. Seu efeito kaliurético depende da excreção urinária.",
+        "B": "A anúria compromete a capacidade de excreção renal e não potencializa a eficácia da furosemida.",
+        "C": "Reconhece a dependência de função renal residual e a necessidade de hemodiálise no paciente anúrico com hipercalemia grave.",
+        "D": "O valor isolado de potássio não permite substituir a diálise por diurético em paciente com doença renal terminal e alterações elétricas."
+      },
+      "perola": "Furosemida não faz um rim anúrico eliminar potássio. Antes de prescrever um diurético para hipercalemia, pergunte: esse paciente ainda produz urina?",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeção: Loop diuretics in patients without severe kidney function impairment.\n\n---"
+    },
+    {
+      "id": "aqz-hiper-022",
+      "numero": 22,
+      "titulo": "O POTÁSSIO MELHOROU COM INSULINA. AINDA PRECISA DE DIÁLISE?",
+      "dificuldade": "Avançada.",
+      "competenciaPrincipal": "Reconhecer a indicação de hemodiálise urgente apesar da melhora inicial após terapias redistributivas.",
+      "competenciasSecundarias": "Hipercalemia grave; doença renal terminal; anúria; estabilização cardíaca; redistribuição; remoção corporal; recorrência.",
+      "eixoTematico": "Hemodiálise urgente e tratamento definitivo.",
+      "categoria": "Remoção de potássio e diálise",
+      "subtemas": "Hipercalemia grave; doença renal terminal; anúria; estabilização cardíaca; redistribuição; remoção corporal; recorrência.",
+      "aulasRelacionadas": [
+        {
+          "numero": 20,
+          "aulaId": "aad65f01-fab2-47dc-b146-cb82f1234796",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        },
+        {
+          "numero": 21,
+          "aulaId": "89e1038e-82a1-42d0-ad9a-a55676dc005d",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        },
+        {
+          "numero": 22,
+          "aulaId": "f99d47de-7f1e-4079-98ed-1209390ea2df",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        }
+      ],
+      "tipo": "Caso clínico de decisão terapêutica integradora.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0.",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 72 anos, com doença renal terminal em hemodiálise, chega à emergência após faltar a duas sessões.\n\nApresenta:\n\n- Potássio inicial: 7,8 mEq/L.\n- FC: 42 bpm.\n- ECG: ondas P pouco visíveis e QRS alargado.\n- Anúria há vários meses.\n- Acesso vascular para hemodiálise funcionante.\n\nRecebe cálcio intravenoso, insulina com glicose e salbutamol nebulizado.\n\nApós uma hora, o ECG apresenta melhora e o potássio sérico diminui para 6,1 mEq/L.\n\nUm profissional sugere cancelar a hemodiálise, pois considera que o tratamento já foi suficiente.\n\n**Qual é a melhor conduta?**",
+      "alternativas": {
+        "A": "Cancelar a hemodiálise, pois a queda do potássio demonstra que o excesso corporal foi eliminado.",
+        "B": "Manter a indicação de hemodiálise urgente, pois a melhora após medidas redistributivas não representa remoção efetiva do excesso corporal de potássio.",
+        "C": "Suspender a diálise e administrar apenas novas doses de cálcio, pois o cálcio promove eliminação progressiva de potássio.",
+        "D": "Adiar a diálise por pelo menos 48 horas, independentemente da função renal e da evolução do potássio.\n\n**GABARITO: B**"
+      },
+      "gabarito": "B",
+      "raciocinioClinico": "**1. O paciente apresentou emergência hipercalêmica?**\n\nSim. Potássio de 7,8 mEq/L associado a bradicardia e alterações graves de condução caracteriza situação de alto risco.\n\n**2. Qual foi o papel do cálcio?**\n\nAntagonizar os efeitos cardíacos da hipercalemia, sem reduzir diretamente o potássio sérico.\n\n**3. Qual foi o papel da insulina e do salbutamol?**\n\nPromover redistribuição temporária de potássio para o compartimento intracelular.\n\n**4. Por que o potássio caiu?**\n\nPrincipalmente pelo deslocamento transcelular promovido pelas medidas terapêuticas, não necessariamente pela eliminação do excesso corporal.\n\n**5. Por que a melhora do ECG não significa resolução definitiva?**\n\nPorque a toxicidade elétrica pode retornar se o potássio extracelular voltar a aumentar.\n\n**6. Qual é a principal limitação deste paciente?**\n\nA anúria impede a eliminação renal significativa de potássio.\n\n**7. Por que a hemodiálise é indicada?**\n\nPorque permite remover potássio do organismo de maneira eficiente em pacientes com disfunção renal grave.\n\n**8. Qual é a vantagem em relação à diálise peritoneal?**\n\nO UpToDate descreve remoção de potássio muito mais rápida com hemodiálise.\n\n**9. Qual quantidade de potássio pode ser removida?**\n\nA referência descreve aproximadamente 25 a 50 mEq por hora, com variação conforme a prescrição e as características do paciente.\n\n**10. O acesso vascular funcionante modifica a decisão?**\n\nSim. Facilita a realização da hemodiálise sem atrasos relacionados à obtenção de acesso.\n\n**11. O que fazer enquanto a hemodiálise é organizada?**\n\nManter monitorização, reavaliar potássio e ECG, acompanhar glicemia e repetir medidas temporizadoras quando clinicamente indicadas.\n\n**12. O que pode acontecer se a diálise for cancelada?**\n\nO potássio pode voltar a subir após o término do efeito das medidas redistributivas.\n\n**13. Qual é a principal competência?**\n\nReconhecer que a melhora laboratorial inicial não elimina a necessidade de tratamento definitivo quando o paciente não consegue excretar potássio.",
+      "comentarios": {
+        "A": "A queda do potássio após insulina e salbutamol não comprova remoção do excesso corporal.",
+        "B": "Mantém a estratégia de remoção efetiva em um paciente anúrico com hipercalemia grave.",
+        "C": "O cálcio não promove eliminação de potássio.",
+        "D": "Adiar a hemodiálise sem justificativa expõe o paciente ao risco de recorrência da hipercalemia grave."
+      },
+      "perola": "Insulina e salbutamol compram tempo. Em um paciente anúrico com hipercalemia grave, a hemodiálise remove o potássio que essas medidas apenas deslocaram.",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeções: Hemodialysis in patients with severe kidney dysfunction; Dialysis.\n\n---"
+    },
+    {
+      "id": "aqz-hiper-023",
+      "numero": 23,
+      "titulo": "A DIÁLISE VAI DEMORAR. QUAL QUELANTE ESCOLHER?",
+      "dificuldade": "Avançada.",
+      "competenciaPrincipal": "Selecionar tratamento gastrointestinal complementar quando a hemodiálise não pode ser realizada prontamente.",
+      "competenciasSecundarias": "Ciclossilicato de zircônio sódico; patiromer; poliestirenossulfonato de sódio; início de ação; segurança; remoção corporal; evidência clínica.",
+      "eixoTematico": "Trocadores gastrointestinais de cátions.",
+      "categoria": "Remoção de potássio e diálise",
+      "subtemas": "Ciclossilicato de zircônio sódico; patiromer; poliestirenossulfonato de sódio; início de ação; segurança; remoção corporal; evidência clínica.",
+      "aulasRelacionadas": [
+        {
+          "numero": 20,
+          "aulaId": "aad65f01-fab2-47dc-b146-cb82f1234796",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        },
+        {
+          "numero": 21,
+          "aulaId": "89e1038e-82a1-42d0-ad9a-a55676dc005d",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        },
+        {
+          "numero": 23,
+          "aulaId": "3752db01-2371-4fec-8f6e-f7c2b9935390",
+          "moduloId": "18dc5aa4-8311-4f3c-b95f-8831cc6a2269"
+        }
+      ],
+      "tipo": "Caso clínico de seleção farmacológica.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0.",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Uma mulher de 75 anos, com doença renal crônica estágio G5, é admitida com potássio sérico de 7,2 mEq/L e alterações eletrocardiográficas compatíveis com hipercalemia.\n\nRecebe imediatamente as medidas de estabilização cardíaca e redistribuição do potássio.\n\nA equipe de nefrologia indica hemodiálise, mas informa que o procedimento não poderá ser iniciado nas próximas seis horas.\n\nA paciente está consciente, consegue ingerir medicamentos e não apresenta sinais de obstrução intestinal.\n\nO hospital dispõe de ciclossilicato de zircônio sódico (SZC), patiromer e poliestirenossulfonato de sódio (SPS).\n\n**Qual é a melhor estratégia adicional?**",
+      "alternativas": {
+        "A": "Aguardar a hemodiálise sem considerar medidas de remoção gastrointestinal, pois nenhum quelante consegue reduzir o potássio sérico.",
+        "B": "Administrar poliestirenossulfonato de sódio obrigatoriamente como primeira escolha, pois apresenta eficácia superior e ausência de complicações intestinais.",
+        "C": "Administrar SZC e cancelar a hemodiálise, pois uma dose oral garante normalização imediata do potássio em qualquer paciente.",
+        "D": "Considerar um trocador gastrointestinal de cátions, preferencialmente SZC ou patiromer, como medida complementar enquanto se organiza a hemodiálise, sem substituir o tratamento emergencial já iniciado.\n\n**GABARITO: D**"
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. Qual é o problema central?**\n\nA paciente apresenta emergência hipercalêmica, mas a remoção por hemodiálise sofrerá atraso significativo.\n\n**2. Qual é a prioridade inicial?**\n\nEstabilizar eletricamente o coração quando indicado e promover redução rápida do potássio extracelular. Essas medidas não devem aguardar o efeito de medicamentos gastrointestinais.\n\n**3. O que são trocadores gastrointestinais de cátions?**\n\nSão medicamentos que se ligam ao potássio no trato gastrointestinal, favorecendo sua eliminação pelas fezes.\n\n**4. Qual é a diferença em relação à insulina?**\n\nA insulina redistribui o potássio entre os compartimentos. Os trocadores gastrointestinais podem promover remoção corporal de potássio.\n\n**5. Quais agentes são discutidos no material-base?**\n\nCiclossilicato de zircônio sódico (SZC), patiromer e poliestirenossulfonato de sódio (SPS).\n\n**6. Qual é a preferência apresentada no UpToDate para a emergência?**\n\nA referência favorece SZC ou patiromer em relação ao SPS, quando disponíveis, por questões de eficácia e segurança.\n\n**7. Existe diferença entre SZC e patiromer?**\n\nO UpToDate geralmente prefere SZC quando disponível, em razão do início de ação mais rápido.\n\n**8. O SZC produz efeito imediato e previsível em todos os pacientes?**\n\nNão. Embora seja possível observar efeito precoce, a resposta é variável e não deve ser considerada equivalente à das medidas de estabilização cardíaca e redistribuição rápida.\n\n**9. Qual redução foi descrita no material-base?**\n\nA referência cita redução média aproximada de 0,37 mEq/L quatro horas após uma dose de 10 g de SZC, em dados utilizados para fundamentar a abordagem.\n\n**10. Quais esquemas são apresentados para esse contexto?**\n\nO material descreve SZC 10 g por via oral três vezes ao dia durante 48 horas ou patiromer 8,4 g por via oral, com repetição diária conforme necessidade.\n\n**11. Esses esquemas substituem a avaliação individual?**\n\nNão. A decisão depende de disponibilidade, possibilidade de administração gastrointestinal, gravidade, contraindicações, monitorização e protocolo assistencial.\n\n**12. Por que não cancelar a hemodiálise?**\n\nPorque a paciente apresenta disfunção renal grave e hipercalemia importante. A utilização de um trocador gastrointestinal enquanto aguarda a diálise não significa que a indicação de hemodiálise tenha desaparecido.\n\n**13. Qual é a limitação da evidência?**\n\nO UpToDate reconhece que os dados sobre redução aguda do potássio com esses agentes em emergências hipercalêmicas ainda são limitados.\n\n**14. Qual é a competência central?**\n\nSelecionar uma estratégia complementar de remoção quando a hemodiálise está indicada, mas não pode ser realizada prontamente.",
+      "comentarios": {
+        "A": "Trocadores gastrointestinais podem promover eliminação de potássio e ser úteis enquanto a hemodiálise não está disponível.",
+        "B": "O SPS não é a primeira escolha apresentada na referência quando SZC ou patiromer estão disponíveis, especialmente devido às preocupações de segurança.",
+        "C": "Uma dose de SZC não garante normalização imediata do potássio e não substitui automaticamente a hemodiálise indicada.",
+        "D": "Integra remoção gastrointestinal complementar, manutenção das medidas emergenciais e planejamento da hemodiálise."
+      },
+      "perola": "Se a diálise vai demorar, um quelante pode ajudar a remover potássio. Mas não confunda tratamento complementar com substituição da terapia definitiva.",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeções: Dialysis and gastrointestinal cation exchangers; Patiromer or sodium zirconium cyclosilicate (SZC)."
+    },
+    {
+      "id": "aqz-hiper-024",
+      "numero": 24,
+      "titulo": "UM QUELANTE EM UM PACIENTE COM ÍLEO PÓS-OPERATÓRIO",
+      "dificuldade": "Intermediária.",
+      "competenciaPrincipal": "Reconhecer situações de alto risco para complicações intestinais associadas ao poliestirenossulfonato de sódio.",
+      "competenciasSecundarias": "Íleo; pós-operatório abdominal; necrose intestinal; contraindicações; segurança medicamentosa; seleção de estratégias alternativas.",
+      "eixoTematico": "Segurança dos trocadores gastrointestinais.",
+      "categoria": "Remoção de potássio e diálise",
+      "subtemas": "Íleo; pós-operatório abdominal; necrose intestinal; contraindicações; segurança medicamentosa; seleção de estratégias alternativas.",
+      "aulasRelacionadas": [
+        {
+          "numero": 20,
+          "aulaId": "aad65f01-fab2-47dc-b146-cb82f1234796",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        },
+        {
+          "numero": 23,
+          "aulaId": "3752db01-2371-4fec-8f6e-f7c2b9935390",
+          "moduloId": "18dc5aa4-8311-4f3c-b95f-8831cc6a2269"
+        },
+        {
+          "numero": 24,
+          "aulaId": "96021101-3922-4cfe-876c-dbf6ee266915",
+          "moduloId": "18dc5aa4-8311-4f3c-b95f-8831cc6a2269"
+        }
+      ],
+      "tipo": "Caso clínico de prevenção de evento adverso.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0.",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 70 anos está internado na UTI cirúrgica, no terceiro dia após uma cirurgia abdominal de grande porte.\n\nEvolui com lesão renal aguda e potássio sérico de 6,6 mEq/L.\n\nApresenta distensão abdominal, ausência de eliminação de flatos e diagnóstico de íleo pós-operatório.\n\nA equipe já iniciou o tratamento apropriado da hipercalemia e discute alternativas para remover potássio do organismo.\n\nUm profissional sugere administrar poliestirenossulfonato de sódio (SPS) por via gastrointestinal.\n\n**Qual é a conduta mais adequada?**",
+      "alternativas": {
+        "A": "Evitar o SPS nesse contexto, pois o pós-operatório e o íleo aumentam o risco de complicações intestinais graves, incluindo necrose; considerar estratégias alternativas de remoção de potássio.",
+        "B": "Administrar SPS associado obrigatoriamente a sorbitol, pois essa combinação elimina o risco de necrose intestinal.",
+        "C": "Utilizar SPS em dose elevada, pois o íleo prolonga o contato intestinal e torna o medicamento mais seguro.",
+        "D": "Considerar que a ausência de evacuação não interfere na segurança de medicamentos que atuam no trato gastrointestinal.\n\n**GABARITO: A**"
+      },
+      "gabarito": "A",
+      "raciocinioClinico": "**1. O que é o poliestirenossulfonato de sódio?**\n\nÉ uma resina de troca catiônica utilizada para favorecer a eliminação gastrointestinal de potássio.\n\n**2. Qual é seu principal objetivo terapêutico?**\n\nRemover potássio do organismo pelo trato gastrointestinal, e não promover redistribuição intracelular.\n\n**3. Qual é a principal preocupação neste caso?**\n\nO paciente apresenta duas condições de alto risco: pós-operatório abdominal e íleo.\n\n**4. Por que o íleo é relevante?**\n\nPorque representa comprometimento do trânsito intestinal e está entre as condições nas quais o material-base orienta não administrar SPS.\n\n**5. Qual complicação grave está associada ao SPS?**\n\nLesão intestinal, incluindo necrose, potencialmente grave.\n\n**6. O sorbitol elimina esse risco?**\n\nNão. O material-base contraindica o SPS nesses pacientes com ou sem sorbitol.\n\n**7. Quais outras condições de risco são descritas?**\n\nObstrução intestinal, constipação ou risco elevado de constipação, além de doenças intestinais como colite ulcerativa e colite por *Clostridioides difficile*.\n\n**8. O SPS é preferido quando existem alternativas?**\n\nNão. O UpToDate favorece SZC ou patiromer quando disponíveis.\n\n**9. A ausência de SZC ou patiromer autoriza SPS neste paciente?**\n\nNão. A referência orienta evitar SPS em situações de alto risco intestinal mesmo quando outras opções não estão disponíveis.\n\n**10. Qual é a alternativa de remoção a considerar?**\n\nAvaliar a função renal, a possibilidade de eliminação urinária e a necessidade de terapia dialítica, especialmente diante de lesão renal aguda com hipercalemia grave.\n\n**11. As medidas emergenciais devem continuar?**\n\nSim. Monitorização e tratamento da hipercalemia devem prosseguir enquanto a estratégia de remoção é definida.\n\n**12. Qual é a competência principal?**\n\nReconhecer uma contraindicação relevante e evitar uma complicação iatrogênica potencialmente grave.",
+      "comentarios": {
+        "A": "Reconhece o risco intestinal associado ao SPS e prioriza alternativas mais adequadas.",
+        "B": "O sorbitol não elimina o risco de necrose intestinal.",
+        "C": "O íleo não torna o SPS mais seguro. Pelo contrário, constitui uma condição de alto risco.",
+        "D": "O trânsito intestinal e a presença de íleo são fundamentais na avaliação de segurança dessa terapia."
+      },
+      "perola": "Antes de prescrever uma resina para hipercalemia, examine também o intestino. No paciente com íleo ou obstrução, o SPS pode transformar uma emergência metabólica em uma complicação abdominal grave.",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeção: Sodium polystyrene sulfonate (SPS) in rare settings.\n\n---"
+    },
+    {
+      "id": "aqz-hiper-025",
+      "numero": 25,
+      "titulo": "A DIÁLISE TERMINOU. POR QUE O POTÁSSIO VOLTOU A SUBIR?",
+      "dificuldade": "Avançada.",
+      "competenciaPrincipal": "Interpretar o rebote da concentração sérica de potássio após hemodiálise.",
+      "competenciasSecundarias": "Equilíbrio transcelular; gradiente de potássio; dialisato; redistribuição; monitorização pós-diálise; recorrência da hipercalemia.",
+      "eixoTematico": "Rebote pós-hemodiálise.",
+      "categoria": "Remoção de potássio e diálise",
+      "subtemas": "Equilíbrio transcelular; gradiente de potássio; dialisato; redistribuição; monitorização pós-diálise; recorrência da hipercalemia.",
+      "aulasRelacionadas": [
+        {
+          "numero": 21,
+          "aulaId": "89e1038e-82a1-42d0-ad9a-a55676dc005d",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        },
+        {
+          "numero": 22,
+          "aulaId": "f99d47de-7f1e-4079-98ed-1209390ea2df",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        },
+        {
+          "numero": 25,
+          "aulaId": "1818d66c-f5e5-47c3-92c8-d8ff2b080cb8",
+          "moduloId": "18dc5aa4-8311-4f3c-b95f-8831cc6a2269"
+        }
+      ],
+      "tipo": "Caso clínico de interpretação fisiológica e laboratorial.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0.",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 61 anos, com doença renal terminal, realiza hemodiálise urgente após apresentar potássio sérico de 7,4 mEq/L.\n\nAo término da sessão, o potássio é de 4,5 mEq/L e o paciente apresenta melhora clínica e eletrocardiográfica.\n\nTrês horas depois, uma nova dosagem revela potássio de 5,7 mEq/L.\n\nO paciente permanece sem produção urinária, não recebeu reposição de potássio e não apresenta sinais de hemólise na amostra.\n\nUm residente conclui que a hemodiálise foi ineficaz, porque o potássio voltou a aumentar.\n\n**Qual é a interpretação mais adequada?**",
+      "alternativas": {
+        "A": "A elevação posterior comprova que a hemodiálise não removeu potássio do organismo.",
+        "B": "A hemodiálise aumenta a produção corporal de potássio, justificando a elevação sérica algumas horas depois.",
+        "C": "O rebote ocorre porque a redução do potássio extracelular durante a diálise cria um gradiente que favorece sua saída das células após a sessão; por isso, é necessária monitorização posterior.",
+        "D": "A concentração de potássio ao término da diálise é definitiva, e qualquer elevação posterior deve ser considerada erro laboratorial.\n\n**GABARITO: C**"
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. A hemodiálise realmente remove potássio?**\n\nSim. Diferentemente da insulina e do salbutamol, a hemodiálise promove remoção efetiva de potássio do organismo.\n\n**2. Por que o potássio sérico diminui durante a sessão?**\n\nPorque o potássio passa do sangue para o dialisato, seguindo o gradiente de concentração entre os compartimentos.\n\n**3. O que determina a velocidade dessa remoção?**\n\nEntre outros fatores, a concentração de potássio no dialisato, o gradiente entre plasma e dialisato, os fluxos de sangue e dialisato, o dialisador e a duração da sessão.\n\n**4. O potássio está distribuído uniformemente no organismo?**\n\nNão. A maior parte do potássio corporal encontra-se no compartimento intracelular.\n\n**5. O que acontece quando a concentração extracelular diminui rapidamente?**\n\nForma-se um gradiente que favorece a movimentação de potássio do interior das células para o compartimento extracelular.\n\n**6. O que é o rebote pós-diálise?**\n\nÉ a elevação da concentração sérica de potássio após o término da sessão, relacionada principalmente à redistribuição entre os compartimentos.\n\n**7. O rebote significa que a diálise não removeu potássio?**\n\nNão. O paciente pode apresentar rebote mesmo após remoção corporal significativa de potássio.\n\n**8. O rebote é reconhecido no material-base?**\n\nSim. O UpToDate descreve elevação pós-diálise do potássio sérico como fenômeno esperado após a remoção de potássio por hemodiálise.\n\n**9. A elevação posterior pode ter outras causas?**\n\nSim. A ingestão de potássio, a liberação celular, a acidose e outros fatores podem contribuir. Entretanto, o cenário apresentado é compatível com redistribuição pós-diálise.\n\n**10. Qual é a importância da anúria?**\n\nO paciente permanece sem capacidade significativa de excreção renal, tornando a monitorização ainda mais importante.\n\n**11. Qual é o erro do residente?**\n\nInterpretar o valor sérico após a sessão como uma medida definitiva do equilíbrio corporal e concluir que qualquer elevação significa falha da diálise.\n\n**12. O que deve ser feito após a sessão?**\n\nReavaliar a evolução clínica, o ECG quando indicado e o potássio sérico em intervalo apropriado, considerando a gravidade inicial e o risco de recorrência.\n\n**13. O rebote exige automaticamente outra sessão?**\n\nNão. A decisão depende do valor do potássio, da evolução, das alterações elétricas, da função renal e das condições clínicas.\n\n**14. Qual é a principal competência avaliada?**\n\nInterpretar a dinâmica do potássio após a hemodiálise e reconhecer a necessidade de monitorização mesmo depois de uma sessão aparentemente bem-sucedida.",
+      "comentarios": {
+        "A": "O rebote não comprova ausência de remoção. A hemodiálise pode ter eliminado quantidade significativa de potássio.",
+        "B": "A hemodiálise não estimula a produção corporal de potássio. A elevação posterior pode resultar da redistribuição transcelular.",
+        "C": "Explica o gradiente entre os compartimentos e a necessidade de monitorização após a sessão.",
+        "D": "A concentração sérica pode mudar após a hemodiálise, e nem toda elevação posterior representa erro laboratorial."
+      },
+      "perola": "O potássio ao final da hemodiálise não conta toda a história. A diálise remove potássio, mas o equilíbrio entre o meio intracelular e o extracelular continua acontecendo depois da sessão.",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeção: Dialysis, discussão sobre rebote pós-hemodiálise.\n\n---\n\n# 5. METADADOS OBRIGATÓRIOS\n\nCada questão deverá possuir os seguintes dados, respeitando os nomes e relacionamentos já utilizados no projeto:\n\n- `question_id`: identificador estável.\n- `source_bank`: AgoraQuiz.\n- `source_course`: Tratamento da Hipercalemia em Adultos.\n- `course_id`: identificador real do curso.\n- `block_number`: 5.\n- `question_number`: 21, 22, 23, 24 ou 25.\n- `title`: título integral.\n- `primary_competency`: competência principal.\n- `secondary_competencies`: competências secundárias.\n- `topic`: eixo temático.\n- `difficulty`: dificuldade.\n- `question_type`: caso clínico.\n- `related_lessons`: relacionamentos reais.\n- `stem`: enunciado integral.\n- `alternatives`: quatro alternativas completas.\n- `correct_answer`: gabarito.\n- `clinical_reasoning`: tópicos numerados completos.\n- `alternative_feedback`: comentários de A, B, C e D.\n- `clinical_pearl`: Pérola do Plantão.\n- `references`: referências científicas.\n- `editorial_status`: aprovado.\n- `version`: 1.0.\n- `scientific_review_status`: estado real da conferência científica.\n- `created_at`: data real de criação.\n- `updated_at`: data real de atualização.\n\nSe o projeto já possuir campos equivalentes, reutilizá-los.\n\nNão criar duplicações desnecessárias.\n\nNão inventar nomes de revisores, datas de validação ou resultados de testes.\n\n## Matriz de vinculação pedagógica\n\n| Questão | Competência principal | Aulas propostas |\n|---|---|---|\n| 021 | Diuréticos e capacidade de excreção renal | 19, 20, 21 |\n| 022 | Indicação de hemodiálise urgente | 20, 21, 22 |\n| 023 | Seleção de trocadores gastrointestinais | 20, 21, 23 |\n| 024 | Segurança dos quelantes e risco intestinal | 20, 23, 24 |\n| 025 | Rebote pós-hemodiálise e monitorização | 21, 22, 25 |\n\n**Importante:** Os números das aulas são propostas editoriais. Antes de criar relacionamentos, conferir os títulos e identificadores reais das 34 aulas do curso.\n\nSe não houver correspondência pedagógica adequada, registrar a pendência em vez de criar vínculos incorretos.\n\n---\n\n# 6. MODO ESTUDO\n\nIntegrar as questões ao Modo Estudo existente.\n\nFluxo esperado:\n\n1. Apresentar o enunciado integral.\n2. Apresentar as quatro alternativas.\n3. Permitir seleção de uma alternativa.\n4. Permitir confirmação da resposta.\n5. Registrar a tentativa.\n6. Exibir acerto ou erro.\n7. Exibir o gabarito.\n8. Exibir o raciocínio clínico completo.\n9. Exibir os comentários das quatro alternativas.\n10. Exibir a Pérola do Plantão.\n11. Exibir a referência científica.\n12. Permitir avançar para outra questão.\n\nApós confirmar a resposta, impedir sua alteração dentro da mesma tentativa.\n\nPermitir a organização do conteúdo em seções expansíveis, desde que nenhuma informação seja omitida.\n\nO conteúdo pedagógico não deve ser truncado em telas pequenas.\n\n---\n\n# 7. MODO SIMULADO\n\nPreservar o funcionamento atual.\n\nRequisitos:\n\n- Não revelar respostas corretas durante a resolução.\n- Não revelar explicações antes do encerramento.\n- Permitir navegação entre questões.\n- Permitir revisar respostas antes de finalizar.\n- Registrar respostas e sessão.\n- Calcular pontuação corretamente.\n- Exibir correção completa após a finalização.\n- Exibir o raciocínio clínico e as Pérolas do Plantão.\n- Impedir duplicação indevida de questões na mesma sessão.\n- Preservar as regras atuais de seleção e distribuição de questões.\n\nAs questões 021 a 025 devem integrar o banco disponível do curso, respeitando as regras reais de acesso.\n\n---\n\n# 8. CADERNO DE ERROS\n\nIntegrar as cinco questões ao Caderno de Erros compartilhado.\n\nNão criar um Caderno de Erros paralelo para o AgoraQuiz.\n\nPreservar os estados:\n\n- **Precisa revisar**\n- **Em revisão**\n- **Dominada**\n\nPreservar a regra de **duas respostas corretas consecutivas durante a revisão** para classificar uma questão como Dominada.\n\nUma resposta incorreta durante a revisão reinicia a sequência de acertos.\n\nRegistrar, conforme a estrutura existente:\n\n- Usuário.\n- Questão.\n- Curso.\n- Banco de origem.\n- Modalidade.\n- Sessão.\n- Tentativa.\n- Alternativa selecionada.\n- Gabarito.\n- Resultado.\n- Data.\n- Estado de revisão.\n- Sequência de acertos.\n\nEvitar duplicação de registros principais de erro para a mesma combinação de usuário e questão.\n\nPreservar o histórico individual de tentativas.\n\nGarantir isolamento de dados entre usuários.\n\n---\n\n# 9. PREPARAÇÃO PARA O AGORAARENA\n\nO AgoraArena será desenvolvido futuramente como ambiente multidisciplinar de simulados e desafios.\n\nAs questões do AgoraQuiz deverão poder ser reutilizadas sem duplicação de conteúdo.\n\nPreservar:\n\n1. IDs estáveis.\n2. Curso de origem.\n3. Banco de origem.\n4. Dificuldade.\n5. Competências.\n6. Eixo temático.\n7. Referências.\n8. Versionamento editorial.\n9. Histórico de tentativas.\n10. Separação entre questão e sessão.\n11. Separação entre questão e usuário.\n12. Registro da modalidade.\n\n**Não implementar o AgoraArena agora.**\n\n---\n\n# 10. IDENTIDADE VISUAL\n\nPreservar a identidade visual existente do AgoraMed.\n\nCores institucionais:\n\n- Azul-petróleo: `#346f77`.\n- Cinza: `#808080`.\n- Branco suave: `#F5F5F5`.\n\nO curso de hipercalemia utiliza também destaques em violeta e superfícies escuras.\n\nReutilizar componentes, estilos e tokens já presentes.\n\nNão introduzir uma nova identidade visual.\n\nGarantir:\n\n- Responsividade.\n- Boa leitura em dispositivos móveis.\n- Contraste adequado.\n- Navegação por teclado.\n- Identificação acessível de alternativas.\n- Feedback compreensível.\n- Boa apresentação de textos longos.\n\n---\n\n# 11. AUDITORIA CIENTÍFICA\n\nReferência principal:\n\n**UpToDate — Treatment and prevention of hyperkalemia in adults.**\n\nMaterial-base disponibilizado pelo responsável pedagógico.\n\nConferir especialmente as seções:\n\n- Loop diuretics in patients without severe kidney function impairment.\n- Dialysis and gastrointestinal cation exchangers.\n- Hemodialysis in patients with severe kidney dysfunction.\n- Patiromer or sodium zirconium cyclosilicate (SZC).\n- Sodium polystyrene sulfonate (SPS) in rare settings.\n- Dialysis.\n\n## Pontos obrigatórios de verificação\n\n1. Mecanismo da furosemida.\n2. Dependência de função renal residual.\n3. Necessidade de fluxo urinário para kaliurese.\n4. Limitações dos diuréticos na emergência.\n5. Indicações de hemodiálise em disfunção renal grave.\n6. Diferença entre redistribuição e remoção corporal.\n7. Comparação entre hemodiálise e diálise peritoneal.\n8. Remoção aproximada de 25 a 50 mEq/h durante hemodiálise.\n9. Variáveis que influenciam a remoção dialítica.\n10. Papel do acesso vascular funcionante.\n11. Utilização complementar de trocadores gastrointestinais.\n12. Diferenças entre SZC, patiromer e SPS.\n13. Evidência sobre início de ação do SZC.\n14. Redução média de 0,37 mEq/L após quatro horas, conforme o material-base.\n15. Esquema de SZC 10 g três vezes ao dia durante 48 horas.\n16. Esquema de patiromer 8,4 g com repetição conforme necessidade.\n17. Limitações da evidência em emergências.\n18. Risco de necrose intestinal com SPS.\n19. Riscos no pós-operatório abdominal.\n20. Riscos em pacientes com íleo ou obstrução.\n21. Relação entre SPS e sorbitol.\n22. Alternativas quando SPS é inadequado.\n23. Mecanismo do rebote pós-hemodiálise.\n24. Gradiente entre compartimentos intra e extracelular.\n25. Importância da monitorização após a sessão.\n\n## Regra de segurança científica\n\nNão modificar silenciosamente o conteúdo aprovado.\n\nSe houver divergência entre o material-base e recomendações atuais, registrar:\n\n- Questão afetada.\n- Trecho envolvido.\n- Referência consultada.\n- Natureza da divergência.\n- Possível repercussão clínica.\n- Sugestão de correção.\n\nEncaminhar alterações de conteúdo para aprovação editorial antes de publicá-las.\n\nSe a fonte não estiver acessível, declarar essa limitação e não afirmar que a conferência foi concluída.\n\n---\n\n# 12. AUDITORIA PEDAGÓGICA\n\nVerificar:\n\n- Cinco questões completas.\n- Cinco enunciados integrais.\n- Vinte alternativas.\n- Gabaritos C, B, D, A e C.\n- Sessenta e cinco tópicos numerados de raciocínio clínico.\n- Vinte comentários individuais de alternativas.\n- Cinco Pérolas do Plantão.\n- Cinco conjuntos de referências.\n- Metadados completos.\n- Competências classificadas.\n- Coerência entre enunciados e gabaritos.\n- Ausência de contradições internas.\n- Ausência de duplicação indevida com os Blocos 01 a 04.\n- Vínculos corretos com as aulas reais.\n\nNão reduzir a profundidade dos comentários para economizar espaço ou código.\n\n---\n\n# 13. TESTES OBRIGATÓRIOS\n\nExecutar os testes aplicáveis ao projeto:\n\n1. Cadastro das questões 021 a 025.\n2. Validação dos IDs.\n3. Validação dos gabaritos.\n4. Preservação das questões 001 a 020.\n5. Integridade dos enunciados.\n6. Integridade das alternativas.\n7. Integridade dos raciocínios clínicos.\n8. Integridade dos comentários.\n9. Exibição das Pérolas do Plantão.\n10. Exibição das referências.\n11. Funcionamento do Modo Estudo.\n12. Funcionamento do Modo Simulado.\n13. Persistência das tentativas.\n14. Integração com o Caderno de Erros.\n15. Regra de duas revisões corretas consecutivas.\n16. Reinício da sequência após erro.\n17. Isolamento entre usuários.\n18. Ausência de registros duplicados.\n19. Responsividade.\n20. Acessibilidade.\n21. Ausência de regressões nos AgoraQuest.\n22. Ausência de regressões em outros cursos.\n23. Compatibilidade com o Bloco 06.\n24. Preservação dos dados existentes.\n25. Preparação arquitetural para o AgoraArena.\n\nNão declarar aprovação de testes que não foram executados.\n\n---\n\n# 14. CRITÉRIOS DE ACEITE\n\nA implementação estará concluída quando:\n\n- As questões 021 a 025 estiverem cadastradas.\n- Todos os textos estiverem integrais.\n- Os gabaritos estiverem corretos.\n- Os metadados estiverem completos.\n- As referências estiverem registradas.\n- Os Blocos 01 a 04 permanecerem intactos.\n- Os AgoraQuest continuarem funcionando.\n- O Modo Estudo estiver operacional.\n- O Modo Simulado estiver operacional.\n- O Caderno de Erros estiver integrado.\n- Os dados dos alunos estiverem protegidos.\n- Não houver duplicações indevidas.\n- A identidade visual estiver preservada.\n- A arquitetura permitir novos blocos.\n- O AgoraArena não tiver sido implementado.\n- Pendências científicas e técnicas estiverem documentadas.\n\n---\n\n# 15. RELATÓRIO FINAL OBRIGATÓRIO\n\nApós implementar, apresentar:\n\n1. Resumo das alterações.\n2. Arquivos modificados.\n3. Tabelas ou coleções utilizadas.\n4. IDs cadastrados.\n5. Confirmação dos gabaritos.\n6. Confirmação da integridade dos textos.\n7. Quantidade total de questões.\n8. Situação dos Blocos 01 a 04.\n9. Situação do Caderno de Erros.\n10. Situação dos modos Estudo e Simulado.\n11. Metadados cadastrados.\n12. Vínculos com as aulas reais.\n13. Testes executados.\n14. Testes não executados e motivos.\n15. Pendências científicas.\n16. Pendências técnicas.\n17. Preparação para o Bloco 06.\n\n## INSTRUÇÃO FINAL\n\nImplemente o **Bloco 05 do AgoraQuiz de Hipercalemia**, incorporando integralmente as questões 021 a 025.\n\nPreserve os Blocos 01 a 04.\n\nNão modifique os AgoraQuest ou outros cursos.\n\nNão implemente o AgoraArena.\n\n**Priorize a integridade pedagógica, o rigor científico, a segurança dos dados e a capacidade de expansão do AgoraMed.**"
+    }
+  ]
+}

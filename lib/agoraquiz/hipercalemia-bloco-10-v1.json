@@ -1,0 +1,269 @@
+{
+  "cursoId": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+  "cursoOrigem": "Tratamento da Hipercalemia em Adultos",
+  "bancoOrigem": "AgoraQuiz Hipercalemia",
+  "bloco": "10",
+  "temaEditorial": "Decisões integradas no plantão",
+  "questoes": [
+    {
+      "id": "aqz-hiper-046",
+      "numero": 46,
+      "titulo": "HIPERCALEMIA GRAVE, CONGESTÃO PULMONAR E INSUFICIÊNCIA RENAL",
+      "dificuldade": "Avançada",
+      "competenciaPrincipal": "Integrar tratamento da toxicidade elétrica, insuficiência respiratória, hipervolemia e necessidade de remoção efetiva de potássio.",
+      "competenciasSecundarias": "Toxicidade elétrica; hipervolemia; insuficiência respiratória; oligúria; doença renal crônica; hemodiálise",
+      "eixoTematico": "Tratamento integrado da emergência hipercalêmica",
+      "categoria": "Tratamento integrado da emergência hipercalêmica",
+      "subtemas": "Toxicidade elétrica; hipervolemia; insuficiência respiratória; oligúria; doença renal crônica; hemodiálise",
+      "aulasRelacionadas": [
+        {
+          "numero": 10,
+          "aulaId": "b9426387-fb4c-42f8-a546-3d6cb2c8b729",
+          "moduloId": "787d750b-0433-41be-9a36-08e17acc671c"
+        },
+        {
+          "numero": 11,
+          "aulaId": "6ffea441-00a6-4415-a826-415317082d35",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 22,
+          "aulaId": "f99d47de-7f1e-4079-98ed-1209390ea2df",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        }
+      ],
+      "tipo": "Caso clínico de múltipla escolha.",
+      "statusEditorial": "Aprovada editorialmente.",
+      "versao": "1.0",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 69 anos, com doença renal crônica avançada e insuficiência cardíaca, chega à emergência com dispneia intensa, ortopneia e fraqueza.\n\nAo exame:\n\n- PA: 164/92 mmHg.\n- FC: 46 bpm.\n- Saturação: 87% em ar ambiente.\n- Estertores até os terços médios dos pulmões.\n- Edema importante de membros inferiores.\n- Diurese nas últimas 12 horas: aproximadamente 100 mL.\n\nExames:\n\n- Potássio: 7,1 mEq/L.\n- Creatinina: 6,2 mg/dL.\n- ECG: QRS alargado e ondas T apiculadas.\n\nA equipe discute a melhor estratégia terapêutica.\n\n**Qual conduta integra adequadamente as prioridades desse atendimento?**",
+      "alternativas": {
+        "A": "Administrar grande volume de solução salina para aumentar a eliminação renal de potássio e aguardar a melhora espontânea do ECG.",
+        "B": "Prescrever furosemida isoladamente, pois a congestão pulmonar garante resposta diurética suficiente para controlar a hipercalemia.",
+        "C": "Administrar apenas insulina com glicose, pois a redução inicial do potássio elimina a necessidade de outras intervenções.",
+        "D": "Iniciar estabilização cardíaca com cálcio intravenoso, promover redistribuição do potássio, tratar a insuficiência respiratória e organizar remoção efetiva, com avaliação nefrológica urgente para hemodiálise.\n\n**GABARITO: D**"
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. Qual é a ameaça imediata?**\n\nO paciente apresenta hipercalemia grave com alterações eletrocardiográficas compatíveis com toxicidade elétrica.\n\n**2. Existe outro problema potencialmente fatal?**\n\nSim. A congestão pulmonar acompanhada de hipoxemia sugere insuficiência respiratória aguda.\n\n**3. Qual é a prioridade cardíaca?**\n\nAdministrar cálcio intravenoso para antagonizar os efeitos da hipercalemia sobre a membrana cardíaca.\n\n**4. O cálcio remove potássio?**\n\nNão. Ele promove estabilização elétrica, mas não reduz o excesso corporal de potássio.\n\n**5. Qual é a função da insulina associada à glicose?**\n\nPromover a entrada temporária de potássio nas células, reduzindo sua concentração extracelular.\n\n**6. Por que a redistribuição isolada é insuficiente?**\n\nPorque o potássio permanece no organismo e pode voltar a aumentar quando o efeito temporizador diminuir.\n\n**7. Qual é a importância da oligúria?**\n\nSugere capacidade muito limitada de eliminação renal de potássio.\n\n**8. A furosemida pode ser utilizada para congestão?**\n\nPode ser considerada conforme a função renal residual e a resposta clínica, mas não deve ser a única estratégia de remoção nesta emergência.\n\n**9. Por que não administrar grandes volumes de solução salina?**\n\nPorque o paciente apresenta hipervolemia e insuficiência respiratória, e a expansão indiscriminada pode agravar a congestão pulmonar.\n\n**10. Qual é a importância da hemodiálise?**\n\nEm pacientes com comprometimento renal grave, pode oferecer remoção efetiva de potássio e contribuir para o manejo da sobrecarga volêmica.\n\n**11. Quando envolver a nefrologia?**\n\nUrgentemente, diante da emergência hipercalêmica associada a comprometimento renal grave.\n\n**12. O que fazer enquanto a hemodiálise é organizada?**\n\nManter estabilização, tratamento temporizador, suporte respiratório, monitorização cardíaca contínua e reavaliações laboratoriais.\n\n**13. Quando repetir a dosagem de potássio?**\n\nA referência recomenda uma primeira reavaliação aproximadamente uma a duas horas após o início do tratamento, com novos controles conforme a evolução.\n\n**14. Qual é a competência principal?**\n\nIntegrar tratamento da toxicidade elétrica, insuficiência respiratória, hipervolemia e necessidade de remoção efetiva de potássio.",
+      "comentarios": {
+        "A": "A expansão volêmica indiscriminada pode agravar a insuficiência respiratória e não resolve a toxicidade elétrica imediata.",
+        "B": "A oligúria e a disfunção renal grave tornam inadequado depender exclusivamente da furosemida.",
+        "C": "A insulina promove redistribuição temporária e não elimina potássio.",
+        "D": "Integra estabilização cardíaca, redução rápida do potássio extracelular, suporte respiratório e remoção efetiva."
+      },
+      "perola": "> Na hipercalemia com congestão pulmonar e falência renal, não escolha entre proteger o coração e remover potássio. As duas medidas são necessárias, enquanto a insuficiência respiratória também é tratada.",
+      "referencias": "**Treatment and prevention of hyperkalemia in adults. UpToDate.**\n\nSeções:\n\n- **Patients with a hyperkalemic emergency**\n- **Monitoring**\n- **Hemodialysis in patients with severe kidney dysfunction**\n\n---"
+    },
+    {
+      "id": "aqz-hiper-047",
+      "numero": 47,
+      "titulo": "HIPERCALEMIA, ACIDEMIA E HIPOVOLEMIA: O BICARBONATO RESOLVE?",
+      "dificuldade": "Avançada",
+      "competenciaPrincipal": "Reconhecer que acidose, hipovolemia e hipercalemia exigem avaliação integrada, sem superestimar o efeito do bicarbonato sobre o potássio.",
+      "competenciasSecundarias": "Acidemia; bicarbonato; hipovolemia; diarreia; lesão renal aguda; correção de causas reversíveis",
+      "eixoTematico": "Acidose metabólica e tratamento integrado",
+      "categoria": "Acidose metabólica e tratamento integrado",
+      "subtemas": "Acidemia; bicarbonato; hipovolemia; diarreia; lesão renal aguda; correção de causas reversíveis",
+      "aulasRelacionadas": [
+        {
+          "numero": 18,
+          "aulaId": "2b2fea5a-d236-4baf-a357-21305d623d04",
+          "moduloId": "26bdbea9-55a7-4549-b922-4fd1db60f887"
+        },
+        {
+          "numero": 19,
+          "aulaId": "8d71d49a-70b9-4078-8d4c-6235d04caeea",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        }
+      ],
+      "tipo": "Caso clínico de múltipla escolha.",
+      "statusEditorial": "Aprovada editorialmente.",
+      "versao": "1.0",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Uma mulher de 58 anos, com doença renal crônica e diabetes mellitus, procura atendimento após quatro dias de diarreia intensa.\n\nApresenta:\n\n- PA: 94/58 mmHg.\n- FC: 108 bpm.\n- Mucosas secas.\n- Potássio: 6,2 mEq/L.\n- Creatinina: 2,4 mg/dL, acima do basal de 1,3 mg/dL.\n- pH: 7,18.\n- Bicarbonato: 12 mEq/L.\n- ECG: sem alterações sugestivas de hipercalemia.\n\nA equipe considera administrar bicarbonato intravenoso como principal tratamento da hipercalemia.\n\n**Qual é a interpretação mais adequada?**",
+      "alternativas": {
+        "A": "O bicarbonato deve ser utilizado como único tratamento da hipercalemia, pois corrige o potássio de maneira imediata e previsível.",
+        "B": "A presença de acidemia torna desnecessário investigar hipovolemia, função renal ou medicamentos.",
+        "C": "A correção da hipovolemia e das causas reversíveis é fundamental; a terapia alcalinizante pode ser considerada conforme a acidose e o contexto, mas não deve ser tratada como método isolado e confiável de redução rápida do potássio.",
+        "D": "A acidose metabólica impede a utilização de qualquer outra estratégia para reduzir o potássio.\n\n**GABARITO: C**"
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. Quais problemas coexistem?**\n\nHipercalemia, acidemia metabólica, hipovolemia provável e piora da função renal.\n\n**2. Qual é o possível fator precipitante?**\n\nA diarreia intensa, associada à perda de volume e à redução da perfusão renal.\n\n**3. Por que a hipovolemia pode contribuir para hipercalemia?**\n\nPorque a redução da perfusão e da função renal pode comprometer a excreção de potássio.\n\n**4. Qual é a importância do bicarbonato de 12 mEq/L?**\n\nIndica redução importante do bicarbonato sérico, compatível com acidose metabólica no contexto apresentado.\n\n**5. A acidemia pode influenciar a distribuição de potássio?**\n\nSim. Distúrbios acidobásicos podem alterar a distribuição transcelular de potássio, embora o efeito varie conforme o mecanismo da acidose.\n\n**6. O bicarbonato intravenoso reduz o potássio de forma previsível em todos os pacientes?**\n\nNão. Seu efeito sobre o potássio é variável e depende do contexto clínico e acidobásico.\n\n**7. A acidose metabólica pode justificar tratamento específico?**\n\nSim. A terapia alcalinizante pode ser indicada para tratar a acidemia, independentemente de eventual efeito sobre o potássio.\n\n**8. Qual cuidado é necessário com a administração de bicarbonato?**\n\nConsiderar a concentração da solução, a carga de sódio, o volume administrado e a tolerância clínica.\n\n**9. Como abordar a hipovolemia?**\n\nCom reposição volêmica individualizada, considerando perfusão, função renal, perdas em curso e risco de sobrecarga.\n\n**10. Por que não ignorar os medicamentos em uso?**\n\nPorque alguns fármacos podem contribuir para hipercalemia ou agravar a disfunção renal.\n\n**11. O ECG normal exclui necessidade de reavaliação?**\n\nNão. A hipercalemia pode evoluir sem alterações eletrocardiográficas típicas.\n\n**12. O potássio de 6,2 mEq/L pode exigir redução rápida?**\n\nSim. A decisão depende da evolução, da função renal, dos sintomas e da avaliação global de risco.\n\n**13. Quando considerar outras estratégias de redução ou remoção?**\n\nQuando a gravidade, a persistência da hipercalemia ou a função renal indicarem necessidade de tratamento adicional.\n\n**14. Qual é a competência principal?**\n\nReconhecer que acidose, hipovolemia e hipercalemia exigem avaliação integrada, sem superestimar o efeito do bicarbonato sobre o potássio.",
+      "comentarios": {
+        "A": "O bicarbonato não apresenta efeito imediato e previsível sobre o potássio em todos os pacientes.",
+        "B": "Hipovolemia, função renal e medicamentos são componentes essenciais da avaliação.",
+        "C": "Prioriza a correção das causas reversíveis e reconhece as limitações do bicarbonato como tratamento da hipercalemia.",
+        "D": "A acidose não impede o uso de outras terapias quando indicadas."
+      },
+      "perola": "> Bicarbonato não é sinônimo de tratamento definitivo da hipercalemia. Corrija a acidose quando indicado, mas não esqueça de tratar a hipovolemia, avaliar o rim e planejar a eliminação do potássio.",
+      "referencias": "**Treatment and prevention of hyperkalemia in adults. UpToDate.**\n\nSeções sobre:\n\n- **Bicarbonate**\n- **Patients without a hyperkalemic emergency**\n- Tratamento de causas reversíveis da hipercalemia\n\n---"
+    },
+    {
+      "id": "aqz-hiper-048",
+      "numero": 48,
+      "titulo": "O POTÁSSIO CONTINUA ELEVADO APÓS O TRATAMENTO INICIAL",
+      "dificuldade": "Avançada",
+      "competenciaPrincipal": "Reconhecer resposta terapêutica insuficiente e escalonar o tratamento sem confundir melhora inicial com resolução definitiva.",
+      "competenciasSecundarias": "Persistência da hipercalemia; redistribuição; oligúria; monitorização; hemodiálise; reavaliação",
+      "eixoTematico": "Resposta insuficiente e escalonamento terapêutico",
+      "categoria": "Resposta insuficiente e escalonamento terapêutico",
+      "subtemas": "Persistência da hipercalemia; redistribuição; oligúria; monitorização; hemodiálise; reavaliação",
+      "aulasRelacionadas": [
+        {
+          "numero": 22,
+          "aulaId": "f99d47de-7f1e-4079-98ed-1209390ea2df",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        },
+        {
+          "numero": 23,
+          "aulaId": "3752db01-2371-4fec-8f6e-f7c2b9935390",
+          "moduloId": "18dc5aa4-8311-4f3c-b95f-8831cc6a2269"
+        },
+        {
+          "numero": 24,
+          "aulaId": "96021101-3922-4cfe-876c-dbf6ee266915",
+          "moduloId": "18dc5aa4-8311-4f3c-b95f-8831cc6a2269"
+        },
+        {
+          "numero": 26,
+          "aulaId": "8d392762-12f2-496d-ad0a-be8cbaaa0d8a",
+          "moduloId": "18dc5aa4-8311-4f3c-b95f-8831cc6a2269"
+        }
+      ],
+      "tipo": "Caso clínico de múltipla escolha.",
+      "statusEditorial": "Aprovada editorialmente.",
+      "versao": "1.0",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 73 anos, com doença renal crônica estágio G4, é admitido na emergência com potássio de 7,0 mEq/L, fraqueza muscular e ondas T apiculadas.\n\nRecebe cálcio intravenoso, insulina regular associada à glicose e salbutamol nebulizado.\n\nNoventa minutos depois:\n\n- Potássio: 6,6 mEq/L.\n- Glicemia: 164 mg/dL.\n- ECG: redução da amplitude das ondas T, sem alargamento do QRS.\n- Diurese: 15 mL/h.\n\nO paciente está clinicamente estável, mas ainda não foi estabelecida uma estratégia efetiva de remoção de potássio.\n\n**Qual é a melhor conduta?**",
+      "alternativas": {
+        "A": "Considerar o tratamento concluído, pois a melhora do ECG comprova eliminação do excesso corporal de potássio.",
+        "B": "Reconhecer a resposta insuficiente, manter monitorização e reavaliações, verificar a necessidade de novas medidas temporizadoras e organizar urgentemente a remoção efetiva de potássio, com avaliação nefrológica.",
+        "C": "Repetir indefinidamente a insulina, sem monitorizar a glicemia ou considerar terapias de remoção.",
+        "D": "Suspender o acompanhamento, pois qualquer redução do potássio nas primeiras duas horas garante ausência de recorrência.\n\n**GABARITO: B**"
+      },
+      "gabarito": "B",
+      "raciocinioClinico": "**1. Qual era a gravidade inicial?**\n\nO paciente apresentava hipercalemia grave com alterações eletrocardiográficas, caracterizando uma emergência hipercalêmica.\n\n**2. Quais tratamentos foram administrados?**\n\nCálcio intravenoso, insulina com glicose e salbutamol nebulizado.\n\n**3. Qual é a função do cálcio?**\n\nAntagonizar os efeitos cardíacos da hipercalemia, sem reduzir a concentração corporal de potássio.\n\n**4. Qual é a função da insulina e do salbutamol?**\n\nPromover redistribuição de potássio para o meio intracelular, reduzindo temporariamente sua concentração sérica.\n\n**5. A redução de 7,0 para 6,6 mEq/L é suficiente para encerrar o tratamento?**\n\nNão. O potássio permanece em concentração elevada, e a eliminação efetiva ainda não foi assegurada.\n\n**6. Qual é a importância da melhora do ECG?**\n\nSugere melhora das manifestações elétricas, mas não comprova resolução da hipercalemia.\n\n**7. Por que a oligúria é preocupante?**\n\nPorque sugere capacidade limitada de excreção renal de potássio.\n\n**8. Qual é o principal problema do plano terapêutico atual?**\n\nAs medidas realizadas são predominantemente estabilizadoras e redistributivas, sem estratégia efetiva de remoção.\n\n**9. Qual deve ser a próxima prioridade?**\n\nReavaliar a necessidade de medidas temporizadoras adicionais e providenciar remoção efetiva de potássio.\n\n**10. Quando envolver a nefrologia?**\n\nUrgentemente, diante da hipercalemia grave persistente e do comprometimento renal importante.\n\n**11. Por que a hemodiálise deve ser considerada?**\n\nPorque oferece remoção efetiva de potássio em pacientes com comprometimento renal grave, quando clinicamente indicada.\n\n**12. A repetição de insulina é isenta de riscos?**\n\nNão. Pode aumentar o risco de hipoglicemia, especialmente em pacientes com disfunção renal.\n\n**13. Como deve continuar a monitorização?**\n\nCom acompanhamento cardíaco, ECG seriado, dosagens de potássio e controle glicêmico conforme as terapias utilizadas e a evolução.\n\n**14. Qual é a competência principal?**\n\nReconhecer resposta terapêutica insuficiente e escalonar o tratamento sem confundir melhora inicial com resolução definitiva.",
+      "comentarios": {
+        "A": "A melhora eletrocardiográfica não comprova remoção de potássio nem ausência de risco posterior.",
+        "B": "Reconhece a persistência da hipercalemia e a necessidade de monitorização, reavaliação terapêutica e remoção efetiva.",
+        "C": "Repetir insulina sem avaliação e monitorização pode provocar hipoglicemia e não resolve o excesso corporal de potássio.",
+        "D": "Uma redução inicial não garante que o potássio permanecerá controlado."
+      },
+      "perola": "> Melhorar não é o mesmo que resolver. Se o potássio continua elevado e o rim não consegue eliminá-lo, a próxima decisão deve ser como removê-lo efetivamente.",
+      "referencias": "**Treatment and prevention of hyperkalemia in adults. UpToDate.**\n\nSeções:\n\n- **Monitoring**\n- **Remove potassium from the body**\n- **Hemodialysis in patients with severe kidney dysfunction**\n\n---"
+    },
+    {
+      "id": "aqz-hiper-049",
+      "numero": 49,
+      "titulo": "HIPERCALEMIA MODERADA SEM EMERGÊNCIA: TRATAR SEM EXCESSO DE INTERVENÇÕES",
+      "dificuldade": "Intermediária",
+      "competenciaPrincipal": "Diferenciar uma hipercalemia que exige tratamento emergencial daquela que permite abordagem gradual e individualizada.",
+      "competenciasSecundarias": "Hipercalemia estável; doença renal crônica; anti-inflamatórios; losartana; causas reversíveis; acompanhamento",
+      "eixoTematico": "Estratificação de risco e tratamento não emergencial",
+      "categoria": "Estratificação de risco e tratamento não emergencial",
+      "subtemas": "Hipercalemia estável; doença renal crônica; anti-inflamatórios; losartana; causas reversíveis; acompanhamento",
+      "aulasRelacionadas": [
+        {
+          "numero": 8,
+          "aulaId": "cb5aa5ff-db3b-4591-9010-0fff0bb90bab",
+          "moduloId": "787d750b-0433-41be-9a36-08e17acc671c"
+        },
+        {
+          "numero": 9,
+          "aulaId": "c7b5e07a-75b2-48af-a17a-268654cbe861",
+          "moduloId": "787d750b-0433-41be-9a36-08e17acc671c"
+        },
+        {
+          "numero": 10,
+          "aulaId": "b9426387-fb4c-42f8-a546-3d6cb2c8b729",
+          "moduloId": "787d750b-0433-41be-9a36-08e17acc671c"
+        }
+      ],
+      "tipo": "Caso clínico de múltipla escolha.",
+      "statusEditorial": "Aprovada editorialmente.",
+      "versao": "1.0",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Uma mulher de 65 anos, com hipertensão arterial e doença renal crônica estágio G3b, comparece à consulta após exames de acompanhamento.\n\nApresenta:\n\n- Potássio: 5,6 mEq/L, confirmado em nova amostra sem hemólise.\n- Creatinina: 1,8 mg/dL, estável há seis meses.\n- PA: 132/78 mmHg.\n- Diurese preservada.\n- Ausência de sintomas.\n- ECG sem alterações sugestivas de hipercalemia.\n\nUtiliza losartana e iniciou ibuprofeno por conta própria há uma semana para dor lombar.\n\nNão há sinais de lesão renal aguda, liberação celular contínua ou elevação rápida do potássio.\n\n**Qual é a estratégia mais adequada?**",
+      "alternativas": {
+        "A": "Administrar cálcio intravenoso e insulina com glicose obrigatoriamente, independentemente da gravidade clínica.",
+        "B": "Encaminhar imediatamente para hemodiálise, pois qualquer potássio superior a 5,5 mEq/L exige tratamento dialítico.",
+        "C": "Ignorar o resultado, pois o ECG normal exclui complicações relacionadas à hipercalemia.",
+        "D": "Avaliar e corrigir fatores reversíveis, especialmente o uso recente de anti-inflamatório, revisar os medicamentos e orientar acompanhamento laboratorial, individualizando a necessidade de medidas adicionais.\n\n**GABARITO: D**"
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. Qual é o grau de elevação do potássio?**\n\nO valor de 5,6 mEq/L representa hipercalemia, mas não caracteriza isoladamente uma emergência hipercalêmica.\n\n**2. O resultado é confiável?**\n\nA repetição em amostra sem hemólise reforça que a elevação é verdadeira.\n\n**3. Existem manifestações clínicas de gravidade?**\n\nNão foram identificados sintomas ou alterações eletrocardiográficas sugestivas de toxicidade hipercalêmica.\n\n**4. A função renal está se deteriorando rapidamente?**\n\nNão. A creatinina está estável em relação ao histórico apresentado.\n\n**5. Qual medicamento merece atenção imediata?**\n\nO ibuprofeno, iniciado recentemente sem prescrição.\n\n**6. Como anti-inflamatórios podem contribuir para hipercalemia?**\n\nPodem comprometer mecanismos renais envolvidos na excreção de potássio, especialmente em pacientes suscetíveis.\n\n**7. A losartana também pode contribuir?**\n\nSim. Medicamentos que interferem no sistema renina-angiotensina-aldosterona podem aumentar o potássio sérico.\n\n**8. A presença de hipercalemia exige suspensão definitiva da losartana?**\n\nNão necessariamente. A decisão deve considerar indicação clínica, grau de hipercalemia, fatores reversíveis e possibilidade de acompanhamento.\n\n**9. Por que não administrar automaticamente cálcio e insulina?**\n\nPorque essas medidas são destinadas principalmente a situações que exigem estabilização elétrica ou redução rápida do potássio, não sendo obrigatórias em toda elevação moderada e estável.\n\n**10. A hemodiálise é necessária nesse cenário?**\n\nNão há indicação evidente de hemodiálise urgente apenas pelos dados apresentados.\n\n**11. Qual é a importância da revisão medicamentosa?**\n\nIdentificar agentes potencialmente responsáveis pela elevação e corrigir fatores modificáveis.\n\n**12. O acompanhamento laboratorial pode ser dispensado?**\n\nNão. É necessário confirmar a evolução após as intervenções e verificar se o potássio retorna a uma faixa mais segura.\n\n**13. Quando a conduta precisaria ser reavaliada com maior urgência?**\n\nSe houver aumento do potássio, piora da função renal, sintomas ou alterações eletrocardiográficas.\n\n**14. Qual é a competência principal?**\n\nDiferenciar uma hipercalemia que exige tratamento emergencial daquela que permite abordagem gradual e individualizada.",
+      "comentarios": {
+        "A": "Cálcio e insulina não são necessários indiscriminadamente para toda hipercalemia.",
+        "B": "O valor de 5,6 mEq/L, isoladamente, não estabelece indicação de hemodiálise.",
+        "C": "O ECG normal não elimina a necessidade de investigar, corrigir e acompanhar a hipercalemia.",
+        "D": "Prioriza a identificação de causas reversíveis, a revisão medicamentosa e a monitorização proporcional ao risco."
+      },
+      "perola": "> Nem toda hipercalemia precisa de cálcio e insulina. O bom tratamento começa pela pergunta certa: este paciente precisa reduzir o potássio imediatamente ou podemos corrigir a causa e acompanhar com segurança?",
+      "referencias": "**Treatment and prevention of hyperkalemia in adults. UpToDate.**\n\nSeções:\n\n- **Patients without a hyperkalemic emergency**\n- **Drug-induced hyperkalemia**\n- Tratamento de fatores reversíveis da hipercalemia\n\n---"
+    },
+    {
+      "id": "aqz-hiper-050",
+      "numero": 50,
+      "titulo": "CASO FINAL: O POTÁSSIO MELHOROU. O PACIENTE PODE SAIR DA EMERGÊNCIA?",
+      "dificuldade": "Avançada",
+      "competenciaPrincipal": "Integrar resposta terapêutica, risco de recorrência, complicações do tratamento e critérios de segurança antes de definir o destino do paciente.",
+      "competenciasSecundarias": "Resposta inicial; recorrência da hipercalemia; oligúria; hipoglicemia tardia; lesão renal aguda; remoção efetiva; destino hospitalar",
+      "eixoTematico": "Segurança após tratamento emergencial e decisão de destino",
+      "categoria": "Segurança após tratamento emergencial e decisão de destino",
+      "subtemas": "Resposta inicial; recorrência da hipercalemia; oligúria; hipoglicemia tardia; lesão renal aguda; remoção efetiva; destino hospitalar",
+      "aulasRelacionadas": [
+        {
+          "numero": 24,
+          "aulaId": "96021101-3922-4cfe-876c-dbf6ee266915",
+          "moduloId": "18dc5aa4-8311-4f3c-b95f-8831cc6a2269"
+        },
+        {
+          "numero": 25,
+          "aulaId": "1818d66c-f5e5-47c3-92c8-d8ff2b080cb8",
+          "moduloId": "18dc5aa4-8311-4f3c-b95f-8831cc6a2269"
+        },
+        {
+          "numero": 26,
+          "aulaId": "8d392762-12f2-496d-ad0a-be8cbaaa0d8a",
+          "moduloId": "18dc5aa4-8311-4f3c-b95f-8831cc6a2269"
+        },
+        {
+          "numero": 34,
+          "aulaId": "2f05cd3a-22d5-46fd-83ca-3e3c56fdd042",
+          "moduloId": "157f5374-f948-436e-b3af-0fc4ff6d0d70"
+        }
+      ],
+      "tipo": "Caso clínico de múltipla escolha.",
+      "statusEditorial": "Aprovada editorialmente.",
+      "versao": "1.0",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 64 anos, com diabetes mellitus, doença renal crônica avançada e insuficiência cardíaca, chega à emergência após dois dias de vômitos e redução da diurese.\n\nNa admissão:\n\n- PA: 102/64 mmHg.\n- FC: 48 bpm.\n- Potássio: 7,3 mEq/L.\n- Creatinina: 4,8 mg/dL (basal: 2,5 mg/dL).\n- ECG: ondas T apiculadas e QRS discretamente alargado.\n\nRecebe cálcio intravenoso, insulina regular com glicose e salbutamol nebulizado. A equipe também inicia investigação dos fatores precipitantes e solicita avaliação nefrológica.\n\nApós 90 minutos:\n\n- Potássio: 5,7 mEq/L.\n- FC: 76 bpm.\n- ECG: melhora das alterações iniciais.\n- Glicemia: 118 mg/dL.\n- Diurese: permanece muito reduzida.\n\nO paciente refere melhora dos sintomas e pergunta se pode receber alta.\n\n**Qual é a melhor decisão?**",
+      "alternativas": {
+        "A": "Manter o paciente sob cuidados hospitalares, com monitorização e reavaliações seriadas, avaliação da função renal, prevenção de hipoglicemia e definição de uma estratégia de remoção efetiva de potássio antes de considerar o destino definitivo.",
+        "B": "Dar alta imediatamente, pois a melhora do ECG demonstra que o excesso corporal de potássio foi eliminado.",
+        "C": "Dar alta após uma única glicemia normal, pois o risco de hipoglicemia desaparece quando o potássio diminui.",
+        "D": "Considerar a hipercalemia resolvida definitivamente e suspender a avaliação nefrológica, mesmo com oligúria persistente.\n\n**GABARITO: A**"
+      },
+      "gabarito": "A",
+      "raciocinioClinico": "**1. Qual era a condição inicial?**\n\nUma emergência hipercalêmica, caracterizada por potássio de 7,3 mEq/L associado a alterações eletrocardiográficas.\n\n**2. Quais foram as prioridades iniciais?**\n\nEstabilização da membrana cardíaca, redistribuição do potássio e investigação da causa, com planejamento de remoção efetiva.\n\n**3. O tratamento inicial foi eficaz?**\n\nHouve resposta inicial favorável, demonstrada pela redução do potássio, melhora da frequência cardíaca e melhora eletrocardiográfica.\n\n**4. Essa resposta representa resolução definitiva?**\n\nNão. As medidas redistributivas podem reduzir temporariamente o potássio sérico sem eliminar seu excesso corporal.\n\n**5. Qual dado continua preocupante?**\n\nA diurese muito reduzida, associada à piora importante da função renal.\n\n**6. Por que a oligúria aumenta o risco de recorrência?**\n\nPorque a capacidade de eliminar potássio pelos rins permanece comprometida.\n\n**7. A melhora do ECG elimina o risco?**\n\nNão. A ausência de alterações eletrocardiográficas após o tratamento não comprova normalização duradoura do potássio.\n\n**8. Por que monitorizar o potássio novamente?**\n\nPara identificar persistência ou recorrência da hipercalemia e orientar a necessidade de intervenções adicionais.\n\n**9. Qual é a importância da glicemia de 118 mg/dL?**\n\nMostra o valor naquele momento, mas não exclui hipoglicemia tardia após insulina intravenosa.\n\n**10. Por quanto tempo a glicemia deve ser acompanhada?**\n\nO material-base recomenda controles aproximadamente horários durante cinco a seis horas após a insulinoterapia para hipercalemia.\n\n**11. Qual é a importância da avaliação nefrológica?**\n\nDefinir a estratégia de remoção efetiva de potássio e avaliar a necessidade de terapia dialítica diante da disfunção renal.\n\n**12. Os fatores precipitantes ainda precisam ser investigados?**\n\nSim. A piora da função renal, as perdas gastrointestinais, a condição volêmica e os medicamentos podem contribuir para o quadro.\n\n**13. A melhora dos sintomas permite alta imediata?**\n\nNão. A decisão de destino deve considerar o risco de recorrência, a função renal, a necessidade de remoção de potássio e a segurança da monitorização.\n\n**14. Qual é a competência principal?**\n\nIntegrar resposta terapêutica, risco de recorrência, complicações do tratamento e critérios de segurança antes de definir o destino do paciente.\n\n**15. Qual é a mensagem final do caso?**\n\nO atendimento da hipercalemia não termina quando o potássio cai. Ele termina quando o risco imediato foi controlado, a remoção de potássio foi adequadamente planejada ou realizada e existe segurança para a continuidade do cuidado.",
+      "comentarios": {
+        "A": "Reconhece que a melhora inicial não garante resolução definitiva e prioriza monitorização, segurança e remoção efetiva.",
+        "B": "A melhora do ECG não comprova eliminação do excesso corporal de potássio.",
+        "C": "Uma glicemia normal após 90 minutos não exclui hipoglicemia tardia.",
+        "D": "A oligúria e a piora da função renal mantêm risco significativo e justificam avaliação nefrológica."
+      },
+      "perola": "> O objetivo não é apenas fazer o potássio cair. É garantir que ele não volte a subir, que o tratamento não provoque novas complicações e que o paciente tenha condições seguras para continuar o cuidado.",
+      "referencias": "**Treatment and prevention of hyperkalemia in adults. UpToDate.**\n\nSeções:\n\n- **Patients with a hyperkalemic emergency**\n- **Monitoring**\n- **Insulin with glucose**\n- **Remove potassium from the body**\n\n---\n\n# 6. REFERÊNCIA CIENTÍFICA GERAL\n\nReferência principal do bloco:\n\n**Treatment and prevention of hyperkalemia in adults. UpToDate.**\n\nDocumento fornecido como material-base do curso AgoraMed.\n\nSeções relevantes:\n\n- **Patients with a hyperkalemic emergency**\n- **Monitoring**\n- **Calcium**\n- **Insulin with glucose**\n- **Remove potassium from the body**\n- **Hemodialysis in patients with severe kidney dysfunction**\n- **Bicarbonate**\n- **Patients without a hyperkalemic emergency**\n- **Drug-induced hyperkalemia**\n\nPreservar as referências individualizadas de cada questão.\n\nNão inventar DOI, URLs, paginação bibliográfica ou outros identificadores.\n\nSe a plataforma utilizar um cadastro centralizado de referências, reutilizá-lo.\n\n---\n\n# 7. MODO ESTUDO\n\nApós o aluno selecionar uma alternativa e confirmar:\n\n1. Registrar a alternativa selecionada.\n2. Informar se a resposta está correta.\n3. Exibir o gabarito.\n4. Mostrar o comentário da alternativa escolhida.\n5. Permitir consultar os comentários das quatro alternativas.\n6. Exibir integralmente todos os itens numerados de **Entendendo o raciocínio clínico**.\n7. Exibir a **Pérola do Plantão**.\n8. Exibir as referências.\n9. Atualizar o Caderno de Erros.\n10. Permitir avançar para a próxima questão.\n\nNão resumir os raciocínios clínicos.\n\nTodos os 71 itens deste bloco devem permanecer disponíveis e legíveis.\n\n---\n\n# 8. MODO SIMULADO\n\nDurante a resolução:\n\n1. Não revelar o gabarito.\n2. Não apresentar explicações.\n3. Não mostrar comentários individualizados.\n4. Não mostrar a Pérola do Plantão.\n5. Registrar as respostas.\n6. Preservar a navegação e a finalização conforme o fluxo existente.\n\nApós finalizar:\n\n1. Exibir resultado e desempenho.\n2. Permitir revisar individualmente as questões.\n3. Mostrar a resposta escolhida pelo aluno.\n4. Mostrar o gabarito.\n5. Exibir os quatro comentários individualizados.\n6. Exibir o raciocínio clínico completo.\n7. Exibir a Pérola do Plantão.\n8. Exibir as referências.\n9. Atualizar o Caderno de Erros.\n\nEvitar exposição antecipada do gabarito na interface ou em respostas de API acessíveis durante a prova.\n\n---\n\n# 9. CADERNO DE ERROS\n\nPreservar os estados:\n\n- **Precisa revisar**\n- **Em revisão**\n- **Dominada**\n\nRegras:\n\n1. Uma resposta incorreta registra a questão no Caderno de Erros.\n2. Não criar registros duplicados para a mesma combinação de usuário e questão.\n3. Questões erradas permanecem elegíveis para revisão.\n4. Uma resposta correta durante a revisão incrementa a sequência de acertos.\n5. Duas respostas corretas consecutivas nas revisões permitem classificar a questão como Dominada.\n6. Uma resposta incorreta durante a revisão reinicia a sequência de acertos.\n7. Uma questão dominada que volte a ser respondida incorretamente retorna ao fluxo de revisão.\n8. Preservar o histórico existente.\n9. Garantir isolamento dos dados por usuário.\n10. Reutilizar o mecanismo existente, sem duplicar regras de negócio.\n\nCaso exista divergência entre essas regras e o código atual, identificar a divergência antes de promover alterações estruturais.\n\n---\n\n# 10. METADADOS E ASSOCIAÇÃO ÀS AULAS\n\nPreservar, conforme o esquema existente, campos equivalentes a:\n\n- `id`\n- `courseId`\n- `blockId`\n- `number`\n- `title`\n- `difficulty`\n- `category`\n- `subtopics`\n- `competency`\n- `relatedLessonIds`\n- `questionText`\n- `alternatives`\n- `correctAnswer`\n- `clinicalReasoning`\n- `alternativeFeedback`\n- `clinicalPearl`\n- `references`\n- `editorialStatus`\n\nOs nomes são conceituais, não uma exigência de alteração do banco de dados."
+    }
+  ]
+}

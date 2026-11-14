@@ -33,6 +33,10 @@
   let historico = [];
   let alterada = false;
   let temMais = false;
+  const eventosEnviados = new Set();
+  const eventosEmEnvio = new Set();
+  const idsEvento = new Map();
+  const inicioQuestao = new Map();
 
   async function pedir(query, corpo) {
     const parametros = new URLSearchParams({ curso_id: cursoId, ...query });
@@ -48,6 +52,19 @@
     const dados = await resposta.json();
     if (!resposta.ok) throw Object.assign(new Error(dados.erro || 'Não foi possível abrir o AgoraQuiz.'), { status: resposta.status });
     return dados;
+  }
+
+  async function registrarEvento(tipo, questaoId, tentativaId, tempoMs = null) {
+    const chave = [tentativaId, questaoId, tipo].join(':');
+    if (!tentativaId || eventosEnviados.has(chave) || eventosEmEnvio.has(chave)) return;
+    if (!idsEvento.has(chave)) idsEvento.set(chave, crypto.randomUUID());
+    eventosEmEnvio.add(chave);
+    try {
+      await pedir({}, { acao: 'evento', evento: { id: idsEvento.get(chave), tipo,
+        questao_id: questaoId, tentativa_id: tentativaId, tempo_resposta_ms: tempoMs } });
+      eventosEnviados.add(chave);
+    } catch { /* A telemetria não bloqueia a prática clínica. */ }
+    finally { eventosEmEnvio.delete(chave); }
   }
 
   function recomendar(questao) {
@@ -86,12 +103,12 @@
 
   function inicio() {
     const retomar = atual ? botao('retomar', atual.concluidoEm ? 'Ver último resultado' : 'Retomar tentativa', 'primary') : '';
-    return '<p class="aq-muted">Escolha Estudo para receber comentários a cada questão ou Simulado para revisar as respostas no final.</p>' +
-      '<form id="configuracao"><div class="quiz-campos"><label>Modo<select name="modalidade">' +
-      '<option value="estudo">Estudo</option><option value="simulado">Simulado</option></select></label>' +
-      '<label>Questões<select name="quantidade">' + tamanhos.map(n => '<option>' + n + '</option>').join('') +
-      '</select></label></div><div class="aq-actions">' + retomar +
-      '<button class="aq-btn ' + (atual ? 'ghost' : 'primary') + '">Nova tentativa</button>' +
+    return '<p class="quiz-intro">Defina quantas questões resolver e quando receber o feedback: a cada resposta, no modo <strong>Estudo</strong>, ou ao final, no <strong>Simulado</strong>.</p>' +
+      '<form id="configuracao"><div class="quiz-campos"><label><span>Modo</span><span class="quiz-seletor"><select name="modalidade">' +
+      '<option value="estudo">Estudo</option><option value="simulado">Simulado</option></select></span></label>' +
+      '<label><span>Questões</span><span class="quiz-seletor"><select name="quantidade">' + tamanhos.map(n => '<option>' + n + '</option>').join('') +
+      '</select></span></label></div><div class="aq-actions">' + retomar +
+      '<button type="submit" class="aq-btn ' + (atual ? 'ghost' : 'primary') + '">Nova tentativa</button>' +
       '</div></form>';
   }
 
@@ -127,7 +144,7 @@
     const t = exibida;
     const revisao = t.questoes.map((q, i) => {
       const acertou = q.escolha === q.gabarito;
-      return '<details><summary><span>Questão ' + (i + 1) + ' — ' + esc(q.titulo) + '</span>' +
+      return '<details data-questao="' + esc(q.id) + '"><summary><span>Questão ' + (i + 1) + ' — ' + esc(q.titulo) + '</span>' +
         '<span class="aq-tag' + (acertou ? '' : ' wrong') + '">' + (acertou
           ? 'Acertou · ' + esc(q.escolha) : 'Errou · ' + esc(q.escolha) + ' / ' + esc(q.gabarito)) + '</span></summary>' +
         '<div class="aq-review-body">' + (!acertou ? '<p>Competência para revisar · ' + esc(q.competencia) + '</p>' : '') +
@@ -163,8 +180,17 @@
     };
     const [titulo, corpo] = telas[tela];
     alterada = false;
-    raiz.innerHTML = '<section class="aq-card">' + (titulo ? '<h2 tabindex="-1">' + titulo + '</h2>' : '') +
+    const configuracao = tela === 'inicio';
+    raiz.innerHTML = '<section class="aq-card' + (configuracao ? ' quiz-configuracao" aria-labelledby="quiz-configuracao-titulo">' +
+      '<p class="quiz-configuracao-selo">Configuração da prática</p>' : '">') +
+      (titulo ? '<h2 tabindex="-1"' + (configuracao ? ' id="quiz-configuracao-titulo"' : '') + '>' + titulo + '</h2>' : '') +
       corpo() + '</section>';
+    if (tela === 'atividade' && exibida?.questoes[indice]) {
+      const qid = exibida.questoes[indice].id;
+      const chave = exibida.id + ':' + qid;
+      if (!inicioQuestao.has(chave)) inicioQuestao.set(chave, performance.now());
+      void registrarEvento('quiz_question_presented', qid, exibida.id);
+    }
     const tags = exibida && (tela === 'atividade' || tela === 'resultado')
       ? [exibida.total + ' questões', nomeModo(exibida.modalidade),
         exibida.modalidade === 'estudo' ? 'Feedback imediato' : 'Correção ao finalizar', 'Progresso salvo']
@@ -257,9 +283,16 @@
     } else if (evento.target.id === 'resposta') {
       const escolha = dados.get('escolha');
       if (!escolha) { aviso.textContent = 'Selecione uma alternativa.'; return; }
-      executar(() => salvar({ acao: 'responder', questaoId: exibida.questoes[indice].id, escolha }));
+      executar(() => { const qid = exibida.questoes[indice].id; const inicio = inicioQuestao.get(exibida.id + ':' + qid);
+        return salvar({ acao: 'responder', questaoId: qid, escolha, tempo_resposta_ms: inicio ? Math.min(3600000, Math.max(0, Math.round(performance.now() - inicio))) : null }); });
     }
   });
+
+  raiz.addEventListener('toggle', evento => {
+    const detalhe = evento.target;
+    if (tela !== 'resultado' || detalhe.tagName !== 'DETAILS' || !detalhe.open || !detalhe.dataset.questao) return;
+    if (exibida.modalidade === 'simulado') void registrarEvento('quiz_explanation_viewed', detalhe.dataset.questao, exibida.id);
+  }, true);
 
   raiz.addEventListener('change', evento => {
     if (evento.target.name !== 'escolha' || tela !== 'atividade') return;

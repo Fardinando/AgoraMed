@@ -1,0 +1,266 @@
+{
+  "cursoId": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+  "cursoOrigem": "Tratamento da Hipercalemia em Adultos",
+  "bancoOrigem": "AgoraQuiz Hipercalemia",
+  "bloco": "09",
+  "temaEditorial": "Situações especiais e decisões críticas",
+  "questoes": [
+    {
+      "id": "aqz-hiper-041",
+      "numero": 41,
+      "titulo": "POTÁSSIO DE 6,8: SERÁ QUE É VERDADEIRO?",
+      "dificuldade": "Intermediária",
+      "competenciaPrincipal": "Reconhecer uma possível alteração pré-analítica e confirmar o resultado sem comprometer a segurança do paciente.",
+      "competenciasSecundarias": "Pseudo-hipercalemia; hemólise; coleta sanguínea; confirmação laboratorial; avaliação eletrocardiográfica",
+      "eixoTematico": "Confirmação diagnóstica",
+      "categoria": "Confirmação diagnóstica",
+      "subtemas": "Pseudo-hipercalemia; hemólise; coleta sanguínea; confirmação laboratorial; avaliação eletrocardiográfica",
+      "aulasRelacionadas": [
+        {
+          "numero": 4,
+          "aulaId": "6456d65e-8879-4b0d-9032-499f4a97678f",
+          "moduloId": "55b01307-2855-453b-8489-78e3fe20cb14"
+        },
+        {
+          "numero": 9,
+          "aulaId": "c7b5e07a-75b2-48af-a17a-268654cbe861",
+          "moduloId": "787d750b-0433-41be-9a36-08e17acc671c"
+        },
+        {
+          "numero": 10,
+          "aulaId": "b9426387-fb4c-42f8-a546-3d6cb2c8b729",
+          "moduloId": "787d750b-0433-41be-9a36-08e17acc671c"
+        }
+      ],
+      "tipo": "Caso clínico de múltipla escolha.",
+      "statusEditorial": "Aprovada editorialmente.",
+      "versao": "1.0",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Uma mulher de 54 anos, sem doença renal conhecida, realiza exames de rotina.\n\nO laboratório comunica potássio sérico de 6,8 mEq/L, com observação de hemólise importante da amostra.\n\nA paciente está assintomática. Apresenta creatinina de 0,8 mg/dL e ECG sem alterações sugestivas de hipercalemia.\n\nA coleta foi descrita como difícil, com múltiplas tentativas de punção.\n\n**Qual é a conduta mais adequada?**",
+      "alternativas": {
+        "A": "Considerar o resultado definitivamente verdadeiro e iniciar todas as medidas de redução do potássio, sem necessidade de nova avaliação.",
+        "B": "Desconsiderar o resultado e liberar a paciente, pois a ausência de sintomas e alterações no ECG exclui hipercalemia.",
+        "C": "Suspeitar de pseudo-hipercalemia e obter prontamente uma nova amostra com técnica adequada, mantendo avaliação clínica e eletrocardiográfica e sem atrasar tratamento caso surjam evidências de hipercalemia verdadeira.",
+        "D": "Administrar furosemida em altas doses para confirmar o diagnóstico por meio da resposta urinária.\n\n**GABARITO: C**"
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. Qual é a primeira informação que chama atenção?**\n\nO resultado de potássio elevado foi obtido em uma amostra com hemólise importante.\n\n**2. O que é pseudo-hipercalemia?**\n\nÉ uma elevação artificial do potássio medido, que não corresponde à concentração real na circulação do paciente.\n\n**3. Como a hemólise provoca esse fenômeno?**\n\nA ruptura de células sanguíneas durante a coleta ou o processamento libera potássio intracelular para a amostra.\n\n**4. Por que a coleta difícil é relevante?**\n\nMúltiplas tentativas e trauma durante a punção podem aumentar a probabilidade de hemólise.\n\n**5. A função renal normal exclui hipercalemia verdadeira?**\n\nNão. Apenas torna menos provável uma causa relacionada à falência da excreção renal, considerando os demais dados.\n\n**6. O ECG normal confirma pseudo-hipercalemia?**\n\nNão. O ECG pode ser normal mesmo diante de hipercalemia verdadeira.\n\n**7. Qual é a melhor forma de esclarecer a suspeita?**\n\nRepetir prontamente a dosagem em amostra adequadamente coletada e processada, preferencialmente com método que permita resultado rápido.\n\n**8. É necessário repetir também a avaliação clínica?**\n\nSim. Sintomas, medicamentos, função renal, evolução laboratorial e ECG devem ser considerados conjuntamente.\n\n**9. Por que não iniciar automaticamente tratamentos potencialmente agressivos?**\n\nPorque tratar uma elevação artificial pode causar hipocalemia, hipoglicemia ou outras complicações desnecessárias.\n\n**10. Por que também não podemos simplesmente liberar a paciente?**\n\nPorque um potássio verdadeiro de 6,8 mEq/L representa risco significativo, mesmo sem manifestações clínicas.\n\n**11. Quando o tratamento não deve aguardar a confirmação?**\n\nQuando houver manifestações clínicas, alterações eletrocardiográficas ou forte suspeita de hipercalemia verdadeira grave, conforme a avaliação de risco.\n\n**12. Qual é a competência principal?**\n\nReconhecer uma possível alteração pré-analítica e confirmar o resultado sem comprometer a segurança do paciente.",
+      "comentarios": {
+        "A": "Ignora evidências de possível resultado artificial e pode expor a paciente a tratamentos desnecessários.",
+        "B": "A ausência de sintomas ou alterações eletrocardiográficas não exclui hipercalemia verdadeira.",
+        "C": "Integra suspeita de pseudo-hipercalemia, confirmação laboratorial e avaliação de segurança.",
+        "D": "A resposta à furosemida não confirma nem exclui pseudo-hipercalemia."
+      },
+      "perola": "> Antes de tratar um número, confirme que ele representa o paciente. Mas nunca use a suspeita de pseudo-hipercalemia como justificativa para ignorar sinais de gravidade.",
+      "referencias": "**Treatment and prevention of hyperkalemia in adults. UpToDate.**\n\nTabela: **Hyperkalemia in adults: Rapid overview of emergency management**.\n\nTópico: **Pseudohyperkalemia**.\n\n---"
+    },
+    {
+      "id": "aqz-hiper-042",
+      "numero": 42,
+      "titulo": "RABDOMIÓLISE: O POTÁSSIO AINDA ESTÁ SUBINDO",
+      "dificuldade": "Avançada",
+      "competenciaPrincipal": "Reconhecer a hipercalemia como processo dinâmico diante de liberação celular contínua e disfunção renal.",
+      "competenciasSecundarias": "Rabdomiólise; destruição muscular; lesão renal aguda; elevação rápida do potássio; monitorização",
+      "eixoTematico": "Hipercalemia por liberação celular contínua",
+      "categoria": "Hipercalemia por liberação celular contínua",
+      "subtemas": "Rabdomiólise; destruição muscular; lesão renal aguda; elevação rápida do potássio; monitorização",
+      "aulasRelacionadas": [
+        {
+          "numero": 5,
+          "aulaId": "b8cf5a81-ff4a-4254-a540-c8f3dd28f30e",
+          "moduloId": "55b01307-2855-453b-8489-78e3fe20cb14"
+        },
+        {
+          "numero": 6,
+          "aulaId": "5ba508c9-bfb5-472c-bf69-254036832a95",
+          "moduloId": "55b01307-2855-453b-8489-78e3fe20cb14"
+        },
+        {
+          "numero": 29,
+          "aulaId": "5e4e4643-e6c6-4732-b069-b9d0479377e6",
+          "moduloId": "09f41441-7485-4722-a595-56106a808f3f"
+        }
+      ],
+      "tipo": "Caso clínico de múltipla escolha.",
+      "statusEditorial": "Aprovada editorialmente.",
+      "versao": "1.0",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 32 anos é resgatado após permanecer várias horas com os membros inferiores comprimidos sob escombros.\n\nNa emergência, apresenta dor muscular intensa, urina escurecida e elevação importante da creatinoquinase.\n\nExames iniciais:\n\n- Potássio: 5,9 mEq/L.\n- Creatinina: 2,1 mg/dL.\n- ECG: sem alterações sugestivas de hipercalemia.\n- Diurese: reduzida.\n\nUma hora depois, o potássio aumenta para 6,4 mEq/L, apesar das medidas iniciais de suporte.\n\n**Qual é a interpretação mais adequada?**",
+      "alternativas": {
+        "A": "Como o potássio inicial era inferior a 6,5 mEq/L e o ECG era normal, o paciente não apresenta risco de emergência hipercalêmica.",
+        "B": "A lesão muscular pode provocar liberação contínua de potássio, associada à redução da excreção renal, exigindo tratamento oportuno, monitorização intensiva e avaliação de remoção efetiva.",
+        "C": "A elevação do potássio demonstra necessariamente hemólise laboratorial, pois a rabdomiólise não libera potássio.",
+        "D": "A administração de cálcio, isoladamente, elimina o excesso de potássio produzido pela destruição muscular.\n\n**GABARITO: B**"
+      },
+      "gabarito": "B",
+      "raciocinioClinico": "**1. Qual é a doença predominante?**\n\nRabdomiólise associada a lesão muscular por compressão prolongada.\n\n**2. Por que a rabdomiólise pode causar hipercalemia?**\n\nPorque a destruição das células musculares libera potássio intracelular para o meio extracelular.\n\n**3. Por que a elevação pode ser progressiva?**\n\nPorque a lesão muscular e a liberação celular podem continuar após a chegada ao hospital.\n\n**4. Qual é a importância da lesão renal aguda?**\n\nA redução da função renal pode comprometer a eliminação do potássio liberado.\n\n**5. O valor inicial de 5,9 mEq/L representa segurança?**\n\nNão. A velocidade de elevação e a persistência da liberação celular modificam o risco.\n\n**6. O ECG normal exclui emergência?**\n\nNão. A ausência de alterações eletrocardiográficas não elimina o risco de deterioração elétrica.\n\n**7. Por que a tendência do potássio importa?**\n\nPorque o aumento de 5,9 para 6,4 mEq/L em uma hora demonstra uma alteração dinâmica que exige reavaliação imediata.\n\n**8. O material-base considera a destruição tecidual contínua um fator de urgência?**\n\nSim. O UpToDate inclui pacientes com comprometimento renal e liberação contínua de potássio entre aqueles que podem necessitar de tratamento emergencial mesmo com valores inferiores a 6,5 mEq/L.\n\n**9. Qual deve ser a abordagem geral?**\n\nMonitorização cardíaca, avaliação eletrocardiográfica seriada, tratamento rápido conforme a gravidade e planejamento de remoção efetiva de potássio.\n\n**10. A insulina interrompe a liberação muscular de potássio?**\n\nNão. Promove redistribuição temporária, mas não interrompe a causa nem elimina o potássio do organismo.\n\n**11. O cálcio elimina potássio?**\n\nNão. Seu papel é antagonizar os efeitos cardíacos da hipercalemia quando indicado.\n\n**12. Quando considerar hemodiálise?**\n\nQuando houver indicação clínica, particularmente em hipercalemia grave ou persistente associada a comprometimento importante da função renal, conforme a evolução.\n\n**13. A hidratação deve ser automática e ilimitada?**\n\nNão. A reposição volêmica na rabdomiólise exige avaliação da perfusão, da diurese e da tolerância a volume.\n\n**14. Qual é a competência principal?**\n\nReconhecer a hipercalemia como processo dinâmico diante de liberação celular contínua e disfunção renal.",
+      "comentarios": {
+        "A": "Desconsidera a velocidade de elevação e o risco associado à destruição muscular contínua.",
+        "B": "Integra liberação celular, disfunção renal, monitorização e necessidade de tratamento oportuno.",
+        "C": "A rabdomiólise pode causar hipercalemia verdadeira pela liberação intracelular de potássio.",
+        "D": "O cálcio estabiliza a membrana cardíaca, mas não remove o potássio liberado."
+      },
+      "perola": "> Na rabdomiólise, não avalie apenas quanto está o potássio. Avalie também a velocidade com que ele sobe e se o rim consegue eliminá-lo.",
+      "referencias": "**Treatment and prevention of hyperkalemia in adults. UpToDate.**\n\nSeções:\n\n- **Determining the urgency of therapy**\n- **Patients with a hyperkalemic emergency**\n\n---"
+    },
+    {
+      "id": "aqz-hiper-043",
+      "numero": 43,
+      "titulo": "BRADICARDIA DESPROPORCIONAL: PENSE EM BRASH",
+      "dificuldade": "Avançada",
+      "competenciaPrincipal": "Reconhecer uma interação fisiopatológica entre hipercalemia, bloqueio nodal e insuficiência renal, evitando uma abordagem fragmentada.",
+      "competenciasSecundarias": "Bradicardia; insuficiência renal; bloqueio nodal atrioventricular; choque; hipercalemia; interação medicamentosa",
+      "eixoTematico": "Síndrome BRASH",
+      "categoria": "Síndrome BRASH",
+      "subtemas": "Bradicardia; insuficiência renal; bloqueio nodal atrioventricular; choque; hipercalemia; interação medicamentosa",
+      "aulasRelacionadas": [
+        {
+          "numero": 8,
+          "aulaId": "cb5aa5ff-db3b-4591-9010-0fff0bb90bab",
+          "moduloId": "787d750b-0433-41be-9a36-08e17acc671c"
+        },
+        {
+          "numero": 10,
+          "aulaId": "b9426387-fb4c-42f8-a546-3d6cb2c8b729",
+          "moduloId": "787d750b-0433-41be-9a36-08e17acc671c"
+        },
+        {
+          "numero": 28,
+          "aulaId": "d8b27ec2-ef72-4ba7-b6d3-ad4694a6e474",
+          "moduloId": "09f41441-7485-4722-a595-56106a808f3f"
+        }
+      ],
+      "tipo": "Caso clínico de múltipla escolha.",
+      "statusEditorial": "Aprovada editorialmente.",
+      "versao": "1.0",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Uma mulher de 76 anos, com hipertensão arterial, fibrilação atrial e doença renal crônica, utiliza carvedilol e losartana.\n\nApós três dias de diarreia e redução da ingestão hídrica, apresenta tontura intensa, fraqueza e redução da diurese.\n\nNa emergência:\n\n- PA: 78/46 mmHg.\n- FC: 34 bpm.\n- Potássio: 5,9 mEq/L.\n- Creatinina: 3,0 mg/dL (basal: 1,5 mg/dL).\n- ECG: bradicardia juncional, sem ondas T apiculadas evidentes.\n\nO médico observa que a bradicardia parece desproporcional ao grau de elevação do potássio.\n\n**Qual é a interpretação mais adequada?**",
+      "alternativas": {
+        "A": "O potássio inferior a 6,5 mEq/L exclui participação da hipercalemia na bradicardia.",
+        "B": "A ausência de ondas T apiculadas exclui toxicidade cardíaca relacionada ao potássio.",
+        "C": "O quadro é explicado exclusivamente pelo carvedilol, sem necessidade de considerar função renal ou potássio.",
+        "D": "Considerar síndrome BRASH, na qual bloqueio nodal atrioventricular, disfunção renal, hipercalemia e choque podem se potencializar, exigindo abordagem simultânea dos componentes do ciclo.\n\n**GABARITO: D**"
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. Qual é a manifestação mais grave?**\n\nBradicardia acentuada associada à hipotensão, sugerindo comprometimento hemodinâmico importante.\n\n**2. O que significa BRASH?**\n\nÉ o acrônimo de *Bradycardia, Renal failure, AV nodal blockade, Shock and Hyperkalemia*.\n\n**3. Qual é o papel do carvedilol?**\n\nO carvedilol é um betabloqueador que reduz a atividade do nó atrioventricular e pode contribuir para bradicardia.\n\n**4. Qual é o papel da hipercalemia?**\n\nO potássio elevado altera a excitabilidade e a condução cardíacas, podendo potencializar os efeitos dos bloqueadores nodais.\n\n**5. Por que a bradicardia pode ser desproporcional ao valor do potássio?**\n\nPorque o bloqueio farmacológico da condução e a hipercalemia podem produzir efeitos sinérgicos.\n\n**6. Qual é a importância da lesão renal aguda?**\n\nA disfunção renal reduz a capacidade de eliminar potássio e pode alterar a exposição a determinados medicamentos.\n\n**7. Como o choque contribui para o ciclo?**\n\nA hipoperfusão pode agravar a disfunção renal, dificultando ainda mais a eliminação do potássio.\n\n**8. Qual foi o provável fator precipitante?**\n\nA hipovolemia associada à diarreia e à redução da ingestão hídrica.\n\n**9. A ausência de ondas T apiculadas exclui BRASH?**\n\nNão. O padrão eletrocardiográfico clássico da hipercalemia pode não estar presente.\n\n**10. Por que não devemos tratar apenas a bradicardia?**\n\nPorque a persistência da hipercalemia, da hipoperfusão e dos efeitos medicamentosos pode manter o ciclo de deterioração.\n\n**11. Quais componentes precisam ser abordados?**\n\nA instabilidade hemodinâmica, a hipercalemia, a função renal, a volemia e os medicamentos que bloqueiam a condução nodal.\n\n**12. O cálcio intravenoso pode ser importante?**\n\nSim. Quando há instabilidade elétrica ou manifestações cardíacas relacionadas à hipercalemia, o cálcio pode integrar o tratamento imediato.\n\n**13. Qual é a importância da revisão medicamentosa?**\n\nIdentificar e suspender temporariamente, conforme a avaliação, agentes que contribuem para bloqueio nodal ou hipercalemia.\n\n**14. Qual é a competência principal?**\n\nReconhecer uma interação fisiopatológica entre hipercalemia, bloqueio nodal e insuficiência renal, evitando uma abordagem fragmentada.",
+      "comentarios": {
+        "A": "A hipercalemia pode contribuir para bradicardia importante mesmo com valores inferiores a 6,5 mEq/L, especialmente em associação a bloqueadores nodais.",
+        "B": "A ausência de ondas T apiculadas não exclui manifestações cardíacas relacionadas à hipercalemia.",
+        "C": "O carvedilol pode contribuir, mas não explica isoladamente a interação entre hipercalemia, lesão renal e choque.",
+        "D": "Reconhece a síndrome BRASH e a necessidade de interromper o ciclo fisiopatológico por meio de tratamento integrado."
+      },
+      "perola": "> Bradicardia intensa, insuficiência renal, bloqueador do nó AV e potássio elevado: pense em BRASH. O problema não é apenas o coração lento; é um ciclo em que cada componente agrava o outro.",
+      "referencias": "**Treatment and prevention of hyperkalemia in adults. UpToDate.**\n\nSeção: **Determining the urgency of therapy**.\n\nO material-base menciona manifestações de hipercalemia em concentrações menores de potássio em pacientes que utilizam medicamentos bloqueadores nodais, incluindo a síndrome BRASH.",
+      "observacaoCientificaEditorial": "A explicação detalhada do ciclo fisiopatológico da síndrome BRASH amplia o conteúdo diretamente apresentado na seção consultada.\n\n**Manter a questão aprovada sem alterações silenciosas, mas sinalizar a necessidade de revisão científica específica antes da publicação.**\n\nNão atribuir ao material-base detalhes fisiopatológicos que ele não apresenta explicitamente.\n\n---",
+      "revisaoCientificaPendente": true
+    },
+    {
+      "id": "aqz-hiper-044",
+      "numero": 44,
+      "titulo": "O POTÁSSIO MELHOROU, MAS A GLICEMIA CAIU",
+      "dificuldade": "Avançada",
+      "competenciaPrincipal": "Antecipar e reconhecer hipoglicemia tardia após insulinoterapia, mantendo acompanhamento mesmo diante de melhora inicial do potássio.",
+      "competenciasSecundarias": "Insulina regular intravenosa; hipoglicemia tardia; doença renal avançada; monitorização glicêmica; redistribuição de potássio",
+      "eixoTematico": "Segurança da insulinoterapia",
+      "categoria": "Segurança da insulinoterapia",
+      "subtemas": "Insulina regular intravenosa; hipoglicemia tardia; doença renal avançada; monitorização glicêmica; redistribuição de potássio",
+      "aulasRelacionadas": [
+        {
+          "numero": 15,
+          "aulaId": "759984ad-df44-4a0a-9543-3c3602e75e5e",
+          "moduloId": "26bdbea9-55a7-4549-b922-4fd1db60f887"
+        },
+        {
+          "numero": 16,
+          "aulaId": "15e2011c-d795-4343-b8a6-e3d6c00a57d4",
+          "moduloId": "26bdbea9-55a7-4549-b922-4fd1db60f887"
+        },
+        {
+          "numero": 26,
+          "aulaId": "8d392762-12f2-496d-ad0a-be8cbaaa0d8a",
+          "moduloId": "18dc5aa4-8311-4f3c-b95f-8831cc6a2269"
+        }
+      ],
+      "tipo": "Caso clínico de múltipla escolha.",
+      "statusEditorial": "Aprovada editorialmente.",
+      "versao": "1.0",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 70 anos, com doença renal crônica estágio G5, chega à emergência com potássio de 6,9 mEq/L e alterações eletrocardiográficas sugestivas de hipercalemia.\n\nRecebe cálcio intravenoso e, em seguida, 10 unidades de insulina regular intravenosa associadas a 25 g de glicose.\n\nUma hora depois:\n\n- Potássio: 5,8 mEq/L.\n- Glicemia capilar: 138 mg/dL.\n- ECG: melhora das alterações iniciais.\n\nA equipe considera encerrar a monitorização glicêmica porque o potássio diminuiu e a glicemia está normal.\n\nTrês horas após a administração de insulina, o paciente apresenta sudorese, confusão mental e glicemia de 48 mg/dL.\n\n**Qual é a interpretação mais adequada?**",
+      "alternativas": {
+        "A": "A hipoglicemia é incompatível com o tratamento da hipercalemia, pois a insulina deixa de agir assim que o potássio diminui.",
+        "B": "O risco de hipoglicemia persiste após o efeito inicial sobre o potássio, especialmente na disfunção renal, exigindo monitorização glicêmica seriada e tratamento imediato da hipoglicemia.",
+        "C": "A glicemia normal após uma hora exclui hipoglicemia nas horas seguintes.",
+        "D": "A redução do potássio demonstra que a insulina eliminou o excesso corporal de potássio, dispensando outras medidas.\n\n**GABARITO: B**"
+      },
+      "gabarito": "B",
+      "raciocinioClinico": "**1. Qual foi o tratamento utilizado?**\n\nInsulina regular intravenosa associada à glicose, como terapia de redistribuição do potássio.\n\n**2. Como a insulina reduz o potássio sérico?**\n\nEstimula a atividade da Na-K-ATPase, promovendo entrada de potássio nas células, especialmente musculares.\n\n**3. A insulina elimina potássio do organismo?**\n\nNão. O efeito consiste em redistribuição temporária.\n\n**4. Por que o potássio diminuiu rapidamente?**\n\nPorque a administração intravenosa produz concentrações elevadas de insulina, favorecendo a entrada celular de potássio.\n\n**5. Por que a glicemia pode cair posteriormente?**\n\nPorque o efeito da insulina sobre a utilização de glicose pode persistir após a administração inicial de glicose.\n\n**6. Qual é a importância da doença renal avançada?**\n\nA redução da depuração de insulina pode prolongar seu efeito e aumentar o risco de hipoglicemia.\n\n**7. Uma glicemia normal após uma hora exclui risco posterior?**\n\nNão. A hipoglicemia pode ocorrer várias horas depois da administração.\n\n**8. O que a glicemia de 48 mg/dL representa?**\n\nHipoglicemia clinicamente significativa, acompanhada de manifestações neuroglicopênicas e autonômicas.\n\n**9. Qual é a prioridade imediata nesse momento?**\n\nTratar prontamente a hipoglicemia e reavaliar a glicemia, com medidas adicionais conforme a resposta e o estado clínico.\n\n**10. Qual monitorização o UpToDate recomenda?**\n\nVerificação da glicemia aproximadamente a cada hora por cinco a seis horas após a administração de insulina para hipercalemia.\n\n**11. O material-base discute medidas para reduzir esse risco?**\n\nSim. Descreve estratégias como aporte adicional de glicose e monitorização próxima, individualizadas conforme o contexto.\n\n**12. O tratamento da hipoglicemia encerra a avaliação da hipercalemia?**\n\nNão. O potássio pode voltar a aumentar quando o efeito redistributivo diminuir.\n\n**13. Qual é a importância de planejar remoção efetiva?**\n\nEvitar depender exclusivamente de uma medida temporária em paciente com comprometimento importante da excreção renal.\n\n**14. Qual é a competência principal?**\n\nAntecipar e reconhecer hipoglicemia tardia após insulinoterapia, mantendo acompanhamento mesmo diante de melhora inicial do potássio.",
+      "comentarios": {
+        "A": "A insulina pode continuar produzindo efeito hipoglicemiante após a redução inicial do potássio.",
+        "B": "Reconhece o risco de hipoglicemia tardia, particularmente na disfunção renal, e a necessidade de monitorização e tratamento.",
+        "C": "Uma medida isolada de glicemia não exclui hipoglicemia posterior.",
+        "D": "A insulina redistribui potássio, mas não promove sua eliminação corporal."
+      },
+      "perola": "> Depois de administrar insulina para hipercalemia, não monitore apenas o potássio. A glicemia pode cair horas depois, mesmo quando o primeiro controle parece tranquilizador.",
+      "referencias": "**Treatment and prevention of hyperkalemia in adults. UpToDate.**\n\nSeções:\n\n- **Insulin with glucose**\n- **Monitoring**\n\n---"
+    },
+    {
+      "id": "aqz-hiper-045",
+      "numero": 45,
+      "titulo": "O CÁLCIO FOI ADMINISTRADO, MAS O QRS CONTINUA ALARGADO",
+      "dificuldade": "Avançada",
+      "competenciaPrincipal": "Reconhecer a persistência de toxicidade elétrica e reavaliar oportunamente a necessidade de repetir cálcio, sem abandonar o restante do tratamento.",
+      "competenciasSecundarias": "Cálcio intravenoso; QRS alargado; toxicidade elétrica; reavaliação eletrocardiográfica; tratamento integrado",
+      "eixoTematico": "Estabilização cardíaca e reavaliação terapêutica",
+      "categoria": "Estabilização cardíaca e reavaliação terapêutica",
+      "subtemas": "Cálcio intravenoso; QRS alargado; toxicidade elétrica; reavaliação eletrocardiográfica; tratamento integrado",
+      "aulasRelacionadas": [
+        {
+          "numero": 11,
+          "aulaId": "6ffea441-00a6-4415-a826-415317082d35",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 12,
+          "aulaId": "57d7dc97-84d2-494f-9d89-ae9745a8eaf9",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 13,
+          "aulaId": "744bc45c-cae3-42d5-a7aa-9b9ca0e85044",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        }
+      ],
+      "tipo": "Caso clínico de múltipla escolha.",
+      "statusEditorial": "Aprovada editorialmente.",
+      "versao": "1.0",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 68 anos, com doença renal crônica avançada, é admitido com fraqueza intensa e bradicardia.\n\nExames iniciais:\n\n- Potássio: 7,5 mEq/L.\n- Frequência cardíaca: 38 bpm.\n- ECG: ondas P pouco evidentes e QRS alargado.\n\nRecebe gluconato de cálcio intravenoso para estabilização da membrana cardíaca. A equipe também inicia medidas para redistribuição do potássio e organiza sua remoção efetiva.\n\nCinco minutos depois, o ECG permanece com QRS alargado e bradicardia importante.\n\n**Qual é a melhor conduta?**",
+      "alternativas": {
+        "A": "Considerar que o cálcio falhou definitivamente e que não existe benefício em reavaliar sua administração.",
+        "B": "Aguardar a normalização espontânea do ECG, pois uma dose de cálcio elimina o potássio circulante.",
+        "C": "Reavaliar imediatamente o paciente e o ECG, considerando repetir o cálcio intravenoso diante da persistência de toxicidade elétrica, enquanto se mantêm as demais medidas de tratamento.",
+        "D": "Suspender as medidas de redistribuição e remoção de potássio, pois o cálcio é suficiente para tratar a hipercalemia.\n\n**GABARITO: C**"
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. Qual é o problema imediato?**\n\nO paciente apresenta manifestações eletrocardiográficas graves associadas à hipercalemia.\n\n**2. Qual é o objetivo do cálcio intravenoso?**\n\nAntagonizar os efeitos da hipercalemia sobre a excitabilidade e a condução cardíacas.\n\n**3. O cálcio reduz a concentração sérica de potássio?**\n\nNão. Seu efeito é estabilizador, sem remover ou redistribuir potássio de maneira relevante.\n\n**4. Por que o ECG deve ser reavaliado após a administração?**\n\nPorque a resposta elétrica orienta a necessidade de novas medidas de estabilização.\n\n**5. Qual é a importância da persistência do QRS alargado?**\n\nSugere que a toxicidade elétrica continua presente e que o risco de deterioração permanece elevado.\n\n**6. O efeito do cálcio é imediato?**\n\nO início de ação é rápido, motivo pelo qual a reavaliação precoce é importante.\n\n**7. É possível repetir a administração?**\n\nSim. A persistência de alterações eletrocardiográficas compatíveis com toxicidade hipercalêmica pode justificar nova dose, conforme o protocolo e a avaliação clínica.\n\n**8. Repetir cálcio substitui a insulinoterapia?**\n\nNão. O cálcio e a insulina possuem objetivos diferentes e complementares.\n\n**9. Qual é o papel da insulina?**\n\nReduzir temporariamente o potássio extracelular por redistribuição intracelular.\n\n**10. Por que é necessário planejar a remoção efetiva?**\n\nPorque a estabilização elétrica não elimina o excesso corporal de potássio.\n\n**11. O que deve acontecer com a monitorização cardíaca?**\n\nDeve permanecer contínua diante da emergência hipercalêmica.\n\n**12. A melhora do ECG dispensa dosagem posterior do potássio?**\n\nNão. O ECG e a concentração sérica de potássio fornecem informações complementares.\n\n**13. Qual é a importância de uma abordagem simultânea?**\n\nA estabilização cardíaca protege contra os efeitos elétricos imediatos, enquanto redistribuição e remoção atuam sobre a hipercalemia.\n\n**14. Qual é a competência principal?**\n\nReconhecer a persistência de toxicidade elétrica e reavaliar oportunamente a necessidade de repetir cálcio, sem abandonar o restante do tratamento.",
+      "comentarios": {
+        "A": "A persistência de alterações eletrocardiográficas pode justificar nova administração de cálcio.",
+        "B": "O cálcio não elimina potássio, e a persistência de toxicidade elétrica não deve ser acompanhada passivamente.",
+        "C": "Integra reavaliação elétrica, possível repetição do cálcio e manutenção das terapias de redistribuição e remoção.",
+        "D": "O cálcio estabiliza a membrana cardíaca, mas não substitui as demais intervenções necessárias."
+      },
+      "perola": "> O cálcio protege o coração, mas não corrige o potássio. Se a toxicidade elétrica persiste, reavalie rapidamente a necessidade de repetir o cálcio e mantenha o tratamento da hipercalemia.",
+      "referencias": "**Treatment and prevention of hyperkalemia in adults. UpToDate.**\n\nSeção: **Calcium**, incluindo a abordagem da emergência hipercalêmica.\n\n---\n\n# 6. REFERÊNCIAS CIENTÍFICAS\n\nReferência principal:\n\n**Treatment and prevention of hyperkalemia in adults. UpToDate.**\n\nDocumento fornecido como material-base do curso AgoraMed.\n\nSeções utilizadas:\n\n- **Determining the urgency of therapy**\n- **Patients with a hyperkalemic emergency**\n- **Calcium**\n- **Insulin with glucose**\n- **Monitoring**\n\nTabela utilizada:\n\n- **Hyperkalemia in adults: Rapid overview of emergency management**\n\nPreservar as referências individualizadas de cada questão.\n\nNão inventar DOI, páginas, URLs ou outros dados bibliográficos.\n\nA questão 043 possui uma observação específica sobre a necessidade de revisão científica adicional do ciclo fisiopatológico BRASH. Essa observação deve constar do relatório de implementação e da revisão editorial, sem ser apresentada como conteúdo extraído integralmente da referência principal.\n\n---\n\n# 7. FUNCIONAMENTO DO MODO ESTUDO\n\nApós o aluno selecionar uma alternativa e confirmar a resposta:\n\n1. Registrar a alternativa escolhida.\n2. Identificar se a resposta está correta ou incorreta.\n3. Exibir o gabarito.\n4. Apresentar o comentário individualizado correspondente.\n5. Permitir consultar os comentários das quatro alternativas.\n6. Exibir integralmente todos os itens de **Entendendo o raciocínio clínico**.\n7. Exibir a **Pérola do Plantão**.\n8. Exibir as referências.\n9. Atualizar o Caderno de Erros.\n10. Permitir avançar para a próxima questão.\n\nNão resumir ou truncar os raciocínios clínicos.\n\nOs itens numerados devem permanecer organizados e legíveis, inclusive em dispositivos móveis.\n\n---\n\n# 8. FUNCIONAMENTO DO MODO SIMULADO\n\nDurante a resolução:\n\n1. Não revelar o gabarito.\n2. Não mostrar explicações.\n3. Não exibir comentários individualizados.\n4. Não exibir a Pérola do Plantão.\n5. Registrar as respostas conforme o mecanismo existente.\n6. Preservar o fluxo de navegação e finalização do simulado.\n\nApós a finalização:\n\n1. Exibir o resultado.\n2. Permitir revisar as cinco questões.\n3. Mostrar a alternativa escolhida pelo aluno.\n4. Mostrar o gabarito correto.\n5. Exibir os comentários das alternativas.\n6. Exibir o raciocínio clínico completo.\n7. Exibir a Pérola do Plantão.\n8. Exibir as referências.\n9. Atualizar o Caderno de Erros conforme as regras existentes.\n\nEvitar qualquer vazamento antecipado de gabarito por interface ou API.\n\n---\n\n# 9. INTEGRAÇÃO COM O CADERNO DE ERROS\n\nPreservar os três estados:\n\n- **Precisa revisar**\n- **Em revisão**\n- **Dominada**\n\nRegras:\n\n1. Uma resposta incorreta registra a questão no Caderno de Erros.\n2. Não criar duplicações para a mesma combinação de usuário e questão.\n3. A questão permanece disponível para revisão.\n4. Uma resposta correta durante a revisão incrementa a sequência de acertos.\n5. Duas respostas corretas consecutivas nas revisões permitem classificar a questão como Dominada.\n6. Uma resposta incorreta durante a revisão reinicia a sequência.\n7. Uma questão dominada que volte a ser respondida incorretamente deve retornar ao fluxo de revisão.\n8. Preservar histórico e persistência.\n9. Garantir isolamento dos dados por usuário.\n10. Reutilizar o mecanismo existente, sem duplicar regras de negócio.\n\nSe houver divergência entre essas regras e a implementação atual, identificar e relatar antes de realizar mudanças estruturais.\n\n---\n\n# 10. METADADOS E ASSOCIAÇÃO ÀS AULAS\n\nCada questão deve manter os metadados existentes equivalentes a:\n\n- `id`\n- `courseId`\n- `blockId`\n- `number`\n- `title`\n- `difficulty`\n- `category`\n- `subtopics`\n- `competency`\n- `relatedLessonIds`\n- `questionText`\n- `alternatives`\n- `correctAnswer`\n- `clinicalReasoning`\n- `alternativeFeedback`\n- `clinicalPearl`\n- `references`\n- `editorialStatus`\n\nEsses nomes são conceituais. Adaptar ao esquema atual sem migração desnecessária."
+    }
+  ]
+}

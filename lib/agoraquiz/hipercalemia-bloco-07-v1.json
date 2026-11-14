@@ -1,0 +1,255 @@
+{
+  "cursoId": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+  "cursoOrigem": "Tratamento da Hipercalemia em Adultos",
+  "bancoOrigem": "AgoraQuiz Hipercalemia",
+  "bloco": "07",
+  "temaEditorial": "Medicamentos e prevenção de recorrências",
+  "questoes": [
+    {
+      "id": "aqz-hiper-031",
+      "numero": 31,
+      "titulo": "O MEDICAMENTO QUE DESENCADEOU A HIPERCALEMIA",
+      "dificuldade": "Intermediária",
+      "competenciaPrincipal": "Identificar medicamentos precipitantes e compreender a interação entre efeitos farmacológicos e função renal.",
+      "competenciasSecundarias": "Anti-inflamatórios não esteroidais; bloqueio do sistema renina-angiotensina-aldosterona; doença renal crônica; lesão renal aguda",
+      "eixoTematico": "Hipercalemia medicamentosa",
+      "categoria": "Hipercalemia medicamentosa",
+      "subtemas": "Anti-inflamatórios não esteroidais; bloqueio do sistema renina-angiotensina-aldosterona; doença renal crônica; lesão renal aguda",
+      "aulasRelacionadas": [
+        {
+          "numero": 28,
+          "aulaId": "d8b27ec2-ef72-4ba7-b6d3-ad4694a6e474",
+          "moduloId": "09f41441-7485-4722-a595-56106a808f3f"
+        },
+        {
+          "numero": 29,
+          "aulaId": "5e4e4643-e6c6-4732-b069-b9d0479377e6",
+          "moduloId": "09f41441-7485-4722-a595-56106a808f3f"
+        }
+      ],
+      "tipo": "Caso clínico de múltipla escolha.",
+      "statusEditorial": "Aprovada editorialmente.",
+      "versao": "1.0",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 73 anos, com doença renal crônica estágio G3b e hipertensão arterial, procura atendimento por fraqueza e redução do volume urinário.\n\nUtiliza losartana há vários anos, com função renal e potássio previamente estáveis.\n\nHá cinco dias, iniciou diclofenaco por conta própria para tratar lombalgia.\n\nExames atuais:\n\n- Potássio: 6,0 mEq/L.\n- Creatinina: 2,4 mg/dL (basal: 1,6 mg/dL).\n- ECG: sem alterações sugestivas de hipercalemia.\n- Pressão arterial: 112/68 mmHg.\n\nNão há evidência de hemólise na amostra.\n\n**Qual é a interpretação mais adequada?**",
+      "alternativas": {
+        "A": "O diclofenaco não pode contribuir para hipercalemia, pois não contém potássio em sua composição.",
+        "B": "A estabilidade anterior com losartana exclui a participação de medicamentos na elevação atual do potássio.",
+        "C": "O anti-inflamatório pode ter contribuído para deterioração da função renal e redução da excreção de potássio, especialmente em associação ao bloqueio do sistema renina-angiotensina-aldosterona.",
+        "D": "O ECG normal demonstra que a elevação do potássio não tem relevância clínica e dispensa reavaliação.\n\n**GABARITO: C**"
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. O que mudou recentemente na história?**\n\nO paciente iniciou diclofenaco cinco dias antes da piora da função renal e da elevação do potássio.\n\n**2. Qual é o mecanismo renal dos anti-inflamatórios não esteroidais?**\n\nOs AINEs inibem a síntese de prostaglandinas, podendo reduzir a vasodilatação da arteríola aferente e comprometer a perfusão renal, especialmente em pacientes suscetíveis.\n\n**3. Como os AINEs podem contribuir para hipercalemia?**\n\nPodem reduzir a função renal e a excreção de potássio, além de interferir na atividade do sistema renina-angiotensina-aldosterona.\n\n**4. Por que a doença renal crônica aumenta o risco?**\n\nPorque reduz a reserva funcional necessária para compensar fatores que comprometem a eliminação renal de potássio.\n\n**5. Qual é o papel da losartana?**\n\nO bloqueio do receptor da angiotensina II pode reduzir a atividade da aldosterona, diminuindo a secreção renal de potássio.\n\n**6. O uso prévio e estável da losartana exclui interação medicamentosa?**\n\nNão. A adição de outro medicamento pode descompensar um equilíbrio anteriormente estável.\n\n**7. O diclofenaco precisa conter potássio para causar hipercalemia?**\n\nNão. O efeito decorre principalmente de alterações fisiológicas na regulação e excreção renal do potássio.\n\n**8. A ausência de alterações no ECG exclui risco?**\n\nNão. Um ECG normal não exclui hipercalemia clinicamente relevante.\n\n**9. Qual é a primeira medida relacionada à causa provável?**\n\nSuspender o AINE e reavaliar a função renal, a volemia e os demais medicamentos potencialmente envolvidos.\n\n**10. A losartana deve ser mantida automaticamente?**\n\nNão. Durante a hipercalemia aguda, pode ser necessário suspender ou reduzir temporariamente medicamentos que elevam o potássio, com reavaliação posterior.\n\n**11. É necessário tratar o potássio além de suspender o AINE?**\n\nSim, conforme a gravidade, a evolução, a função renal e a avaliação clínica. A correção da causa não substitui o tratamento necessário da hipercalemia.\n\n**12. Qual é a competência principal?**\n\nReconhecer um fator farmacológico precipitante e compreender a interação entre medicamentos e função renal.",
+      "comentarios": {
+        "A": "O medicamento não precisa conter potássio para causar hipercalemia. Pode alterar sua excreção renal.",
+        "B": "A estabilidade prévia não exclui uma interação após a introdução de outro medicamento.",
+        "C": "Integra o efeito dos AINEs, a doença renal e o bloqueio do sistema renina-angiotensina-aldosterona.",
+        "D": "A ausência de alterações eletrocardiográficas não elimina o risco nem dispensa avaliação."
+      },
+      "perola": "> Quando o potássio sobe sem explicação aparente, procure primeiro o que mudou na prescrição. Às vezes, a causa não é uma doença nova, mas um medicamento acrescentado há poucos dias.",
+      "referencias": "Mount DB. **Treatment and prevention of hyperkalemia in adults.** UpToDate. Atualizado em 3 de novembro de 2026.\n\nSeção principal: **Drug-induced hyperkalemia**.\n\nSeção complementar: **Patients with a hyperkalemic emergency**, especialmente a correção de causas reversíveis.\n\n---"
+    },
+    {
+      "id": "aqz-hiper-032",
+      "numero": 32,
+      "titulo": "SUSPENDER DEFINITIVAMENTE O IECA?",
+      "dificuldade": "Avançada",
+      "competenciaPrincipal": "Equilibrar segurança metabólica e preservação de tratamentos com benefício prognóstico.",
+      "competenciasSecundarias": "IECA; insuficiência cardíaca com fração de ejeção reduzida; reintrodução terapêutica; prevenção de recorrência",
+      "eixoTematico": "Hipercalemia associada ao bloqueio do SRAA",
+      "categoria": "Hipercalemia associada ao bloqueio do SRAA",
+      "subtemas": "IECA; insuficiência cardíaca com fração de ejeção reduzida; reintrodução terapêutica; prevenção de recorrência",
+      "aulasRelacionadas": [
+        {
+          "numero": 28,
+          "aulaId": "d8b27ec2-ef72-4ba7-b6d3-ad4694a6e474",
+          "moduloId": "09f41441-7485-4722-a595-56106a808f3f"
+        },
+        {
+          "numero": 29,
+          "aulaId": "5e4e4643-e6c6-4732-b069-b9d0479377e6",
+          "moduloId": "09f41441-7485-4722-a595-56106a808f3f"
+        },
+        {
+          "numero": 30,
+          "aulaId": "aa89b753-b29e-4905-a508-d79665beb412",
+          "moduloId": "09f41441-7485-4722-a595-56106a808f3f"
+        }
+      ],
+      "tipo": "Caso clínico de múltipla escolha.",
+      "statusEditorial": "Aprovada editorialmente.",
+      "versao": "1.0",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Uma mulher de 66 anos, com insuficiência cardíaca com fração de ejeção reduzida (FEVE de 30%) e doença renal crônica, utiliza enalapril como parte do tratamento habitual.\n\nÉ internada com potássio de 6,4 mEq/L após um episódio de desidratação e deterioração transitória da função renal.\n\nDurante a internação, o enalapril é temporariamente suspenso e a hipercalemia é tratada.\n\nApós estabilização, o potássio permanece em 4,7 mEq/L, a função renal retorna próxima ao basal e a paciente está clinicamente estável.\n\nUm profissional sugere que o enalapril seja permanentemente contraindicado, independentemente de qualquer avaliação posterior.\n\n**Qual é a abordagem mais adequada?**",
+      "alternativas": {
+        "A": "Suspender definitivamente todos os inibidores do sistema renina-angiotensina-aldosterona, pois qualquer episódio de hipercalemia elimina seus benefícios cardiovasculares.",
+        "B": "Considerar a reintrodução criteriosa do bloqueio do sistema renina-angiotensina-aldosterona após estabilização, com monitorização de potássio e função renal e estratégias para prevenir recorrência.",
+        "C": "Reintroduzir imediatamente o enalapril em dose máxima, sem necessidade de novos exames, porque o potássio está normal.",
+        "D": "Substituir obrigatoriamente o enalapril por espironolactona, pois esta não aumenta o risco de hipercalemia.\n\n**GABARITO: B**"
+      },
+      "gabarito": "B",
+      "raciocinioClinico": "**1. Qual é o problema terapêutico?**\n\nA paciente apresentou hipercalemia durante o uso de um medicamento que também oferece benefícios importantes na insuficiência cardíaca com fração de ejeção reduzida.\n\n**2. O enalapril pode aumentar o potássio?**\n\nSim. Inibidores da enzima conversora de angiotensina podem reduzir a atividade da aldosterona e comprometer a eliminação renal de potássio.\n\n**3. Foi razoável suspender temporariamente o medicamento?**\n\nSim. Durante a hipercalemia significativa e a deterioração da função renal, a suspensão temporária pode fazer parte da abordagem.\n\n**4. A suspensão temporária significa contraindicação definitiva?**\n\nNão. É necessário distinguir o controle de uma complicação aguda da decisão sobre tratamento de longo prazo.\n\n**5. Por que o bloqueio do sistema renina-angiotensina-aldosterona é importante na insuficiência cardíaca?**\n\nPorque integra o tratamento modificador de prognóstico em pacientes com fração de ejeção reduzida.\n\n**6. O que o material-base destaca sobre a suspensão permanente?**\n\nO UpToDate ressalta que a interrupção ou redução permanente desses medicamentos, em pacientes com indicações importantes, está associada a maior mortalidade e eventos cardiovasculares adversos.\n\n**7. Quais pacientes merecem atenção especial nessa decisão?**\n\nAqueles com insuficiência cardíaca com fração de ejeção reduzida ou doença renal crônica albuminúrica.\n\n**8. A reintrodução deve ser automática?**\n\nNão. Deve considerar estabilidade clínica, função renal, potássio, contraindicações e risco de recorrência.\n\n**9. Quais fatores reversíveis devem ser corrigidos?**\n\nDesidratação, deterioração renal, medicamentos adicionais que elevam potássio e outros fatores identificados.\n\n**10. Como reduzir o risco de recorrência?**\n\nPor meio de revisão medicamentosa, manejo da função renal e da volemia, intervenções dietéticas quando indicadas e outras estratégias individualizadas.\n\n**11. Qual é a importância da monitorização após a reintrodução?**\n\nIdentificar precocemente nova elevação do potássio ou deterioração da função renal.\n\n**12. A espironolactona é uma substituição livre de risco?**\n\nNão. É um antagonista do receptor mineralocorticoide que também pode causar hipercalemia.\n\n**13. Qual é a competência principal?**\n\nEquilibrar a segurança metabólica com a preservação de tratamentos que oferecem benefícios prognósticos.",
+      "comentarios": {
+        "A": "A suspensão definitiva indiscriminada pode privar a paciente de tratamento com benefício cardiovascular.",
+        "B": "Considera a reintrodução individualizada após estabilização e incorpora medidas de prevenção e monitorização.",
+        "C": "Normalização pontual do potássio não autoriza reinício em dose máxima sem acompanhamento.",
+        "D": "A espironolactona também pode aumentar o potássio e não é substituto obrigatório do enalapril."
+      },
+      "perola": "> Tratar a hipercalemia não significa abandonar automaticamente uma medicação que salva vidas. Controle o risco, corrija os fatores reversíveis e reavalie o tratamento de longo prazo.",
+      "referencias": "Mount DB. **Treatment and prevention of hyperkalemia in adults.** UpToDate. Atualizado em 3 de novembro de 2026.\n\nSeções:\n\n- **Drug-induced hyperkalemia**\n- **Prevention**\n\n---"
+    },
+    {
+      "id": "aqz-hiper-033",
+      "numero": 33,
+      "titulo": "O PACIENTE ESTÁ DESIDRATADO. POR QUE O POTÁSSIO SUBIU?",
+      "dificuldade": "Avançada",
+      "competenciaPrincipal": "Identificar a hipovolemia como causa reversível e evitar intervenções que agravem a perfusão renal.",
+      "competenciasSecundarias": "Hipoperfusão renal; lesão renal aguda; excreção renal de potássio; reposição volêmica; diuréticos",
+      "eixoTematico": "Hipercalemia associada à hipovolemia",
+      "categoria": "Hipercalemia associada à hipovolemia",
+      "subtemas": "Hipoperfusão renal; lesão renal aguda; excreção renal de potássio; reposição volêmica; diuréticos",
+      "aulasRelacionadas": [
+        {
+          "numero": 20,
+          "aulaId": "aad65f01-fab2-47dc-b146-cb82f1234796",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        },
+        {
+          "numero": 28,
+          "aulaId": "d8b27ec2-ef72-4ba7-b6d3-ad4694a6e474",
+          "moduloId": "09f41441-7485-4722-a595-56106a808f3f"
+        }
+      ],
+      "tipo": "Caso clínico de múltipla escolha.",
+      "statusEditorial": "Aprovada editorialmente.",
+      "versao": "1.0",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 78 anos, com doença renal crônica estágio G3a, apresenta diarreia e baixa ingestão hídrica há quatro dias.\n\nProcura a emergência com fraqueza, tontura ao levantar e diminuição do volume urinário.\n\nAo exame:\n\n- PA: 94/58 mmHg.\n- FC: 108 bpm.\n- Mucosas secas.\n- Sem sinais de congestão pulmonar ou edema periférico.\n\nExames:\n\n- Potássio: 5,8 mEq/L.\n- Creatinina: 2,0 mg/dL (basal: 1,2 mg/dL).\n- ECG: sem alterações sugestivas de hipercalemia.\n\nUm residente sugere administrar furosemida imediatamente para aumentar a eliminação urinária de potássio, sem corrigir a hipovolemia.\n\n**Qual é a melhor interpretação e conduta?**",
+      "alternativas": {
+        "A": "A hipovolemia não interfere na excreção renal de potássio, portanto a reposição volêmica não tem relevância.",
+        "B": "Administrar furosemida em altas doses antes de qualquer reposição volêmica, pois a redução adicional da perfusão renal aumenta a kaliurese.",
+        "C": "Considerar a hipovolemia um fator reversível da deterioração renal e da hipercalemia, corrigindo-a cuidadosamente com solução isotônica, reavaliando função renal, potássio e diurese antes de decidir sobre diuréticos.",
+        "D": "Prescrever restrição hídrica rigorosa, pois todo paciente com doença renal crônica e hipercalemia deve evitar expansão volêmica.\n\n**GABARITO: C**"
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. Qual é o principal fator precipitante identificado?**\n\nA hipovolemia associada às perdas gastrointestinais e à baixa ingestão hídrica.\n\n**2. Quais achados sustentam hipovolemia?**\n\nHipotensão, taquicardia, mucosas secas, sintomas ortostáticos e redução da diurese.\n\n**3. Por que a creatinina aumentou?**\n\nA redução da perfusão renal pode comprometer a filtração glomerular, provocando ou contribuindo para lesão renal aguda.\n\n**4. Como a hipovolemia pode causar hipercalemia?**\n\nA redução da função renal e do fluxo tubular distal pode comprometer a excreção urinária de potássio.\n\n**5. A diarreia não deveria provocar hipocalemia?**\n\nFrequentemente, perdas gastrointestinais favorecem hipocalemia. Entretanto, neste caso, a deterioração da função renal pode predominar e resultar em hipercalemia.\n\n**6. Qual é a importância da doença renal crônica prévia?**\n\nA reserva renal reduzida torna o paciente mais suscetível à elevação do potássio durante episódios de hipoperfusão.\n\n**7. Qual é a prioridade relacionada à causa reversível?**\n\nRestaurar cuidadosamente a volemia e a perfusão renal, com reavaliação frequente da resposta.\n\n**8. Por que utilizar solução isotônica?**\n\nPorque a expansão do volume extracelular pode melhorar a perfusão renal quando há hipovolemia verdadeira.\n\n**9. Por que não iniciar furosemida indiscriminadamente?**\n\nPorque a diurese induzida pode agravar a depleção volêmica e a hipoperfusão renal.\n\n**10. A furosemida está sempre contraindicada nesses pacientes?**\n\nNão. Pode ser considerada em circunstâncias apropriadas, desde que haja função renal e resposta urinária suficientes, após avaliação da volemia.\n\n**11. O material-base aborda a correção da hipovolemia?**\n\nSim. O UpToDate inclui a reversão da hipovolemia entre as medidas para corrigir causas de hipercalemia e descreve hidratação com solução isotônica em pacientes selecionados.\n\n**12. Qual cuidado deve acompanhar a reposição volêmica?**\n\nMonitorizar pressão arterial, diurese, congestão, função renal e eletrólitos, individualizando o volume administrado.\n\n**13. A correção da hipovolemia dispensa avaliação da hipercalemia?**\n\nNão. O potássio de 5,8 mEq/L e a lesão renal exigem avaliação e acompanhamento, com tratamento adicional conforme evolução e risco.\n\n**14. Qual é a competência principal?**\n\nIdentificar a hipovolemia como fator reversível e evitar intervenções que agravem a perfusão renal.",
+      "comentarios": {
+        "A": "A hipovolemia pode reduzir a perfusão e a capacidade de excreção renal de potássio.",
+        "B": "A diurese forçada antes da correção da hipovolemia pode agravar a disfunção renal.",
+        "C": "Integra a correção da causa precipitante à reavaliação da função renal e do potássio.",
+        "D": "Doença renal crônica não significa contraindicação universal à reposição volêmica quando existe hipovolemia."
+      },
+      "perola": "> Antes de tentar fazer o rim eliminar mais potássio, descubra se ele está recebendo sangue suficiente. Em um paciente hipovolêmico, corrigir a perfusão pode ser mais importante do que aumentar a dose de diurético.",
+      "referencias": "Mount DB. **Treatment and prevention of hyperkalemia in adults.** UpToDate. Atualizado em 3 de novembro de 2026.\n\nSeções:\n\n- **Patients without a hyperkalemic emergency**\n- **Loop diuretics in patients without severe kidney function impairment**\n\n---"
+    },
+    {
+      "id": "aqz-hiper-034",
+      "numero": 34,
+      "titulo": "HIPERCALEMIA PERSISTENTE COM ACIDOSE METABÓLICA",
+      "dificuldade": "Avançada",
+      "competenciaPrincipal": "Reconhecer a acidose como componente modificável sem superestimar o efeito hipocalemiante do bicarbonato.",
+      "competenciasSecundarias": "Acidose metabólica; bicarbonato; doença renal crônica; tratamento individualizado",
+      "eixoTematico": "Hipercalemia e distúrbios ácido-base",
+      "categoria": "Hipercalemia e distúrbios ácido-base",
+      "subtemas": "Acidose metabólica; bicarbonato; doença renal crônica; tratamento individualizado",
+      "aulasRelacionadas": [
+        {
+          "numero": 17,
+          "aulaId": "4b0ded9e-0a2a-448f-a490-0da2c454a8c3",
+          "moduloId": "26bdbea9-55a7-4549-b922-4fd1db60f887"
+        },
+        {
+          "numero": 18,
+          "aulaId": "2b2fea5a-d236-4baf-a357-21305d623d04",
+          "moduloId": "26bdbea9-55a7-4549-b922-4fd1db60f887"
+        },
+        {
+          "numero": 28,
+          "aulaId": "d8b27ec2-ef72-4ba7-b6d3-ad4694a6e474",
+          "moduloId": "09f41441-7485-4722-a595-56106a808f3f"
+        }
+      ],
+      "tipo": "Caso clínico de múltipla escolha.",
+      "statusEditorial": "Aprovada editorialmente.",
+      "versao": "1.0",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Uma mulher de 65 anos, com doença renal crônica estágio G4, apresenta hipercalemia persistente durante acompanhamento ambulatorial.\n\nExames recentes:\n\n- Potássio: 5,7 mEq/L.\n- Bicarbonato sérico: 17 mEq/L.\n- pH venoso: 7,29.\n- Creatinina: 2,8 mg/dL, semelhante ao basal.\n- ECG: sem alterações sugestivas de hipercalemia.\n\nEstá clinicamente estável, sem sinais de emergência hipercalêmica.\n\nUm profissional sugere administrar repetidos bolus intravenosos de bicarbonato hipertônico exclusivamente para normalizar rapidamente o potássio.\n\n**Qual é a melhor abordagem?**",
+      "alternativas": {
+        "A": "Utilizar bicarbonato hipertônico em bolus repetidos como tratamento obrigatório e isolado da hipercalemia, independentemente da gravidade e da volemia.",
+        "B": "Considerar a correção da acidose metabólica crônica como parte do tratamento da doença renal, individualizando a terapia alcalinizante e as demais medidas para controle do potássio, sem presumir efeito rápido ou previsível do bicarbonato sobre a hipercalemia.",
+        "C": "Desconsiderar a acidose, pois alterações ácido-base não apresentam qualquer relação com o potássio sérico.",
+        "D": "Administrar cálcio intravenoso repetidamente para corrigir a acidose metabólica e eliminar potássio do organismo.\n\n**GABARITO: B**"
+      },
+      "gabarito": "B",
+      "raciocinioClinico": "**1. A paciente apresenta uma emergência hipercalêmica?**\n\nPelos dados apresentados, não há evidência de emergência hipercalêmica imediata. Entretanto, a persistência do potássio elevado exige avaliação e acompanhamento.\n\n**2. Qual alteração ácido-base está presente?**\n\nAcidose metabólica, sugerida pelo bicarbonato reduzido e pela acidemia.\n\n**3. Qual é a relação entre acidose e potássio?**\n\nAlterações ácido-base podem modificar a distribuição transcelular do potássio. A intensidade e o mecanismo desse efeito dependem do tipo de acidose.\n\n**4. A doença renal crônica contribui para ambos os problemas?**\n\nSim. Pode comprometer tanto a excreção de potássio quanto a capacidade de excretar ácidos.\n\n**5. O bicarbonato reduz rapidamente o potássio em todos os pacientes?**\n\nNão. O material-base descreve eficácia limitada e variável na redução aguda do potássio.\n\n**6. O bicarbonato deve ser utilizado isoladamente em uma emergência hipercalêmica?**\n\nNão. O UpToDate não recomenda bicarbonato como tratamento isolado da hipercalemia aguda.\n\n**7. O bicarbonato pode ter papel em pacientes com acidose metabólica?**\n\nSim. A terapia alcalinizante pode ser apropriada para tratar a acidose, independentemente de seu efeito sobre o potássio.\n\n**8. A correção da acidose crônica apresenta benefícios além do potássio?**\n\nSim. O material-base destaca benefícios do tratamento da acidose metabólica na doença renal crônica.\n\n**9. A terapia alcalinizante crônica é comprovadamente eficaz para toda hipercalemia persistente?**\n\nNão. A referência reconhece limitações nas evidências sobre a eficácia crônica dos álcalis especificamente para reduzir o potássio.\n\n**10. Por que evitar bolus repetidos de bicarbonato hipertônico sem indicação?**\n\nPorque podem provocar sobrecarga de sódio, hipernatremia e outros distúrbios, sem assegurar redução adequada do potássio.\n\n**11. O estado volêmico influencia a escolha?**\n\nSim. A administração de soluções contendo sódio deve considerar a capacidade de tolerar a carga de volume e sódio.\n\n**12. Qual deve ser a estratégia global?**\n\nTratar a acidose quando indicado, revisar medicamentos e ingestão de potássio, avaliar função renal e considerar outras medidas de controle conforme a evolução.\n\n**13. Como acompanhar a resposta?**\n\nCom avaliações seriadas de potássio, bicarbonato, função renal e estado clínico, ajustadas à estratégia adotada.\n\n**14. Qual é a competência principal?**\n\nReconhecer a acidose como componente potencialmente modificável sem superestimar o efeito hipocalemiante do bicarbonato.",
+      "comentarios": {
+        "A": "O bicarbonato hipertônico não é tratamento obrigatório, universal ou isolado da hipercalemia.",
+        "B": "Reconhece o papel do tratamento da acidose crônica e as limitações do bicarbonato como estratégia de redução rápida do potássio.",
+        "C": "Alterações ácido-base podem influenciar a distribuição de potássio e devem ser consideradas na avaliação.",
+        "D": "O cálcio intravenoso não corrige a acidose metabólica nem elimina potássio do organismo."
+      },
+      "perola": "> Bicarbonato não é sinônimo de tratamento rápido da hipercalemia. Corrigir a acidose pode ser importante, mas isso não transforma o bicarbonato em uma solução universal para o potássio elevado.",
+      "referencias": "Mount DB. **Treatment and prevention of hyperkalemia in adults.** UpToDate. Atualizado em 3 de novembro de 2026.\n\nSeções:\n\n- **Sodium bicarbonate**\n- **Patients without a hyperkalemic emergency**\n- **Prevention**",
+      "observacaoCientificaEditorial": "Preservar a distinção entre:\n\n1. Tratamento da acidose metabólica por indicação própria.\n2. Efeito eventual do bicarbonato sobre o potássio sérico.\n3. Tratamento emergencial da hipercalemia.\n\nNão apresentar bicarbonato como método universal de redução rápida do potássio.\n\n---"
+    },
+    {
+      "id": "aqz-hiper-035",
+      "numero": 35,
+      "titulo": "A HIPERCALEMIA VOLTOU: COMO PREVENIR OUTRA INTERNAÇÃO?",
+      "dificuldade": "Avançada",
+      "competenciaPrincipal": "Elaborar estratégia multifatorial de prevenção, preservando tratamentos de benefício prognóstico quando possível.",
+      "competenciasSecundarias": "Fontes ocultas de potássio; substitutos de sal; suplementos; AINEs; orientação alimentar; bloqueio do SRAA",
+      "eixoTematico": "Prevenção da hipercalemia recorrente",
+      "categoria": "Prevenção da hipercalemia recorrente",
+      "subtemas": "Fontes ocultas de potássio; substitutos de sal; suplementos; AINEs; orientação alimentar; bloqueio do SRAA",
+      "aulasRelacionadas": [
+        {
+          "numero": 29,
+          "aulaId": "5e4e4643-e6c6-4732-b069-b9d0479377e6",
+          "moduloId": "09f41441-7485-4722-a595-56106a808f3f"
+        },
+        {
+          "numero": 30,
+          "aulaId": "aa89b753-b29e-4905-a508-d79665beb412",
+          "moduloId": "09f41441-7485-4722-a595-56106a808f3f"
+        },
+        {
+          "numero": 31,
+          "aulaId": "476e0681-324f-47e1-a8f8-217beb6672a0",
+          "moduloId": "157f5374-f948-436e-b3af-0fc4ff6d0d70"
+        }
+      ],
+      "tipo": "Caso clínico de múltipla escolha.",
+      "statusEditorial": "Aprovada editorialmente.",
+      "versao": "1.0",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 69 anos, com doença renal crônica estágio G3b, diabetes mellitus e albuminúria, apresenta episódios recorrentes de hipercalemia moderada.\n\nUtiliza losartana por indicação renal e cardiovascular.\n\nApós tratamento de um episódio recente, o potássio diminuiu para 4,8 mEq/L.\n\nEntretanto, durante a revisão da rotina, a equipe identifica:\n\n- Uso diário de substituto de sal à base de cloreto de potássio.\n- Consumo frequente de suplementos nutricionais sem avaliação de sua composição.\n- Uso ocasional de ibuprofeno para dores articulares.\n- Ausência de acompanhamento laboratorial regular.\n\nO paciente pergunta se a única solução seria abandonar definitivamente a losartana.\n\n**Qual é a estratégia mais adequada para prevenir novos episódios?**",
+      "alternativas": {
+        "A": "Suspender definitivamente a losartana sem investigar outras fontes de potássio, pois os medicamentos do sistema renina-angiotensina-aldosterona são a única causa relevante.",
+        "B": "Manter todos os hábitos e medicamentos sem alterações, pois a normalização pontual do potássio exclui risco futuro.",
+        "C": "Prescrever restrição indiscriminada de todas as frutas e verduras, sem investigar fontes concentradas de potássio ou acompanhar exames.",
+        "D": "Adotar uma estratégia multifatorial: identificar e reduzir fontes excessivas ou ocultas de potássio, evitar medicamentos precipitantes, individualizar o tratamento renal e cardiovascular e acompanhar periodicamente potássio e função renal.\n\n**GABARITO: D**"
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. Qual é o problema central?**\n\nO paciente apresenta recorrência de hipercalemia em um contexto de doença renal crônica e múltiplos fatores potencialmente modificáveis.\n\n**2. A doença renal crônica aumenta o risco de hipercalemia?**\n\nSim. A redução da capacidade de excreção renal torna o paciente mais suscetível a elevações do potássio.\n\n**3. A losartana pode contribuir?**\n\nSim. O bloqueio do sistema renina-angiotensina-aldosterona pode diminuir a eliminação renal de potássio.\n\n**4. Isso significa que a losartana deve ser definitivamente suspensa?**\n\nNão necessariamente. É importante considerar sua indicação renal e cardiovascular e a possibilidade de controlar fatores reversíveis.\n\n**5. Qual é a importância do substituto de sal?**\n\nMuitos substitutos de sal contêm cloreto de potássio e podem representar fonte concentrada de potássio.\n\n**6. Por que investigar suplementos nutricionais?**\n\nPorque sua composição pode incluir quantidades relevantes de potássio, nem sempre reconhecidas pelo paciente.\n\n**7. Qual é o papel do ibuprofeno?**\n\nComo AINE, pode contribuir para deterioração da função renal e hipercalemia em indivíduos suscetíveis.\n\n**8. A prevenção depende apenas de restringir alimentos?**\n\nNão. Exige avaliação de medicamentos, fontes de potássio, função renal, volemia e condições clínicas associadas.\n\n**9. Qual é o papel da orientação alimentar?**\n\nIdentificar fontes excessivas de potássio e orientar mudanças compatíveis com as necessidades nutricionais e a função renal.\n\n**10. É necessário proibir indiscriminadamente todas as frutas e verduras?**\n\nNão. A orientação deve ser individualizada, evitando restrições desnecessárias e priorizando fontes relevantes de potássio.\n\n**11. O que o UpToDate destaca sobre fontes ocultas?**\n\nSubstitutos de sal, suplementos e outras fontes não evidentes de potássio devem ser investigados.\n\n**12. Qual é a importância do acompanhamento laboratorial?**\n\nDetectar recorrência, acompanhar a resposta às intervenções e identificar alterações da função renal.\n\n**13. Diuréticos podem ser utilizados na prevenção?**\n\nSim, quando houver indicação clínica e capacidade renal de resposta, especialmente em determinados pacientes com hipertensão ou hipervolemia.\n\n**14. Trocadores gastrointestinais podem ter papel crônico?**\n\nSim. Em pacientes selecionados com hipercalemia persistente ou recorrente, podem ser considerados conforme disponibilidade, tolerabilidade e indicação clínica.\n\n**15. Qual é a principal competência?**\n\nElaborar uma estratégia de prevenção multifatorial que preserve, sempre que possível, tratamentos de benefício prognóstico.",
+      "comentarios": {
+        "A": "Ignora fatores modificáveis e pressupõe que a suspensão permanente da losartana seja sempre necessária.",
+        "B": "A normalização pontual não elimina os fatores responsáveis pelos episódios recorrentes.",
+        "C": "A restrição indiscriminada não substitui investigação de fontes ocultas nem acompanhamento individualizado.",
+        "D": "Integra revisão medicamentosa, orientação nutricional, investigação de fontes de potássio e monitorização longitudinal."
+      },
+      "perola": "> Na hipercalemia recorrente, não pergunte apenas o que o paciente come. Pergunte também o que ele toma, quais medicamentos usa e até qual sal coloca na comida.",
+      "referencias": "Mount DB. **Treatment and prevention of hyperkalemia in adults.** UpToDate. Atualizado em 3 de novembro de 2026.\n\nSeções:\n\n- **Dietary modification**\n- **Drug-induced hyperkalemia**\n- **Prevention**\n\n---\n\n# 4. REFERÊNCIA CIENTÍFICA GERAL\n\nReferência principal utilizada na elaboração das cinco questões:\n\n**Mount DB. Treatment and prevention of hyperkalemia in adults. UpToDate.**\n\n- Section editor: Richard H Sterns.\n- Deputy editor: Sara Jdiaa.\n- Revisão da literatura: outubro de 2026.\n- Última atualização: 3 de novembro de 2026.\n\nO documento foi disponibilizado como material-base do curso AgoraMed.\n\nAs referências devem ser exibidas no mesmo padrão já adotado nos blocos anteriores.\n\nNão inventar DOI, páginas bibliográficas, URLs ou identificadores de referências.\n\nSe a plataforma possuir uma estrutura centralizada de referências, reutilizá-la.\n\n---\n\n# 5. COMPORTAMENTO DOS MODOS DE RESOLUÇÃO\n\n## Modo Estudo\n\nAo responder:\n\n1. Registrar a alternativa selecionada.\n2. Identificar se a resposta está correta.\n3. Exibir o gabarito.\n4. Exibir o comentário correspondente à alternativa selecionada.\n5. Permitir acesso aos comentários das quatro alternativas.\n6. Exibir integralmente a seção **Entendendo o raciocínio clínico**.\n7. Exibir a **Pérola do Plantão**.\n8. Exibir as referências.\n9. Atualizar o Caderno de Erros conforme as regras existentes.\n10. Permitir avançar para a próxima questão.\n\nNão reduzir o raciocínio clínico a um resumo.\n\nCada um dos itens numerados deve permanecer disponível ao aluno.\n\n## Modo Simulado\n\nDurante a resolução:\n\n1. Não revelar o gabarito.\n2. Não exibir explicações.\n3. Não exibir comentários de alternativas.\n4. Não exibir a Pérola do Plantão.\n5. Registrar as respostas conforme o fluxo existente.\n\nApós finalizar:\n\n1. Exibir resultado e desempenho.\n2. Permitir revisão individual de todas as questões.\n3. Mostrar gabarito, resposta do aluno e comentários.\n4. Exibir o raciocínio clínico completo.\n5. Exibir a Pérola do Plantão e as referências.\n6. Atualizar o Caderno de Erros conforme o comportamento já implementado.\n\nGarantir que não existam vazamentos do gabarito durante o simulado, inclusive por mensagens de acessibilidade, atributos da interface ou respostas de API não autorizadas.\n\n---\n\n# 6. INTEGRAÇÃO COM O CADERNO DE ERROS\n\nO Caderno de Erros é compartilhado entre os componentes educacionais que utilizam questões compatíveis.\n\nEstados previstos:\n\n- **Precisa revisar**\n- **Em revisão**\n- **Dominada**\n\nRegras:\n\n1. Uma resposta incorreta registra a questão no Caderno de Erros.\n2. Não criar registros duplicados para o mesmo usuário e questão.\n3. Uma questão errada deve permanecer elegível para revisão.\n4. Durante a revisão, uma resposta correta aumenta a sequência de acertos.\n5. Duas respostas corretas consecutivas nas revisões permitem classificar a questão como **Dominada**.\n6. Uma resposta incorreta durante a revisão reinicia a sequência de acertos.\n7. Uma questão anteriormente dominada que volte a ser respondida incorretamente deve retornar ao fluxo de revisão.\n8. Preservar histórico e persistência conforme a arquitetura existente.\n9. Não duplicar lógica de negócio entre frontend e backend.\n10. Respeitar as regras de acesso e isolamento dos dados por usuário.\n\nReutilizar o mecanismo já existente. Caso haja divergência entre estas regras e o código atual, identificar a divergência antes de promover mudanças estruturais.\n\n---\n\n# 7. METADADOS E COMPATIBILIDADE FUTURA\n\nPara cada questão, preservar os seguintes metadados, adaptando os nomes ao esquema existente:\n\n- `id`\n- `courseId`\n- `blockId`\n- `number`\n- `title`\n- `difficulty`\n- `category`\n- `subtopics`\n- `competency`\n- `relatedLessonIds`\n- `questionText`\n- `alternatives`\n- `correctAnswer`\n- `clinicalReasoning`\n- `alternativeFeedback`\n- `clinicalPearl`\n- `references`\n- `editorialStatus`\n\nOs nomes acima são conceituais, não uma exigência de migração de esquema."
+    }
+  ]
+}

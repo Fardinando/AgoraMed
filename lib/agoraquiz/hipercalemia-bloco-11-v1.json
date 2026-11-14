@@ -1,0 +1,1812 @@
+{
+  "cursoId": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+  "quizId": "agoraquiz-hipercalemia",
+  "cursoOrigem": "Tratamento da Hipercalemia em Adultos",
+  "bancoOrigem": "AgoraQuiz Hipercalemia",
+  "bloco": "11",
+  "temaEditorial": "Prevenção, decisões terapêuticas e acompanhamento",
+  "questoes": [
+    {
+      "id": "aqz-hiper-051",
+      "numero": 51,
+      "titulo": "O sal que não tem sódio, mas tem potássio",
+      "dificuldade": "Intermediária",
+      "competenciaPrincipal": "Reconhecer fontes ocultas de potássio na alimentação",
+      "competenciasSecundarias": [
+        "dietary_history",
+        "renal_potassium_handling",
+        "modifiable_risk_factors"
+      ],
+      "aulasRelacionadas": [
+        {
+          "numero": 7,
+          "aulaId": "2ef9f9aa-e6e4-4ca3-889b-ae780b1bb487",
+          "moduloId": "55b01307-2855-453b-8489-78e3fe20cb14"
+        }
+      ],
+      "versao": "1.0",
+      "enunciado": "Um homem de 67 anos, com hipertensão arterial, diabetes mellitus e doença renal crônica estágio G3b, procura atendimento por apresentar elevações recorrentes do potássio sérico.\n\nNos últimos três meses, seus exames mostraram valores entre 5,5 e 5,9 mEq/L.\n\nAtualmente apresenta:\n\n- Potássio: 5,8 mEq/L, confirmado em nova amostra sem hemólise.\n- Creatinina: 1,9 mg/dL, estável.\n- ECG: sem alterações sugestivas de hipercalemia.\n- Diurese preservada.\n\nUtiliza losartana há vários anos, sem mudanças recentes na dose.\n\nAo investigar sua alimentação, o médico descobre que o paciente substituiu completamente o sal de cozinha por um produto vendido como *sal sem sódio*, acreditando que seria mais saudável para os rins.\n\nO rótulo informa que o principal ingrediente é cloreto de potássio.\n\n**Qual é a interpretação mais adequada?**",
+      "alternativas": {
+        "A": "O produto não pode contribuir para hipercalemia porque não contém cloreto de sódio.",
+        "B": "O cloreto de potássio presente no substituto do sal pode contribuir significativamente para a hipercalemia em pacientes com excreção renal comprometida, devendo ser investigado e retirado como fonte adicional de potássio.",
+        "C": "A ausência de alterações no ECG demonstra que o potássio ingerido não está sendo absorvido.",
+        "D": "A única conduta possível é suspender definitivamente a losartana, independentemente da identificação de outras fontes de potássio."
+      },
+      "gabarito": "B",
+      "raciocinioClinico": "**1. Qual é o problema predominante?**  \nHipercalemia recorrente em paciente com doença renal crônica.\n\n**2. A estabilidade da creatinina exclui causas relacionadas à alimentação?**  \nNão. Mesmo sem piora recente da função renal, a capacidade de excretar uma carga adicional de potássio pode estar comprometida.\n\n**3. Qual informação da história clínica muda a interpretação?**  \nO uso regular de substituto do sal contendo cloreto de potássio.\n\n**4. Por que esse produto pode representar risco?**  \nPorque substitutos do sal com cloreto de potássio podem acrescentar quantidades relevantes de potássio à dieta.\n\n**5. O termo “sem sódio” significa “sem potássio”?**  \nNão. A ausência de sódio não garante que o produto seja apropriado para pessoas suscetíveis à hipercalemia.\n\n**6. Por que a doença renal crônica aumenta o risco?**  \nPorque a excreção renal de potássio pode estar limitada, especialmente diante de maior ingestão.\n\n**7. Qual é o papel da losartana?**  \nEla pode contribuir para o aumento do potássio por interferência no sistema renina-angiotensina-aldosterona.\n\n**8. Isso significa que a losartana deve ser definitivamente suspensa?**  \nNão necessariamente. É importante avaliar sua indicação clínica e corrigir primeiro os fatores modificáveis, quando seguro.\n\n**9. O ECG normal exclui a necessidade de intervenção?**  \nNão. A ausência de alterações elétricas não significa que a hipercalemia deva ser ignorada.\n\n**10. Qual medida inicial é particularmente relevante?**  \nOrientar a interrupção do substituto do sal contendo potássio e revisar outras fontes alimentares e medicamentosas.\n\n**11. É necessário repetir o potássio após a intervenção?**  \nSim. A resposta laboratorial permite avaliar a contribuição do produto e a necessidade de outras medidas.\n\n**12. Qual é a competência principal?**  \nReconhecer fontes ocultas de potássio na alimentação e evitar intervenções medicamentosas desnecessárias antes de investigar fatores reversíveis.",
+      "comentarios": {
+        "A": "A ausência de sódio não exclui grande quantidade de potássio no produto.",
+        "B": "Reconhece uma fonte oculta de potássio e sua importância em pacientes com doença renal crônica.",
+        "C": "O ECG não permite determinar se o potássio alimentar foi absorvido.",
+        "D": "A suspensão definitiva da losartana não deve ser automática, especialmente quando existe uma fonte adicional modificável de potássio."
+      },
+      "perola": "Nem todo “sal saudável” é seguro para quem tem doença renal. Antes de culpar apenas os medicamentos, pergunte o que o paciente está colocando na comida.",
+      "referencias": "*Treatment and prevention of hyperkalemia in adults*. UpToDate — seções “Dietary modification” e “Prevention”.\n\n---",
+      "revisaoCientificaPendente": false,
+      "statusEditorial": "aprovado",
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 11,
+      "question_number": 51,
+      "stem": "Um homem de 67 anos, com hipertensão arterial, diabetes mellitus e doença renal crônica estágio G3b, procura atendimento por apresentar elevações recorrentes do potássio sérico.\n\nNos últimos três meses, seus exames mostraram valores entre 5,5 e 5,9 mEq/L.\n\nAtualmente apresenta:\n\n- Potássio: 5,8 mEq/L, confirmado em nova amostra sem hemólise.\n- Creatinina: 1,9 mg/dL, estável.\n- ECG: sem alterações sugestivas de hipercalemia.\n- Diurese preservada.\n\nUtiliza losartana há vários anos, sem mudanças recentes na dose.\n\nAo investigar sua alimentação, o médico descobre que o paciente substituiu completamente o sal de cozinha por um produto vendido como *sal sem sódio*, acreditando que seria mais saudável para os rins.\n\nO rótulo informa que o principal ingrediente é cloreto de potássio.\n\n**Qual é a interpretação mais adequada?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-051-A",
+          "question_id": "aqz-hiper-051",
+          "letter": "A",
+          "text": "O produto não pode contribuir para hipercalemia porque não contém cloreto de sódio.",
+          "is_correct": false,
+          "feedback": "A ausência de sódio não exclui grande quantidade de potássio no produto.",
+          "error_type": "dietary_source_misidentification",
+          "misconception_id": "sodium_free_means_potassium_free",
+          "misconception_description": "Assume que um produto sem sódio não pode conter potássio.",
+          "competency_ids": [
+            "identify_hidden_potassium_sources"
+          ],
+          "clinical_risk_if_applied": "A fonte adicional de potássio permanece na dieta e pode sustentar a hipercalemia em alguém com excreção renal comprometida."
+        },
+        {
+          "option_id": "aqz-hiper-051-B",
+          "question_id": "aqz-hiper-051",
+          "letter": "B",
+          "text": "O cloreto de potássio presente no substituto do sal pode contribuir significativamente para a hipercalemia em pacientes com excreção renal comprometida, devendo ser investigado e retirado como fonte adicional de potássio.",
+          "is_correct": true,
+          "feedback": "Reconhece uma fonte oculta de potássio e sua importância em pacientes com doença renal crônica.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "identify_hidden_potassium_sources"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-051-C",
+          "question_id": "aqz-hiper-051",
+          "letter": "C",
+          "text": "A ausência de alterações no ECG demonstra que o potássio ingerido não está sendo absorvido.",
+          "is_correct": false,
+          "feedback": "O ECG não permite determinar se o potássio alimentar foi absorvido.",
+          "error_type": "ecg_overreliance",
+          "misconception_id": "normal_ecg_excludes_potassium_absorption",
+          "misconception_description": "Usa um ECG sem alterações para concluir que o potássio ingerido não foi absorvido.",
+          "competency_ids": [
+            "identify_hidden_potassium_sources"
+          ],
+          "clinical_risk_if_applied": "Pode atrasar a investigação e a redução da exposição a potássio apesar do valor sérico confirmado."
+        },
+        {
+          "option_id": "aqz-hiper-051-D",
+          "question_id": "aqz-hiper-051",
+          "letter": "D",
+          "text": "A única conduta possível é suspender definitivamente a losartana, independentemente da identificação de outras fontes de potássio.",
+          "is_correct": false,
+          "feedback": "A suspensão definitiva da losartana não deve ser automática, especialmente quando existe uma fonte adicional modificável de potássio.",
+          "error_type": "unnecessary_medication_discontinuation",
+          "misconception_id": "stop_raas_blocker_without_review",
+          "misconception_description": "Atribui a hipercalemia apenas à losartana e propõe suspendê-la definitivamente sem revisar outros fatores.",
+          "competency_ids": [
+            "identify_hidden_potassium_sources"
+          ],
+          "clinical_risk_if_applied": "Pode retirar um tratamento indicado sem corrigir a fonte alimentar modificável que contribui para o potássio elevado."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-051-r01",
+          "question_id": "aqz-hiper-051",
+          "sequence": 1,
+          "prompt": "Qual é o problema predominante?",
+          "explanation": "Hipercalemia recorrente em paciente com doença renal crônica.",
+          "reasoning_type": "problem_recognition",
+          "competency_ids": [
+            "identify_hidden_potassium_sources"
+          ],
+          "cognitive_operation": "recognize",
+          "clinical_relevance": "Hipercalemia recorrente em paciente com doença renal crônica.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-051-r02",
+          "question_id": "aqz-hiper-051",
+          "sequence": 2,
+          "prompt": "A estabilidade da creatinina exclui causas relacionadas à alimentação?",
+          "explanation": "Não. Mesmo sem piora recente da função renal, a capacidade de excretar uma carga adicional de potássio pode estar comprometida.",
+          "reasoning_type": "renal_physiology",
+          "competency_ids": [
+            "identify_hidden_potassium_sources"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Não. Mesmo sem piora recente da função renal, a capacidade de excretar uma carga adicional de potássio pode estar comprometida.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-051-r03",
+          "question_id": "aqz-hiper-051",
+          "sequence": 3,
+          "prompt": "Qual informação da história clínica muda a interpretação?",
+          "explanation": "O uso regular de substituto do sal contendo cloreto de potássio.",
+          "reasoning_type": "clinical_history",
+          "competency_ids": [
+            "identify_hidden_potassium_sources"
+          ],
+          "cognitive_operation": "elicit",
+          "clinical_relevance": "O uso regular de substituto do sal contendo cloreto de potássio.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-051-r04",
+          "question_id": "aqz-hiper-051",
+          "sequence": 4,
+          "prompt": "Por que esse produto pode representar risco?",
+          "explanation": "Porque substitutos do sal com cloreto de potássio podem acrescentar quantidades relevantes de potássio à dieta.",
+          "reasoning_type": "risk_factor_identification",
+          "competency_ids": [
+            "identify_hidden_potassium_sources"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Porque substitutos do sal com cloreto de potássio podem acrescentar quantidades relevantes de potássio à dieta.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-051-r05",
+          "question_id": "aqz-hiper-051",
+          "sequence": 5,
+          "prompt": "O termo “sem sódio” significa “sem potássio”?",
+          "explanation": "Não. A ausência de sódio não garante que o produto seja apropriado para pessoas suscetíveis à hipercalemia.",
+          "reasoning_type": "misconception_correction",
+          "competency_ids": [
+            "identify_hidden_potassium_sources"
+          ],
+          "cognitive_operation": "correct",
+          "clinical_relevance": "Não. A ausência de sódio não garante que o produto seja apropriado para pessoas suscetíveis à hipercalemia.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-051-r06",
+          "question_id": "aqz-hiper-051",
+          "sequence": 6,
+          "prompt": "Por que a doença renal crônica aumenta o risco?",
+          "explanation": "Porque a excreção renal de potássio pode estar limitada, especialmente diante de maior ingestão.",
+          "reasoning_type": "renal_physiology",
+          "competency_ids": [
+            "identify_hidden_potassium_sources"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Porque a excreção renal de potássio pode estar limitada, especialmente diante de maior ingestão.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-051-r07",
+          "question_id": "aqz-hiper-051",
+          "sequence": 7,
+          "prompt": "Qual é o papel da losartana?",
+          "explanation": "Ela pode contribuir para o aumento do potássio por interferência no sistema renina-angiotensina-aldosterona.",
+          "reasoning_type": "pharmacology",
+          "competency_ids": [
+            "identify_hidden_potassium_sources"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Ela pode contribuir para o aumento do potássio por interferência no sistema renina-angiotensina-aldosterona.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-051-r08",
+          "question_id": "aqz-hiper-051",
+          "sequence": 8,
+          "prompt": "Isso significa que a losartana deve ser definitivamente suspensa?",
+          "explanation": "Não necessariamente. É importante avaliar sua indicação clínica e corrigir primeiro os fatores modificáveis, quando seguro.",
+          "reasoning_type": "risk_benefit_assessment",
+          "competency_ids": [
+            "identify_hidden_potassium_sources"
+          ],
+          "cognitive_operation": "weigh",
+          "clinical_relevance": "Não necessariamente. É importante avaliar sua indicação clínica e corrigir primeiro os fatores modificáveis, quando seguro.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-051-r09",
+          "question_id": "aqz-hiper-051",
+          "sequence": 9,
+          "prompt": "O ECG normal exclui a necessidade de intervenção?",
+          "explanation": "Não. A ausência de alterações elétricas não significa que a hipercalemia deva ser ignorada.",
+          "reasoning_type": "ecg_interpretation",
+          "competency_ids": [
+            "identify_hidden_potassium_sources"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Não. A ausência de alterações elétricas não significa que a hipercalemia deva ser ignorada.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-051-r10",
+          "question_id": "aqz-hiper-051",
+          "sequence": 10,
+          "prompt": "Qual medida inicial é particularmente relevante?",
+          "explanation": "Orientar a interrupção do substituto do sal contendo potássio e revisar outras fontes alimentares e medicamentosas.",
+          "reasoning_type": "clinical_management",
+          "competency_ids": [
+            "identify_hidden_potassium_sources"
+          ],
+          "cognitive_operation": "select",
+          "clinical_relevance": "Orientar a interrupção do substituto do sal contendo potássio e revisar outras fontes alimentares e medicamentosas.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-051-r11",
+          "question_id": "aqz-hiper-051",
+          "sequence": 11,
+          "prompt": "É necessário repetir o potássio após a intervenção?",
+          "explanation": "Sim. A resposta laboratorial permite avaliar a contribuição do produto e a necessidade de outras medidas.",
+          "reasoning_type": "monitoring",
+          "competency_ids": [
+            "identify_hidden_potassium_sources"
+          ],
+          "cognitive_operation": "monitor",
+          "clinical_relevance": "Sim. A resposta laboratorial permite avaliar a contribuição do produto e a necessidade de outras medidas.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-051-r12",
+          "question_id": "aqz-hiper-051",
+          "sequence": 12,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Reconhecer fontes ocultas de potássio na alimentação e evitar intervenções medicamentosas desnecessárias antes de investigar fatores reversíveis.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "identify_hidden_potassium_sources"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Reconhecer fontes ocultas de potássio na alimentação e evitar intervenções medicamentosas desnecessárias antes de investigar fatores reversíveis.",
+          "prerequisite_concepts": []
+        }
+      ],
+      "clinical_pearl": "Nem todo “sal saudável” é seguro para quem tem doença renal. Antes de culpar apenas os medicamentos, pergunte o que o paciente está colocando na comida.",
+      "references": [
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate — seções “Dietary modification” e “Prevention”.\n\n---"
+      ],
+      "metadata": {
+        "difficulty": "intermediate",
+        "clinical_domain": "prevention",
+        "clinical_context": "outpatient",
+        "urgency_level": "non_emergency",
+        "cognitive_level": "clinical_reasoning",
+        "editorial_status": "approved",
+        "scientific_review_required": false,
+        "scientific_review_notes": null,
+        "primary_competency": "identify_hidden_potassium_sources",
+        "secondary_competencies": [
+          "dietary_history",
+          "renal_potassium_handling",
+          "modifiable_risk_factors"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "ckd",
+          "potassium_chloride",
+          "salt_substitute",
+          "losartan",
+          "prevention"
+        ],
+        "related_lesson_ids": [
+          "2ef9f9aa-e6e4-4ca3-889b-ae780b1bb487"
+        ],
+        "schema_version": 1,
+        "content_version": 1
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "hyperkalemia_prevention",
+          "hidden_potassium_sources",
+          "clinical_history"
+        ],
+        "challenge_types": [
+          "clinical_decision",
+          "risk_factor_identification"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-052",
+      "numero": 52,
+      "titulo": "O potássio subiu: precisamos retirar o medicamento que protege o coração?",
+      "dificuldade": "Avançada",
+      "competenciaPrincipal": "Equilibrar o controle do potássio com a cardioproteção",
+      "competenciasSecundarias": [
+        "medication_review",
+        "risk_benefit_assessment",
+        "raas_inhibitor_management"
+      ],
+      "aulasRelacionadas": [
+        {
+          "numero": 31,
+          "aulaId": "476e0681-324f-47e1-a8f8-217beb6672a0",
+          "moduloId": "157f5374-f948-436e-b3af-0fc4ff6d0d70"
+        },
+        {
+          "numero": 32,
+          "aulaId": "c271a440-9c38-485f-b84c-64676e0ab5c2",
+          "moduloId": "157f5374-f948-436e-b3af-0fc4ff6d0d70"
+        }
+      ],
+      "versao": "1.0",
+      "enunciado": "Um homem de 62 anos, com insuficiência cardíaca com fração de ejeção reduzida, diabetes mellitus e doença renal crônica estágio G3b, comparece para reavaliação.\n\nUtiliza sacubitril/valsartana e espironolactona, além de outros medicamentos para insuficiência cardíaca.\n\nApresenta:\n\n- Potássio: 5,6 mEq/L, confirmado.\n- Creatinina: 1,8 mg/dL, próxima ao basal.\n- PA: 118/72 mmHg.\n- Ausência de sintomas relacionados à hipercalemia.\n- ECG sem alterações sugestivas de toxicidade hipercalêmica.\n\nA equipe propõe suspender permanentemente todos os medicamentos que interferem no sistema renina-angiotensina-aldosterona.\n\n**Qual é a estratégia mais adequada?**",
+      "alternativas": {
+        "A": "Suspender definitivamente todos os medicamentos cardioprotetores, pois qualquer potássio acima de 5,5 mEq/L elimina seus benefícios.",
+        "B": "Ignorar a hipercalemia para preservar os benefícios cardiovasculares, sem necessidade de acompanhamento.",
+        "C": "Administrar cálcio intravenoso e insulina com glicose em todas as consultas, mesmo sem sinais de emergência.",
+        "D": "Não suspender permanentemente toda a terapia cardioprotetora. Como o potássio de 5,6 mEq/L foi confirmado, revisar fatores reversíveis e reduzir pela metade a dose da espironolactona, com monitorização próxima do potássio e da função renal. Se a hipercalemia persistir, considerar suspensão temporária do antagonista mineralocorticoide e reintroduzi-lo quando o potássio normalizar; se não for possível manter K <5,5 mEq/L apesar das medidas, descontinuar o MRA. Reavaliar sacubitril/valsartana individualmente e considerar quelante se a hipercalemia persistir ou recorrer; ainda não está claro se quelantes melhoram desfechos clínicos."
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. Qual é o problema central?**  \nHipercalemia moderada em paciente que utiliza medicamentos importantes para o tratamento da insuficiência cardíaca.\n\n**2. Por que esses medicamentos podem elevar o potássio?**  \nPorque interferem em mecanismos hormonais envolvidos na excreção renal de potássio.\n\n**3. Por que a decisão é complexa?**  \nPorque alguns desses medicamentos apresentam benefícios cardiovasculares importantes, enquanto a hipercalemia representa um risco que precisa ser controlado.\n\n**4. A elevação de potássio exige sempre suspensão definitiva?**  \nNão. A suspensão definitiva depende da gravidade e persistência da hipercalemia, da função renal, da indicação e da resposta às medidas corretivas. A diretriz ESC 2026 orienta confirmar o potássio e considerar redução de dose ou suspensão temporária do MRA quando K >5,5 mEq/L; se a hipercalemia resolver, o MRA deve ser reiniciado. Para K entre 5,5 e 5,9 mEq/L em pacientes com insuficiência cardíaca, a UKKA 2026 recomenda reduzir a dose do MRA pela metade e monitorar eletrólitos e função renal.\n\n**5. O que deve ser investigado antes de uma decisão definitiva?**  \nMudanças recentes na função renal, medicamentos adicionais, anti-inflamatórios, suplementos, substitutos do sal, ingestão de potássio e outros fatores reversíveis.\n\n**6. Qual é a importância da estabilidade clínica?**  \nA ausência de sinais de emergência permite avaliar estratégias individualizadas, sem necessariamente utilizar medidas intravenosas de ação rápida.\n\n**7. A espironolactona merece atenção específica?**  \nSim. Com K confirmado de 5,6 mEq/L, a dose atual da espironolactona deve ser reduzida; a orientação UKKA 2026 para K entre 5,5 e 5,9 mEq/L em insuficiência cardíaca é reduzir a dose pela metade e monitorar. A ESC 2026 também orienta considerar redução ou suspensão temporária do MRA acima de 5,5 mEq/L e retomá-lo quando a hipercalemia resolver. Se não for possível manter K <5,5 mEq/L apesar das medidas, a AHA/ACC/HFSA recomenda descontinuar o MRA.\n\n**8. Isso significa que todos os medicamentos devem ser mantidos sem ajustes?**  \nNão. Ajuste a espironolactona conforme a resposta do potássio e avalie os demais fármacos individualmente. A hipercalemia não implica suspensão permanente automática de sacubitril/valsartana; se permanecer sem controle apesar das medidas clínicas, a equipe deve reavaliar o esquema completo.\n\n**9. Qual é o papel da orientação dietética?**  \nIdentificar e reduzir fontes excessivas de potássio, respeitando as necessidades nutricionais do paciente.\n\n**10. Qual é o papel dos agentes de remoção gastrointestinal?**  \nPatiromer e ciclosilicato de zircônio sódico podem reduzir o potássio e facilitar a continuidade ou titulação dos bloqueadores do sistema renina-angiotensina-aldosterona. A ESC 2026 ressalta, porém, que ainda não está estabelecido se os quelantes melhoram desfechos clínicos.\n\n**11. Esses agentes garantem a manutenção de qualquer medicamento em qualquer circunstância?**  \nNão. A decisão depende da resposta do potássio, da função renal, da segurança e da indicação de cada fármaco. Um quelante não substitui monitorização nem torna seguro manter qualquer dose de MRA.\n\n**12. Por que é importante repetir os exames?**  \nPara verificar se as medidas adotadas reduziram o potássio e se houve alteração da função renal.\n\n**13. Qual é o principal erro a evitar?**  \nEvite os dois extremos: suspender permanentemente toda a terapia cardioprotetora por um K de 5,6 mEq/L ou manter a espironolactona sem ajuste. Corrija fatores reversíveis, reduza a dose do MRA e monitore; se o potássio normalizar, planeje sua reintrodução conforme a resposta clínica.\n\n**14. Qual é a competência principal?**  \nEquilibrar o controle da hipercalemia com a preservação, quando possível e segura, de terapias clinicamente benéficas.",
+      "comentarios": {
+        "A": "A suspensão definitiva e indiscriminada desconsidera os benefícios clínicos e as possibilidades de correção de fatores reversíveis.",
+        "B": "Preservar o tratamento cardiovascular não significa ignorar o potássio elevado.",
+        "C": "Cálcio e insulina intravenosos não são medidas obrigatórias para hipercalemia moderada e estável.",
+        "D": "Correta. Com K de 5,6 mEq/L confirmado, a espironolactona não deve permanecer automaticamente na mesma dose: reduza a dose e monitore potássio e função renal. Se a hipercalemia persistir, considere suspensão temporária e reintroduza o antagonista mineralocorticoide após resolução; se não for possível manter K <5,5 mEq/L apesar das medidas, descontinue o MRA. Isso não justifica suspender permanentemente toda a terapia cardioprotetora. Quelantes podem ajudar a controlar a hipercalemia, mas o benefício em desfechos clínicos permanece incerto."
+      },
+      "perola": "Com potássio confirmado entre 5,5 e 5,9 mEq/L em paciente com insuficiência cardíaca em MRA, reduza a dose do antagonista mineralocorticoide e monitore potássio e função renal. Se a hipercalemia resolver, reavalie a reintrodução. Se não for possível manter K <5,5 mEq/L apesar das medidas, descontinue o MRA. Não suspenda permanentemente toda a terapia cardioprotetora por reflexo.",
+      "referencias": "*Treatment and prevention of hyperkalemia in adults*. UpToDate — seções “Patients who can have the serum potassium lowered slowly”, “Gastrointestinal cation exchangers” e “Prevention”.\n\n2026 ESC Guidelines for the management of heart failure. European Heart Journal. https://doi.org/10.1093/eurheartj/ehag100\n\nUK Kidney Association. Clinical Practice Guideline: Management of Hyperkalaemia in Adults. July 2026. https://www.ukkidney.org/wp-content/uploads/drupal-archive/documents/FINAL%20VERSION%20-%20UKKA%20CLINICAL%20PRACTICE%20GUIDELINE%20-%20MANAGEMENT%20OF%20HYPERKALAEMIA%20IN%20ADULTS%20-%20UPDATED%20JULY%202026_0.pdf\n\n2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure. https://doi.org/10.1161/CIR.0000000000001063",
+      "revisaoCientificaPendente": false,
+      "statusEditorial": "aprovado",
+      "observacaoCientificaEditorial": "Revisão científica/editorial concluída com base na ESC 2026, UKKA 2026 e AHA/ACC/HFSA 2022: confirmar o potássio; para K de 5,5–5,9 mEq/L em insuficiência cardíaca, reduzir pela metade a dose do MRA e monitorar eletrólitos e função renal; considerar suspensão temporária e reintroduzir após resolução. Se não for possível manter K <5,5 mEq/L apesar das medidas, descontinuar o MRA.",
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 11,
+      "question_number": 52,
+      "stem": "Um homem de 62 anos, com insuficiência cardíaca com fração de ejeção reduzida, diabetes mellitus e doença renal crônica estágio G3b, comparece para reavaliação.\n\nUtiliza sacubitril/valsartana e espironolactona, além de outros medicamentos para insuficiência cardíaca.\n\nApresenta:\n\n- Potássio: 5,6 mEq/L, confirmado.\n- Creatinina: 1,8 mg/dL, próxima ao basal.\n- PA: 118/72 mmHg.\n- Ausência de sintomas relacionados à hipercalemia.\n- ECG sem alterações sugestivas de toxicidade hipercalêmica.\n\nA equipe propõe suspender permanentemente todos os medicamentos que interferem no sistema renina-angiotensina-aldosterona.\n\n**Qual é a estratégia mais adequada?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-052-A",
+          "question_id": "aqz-hiper-052",
+          "letter": "A",
+          "text": "Suspender definitivamente todos os medicamentos cardioprotetores, pois qualquer potássio acima de 5,5 mEq/L elimina seus benefícios.",
+          "is_correct": false,
+          "feedback": "A suspensão definitiva e indiscriminada desconsidera os benefícios clínicos e as possibilidades de correção de fatores reversíveis.",
+          "error_type": "risk_benefit_misjudgment",
+          "misconception_id": "all_cardioprotective_drugs_must_stop",
+          "misconception_description": "Considera que qualquer potássio acima de 5,5 mEq/L elimina os benefícios de todos os fármacos cardioprotetores.",
+          "competency_ids": [
+            "balance_hyperkalemia_control_and_cardioprotection"
+          ],
+          "clinical_risk_if_applied": "A suspensão indiscriminada pode retirar tratamentos úteis sem avaliar fatores reversíveis ou estratégias individualizadas de controle."
+        },
+        {
+          "option_id": "aqz-hiper-052-B",
+          "question_id": "aqz-hiper-052",
+          "letter": "B",
+          "text": "Ignorar a hipercalemia para preservar os benefícios cardiovasculares, sem necessidade de acompanhamento.",
+          "is_correct": false,
+          "feedback": "Preservar o tratamento cardiovascular não significa ignorar o potássio elevado.",
+          "error_type": "failure_to_monitor",
+          "misconception_id": "cardioprotection_justifies_ignoring_hyperkalemia",
+          "misconception_description": "Supõe que a preservação da cardioproteção justifica ignorar hipercalemia confirmada.",
+          "competency_ids": [
+            "balance_hyperkalemia_control_and_cardioprotection"
+          ],
+          "clinical_risk_if_applied": "A hipercalemia pode persistir ou piorar sem investigação, intervenção e seguimento laboratorial."
+        },
+        {
+          "option_id": "aqz-hiper-052-C",
+          "question_id": "aqz-hiper-052",
+          "letter": "C",
+          "text": "Administrar cálcio intravenoso e insulina com glicose em todas as consultas, mesmo sem sinais de emergência.",
+          "is_correct": false,
+          "feedback": "Cálcio e insulina intravenosos não são medidas obrigatórias para hipercalemia moderada e estável.",
+          "error_type": "inappropriate_emergency_treatment",
+          "misconception_id": "every_moderate_hyperkalemia_requires_iv_rescue",
+          "misconception_description": "Trata toda hipercalemia moderada e estável como emergência que exige cálcio e insulina intravenosos em cada consulta.",
+          "competency_ids": [
+            "balance_hyperkalemia_control_and_cardioprotection"
+          ],
+          "clinical_risk_if_applied": "Pode expor o paciente a intervenções agudas desnecessárias, incluindo hipoglicemia pela insulina, sem plano de monitoramento individualizado."
+        },
+        {
+          "option_id": "aqz-hiper-052-D",
+          "question_id": "aqz-hiper-052",
+          "letter": "D",
+          "text": "Não suspender permanentemente toda a terapia cardioprotetora. Como o potássio de 5,6 mEq/L foi confirmado, revisar fatores reversíveis e reduzir pela metade a dose da espironolactona, com monitorização próxima do potássio e da função renal. Se a hipercalemia persistir, considerar suspensão temporária do antagonista mineralocorticoide e reintroduzi-lo quando o potássio normalizar; se não for possível manter K <5,5 mEq/L apesar das medidas, descontinuar o MRA. Reavaliar sacubitril/valsartana individualmente e considerar quelante se a hipercalemia persistir ou recorrer; ainda não está claro se quelantes melhoram desfechos clínicos.",
+          "is_correct": true,
+          "feedback": "Correta. Com K de 5,6 mEq/L confirmado, a espironolactona não deve permanecer automaticamente na mesma dose: reduza a dose e monitore potássio e função renal. Se a hipercalemia persistir, considere suspensão temporária e reintroduza o antagonista mineralocorticoide após resolução; se não for possível manter K <5,5 mEq/L apesar das medidas, descontinue o MRA. Isso não justifica suspender permanentemente toda a terapia cardioprotetora. Quelantes podem ajudar a controlar a hipercalemia, mas o benefício em desfechos clínicos permanece incerto.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "balance_hyperkalemia_control_and_cardioprotection"
+          ],
+          "clinical_risk_if_applied": null
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-052-r01",
+          "question_id": "aqz-hiper-052",
+          "sequence": 1,
+          "prompt": "Qual é o problema central?",
+          "explanation": "Hipercalemia moderada em paciente que utiliza medicamentos importantes para o tratamento da insuficiência cardíaca.",
+          "reasoning_type": "problem_recognition",
+          "competency_ids": [
+            "balance_hyperkalemia_control_and_cardioprotection"
+          ],
+          "cognitive_operation": "recognize",
+          "clinical_relevance": "Hipercalemia moderada em paciente que utiliza medicamentos importantes para o tratamento da insuficiência cardíaca.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-052-r02",
+          "question_id": "aqz-hiper-052",
+          "sequence": 2,
+          "prompt": "Por que esses medicamentos podem elevar o potássio?",
+          "explanation": "Porque interferem em mecanismos hormonais envolvidos na excreção renal de potássio.",
+          "reasoning_type": "pathophysiology",
+          "competency_ids": [
+            "balance_hyperkalemia_control_and_cardioprotection"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Porque interferem em mecanismos hormonais envolvidos na excreção renal de potássio.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-052-r03",
+          "question_id": "aqz-hiper-052",
+          "sequence": 3,
+          "prompt": "Por que a decisão é complexa?",
+          "explanation": "Porque alguns desses medicamentos apresentam benefícios cardiovasculares importantes, enquanto a hipercalemia representa um risco que precisa ser controlado.",
+          "reasoning_type": "risk_benefit_assessment",
+          "competency_ids": [
+            "balance_hyperkalemia_control_and_cardioprotection"
+          ],
+          "cognitive_operation": "weigh",
+          "clinical_relevance": "Porque alguns desses medicamentos apresentam benefícios cardiovasculares importantes, enquanto a hipercalemia representa um risco que precisa ser controlado.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-052-r04",
+          "question_id": "aqz-hiper-052",
+          "sequence": 4,
+          "prompt": "A elevação de potássio exige sempre suspensão definitiva?",
+          "explanation": "Não. A suspensão definitiva depende da gravidade e persistência da hipercalemia, da função renal, da indicação e da resposta às medidas corretivas. A diretriz ESC 2026 orienta confirmar o potássio e considerar redução de dose ou suspensão temporária do MRA quando K >5,5 mEq/L; se a hipercalemia resolver, o MRA deve ser reiniciado. Para K entre 5,5 e 5,9 mEq/L em pacientes com insuficiência cardíaca, a UKKA 2026 recomenda reduzir a dose do MRA pela metade e monitorar eletrólitos e função renal.",
+          "reasoning_type": "clinical_decision",
+          "competency_ids": [
+            "balance_hyperkalemia_control_and_cardioprotection"
+          ],
+          "cognitive_operation": "decide",
+          "clinical_relevance": "Não. A conduta depende da gravidade, persistência, função renal, indicação do medicamento e alternativas disponíveis.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-052-r05",
+          "question_id": "aqz-hiper-052",
+          "sequence": 5,
+          "prompt": "O que deve ser investigado antes de uma decisão definitiva?",
+          "explanation": "Mudanças recentes na função renal, medicamentos adicionais, anti-inflamatórios, suplementos, substitutos do sal, ingestão de potássio e outros fatores reversíveis.",
+          "reasoning_type": "reversible_cause_investigation",
+          "competency_ids": [
+            "balance_hyperkalemia_control_and_cardioprotection"
+          ],
+          "cognitive_operation": "investigate",
+          "clinical_relevance": "Mudanças recentes na função renal, medicamentos adicionais, anti-inflamatórios, suplementos, substitutos do sal, ingestão de potássio e outros fatores reversíveis.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-052-r06",
+          "question_id": "aqz-hiper-052",
+          "sequence": 6,
+          "prompt": "Qual é a importância da estabilidade clínica?",
+          "explanation": "A ausência de sinais de emergência permite avaliar estratégias individualizadas, sem necessariamente utilizar medidas intravenosas de ação rápida.",
+          "reasoning_type": "urgency_assessment",
+          "competency_ids": [
+            "balance_hyperkalemia_control_and_cardioprotection"
+          ],
+          "cognitive_operation": "prioritize",
+          "clinical_relevance": "A ausência de sinais de emergência permite avaliar estratégias individualizadas, sem necessariamente utilizar medidas intravenosas de ação rápida.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-052-r07",
+          "question_id": "aqz-hiper-052",
+          "sequence": 7,
+          "prompt": "A espironolactona merece atenção específica?",
+          "explanation": "Sim. Com K confirmado de 5,6 mEq/L, a dose atual da espironolactona deve ser reduzida; a orientação UKKA 2026 para K entre 5,5 e 5,9 mEq/L em insuficiência cardíaca é reduzir a dose pela metade e monitorar. A ESC 2026 também orienta considerar redução ou suspensão temporária do MRA acima de 5,5 mEq/L e retomá-lo quando a hipercalemia resolver. Se não for possível manter K <5,5 mEq/L apesar das medidas, a AHA/ACC/HFSA recomenda descontinuar o MRA.",
+          "reasoning_type": "pharmacology",
+          "competency_ids": [
+            "balance_hyperkalemia_control_and_cardioprotection"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Sim. Antagonistas da aldosterona podem contribuir significativamente para hipercalemia, especialmente em pacientes com doença renal crônica.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-052-r08",
+          "question_id": "aqz-hiper-052",
+          "sequence": 8,
+          "prompt": "Isso significa que todos os medicamentos devem ser mantidos sem ajustes?",
+          "explanation": "Não. Ajuste a espironolactona conforme a resposta do potássio e avalie os demais fármacos individualmente. A hipercalemia não implica suspensão permanente automática de sacubitril/valsartana; se permanecer sem controle apesar das medidas clínicas, a equipe deve reavaliar o esquema completo.",
+          "reasoning_type": "medication_safety",
+          "competency_ids": [
+            "balance_hyperkalemia_control_and_cardioprotection"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Não. A segurança exige reavaliação individualizada e, quando necessário, modificação temporária ou definitiva do esquema.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-052-r09",
+          "question_id": "aqz-hiper-052",
+          "sequence": 9,
+          "prompt": "Qual é o papel da orientação dietética?",
+          "explanation": "Identificar e reduzir fontes excessivas de potássio, respeitando as necessidades nutricionais do paciente.",
+          "reasoning_type": "dietary_management",
+          "competency_ids": [
+            "balance_hyperkalemia_control_and_cardioprotection"
+          ],
+          "cognitive_operation": "individualize",
+          "clinical_relevance": "Identificar e reduzir fontes excessivas de potássio, respeitando as necessidades nutricionais do paciente.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-052-r10",
+          "question_id": "aqz-hiper-052",
+          "sequence": 10,
+          "prompt": "Qual é o papel dos agentes de remoção gastrointestinal?",
+          "explanation": "Patiromer e ciclosilicato de zircônio sódico podem reduzir o potássio e facilitar a continuidade ou titulação dos bloqueadores do sistema renina-angiotensina-aldosterona. A ESC 2026 ressalta, porém, que ainda não está estabelecido se os quelantes melhoram desfechos clínicos.",
+          "reasoning_type": "therapeutic_options",
+          "competency_ids": [
+            "balance_hyperkalemia_control_and_cardioprotection"
+          ],
+          "cognitive_operation": "compare",
+          "clinical_relevance": "Podem auxiliar no controle do potássio, inclusive em determinadas situações de hipercalemia recorrente.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-052-r11",
+          "question_id": "aqz-hiper-052",
+          "sequence": 11,
+          "prompt": "Esses agentes garantem a manutenção de qualquer medicamento em qualquer circunstância?",
+          "explanation": "Não. A decisão depende da resposta do potássio, da função renal, da segurança e da indicação de cada fármaco. Um quelante não substitui monitorização nem torna seguro manter qualquer dose de MRA.",
+          "reasoning_type": "treatment_limitations",
+          "competency_ids": [
+            "balance_hyperkalemia_control_and_cardioprotection"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Não. A decisão depende da resposta ao tratamento, da segurança e do contexto clínico.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-052-r12",
+          "question_id": "aqz-hiper-052",
+          "sequence": 12,
+          "prompt": "Por que é importante repetir os exames?",
+          "explanation": "Para verificar se as medidas adotadas reduziram o potássio e se houve alteração da função renal.",
+          "reasoning_type": "monitoring",
+          "competency_ids": [
+            "balance_hyperkalemia_control_and_cardioprotection"
+          ],
+          "cognitive_operation": "monitor",
+          "clinical_relevance": "Para verificar se as medidas adotadas reduziram o potássio e se houve alteração da função renal.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-052-r13",
+          "question_id": "aqz-hiper-052",
+          "sequence": 13,
+          "prompt": "Qual é o principal erro a evitar?",
+          "explanation": "Evite os dois extremos: suspender permanentemente toda a terapia cardioprotetora por um K de 5,6 mEq/L ou manter a espironolactona sem ajuste. Corrija fatores reversíveis, reduza a dose do MRA e monitore; se o potássio normalizar, planeje sua reintrodução conforme a resposta clínica.",
+          "reasoning_type": "error_prevention",
+          "competency_ids": [
+            "balance_hyperkalemia_control_and_cardioprotection"
+          ],
+          "cognitive_operation": "avoid",
+          "clinical_relevance": "Tratar a hipercalemia isoladamente, sem considerar os benefícios e riscos dos medicamentos utilizados para outras doenças.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-052-r14",
+          "question_id": "aqz-hiper-052",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Equilibrar o controle da hipercalemia com a preservação, quando possível e segura, de terapias clinicamente benéficas.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "balance_hyperkalemia_control_and_cardioprotection"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Equilibrar o controle da hipercalemia com a preservação, quando possível e segura, de terapias clinicamente benéficas.",
+          "prerequisite_concepts": []
+        }
+      ],
+      "clinical_pearl": "Com potássio confirmado entre 5,5 e 5,9 mEq/L em paciente com insuficiência cardíaca em MRA, reduza a dose do antagonista mineralocorticoide e monitore potássio e função renal. Se a hipercalemia resolver, reavalie a reintrodução. Se não for possível manter K <5,5 mEq/L apesar das medidas, descontinue o MRA. Não suspenda permanentemente toda a terapia cardioprotetora por reflexo.",
+      "references": [
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate — seções “Patients who can have the serum potassium lowered slowly”, “Gastrointestinal cation exchangers” e “Prevention”.",
+        "2026 ESC Guidelines for the management of heart failure. European Heart Journal. https://doi.org/10.1093/eurheartj/ehag100",
+        "UK Kidney Association. Clinical Practice Guideline: Management of Hyperkalaemia in Adults. July 2026. https://www.ukkidney.org/wp-content/uploads/drupal-archive/documents/FINAL%20VERSION%20-%20UKKA%20CLINICAL%20PRACTICE%20GUIDELINE%20-%20MANAGEMENT%20OF%20HYPERKALAEMIA%20IN%20ADULTS%20-%20UPDATED%20JULY%202026_0.pdf",
+        "2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure. https://doi.org/10.1161/CIR.0000000000001063"
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "longitudinal_treatment",
+        "clinical_context": "outpatient",
+        "urgency_level": "non_emergency",
+        "cognitive_level": "clinical_decision_making",
+        "editorial_status": "approved",
+        "scientific_review_required": false,
+        "scientific_review_notes": "Revisão científica/editorial concluída com base na ESC 2026, UKKA 2026 e AHA/ACC/HFSA 2022: confirmar o potássio; para K de 5,5–5,9 mEq/L em insuficiência cardíaca, reduzir pela metade a dose do MRA e monitorar eletrólitos e função renal; considerar suspensão temporária e reintroduzir após resolução. Se não for possível manter K <5,5 mEq/L apesar das medidas, descontinuar o MRA.",
+        "primary_competency": "balance_hyperkalemia_control_and_cardioprotection",
+        "secondary_competencies": [
+          "medication_review",
+          "risk_benefit_assessment",
+          "raas_inhibitor_management"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "heart_failure",
+          "ckd",
+          "spironolactone",
+          "sacubitril_valsartan",
+          "raas_inhibition"
+        ],
+        "related_lesson_ids": [
+          "476e0681-324f-47e1-a8f8-217beb6672a0",
+          "c271a440-9c38-485f-b84c-64676e0ab5c2"
+        ],
+        "schema_version": 1,
+        "content_version": 1
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "therapeutic_prioritization",
+          "medication_safety",
+          "hyperkalemia_long_term_management"
+        ],
+        "challenge_types": [
+          "clinical_decision",
+          "risk_benefit_analysis"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-053",
+      "numero": 53,
+      "titulo": "Quelante gastrointestinal: qual escolher enquanto a diálise não chega?",
+      "dificuldade": "Avançada",
+      "competenciaPrincipal": "Selecionar uma estratégia complementar de remoção de potássio",
+      "competenciasSecundarias": [
+        "differentiate_shift_vs_removal",
+        "dialysis_prioritization",
+        "binder_selection"
+      ],
+      "aulasRelacionadas": [
+        {
+          "numero": 20,
+          "aulaId": "aad65f01-fab2-47dc-b146-cb82f1234796",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        },
+        {
+          "numero": 21,
+          "aulaId": "89e1038e-82a1-42d0-ad9a-a55676dc005d",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        },
+        {
+          "numero": 22,
+          "aulaId": "f99d47de-7f1e-4079-98ed-1209390ea2df",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        }
+      ],
+      "versao": "1.0",
+      "enunciado": "Um homem de 71 anos, com doença renal crônica estágio G5 em tratamento conservador, procura a emergência por fraqueza muscular.\n\nExames iniciais:\n\n- Potássio: 6,8 mEq/L.\n- Creatinina: 7,1 mg/dL.\n- ECG: ondas T apiculadas e discreto alargamento do QRS.\n- Diurese: aproximadamente 150 mL nas últimas 12 horas.\n\nA equipe administra cálcio intravenoso e inicia tratamento com insulina regular e glicose.\n\nA nefrologia indica hemodiálise, mas informa que o procedimento poderá ser iniciado somente após algumas horas, devido à necessidade de organizar acesso vascular e equipe.\n\nEstão disponíveis ciclosilicato de zircônio sódico (SZC), patiromer e poliestirenossulfonato de sódio (SPS).\n\n**Qual é a interpretação mais adequada sobre o uso desses medicamentos?**",
+      "alternativas": {
+        "A": "O SZC pode ser considerado como medida adicional de remoção gastrointestinal enquanto a hemodiálise é organizada, sem substituir cálcio, tratamento redistributivo ou diálise quando indicada.",
+        "B": "O SPS deve ser obrigatoriamente a primeira escolha porque apresenta ação imediata e ausência de complicações intestinais.",
+        "C": "O patiromer e o SZC substituem integralmente a necessidade de hemodiálise em qualquer paciente com hipercalemia grave.",
+        "D": "Como a insulina foi administrada, nenhum tratamento destinado à remoção de potássio deve ser iniciado."
+      },
+      "gabarito": "A",
+      "raciocinioClinico": "**1. Qual é a condição clínica predominante?**  \nEmergência hipercalêmica associada a comprometimento renal grave e oligúria importante.\n\n**2. Por que o cálcio intravenoso foi administrado?**  \nPara antagonizar os efeitos da hipercalemia sobre a membrana cardíaca diante das alterações eletrocardiográficas.\n\n**3. Qual é a função da insulina com glicose?**  \nPromover redistribuição temporária do potássio para o meio intracelular.\n\n**4. Esses tratamentos eliminam o excesso corporal de potássio?**  \nNão. O cálcio estabiliza a membrana, enquanto a insulina promove redistribuição.\n\n**5. Por que a hemodiálise foi indicada?**  \nPorque a disfunção renal grave compromete a excreção de potássio, e a hemodiálise permite remoção efetiva.\n\n**6. Qual é o problema relacionado ao atraso da hemodiálise?**  \nO paciente permanece exposto ao risco de persistência ou recorrência da hipercalemia enquanto aguarda o procedimento.\n\n**7. Qual é a função dos agentes de troca catiônica gastrointestinal?**  \nPromover eliminação de potássio pelo trato gastrointestinal.\n\n**8. Qual é a preferência descrita no material-base?**  \nQuando um agente de troca gastrointestinal é utilizado nesse contexto, o UpToDate favorece SZC ou patiromer em relação ao SPS.\n\n**9. Por que o SZC pode ser preferido ao patiromer?**  \nPorque apresenta início de ação mais rápido, segundo a referência consultada.\n\n**10. O SZC substitui a estabilização cardíaca?**  \nNão. Seu efeito não substitui as medidas intravenosas necessárias para controlar a toxicidade elétrica imediata.\n\n**11. O SZC substitui automaticamente a hemodiálise indicada?**  \nNão. Pode ser utilizado como medida adicional enquanto a remoção dialítica é organizada.\n\n**12. Por que o SPS não deve ser considerado automaticamente a melhor opção?**  \nPorque possui limitações de segurança, incluindo risco de complicações gastrointestinais graves em determinados pacientes.\n\n**13. O que deve continuar durante a espera pela hemodiálise?**  \nMonitorização cardíaca, reavaliação eletrocardiográfica, dosagens seriadas de potássio, controle glicêmico e tratamento das intercorrências.\n\n**14. Qual é a competência principal?**  \nDiferenciar medidas temporizadoras de terapias de remoção e selecionar uma estratégia gastrointestinal complementar sem atrasar a hemodiálise indicada.",
+      "comentarios": {
+        "A": "Reconhece o papel complementar do SZC como estratégia de remoção gastrointestinal enquanto a hemodiálise é organizada, sem substituir as medidas emergenciais.",
+        "B": "O SPS não apresenta ação imediata previsível e pode provocar complicações gastrointestinais importantes.",
+        "C": "Os agentes gastrointestinais não substituem automaticamente a hemodiálise em pacientes com comprometimento renal grave e indicação dialítica.",
+        "D": "A insulina promove redistribuição temporária e não elimina o excesso corporal de potássio."
+      },
+      "perola": "Quando a diálise está indicada, mas ainda não começou, o tratamento não fica parado. Proteja o coração, redistribua o potássio e considere medidas complementares de remoção, sem confundir a ponte terapêutica com o tratamento definitivo.",
+      "referencias": "*Treatment and prevention of hyperkalemia in adults*. UpToDate — seções “Dialysis and gastrointestinal cation exchangers”, “Patiromer or sodium zirconium cyclosilicate (SZC)” e “Hemodialysis in patients with severe kidney dysfunction”.\n\n---",
+      "revisaoCientificaPendente": false,
+      "statusEditorial": "aprovado",
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 11,
+      "question_number": 53,
+      "stem": "Um homem de 71 anos, com doença renal crônica estágio G5 em tratamento conservador, procura a emergência por fraqueza muscular.\n\nExames iniciais:\n\n- Potássio: 6,8 mEq/L.\n- Creatinina: 7,1 mg/dL.\n- ECG: ondas T apiculadas e discreto alargamento do QRS.\n- Diurese: aproximadamente 150 mL nas últimas 12 horas.\n\nA equipe administra cálcio intravenoso e inicia tratamento com insulina regular e glicose.\n\nA nefrologia indica hemodiálise, mas informa que o procedimento poderá ser iniciado somente após algumas horas, devido à necessidade de organizar acesso vascular e equipe.\n\nEstão disponíveis ciclosilicato de zircônio sódico (SZC), patiromer e poliestirenossulfonato de sódio (SPS).\n\n**Qual é a interpretação mais adequada sobre o uso desses medicamentos?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-053-A",
+          "question_id": "aqz-hiper-053",
+          "letter": "A",
+          "text": "O SZC pode ser considerado como medida adicional de remoção gastrointestinal enquanto a hemodiálise é organizada, sem substituir cálcio, tratamento redistributivo ou diálise quando indicada.",
+          "is_correct": true,
+          "feedback": "Reconhece o papel complementar do SZC como estratégia de remoção gastrointestinal enquanto a hemodiálise é organizada, sem substituir as medidas emergenciais.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "select_adjunctive_potassium_removal"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-053-B",
+          "question_id": "aqz-hiper-053",
+          "letter": "B",
+          "text": "O SPS deve ser obrigatoriamente a primeira escolha porque apresenta ação imediata e ausência de complicações intestinais.",
+          "is_correct": false,
+          "feedback": "O SPS não apresenta ação imediata previsível e pode provocar complicações gastrointestinais importantes.",
+          "error_type": "drug_safety_misconception",
+          "misconception_id": "sps_is_immediate_and_risk_free",
+          "misconception_description": "Considera o poliestirenossulfonato de sódio uma opção de ação imediata e sem risco intestinal.",
+          "competency_ids": [
+            "select_adjunctive_potassium_removal"
+          ],
+          "clinical_risk_if_applied": "Pode criar falsa segurança sobre o tempo de remoção e desconsiderar complicações gastrointestinais graves."
+        },
+        {
+          "option_id": "aqz-hiper-053-C",
+          "question_id": "aqz-hiper-053",
+          "letter": "C",
+          "text": "O patiromer e o SZC substituem integralmente a necessidade de hemodiálise em qualquer paciente com hipercalemia grave.",
+          "is_correct": false,
+          "feedback": "Os agentes gastrointestinais não substituem automaticamente a hemodiálise em pacientes com comprometimento renal grave e indicação dialítica.",
+          "error_type": "treatment_substitution_error",
+          "misconception_id": "binders_always_replace_dialysis",
+          "misconception_description": "Supõe que patiromer ou SZC sempre substituem a hemodiálise quando ela está indicada.",
+          "competency_ids": [
+            "select_adjunctive_potassium_removal"
+          ],
+          "clinical_risk_if_applied": "Pode atrasar remoção dialítica efetiva em paciente com disfunção renal grave e hipercalemia ameaçadora."
+        },
+        {
+          "option_id": "aqz-hiper-053-D",
+          "question_id": "aqz-hiper-053",
+          "letter": "D",
+          "text": "Como a insulina foi administrada, nenhum tratamento destinado à remoção de potássio deve ser iniciado.",
+          "is_correct": false,
+          "feedback": "A insulina promove redistribuição temporária e não elimina o excesso corporal de potássio.",
+          "error_type": "failure_to_remove_potassium",
+          "misconception_id": "intracellular_shift_eliminates_total_body_potassium",
+          "misconception_description": "Confunde a redistribuição temporária promovida pela insulina com eliminação do potássio corporal.",
+          "competency_ids": [
+            "select_adjunctive_potassium_removal"
+          ],
+          "clinical_risk_if_applied": "Pode deixar o excesso corporal sem estratégia de remoção e permitir recorrência após o efeito redistributivo."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-053-r01",
+          "question_id": "aqz-hiper-053",
+          "sequence": 1,
+          "prompt": "Qual é a condição clínica predominante?",
+          "explanation": "Emergência hipercalêmica associada a comprometimento renal grave e oligúria importante.",
+          "reasoning_type": "urgency_assessment",
+          "competency_ids": [
+            "select_adjunctive_potassium_removal"
+          ],
+          "cognitive_operation": "prioritize",
+          "clinical_relevance": "Emergência hipercalêmica associada a comprometimento renal grave e oligúria importante.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-053-r02",
+          "question_id": "aqz-hiper-053",
+          "sequence": 2,
+          "prompt": "Por que o cálcio intravenoso foi administrado?",
+          "explanation": "Para antagonizar os efeitos da hipercalemia sobre a membrana cardíaca diante das alterações eletrocardiográficas.",
+          "reasoning_type": "membrane_stabilization",
+          "competency_ids": [
+            "select_adjunctive_potassium_removal"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Para antagonizar os efeitos da hipercalemia sobre a membrana cardíaca diante das alterações eletrocardiográficas.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-053-r03",
+          "question_id": "aqz-hiper-053",
+          "sequence": 3,
+          "prompt": "Qual é a função da insulina com glicose?",
+          "explanation": "Promover redistribuição temporária do potássio para o meio intracelular.",
+          "reasoning_type": "potassium_redistribution",
+          "competency_ids": [
+            "select_adjunctive_potassium_removal"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Promover redistribuição temporária do potássio para o meio intracelular.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-053-r04",
+          "question_id": "aqz-hiper-053",
+          "sequence": 4,
+          "prompt": "Esses tratamentos eliminam o excesso corporal de potássio?",
+          "explanation": "Não. O cálcio estabiliza a membrana, enquanto a insulina promove redistribuição.",
+          "reasoning_type": "mechanism_differentiation",
+          "competency_ids": [
+            "select_adjunctive_potassium_removal"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Não. O cálcio estabiliza a membrana, enquanto a insulina promove redistribuição.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-053-r05",
+          "question_id": "aqz-hiper-053",
+          "sequence": 5,
+          "prompt": "Por que a hemodiálise foi indicada?",
+          "explanation": "Porque a disfunção renal grave compromete a excreção de potássio, e a hemodiálise permite remoção efetiva.",
+          "reasoning_type": "potassium_removal",
+          "competency_ids": [
+            "select_adjunctive_potassium_removal"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Porque a disfunção renal grave compromete a excreção de potássio, e a hemodiálise permite remoção efetiva.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-053-r06",
+          "question_id": "aqz-hiper-053",
+          "sequence": 6,
+          "prompt": "Qual é o problema relacionado ao atraso da hemodiálise?",
+          "explanation": "O paciente permanece exposto ao risco de persistência ou recorrência da hipercalemia enquanto aguarda o procedimento.",
+          "reasoning_type": "risk_assessment",
+          "competency_ids": [
+            "select_adjunctive_potassium_removal"
+          ],
+          "cognitive_operation": "assess",
+          "clinical_relevance": "O paciente permanece exposto ao risco de persistência ou recorrência da hipercalemia enquanto aguarda o procedimento.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-053-r07",
+          "question_id": "aqz-hiper-053",
+          "sequence": 7,
+          "prompt": "Qual é a função dos agentes de troca catiônica gastrointestinal?",
+          "explanation": "Promover eliminação de potássio pelo trato gastrointestinal.",
+          "reasoning_type": "pharmacology",
+          "competency_ids": [
+            "select_adjunctive_potassium_removal"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Promover eliminação de potássio pelo trato gastrointestinal.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-053-r08",
+          "question_id": "aqz-hiper-053",
+          "sequence": 8,
+          "prompt": "Qual é a preferência descrita no material-base?",
+          "explanation": "Quando um agente de troca gastrointestinal é utilizado nesse contexto, o UpToDate favorece SZC ou patiromer em relação ao SPS.",
+          "reasoning_type": "therapeutic_selection",
+          "competency_ids": [
+            "select_adjunctive_potassium_removal"
+          ],
+          "cognitive_operation": "select",
+          "clinical_relevance": "Quando um agente de troca gastrointestinal é utilizado nesse contexto, o UpToDate favorece SZC ou patiromer em relação ao SPS.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-053-r09",
+          "question_id": "aqz-hiper-053",
+          "sequence": 9,
+          "prompt": "Por que o SZC pode ser preferido ao patiromer?",
+          "explanation": "Porque apresenta início de ação mais rápido, segundo a referência consultada.",
+          "reasoning_type": "pharmacokinetics",
+          "competency_ids": [
+            "select_adjunctive_potassium_removal"
+          ],
+          "cognitive_operation": "compare",
+          "clinical_relevance": "Porque apresenta início de ação mais rápido, segundo a referência consultada.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-053-r10",
+          "question_id": "aqz-hiper-053",
+          "sequence": 10,
+          "prompt": "O SZC substitui a estabilização cardíaca?",
+          "explanation": "Não. Seu efeito não substitui as medidas intravenosas necessárias para controlar a toxicidade elétrica imediata.",
+          "reasoning_type": "treatment_limitations",
+          "competency_ids": [
+            "select_adjunctive_potassium_removal"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Não. Seu efeito não substitui as medidas intravenosas necessárias para controlar a toxicidade elétrica imediata.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-053-r11",
+          "question_id": "aqz-hiper-053",
+          "sequence": 11,
+          "prompt": "O SZC substitui automaticamente a hemodiálise indicada?",
+          "explanation": "Não. Pode ser utilizado como medida adicional enquanto a remoção dialítica é organizada.",
+          "reasoning_type": "dialysis_prioritization",
+          "competency_ids": [
+            "select_adjunctive_potassium_removal"
+          ],
+          "cognitive_operation": "prioritize",
+          "clinical_relevance": "Não. Pode ser utilizado como medida adicional enquanto a remoção dialítica é organizada.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-053-r12",
+          "question_id": "aqz-hiper-053",
+          "sequence": 12,
+          "prompt": "Por que o SPS não deve ser considerado automaticamente a melhor opção?",
+          "explanation": "Porque possui limitações de segurança, incluindo risco de complicações gastrointestinais graves em determinados pacientes.",
+          "reasoning_type": "medication_safety",
+          "competency_ids": [
+            "select_adjunctive_potassium_removal"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Porque possui limitações de segurança, incluindo risco de complicações gastrointestinais graves em determinados pacientes.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-053-r13",
+          "question_id": "aqz-hiper-053",
+          "sequence": 13,
+          "prompt": "O que deve continuar durante a espera pela hemodiálise?",
+          "explanation": "Monitorização cardíaca, reavaliação eletrocardiográfica, dosagens seriadas de potássio, controle glicêmico e tratamento das intercorrências.",
+          "reasoning_type": "monitoring",
+          "competency_ids": [
+            "select_adjunctive_potassium_removal"
+          ],
+          "cognitive_operation": "monitor",
+          "clinical_relevance": "Monitorização cardíaca, reavaliação eletrocardiográfica, dosagens seriadas de potássio, controle glicêmico e tratamento das intercorrências.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-053-r14",
+          "question_id": "aqz-hiper-053",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Diferenciar medidas temporizadoras de terapias de remoção e selecionar uma estratégia gastrointestinal complementar sem atrasar a hemodiálise indicada.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "select_adjunctive_potassium_removal"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Diferenciar medidas temporizadoras de terapias de remoção e selecionar uma estratégia gastrointestinal complementar sem atrasar a hemodiálise indicada.",
+          "prerequisite_concepts": []
+        }
+      ],
+      "clinical_pearl": "Quando a diálise está indicada, mas ainda não começou, o tratamento não fica parado. Proteja o coração, redistribua o potássio e considere medidas complementares de remoção, sem confundir a ponte terapêutica com o tratamento definitivo.",
+      "references": [
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate — seções “Dialysis and gastrointestinal cation exchangers”, “Patiromer or sodium zirconium cyclosilicate (SZC)” e “Hemodialysis in patients with severe kidney dysfunction”.\n\n---"
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "acute_treatment",
+        "clinical_context": "emergency_department",
+        "urgency_level": "emergency",
+        "cognitive_level": "therapeutic_prioritization",
+        "editorial_status": "approved",
+        "scientific_review_required": false,
+        "scientific_review_notes": null,
+        "primary_competency": "select_adjunctive_potassium_removal",
+        "secondary_competencies": [
+          "differentiate_shift_vs_removal",
+          "dialysis_prioritization",
+          "binder_selection"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "dialysis",
+          "szc",
+          "patiromer",
+          "sps",
+          "potassium_removal"
+        ],
+        "related_lesson_ids": [
+          "aad65f01-fab2-47dc-b146-cb82f1234796",
+          "89e1038e-82a1-42d0-ad9a-a55676dc005d",
+          "f99d47de-7f1e-4079-98ed-1209390ea2df"
+        ],
+        "schema_version": 1,
+        "content_version": 1
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "hyperkalemia_emergency_treatment",
+          "potassium_removal",
+          "therapeutic_prioritization"
+        ],
+        "challenge_types": [
+          "clinical_decision",
+          "treatment_selection"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-054",
+      "numero": 54,
+      "titulo": "A diálise terminou, mas o potássio voltou a subir",
+      "dificuldade": "Avançada",
+      "competenciaPrincipal": "Interpretar o rebote pós-dialítico do potássio",
+      "competenciasSecundarias": [
+        "potassium_redistribution",
+        "serial_laboratory_interpretation",
+        "dialysis_reassessment"
+      ],
+      "aulasRelacionadas": [
+        {
+          "numero": 22,
+          "aulaId": "f99d47de-7f1e-4079-98ed-1209390ea2df",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        },
+        {
+          "numero": 23,
+          "aulaId": "3752db01-2371-4fec-8f6e-f7c2b9935390",
+          "moduloId": "18dc5aa4-8311-4f3c-b95f-8831cc6a2269"
+        },
+        {
+          "numero": 24,
+          "aulaId": "96021101-3922-4cfe-876c-dbf6ee266915",
+          "moduloId": "18dc5aa4-8311-4f3c-b95f-8831cc6a2269"
+        }
+      ],
+      "versao": "1.0",
+      "enunciado": "Um homem de 59 anos, com doença renal crônica estágio G5 em hemodiálise regular, procura a emergência após faltar à última sessão.\n\nApresenta potássio de 7,2 mEq/L e alterações eletrocardiográficas compatíveis com hipercalemia.\n\nRecebe estabilização cardíaca com cálcio intravenoso, insulina com glicose e tratamento dialítico urgente.\n\nAo término da hemodiálise, apresenta:\n\n- Potássio: 3,8 mEq/L.\n- ECG: melhora importante.\n- Ausência de sintomas.\n- Estabilidade hemodinâmica.\n\nQuatro horas depois, uma nova dosagem mostra potássio de 5,4 mEq/L.\n\nA equipe interpreta o resultado como falha obrigatória da hemodiálise e propõe repetir imediatamente o procedimento, independentemente da avaliação clínica.\n\n**Qual é a interpretação mais adequada?**",
+      "alternativas": {
+        "A": "O aumento do potássio após a hemodiálise demonstra obrigatoriamente que o procedimento não removeu potássio.",
+        "B": "O potássio medido imediatamente após a hemodiálise representa necessariamente o valor que permanecerá estável nas horas seguintes.",
+        "C": "A elevação pode representar rebote pós-dialítico por redistribuição de potássio do meio intracelular para o extracelular, exigindo interpretação conjunta com a magnitude da elevação, o ECG, a condição clínica e a evolução laboratorial.",
+        "D": "O rebote pós-dialítico é impossível quando o paciente recebeu insulina antes da hemodiálise."
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. Qual era o problema inicial?**  \nHipercalemia grave em paciente com doença renal terminal após ausência de uma sessão de hemodiálise.\n\n**2. Qual foi a função da hemodiálise?**  \nPromover remoção efetiva de potássio do organismo.\n\n**3. A redução inicial do potássio demonstra que houve resposta ao procedimento?**  \nSim. A diminuição de 7,2 para 3,8 mEq/L é compatível com redução importante da concentração sérica durante o tratamento.\n\n**4. O potássio permanece obrigatoriamente nesse valor após a sessão?**  \nNão. Pode ocorrer aumento posterior da concentração sérica.\n\n**5. O que é rebote pós-dialítico?**  \nÉ a elevação do potássio sérico após a hemodiálise, relacionada à redistribuição de potássio dos compartimentos intracelulares para o extracelular.\n\n**6. Por que esse fenômeno acontece?**  \nA remoção de potássio do plasma durante a hemodiálise cria um gradiente que favorece a saída posterior de potássio das células.\n\n**7. O rebote significa obrigatoriamente falha da diálise?**  \nNão. É um fenômeno conhecido que deve ser interpretado conforme a intensidade e o contexto clínico.\n\n**8. Qual é a influência da insulina administrada antes da diálise?**  \nSeu efeito redistributivo pode contribuir para maior elevação posterior do potássio quando diminui.\n\n**9. Por que uma dosagem imediatamente após a diálise pode ser enganosa?**  \nPorque ainda não representa necessariamente o equilíbrio posterior entre os compartimentos corporais.\n\n**10. O potássio de 5,4 mEq/L exige automaticamente nova hemodiálise urgente?**  \nNão. A decisão depende do conjunto clínico, da evolução do potássio, do ECG e de outros fatores de risco.\n\n**11. Qual é a importância do ECG?**  \nIdentificar manifestações elétricas que possam modificar a urgência das intervenções.\n\n**12. O que deve ser investigado além do rebote fisiológico?**  \nIngestão de potássio, medicamentos, adequação da diálise, intervalo entre sessões e possíveis fontes contínuas de liberação celular.\n\n**13. Quando o rebote pode exigir intervenções adicionais?**  \nQuando houver recorrência importante da hipercalemia, alterações eletrocardiográficas, instabilidade ou outras condições que justifiquem tratamento.\n\n**14. Qual é a competência principal?**  \nReconhecer o rebote pós-dialítico e interpretar a evolução do potássio sem confundir uma alteração esperada com falha obrigatória do tratamento.",
+      "comentarios": {
+        "A": "O aumento posterior do potássio pode ocorrer mesmo após remoção efetiva durante a hemodiálise.",
+        "B": "A concentração imediatamente pós-dialítica pode não representar o equilíbrio das horas seguintes.",
+        "C": "Reconhece o rebote pós-dialítico e a necessidade de avaliação clínica, eletrocardiográfica e laboratorial.",
+        "D": "A utilização prévia de insulina não impede o rebote e pode influenciar sua magnitude."
+      },
+      "perola": "O potássio medido ao final da hemodiálise não conta toda a história. A redistribuição entre as células e o sangue continua depois que a máquina é desligada.",
+      "referencias": "*Treatment and prevention of hyperkalemia in adults*. UpToDate — seções “Dialysis” e discussão sobre *postdialysis rebound*.",
+      "revisaoCientificaPendente": false,
+      "statusEditorial": "aprovado",
+      "observacaoCientificaEditorial": "O rebote pós-dialítico já foi abordado em blocos anteriores. A ênfase desta questão é interpretar a magnitude do rebote e evitar uma indicação automática de nova sessão sem reavaliação.",
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 11,
+      "question_number": 54,
+      "stem": "Um homem de 59 anos, com doença renal crônica estágio G5 em hemodiálise regular, procura a emergência após faltar à última sessão.\n\nApresenta potássio de 7,2 mEq/L e alterações eletrocardiográficas compatíveis com hipercalemia.\n\nRecebe estabilização cardíaca com cálcio intravenoso, insulina com glicose e tratamento dialítico urgente.\n\nAo término da hemodiálise, apresenta:\n\n- Potássio: 3,8 mEq/L.\n- ECG: melhora importante.\n- Ausência de sintomas.\n- Estabilidade hemodinâmica.\n\nQuatro horas depois, uma nova dosagem mostra potássio de 5,4 mEq/L.\n\nA equipe interpreta o resultado como falha obrigatória da hemodiálise e propõe repetir imediatamente o procedimento, independentemente da avaliação clínica.\n\n**Qual é a interpretação mais adequada?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-054-A",
+          "question_id": "aqz-hiper-054",
+          "letter": "A",
+          "text": "O aumento do potássio após a hemodiálise demonstra obrigatoriamente que o procedimento não removeu potássio.",
+          "is_correct": false,
+          "feedback": "O aumento posterior do potássio pode ocorrer mesmo após remoção efetiva durante a hemodiálise.",
+          "error_type": "dialysis_failure_misinterpretation",
+          "misconception_id": "rebound_proves_dialysis_failure",
+          "misconception_description": "Interpreta qualquer elevação pós-diálise como prova de que a hemodiálise não removeu potássio.",
+          "competency_ids": [
+            "interpret_postdialysis_potassium_rebound"
+          ],
+          "clinical_risk_if_applied": "Pode provocar decisões de rediálise automáticas sem considerar a resposta inicial, a evolução clínica e o ECG."
+        },
+        {
+          "option_id": "aqz-hiper-054-B",
+          "question_id": "aqz-hiper-054",
+          "letter": "B",
+          "text": "O potássio medido imediatamente após a hemodiálise representa necessariamente o valor que permanecerá estável nas horas seguintes.",
+          "is_correct": false,
+          "feedback": "A concentração imediatamente pós-dialítica pode não representar o equilíbrio das horas seguintes.",
+          "error_type": "single_value_overreliance",
+          "misconception_id": "immediate_postdialysis_k_is_final",
+          "misconception_description": "Trata o valor imediatamente após a sessão como concentração final estável.",
+          "competency_ids": [
+            "interpret_postdialysis_potassium_rebound"
+          ],
+          "clinical_risk_if_applied": "Pode deixar de monitorar uma elevação posterior clinicamente relevante por rebote ou outras causas."
+        },
+        {
+          "option_id": "aqz-hiper-054-C",
+          "question_id": "aqz-hiper-054",
+          "letter": "C",
+          "text": "A elevação pode representar rebote pós-dialítico por redistribuição de potássio do meio intracelular para o extracelular, exigindo interpretação conjunta com a magnitude da elevação, o ECG, a condição clínica e a evolução laboratorial.",
+          "is_correct": true,
+          "feedback": "Reconhece o rebote pós-dialítico e a necessidade de avaliação clínica, eletrocardiográfica e laboratorial.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "interpret_postdialysis_potassium_rebound"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-054-D",
+          "question_id": "aqz-hiper-054",
+          "letter": "D",
+          "text": "O rebote pós-dialítico é impossível quando o paciente recebeu insulina antes da hemodiálise.",
+          "is_correct": false,
+          "feedback": "A utilização prévia de insulina não impede o rebote e pode influenciar sua magnitude.",
+          "error_type": "redistribution_misunderstanding",
+          "misconception_id": "prior_insulin_prevents_rebound",
+          "misconception_description": "Supõe que a insulina administrada antes da hemodiálise impede o rebote posterior.",
+          "competency_ids": [
+            "interpret_postdialysis_potassium_rebound"
+          ],
+          "clinical_risk_if_applied": "Pode reduzir a vigilância para elevação recorrente do potássio após cessar o efeito redistributivo."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-054-r01",
+          "question_id": "aqz-hiper-054",
+          "sequence": 1,
+          "prompt": "Qual era o problema inicial?",
+          "explanation": "Hipercalemia grave em paciente com doença renal terminal após ausência de uma sessão de hemodiálise.",
+          "reasoning_type": "problem_recognition",
+          "competency_ids": [
+            "interpret_postdialysis_potassium_rebound"
+          ],
+          "cognitive_operation": "recognize",
+          "clinical_relevance": "Hipercalemia grave em paciente com doença renal terminal após ausência de uma sessão de hemodiálise.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-054-r02",
+          "question_id": "aqz-hiper-054",
+          "sequence": 2,
+          "prompt": "Qual foi a função da hemodiálise?",
+          "explanation": "Promover remoção efetiva de potássio do organismo.",
+          "reasoning_type": "potassium_removal",
+          "competency_ids": [
+            "interpret_postdialysis_potassium_rebound"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Promover remoção efetiva de potássio do organismo.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-054-r03",
+          "question_id": "aqz-hiper-054",
+          "sequence": 3,
+          "prompt": "A redução inicial do potássio demonstra que houve resposta ao procedimento?",
+          "explanation": "Sim. A diminuição de 7,2 para 3,8 mEq/L é compatível com redução importante da concentração sérica durante o tratamento.",
+          "reasoning_type": "treatment_response",
+          "competency_ids": [
+            "interpret_postdialysis_potassium_rebound"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Sim. A diminuição de 7,2 para 3,8 mEq/L é compatível com redução importante da concentração sérica durante o tratamento.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-054-r04",
+          "question_id": "aqz-hiper-054",
+          "sequence": 4,
+          "prompt": "O potássio permanece obrigatoriamente nesse valor após a sessão?",
+          "explanation": "Não. Pode ocorrer aumento posterior da concentração sérica.",
+          "reasoning_type": "laboratory_interpretation",
+          "competency_ids": [
+            "interpret_postdialysis_potassium_rebound"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Não. Pode ocorrer aumento posterior da concentração sérica.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-054-r05",
+          "question_id": "aqz-hiper-054",
+          "sequence": 5,
+          "prompt": "O que é rebote pós-dialítico?",
+          "explanation": "É a elevação do potássio sérico após a hemodiálise, relacionada à redistribuição de potássio dos compartimentos intracelulares para o extracelular.",
+          "reasoning_type": "pathophysiology",
+          "competency_ids": [
+            "interpret_postdialysis_potassium_rebound"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "É a elevação do potássio sérico após a hemodiálise, relacionada à redistribuição de potássio dos compartimentos intracelulares para o extracelular.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-054-r06",
+          "question_id": "aqz-hiper-054",
+          "sequence": 6,
+          "prompt": "Por que esse fenômeno acontece?",
+          "explanation": "A remoção de potássio do plasma durante a hemodiálise cria um gradiente que favorece a saída posterior de potássio das células.",
+          "reasoning_type": "compartment_redistribution",
+          "competency_ids": [
+            "interpret_postdialysis_potassium_rebound"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "A remoção de potássio do plasma durante a hemodiálise cria um gradiente que favorece a saída posterior de potássio das células.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-054-r07",
+          "question_id": "aqz-hiper-054",
+          "sequence": 7,
+          "prompt": "O rebote significa obrigatoriamente falha da diálise?",
+          "explanation": "Não. É um fenômeno conhecido que deve ser interpretado conforme a intensidade e o contexto clínico.",
+          "reasoning_type": "diagnostic_interpretation",
+          "competency_ids": [
+            "interpret_postdialysis_potassium_rebound"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Não. É um fenômeno conhecido que deve ser interpretado conforme a intensidade e o contexto clínico.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-054-r08",
+          "question_id": "aqz-hiper-054",
+          "sequence": 8,
+          "prompt": "Qual é a influência da insulina administrada antes da diálise?",
+          "explanation": "Seu efeito redistributivo pode contribuir para maior elevação posterior do potássio quando diminui.",
+          "reasoning_type": "pharmacology",
+          "competency_ids": [
+            "interpret_postdialysis_potassium_rebound"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Seu efeito redistributivo pode contribuir para maior elevação posterior do potássio quando diminui.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-054-r09",
+          "question_id": "aqz-hiper-054",
+          "sequence": 9,
+          "prompt": "Por que uma dosagem imediatamente após a diálise pode ser enganosa?",
+          "explanation": "Porque ainda não representa necessariamente o equilíbrio posterior entre os compartimentos corporais.",
+          "reasoning_type": "laboratory_timing",
+          "competency_ids": [
+            "interpret_postdialysis_potassium_rebound"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Porque ainda não representa necessariamente o equilíbrio posterior entre os compartimentos corporais.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-054-r10",
+          "question_id": "aqz-hiper-054",
+          "sequence": 10,
+          "prompt": "O potássio de 5,4 mEq/L exige automaticamente nova hemodiálise urgente?",
+          "explanation": "Não. A decisão depende do conjunto clínico, da evolução do potássio, do ECG e de outros fatores de risco.",
+          "reasoning_type": "therapeutic_prioritization",
+          "competency_ids": [
+            "interpret_postdialysis_potassium_rebound"
+          ],
+          "cognitive_operation": "prioritize",
+          "clinical_relevance": "Não. A decisão depende do conjunto clínico, da evolução do potássio, do ECG e de outros fatores de risco.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-054-r11",
+          "question_id": "aqz-hiper-054",
+          "sequence": 11,
+          "prompt": "Qual é a importância do ECG?",
+          "explanation": "Identificar manifestações elétricas que possam modificar a urgência das intervenções.",
+          "reasoning_type": "ecg_interpretation",
+          "competency_ids": [
+            "interpret_postdialysis_potassium_rebound"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Identificar manifestações elétricas que possam modificar a urgência das intervenções.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-054-r12",
+          "question_id": "aqz-hiper-054",
+          "sequence": 12,
+          "prompt": "O que deve ser investigado além do rebote fisiológico?",
+          "explanation": "Ingestão de potássio, medicamentos, adequação da diálise, intervalo entre sessões e possíveis fontes contínuas de liberação celular.",
+          "reasoning_type": "differential_diagnosis",
+          "competency_ids": [
+            "interpret_postdialysis_potassium_rebound"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Ingestão de potássio, medicamentos, adequação da diálise, intervalo entre sessões e possíveis fontes contínuas de liberação celular.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-054-r13",
+          "question_id": "aqz-hiper-054",
+          "sequence": 13,
+          "prompt": "Quando o rebote pode exigir intervenções adicionais?",
+          "explanation": "Quando houver recorrência importante da hipercalemia, alterações eletrocardiográficas, instabilidade ou outras condições que justifiquem tratamento.",
+          "reasoning_type": "clinical_reassessment",
+          "competency_ids": [
+            "interpret_postdialysis_potassium_rebound"
+          ],
+          "cognitive_operation": "reassess",
+          "clinical_relevance": "Quando houver recorrência importante da hipercalemia, alterações eletrocardiográficas, instabilidade ou outras condições que justifiquem tratamento.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-054-r14",
+          "question_id": "aqz-hiper-054",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Reconhecer o rebote pós-dialítico e interpretar a evolução do potássio sem confundir uma alteração esperada com falha obrigatória do tratamento.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "interpret_postdialysis_potassium_rebound"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Reconhecer o rebote pós-dialítico e interpretar a evolução do potássio sem confundir uma alteração esperada com falha obrigatória do tratamento.",
+          "prerequisite_concepts": []
+        }
+      ],
+      "clinical_pearl": "O potássio medido ao final da hemodiálise não conta toda a história. A redistribuição entre as células e o sangue continua depois que a máquina é desligada.",
+      "references": [
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate — seções “Dialysis” e discussão sobre *postdialysis rebound*."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "monitoring",
+        "clinical_context": "emergency_department",
+        "urgency_level": "post_emergency_monitoring",
+        "cognitive_level": "clinical_reasoning",
+        "editorial_status": "approved",
+        "scientific_review_required": false,
+        "scientific_review_notes": "O rebote pós-dialítico já foi abordado em blocos anteriores. A ênfase desta questão é interpretar a magnitude do rebote e evitar uma indicação automática de nova sessão sem reavaliação.",
+        "primary_competency": "interpret_postdialysis_potassium_rebound",
+        "secondary_competencies": [
+          "potassium_redistribution",
+          "serial_laboratory_interpretation",
+          "dialysis_reassessment"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "hemodialysis",
+          "rebound",
+          "insulin",
+          "potassium_redistribution"
+        ],
+        "related_lesson_ids": [
+          "f99d47de-7f1e-4079-98ed-1209390ea2df",
+          "3752db01-2371-4fec-8f6e-f7c2b9935390",
+          "96021101-3922-4cfe-876c-dbf6ee266915"
+        ],
+        "schema_version": 1,
+        "content_version": 1
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "post_treatment_monitoring",
+          "dialysis_physiology",
+          "serial_potassium_interpretation"
+        ],
+        "challenge_types": [
+          "clinical_decision",
+          "laboratory_trend_interpretation"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-055",
+      "numero": 55,
+      "titulo": "A alta está próxima. Como evitar que a hipercalemia volte?",
+      "dificuldade": "Avançada",
+      "competenciaPrincipal": "Planejar a prevenção de recorrência da hipercalemia",
+      "competenciasSecundarias": [
+        "discharge_planning",
+        "medication_reconciliation",
+        "patient_education",
+        "follow_up_monitoring"
+      ],
+      "aulasRelacionadas": [
+        {
+          "numero": 31,
+          "aulaId": "476e0681-324f-47e1-a8f8-217beb6672a0",
+          "moduloId": "157f5374-f948-436e-b3af-0fc4ff6d0d70"
+        },
+        {
+          "numero": 33,
+          "aulaId": "c68249e2-12f0-4c4b-ab2b-eb95898efb4a",
+          "moduloId": "157f5374-f948-436e-b3af-0fc4ff6d0d70"
+        },
+        {
+          "numero": 34,
+          "aulaId": "2f05cd3a-22d5-46fd-83ca-3e3c56fdd042",
+          "moduloId": "157f5374-f948-436e-b3af-0fc4ff6d0d70"
+        }
+      ],
+      "versao": "1.0",
+      "enunciado": "Uma mulher de 72 anos, com diabetes mellitus, doença renal crônica estágio G4 e hipertensão arterial, foi internada por hipercalemia de 6,7 mEq/L associada à piora transitória da função renal.\n\nDurante a internação, foram identificados desidratação, uso recente de anti-inflamatório e ingestão frequente de um suplemento nutricional contendo potássio.\n\nApós tratamento e correção dos fatores precipitantes, apresenta:\n\n- Potássio: 4,8 mEq/L.\n- Creatinina: 2,3 mg/dL, próxima ao basal.\n- Diurese preservada.\n- ECG sem alterações sugestivas de hipercalemia.\n- Estabilidade clínica.\n\nA equipe considera alta hospitalar.\n\nA paciente pergunta como evitar uma nova internação.\n\n**Qual plano de prevenção é mais adequado?**",
+      "alternativas": {
+        "A": "Orientar que a normalização do potássio significa cura definitiva, dispensando novas dosagens ou revisão de medicamentos.",
+        "B": "Recomendar suspensão de todos os alimentos que contenham potássio, independentemente das necessidades nutricionais e da função renal.",
+        "C": "Prescrever cálcio intravenoso periodicamente para impedir que o potássio volte a subir.",
+        "D": "Orientar prevenção individualizada, incluindo revisão de medicamentos e suplementos, identificação de fontes ocultas de potássio, aconselhamento alimentar, acompanhamento da função renal e dosagens periódicas de potássio, com plano de reavaliação diante de novas intercorrências."
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. Qual é a situação atual?**  \nA paciente apresentou melhora clínica e laboratorial após tratamento da hipercalemia e correção dos fatores precipitantes.\n\n**2. A normalização do potássio elimina o risco de recorrência?**  \nNão. A doença renal crônica continua representando predisposição à hipercalemia.\n\n**3. Quais fatores contribuíram para o episódio?**  \nDesidratação, uso de anti-inflamatório e ingestão adicional de potássio por suplemento nutricional.\n\n**4. Por que identificar esses fatores é importante?**  \nPorque são potencialmente modificáveis e podem contribuir para novos episódios.\n\n**5. Qual é a importância da revisão medicamentosa?**  \nEvitar ou ajustar, quando apropriado, medicamentos que comprometam a excreção de potássio.\n\n**6. Os suplementos nutricionais precisam ser investigados?**  \nSim. Alguns suplementos podem conter quantidades relevantes de potássio, mesmo quando o paciente não os reconhece como medicamentos.\n\n**7. Qual deve ser a abordagem alimentar?**  \nAconselhamento individualizado, considerando função renal, potássio sérico, padrão alimentar e necessidades nutricionais.\n\n**8. É adequado proibir indiscriminadamente todos os alimentos que contêm potássio?**  \nNão. Restrições excessivas podem prejudicar a qualidade nutricional e devem ser evitadas.\n\n**9. Qual é a importância da hidratação?**  \nA manutenção de uma condição volêmica adequada pode ajudar a preservar a perfusão renal, respeitando as limitações clínicas de cada paciente.\n\n**10. Por que monitorizar a função renal?**  \nPorque pioras da função renal podem reduzir a capacidade de excretar potássio.\n\n**11. Por que repetir periodicamente a dosagem de potássio?**  \nPara identificar recorrência antes que ocorram manifestações graves e avaliar a eficácia das medidas preventivas.\n\n**12. O acompanhamento deve ser igual para todos os pacientes?**  \nNão. A frequência das avaliações depende da função renal, dos medicamentos, da estabilidade clínica e do risco individual.\n\n**13. Qual orientação deve ser fornecida diante de novas intercorrências?**  \nProcurar reavaliação diante de doenças agudas, redução importante da diurese, desidratação, introdução de medicamentos potencialmente associados à hipercalemia ou sintomas preocupantes.\n\n**14. Qual é a importância da participação da paciente?**  \nCompreender os fatores de risco e reconhecer situações que exigem reavaliação melhora a segurança do acompanhamento.\n\n**15. Qual é a competência principal?**  \nConstruir um plano de prevenção individualizado que reduza o risco de recorrência da hipercalemia após a alta hospitalar.",
+      "comentarios": {
+        "A": "A normalização do potássio não elimina a predisposição associada à doença renal crônica.",
+        "B": "A restrição alimentar deve ser individualizada, evitando proibições indiscriminadas.",
+        "C": "O cálcio intravenoso não previne hipercalemia recorrente nem reduz o excesso corporal de potássio.",
+        "D": "Integra revisão medicamentosa, avaliação alimentar, monitorização laboratorial e educação para prevenção de novos episódios."
+      },
+      "perola": "A prevenção da hipercalemia começa antes da próxima emergência. Identifique o que fez o potássio subir, corrija o que for possível e ensine o paciente a reconhecer quando precisa ser reavaliado.",
+      "referencias": "*Treatment and prevention of hyperkalemia in adults*. UpToDate — seções “Prevention”, “Dietary modification” e “Patients who can have the serum potassium lowered slowly”.\n\n---\n\n# 4. METADADOS COMPLETOS DAS QUESTÕES\n\nOs metadados abaixo devem ser persistidos como dados estruturados e consultáveis, não apenas como comentários no código.\n\nUse os IDs reais de curso, quiz e aulas encontrados no repositório. Não invente relacionamentos.\n\n## 4.1. Catálogo de metadados\n\n| Campo | 051 | 052 | 053 | 054 | 055 |\n|---|---|---|---|---|---|\n| `difficulty` | intermediate | advanced | advanced | advanced | advanced |\n| `clinical_domain` | prevention | longitudinal_treatment | acute_treatment | monitoring | prevention |\n| `clinical_context` | outpatient | outpatient | emergency_department | emergency_department | hospital_discharge |\n| `urgency_level` | non_emergency | non_emergency | emergency | post_emergency_monitoring | non_emergency |\n| `cognitive_level` | clinical_reasoning | clinical_decision_making | therapeutic_prioritization | clinical_reasoning | clinical_decision_making |\n| `editorial_status` | approved | approved | approved | approved | approved |\n| `scientific_review_required` | false | true | false | false | false |",
+      "revisaoCientificaPendente": false,
+      "statusEditorial": "aprovado",
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 11,
+      "question_number": 55,
+      "stem": "Uma mulher de 72 anos, com diabetes mellitus, doença renal crônica estágio G4 e hipertensão arterial, foi internada por hipercalemia de 6,7 mEq/L associada à piora transitória da função renal.\n\nDurante a internação, foram identificados desidratação, uso recente de anti-inflamatório e ingestão frequente de um suplemento nutricional contendo potássio.\n\nApós tratamento e correção dos fatores precipitantes, apresenta:\n\n- Potássio: 4,8 mEq/L.\n- Creatinina: 2,3 mg/dL, próxima ao basal.\n- Diurese preservada.\n- ECG sem alterações sugestivas de hipercalemia.\n- Estabilidade clínica.\n\nA equipe considera alta hospitalar.\n\nA paciente pergunta como evitar uma nova internação.\n\n**Qual plano de prevenção é mais adequado?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-055-A",
+          "question_id": "aqz-hiper-055",
+          "letter": "A",
+          "text": "Orientar que a normalização do potássio significa cura definitiva, dispensando novas dosagens ou revisão de medicamentos.",
+          "is_correct": false,
+          "feedback": "A normalização do potássio não elimina a predisposição associada à doença renal crônica.",
+          "error_type": "failure_to_monitor",
+          "misconception_id": "normal_k_means_no_recurrence_risk",
+          "misconception_description": "Interpreta uma dosagem normal após o tratamento como ausência definitiva de risco de recorrência.",
+          "competency_ids": [
+            "design_hyperkalemia_recurrence_prevention_plan"
+          ],
+          "clinical_risk_if_applied": "Pode interromper vigilância laboratorial e deixar fatores de risco persistentes sem manejo."
+        },
+        {
+          "option_id": "aqz-hiper-055-B",
+          "question_id": "aqz-hiper-055",
+          "letter": "B",
+          "text": "Recomendar suspensão de todos os alimentos que contenham potássio, independentemente das necessidades nutricionais e da função renal.",
+          "is_correct": false,
+          "feedback": "A restrição alimentar deve ser individualizada, evitando proibições indiscriminadas.",
+          "error_type": "excessive_dietary_restriction",
+          "misconception_id": "all_potassium_foods_must_be_eliminated",
+          "misconception_description": "Propõe eliminar indiscriminadamente todos os alimentos com potássio, sem considerar nutrição e contexto renal.",
+          "competency_ids": [
+            "design_hyperkalemia_recurrence_prevention_plan"
+          ],
+          "clinical_risk_if_applied": "Pode causar restrição nutricional inadequada sem necessariamente abordar medicamentos, suplementos e intercorrências."
+        },
+        {
+          "option_id": "aqz-hiper-055-C",
+          "question_id": "aqz-hiper-055",
+          "letter": "C",
+          "text": "Prescrever cálcio intravenoso periodicamente para impedir que o potássio volte a subir.",
+          "is_correct": false,
+          "feedback": "O cálcio intravenoso não previne hipercalemia recorrente nem reduz o excesso corporal de potássio.",
+          "error_type": "inappropriate_preventive_treatment",
+          "misconception_id": "iv_calcium_prevents_recurrent_hyperkalemia",
+          "misconception_description": "Usa cálcio intravenoso como prevenção periódica da recorrência de hipercalemia.",
+          "competency_ids": [
+            "design_hyperkalemia_recurrence_prevention_plan"
+          ],
+          "clinical_risk_if_applied": "Pode expor a intervenções sem benefício preventivo e não remove o potássio nem corrige fatores precipitantes."
+        },
+        {
+          "option_id": "aqz-hiper-055-D",
+          "question_id": "aqz-hiper-055",
+          "letter": "D",
+          "text": "Orientar prevenção individualizada, incluindo revisão de medicamentos e suplementos, identificação de fontes ocultas de potássio, aconselhamento alimentar, acompanhamento da função renal e dosagens periódicas de potássio, com plano de reavaliação diante de novas intercorrências.",
+          "is_correct": true,
+          "feedback": "Integra revisão medicamentosa, avaliação alimentar, monitorização laboratorial e educação para prevenção de novos episódios.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "design_hyperkalemia_recurrence_prevention_plan"
+          ],
+          "clinical_risk_if_applied": null
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-055-r01",
+          "question_id": "aqz-hiper-055",
+          "sequence": 1,
+          "prompt": "Qual é a situação atual?",
+          "explanation": "A paciente apresentou melhora clínica e laboratorial após tratamento da hipercalemia e correção dos fatores precipitantes.",
+          "reasoning_type": "clinical_reassessment",
+          "competency_ids": [
+            "design_hyperkalemia_recurrence_prevention_plan"
+          ],
+          "cognitive_operation": "reassess",
+          "clinical_relevance": "A paciente apresentou melhora clínica e laboratorial após tratamento da hipercalemia e correção dos fatores precipitantes.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-055-r02",
+          "question_id": "aqz-hiper-055",
+          "sequence": 2,
+          "prompt": "A normalização do potássio elimina o risco de recorrência?",
+          "explanation": "Não. A doença renal crônica continua representando predisposição à hipercalemia.",
+          "reasoning_type": "recurrence_risk",
+          "competency_ids": [
+            "design_hyperkalemia_recurrence_prevention_plan"
+          ],
+          "cognitive_operation": "assess",
+          "clinical_relevance": "Não. A doença renal crônica continua representando predisposição à hipercalemia.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-055-r03",
+          "question_id": "aqz-hiper-055",
+          "sequence": 3,
+          "prompt": "Quais fatores contribuíram para o episódio?",
+          "explanation": "Desidratação, uso de anti-inflamatório e ingestão adicional de potássio por suplemento nutricional.",
+          "reasoning_type": "risk_factor_identification",
+          "competency_ids": [
+            "design_hyperkalemia_recurrence_prevention_plan"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Desidratação, uso de anti-inflamatório e ingestão adicional de potássio por suplemento nutricional.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-055-r04",
+          "question_id": "aqz-hiper-055",
+          "sequence": 4,
+          "prompt": "Por que identificar esses fatores é importante?",
+          "explanation": "Porque são potencialmente modificáveis e podem contribuir para novos episódios.",
+          "reasoning_type": "reversible_cause_management",
+          "competency_ids": [
+            "design_hyperkalemia_recurrence_prevention_plan"
+          ],
+          "cognitive_operation": "correct",
+          "clinical_relevance": "Porque são potencialmente modificáveis e podem contribuir para novos episódios.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-055-r05",
+          "question_id": "aqz-hiper-055",
+          "sequence": 5,
+          "prompt": "Qual é a importância da revisão medicamentosa?",
+          "explanation": "Evitar ou ajustar, quando apropriado, medicamentos que comprometam a excreção de potássio.",
+          "reasoning_type": "medication_reconciliation",
+          "competency_ids": [
+            "design_hyperkalemia_recurrence_prevention_plan"
+          ],
+          "cognitive_operation": "reconcile",
+          "clinical_relevance": "Evitar ou ajustar, quando apropriado, medicamentos que comprometam a excreção de potássio.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-055-r06",
+          "question_id": "aqz-hiper-055",
+          "sequence": 6,
+          "prompt": "Os suplementos nutricionais precisam ser investigados?",
+          "explanation": "Sim. Alguns suplementos podem conter quantidades relevantes de potássio, mesmo quando o paciente não os reconhece como medicamentos.",
+          "reasoning_type": "supplement_review",
+          "competency_ids": [
+            "design_hyperkalemia_recurrence_prevention_plan"
+          ],
+          "cognitive_operation": "review",
+          "clinical_relevance": "Sim. Alguns suplementos podem conter quantidades relevantes de potássio, mesmo quando o paciente não os reconhece como medicamentos.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-055-r07",
+          "question_id": "aqz-hiper-055",
+          "sequence": 7,
+          "prompt": "Qual deve ser a abordagem alimentar?",
+          "explanation": "Aconselhamento individualizado, considerando função renal, potássio sérico, padrão alimentar e necessidades nutricionais.",
+          "reasoning_type": "dietary_management",
+          "competency_ids": [
+            "design_hyperkalemia_recurrence_prevention_plan"
+          ],
+          "cognitive_operation": "individualize",
+          "clinical_relevance": "Aconselhamento individualizado, considerando função renal, potássio sérico, padrão alimentar e necessidades nutricionais.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-055-r08",
+          "question_id": "aqz-hiper-055",
+          "sequence": 8,
+          "prompt": "É adequado proibir indiscriminadamente todos os alimentos que contêm potássio?",
+          "explanation": "Não. Restrições excessivas podem prejudicar a qualidade nutricional e devem ser evitadas.",
+          "reasoning_type": "misconception_correction",
+          "competency_ids": [
+            "design_hyperkalemia_recurrence_prevention_plan"
+          ],
+          "cognitive_operation": "correct",
+          "clinical_relevance": "Não. Restrições excessivas podem prejudicar a qualidade nutricional e devem ser evitadas.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-055-r09",
+          "question_id": "aqz-hiper-055",
+          "sequence": 9,
+          "prompt": "Qual é a importância da hidratação?",
+          "explanation": "A manutenção de uma condição volêmica adequada pode ajudar a preservar a perfusão renal, respeitando as limitações clínicas de cada paciente.",
+          "reasoning_type": "volume_assessment",
+          "competency_ids": [
+            "design_hyperkalemia_recurrence_prevention_plan"
+          ],
+          "cognitive_operation": "assess",
+          "clinical_relevance": "A manutenção de uma condição volêmica adequada pode ajudar a preservar a perfusão renal, respeitando as limitações clínicas de cada paciente.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-055-r10",
+          "question_id": "aqz-hiper-055",
+          "sequence": 10,
+          "prompt": "Por que monitorizar a função renal?",
+          "explanation": "Porque pioras da função renal podem reduzir a capacidade de excretar potássio.",
+          "reasoning_type": "renal_monitoring",
+          "competency_ids": [
+            "design_hyperkalemia_recurrence_prevention_plan"
+          ],
+          "cognitive_operation": "monitor",
+          "clinical_relevance": "Porque pioras da função renal podem reduzir a capacidade de excretar potássio.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-055-r11",
+          "question_id": "aqz-hiper-055",
+          "sequence": 11,
+          "prompt": "Por que repetir periodicamente a dosagem de potássio?",
+          "explanation": "Para identificar recorrência antes que ocorram manifestações graves e avaliar a eficácia das medidas preventivas.",
+          "reasoning_type": "laboratory_follow_up",
+          "competency_ids": [
+            "design_hyperkalemia_recurrence_prevention_plan"
+          ],
+          "cognitive_operation": "monitor",
+          "clinical_relevance": "Para identificar recorrência antes que ocorram manifestações graves e avaliar a eficácia das medidas preventivas.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-055-r12",
+          "question_id": "aqz-hiper-055",
+          "sequence": 12,
+          "prompt": "O acompanhamento deve ser igual para todos os pacientes?",
+          "explanation": "Não. A frequência das avaliações depende da função renal, dos medicamentos, da estabilidade clínica e do risco individual.",
+          "reasoning_type": "individualized_care",
+          "competency_ids": [
+            "design_hyperkalemia_recurrence_prevention_plan"
+          ],
+          "cognitive_operation": "individualize",
+          "clinical_relevance": "Não. A frequência das avaliações depende da função renal, dos medicamentos, da estabilidade clínica e do risco individual.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-055-r13",
+          "question_id": "aqz-hiper-055",
+          "sequence": 13,
+          "prompt": "Qual orientação deve ser fornecida diante de novas intercorrências?",
+          "explanation": "Procurar reavaliação diante de doenças agudas, redução importante da diurese, desidratação, introdução de medicamentos potencialmente associados à hipercalemia ou sintomas preocupantes.",
+          "reasoning_type": "safety_netting",
+          "competency_ids": [
+            "design_hyperkalemia_recurrence_prevention_plan"
+          ],
+          "cognitive_operation": "plan",
+          "clinical_relevance": "Procurar reavaliação diante de doenças agudas, redução importante da diurese, desidratação, introdução de medicamentos potencialmente associados à hipercalemia ou sintomas preocupantes.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-055-r14",
+          "question_id": "aqz-hiper-055",
+          "sequence": 14,
+          "prompt": "Qual é a importância da participação da paciente?",
+          "explanation": "Compreender os fatores de risco e reconhecer situações que exigem reavaliação melhora a segurança do acompanhamento.",
+          "reasoning_type": "patient_education",
+          "competency_ids": [
+            "design_hyperkalemia_recurrence_prevention_plan"
+          ],
+          "cognitive_operation": "educate",
+          "clinical_relevance": "Compreender os fatores de risco e reconhecer situações que exigem reavaliação melhora a segurança do acompanhamento.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-055-r15",
+          "question_id": "aqz-hiper-055",
+          "sequence": 15,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Construir um plano de prevenção individualizado que reduza o risco de recorrência da hipercalemia após a alta hospitalar.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "design_hyperkalemia_recurrence_prevention_plan"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Construir um plano de prevenção individualizado que reduza o risco de recorrência da hipercalemia após a alta hospitalar.",
+          "prerequisite_concepts": []
+        }
+      ],
+      "clinical_pearl": "A prevenção da hipercalemia começa antes da próxima emergência. Identifique o que fez o potássio subir, corrija o que for possível e ensine o paciente a reconhecer quando precisa ser reavaliado.",
+      "references": [
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate — seções “Prevention”, “Dietary modification” e “Patients who can have the serum potassium lowered slowly”.\n\n---\n\n# 4. METADADOS COMPLETOS DAS QUESTÕES\n\nOs metadados abaixo devem ser persistidos como dados estruturados e consultáveis, não apenas como comentários no código.\n\nUse os IDs reais de curso, quiz e aulas encontrados no repositório. Não invente relacionamentos.\n\n## 4.1. Catálogo de metadados\n\n| Campo | 051 | 052 | 053 | 054 | 055 |\n|---|---|---|---|---|---|\n| `difficulty` | intermediate | advanced | advanced | advanced | advanced |\n| `clinical_domain` | prevention | longitudinal_treatment | acute_treatment | monitoring | prevention |\n| `clinical_context` | outpatient | outpatient | emergency_department | emergency_department | hospital_discharge |\n| `urgency_level` | non_emergency | non_emergency | emergency | post_emergency_monitoring | non_emergency |\n| `cognitive_level` | clinical_reasoning | clinical_decision_making | therapeutic_prioritization | clinical_reasoning | clinical_decision_making |\n| `editorial_status` | approved | approved | approved | approved | approved |\n| `scientific_review_required` | false | true | false | false | false |"
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "prevention",
+        "clinical_context": "hospital_discharge",
+        "urgency_level": "non_emergency",
+        "cognitive_level": "clinical_decision_making",
+        "editorial_status": "approved",
+        "scientific_review_required": false,
+        "scientific_review_notes": null,
+        "primary_competency": "design_hyperkalemia_recurrence_prevention_plan",
+        "secondary_competencies": [
+          "discharge_planning",
+          "medication_reconciliation",
+          "patient_education",
+          "follow_up_monitoring"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "ckd",
+          "discharge",
+          "prevention",
+          "nsaids",
+          "potassium_supplements"
+        ],
+        "related_lesson_ids": [
+          "476e0681-324f-47e1-a8f8-217beb6672a0",
+          "c68249e2-12f0-4c4b-ab2b-eb95898efb4a",
+          "2f05cd3a-22d5-46fd-83ca-3e3c56fdd042"
+        ],
+        "schema_version": 1,
+        "content_version": 1
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "hyperkalemia_prevention",
+          "safe_discharge",
+          "risk_factor_management"
+        ],
+        "challenge_types": [
+          "clinical_decision",
+          "discharge_planning"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    }
+  ]
+}

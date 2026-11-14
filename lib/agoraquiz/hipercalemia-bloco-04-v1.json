@@ -1,0 +1,266 @@
+{
+  "cursoId": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+  "cursoOrigem": "Tratamento da Hipercalemia em Adultos",
+  "bancoOrigem": "AgoraQuiz Hipercalemia",
+  "bloco": "04",
+  "temaEditorial": "Redistribuição intracelular do potássio",
+  "questoes": [
+    {
+      "id": "aqz-hiper-016",
+      "numero": 16,
+      "titulo": "O POTÁSSIO CAIU. MAS PARA ONDE ELE FOI?",
+      "dificuldade": "Intermediária.",
+      "competenciaPrincipal": "Compreender o mecanismo de redistribuição intracelular do potássio pela insulina.",
+      "competenciasSecundarias": "Na⁺/K⁺-ATPase; transporte transcelular; função renal; diferença entre redistribuição e remoção; risco de recorrência.",
+      "eixoTematico": "Insulina e redistribuição intracelular.",
+      "categoria": "Redistribuição intracelular do potássio",
+      "subtemas": "Na⁺/K⁺-ATPase; transporte transcelular; função renal; diferença entre redistribuição e remoção; risco de recorrência.",
+      "aulasRelacionadas": [
+        {
+          "numero": 13,
+          "aulaId": "744bc45c-cae3-42d5-a7aa-9b9ca0e85044",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 14,
+          "aulaId": "2df7a533-2188-425f-a045-0b3520bd5741",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 15,
+          "aulaId": "759984ad-df44-4a0a-9543-3c3602e75e5e",
+          "moduloId": "26bdbea9-55a7-4549-b922-4fd1db60f887"
+        }
+      ],
+      "tipo": "Caso clínico de interpretação fisiológica e terapêutica.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0.",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 62 anos, com doença renal crônica avançada, procura a emergência por fraqueza muscular.\n\nOs exames mostram:\n\n- Potássio: 6,8 mEq/L.\n- Creatinina: 4,6 mg/dL.\n- Glicemia: 128 mg/dL.\n- ECG: ondas T apiculadas.\n\nApós estabilização cardíaca com cálcio intravenoso, recebe insulina regular intravenosa associada à glicose.\n\nUma hora depois, o potássio sérico é de 5,7 mEq/L.\n\nUm estudante afirma que a insulina foi eficaz porque aumentou a eliminação renal de potássio.\n\n**Qual interpretação explica corretamente o resultado?**",
+      "alternativas": {
+        "A": "A insulina aumenta diretamente a filtração glomerular e acelera a excreção urinária de potássio, mesmo na insuficiência renal avançada.",
+        "B": "A insulina estimula a Na⁺/K⁺-ATPase, principalmente no músculo esquelético, promovendo deslocamento temporário de potássio para o meio intracelular, sem removê-lo do organismo.",
+        "C": "A insulina neutraliza quimicamente o potássio extracelular, transformando-o em uma substância eletricamente inativa.",
+        "D": "A redução do potássio após insulina comprova que o excesso corporal foi eliminado, tornando desnecessárias outras estratégias terapêuticas.\n\n**GABARITO: B**"
+      },
+      "gabarito": "B",
+      "raciocinioClinico": "**1. Qual é o objetivo da insulina na hipercalemia?**\n\nReduzir rapidamente a concentração extracelular de potássio por redistribuição para o interior das células.\n\n**2. Qual mecanismo produz esse efeito?**\n\nA insulina aumenta a atividade da bomba Na⁺/K⁺-ATPase, especialmente no músculo esquelético, favorecendo a entrada de potássio nas células.\n\n**3. O efeito depende da redução da glicemia?**\n\nNão. O efeito sobre a distribuição do potássio decorre da ação da insulina sobre o transporte celular de íons. A glicose é administrada principalmente para reduzir o risco de hipoglicemia.\n\n**4. Por que o músculo esquelético é importante?**\n\nPorque representa uma grande massa celular capaz de captar potássio do compartimento extracelular.\n\n**5. Quanto o potássio pode diminuir?**\n\nO material-base descreve redução aproximada de 1 mEq/L com um esquema de insulina regular intravenosa, embora a resposta individual varie.\n\n**6. A insulina remove potássio do organismo?**\n\nNão. Ela modifica temporariamente sua distribuição entre os compartimentos intra e extracelular.\n\n**7. Por que o potássio pode voltar a subir?**\n\nPorque a ação redistributiva diminui com o tempo. Se o excesso corporal persistir, pode ocorrer elevação posterior da concentração sérica.\n\n**8. Qual é a importância da função renal?**\n\nNa disfunção renal avançada, a capacidade de excreção de potássio está comprometida. Portanto, a redução inicial após insulina não significa resolução definitiva.\n\n**9. Qual é o papel do cálcio administrado inicialmente?**\n\nEstabilizar eletricamente o coração. Diferentemente da insulina, o cálcio não reduz a concentração sérica de potássio.\n\n**10. O que precisa acontecer depois?**\n\nO paciente necessita de reavaliação clínica e laboratorial, monitorização e uma estratégia de remoção efetiva de potássio, conforme sua função renal e gravidade.\n\n**11. Qual é o erro conceitual do estudante?**\n\nConfundir redução da concentração sérica com eliminação do potássio corporal.\n\n**12. Qual é a principal competência avaliada?**\n\nDistinguir estabilização cardíaca, redistribuição intracelular e remoção efetiva de potássio.",
+      "comentarios": {
+        "A": "A principal ação da insulina na hipercalemia não é aumentar a filtração glomerular ou a excreção renal.",
+        "B": "Descreve o mecanismo celular e reconhece que a redução do potássio sérico é temporária e não corresponde à eliminação corporal.",
+        "C": "A insulina não neutraliza quimicamente o potássio. Ela modifica seu transporte através da membrana celular.",
+        "D": "A redução sérica não comprova eliminação do excesso corporal, especialmente em pacientes com insuficiência renal avançada."
+      },
+      "perola": "A insulina não elimina potássio: ela muda o potássio de lugar. O exame pode melhorar antes de o problema estar resolvido.",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeção: Insulin with glucose.\n\n---"
+    },
+    {
+      "id": "aqz-hiper-017",
+      "numero": 17,
+      "titulo": "A GLICEMIA ESTAVA NORMAL. TRÊS HORAS DEPOIS, O PACIENTE PIOROU",
+      "dificuldade": "Avançada.",
+      "competenciaPrincipal": "Prevenir e reconhecer hipoglicemia tardia após insulina intravenosa para hipercalemia.",
+      "competenciasSecundarias": "Doença renal; depuração de insulina; suplementação de glicose; monitorização glicêmica; segurança terapêutica.",
+      "eixoTematico": "Hipoglicemia tardia e monitorização.",
+      "categoria": "Redistribuição intracelular do potássio",
+      "subtemas": "Doença renal; depuração de insulina; suplementação de glicose; monitorização glicêmica; segurança terapêutica.",
+      "aulasRelacionadas": [
+        {
+          "numero": 14,
+          "aulaId": "2df7a533-2188-425f-a045-0b3520bd5741",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 15,
+          "aulaId": "759984ad-df44-4a0a-9543-3c3602e75e5e",
+          "moduloId": "26bdbea9-55a7-4549-b922-4fd1db60f887"
+        },
+        {
+          "numero": 16,
+          "aulaId": "15e2011c-d795-4343-b8a6-e3d6c00a57d4",
+          "moduloId": "26bdbea9-55a7-4549-b922-4fd1db60f887"
+        }
+      ],
+      "tipo": "Caso clínico de prevenção de complicação terapêutica.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0.",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Uma mulher de 73 anos, com doença renal crônica avançada, é tratada por hipercalemia grave.\n\nApresentava glicemia inicial de 112 mg/dL e recebeu 10 unidades de insulina regular intravenosa, acompanhadas de 25 g de glicose intravenosa.\n\nUma hora após o tratamento, o potássio caiu de 6,9 para 5,8 mEq/L e a glicemia era de 148 mg/dL.\n\nA equipe considera suspender as verificações glicêmicas.\n\nTrês horas após a administração, a paciente apresenta sudorese, confusão mental e glicemia capilar de 43 mg/dL.\n\n**Qual estratégia teria sido mais adequada para reduzir o risco dessa complicação?**",
+      "alternativas": {
+        "A": "Administrar insulina sem glicose em todos os pacientes com doença renal crônica, pois a redução da excreção renal impede hipoglicemia.",
+        "B": "Considerar suficiente uma glicemia normal na primeira hora, pois o risco de hipoglicemia termina quando o potássio começa a diminuir.",
+        "C": "Manter monitorização glicêmica seriada por aproximadamente cinco a seis horas após a insulina e considerar suplementação continuada de glicose conforme o protocolo e o risco individual, especialmente em pacientes com disfunção renal.",
+        "D": "Evitar qualquer utilização de insulina em pacientes com insuficiência renal, independentemente da gravidade da hipercalemia.\n\n**GABARITO: C**"
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. Qual complicação ocorreu?**\n\nHipoglicemia sintomática tardia após a administração intravenosa de insulina para hipercalemia.\n\n**2. Por que a insulina pode causar hipoglicemia?**\n\nPorque estimula a captação e a utilização de glicose pelos tecidos, mesmo depois de produzir o efeito desejado sobre o potássio.\n\n**3. Por que o bolus inicial de glicose pode ser insuficiente?**\n\nA glicose administrada inicialmente pode ser consumida antes de cessar o efeito metabólico da insulina.\n\n**4. Qual é o papel da doença renal?**\n\nA redução da depuração de insulina pode prolongar sua ação, aumentando o risco de hipoglicemia tardia.\n\n**5. Por que a glicemia de 148 mg/dL na primeira hora não tranquiliza?**\n\nPorque demonstra apenas a concentração naquele momento. Não exclui queda posterior.\n\n**6. Qual é a janela de monitorização descrita no material-base?**\n\nO UpToDate recomenda verificações de glicose a cada hora por aproximadamente cinco a seis horas após a administração de insulina.\n\n**7. Como reduzir o risco de hipoglicemia?**\n\nAlém do bolus inicial de glicose, a referência recomenda considerar infusão de glicose a 10% a 50–75 mL/h, acompanhada de monitorização glicêmica.\n\n**8. Todos os pacientes devem receber exatamente o mesmo volume de glicose?**\n\nNão. O esquema precisa considerar glicemia inicial, risco de hipoglicemia, estado volêmico, função renal e protocolo institucional.\n\n**9. Por que o estado volêmico importa?**\n\nPacientes com insuficiência renal avançada podem apresentar limitações para infusão de líquidos. A prevenção da hipoglicemia deve considerar também o risco de sobrecarga volêmica.\n\n**10. Reduzir a dose de insulina é uma alternativa?**\n\nO material-base discute esquemas de 5 e 10 unidades. Doses menores podem reduzir hipoglicemia em alguns contextos, mas a escolha precisa considerar a gravidade da hipercalemia e a resposta esperada.\n\n**11. O que fazer quando a hipoglicemia já ocorreu?**\n\nTratar prontamente a hipoglicemia conforme o estado clínico e o protocolo institucional, mantendo reavaliações porque a ação da insulina pode persistir.\n\n**12. Qual é a competência central?**\n\nReconhecer que a segurança do tratamento não termina quando o potássio diminui e que a hipoglicemia pode ocorrer horas depois.",
+      "comentarios": {
+        "A": "A disfunção renal não protege contra hipoglicemia; pode aumentar o risco por prolongar a ação da insulina.",
+        "B": "Uma glicemia normal na primeira hora não exclui hipoglicemia tardia.",
+        "C": "Reconhece a necessidade de monitorização prolongada e suplementação de glicose individualizada.",
+        "D": "A insulina é uma ferramenta importante na emergência hipercalêmica, inclusive em pacientes com disfunção renal, desde que sejam adotados cuidados apropriados."
+      },
+      "perola": "O potássio pode melhorar na primeira hora, mas a hipoglicemia pode aparecer várias horas depois. O tratamento só é seguro quando a monitorização acompanha a duração do risco.",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeções: Insulin with glucose; Monitoring.\n\n---"
+    },
+    {
+      "id": "aqz-hiper-018",
+      "numero": 18,
+      "titulo": "GLICEMIA DE 340 MG/DL: A GLICOSE É OBRIGATÓRIA?",
+      "dificuldade": "Avançada.",
+      "competenciaPrincipal": "Individualizar a administração de glicose associada à insulina em pacientes hiperglicêmicos.",
+      "competenciasSecundarias": "Hiperglicemia; insulina intravenosa; risco de hipoglicemia tardia; função renal; monitorização.",
+      "eixoTematico": "Individualização da glicose na hiperglicemia.",
+      "categoria": "Redistribuição intracelular do potássio",
+      "subtemas": "Hiperglicemia; insulina intravenosa; risco de hipoglicemia tardia; função renal; monitorização.",
+      "aulasRelacionadas": [
+        {
+          "numero": 14,
+          "aulaId": "2df7a533-2188-425f-a045-0b3520bd5741",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 15,
+          "aulaId": "759984ad-df44-4a0a-9543-3c3602e75e5e",
+          "moduloId": "26bdbea9-55a7-4549-b922-4fd1db60f887"
+        },
+        {
+          "numero": 16,
+          "aulaId": "15e2011c-d795-4343-b8a6-e3d6c00a57d4",
+          "moduloId": "26bdbea9-55a7-4549-b922-4fd1db60f887"
+        }
+      ],
+      "tipo": "Caso clínico de decisão farmacológica.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0.",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 57 anos, com diabetes mellitus tipo 2 e doença renal crônica, chega à emergência por fraqueza intensa.\n\nApresenta:\n\n- PA: 142/86 mmHg.\n- FC: 92 bpm.\n- Potássio: 6,8 mEq/L.\n- Glicemia: 340 mg/dL.\n- Creatinina: 3,6 mg/dL.\n- ECG: ondas T apiculadas e prolongamento do intervalo PR.\n\nApós iniciar a abordagem emergencial, a equipe decide utilizar insulina intravenosa para promover a redistribuição intracelular do potássio.\n\nUm profissional afirma que a administração de 25 g de glicose é obrigatória em todos os pacientes que recebem insulina para hipercalemia, independentemente da glicemia inicial.\n\n**Qual é a decisão mais adequada?**",
+      "alternativas": {
+        "A": "A insulina pode ser administrada inicialmente sem glicose adicional quando a glicemia é igual ou superior a 250 mg/dL, conforme o esquema descrito na referência, mantendo monitorização glicêmica porque a hipoglicemia posterior continua possível.",
+        "B": "A glicose deve obrigatoriamente acompanhar toda administração de insulina, mesmo quando a glicemia ultrapassa 300 mg/dL, pois a insulina não funciona sem glicose intravenosa.",
+        "C": "A hiperglicemia impede a entrada de potássio nas células, tornando a insulina ineficaz nesse contexto.",
+        "D": "A glicemia elevada protege definitivamente contra hipoglicemia, permitindo administrar insulina sem monitorização posterior.\n\n**GABARITO: A**"
+      },
+      "gabarito": "A",
+      "raciocinioClinico": "**1. Por que administramos glicose junto à insulina?**\n\nPrincipalmente para prevenir hipoglicemia. A glicose não é necessária para ativar o efeito da insulina sobre a Na⁺/K⁺-ATPase.\n\n**2. O paciente já apresenta glicose circulante elevada?**\n\nSim. A glicemia de 340 mg/dL está significativamente acima da faixa habitual, modificando a necessidade de suplementação inicial.\n\n**3. Qual é a recomendação do material-base?**\n\nO UpToDate descreve a administração inicial de insulina sem glicose adicional quando a glicemia sérica é igual ou superior a 250 mg/dL.\n\n**4. Isso significa que a glicose nunca será necessária posteriormente?**\n\nNão. A necessidade de glicose pode mudar durante o acompanhamento, conforme a glicemia diminui e a ação da insulina persiste.\n\n**5. A insulina continua reduzindo o potássio nesse paciente?**\n\nSim. A insulina promove captação intracelular de potássio mesmo quando o paciente apresenta hiperglicemia.\n\n**6. Por que a hiperglicemia inicial não elimina o risco de hipoglicemia?**\n\nPorque a glicemia é dinâmica. O efeito metabólico da insulina pode continuar por horas, particularmente quando há disfunção renal.\n\n**7. Qual é a importância da função renal?**\n\nA insuficiência renal pode prolongar a exposição à insulina e aumentar o risco de hipoglicemia tardia.\n\n**8. Como monitorizar?**\n\nRealizar verificações seriadas de glicemia, aproximadamente a cada hora por cinco a seis horas, conforme a referência e a evolução clínica.\n\n**9. O que fazer se a glicemia diminuir?**\n\nReavaliar a necessidade de suplementação de glicose e tratar prontamente qualquer hipoglicemia, seguindo o protocolo assistencial.\n\n**10. É necessário avaliar outras causas da hiperglicemia?**\n\nSim. A avaliação deve considerar o estado metabólico global, inclusive a possibilidade de cetoacidose diabética ou estado hiperosmolar quando clinicamente pertinente. Esses diagnósticos exigem protocolos próprios.\n\n**11. Qual é o erro da afirmação apresentada?**\n\nTransformar uma medida preventiva, geralmente necessária, em uma regra invariável, ignorando a glicemia inicial.\n\n**12. Qual é a competência central?**\n\nIndividualizar a associação entre insulina e glicose sem comprometer o tratamento da hipercalemia ou a segurança glicêmica.",
+      "comentarios": {
+        "A": "Reconhece o limiar descrito na referência e preserva a necessidade de monitorização posterior.",
+        "B": "A glicose adicional inicial não é obrigatória em todos os pacientes. Sua administração depende da glicemia e do contexto.",
+        "C": "A hiperglicemia não torna a insulina incapaz de estimular a captação celular de potássio.",
+        "D": "Glicemia inicialmente elevada não garante proteção contra hipoglicemia tardia."
+      },
+      "perola": "A glicose acompanha a insulina para proteger o paciente da hipoglicemia, não para fazer a insulina funcionar. Glicemia inicial elevada modifica a prescrição, mas não dispensa monitorização.",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeção: Insulin with glucose.\n\n---"
+    },
+    {
+      "id": "aqz-hiper-019",
+      "numero": 19,
+      "titulo": "O SALBUTAMOL SUBSTITUI A INSULINA?",
+      "dificuldade": "Intermediária.",
+      "competenciaPrincipal": "Reconhecer o papel complementar do salbutamol na redistribuição intracelular de potássio.",
+      "competenciasSecundarias": "Agonistas beta-2; Na⁺/K⁺-ATPase; resposta variável; terapia adjuvante; hemodiálise; segurança cardiovascular.",
+      "eixoTematico": "Agonistas beta-2 e tratamento complementar.",
+      "categoria": "Redistribuição intracelular do potássio",
+      "subtemas": "Agonistas beta-2; Na⁺/K⁺-ATPase; resposta variável; terapia adjuvante; hemodiálise; segurança cardiovascular.",
+      "aulasRelacionadas": [
+        {
+          "numero": 14,
+          "aulaId": "2df7a533-2188-425f-a045-0b3520bd5741",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 17,
+          "aulaId": "4b0ded9e-0a2a-448f-a490-0da2c454a8c3",
+          "moduloId": "26bdbea9-55a7-4549-b922-4fd1db60f887"
+        },
+        {
+          "numero": 18,
+          "aulaId": "2b2fea5a-d236-4baf-a357-21305d623d04",
+          "moduloId": "26bdbea9-55a7-4549-b922-4fd1db60f887"
+        }
+      ],
+      "tipo": "Caso clínico de decisão terapêutica integradora.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0.",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 64 anos, com doença renal terminal em hemodiálise, apresenta potássio de 7,0 mEq/L e alterações eletrocardiográficas compatíveis com hipercalemia.\n\nRecebe cálcio intravenoso e insulina regular associada à glicose. A equipe organiza hemodiálise urgente.\n\nComo o potássio permanece elevado e a diálise ainda não foi iniciada, considera-se acrescentar salbutamol nebulizado.\n\nUm profissional sugere suspender as outras medidas e utilizar exclusivamente salbutamol, por acreditar que ele elimina potássio de forma definitiva.\n\n**Qual afirmação é mais adequada?**",
+      "alternativas": {
+        "A": "O salbutamol promove excreção renal imediata de potássio, sendo especialmente eficaz como tratamento definitivo em pacientes anúricos.",
+        "B": "O salbutamol atua exclusivamente como broncodilatador e não modifica a distribuição celular do potássio.",
+        "C": "O salbutamol substitui o cálcio intravenoso quando existem alterações eletrocardiográficas graves, pois ambos possuem o mesmo mecanismo.",
+        "D": "O salbutamol estimula a captação intracelular de potássio por ação beta-2-adrenérgica e pode complementar a insulina, mas apresenta resposta variável e não substitui a estabilização cardíaca nem a remoção efetiva de potássio.\n\n**GABARITO: D**"
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. Por que um broncodilatador pode reduzir o potássio?**\n\nPorque a estimulação beta-2-adrenérgica também modifica o transporte celular de potássio, especialmente no músculo esquelético.\n\n**2. Qual é o mecanismo principal?**\n\nO salbutamol estimula a atividade da Na⁺/K⁺-ATPase, favorecendo o deslocamento de potássio para o interior das células.\n\n**3. Esse mecanismo é semelhante ao da insulina?**\n\nAmbos favorecem a redistribuição intracelular, mas por vias de sinalização distintas.\n\n**4. Os efeitos podem ser associados?**\n\nSim. O material-base descreve efeito aditivo da associação de salbutamol com insulina e glicose.\n\n**5. Qual redução do potássio pode ser observada?**\n\nA referência descreve reduções aproximadas de 0,5 a 1,5 mEq/L com agonistas beta-2, embora a resposta seja variável.\n\n**6. Qual é a dose nebulizada descrita para tratamento da hipercalemia?**\n\nO UpToDate descreve salbutamol de 10 a 20 mg por nebulização, dose significativamente maior que a usualmente empregada para broncodilatação.\n\n**7. Por que a dose é diferente da utilizada na asma?**\n\nPorque o objetivo é obter efeito sistêmico suficiente para favorecer a redistribuição do potássio, e não apenas broncodilatação.\n\n**8. O efeito ocorre imediatamente?**\n\nNão. A referência descreve pico de efeito em aproximadamente 90 minutos após nebulização.\n\n**9. Todos os pacientes respondem da mesma maneira?**\n\nNão. Existe variabilidade de resposta, incluindo pacientes com resposta insuficiente. Por isso, o salbutamol não deve ser utilizado isoladamente como estratégia principal.\n\n**10. Quais efeitos adversos precisam ser considerados?**\n\nTaquicardia, palpitações, tremores e possíveis repercussões cardiovasculares, especialmente em pacientes suscetíveis.\n\n**11. O salbutamol remove potássio do organismo?**\n\nNão. Assim como a insulina, promove redistribuição temporária.\n\n**12. Qual é a importância da hemodiálise neste caso?**\n\nEm um paciente com doença renal terminal e hipercalemia grave, a hemodiálise permite remoção efetiva de potássio.\n\n**13. Por que não suspender o cálcio e a insulina?**\n\nPorque as intervenções têm objetivos complementares. O cálcio protege eletricamente, a insulina reduz rapidamente o potássio extracelular e a diálise remove potássio.\n\n**14. Qual é a principal competência avaliada?**\n\nReconhecer o salbutamol como possível terapia adjuvante, evitando atribuir-lhe capacidade de estabilização cardíaca ou eliminação definitiva de potássio.",
+      "comentarios": {
+        "A": "O salbutamol não promove eliminação renal imediata de potássio. Seu efeito é redistributivo.",
+        "B": "Além da broncodilatação, a estimulação beta-2 influencia a captação celular de potássio.",
+        "C": "O salbutamol não substitui a estabilização cardíaca com cálcio, pois os mecanismos e objetivos são distintos.",
+        "D": "Reconhece o mecanismo beta-2-adrenérgico, o papel complementar, a variabilidade da resposta e a necessidade de tratamento definitivo."
+      },
+      "perola": "O salbutamol pode ajudar a reduzir o potássio, mas não elimina seu excesso corporal. É um reforço à redistribuição, não um substituto da estabilização cardíaca ou da hemodiálise quando indicada.",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeção: Beta-2-adrenergic agonists.\n\n---"
+    },
+    {
+      "id": "aqz-hiper-020",
+      "numero": 20,
+      "titulo": "HIPERCALEMIA E ACIDOSE: BICARBONATO PARA TODOS?",
+      "dificuldade": "Avançada.",
+      "competenciaPrincipal": "Avaliar o papel do bicarbonato de sódio no tratamento da hipercalemia conforme o contexto ácido-base.",
+      "competenciasSecundarias": "Acidose metabólica; interpretação de gasometria; terapias adjuvantes; riscos de sódio e volume; insuficiência renal; individualização terapêutica.",
+      "eixoTematico": "Bicarbonato e acidose metabólica.",
+      "categoria": "Redistribuição intracelular do potássio",
+      "subtemas": "Acidose metabólica; interpretação de gasometria; terapias adjuvantes; riscos de sódio e volume; insuficiência renal; individualização terapêutica.",
+      "aulasRelacionadas": [
+        {
+          "numero": 14,
+          "aulaId": "2df7a533-2188-425f-a045-0b3520bd5741",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 18,
+          "aulaId": "2b2fea5a-d236-4baf-a357-21305d623d04",
+          "moduloId": "26bdbea9-55a7-4549-b922-4fd1db60f887"
+        },
+        {
+          "numero": 19,
+          "aulaId": "8d71d49a-70b9-4078-8d4c-6235d04caeea",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        }
+      ],
+      "tipo": "Caso clínico comparativo de decisão terapêutica.",
+      "statusEditorial": "Aprovada, com conferência científica específica recomendada.",
+      "versao": "1.0.",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Dois pacientes apresentam hipercalemia durante atendimento na emergência.\n\n**Paciente A:** homem de 60 anos, com doença renal crônica avançada, potássio de 6,7 mEq/L, pH de 7,38 e bicarbonato sérico de 23 mEq/L. Não apresenta acidose metabólica.\n\n**Paciente B:** mulher de 68 anos, com lesão renal aguda, potássio de 6,8 mEq/L, pH de 7,12 e bicarbonato sérico de 10 mEq/L. Apresenta acidose metabólica importante.\n\nAmbos recebem avaliação e tratamento apropriados para hipercalemia grave.\n\nUm estudante sugere administrar bicarbonato de sódio intravenoso rotineiramente aos dois pacientes, pois acredita que ele reduz o potássio com a mesma previsibilidade da insulina.\n\n**Qual é a interpretação mais adequada?**",
+      "alternativas": {
+        "A": "O bicarbonato intravenoso deve ser administrado a todos os pacientes com potássio acima de 6,5 mEq/L, independentemente do estado ácido-base.",
+        "B": "O bicarbonato não deve ser utilizado rotineiramente como substituto das terapias principais para hipercalemia; sua utilização pode ser considerada em situações selecionadas de acidose metabólica significativa, levando em conta a causa da acidose, o estado volêmico e os riscos da administração.",
+        "C": "A presença de acidose metabólica torna desnecessária a administração de insulina, pois o bicarbonato sempre produz redução mais rápida e previsível do potássio.",
+        "D": "O bicarbonato remove diretamente potássio do organismo, sendo equivalente à hemodiálise em pacientes com insuficiência renal grave.\n\n**GABARITO: B**"
+      },
+      "gabarito": "B",
+      "raciocinioClinico": "**1. Por que o bicarbonato é considerado no tratamento da hipercalemia?**\n\nPorque alterações do equilíbrio ácido-base podem influenciar a distribuição transcelular de potássio. Em determinadas condições, a correção da acidose pode favorecer redução do potássio extracelular.\n\n**2. O bicarbonato apresenta efeito tão previsível quanto a insulina?**\n\nNão. Sua resposta sobre o potássio é menos consistente e depende do contexto metabólico.\n\n**3. Qual é a principal diferença entre os dois pacientes?**\n\nO paciente A não apresenta acidose metabólica, enquanto a paciente B apresenta acidemia importante associada à redução do bicarbonato.\n\n**4. Por que essa diferença importa?**\n\nPorque o benefício potencial da administração de bicarbonato é mais plausível em determinados pacientes com acidose metabólica significativa do que em pacientes sem acidose.\n\n**5. A acidose sempre causa hipercalemia?**\n\nNão. A relação entre acidose e potássio depende do tipo de acidose, dos mecanismos de transporte celular, da função renal e de outras condições metabólicas.\n\n**6. Toda acidose metabólica deve ser tratada com bicarbonato intravenoso?**\n\nNão. A decisão depende da etiologia, gravidade, repercussões clínicas e riscos associados. A correção da causa é fundamental.\n\n**7. Por que o bicarbonato não deve substituir a insulina?**\n\nPorque a insulina apresenta efeito redistributivo mais estabelecido na abordagem emergencial da hipercalemia, enquanto o bicarbonato tem resposta variável.\n\n**8. O bicarbonato substitui o cálcio?**\n\nNão. Quando há indicação de estabilização cardíaca, o bicarbonato não desempenha a mesma função do cálcio intravenoso.\n\n**9. O bicarbonato remove potássio do organismo?**\n\nNão diretamente. Qualquer efeito inicial sobre a concentração sérica não deve ser confundido com remoção efetiva do excesso corporal.\n\n**10. Quais riscos precisam ser considerados?**\n\nA administração de bicarbonato de sódio pode aumentar a carga de sódio e o volume administrado, além de produzir alterações do equilíbrio ácido-base e da concentração de cálcio ionizado.\n\n**11. Por que a função renal importa?**\n\nPacientes com disfunção renal podem ter menor capacidade de manejar cargas de sódio e volume, além de apresentar dificuldade na eliminação do potássio.\n\n**12. Qual seria a abordagem conceitual do paciente A?**\n\nPriorizar as medidas estabelecidas para hipercalemia grave, sem incluir bicarbonato rotineiramente apenas pelo valor elevado do potássio.\n\n**13. E no paciente B?**\n\nTratar a hipercalemia grave e avaliar, separadamente, a necessidade de bicarbonato para a acidose metabólica significativa, considerando sua causa e as condições clínicas.\n\n**14. Qual é a competência central?**\n\nIndividualizar o uso do bicarbonato e reconhecer que uma terapia potencialmente útil em circunstâncias específicas não deve ser transformada em tratamento universal.",
+      "comentarios": {
+        "A": "O bicarbonato não é indicado rotineiramente apenas porque o potássio ultrapassa determinado valor.",
+        "B": "Reconhece o papel seletivo do bicarbonato, a importância da acidose metabólica e a necessidade de avaliar riscos e benefícios.",
+        "C": "A acidose não torna a insulina desnecessária. O bicarbonato não apresenta redução do potássio tão consistente quanto a insulina.",
+        "D": "O bicarbonato não equivale à hemodiálise nem remove diretamente o excesso corporal de potássio."
+      },
+      "perola": "Bicarbonato não é tratamento universal da hipercalemia. Antes de prescrevê-lo, pergunte qual é o distúrbio ácido-base, por que ele existe e qual benefício concreto se espera da intervenção.",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeções: Other therapies; Sodium bicarbonate.",
+      "observacaoCientificaEditorial": "Conferir especificamente:\n\n- Evidência do bicarbonato para redução aguda do potássio.\n- Diferenças de resposta conforme o tipo de acidose.\n- Indicações em acidose metabólica significativa.\n- Possíveis repercussões sobre cálcio ionizado.\n- Riscos de sobrecarga de sódio e volume.\n- Diferença entre tratar acidose metabólica e tratar hipercalemia.\n- Papel do bicarbonato como adjuvante, e não substituto de intervenções prioritárias.\n\nNão modificar silenciosamente o conteúdo aprovado.\n\nRegistrar qualquer divergência científica identificada para avaliação editorial.\n\n---\n\n# 5. METADADOS OBRIGATÓRIOS\n\nCada questão deverá possuir:\n\n- `question_id`: identificador estável.\n- `source_bank`: AgoraQuiz.\n- `source_course`: Tratamento da Hipercalemia em Adultos.\n- `course_id`: ID real existente.\n- `block_number`: 4.\n- `question_number`: 16, 17, 18, 19 ou 20.\n- `title`: título completo.\n- `primary_competency`: competência principal.\n- `secondary_competencies`: competências secundárias.\n- `topic`: eixo temático.\n- `difficulty`: intermediária ou avançada.\n- `question_type`: caso clínico.\n- `related_lessons`: IDs reais das aulas relacionadas.\n- `stem`: enunciado integral.\n- `alternatives`: quatro alternativas completas.\n- `correct_answer`: gabarito.\n- `clinical_reasoning`: todos os tópicos numerados.\n- `alternative_feedback`: comentários individuais A, B, C e D.\n- `clinical_pearl`: Pérola do Plantão.\n- `references`: referências científicas.\n- `editorial_status`: aprovado.\n- `version`: 1.0.\n- `scientific_review_status`: estado real da verificação.\n- `created_at`: data real de cadastro.\n- `updated_at`: data real da última alteração.\n\nUtilizar a nomenclatura real do projeto se já existir um esquema equivalente.\n\nNão criar campos duplicados.\n\nNão inventar datas de revisão, nomes de revisores ou resultados de auditoria.\n\n## Matriz de competências\n\n| Questão | Competência | Aulas propostas |\n|---|---|---|\n| 016 | Redistribuição intracelular pela insulina | 13, 14, 15 |\n| 017 | Prevenção de hipoglicemia tardia | 14, 15, 16 |\n| 018 | Individualização da glicose na hiperglicemia | 14, 15, 16 |\n| 019 | Salbutamol como tratamento adjuvante | 14, 17, 18 |\n| 020 | Seleção do bicarbonato conforme o contexto metabólico | 14, 18, 19 |\n\nOs vínculos pedagógicos são provisórios.\n\nConferir os títulos e identificadores reais das 34 aulas do curso antes de gravar relacionamentos.\n\n---\n\n# 6. MODO ESTUDO\n\nPreservar o funcionamento existente.\n\nO aluno deverá:\n\n1. Visualizar o enunciado integral.\n2. Selecionar uma das quatro alternativas.\n3. Confirmar sua resposta.\n4. Receber indicação de acerto ou erro.\n5. Visualizar o gabarito.\n6. Ler todos os tópicos de raciocínio clínico.\n7. Consultar os comentários individuais das alternativas.\n8. Visualizar a Pérola do Plantão.\n9. Consultar as referências.\n10. Avançar para a próxima questão.\n\nApós a confirmação, a resposta daquela tentativa não poderá ser modificada.\n\nÉ permitido organizar os textos em seções expansíveis, desde que todo o conteúdo seja preservado.\n\n---\n\n# 7. MODO SIMULADO\n\nPreservar as regras já existentes.\n\nRequisitos:\n\n- Não exibir o gabarito antes do encerramento.\n- Não exibir explicações durante a resolução.\n- Permitir navegação entre questões.\n- Permitir revisão das respostas antes da finalização.\n- Calcular corretamente o resultado.\n- Exibir feedback completo após o encerramento.\n- Registrar a modalidade da tentativa.\n- Impedir repetição indevida de questões na mesma sessão.\n\nAs novas questões deverão integrar o banco do curso, respeitando os critérios atuais de seleção e acesso.\n\n---\n\n# 8. CADERNO DE ERROS\n\nIntegrar as cinco questões ao Caderno de Erros existente.\n\nNão criar um sistema paralelo.\n\nRegistrar:\n\n- Usuário.\n- Questão.\n- Curso.\n- Banco de origem.\n- Modalidade.\n- Sessão.\n- Alternativa selecionada.\n- Resposta correta.\n- Resultado.\n- Data da tentativa.\n- Estado de revisão.\n\nPreservar os estados:\n\n- Precisa revisar.\n- Em revisão.\n- Dominada.\n\nPreservar a regra de **duas respostas corretas consecutivas durante a revisão** para marcar uma questão como Dominada.\n\nUma resposta incorreta durante a revisão reinicia a sequência de acertos.\n\nEvitar duplicação de registros principais da mesma questão para o mesmo aluno.\n\nPreservar o histórico de tentativas.\n\nGarantir isolamento de dados entre usuários.\n\n---\n\n# 9. PREPARAÇÃO PARA O AGORAARENA\n\nO AgoraArena será desenvolvido futuramente como ambiente multidisciplinar de simulados e desafios.\n\nAs questões deverão ser reutilizáveis sem duplicação.\n\nRequisitos arquiteturais:\n\n1. Identificadores persistentes.\n2. Metadados de competência.\n3. Classificação de dificuldade.\n4. Curso e banco de origem.\n5. Separação entre questão e tentativa.\n6. Separação entre questão e sessão.\n7. Registro da modalidade.\n8. Histórico individual.\n9. Versionamento editorial.\n10. Preservação de referências.\n\n**Não implementar o AgoraArena nesta etapa.**\n\n---\n\n# 10. IDENTIDADE VISUAL\n\nRespeitar integralmente a identidade visual existente do AgoraMed.\n\nCores institucionais:\n\n- Azul-petróleo: `#346f77`.\n- Cinza: `#808080`.\n- Branco suave: `#F5F5F5`.\n\nO curso de hipercalemia também utiliza destaques em violeta e superfícies escuras.\n\nReutilizar os tokens e componentes já existentes.\n\nNão criar uma identidade visual paralela.\n\nGarantir responsividade, contraste adequado, navegação por teclado e apresentação acessível do feedback.\n\n---\n\n# 11. AUDITORIA CIENTÍFICA\n\nReferência principal:\n\n**UpToDate — Treatment and prevention of hyperkalemia in adults.**\n\nConferir:\n\n1. Mecanismo de ação da insulina.\n2. Ativação da Na⁺/K⁺-ATPase.\n3. Papel do músculo esquelético.\n4. Diferença entre redistribuição e remoção.\n5. Redução esperada do potássio após insulina.\n6. Risco de elevação posterior do potássio.\n7. Esquemas de 5 e 10 unidades de insulina.\n8. Administração de 25 g de glicose.\n9. Indicação de glicose conforme glicemia inicial.\n10. Limiar de glicemia de 250 mg/dL.\n11. Risco de hipoglicemia tardia.\n12. Influência da doença renal na ação da insulina.\n13. Monitorização glicêmica por cinco a seis horas.\n14. Infusão de glicose a 10% a 50–75 mL/h.\n15. Individualização conforme estado volêmico.\n16. Mecanismo beta-2-adrenérgico do salbutamol.\n17. Dose nebulizada de 10–20 mg.\n18. Variabilidade de resposta ao salbutamol.\n19. Efeito aditivo com insulina.\n20. Efeitos adversos cardiovasculares.\n21. Papel do bicarbonato.\n22. Relação entre acidose e potássio.\n23. Evidências em acidose metabólica significativa.\n24. Riscos de sódio e volume.\n25. Necessidade de remoção efetiva de potássio.\n\nA questão 020 exige conferência direcionada.\n\nSe a referência não estiver acessível, informar a limitação.\n\nSe forem identificadas divergências, registrá-las para revisão editorial, sem alterações silenciosas.\n\n---\n\n# 12. AUDITORIA PEDAGÓGICA\n\nVerificar:\n\n- Cinco questões completas.\n- Cinco enunciados íntegros.\n- Quatro alternativas por questão.\n- Gabaritos B, C, A, D e B.\n- Todos os tópicos numerados.\n- Comentários individuais das quatro alternativas.\n- Cinco Pérolas do Plantão.\n- Referências cadastradas.\n- Metadados completos.\n- Competências corretamente classificadas.\n- Ausência de contradições entre enunciados e explicações.\n- Ausência de duplicação com os Blocos 01 a 03.\n- Vínculos corretos com as aulas reais.\n\nPreservar a profundidade pedagógica do conteúdo aprovado.\n\n---\n\n# 13. TESTES OBRIGATÓRIOS\n\nExecutar, quando disponíveis:\n\n1. Cadastro das questões 016 a 020.\n2. Validação dos IDs.\n3. Validação dos gabaritos.\n4. Preservação das questões 001 a 015.\n5. Exibição integral dos enunciados.\n6. Exibição das alternativas.\n7. Correção das respostas.\n8. Feedback completo.\n9. Exibição das Pérolas do Plantão.\n10. Exibição das referências.\n11. Funcionamento do Modo Estudo.\n12. Funcionamento do Modo Simulado.\n13. Persistência das tentativas.\n14. Integração com o Caderno de Erros.\n15. Regra das duas revisões corretas.\n16. Isolamento entre usuários.\n17. Ausência de duplicação.\n18. Responsividade.\n19. Acessibilidade.\n20. Ausência de regressões nos AgoraQuest.\n21. Compatibilidade com o Bloco 05.\n22. Preparação arquitetural para o AgoraArena.\n\nNão declarar que testes foram aprovados sem executá-los.\n\n---\n\n# 14. CRITÉRIOS DE ACEITE\n\nA implementação será considerada concluída quando:\n\n- As questões 016 a 020 estiverem cadastradas.\n- Todos os textos estiverem completos.\n- Os gabaritos estiverem corretos.\n- Os metadados estiverem disponíveis.\n- Os Blocos 01 a 03 permanecerem intactos.\n- Os AgoraQuest continuarem funcionando.\n- O Caderno de Erros estiver integrado.\n- Os modos Estudo e Simulado estiverem funcionando.\n- A identidade visual estiver preservada.\n- Os dados dos usuários estiverem protegidos.\n- Não houver questões duplicadas.\n- A arquitetura permitir novos blocos.\n- O AgoraArena não tiver sido implementado prematuramente.\n\nPendências científicas devem ser explicitamente documentadas.\n\n---\n\n# 15. RELATÓRIO FINAL\n\nApós a implementação, apresentar:\n\n1. Resumo das alterações.\n2. Arquivos modificados.\n3. Tabelas ou coleções utilizadas.\n4. IDs das questões cadastradas.\n5. Confirmação dos gabaritos.\n6. Confirmação da integridade dos textos.\n7. Quantidade total de questões disponíveis.\n8. Situação dos Blocos 01 a 03.\n9. Situação do Caderno de Erros.\n10. Funcionamento dos modos Estudo e Simulado.\n11. Metadados cadastrados.\n12. Vínculos com as aulas.\n13. Testes executados.\n14. Pendências científicas.\n15. Pendências técnicas.\n16. Preparação para o Bloco 05.\n\n## INSTRUÇÃO FINAL\n\nImplemente o Bloco 04 do AgoraQuiz de Hipercalemia com as questões 016 a 020, preservando integralmente o conteúdo aprovado.\n\nNão altere os Blocos 01, 02 e 03.\n\nNão modifique os AgoraQuest ou outros cursos.\n\nNão implemente o AgoraArena.\n\n**A prioridade é preservar a profundidade pedagógica, o rigor científico, a segurança dos dados e a capacidade de expansão futura do AgoraMed.**",
+      "revisaoCientificaPendente": true
+    }
+  ]
+}

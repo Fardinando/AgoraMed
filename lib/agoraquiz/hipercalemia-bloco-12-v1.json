@@ -1,0 +1,1925 @@
+{
+  "cursoId": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+  "quizId": "agoraquiz-hipercalemia",
+  "cursoOrigem": "Tratamento da Hipercalemia em Adultos",
+  "bancoOrigem": "AgoraQuiz Hipercalemia",
+  "bloco": "12",
+  "temaEditorial": "Causas medicamentosas, redistribuição e pseudo-hipercalemia",
+  "questoes": [
+    {
+      "id": "aqz-hiper-056",
+      "question_id": "aqz-hiper-056",
+      "numero": 56,
+      "question_number": 56,
+      "titulo": "O antibiótico que se comporta como um diurético poupador de potássio",
+      "competenciaPrincipal": "Reconhecer hipercalemia induzida por trimetoprima",
+      "competenciasSecundarias": [
+        "understand_enac_blockade",
+        "recognize_drug_interactions",
+        "assess_renal_potassium_excretion",
+        "interpret_medication_timeline",
+        "assess_hyperkalemia_urgency"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [
+        {
+          "numero": 7,
+          "aulaId": "2ef9f9aa-e6e4-4ca3-889b-ae780b1bb487",
+          "moduloId": "55b01307-2855-453b-8489-78e3fe20cb14"
+        }
+      ],
+      "versao": "1.0",
+      "enunciado": "Um homem de 76 anos, com diabetes mellitus, hipertensão arterial e doença renal crônica estágio G3b, procura atendimento por fraqueza progressiva.\n\nHá cinco dias iniciou sulfametoxazol-trimetoprima para uma infecção urinária. Utiliza losartana regularmente.\n\nExames realizados antes do antibiótico:\n\n- Potássio: 4,7 mEq/L.\n- Creatinina: 1,7 mg/dL.\n\nExames atuais:\n\n- Potássio: 6,3 mEq/L, confirmado em nova amostra.\n- Creatinina: 1,9 mg/dL.\n- ECG: sem alterações sugestivas de hipercalemia.\n- Diurese preservada.\n\nNão há evidências de rabdomiólise, hemólise ou administração de suplementos de potássio.\n\n**Qual mecanismo explica melhor a elevação recente do potássio?**",
+      "alternativas": {
+        "A": "A trimetoprima aumenta a eliminação urinária de potássio, provocando uma elevação compensatória de sua concentração sérica.",
+        "B": "A trimetoprima estimula diretamente a liberação de potássio pelas células musculares, produzindo um quadro semelhante à rabdomiólise.",
+        "C": "A trimetoprima pode bloquear canais epiteliais de sódio no néfron distal, reduzindo a secreção renal de potássio, efeito potencializado pela doença renal crônica e pelo uso de losartana.",
+        "D": "A elevação do potássio é obrigatoriamente falsa, pois o ECG não apresenta alterações."
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. Qual é o problema clínico principal?**\n\nO paciente apresenta hipercalemia verdadeira, confirmada laboratorialmente, após introdução recente de um medicamento.\n\n**2. Qual informação temporal é particularmente relevante?**\n\nO potássio estava próximo da normalidade antes do início da sulfametoxazol-trimetoprima e aumentou após cinco dias de tratamento.\n\n**3. Qual componente da associação está diretamente relacionado ao mecanismo descrito?**\n\nA trimetoprima.\n\n**4. Qual é o local de ação relevante?**\n\nOs canais epiteliais de sódio, conhecidos como ENaC, presentes nas células principais do néfron distal.\n\n**5. Qual é a relação entre ENaC e a secreção de potássio?**\n\nA reabsorção de sódio através desses canais contribui para gerar um potencial elétrico luminal favorável à secreção de potássio.\n\n**6. O que acontece quando a trimetoprima bloqueia esses canais?**\n\nA redução da reabsorção eletrogênica de sódio diminui o gradiente favorável à secreção tubular de potássio.\n\n**7. Qual medicamento apresenta mecanismo semelhante?**\n\nA amilorida, um diurético poupador de potássio que também bloqueia os canais ENaC.\n\n**8. Por que a doença renal crônica aumenta a suscetibilidade?**\n\nPorque reduz a capacidade de adaptação renal diante de fatores que prejudicam a excreção de potássio.\n\n**9. Qual é o papel da losartana?**\n\nA interferência no sistema renina-angiotensina-aldosterona pode reduzir a capacidade de secreção renal de potássio e potencializar o problema.\n\n**10. A pequena elevação da creatinina explica obrigatoriamente toda a hipercalemia?**\n\nNão. O efeito tubular da trimetoprima pode contribuir diretamente para a retenção de potássio, mesmo sem deterioração renal proporcional.\n\n**11. O ECG normal afasta a gravidade?**\n\nNão. A ausência de alterações eletrocardiográficas não exclui hipercalemia clinicamente importante.\n\n**12. Qual é a prioridade da avaliação?**\n\nEstratificar a urgência da redução do potássio, monitorizar conforme o risco e revisar o antibiótico e os demais medicamentos envolvidos.\n\n**13. O antibiótico deve ser simplesmente mantido sem reavaliação?**\n\nNão. É necessário avaliar sua indicação, a possibilidade de substituição e a segurança de continuar o tratamento.\n\n**14. Qual é a competência principal?**\n\nReconhecer a trimetoprima como causa medicamentosa de hipercalemia por redução da secreção tubular de potássio, especialmente quando associada a doença renal e bloqueio do sistema renina-angiotensina-aldosterona.",
+      "comentarios": {
+        "A": "A trimetoprima não causa hipercalemia por aumentar a perda urinária de potássio. Seu efeito relevante é reduzir a secreção tubular desse eletrólito.",
+        "B": "O mecanismo habitual não é lesão muscular com liberação de potássio, mas interferência no transporte tubular renal.",
+        "C": "A trimetoprima pode atuar de maneira semelhante à amilorida, bloqueando ENaC e reduzindo a secreção de potássio. A doença renal crônica e a losartana aumentam a suscetibilidade.",
+        "D": "Um ECG sem alterações típicas não invalida uma elevação verdadeira do potássio."
+      },
+      "perola": "> Quando o potássio sobe depois de iniciar sulfametoxazol-trimetoprima, não olhe apenas para a creatinina. A trimetoprima pode agir como a amilorida e dificultar diretamente a eliminação renal de potássio.",
+      "referencias": "*Causes and evaluation of hyperkalemia in adults*. UpToDate — seção “Reduced response to aldosterone”, especialmente os efeitos da trimetoprima e da pentamidina.\n*Treatment and prevention of hyperkalemia in adults*. UpToDate — tabela sobre mecanismos de acidose tubular renal tipo 4.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 12,
+      "stem": "Um homem de 76 anos, com diabetes mellitus, hipertensão arterial e doença renal crônica estágio G3b, procura atendimento por fraqueza progressiva.\n\nHá cinco dias iniciou sulfametoxazol-trimetoprima para uma infecção urinária. Utiliza losartana regularmente.\n\nExames realizados antes do antibiótico:\n\n- Potássio: 4,7 mEq/L.\n- Creatinina: 1,7 mg/dL.\n\nExames atuais:\n\n- Potássio: 6,3 mEq/L, confirmado em nova amostra.\n- Creatinina: 1,9 mg/dL.\n- ECG: sem alterações sugestivas de hipercalemia.\n- Diurese preservada.\n\nNão há evidências de rabdomiólise, hemólise ou administração de suplementos de potássio.\n\n**Qual mecanismo explica melhor a elevação recente do potássio?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-056-A",
+          "question_id": "aqz-hiper-056",
+          "letter": "A",
+          "text": "A trimetoprima aumenta a eliminação urinária de potássio, provocando uma elevação compensatória de sua concentração sérica.",
+          "is_correct": false,
+          "feedback": "A trimetoprima não causa hipercalemia por aumentar a perda urinária de potássio. Seu efeito relevante é reduzir a secreção tubular desse eletrólito.",
+          "error_type": "mechanism_inversion",
+          "misconception_id": "trimethoprim_increases_k_excretion",
+          "misconception_description": "Confunde o bloqueio tubular da trimetoprima com aumento da excreção de potássio.",
+          "competency_ids": [
+            "assess_renal_potassium_excretion"
+          ],
+          "clinical_risk_if_applied": "Pode levar a manter uma exposição medicamentosa que reduz a secreção de potássio."
+        },
+        {
+          "option_id": "aqz-hiper-056-B",
+          "question_id": "aqz-hiper-056",
+          "letter": "B",
+          "text": "A trimetoprima estimula diretamente a liberação de potássio pelas células musculares, produzindo um quadro semelhante à rabdomiólise.",
+          "is_correct": false,
+          "feedback": "O mecanismo habitual não é lesão muscular com liberação de potássio, mas interferência no transporte tubular renal.",
+          "error_type": "incorrect_pathophysiology",
+          "misconception_id": "trimethoprim_causes_muscle_potassium_release",
+          "misconception_description": "Atribui o efeito habitual da trimetoprima à liberação muscular de potássio.",
+          "competency_ids": [
+            "understand_enac_blockade"
+          ],
+          "clinical_risk_if_applied": "Pode desviar a investigação do mecanismo renal e da revisão do antibiótico."
+        },
+        {
+          "option_id": "aqz-hiper-056-C",
+          "question_id": "aqz-hiper-056",
+          "letter": "C",
+          "text": "A trimetoprima pode bloquear canais epiteliais de sódio no néfron distal, reduzindo a secreção renal de potássio, efeito potencializado pela doença renal crônica e pelo uso de losartana.",
+          "is_correct": true,
+          "feedback": "A trimetoprima pode atuar de maneira semelhante à amilorida, bloqueando ENaC e reduzindo a secreção de potássio. A doença renal crônica e a losartana aumentam a suscetibilidade.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "identify_trimethoprim_induced_hyperkalemia",
+            "understand_enac_blockade",
+            "recognize_drug_interactions"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-056-D",
+          "question_id": "aqz-hiper-056",
+          "letter": "D",
+          "text": "A elevação do potássio é obrigatoriamente falsa, pois o ECG não apresenta alterações.",
+          "is_correct": false,
+          "feedback": "Um ECG sem alterações típicas não invalida uma elevação verdadeira do potássio.",
+          "error_type": "ecg_overreliance",
+          "misconception_id": "normal_ecg_proves_pseudohyperkalemia",
+          "misconception_description": "Usa o ECG normal para invalidar um potássio confirmado.",
+          "competency_ids": [
+            "assess_hyperkalemia_urgency"
+          ],
+          "clinical_risk_if_applied": "Pode atrasar a estratificação e o manejo de uma hipercalemia verdadeira."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-056-r01",
+          "question_id": "aqz-hiper-056",
+          "sequence": 1,
+          "prompt": "Qual é o problema clínico principal?",
+          "explanation": "O paciente apresenta hipercalemia verdadeira, confirmada laboratorialmente, após introdução recente de um medicamento.",
+          "reasoning_type": "problem_recognition",
+          "competency_ids": [
+            "assess_hyperkalemia_urgency"
+          ],
+          "cognitive_operation": "recognize",
+          "clinical_relevance": "O paciente apresenta hipercalemia verdadeira, confirmada laboratorialmente, após introdução recente de um medicamento.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-056-r02",
+          "question_id": "aqz-hiper-056",
+          "sequence": 2,
+          "prompt": "Qual informação temporal é particularmente relevante?",
+          "explanation": "O potássio estava próximo da normalidade antes do início da sulfametoxazol-trimetoprima e aumentou após cinco dias de tratamento.",
+          "reasoning_type": "temporal_association",
+          "competency_ids": [
+            "interpret_medication_timeline"
+          ],
+          "cognitive_operation": "associate",
+          "clinical_relevance": "O potássio estava próximo da normalidade antes do início da sulfametoxazol-trimetoprima e aumentou após cinco dias de tratamento.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-056-r03",
+          "question_id": "aqz-hiper-056",
+          "sequence": 3,
+          "prompt": "Qual componente da associação está diretamente relacionado ao mecanismo descrito?",
+          "explanation": "A trimetoprima.",
+          "reasoning_type": "drug_identification",
+          "competency_ids": [
+            "recognize_drug_interactions"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "A trimetoprima.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-056-r04",
+          "question_id": "aqz-hiper-056",
+          "sequence": 4,
+          "prompt": "Qual é o local de ação relevante?",
+          "explanation": "Os canais epiteliais de sódio, conhecidos como ENaC, presentes nas células principais do néfron distal.",
+          "reasoning_type": "renal_tubular_anatomy",
+          "competency_ids": [
+            "understand_enac_blockade"
+          ],
+          "cognitive_operation": "locate",
+          "clinical_relevance": "Os canais epiteliais de sódio, conhecidos como ENaC, presentes nas células principais do néfron distal.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-056-r05",
+          "question_id": "aqz-hiper-056",
+          "sequence": 5,
+          "prompt": "Qual é a relação entre ENaC e a secreção de potássio?",
+          "explanation": "A reabsorção de sódio através desses canais contribui para gerar um potencial elétrico luminal favorável à secreção de potássio.",
+          "reasoning_type": "enac_physiology",
+          "competency_ids": [
+            "understand_enac_blockade"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "A reabsorção de sódio através desses canais contribui para gerar um potencial elétrico luminal favorável à secreção de potássio.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-056-r06",
+          "question_id": "aqz-hiper-056",
+          "sequence": 6,
+          "prompt": "O que acontece quando a trimetoprima bloqueia esses canais?",
+          "explanation": "A redução da reabsorção eletrogênica de sódio diminui o gradiente favorável à secreção tubular de potássio.",
+          "reasoning_type": "pharmacological_mechanism",
+          "competency_ids": [
+            "understand_enac_blockade"
+          ],
+          "cognitive_operation": "analyze",
+          "clinical_relevance": "A redução da reabsorção eletrogênica de sódio diminui o gradiente favorável à secreção tubular de potássio.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-056-r07",
+          "question_id": "aqz-hiper-056",
+          "sequence": 7,
+          "prompt": "Qual medicamento apresenta mecanismo semelhante?",
+          "explanation": "A amilorida, um diurético poupador de potássio que também bloqueia os canais ENaC.",
+          "reasoning_type": "pharmacological_analogy",
+          "competency_ids": [
+            "understand_enac_blockade"
+          ],
+          "cognitive_operation": "compare",
+          "clinical_relevance": "A amilorida, um diurético poupador de potássio que também bloqueia os canais ENaC.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-056-r08",
+          "question_id": "aqz-hiper-056",
+          "sequence": 8,
+          "prompt": "Por que a doença renal crônica aumenta a suscetibilidade?",
+          "explanation": "Porque reduz a capacidade de adaptação renal diante de fatores que prejudicam a excreção de potássio.",
+          "reasoning_type": "renal_risk_assessment",
+          "competency_ids": [
+            "assess_renal_potassium_excretion"
+          ],
+          "cognitive_operation": "assess",
+          "clinical_relevance": "Porque reduz a capacidade de adaptação renal diante de fatores que prejudicam a excreção de potássio.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-056-r09",
+          "question_id": "aqz-hiper-056",
+          "sequence": 9,
+          "prompt": "Qual é o papel da losartana?",
+          "explanation": "A interferência no sistema renina-angiotensina-aldosterona pode reduzir a capacidade de secreção renal de potássio e potencializar o problema.",
+          "reasoning_type": "drug_interaction",
+          "competency_ids": [
+            "recognize_drug_interactions"
+          ],
+          "cognitive_operation": "integrate",
+          "clinical_relevance": "A interferência no sistema renina-angiotensina-aldosterona pode reduzir a capacidade de secreção renal de potássio e potencializar o problema.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-056-r10",
+          "question_id": "aqz-hiper-056",
+          "sequence": 10,
+          "prompt": "A pequena elevação da creatinina explica obrigatoriamente toda a hipercalemia?",
+          "explanation": "Não. O efeito tubular da trimetoprima pode contribuir diretamente para a retenção de potássio, mesmo sem deterioração renal proporcional.",
+          "reasoning_type": "laboratory_interpretation",
+          "competency_ids": [
+            "interpret_medication_timeline"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Não. O efeito tubular da trimetoprima pode contribuir diretamente para a retenção de potássio, mesmo sem deterioração renal proporcional.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-056-r11",
+          "question_id": "aqz-hiper-056",
+          "sequence": 11,
+          "prompt": "O ECG normal afasta a gravidade?",
+          "explanation": "Não. A ausência de alterações eletrocardiográficas não exclui hipercalemia clinicamente importante.",
+          "reasoning_type": "ecg_interpretation",
+          "competency_ids": [
+            "assess_hyperkalemia_urgency"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Não. A ausência de alterações eletrocardiográficas não exclui hipercalemia clinicamente importante.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-056-r12",
+          "question_id": "aqz-hiper-056",
+          "sequence": 12,
+          "prompt": "Qual é a prioridade da avaliação?",
+          "explanation": "Estratificar a urgência da redução do potássio, monitorizar conforme o risco e revisar o antibiótico e os demais medicamentos envolvidos.",
+          "reasoning_type": "therapeutic_prioritization",
+          "competency_ids": [
+            "assess_hyperkalemia_urgency"
+          ],
+          "cognitive_operation": "prioritize",
+          "clinical_relevance": "Estratificar a urgência da redução do potássio, monitorizar conforme o risco e revisar o antibiótico e os demais medicamentos envolvidos.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-056-r13",
+          "question_id": "aqz-hiper-056",
+          "sequence": 13,
+          "prompt": "O antibiótico deve ser simplesmente mantido sem reavaliação?",
+          "explanation": "Não. É necessário avaliar sua indicação, a possibilidade de substituição e a segurança de continuar o tratamento.",
+          "reasoning_type": "medication_safety",
+          "competency_ids": [
+            "recognize_drug_interactions"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Não. É necessário avaliar sua indicação, a possibilidade de substituição e a segurança de continuar o tratamento.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-056-r14",
+          "question_id": "aqz-hiper-056",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Reconhecer a trimetoprima como causa medicamentosa de hipercalemia por redução da secreção tubular de potássio, especialmente quando associada a doença renal e bloqueio do sistema renina-angiotensina-aldosterona.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "identify_trimethoprim_induced_hyperkalemia"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Reconhecer a trimetoprima como causa medicamentosa de hipercalemia por redução da secreção tubular de potássio, especialmente quando associada a doença renal e bloqueio do sistema renina-angiotensina-aldosterona.",
+          "prerequisite_concepts": []
+        }
+      ],
+      "clinical_pearl": "> Quando o potássio sobe depois de iniciar sulfametoxazol-trimetoprima, não olhe apenas para a creatinina. A trimetoprima pode agir como a amilorida e dificultar diretamente a eliminação renal de potássio.",
+      "references": [
+        "*Causes and evaluation of hyperkalemia in adults*. UpToDate — seção “Reduced response to aldosterone”, especialmente os efeitos da trimetoprima e da pentamidina.",
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate — tabela sobre mecanismos de acidose tubular renal tipo 4."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "drug_induced_hyperkalemia",
+        "clinical_context": "emergency_department",
+        "urgency_level": "urgent_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "identify_trimethoprim_induced_hyperkalemia",
+        "secondary_competencies": [
+          "understand_enac_blockade",
+          "recognize_drug_interactions",
+          "assess_renal_potassium_excretion",
+          "interpret_medication_timeline",
+          "assess_hyperkalemia_urgency"
+        ],
+        "learning_objectives": [
+          "Reconhecer a trimetoprima como causa medicamentosa de hipercalemia por redução da secreção tubular de potássio, especialmente quando associada a doença renal e bloqueio do sistema renina-angiotensina-aldosterona."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "medication_safety",
+        "arena_skill_ids": [
+          "hyperkalemia_drug_causes",
+          "renal_potassium_handling",
+          "medication_safety"
+        ],
+        "arena_challenge_types": [
+          "mechanism_identification",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "trimethoprim",
+          "enac",
+          "ckd",
+          "losartan"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [
+          "2ef9f9aa-e6e4-4ca3-889b-ae780b1bb487"
+        ],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "hyperkalemia_drug_causes",
+          "renal_potassium_handling",
+          "medication_safety"
+        ],
+        "challenge_types": [
+          "mechanism_identification",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-057",
+      "question_id": "aqz-hiper-057",
+      "numero": 57,
+      "question_number": 57,
+      "titulo": "Hipercalemia e acidose no diabetes: quando considerar ATR tipo 4?",
+      "competenciaPrincipal": "Reconhecer acidose tubular renal tipo 4",
+      "competenciasSecundarias": [
+        "interpret_metabolic_acidosis",
+        "calculate_anion_gap",
+        "understand_hypoaldosteronism",
+        "recognize_hyperchloremic_acidosis",
+        "recognize_diagnostic_uncertainty"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [
+        {
+          "numero": 6,
+          "aulaId": "5ba508c9-bfb5-472c-bf69-254036832a95",
+          "moduloId": "55b01307-2855-453b-8489-78e3fe20cb14"
+        }
+      ],
+      "versao": "1.0",
+      "enunciado": "Uma mulher de 61 anos, com diabetes mellitus tipo 2 há 20 anos e nefropatia diabética, apresenta hipercalemia persistente em consultas ambulatoriais.\n\nOs exames mostram:\n\n- Potássio: 5,8 mEq/L.\n- Creatinina: 1,5 mg/dL.\n- eGFR: não informada no caso.\n- Bicarbonato sérico: 17 mEq/L.\n- Cloro: 110 mEq/L.\n- Sódio: 138 mEq/L.\n- Glicemia: 142 mg/dL.\n\nA gasometria confirma acidose metabólica.\n\nO ânion gap calculado, sem correção para albumina, é de 11 mEq/L.\n\nA albumina sérica não foi fornecida; portanto, não é possível classificar com segurança o ânion gap corrigido nem inferir a gravidade da função renal apenas pela creatinina.\n\nA paciente está clinicamente estável, com diurese preservada, sem diarreia e sem sinais de desidratação.\n\nO ECG não apresenta alterações sugestivas de hipercalemia.\n\n**Qual hipótese etiológica deve ser especialmente considerada diante da hipercalemia persistente e da acidose metabólica, sem tomar o ânion gap não corrigido como confirmação diagnóstica?**",
+      "alternativas": {
+        "A": "Aumento obrigatório da produção de ácidos orgânicos, como ocorre na cetoacidose diabética, independentemente da glicemia e do contexto clínico.",
+        "B": "A redução da secreção ou da ação da aldosterona — inclusive o hipoaldosteronismo hiporreninêmico associado ao diabetes — é uma hipótese a considerar: pode reduzir a excreção renal de potássio e de amônio, mas não se confirma apenas por esses exames.",
+        "C": "Perda gastrointestinal isolada de bicarbonato, que obrigatoriamente provoca hipercalemia persistente.",
+        "D": "Aumento da secreção tubular de potássio, associado à incapacidade renal de reabsorver sódio."
+      },
+      "gabarito": "B",
+      "raciocinioClinico": "**1. Quais alterações laboratoriais precisam ser interpretadas conjuntamente?**  \nHipercalemia persistente, redução do bicarbonato sérico e hipercloremia.\n\n**2. Qual é o distúrbio acidobásico predominante?**  \nO bicarbonato baixo confirma acidose metabólica no contexto informado. O ânion gap de 11 parece normal, mas foi calculado sem correção para albumina; a classificação permanece provisória.\n\n**3. Como foi calculado o ânion gap?**  \nAG = sódio − (cloro + bicarbonato): 138 − (110 + 17) = 11 mEq/L. Como a albumina não foi informada, esse valor não exclui um AG corrigido elevado.\n\n**4. Qual é a importância da ausência de diarreia?**  \nA ausência de diarreia reduz a probabilidade de perda gastrointestinal de bicarbonato, mas não substitui a revisão de outras causas extrarrenais e renais de acidose metabólica.\n\n**5. Por que a presença de diabetes de longa duração é relevante?**  \nDiabetes de longa duração e nefropatia aumentam a plausibilidade de hipoaldosteronismo hiporreninêmico, mas não o demonstram.\n\n**6. Qual mecanismo hormonal deve ser considerado?**  \nUma redução da produção ou da ação da aldosterona pode prejudicar a secreção distal de potássio e contribuir para o padrão observado.\n\n**7. Qual é a função da aldosterona na homeostase do potássio?**  \nNo néfron distal, a aldosterona favorece a secreção de potássio; sua deficiência ou resistência pode reduzir essa excreção.\n\n**8. O que ocorre quando a ação da aldosterona está reduzida?**  \nA redução da ação da aldosterona pode diminuir a excreção renal de potássio e favorecer hipercalemia persistente.\n\n**9. Como esse mecanismo se relaciona à acidose metabólica?**  \nA hipercalemia pode suprimir a amoniagênese renal e reduzir a excreção urinária de amônio, diminuindo a excreção líquida de ácido.\n\n**10. Qual distúrbio renal é classicamente associado a esse conjunto de alterações?**  \nA associação de hipercalemia com acidose metabólica hiperclorêmica sugere ATR tipo 4, frequentemente ligada à deficiência ou resistência à aldosterona.\n\n**11. A acidose tubular renal tipo 4 exige insuficiência renal extremamente avançada?**  \nATR tipo 4 pode ocorrer sem insuficiência renal terminal. Porém, sem eGFR, a creatinina isolada não permite afirmar que a função renal esteja relativamente preservada.\n\n**12. A hipótese pode ser confirmada apenas pelo potássio e pelo bicarbonato?**  \nNão. É necessário avaliar eGFR, revisar medicamentos que elevam potássio ou alteram aldosterona e, conforme o caso, investigar a excreção urinária de amônio e o eixo renina-aldosterona.\n\n**13. Qual é a implicação terapêutica principal?**  \nInvestigar causas reversíveis e tratar a hipercalemia e a acidose conforme o contexto clínico, sem assumir ATR tipo 4 antes da avaliação etiológica.\n\n**14. Qual é a competência principal?**  \nO conjunto é uma pista para redução da ação da aldosterona e possível ATR tipo 4; não constitui diagnóstico definitivo.",
+      "comentarios": {
+        "A": "A cetoacidose diabética costuma aumentar o ânion gap, mas a glicemia de 142 mg/dL, sozinha, não exclui cetoacidose euglicêmica. Se houver suspeita clínica ou uso de inibidor de SGLT2, é preciso avaliar cetonas. A alternativa está errada por tratar a cetoacidose como explicação obrigatória e independente do contexto.",
+        "B": "Correta. Hipercalemia persistente com acidose metabólica hiperclorêmica em pessoa com diabetes aumenta a suspeita de redução da secreção ou ação da aldosterona e possível ATR tipo 4. A hipercalemia pode reduzir a produção renal de amônio e a excreção de ácido. O padrão sugere a hipótese, mas não a confirma sem avaliação da eGFR, medicamentos e, conforme o caso, da excreção urinária de amônio e do eixo renina-aldosterona.",
+        "C": "A perda gastrointestinal de bicarbonato pode causar acidose com ânion gap normal, mas geralmente se associa à perda de potássio, e a paciente não apresenta diarreia.",
+        "D": "O mecanismo relevante é a redução, não o aumento, da secreção renal de potássio."
+      },
+      "perola": "> Em pessoa com diabetes, hipercalemia persistente e acidose hiperclorêmica levantam a hipótese de ATR tipo 4. Confira a albumina e o AG corrigido, estime a função renal e revise medicamentos: o padrão sugere, mas não confirma, o diagnóstico.",
+      "referencias": "*Causes and evaluation of hyperkalemia in adults*. UpToDate — seções sobre redução da secreção de aldosterona e mecanismos de excreção renal de potássio.\n*Treatment and prevention of hyperkalemia in adults*. UpToDate — tabela “Pathogenesis of type 4 renal tubular acidosis (RTA)”.\n*Hyporeninemic hypoaldosteronism in diabetic patients with chronic renal failure*. PubMed. https://pubmed.ncbi.nlm.nih.gov/3394721/\n*Anion gap and hypoalbuminemia*. Critical Care Medicine. https://doi.org/10.1097/00003246-199811000-00019\n*Hyperglycemic Crises in Adults With Diabetes: A Consensus Report*. Diabetes Care. https://doi.org/10.2337/dci24-0032",
+      "scientificReviewNotes": "Revisão científica/editorial concluída: o ânion gap 11 foi calculado sem correção porque a albumina não foi fornecida; não classificar o AG corrigido nem inferir gravidade renal apenas pela creatinina. O padrão sugere, mas não confirma, ATR tipo 4. Glicemia de 142 mg/dL não exclui cetoacidose euglicêmica; avaliar cetonas se houver contexto clínico ou uso de inibidor de SGLT2. Revisar eGFR, medicamentos e, conforme o caso, excreção de amônio e eixo renina-aldosterona.",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": "Revisão científica/editorial concluída: o ânion gap 11 foi calculado sem correção porque a albumina não foi fornecida; não classificar o AG corrigido nem inferir gravidade renal apenas pela creatinina. O padrão sugere, mas não confirma, ATR tipo 4. Glicemia de 142 mg/dL não exclui cetoacidose euglicêmica; avaliar cetonas se houver contexto clínico ou uso de inibidor de SGLT2. Revisar eGFR, medicamentos e, conforme o caso, excreção de amônio e eixo renina-aldosterona.",
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 12,
+      "stem": "Uma mulher de 61 anos, com diabetes mellitus tipo 2 há 20 anos e nefropatia diabética, apresenta hipercalemia persistente em consultas ambulatoriais.\n\nOs exames mostram:\n\n- Potássio: 5,8 mEq/L.\n- Creatinina: 1,5 mg/dL.\n- eGFR: não informada no caso.\n- Bicarbonato sérico: 17 mEq/L.\n- Cloro: 110 mEq/L.\n- Sódio: 138 mEq/L.\n- Glicemia: 142 mg/dL.\n\nA gasometria confirma acidose metabólica.\n\nO ânion gap calculado, sem correção para albumina, é de 11 mEq/L.\n\nA albumina sérica não foi fornecida; portanto, não é possível classificar com segurança o ânion gap corrigido nem inferir a gravidade da função renal apenas pela creatinina.\n\nA paciente está clinicamente estável, com diurese preservada, sem diarreia e sem sinais de desidratação.\n\nO ECG não apresenta alterações sugestivas de hipercalemia.\n\n**Qual hipótese etiológica deve ser especialmente considerada diante da hipercalemia persistente e da acidose metabólica, sem tomar o ânion gap não corrigido como confirmação diagnóstica?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-057-A",
+          "question_id": "aqz-hiper-057",
+          "letter": "A",
+          "text": "Aumento obrigatório da produção de ácidos orgânicos, como ocorre na cetoacidose diabética, independentemente da glicemia e do contexto clínico.",
+          "is_correct": false,
+          "feedback": "A cetoacidose diabética costuma aumentar o ânion gap, mas a glicemia de 142 mg/dL, sozinha, não exclui cetoacidose euglicêmica. Se houver suspeita clínica ou uso de inibidor de SGLT2, é preciso avaliar cetonas. A alternativa está errada por tratar a cetoacidose como explicação obrigatória e independente do contexto.",
+          "error_type": "acid_base_misinterpretation",
+          "misconception_id": "normal_gap_acidosis_requires_organic_acids",
+          "misconception_description": "Interpreta acidose hiperclorêmica com ânion gap normal como produção obrigatória de ácidos orgânicos.",
+          "competency_ids": [
+            "interpret_metabolic_acidosis"
+          ],
+          "clinical_risk_if_applied": "Pode atrasar a investigação de hipoaldosteronismo e de acidose tubular tipo 4."
+        },
+        {
+          "option_id": "aqz-hiper-057-B",
+          "question_id": "aqz-hiper-057",
+          "letter": "B",
+          "text": "A redução da secreção ou da ação da aldosterona — inclusive o hipoaldosteronismo hiporreninêmico associado ao diabetes — é uma hipótese a considerar: pode reduzir a excreção renal de potássio e de amônio, mas não se confirma apenas por esses exames.",
+          "is_correct": true,
+          "feedback": "Correta. Hipercalemia persistente com acidose metabólica hiperclorêmica em pessoa com diabetes aumenta a suspeita de redução da secreção ou ação da aldosterona e possível ATR tipo 4. A hipercalemia pode reduzir a produção renal de amônio e a excreção de ácido. O padrão sugere a hipótese, mas não a confirma sem avaliação da eGFR, medicamentos e, conforme o caso, da excreção urinária de amônio e do eixo renina-aldosterona.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "recognize_type4_renal_tubular_acidosis",
+            "understand_hypoaldosteronism",
+            "recognize_hyperchloremic_acidosis"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-057-C",
+          "question_id": "aqz-hiper-057",
+          "letter": "C",
+          "text": "Perda gastrointestinal isolada de bicarbonato, que obrigatoriamente provoca hipercalemia persistente.",
+          "is_correct": false,
+          "feedback": "A perda gastrointestinal de bicarbonato pode causar acidose com ânion gap normal, mas geralmente se associa à perda de potássio, e a paciente não apresenta diarreia.",
+          "error_type": "gastrointestinal_loss_misinterpretation",
+          "misconception_id": "bicarbonate_loss_always_causes_hyperkalemia",
+          "misconception_description": "Atribui simultaneamente acidose e hipercalemia à perda gastrointestinal isolada de bicarbonato.",
+          "competency_ids": [
+            "interpret_metabolic_acidosis"
+          ],
+          "clinical_risk_if_applied": "Pode deixar sem avaliação a causa renal/endócrina sugerida pelo padrão laboratorial."
+        },
+        {
+          "option_id": "aqz-hiper-057-D",
+          "question_id": "aqz-hiper-057",
+          "letter": "D",
+          "text": "Aumento da secreção tubular de potássio, associado à incapacidade renal de reabsorver sódio.",
+          "is_correct": false,
+          "feedback": "O mecanismo relevante é a redução, não o aumento, da secreção renal de potássio.",
+          "error_type": "mechanism_inversion",
+          "misconception_id": "increased_distal_k_secretion_causes_hyperkalemia",
+          "misconception_description": "Propõe aumento da secreção distal de potássio como mecanismo de hipercalemia.",
+          "competency_ids": [
+            "assess_renal_potassium_excretion"
+          ],
+          "clinical_risk_if_applied": "Pode inverter a interpretação fisiológica e conduzir a investigação inadequada."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-057-r01",
+          "question_id": "aqz-hiper-057",
+          "sequence": 1,
+          "prompt": "Quais alterações laboratoriais precisam ser interpretadas conjuntamente?",
+          "explanation": "Hipercalemia persistente, redução do bicarbonato sérico e hipercloremia.",
+          "reasoning_type": "laboratory_pattern_recognition",
+          "competency_ids": [
+            "recognize_type4_renal_tubular_acidosis"
+          ],
+          "cognitive_operation": "recognize",
+          "clinical_relevance": "Hipercalemia persistente, redução do bicarbonato sérico e hipercloremia.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-057-r02",
+          "question_id": "aqz-hiper-057",
+          "sequence": 2,
+          "prompt": "Qual é o distúrbio acidobásico predominante?",
+          "explanation": "O bicarbonato baixo confirma acidose metabólica no contexto informado. O ânion gap de 11 parece normal, mas foi calculado sem correção para albumina; a classificação permanece provisória.",
+          "reasoning_type": "acid_base_interpretation",
+          "competency_ids": [
+            "interpret_metabolic_acidosis"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "O bicarbonato baixo confirma acidose metabólica no contexto informado. O ânion gap de 11 parece normal, mas foi calculado sem correção para albumina; a classificação permanece provisória.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-057-r03",
+          "question_id": "aqz-hiper-057",
+          "sequence": 3,
+          "prompt": "Como foi calculado o ânion gap?",
+          "explanation": "AG = sódio − (cloro + bicarbonato): 138 − (110 + 17) = 11 mEq/L. Como a albumina não foi informada, esse valor não exclui um AG corrigido elevado.",
+          "reasoning_type": "anion_gap_calculation",
+          "competency_ids": [
+            "calculate_anion_gap"
+          ],
+          "cognitive_operation": "calculate",
+          "clinical_relevance": "AG = sódio − (cloro + bicarbonato): 138 − (110 + 17) = 11 mEq/L. Como a albumina não foi informada, esse valor não exclui um AG corrigido elevado.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-057-r04",
+          "question_id": "aqz-hiper-057",
+          "sequence": 4,
+          "prompt": "Qual é a importância da ausência de diarreia?",
+          "explanation": "A ausência de diarreia reduz a probabilidade de perda gastrointestinal de bicarbonato, mas não substitui a revisão de outras causas extrarrenais e renais de acidose metabólica.",
+          "reasoning_type": "differential_diagnosis",
+          "competency_ids": [
+            "recognize_diagnostic_uncertainty"
+          ],
+          "cognitive_operation": "diagnose",
+          "clinical_relevance": "A ausência de diarreia reduz a probabilidade de perda gastrointestinal de bicarbonato, mas não substitui a revisão de outras causas extrarrenais e renais de acidose metabólica.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-057-r05",
+          "question_id": "aqz-hiper-057",
+          "sequence": 5,
+          "prompt": "Por que a presença de diabetes de longa duração é relevante?",
+          "explanation": "Diabetes de longa duração e nefropatia aumentam a plausibilidade de hipoaldosteronismo hiporreninêmico, mas não o demonstram.",
+          "reasoning_type": "risk_factor_identification",
+          "competency_ids": [
+            "understand_hypoaldosteronism"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Diabetes de longa duração e nefropatia aumentam a plausibilidade de hipoaldosteronismo hiporreninêmico, mas não o demonstram.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-057-r06",
+          "question_id": "aqz-hiper-057",
+          "sequence": 6,
+          "prompt": "Qual mecanismo hormonal deve ser considerado?",
+          "explanation": "Uma redução da produção ou da ação da aldosterona pode prejudicar a secreção distal de potássio e contribuir para o padrão observado.",
+          "reasoning_type": "endocrine_pathophysiology",
+          "competency_ids": [
+            "understand_hypoaldosteronism"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Uma redução da produção ou da ação da aldosterona pode prejudicar a secreção distal de potássio e contribuir para o padrão observado.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-057-r07",
+          "question_id": "aqz-hiper-057",
+          "sequence": 7,
+          "prompt": "Qual é a função da aldosterona na homeostase do potássio?",
+          "explanation": "No néfron distal, a aldosterona favorece a secreção de potássio; sua deficiência ou resistência pode reduzir essa excreção.",
+          "reasoning_type": "aldosterone_physiology",
+          "competency_ids": [
+            "understand_hypoaldosteronism"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "No néfron distal, a aldosterona favorece a secreção de potássio; sua deficiência ou resistência pode reduzir essa excreção.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-057-r08",
+          "question_id": "aqz-hiper-057",
+          "sequence": 8,
+          "prompt": "O que ocorre quando a ação da aldosterona está reduzida?",
+          "explanation": "A redução da ação da aldosterona pode diminuir a excreção renal de potássio e favorecer hipercalemia persistente.",
+          "reasoning_type": "renal_potassium_handling",
+          "competency_ids": [
+            "recognize_type4_renal_tubular_acidosis"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "A redução da ação da aldosterona pode diminuir a excreção renal de potássio e favorecer hipercalemia persistente.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-057-r09",
+          "question_id": "aqz-hiper-057",
+          "sequence": 9,
+          "prompt": "Como esse mecanismo se relaciona à acidose metabólica?",
+          "explanation": "A hipercalemia pode suprimir a amoniagênese renal e reduzir a excreção urinária de amônio, diminuindo a excreção líquida de ácido.",
+          "reasoning_type": "ammonium_excretion_physiology",
+          "competency_ids": [
+            "recognize_type4_renal_tubular_acidosis"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "A hipercalemia pode suprimir a amoniagênese renal e reduzir a excreção urinária de amônio, diminuindo a excreção líquida de ácido.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-057-r10",
+          "question_id": "aqz-hiper-057",
+          "sequence": 10,
+          "prompt": "Qual distúrbio renal é classicamente associado a esse conjunto de alterações?",
+          "explanation": "A associação de hipercalemia com acidose metabólica hiperclorêmica sugere ATR tipo 4, frequentemente ligada à deficiência ou resistência à aldosterona.",
+          "reasoning_type": "syndrome_recognition",
+          "competency_ids": [
+            "recognize_type4_renal_tubular_acidosis"
+          ],
+          "cognitive_operation": "recognize",
+          "clinical_relevance": "A associação de hipercalemia com acidose metabólica hiperclorêmica sugere ATR tipo 4, frequentemente ligada à deficiência ou resistência à aldosterona.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-057-r11",
+          "question_id": "aqz-hiper-057",
+          "sequence": 11,
+          "prompt": "A acidose tubular renal tipo 4 exige insuficiência renal extremamente avançada?",
+          "explanation": "ATR tipo 4 pode ocorrer sem insuficiência renal terminal. Porém, sem eGFR, a creatinina isolada não permite afirmar que a função renal esteja relativamente preservada.",
+          "reasoning_type": "diagnostic_criteria",
+          "competency_ids": [
+            "recognize_diagnostic_uncertainty"
+          ],
+          "cognitive_operation": "apply",
+          "clinical_relevance": "ATR tipo 4 pode ocorrer sem insuficiência renal terminal. Porém, sem eGFR, a creatinina isolada não permite afirmar que a função renal esteja relativamente preservada.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-057-r12",
+          "question_id": "aqz-hiper-057",
+          "sequence": 12,
+          "prompt": "A hipótese pode ser confirmada apenas pelo potássio e pelo bicarbonato?",
+          "explanation": "Não. É necessário avaliar eGFR, revisar medicamentos que elevam potássio ou alteram aldosterona e, conforme o caso, investigar a excreção urinária de amônio e o eixo renina-aldosterona.",
+          "reasoning_type": "diagnostic_uncertainty",
+          "competency_ids": [
+            "recognize_diagnostic_uncertainty"
+          ],
+          "cognitive_operation": "qualify",
+          "clinical_relevance": "Não. É necessário avaliar eGFR, revisar medicamentos que elevam potássio ou alteram aldosterona e, conforme o caso, investigar a excreção urinária de amônio e o eixo renina-aldosterona.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-057-r13",
+          "question_id": "aqz-hiper-057",
+          "sequence": 13,
+          "prompt": "Qual é a implicação terapêutica principal?",
+          "explanation": "Investigar causas reversíveis e tratar a hipercalemia e a acidose conforme o contexto clínico, sem assumir ATR tipo 4 antes da avaliação etiológica.",
+          "reasoning_type": "therapeutic_implication",
+          "competency_ids": [
+            "understand_hypoaldosteronism"
+          ],
+          "cognitive_operation": "apply",
+          "clinical_relevance": "Investigar causas reversíveis e tratar a hipercalemia e a acidose conforme o contexto clínico, sem assumir ATR tipo 4 antes da avaliação etiológica.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-057-r14",
+          "question_id": "aqz-hiper-057",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "O conjunto é uma pista para redução da ação da aldosterona e possível ATR tipo 4; não constitui diagnóstico definitivo.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "recognize_type4_renal_tubular_acidosis"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "O conjunto é uma pista para redução da ação da aldosterona e possível ATR tipo 4; não constitui diagnóstico definitivo.",
+          "prerequisite_concepts": []
+        }
+      ],
+      "clinical_pearl": "> Em pessoa com diabetes, hipercalemia persistente e acidose hiperclorêmica levantam a hipótese de ATR tipo 4. Confira a albumina e o AG corrigido, estime a função renal e revise medicamentos: o padrão sugere, mas não confirma, o diagnóstico.",
+      "references": [
+        "*Causes and evaluation of hyperkalemia in adults*. UpToDate — seções sobre redução da secreção de aldosterona e mecanismos de excreção renal de potássio.",
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate — tabela “Pathogenesis of type 4 renal tubular acidosis (RTA)”.",
+        "*Hyporeninemic hypoaldosteronism in diabetic patients with chronic renal failure*. PubMed. https://pubmed.ncbi.nlm.nih.gov/3394721/",
+        "*Anion gap and hypoalbuminemia*. Critical Care Medicine. https://doi.org/10.1097/00003246-199811000-00019",
+        "*Hyperglycemic Crises in Adults With Diabetes: A Consensus Report*. Diabetes Care. https://doi.org/10.2337/dci24-0032"
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "renal_pathophysiology",
+        "clinical_context": "outpatient",
+        "urgency_level": "prompt_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "recognize_type4_renal_tubular_acidosis",
+        "secondary_competencies": [
+          "interpret_metabolic_acidosis",
+          "calculate_anion_gap",
+          "understand_hypoaldosteronism",
+          "recognize_hyperchloremic_acidosis",
+          "recognize_diagnostic_uncertainty"
+        ],
+        "learning_objectives": [
+          "O conjunto é uma pista para redução da ação da aldosterona e possível ATR tipo 4; não constitui diagnóstico definitivo."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_management",
+        "arena_skill_ids": [
+          "renal_pathophysiology",
+          "acid_base_interpretation",
+          "hyperkalemia"
+        ],
+        "arena_challenge_types": [
+          "clinical_decision",
+          "diagnostic_reasoning"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "type4_rta",
+          "hypoaldosteronism",
+          "diabetes",
+          "normal_anion_gap_acidosis"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "Revisão científica/editorial concluída: o ânion gap 11 foi calculado sem correção porque a albumina não foi fornecida; não classificar o AG corrigido nem inferir gravidade renal apenas pela creatinina. O padrão sugere, mas não confirma, ATR tipo 4. Glicemia de 142 mg/dL não exclui cetoacidose euglicêmica; avaliar cetonas se houver contexto clínico ou uso de inibidor de SGLT2. Revisar eGFR, medicamentos e, conforme o caso, excreção de amônio e eixo renina-aldosterona.",
+        "related_lesson_ids": [
+          "5ba508c9-bfb5-472c-bf69-254036832a95"
+        ],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "renal_pathophysiology",
+          "acid_base_interpretation",
+          "hyperkalemia"
+        ],
+        "challenge_types": [
+          "clinical_decision",
+          "diagnostic_reasoning"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-058",
+      "question_id": "aqz-hiper-058",
+      "numero": 58,
+      "question_number": 58,
+      "titulo": "A heparina pode aumentar o potássio?",
+      "competenciaPrincipal": "Reconhecer hipercalemia induzida por heparina",
+      "competenciasSecundarias": [
+        "understand_aldosterone_synthesis",
+        "identify_medication_adverse_effects",
+        "interpret_serial_potassium_measurements",
+        "balance_thrombotic_and_metabolic_risk",
+        "perform_medication_review"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [
+        {
+          "numero": 7,
+          "aulaId": "2ef9f9aa-e6e4-4ca3-889b-ae780b1bb487",
+          "moduloId": "55b01307-2855-453b-8489-78e3fe20cb14"
+        }
+      ],
+      "versao": "1.0",
+      "enunciado": "Um homem de 70 anos, com diabetes mellitus tipo 2 e doença renal crônica estágio G3a, está internado há nove dias para tratamento de uma pneumonia bacteriana.\n\nDesde a admissão, recebe heparina não fracionada por via subcutânea para profilaxia de tromboembolismo venoso.\n\nNos primeiros dias, apresentava potássio de 4,5 mEq/L.\n\nNas últimas 72 horas, foram observados:\n\n- Potássio: 5,3 → 5,7 → 6,0 mEq/L.\n- Creatinina: 1,4 mg/dL, estável.\n- Diurese preservada.\n- Glicemias entre 110 e 170 mg/dL.\n- ECG sem alterações sugestivas de hipercalemia.\n\nNão há hemólise nas amostras, acidose metabólica importante, rabdomiólise ou suplementação de potássio.\n\nA pneumonia apresenta melhora clínica.\n\n**Qual hipótese medicamentosa deve ser considerada?**",
+      "alternativas": {
+        "A": "A heparina pode reduzir a síntese de aldosterona e comprometer a excreção renal de potássio, especialmente em pacientes predispostos.",
+        "B": "A heparina provoca hipercalemia exclusivamente quando causa hemorragia maciça e destruição de hemácias.",
+        "C": "A heparina aumenta diretamente a reabsorção de potássio no intestino, independentemente da função renal.",
+        "D": "A heparina não interfere na homeostase do potássio, portanto sua participação deve ser excluída."
+      },
+      "gabarito": "A",
+      "raciocinioClinico": "**1. Qual é o padrão de evolução laboratorial?**\n\nElevação progressiva do potássio durante a internação, sem piora proporcional da função renal.\n\n**2. Por que a cronologia é importante?**\n\nPorque a hipercalemia surgiu após vários dias de exposição a um medicamento iniciado na admissão.\n\n**3. Qual medicamento merece investigação?**\n\nA heparina não fracionada, utilizada para profilaxia de tromboembolismo venoso.\n\n**4. A heparina pode provocar hipercalemia mesmo em doses profiláticas?**\n\nSim. O efeito sobre a síntese de aldosterona pode ocorrer durante o uso de heparina, inclusive em esquemas profiláticos, especialmente em pacientes suscetíveis.\n\n**5. Qual é o principal mecanismo endócrino?**\n\nRedução da síntese de aldosterona pela zona glomerulosa da adrenal.\n\n**6. Qual é a função da aldosterona na excreção de potássio?**\n\nFavorecer a secreção renal de potássio nos segmentos distais do néfron.\n\n**7. O que acontece quando a síntese de aldosterona diminui?**\n\nA capacidade de excretar potássio pode ser reduzida, favorecendo sua retenção.\n\n**8. Por que diabetes e doença renal crônica aumentam a suscetibilidade?**\n\nPorque podem comprometer mecanismos renais e hormonais de adaptação à retenção de potássio.\n\n**9. A creatinina estável exclui a hipótese?**\n\nNão. A hipercalemia pode resultar de alterações hormonais e tubulares sem deterioração importante da filtração glomerular.\n\n**10. O ECG normal permite ignorar o potássio de 6,0 mEq/L?**\n\nNão. O resultado deve ser avaliado prontamente, considerando o risco clínico e a possibilidade de progressão.\n\n**11. Qual deve ser a abordagem inicial?**\n\nReavaliar a gravidade da hipercalemia, confirmar os resultados, revisar os medicamentos e investigar causas concomitantes.\n\n**12. A heparina deve ser suspensa automaticamente, sem considerar o risco tromboembólico?**\n\nNão. A decisão exige avaliação do risco de trombose, da indicação da profilaxia e das alternativas disponíveis.\n\n**13. Qual é a importância do acompanhamento após uma eventual mudança terapêutica?**\n\nVerificar a evolução do potássio e identificar se a intervenção contribuiu para sua redução.\n\n**14. Qual é a competência principal?**\n\nReconhecer a heparina como possível causa de hipercalemia por redução da síntese de aldosterona, mesmo quando utilizada em profilaxia e sem piora importante da creatinina.",
+      "comentarios": {
+        "A": "A heparina pode reduzir a síntese de aldosterona, comprometendo a secreção renal de potássio. Diabetes e doença renal crônica aumentam a suscetibilidade.",
+        "B": "O mecanismo habitual não depende de hemorragia ou destruição maciça de hemácias.",
+        "C": "A associação entre heparina e hipercalemia está relacionada principalmente à redução da síntese de aldosterona, não ao aumento direto da absorção intestinal.",
+        "D": "A heparina é uma causa medicamentosa reconhecida de hipercalemia e deve ser considerada na investigação."
+      },
+      "perola": "> A heparina que você prescreve para prevenir trombose também pode interferir na aldosterona. Quando o potássio sobe durante a internação, revise até os medicamentos que parecem não ter relação com os rins.",
+      "referencias": "*Causes and evaluation of hyperkalemia in adults*. UpToDate — seção “Reduced aldosterone secretion”.\n*Treatment and prevention of hyperkalemia in adults*. UpToDate — tabela “Pathogenesis of type 4 renal tubular acidosis (RTA)”, que inclui heparina crônica entre as causas de redução da síntese de aldosterona.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 12,
+      "stem": "Um homem de 70 anos, com diabetes mellitus tipo 2 e doença renal crônica estágio G3a, está internado há nove dias para tratamento de uma pneumonia bacteriana.\n\nDesde a admissão, recebe heparina não fracionada por via subcutânea para profilaxia de tromboembolismo venoso.\n\nNos primeiros dias, apresentava potássio de 4,5 mEq/L.\n\nNas últimas 72 horas, foram observados:\n\n- Potássio: 5,3 → 5,7 → 6,0 mEq/L.\n- Creatinina: 1,4 mg/dL, estável.\n- Diurese preservada.\n- Glicemias entre 110 e 170 mg/dL.\n- ECG sem alterações sugestivas de hipercalemia.\n\nNão há hemólise nas amostras, acidose metabólica importante, rabdomiólise ou suplementação de potássio.\n\nA pneumonia apresenta melhora clínica.\n\n**Qual hipótese medicamentosa deve ser considerada?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-058-A",
+          "question_id": "aqz-hiper-058",
+          "letter": "A",
+          "text": "A heparina pode reduzir a síntese de aldosterona e comprometer a excreção renal de potássio, especialmente em pacientes predispostos.",
+          "is_correct": true,
+          "feedback": "A heparina pode reduzir a síntese de aldosterona, comprometendo a secreção renal de potássio. Diabetes e doença renal crônica aumentam a suscetibilidade.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "recognize_heparin_induced_hyperkalemia",
+            "understand_aldosterone_synthesis",
+            "perform_medication_review"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-058-B",
+          "question_id": "aqz-hiper-058",
+          "letter": "B",
+          "text": "A heparina provoca hipercalemia exclusivamente quando causa hemorragia maciça e destruição de hemácias.",
+          "is_correct": false,
+          "feedback": "O mecanismo habitual não depende de hemorragia ou destruição maciça de hemácias.",
+          "error_type": "incorrect_pathophysiology",
+          "misconception_id": "heparin_hyperkalemia_requires_hemolysis",
+          "misconception_description": "Supõe que a heparina só eleva potássio quando causa hemorragia ou destruição de hemácias.",
+          "competency_ids": [
+            "identify_medication_adverse_effects"
+          ],
+          "clinical_risk_if_applied": "Pode excluir um efeito endócrino medicamentoso e atrasar a revisão da profilaxia."
+        },
+        {
+          "option_id": "aqz-hiper-058-C",
+          "question_id": "aqz-hiper-058",
+          "letter": "C",
+          "text": "A heparina aumenta diretamente a reabsorção de potássio no intestino, independentemente da função renal.",
+          "is_correct": false,
+          "feedback": "A associação entre heparina e hipercalemia está relacionada principalmente à redução da síntese de aldosterona, não ao aumento direto da absorção intestinal.",
+          "error_type": "incorrect_drug_mechanism",
+          "misconception_id": "heparin_increases_intestinal_k_absorption",
+          "misconception_description": "Atribui à heparina aumento direto da absorção intestinal de potássio.",
+          "competency_ids": [
+            "identify_medication_adverse_effects"
+          ],
+          "clinical_risk_if_applied": "Pode direcionar a investigação a uma via não sustentada pelo caso."
+        },
+        {
+          "option_id": "aqz-hiper-058-D",
+          "question_id": "aqz-hiper-058",
+          "letter": "D",
+          "text": "A heparina não interfere na homeostase do potássio, portanto sua participação deve ser excluída.",
+          "is_correct": false,
+          "feedback": "A heparina é uma causa medicamentosa reconhecida de hipercalemia e deve ser considerada na investigação.",
+          "error_type": "failure_to_recognize_drug_effect",
+          "misconception_id": "heparin_cannot_affect_potassium",
+          "misconception_description": "Descarta a heparina como possível causa medicamentosa de hipercalemia.",
+          "competency_ids": [
+            "perform_medication_review"
+          ],
+          "clinical_risk_if_applied": "Pode manter sem revisão uma exposição associada a redução da síntese de aldosterona."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-058-r01",
+          "question_id": "aqz-hiper-058",
+          "sequence": 1,
+          "prompt": "Qual é o padrão de evolução laboratorial?",
+          "explanation": "Elevação progressiva do potássio durante a internação, sem piora proporcional da função renal.",
+          "reasoning_type": "laboratory_trend_interpretation",
+          "competency_ids": [
+            "interpret_serial_potassium_measurements"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Elevação progressiva do potássio durante a internação, sem piora proporcional da função renal.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-058-r02",
+          "question_id": "aqz-hiper-058",
+          "sequence": 2,
+          "prompt": "Por que a cronologia é importante?",
+          "explanation": "Porque a hipercalemia surgiu após vários dias de exposição a um medicamento iniciado na admissão.",
+          "reasoning_type": "temporal_association",
+          "competency_ids": [
+            "interpret_serial_potassium_measurements"
+          ],
+          "cognitive_operation": "associate",
+          "clinical_relevance": "Porque a hipercalemia surgiu após vários dias de exposição a um medicamento iniciado na admissão.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-058-r03",
+          "question_id": "aqz-hiper-058",
+          "sequence": 3,
+          "prompt": "Qual medicamento merece investigação?",
+          "explanation": "A heparina não fracionada, utilizada para profilaxia de tromboembolismo venoso.",
+          "reasoning_type": "medication_review",
+          "competency_ids": [
+            "perform_medication_review"
+          ],
+          "cognitive_operation": "review",
+          "clinical_relevance": "A heparina não fracionada, utilizada para profilaxia de tromboembolismo venoso.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-058-r04",
+          "question_id": "aqz-hiper-058",
+          "sequence": 4,
+          "prompt": "A heparina pode provocar hipercalemia mesmo em doses profiláticas?",
+          "explanation": "Sim. O efeito sobre a síntese de aldosterona pode ocorrer durante o uso de heparina, inclusive em esquemas profiláticos, especialmente em pacientes suscetíveis.",
+          "reasoning_type": "prophylactic_dose_effect",
+          "competency_ids": [
+            "identify_medication_adverse_effects"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Sim. O efeito sobre a síntese de aldosterona pode ocorrer durante o uso de heparina, inclusive em esquemas profiláticos, especialmente em pacientes suscetíveis.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-058-r05",
+          "question_id": "aqz-hiper-058",
+          "sequence": 5,
+          "prompt": "Qual é o principal mecanismo endócrino?",
+          "explanation": "Redução da síntese de aldosterona pela zona glomerulosa da adrenal.",
+          "reasoning_type": "aldosterone_synthesis",
+          "competency_ids": [
+            "understand_aldosterone_synthesis"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Redução da síntese de aldosterona pela zona glomerulosa da adrenal.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-058-r06",
+          "question_id": "aqz-hiper-058",
+          "sequence": 6,
+          "prompt": "Qual é a função da aldosterona na excreção de potássio?",
+          "explanation": "Favorecer a secreção renal de potássio nos segmentos distais do néfron.",
+          "reasoning_type": "renal_potassium_handling",
+          "competency_ids": [
+            "understand_aldosterone_synthesis"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Favorecer a secreção renal de potássio nos segmentos distais do néfron.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-058-r07",
+          "question_id": "aqz-hiper-058",
+          "sequence": 7,
+          "prompt": "O que acontece quando a síntese de aldosterona diminui?",
+          "explanation": "A capacidade de excretar potássio pode ser reduzida, favorecendo sua retenção.",
+          "reasoning_type": "endocrine_pathophysiology",
+          "competency_ids": [
+            "understand_aldosterone_synthesis"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "A capacidade de excretar potássio pode ser reduzida, favorecendo sua retenção.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-058-r08",
+          "question_id": "aqz-hiper-058",
+          "sequence": 8,
+          "prompt": "Por que diabetes e doença renal crônica aumentam a suscetibilidade?",
+          "explanation": "Porque podem comprometer mecanismos renais e hormonais de adaptação à retenção de potássio.",
+          "reasoning_type": "risk_factor_identification",
+          "competency_ids": [
+            "identify_medication_adverse_effects"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Porque podem comprometer mecanismos renais e hormonais de adaptação à retenção de potássio.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-058-r09",
+          "question_id": "aqz-hiper-058",
+          "sequence": 9,
+          "prompt": "A creatinina estável exclui a hipótese?",
+          "explanation": "Não. A hipercalemia pode resultar de alterações hormonais e tubulares sem deterioração importante da filtração glomerular.",
+          "reasoning_type": "laboratory_interpretation",
+          "competency_ids": [
+            "interpret_serial_potassium_measurements"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Não. A hipercalemia pode resultar de alterações hormonais e tubulares sem deterioração importante da filtração glomerular.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-058-r10",
+          "question_id": "aqz-hiper-058",
+          "sequence": 10,
+          "prompt": "O ECG normal permite ignorar o potássio de 6,0 mEq/L?",
+          "explanation": "Não. O resultado deve ser avaliado prontamente, considerando o risco clínico e a possibilidade de progressão.",
+          "reasoning_type": "ecg_interpretation",
+          "competency_ids": [
+            "interpret_serial_potassium_measurements"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Não. O resultado deve ser avaliado prontamente, considerando o risco clínico e a possibilidade de progressão.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-058-r11",
+          "question_id": "aqz-hiper-058",
+          "sequence": 11,
+          "prompt": "Qual deve ser a abordagem inicial?",
+          "explanation": "Reavaliar a gravidade da hipercalemia, confirmar os resultados, revisar os medicamentos e investigar causas concomitantes.",
+          "reasoning_type": "clinical_reassessment",
+          "competency_ids": [
+            "perform_medication_review"
+          ],
+          "cognitive_operation": "assess",
+          "clinical_relevance": "Reavaliar a gravidade da hipercalemia, confirmar os resultados, revisar os medicamentos e investigar causas concomitantes.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-058-r12",
+          "question_id": "aqz-hiper-058",
+          "sequence": 12,
+          "prompt": "A heparina deve ser suspensa automaticamente, sem considerar o risco tromboembólico?",
+          "explanation": "Não. A decisão exige avaliação do risco de trombose, da indicação da profilaxia e das alternativas disponíveis.",
+          "reasoning_type": "thrombotic_risk_assessment",
+          "competency_ids": [
+            "balance_thrombotic_and_metabolic_risk"
+          ],
+          "cognitive_operation": "assess",
+          "clinical_relevance": "Não. A decisão exige avaliação do risco de trombose, da indicação da profilaxia e das alternativas disponíveis.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-058-r13",
+          "question_id": "aqz-hiper-058",
+          "sequence": 13,
+          "prompt": "Qual é a importância do acompanhamento após uma eventual mudança terapêutica?",
+          "explanation": "Verificar a evolução do potássio e identificar se a intervenção contribuiu para sua redução.",
+          "reasoning_type": "treatment_response_monitoring",
+          "competency_ids": [
+            "interpret_serial_potassium_measurements"
+          ],
+          "cognitive_operation": "monitor",
+          "clinical_relevance": "Verificar a evolução do potássio e identificar se a intervenção contribuiu para sua redução.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-058-r14",
+          "question_id": "aqz-hiper-058",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Reconhecer a heparina como possível causa de hipercalemia por redução da síntese de aldosterona, mesmo quando utilizada em profilaxia e sem piora importante da creatinina.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "recognize_heparin_induced_hyperkalemia"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Reconhecer a heparina como possível causa de hipercalemia por redução da síntese de aldosterona, mesmo quando utilizada em profilaxia e sem piora importante da creatinina.",
+          "prerequisite_concepts": []
+        }
+      ],
+      "clinical_pearl": "> A heparina que você prescreve para prevenir trombose também pode interferir na aldosterona. Quando o potássio sobe durante a internação, revise até os medicamentos que parecem não ter relação com os rins.",
+      "references": [
+        "*Causes and evaluation of hyperkalemia in adults*. UpToDate — seção “Reduced aldosterone secretion”.",
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate — tabela “Pathogenesis of type 4 renal tubular acidosis (RTA)”, que inclui heparina crônica entre as causas de redução da síntese de aldosterona."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "drug_induced_hyperkalemia",
+        "clinical_context": "hospital_ward",
+        "urgency_level": "prompt_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "recognize_heparin_induced_hyperkalemia",
+        "secondary_competencies": [
+          "understand_aldosterone_synthesis",
+          "identify_medication_adverse_effects",
+          "interpret_serial_potassium_measurements",
+          "balance_thrombotic_and_metabolic_risk",
+          "perform_medication_review"
+        ],
+        "learning_objectives": [
+          "Reconhecer a heparina como possível causa de hipercalemia por redução da síntese de aldosterona, mesmo quando utilizada em profilaxia e sem piora importante da creatinina."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "clinical_reasoning",
+        "arena_skill_ids": [
+          "medication_safety",
+          "aldosterone_physiology",
+          "hyperkalemia"
+        ],
+        "arena_challenge_types": [
+          "clinical_decision",
+          "risk_factor_identification"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "heparin",
+          "aldosterone",
+          "ckd",
+          "diabetes"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [
+          "2ef9f9aa-e6e4-4ca3-889b-ae780b1bb487"
+        ],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "medication_safety",
+          "aldosterone_physiology",
+          "hyperkalemia"
+        ],
+        "challenge_types": [
+          "clinical_decision",
+          "risk_factor_identification"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-059",
+      "question_id": "aqz-hiper-059",
+      "numero": 59,
+      "question_number": 59,
+      "titulo": "Potássio elevado, mas o organismo pode estar sem potássio",
+      "competenciaPrincipal": "Diferenciar potássio sérico dos estoques corporais totais",
+      "competenciasSecundarias": [
+        "understand_potassium_redistribution",
+        "understand_insulin_effect_on_potassium",
+        "recognize_osmotic_diuresis_losses",
+        "anticipate_treatment_related_hypokalemia",
+        "monitor_potassium_during_dka"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [
+        {
+          "numero": 3,
+          "aulaId": "c9c19bb3-eb5a-45ec-a4a9-ef456066dd99",
+          "moduloId": "04faca52-d0a9-4470-b0be-b48991ab0ad1"
+        },
+        {
+          "numero": 15,
+          "aulaId": "759984ad-df44-4a0a-9543-3c3602e75e5e",
+          "moduloId": "26bdbea9-55a7-4549-b922-4fd1db60f887"
+        }
+      ],
+      "versao": "1.0",
+      "enunciado": "Uma mulher de 29 anos, com diabetes mellitus tipo 1, é admitida na emergência com vômitos, dor abdominal, poliúria e respiração profunda.\n\nRelata que deixou de utilizar insulina nas últimas 24 horas.\n\nNa avaliação inicial:\n\n- PA: 98/62 mmHg.\n- FC: 118 bpm.\n- Glicemia: 568 mg/dL.\n- pH: 7,12.\n- Bicarbonato: 9 mEq/L.\n- Potássio: 5,9 mEq/L.\n- Cetonemia: positiva.\n- Creatinina: 1,3 mg/dL.\n\nO ECG não apresenta alterações sugestivas de toxicidade hipercalêmica.\n\nA equipe inicia o tratamento da cetoacidose diabética e discute a interpretação do potássio inicial.\n\n**Qual afirmação é a mais adequada?**",
+      "alternativas": {
+        "A": "O potássio sérico elevado demonstra que a paciente apresenta obrigatoriamente excesso corporal total de potássio.",
+        "B": "A insulinoterapia está contraindicada enquanto o potássio sérico estiver acima do valor de referência.",
+        "C": "Como o potássio inicial é de 5,9 mEq/L, não existe risco de hipocalemia durante o tratamento.",
+        "D": "A deficiência de insulina e a hiperosmolalidade podem deslocar potássio para o meio extracelular, enquanto perdas urinárias e gastrointestinais produzem déficit corporal total; o tratamento pode reduzir rapidamente o potássio sérico, exigindo monitorização e reposição conforme sua evolução."
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. Qual é a síndrome clínica predominante?**\n\nCetoacidose diabética, caracterizada por hiperglicemia, cetonemia e acidose metabólica no contexto apresentado.\n\n**2. Qual é o valor inicial do potássio?**\n\n5,9 mEq/L, indicando hipercalemia sérica.\n\n**3. O potássio sérico representa diretamente o estoque corporal total?**\n\nNão. A concentração sérica depende da distribuição entre os compartimentos intra e extracelular, além da quantidade total de potássio.\n\n**4. Qual é o papel da deficiência de insulina?**\n\nA insulina normalmente favorece a entrada de potássio nas células. Sua deficiência contribui para a permanência de potássio no meio extracelular.\n\n**5. Qual é o papel da hiperosmolalidade?**\n\nA hiperosmolalidade pode favorecer a saída de água das células e a redistribuição de potássio para o meio extracelular.\n\n**6. A acidose também pode influenciar a distribuição do potássio?**\n\nSim, mas a magnitude desse efeito depende do tipo de acidose. Na cetoacidose diabética, deficiência de insulina e hiperosmolalidade são mecanismos particularmente relevantes.\n\n**7. Por que pode existir déficit corporal total de potássio?**\n\nA diurese osmótica aumenta a perda urinária de eletrólitos, enquanto vômitos e outras perdas podem contribuir para a depleção.\n\n**8. Como explicar a coexistência de hipercalemia sérica e déficit corporal?**\n\nO deslocamento de potássio para o meio extracelular pode elevar sua concentração no sangue apesar da perda de potássio pelo organismo.\n\n**9. O que acontece quando a insulina é administrada?**\n\nA insulina aumenta a entrada de potássio nas células e reduz sua concentração sérica. Esse efeito exige acompanhamento durante o tratamento.\n\n**10. Qual é o efeito da reposição volêmica?**\n\nContribui para corrigir a hipovolemia e pode favorecer a recuperação da perfusão renal e a excreção de potássio, conforme a função renal.\n\n**11. Qual complicação eletrolítica pode surgir durante o tratamento?**\n\nHipocalemia, potencialmente grave, se a queda do potássio sérico não for acompanhada e tratada adequadamente.\n\n**12. O potássio inicial de 5,9 mEq/L justifica reposição imediata?**\n\nNão. Com K acima de 5,0 mEq/L, não se adiciona potássio inicialmente. Quando o valor cair abaixo de 5,0 mEq/L, inicia-se reposição nos fluidos para manter o potássio entre 4 e 5 mEq/L, ajustada à função renal e ao protocolo local.\n\n**13. A insulinoterapia deve ser suspensa porque o potássio inicial está elevado?**\n\nNão. Com K de 5,9 mEq/L, a insulina faz parte do tratamento da cetoacidose e não é adiada apenas pela hipercalemia. Se o K estiver abaixo de 3,5 mEq/L, repõe-se potássio e adia-se a insulina até que o valor ultrapasse 3,5 mEq/L.\n\n**14. Como monitorar o potássio durante a insulinoterapia?**\n\nMedir o potássio 2 horas após iniciar a insulina e, depois, a cada 4 horas até a resolução da cetoacidose.\n\n**15. Qual é a competência principal?**\n\nDiferenciar concentração sérica de estoque corporal total e antecipar a queda do potássio durante o tratamento da cetoacidose diabética.",
+      "comentarios": {
+        "A": "Hipercalemia sérica não significa necessariamente excesso corporal total de potássio. Na cetoacidose diabética, pode coexistir com depleção importante.",
+        "B": "A insulina é essencial no tratamento da cetoacidose. Com potássio de 5,9 mEq/L, ela não deve ser adiada apenas porque o valor está acima da referência. Se o potássio cair abaixo de 3,5 mEq/L, deve-se repor potássio e adiar a insulina até que ele ultrapasse 3,5 mEq/L.",
+        "C": "A queda do potássio durante o tratamento pode ser expressiva, mesmo quando o valor inicial está elevado; por isso, é necessária monitorização seriada.",
+        "D": "Correta. A concentração sérica inicial pode coexistir com déficit corporal total. Com K de 5,9 mEq/L, não se adiciona potássio inicialmente; acompanha-se a evolução e inicia-se reposição quando o valor cair abaixo de 5,0 mEq/L, visando mantê-lo entre 4 e 5 mEq/L, com ajuste à função renal e ao protocolo local."
+      },
+      "perola": "> Na cetoacidose diabética, potássio sérico elevado pode coexistir com déficit corporal total. Com K >5,0 mEq/L, não se repõe potássio inicialmente; quando cair abaixo de 5,0, repõe-se para manter 4–5 mEq/L. Se K <3,5, repõe-se potássio e adia-se a insulina até ultrapassar 3,5. Monitorize 2 horas após iniciar insulina e, depois, a cada 4 horas.",
+      "referencias": "*Treatment and prevention of hyperkalemia in adults*. UpToDate — seção “Introduction”, que descreve hipercalemia redistributiva na hiperglicemia descontrolada e o risco de déficit corporal total de potássio.\n*Hyperglycemic Crises in Adults With Diabetes: A Consensus Report*. Diabetes Care. 2024;47(8):1257–1275. doi:10.2337/dci24-0032. https://doi.org/10.2337/dci24-0032",
+      "scientificReviewNotes": "Revisão científica concluída com base no consenso internacional de 2024 para crises hiperglicêmicas em adultos. Com K inicial de 5,9 mEq/L, não se adiciona potássio inicialmente; iniciar reposição quando K <5,0 mEq/L, visando 4–5 mEq/L e ajustando à função renal e ao protocolo. Medir K 2 h após iniciar insulina e a cada 4 h. Se K <3,5 mEq/L, repor potássio e adiar insulina até K >3,5 mEq/L. A hipercalemia sérica na cetoacidose pode coexistir com déficit corporal total.",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": "Revisão científica concluída com base no consenso internacional de 2024 para crises hiperglicêmicas em adultos. Com K inicial de 5,9 mEq/L, não se adiciona potássio inicialmente; iniciar reposição quando K <5,0 mEq/L, visando 4–5 mEq/L e ajustando à função renal e ao protocolo. Medir K 2 h após iniciar insulina e a cada 4 h. Se K <3,5 mEq/L, repor potássio e adiar insulina até K >3,5 mEq/L. A hipercalemia sérica na cetoacidose pode coexistir com déficit corporal total.",
+      "schema_version": 1,
+      "content_version": 2,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 12,
+      "stem": "Uma mulher de 29 anos, com diabetes mellitus tipo 1, é admitida na emergência com vômitos, dor abdominal, poliúria e respiração profunda.\n\nRelata que deixou de utilizar insulina nas últimas 24 horas.\n\nNa avaliação inicial:\n\n- PA: 98/62 mmHg.\n- FC: 118 bpm.\n- Glicemia: 568 mg/dL.\n- pH: 7,12.\n- Bicarbonato: 9 mEq/L.\n- Potássio: 5,9 mEq/L.\n- Cetonemia: positiva.\n- Creatinina: 1,3 mg/dL.\n\nO ECG não apresenta alterações sugestivas de toxicidade hipercalêmica.\n\nA equipe inicia o tratamento da cetoacidose diabética e discute a interpretação do potássio inicial.\n\n**Qual afirmação é a mais adequada?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-059-A",
+          "question_id": "aqz-hiper-059",
+          "letter": "A",
+          "text": "O potássio sérico elevado demonstra que a paciente apresenta obrigatoriamente excesso corporal total de potássio.",
+          "is_correct": false,
+          "feedback": "Hipercalemia sérica não significa necessariamente excesso corporal total de potássio. Na cetoacidose diabética, pode coexistir com depleção importante.",
+          "error_type": "compartment_misinterpretation",
+          "misconception_id": "serum_hyperkalemia_proves_total_body_excess",
+          "misconception_description": "Confunde concentração sérica com estoque corporal total de potássio.",
+          "competency_ids": [
+            "understand_potassium_redistribution"
+          ],
+          "clinical_risk_if_applied": "Pode levar a reposição insuficiente durante o tratamento e à hipocalemia."
+        },
+        {
+          "option_id": "aqz-hiper-059-B",
+          "question_id": "aqz-hiper-059",
+          "letter": "B",
+          "text": "A insulinoterapia está contraindicada enquanto o potássio sérico estiver acima do valor de referência.",
+          "is_correct": false,
+          "feedback": "A insulina é essencial no tratamento da cetoacidose. Com potássio de 5,9 mEq/L, ela não deve ser adiada apenas porque o valor está acima da referência. Se o potássio cair abaixo de 3,5 mEq/L, deve-se repor potássio e adiar a insulina até que ele ultrapasse 3,5 mEq/L.",
+          "error_type": "inappropriate_treatment_contraindication",
+          "misconception_id": "elevated_k_prohibits_insulin_in_dka",
+          "misconception_description": "Considera a insulina contraindicada apenas porque o potássio sérico inicial está elevado.",
+          "competency_ids": [
+            "understand_insulin_effect_on_potassium"
+          ],
+          "clinical_risk_if_applied": "Pode atrasar o tratamento da cetoacidose diabética."
+        },
+        {
+          "option_id": "aqz-hiper-059-C",
+          "question_id": "aqz-hiper-059",
+          "letter": "C",
+          "text": "Como o potássio inicial é de 5,9 mEq/L, não existe risco de hipocalemia durante o tratamento.",
+          "is_correct": false,
+          "feedback": "A queda do potássio durante o tratamento pode ser expressiva, mesmo quando o valor inicial está elevado; por isso, é necessária monitorização seriada.",
+          "error_type": "failure_to_anticipate_complication",
+          "misconception_id": "initial_hyperkalemia_prevents_treatment_hypokalemia",
+          "misconception_description": "Supõe que a hipercalemia inicial exclui hipocalemia subsequente.",
+          "competency_ids": [
+            "anticipate_treatment_related_hypokalemia"
+          ],
+          "clinical_risk_if_applied": "Pode deixar de monitorar e tratar queda perigosa do potássio durante a insulinoterapia."
+        },
+        {
+          "option_id": "aqz-hiper-059-D",
+          "question_id": "aqz-hiper-059",
+          "letter": "D",
+          "text": "A deficiência de insulina e a hiperosmolalidade podem deslocar potássio para o meio extracelular, enquanto perdas urinárias e gastrointestinais produzem déficit corporal total; o tratamento pode reduzir rapidamente o potássio sérico, exigindo monitorização e reposição conforme sua evolução.",
+          "is_correct": true,
+          "feedback": "Correta. A concentração sérica inicial pode coexistir com déficit corporal total. Com K de 5,9 mEq/L, não se adiciona potássio inicialmente; acompanha-se a evolução e inicia-se reposição quando o valor cair abaixo de 5,0 mEq/L, visando mantê-lo entre 4 e 5 mEq/L, com ajuste à função renal e ao protocolo local.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "distinguish_serum_potassium_from_total_body_stores",
+            "monitor_potassium_during_dka"
+          ],
+          "clinical_risk_if_applied": null
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-059-r01",
+          "question_id": "aqz-hiper-059",
+          "sequence": 1,
+          "prompt": "Qual é a síndrome clínica predominante?",
+          "explanation": "Cetoacidose diabética, caracterizada por hiperglicemia, cetonemia e acidose metabólica no contexto apresentado.",
+          "reasoning_type": "syndrome_recognition",
+          "competency_ids": [
+            "distinguish_serum_potassium_from_total_body_stores"
+          ],
+          "cognitive_operation": "recognize",
+          "clinical_relevance": "Cetoacidose diabética, caracterizada por hiperglicemia, cetonemia e acidose metabólica no contexto apresentado.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-059-r02",
+          "question_id": "aqz-hiper-059",
+          "sequence": 2,
+          "prompt": "Qual é o valor inicial do potássio?",
+          "explanation": "5,9 mEq/L, indicando hipercalemia sérica.",
+          "reasoning_type": "laboratory_interpretation",
+          "competency_ids": [
+            "distinguish_serum_potassium_from_total_body_stores"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "5,9 mEq/L, indicando hipercalemia sérica.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-059-r03",
+          "question_id": "aqz-hiper-059",
+          "sequence": 3,
+          "prompt": "O potássio sérico representa diretamente o estoque corporal total?",
+          "explanation": "Não. A concentração sérica depende da distribuição entre os compartimentos intra e extracelular, além da quantidade total de potássio.",
+          "reasoning_type": "compartment_physiology",
+          "competency_ids": [
+            "understand_potassium_redistribution"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Não. A concentração sérica depende da distribuição entre os compartimentos intra e extracelular, além da quantidade total de potássio.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-059-r04",
+          "question_id": "aqz-hiper-059",
+          "sequence": 4,
+          "prompt": "Qual é o papel da deficiência de insulina?",
+          "explanation": "A insulina normalmente favorece a entrada de potássio nas células. Sua deficiência contribui para a permanência de potássio no meio extracelular.",
+          "reasoning_type": "insulin_physiology",
+          "competency_ids": [
+            "understand_insulin_effect_on_potassium"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "A insulina normalmente favorece a entrada de potássio nas células. Sua deficiência contribui para a permanência de potássio no meio extracelular.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-059-r05",
+          "question_id": "aqz-hiper-059",
+          "sequence": 5,
+          "prompt": "Qual é o papel da hiperosmolalidade?",
+          "explanation": "A hiperosmolalidade pode favorecer a saída de água das células e a redistribuição de potássio para o meio extracelular.",
+          "reasoning_type": "hyperosmolality_physiology",
+          "competency_ids": [
+            "understand_potassium_redistribution"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "A hiperosmolalidade pode favorecer a saída de água das células e a redistribuição de potássio para o meio extracelular.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-059-r06",
+          "question_id": "aqz-hiper-059",
+          "sequence": 6,
+          "prompt": "A acidose também pode influenciar a distribuição do potássio?",
+          "explanation": "Sim, mas a magnitude desse efeito depende do tipo de acidose. Na cetoacidose diabética, deficiência de insulina e hiperosmolalidade são mecanismos particularmente relevantes.",
+          "reasoning_type": "acid_base_potassium_interaction",
+          "competency_ids": [
+            "understand_potassium_redistribution"
+          ],
+          "cognitive_operation": "integrate",
+          "clinical_relevance": "Sim, mas a magnitude desse efeito depende do tipo de acidose. Na cetoacidose diabética, deficiência de insulina e hiperosmolalidade são mecanismos particularmente relevantes.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-059-r07",
+          "question_id": "aqz-hiper-059",
+          "sequence": 7,
+          "prompt": "Por que pode existir déficit corporal total de potássio?",
+          "explanation": "A diurese osmótica aumenta a perda urinária de eletrólitos, enquanto vômitos e outras perdas podem contribuir para a depleção.",
+          "reasoning_type": "total_body_potassium_loss",
+          "competency_ids": [
+            "recognize_osmotic_diuresis_losses"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "A diurese osmótica aumenta a perda urinária de eletrólitos, enquanto vômitos e outras perdas podem contribuir para a depleção.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-059-r08",
+          "question_id": "aqz-hiper-059",
+          "sequence": 8,
+          "prompt": "Como explicar a coexistência de hipercalemia sérica e déficit corporal?",
+          "explanation": "O deslocamento de potássio para o meio extracelular pode elevar sua concentração no sangue apesar da perda de potássio pelo organismo.",
+          "reasoning_type": "compartment_integration",
+          "competency_ids": [
+            "distinguish_serum_potassium_from_total_body_stores"
+          ],
+          "cognitive_operation": "integrate",
+          "clinical_relevance": "O deslocamento de potássio para o meio extracelular pode elevar sua concentração no sangue apesar da perda de potássio pelo organismo.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-059-r09",
+          "question_id": "aqz-hiper-059",
+          "sequence": 9,
+          "prompt": "O que acontece quando a insulina é administrada?",
+          "explanation": "A insulina aumenta a entrada de potássio nas células e reduz sua concentração sérica. Esse efeito exige acompanhamento durante o tratamento.",
+          "reasoning_type": "insulin_treatment_effect",
+          "competency_ids": [
+            "understand_insulin_effect_on_potassium"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "A insulina aumenta a entrada de potássio nas células e reduz sua concentração sérica. Esse efeito exige acompanhamento durante o tratamento.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-059-r10",
+          "question_id": "aqz-hiper-059",
+          "sequence": 10,
+          "prompt": "Qual é o efeito da reposição volêmica?",
+          "explanation": "Contribui para corrigir a hipovolemia e pode favorecer a recuperação da perfusão renal e a excreção de potássio, conforme a função renal.",
+          "reasoning_type": "fluid_therapy_effect",
+          "competency_ids": [
+            "recognize_osmotic_diuresis_losses"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Contribui para corrigir a hipovolemia e pode favorecer a recuperação da perfusão renal e a excreção de potássio, conforme a função renal.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-059-r11",
+          "question_id": "aqz-hiper-059",
+          "sequence": 11,
+          "prompt": "Qual complicação eletrolítica pode surgir durante o tratamento?",
+          "explanation": "Hipocalemia, potencialmente grave, se a queda do potássio sérico não for acompanhada e tratada adequadamente.",
+          "reasoning_type": "treatment_complication",
+          "competency_ids": [
+            "anticipate_treatment_related_hypokalemia"
+          ],
+          "cognitive_operation": "anticipate",
+          "clinical_relevance": "Hipocalemia, potencialmente grave, se a queda do potássio sérico não for acompanhada e tratada adequadamente.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-059-r12",
+          "question_id": "aqz-hiper-059",
+          "sequence": 12,
+          "prompt": "O potássio inicial de 5,9 mEq/L justifica reposição imediata?",
+          "explanation": "Não. Com K acima de 5,0 mEq/L, não se adiciona potássio inicialmente. Quando o valor cair abaixo de 5,0 mEq/L, inicia-se reposição nos fluidos para manter o potássio entre 4 e 5 mEq/L, ajustada à função renal e ao protocolo local.",
+          "reasoning_type": "potassium_replacement_safety",
+          "competency_ids": [
+            "monitor_potassium_during_dka"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Não. Com K acima de 5,0 mEq/L, não se adiciona potássio inicialmente. Quando o valor cair abaixo de 5,0 mEq/L, inicia-se reposição nos fluidos para manter o potássio entre 4 e 5 mEq/L, ajustada à função renal e ao protocolo local.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-059-r13",
+          "question_id": "aqz-hiper-059",
+          "sequence": 13,
+          "prompt": "A insulinoterapia deve ser suspensa porque o potássio inicial está elevado?",
+          "explanation": "Não. Com K de 5,9 mEq/L, a insulina faz parte do tratamento da cetoacidose e não é adiada apenas pela hipercalemia. Se o K estiver abaixo de 3,5 mEq/L, repõe-se potássio e adia-se a insulina até que o valor ultrapasse 3,5 mEq/L.",
+          "reasoning_type": "insulin_treatment_safety",
+          "competency_ids": [
+            "understand_insulin_effect_on_potassium"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Não. Com K de 5,9 mEq/L, a insulina faz parte do tratamento da cetoacidose e não é adiada apenas pela hipercalemia. Se o K estiver abaixo de 3,5 mEq/L, repõe-se potássio e adia-se a insulina até que o valor ultrapasse 3,5 mEq/L.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-059-r14",
+          "question_id": "aqz-hiper-059",
+          "sequence": 14,
+          "prompt": "Como monitorar o potássio durante a insulinoterapia?",
+          "explanation": "Medir o potássio 2 horas após iniciar a insulina e, depois, a cada 4 horas até a resolução da cetoacidose.",
+          "reasoning_type": "serial_monitoring",
+          "competency_ids": [
+            "monitor_potassium_during_dka"
+          ],
+          "cognitive_operation": "monitor",
+          "clinical_relevance": "Medir o potássio 2 horas após iniciar a insulina e, depois, a cada 4 horas até a resolução da cetoacidose.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-059-r15",
+          "question_id": "aqz-hiper-059",
+          "sequence": 15,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Diferenciar concentração sérica de estoque corporal total e antecipar a queda do potássio durante o tratamento da cetoacidose diabética.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "distinguish_serum_potassium_from_total_body_stores"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Diferenciar concentração sérica de estoque corporal total e antecipar a queda do potássio durante o tratamento da cetoacidose diabética.",
+          "prerequisite_concepts": []
+        }
+      ],
+      "clinical_pearl": "> Na cetoacidose diabética, potássio sérico elevado pode coexistir com déficit corporal total. Com K >5,0 mEq/L, não se repõe potássio inicialmente; quando cair abaixo de 5,0, repõe-se para manter 4–5 mEq/L. Se K <3,5, repõe-se potássio e adia-se a insulina até ultrapassar 3,5. Monitorize 2 horas após iniciar insulina e, depois, a cada 4 horas.",
+      "references": [
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate — seção “Introduction”, que descreve hipercalemia redistributiva na hiperglicemia descontrolada e o risco de déficit corporal total de potássio.\n*Hyperglycemic Crises in Adults With Diabetes: A Consensus Report*. Diabetes Care. 2024;47(8):1257–1275. doi:10.2337/dci24-0032. https://doi.org/10.2337/dci24-0032"
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "potassium_redistribution",
+        "clinical_context": "emergency_department",
+        "urgency_level": "emergency",
+        "cognitive_level": "clinical_reasoning",
+        "primary_competency": "distinguish_serum_potassium_from_total_body_stores",
+        "secondary_competencies": [
+          "understand_potassium_redistribution",
+          "understand_insulin_effect_on_potassium",
+          "recognize_osmotic_diuresis_losses",
+          "anticipate_treatment_related_hypokalemia",
+          "monitor_potassium_during_dka"
+        ],
+        "learning_objectives": [
+          "Diferenciar concentração sérica de estoque corporal total de potássio e antecipar a redução do potássio durante o tratamento da cetoacidose diabética."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "clinical_reasoning",
+        "arena_skill_ids": [
+          "potassium_redistribution",
+          "dka",
+          "insulin_safety"
+        ],
+        "arena_challenge_types": [
+          "clinical_decision",
+          "electrolyte_trend_interpretation"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "dka",
+          "potassium_redistribution",
+          "insulin",
+          "hypokalemia"
+        ],
+        "editorial_status": "approved",
+        "content_version": 2,
+        "schema_version": 1,
+        "scientific_review_notes": "Revisão científica concluída com base no consenso internacional de 2024 para crises hiperglicêmicas em adultos. Com K inicial de 5,9 mEq/L, não se adiciona potássio inicialmente; iniciar reposição quando K <5,0 mEq/L, visando 4–5 mEq/L e ajustando à função renal e ao protocolo. Medir K 2 h após iniciar insulina e a cada 4 h. Se K <3,5 mEq/L, repor potássio e adiar insulina até K >3,5 mEq/L. A hipercalemia sérica na cetoacidose pode coexistir com déficit corporal total.",
+        "related_lesson_ids": [
+          "c9c19bb3-eb5a-45ec-a4a9-ef456066dd99",
+          "759984ad-df44-4a0a-9543-3c3602e75e5e"
+        ],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "potassium_redistribution",
+          "dka",
+          "insulin_safety"
+        ],
+        "challenge_types": [
+          "clinical_decision",
+          "electrolyte_trend_interpretation"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-060",
+      "question_id": "aqz-hiper-060",
+      "numero": 60,
+      "question_number": 60,
+      "titulo": "O potássio é 6,7, mas no plasma é 4,6",
+      "competenciaPrincipal": "Identificar pseudo-hipercalemia associada à trombocitose",
+      "competenciasSecundarias": [
+        "compare_serum_and_plasma_potassium",
+        "recognize_preanalytical_artifacts",
+        "understand_platelet_potassium_release",
+        "avoid_unnecessary_hyperkalemia_treatment",
+        "interpret_discordant_laboratory_results"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [
+        {
+          "numero": 4,
+          "aulaId": "6456d65e-8879-4b0d-9032-499f4a97678f",
+          "moduloId": "55b01307-2855-453b-8489-78e3fe20cb14"
+        }
+      ],
+      "versao": "1.0",
+      "enunciado": "Uma mulher de 68 anos, em acompanhamento hematológico por trombocitemia essencial, é encaminhada à emergência após resultado laboratorial de potássio sérico de 6,7 mEq/L.\n\nA paciente está assintomática.\n\nNa avaliação:\n\n- PA: 126/74 mmHg.\n- FC: 78 bpm.\n- Creatinina: 0,9 mg/dL.\n- Plaquetas: 1.120.000/mm³.\n- Leucócitos: 9.800/mm³.\n- ECG: sem alterações sugestivas de hipercalemia.\n\nUma nova coleta, realizada cuidadosamente, apresenta:\n\n- Potássio sérico: 6,5 mEq/L.\n- Potássio plasmático, em amostra heparinizada adequadamente processada: 4,6 mEq/L.\n\nNão há história de doença renal, uso de medicamentos associados à hipercalemia ou sintomas sugestivos de toxicidade elétrica.\n\n**Qual é a interpretação mais adequada?**",
+      "alternativas": {
+        "A": "A diferença entre potássio sérico e plasmático comprova que a paciente apresenta hipercalemia grave com necessidade obrigatória de insulina intravenosa.",
+        "B": "O potássio plasmático normal deve ser ignorado, pois o potássio sérico é sempre a medida mais confiável em pacientes com trombocitose.",
+        "C": "A trombocitose importante pode provocar liberação de potássio durante a coagulação da amostra, produzindo pseudo-hipercalemia sérica; os resultados devem ser interpretados conforme o tipo de amostra e a avaliação clínica.",
+        "D": "A ausência de alterações no ECG demonstra que o potássio sérico elevado não precisa ser investigado."
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. Qual é a aparente contradição do caso?**\n\nO potássio sérico está muito elevado, mas o potássio plasmático é normal.\n\n**2. Qual alteração hematológica chama atenção?**\n\nTrombocitose importante, com contagem superior a um milhão de plaquetas por milímetro cúbico.\n\n**3. Qual é a diferença fundamental entre soro e plasma?**\n\nO soro é obtido após a coagulação da amostra, enquanto o plasma é obtido com anticoagulante.\n\n**4. O que acontece com as plaquetas durante a coagulação?**\n\nAs plaquetas podem liberar potássio para a amostra.\n\n**5. Por que esse fenômeno se intensifica na trombocitose?**\n\nPorque a grande quantidade de plaquetas aumenta a quantidade de potássio potencialmente liberada durante a formação do coágulo.\n\n**6. O que é pseudo-hipercalemia?**\n\nÉ uma elevação artificial do potássio medido na amostra, sem elevação correspondente da concentração circulante no paciente.\n\n**7. Qual resultado favorece essa interpretação?**\n\nA concentração plasmática de 4,6 mEq/L, muito inferior à concentração sérica de 6,5 mEq/L.\n\n**8. Qual é a importância da coleta e do processamento adequados?**\n\nReduzir interferências pré-analíticas e permitir comparação confiável entre os tipos de amostra.\n\n**9. A creatinina normal é suficiente para confirmar pseudo-hipercalemia?**\n\nNão. Ela contribui para a avaliação, mas a interpretação depende principalmente da discrepância laboratorial e do contexto clínico.\n\n**10. Qual é o papel do ECG?**\n\nAuxiliar na avaliação de toxicidade elétrica, sem substituir a investigação laboratorial.\n\n**11. A ausência de alterações eletrocardiográficas exclui hipercalemia verdadeira em qualquer situação?**\n\nNão. Pacientes com hipercalemia verdadeira podem apresentar ECG sem alterações típicas.\n\n**12. Por que tratar automaticamente o valor sérico pode ser perigoso?**\n\nPorque a administração desnecessária de insulina e outras medidas redutoras de potássio pode provocar hipocalemia em uma paciente com concentração circulante normal.\n\n**13. Qual é a conduta interpretativa mais adequada?**\n\nReconhecer a possibilidade de pseudo-hipercalemia por trombocitose, conferir as condições das amostras e utilizar a avaliação clínica e laboratorial para evitar tratamento desnecessário.\n\n**14. Qual é a competência principal?**\n\nIdentificar pseudo-hipercalemia relacionada à trombocitose e diferenciar um artefato laboratorial de uma emergência hipercalêmica verdadeira.",
+      "comentarios": {
+        "A": "A discrepância entre soro e plasma favorece pseudo-hipercalemia, não a necessidade automática de tratamento intravenoso.",
+        "B": "Na trombocitose, o potássio sérico pode estar artificialmente elevado pela liberação de potássio durante a coagulação.",
+        "C": "A trombocitose acentuada pode provocar pseudo-hipercalemia sérica, e a concentração plasmática normal é uma pista decisiva.",
+        "D": "O ECG normal não elimina a necessidade de investigar um resultado elevado, especialmente quando existe discrepância entre amostras."
+      },
+      "perola": "> Antes de tratar um número, confirme o que ele representa. Em pacientes com trombocitose importante, o potássio pode subir dentro do tubo de coleta — e não dentro do paciente.",
+      "referencias": "*Causes and evaluation of hyperkalemia in adults*. UpToDate — seção “Pseudohyperkalemia”, especialmente a discussão sobre trombocitose e diferenças entre potássio sérico e plasmático.",
+      "scientificReviewNotes": "A pseudo-hipercalemia já apareceu em blocos anteriores. Nesta questão, o foco específico é o mecanismo de liberação de potássio pelas plaquetas durante a coagulação e a interpretação da discrepância entre soro e plasma.\n\n---\n\n# 3. METADADOS E MICRODADOS PARA O AGORAARENA\n\nEsta seção é obrigatória.\n\nO AgoraQuiz deve ser estruturado não apenas como um banco de perguntas, mas como uma futura fonte de informações sobre o desenvolvimento de competências clínicas.\n\nOs microdados devem permitir identificar:\n\n- O conteúdo e as competências avaliadas.\n- O conceito equivocado representado por cada alternativa incorreta.\n- O tipo de raciocínio exigido em cada etapa.\n- Os padrões de erro do aluno ao longo do tempo.\n- As competências que precisam de revisão.\n- As competências potencialmente dominadas.\n- As oportunidades de aprendizagem adaptativa.\n\nNão implementar o AgoraArena nesta etapa. Apenas estruturar e armazenar os dados de maneira compatível com sua futura integração.\n\n## 3.1. Metadados por questão\n\nCada questão deverá conter:\n\n- `question_id`\n- `course_id`\n- `quiz_id`\n- `block_number`\n- `question_number`\n- `title`\n- `difficulty`\n- `clinical_domain`\n- `clinical_context`\n- `urgency_level`\n- `cognitive_level`\n- `primary_competency`\n- `secondary_competencies`\n- `learning_objectives`\n- `prerequisite_competencies`\n- `patient_safety_domain`\n- `arena_skill_ids`\n- `arena_challenge_types`\n- `tags`\n- `editorial_status`\n- `content_version`\n- `schema_version`\n- `scientific_review_notes`\n- `related_lesson_ids`\n- `arena_eligible`\n- `arena_difficulty_weight`\n- `estimated_response_time_seconds`\n\nNão inventar IDs de aulas relacionadas. Buscar os identificadores reais no repositório; se não houver correspondência segura, utilizar lista vazia e registrar pendência.\n\n## 3.2. Competências principais\n\n| Questão | `primary_competency` |\n|---|---|\n| 056 | `identify_trimethoprim_induced_hyperkalemia` |\n| 057 | `recognize_type4_renal_tubular_acidosis` |\n| 058 | `recognize_heparin_induced_hyperkalemia` |\n| 059 | `distinguish_serum_potassium_from_total_body_stores` |\n| 060 | `identify_thrombocytosis_related_pseudohyperkalemia` |\n\n## 3.3. Competências secundárias\n\n**056**\n\n- `understand_enac_blockade`\n- `recognize_drug_interactions`\n- `assess_renal_potassium_excretion`\n- `interpret_medication_timeline`\n- `assess_hyperkalemia_urgency`\n\n**057**\n\n- `interpret_metabolic_acidosis`\n- `calculate_anion_gap`\n- `understand_hypoaldosteronism`\n- `recognize_hyperchloremic_acidosis`\n- `recognize_diagnostic_uncertainty`\n\n**058**\n\n- `understand_aldosterone_synthesis`\n- `identify_medication_adverse_effects`\n- `interpret_serial_potassium_measurements`\n- `balance_thrombotic_and_metabolic_risk`\n- `perform_medication_review`\n\n**059**\n\n- `understand_potassium_redistribution`\n- `understand_insulin_effect_on_potassium`\n- `recognize_osmotic_diuresis_losses`\n- `anticipate_treatment_related_hypokalemia`\n- `monitor_potassium_during_dka`\n\n**060**\n\n- `compare_serum_and_plasma_potassium`\n- `recognize_preanalytical_artifacts`\n- `understand_platelet_potassium_release`\n- `avoid_unnecessary_hyperkalemia_treatment`\n- `interpret_discordant_laboratory_results`\n\n## 3.4. Domínios clínicos\n\n| Questão | `clinical_domain` | `clinical_context` | `urgency_level` |\n|---|---|---|---|\n| 056 | drug_induced_hyperkalemia | emergency_department | urgent_evaluation |\n| 057 | renal_pathophysiology | outpatient | prompt_evaluation |\n| 058 | drug_induced_hyperkalemia | hospital_ward | prompt_evaluation |\n| 059 | potassium_redistribution | emergency_department | emergency |\n| 060 | laboratory_diagnosis | emergency_department | diagnostic_confirmation |\n\nTodas as questões têm dificuldade `advanced`.\n\n---\n\n# 4. MICRODADOS INDIVIDUALIZADOS DAS 20 ALTERNATIVAS\n\nCada alternativa deverá possuir:\n\n- `option_id`\n- `question_id`\n- `letter`\n- `text`\n- `is_correct`\n- `feedback`\n- `error_type`\n- `misconception_id`\n- `misconception_description`\n- `competency_ids`\n- `clinical_risk_if_applied`\n\nUtilizar identificadores no formato:\n\n`aqz-hiper-056-A`\n\nOs textos e comentários devem ser exatamente aqueles apresentados na seção editorial.\n\n## Matriz de classificação\n\n| Alternativa | Correta | `error_type` | `misconception_id` |\n|---|---|---|---|\n| 056-A | Não | mechanism_inversion | trimethoprim_increases_k_excretion |\n| 056-B | Não | incorrect_pathophysiology | trimethoprim_causes_muscle_potassium_release |\n| 056-C | Sim | null | null |\n| 056-D | Não | ecg_overreliance | normal_ecg_proves_pseudohyperkalemia |\n| 057-A | Não | acid_base_misinterpretation | normal_gap_acidosis_requires_organic_acids |\n| 057-B | Sim | null | null |\n| 057-C | Não | gastrointestinal_loss_misinterpretation | bicarbonate_loss_always_causes_hyperkalemia |\n| 057-D | Não | mechanism_inversion | increased_distal_k_secretion_causes_hyperkalemia |\n| 058-A | Sim | null | null |\n| 058-B | Não | incorrect_pathophysiology | heparin_hyperkalemia_requires_hemolysis |\n| 058-C | Não | incorrect_drug_mechanism | heparin_increases_intestinal_k_absorption |\n| 058-D | Não | failure_to_recognize_drug_effect | heparin_cannot_affect_potassium |\n| 059-A | Não | compartment_misinterpretation | serum_hyperkalemia_proves_total_body_excess |\n| 059-B | Não | inappropriate_treatment_contraindication | elevated_k_prohibits_insulin_in_dka |\n| 059-C | Não | failure_to_anticipate_complication | initial_hyperkalemia_prevents_treatment_hypokalemia |\n| 059-D | Sim | null | null |\n| 060-A | Não | unnecessary_emergency_treatment | serum_plasma_discrepancy_requires_iv_insulin |\n| 060-B | Não | laboratory_method_misinterpretation | serum_always_more_reliable_in_thrombocytosis |\n| 060-C | Sim | null | null |\n| 060-D | Não | ecg_overreliance | normal_ecg_eliminates_need_for_investigation |\n\n## Regras de preenchimento\n\nPara cada alternativa incorreta:\n\n1. Associar o tipo de erro descrito na matriz.\n2. Registrar a descrição do conceito equivocado.\n3. Associar a competência que o aluno precisaria mobilizar para evitar o erro.\n4. Registrar o risco clínico potencial de aplicar aquele raciocínio na prática.\n5. Preservar o comentário editorial integral.\n\nPara alternativas corretas:\n\n- `is_correct`: true.\n- `error_type`: null.\n- `misconception_id`: null.\n- `misconception_description`: null.\n- Associar a competência principal e as competências secundárias efetivamente demonstradas pela decisão.\n\nNão inferir que uma única resposta errada comprova deficiência permanente de competência.\n\n---\n\n# 5. MICRODADOS INDIVIDUALIZADOS DOS 71 RACIOCÍNIOS CLÍNICOS\n\nCada pergunta e sua explicação devem ser armazenadas como uma unidade pedagógica independente.\n\nCada unidade deverá conter:\n\n- `reasoning_id`\n- `question_id`\n- `sequence`\n- `prompt`\n- `explanation`\n- `reasoning_type`\n- `competency_ids`\n- `cognitive_operation`\n- `clinical_relevance`\n- `prerequisite_concepts`\n\nFormato dos identificadores:\n\n`aqz-hiper-056-r01`\n\nA numeração deve seguir exatamente a ordem editorial.\n\n## Questão 056 — Classificação das 14 etapas\n\n| Etapa | `reasoning_type` |\n|---|---|\n| 01 | problem_recognition |\n| 02 | temporal_association |\n| 03 | drug_identification |\n| 04 | renal_tubular_anatomy |\n| 05 | enac_physiology |\n| 06 | pharmacological_mechanism |\n| 07 | pharmacological_analogy |\n| 08 | renal_risk_assessment |\n| 09 | drug_interaction |\n| 10 | laboratory_interpretation |\n| 11 | ecg_interpretation |\n| 12 | therapeutic_prioritization |\n| 13 | medication_safety |\n| 14 | competency_synthesis |\n\n## Questão 057 — Classificação das 14 etapas\n\n| Etapa | `reasoning_type` |\n|---|---|\n| 01 | laboratory_pattern_recognition |\n| 02 | acid_base_interpretation |\n| 03 | anion_gap_calculation |\n| 04 | differential_diagnosis |\n| 05 | risk_factor_identification |\n| 06 | endocrine_pathophysiology |\n| 07 | aldosterone_physiology |\n| 08 | renal_potassium_handling |\n| 09 | ammonium_excretion_physiology |\n| 10 | syndrome_recognition |\n| 11 | diagnostic_criteria |\n| 12 | diagnostic_uncertainty |\n| 13 | therapeutic_implication |\n| 14 | competency_synthesis |\n\n## Questão 058 — Classificação das 14 etapas\n\n| Etapa | `reasoning_type` |\n|---|---|\n| 01 | laboratory_trend_interpretation |\n| 02 | temporal_association |\n| 03 | medication_review |\n| 04 | prophylactic_dose_effect |\n| 05 | aldosterone_synthesis |\n| 06 | renal_potassium_handling |\n| 07 | endocrine_pathophysiology |\n| 08 | risk_factor_identification |\n| 09 | laboratory_interpretation |\n| 10 | ecg_interpretation |\n| 11 | clinical_reassessment |\n| 12 | thrombotic_risk_assessment |\n| 13 | treatment_response_monitoring |\n| 14 | competency_synthesis |\n\n## Questão 059 — Classificação das 15 etapas\n\n| Etapa | `reasoning_type` |\n|---|---|\n| 01 | syndrome_recognition |\n| 02 | laboratory_interpretation |\n| 03 | compartment_physiology |\n| 04 | insulin_physiology |\n| 05 | hyperosmolality_physiology |\n| 06 | acid_base_potassium_interaction |\n| 07 | total_body_potassium_loss |\n| 08 | compartment_integration |\n| 09 | insulin_treatment_effect |\n| 10 | fluid_therapy_effect |\n| 11 | treatment_complication |\n| 12 | potassium_replacement_safety |\n| 13 | insulin_treatment_safety |\n| 14 | serial_monitoring |\n| 15 | competency_synthesis |\n\n## Questão 060 — Classificação das 14 etapas\n\n| Etapa | `reasoning_type` |\n|---|---|\n| 01 | laboratory_discrepancy |\n| 02 | hematological_risk_identification |\n| 03 | specimen_type_differentiation |\n| 04 | platelet_potassium_release |\n| 05 | artifact_pathophysiology |\n| 06 | pseudohyperkalemia_definition |\n| 07 | laboratory_confirmation |\n| 08 | preanalytical_quality |\n| 09 | clinical_laboratory_integration |\n| 10 | ecg_interpretation |\n| 11 | ecg_limitations |\n| 12 | unnecessary_treatment_prevention |\n| 13 | diagnostic_synthesis |\n| 14 | competency_synthesis |\n\n## Regras adicionais\n\n- Preservar integralmente o texto de cada pergunta e explicação.\n- Não transformar os 71 raciocínios em cinco textos corridos.\n- Não atribuir a mesma competência a todas as etapas indiscriminadamente.\n- Associar cada etapa às competências que realmente mobiliza.\n- Registrar a operação cognitiva predominante.\n- Permitir que futuras atividades do AgoraArena utilizem etapas específicas como base para desafios de raciocínio.\n- Não considerar que acertar uma questão demonstra automaticamente domínio de todos os seus raciocínios.\n\n---\n\n# 6. ESTRUTURA DE DADOS\n\nAdaptar à arquitetura existente do AgoraQuiz.\n\nA estrutura conceitual deverá contemplar:\n\n```json\n{\n  \"question_id\": \"aqz-hiper-056\",\n  \"schema_version\": 1,\n  \"content_version\": 1,\n  \"block_number\": 12,\n  \"question_number\": 56,\n  \"title\": \"O antibiótico que se comporta como um diurético poupador de potássio\",\n  \"correct_option\": \"C\",\n  \"options\": [],\n  \"reasoning_steps\": [],\n  \"clinical_pearl\": \"\",\n  \"references\": [],\n  \"metadata\": {\n    \"difficulty\": \"advanced\",\n    \"clinical_domain\": \"drug_induced_hyperkalemia\",\n    \"primary_competency\": \"identify_trimethoprim_induced_hyperkalemia\",\n    \"editorial_status\": \"approved\"\n  },\n  \"arena\": {\n    \"eligible\": true,\n    \"skill_ids\": [\n      \"hyperkalemia_drug_causes\",\n      \"renal_potassium_handling\",\n      \"medication_safety\"\n    ],\n    \"challenge_types\": [\n      \"mechanism_identification\",\n      \"clinical_decision\"\n    ],\n    \"base_xp\": null,\n    \"difficulty_weight\": null\n  }\n}\n```\n\nEste exemplo demonstra o formato, mas **não representa o registro completo**.\n\nNa implementação real, preencher integralmente enunciados, alternativas, comentários, raciocínios, Pérolas e referências a partir deste prompt.\n\nNão deixar placeholders no banco de produção.\n\nOs IDs de curso, quiz e aulas devem corresponder aos existentes no repositório.\n\n---\n\n# 7. PREPARAÇÃO PARA O AGORAARENA\n\nO AgoraArena deverá futuramente utilizar os microdados do AgoraQuiz para construir experiências de aprendizagem adaptativa.\n\nA arquitetura deve permitir:\n\n1. Identificar competências clínicas trabalhadas.\n2. Reconhecer padrões recorrentes de erros.\n3. Relacionar alternativas incorretas a conceitos equivocados.\n4. Identificar etapas de raciocínio que precisam ser reforçadas.\n5. Recomendar revisões direcionadas.\n6. Selecionar desafios de acordo com o desempenho.\n7. Comparar a evolução de competências ao longo do tempo.\n8. Permitir futura gamificação sem alterar o conteúdo das questões.\n\nNão implementar agora rankings, partidas, pontuações ou recompensas.\n\n## Eventos de aprendizagem\n\nReutilizar ou preparar os seguintes eventos:\n\n- `quiz_question_presented`\n- `quiz_answer_submitted`\n- `quiz_answer_evaluated`\n- `quiz_explanation_viewed`\n- `quiz_question_flagged_for_review`\n- `quiz_review_completed`\n- `quiz_competency_progress_updated`\n\nOs eventos devem permitir registrar:\n\n- Identificador do aluno autenticado.\n- Identificador da questão.\n- Versão editorial.\n- Identificador da tentativa.\n- Alternativa selecionada.\n- Resultado da resposta.\n- Tempo de resposta.\n- Modo de utilização.\n- Data e horário.\n- Competências associadas.\n- Estado de revisão.\n\nPreservar as regras existentes de segurança, privacidade e autorização.\n\nNão registrar informações clínicas reais de pacientes.\n\nNão duplicar eventos de tentativas.\n\n---\n\n# 8. INTEGRAÇÃO COM OS MODOS DO AGORAQUIZ\n\n## Modo Estudo\n\nApós o envio da resposta, apresentar:\n\n1. Resultado da resposta.\n2. Gabarito correto.\n3. Comentário da alternativa escolhida.\n4. Comentários das demais alternativas, conforme a interface existente.\n5. Todas as etapas do raciocínio clínico.\n6. Pérola do Plantão.\n7. Referências científicas.\n\nNão truncar o raciocínio clínico.\n\nPreservar a numeração de cada etapa.\n\n## Modo Simulação\n\nPreservar:\n\n- Apresentação sem revelar previamente o gabarito.\n- Registro das respostas.\n- Correção conforme as regras existentes.\n- Apuração de desempenho.\n- Exibição dos resultados.\n\n## Caderno de erros\n\nIntegrar as novas questões aos estados:\n\n- Precisa revisar.\n- Em revisão.\n- Dominada.\n\nPreservar a regra existente de duas respostas corretas consecutivas durante a revisão para considerar uma questão dominada.\n\nNão reiniciar o progresso das questões anteriores.\n\n---\n\n# 9. IDENTIDADE VISUAL\n\nRespeitar a identidade visual do AgoraMed:\n\n- Azul-petróleo: `#346f77`\n- Cinza: `#808080`\n- Branco suave: `#F5F5F5`\n\nPreservar os destaques violeta específicos do curso de hipercalemia.\n\nNão criar componentes visuais incompatíveis com o AgoraQuiz existente.\n\nGarantir boa leitura das questões, dos comentários e dos raciocínios em desktop e dispositivos móveis.\n\n---\n\n# 10. VALIDAÇÃO AUTOMATIZADA\n\n## Integridade editorial\n\nConfirmar:\n\n- Cinco questões.\n- Identificadores 056–060 únicos.\n- Gabaritos C, B, A, D, C.\n- Vinte alternativas.\n- Vinte comentários individualizados.\n- Setenta e uma etapas de raciocínio.\n- Distribuição 14, 14, 14, 15, 14.\n- Cinco Pérolas do Plantão.\n- Cinco conjuntos de referências.\n- Observações científicas e pedagógicas preservadas.\n- Ausência de textos truncados.\n- Ausência de placeholders.\n\n## Integridade dos microdados\n\nConfirmar:\n\n- Cinco conjuntos completos de metadados.\n- Vinte conjuntos de microdados de alternativas.\n- Setenta e um conjuntos de microdados de raciocínio.\n- Identificadores únicos.\n- Relacionamentos consistentes.\n- Classificações coerentes com os textos.\n- Competências associadas.\n- Ausência de campos obrigatórios vazios.\n\n## Regressão\n\nConfirmar:\n\n- Questões 001–055 preservadas.\n- Modo Estudo funcionando.\n- Modo Simulação funcionando.\n- Caderno de erros funcionando.\n- Progresso anterior preservado.\n- Interface responsiva.\n- Nenhuma duplicação de questões ou tentativas.\n\nSe as questões 001–055 já estiverem implementadas, o AgoraQuiz deverá totalizar 60 questões após a inclusão deste bloco.\n\nOs Blocos 11 e 12, juntos, deverão conter 140 etapas de raciocínio clínico.\n\n---\n\n# 11. RELATÓRIO FINAL OBRIGATÓRIO\n\nApós a implementação, apresentar:\n\n1. Arquivos modificados.\n2. Estrutura de armazenamento utilizada.\n3. Questões importadas.\n4. Gabaritos e quantidades conferidos.\n5. Metadados de cada questão.\n6. Microdados de cada alternativa.\n7. Microdados de cada etapa de raciocínio.\n8. Eventos disponíveis para o AgoraArena.\n9. Testes executados e resultados.\n10. Pendências técnicas ou científicas.\n11. Confirmação de que as questões 001–055 não foram modificadas.\n\nNão declarar a implementação concluída se faltar qualquer conteúdo editorial obrigatório.\n\n**RESULTADO ESPERADO:** Bloco 12 integralmente implementado no AgoraQuiz, preservando o conteúdo científico e pedagógico aprovado, com microdados estruturados para permitir futura integração ao AgoraArena e desenvolvimento de aprendizagem adaptativa baseada em competências clínicas.",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": "A pseudo-hipercalemia já apareceu em blocos anteriores. Nesta questão, o foco específico é o mecanismo de liberação de potássio pelas plaquetas durante a coagulação e a interpretação da discrepância entre soro e plasma.\n\n---\n\n# 3. METADADOS E MICRODADOS PARA O AGORAARENA\n\nEsta seção é obrigatória.\n\nO AgoraQuiz deve ser estruturado não apenas como um banco de perguntas, mas como uma futura fonte de informações sobre o desenvolvimento de competências clínicas.\n\nOs microdados devem permitir identificar:\n\n- O conteúdo e as competências avaliadas.\n- O conceito equivocado representado por cada alternativa incorreta.\n- O tipo de raciocínio exigido em cada etapa.\n- Os padrões de erro do aluno ao longo do tempo.\n- As competências que precisam de revisão.\n- As competências potencialmente dominadas.\n- As oportunidades de aprendizagem adaptativa.\n\nNão implementar o AgoraArena nesta etapa. Apenas estruturar e armazenar os dados de maneira compatível com sua futura integração.\n\n## 3.1. Metadados por questão\n\nCada questão deverá conter:\n\n- `question_id`\n- `course_id`\n- `quiz_id`\n- `block_number`\n- `question_number`\n- `title`\n- `difficulty`\n- `clinical_domain`\n- `clinical_context`\n- `urgency_level`\n- `cognitive_level`\n- `primary_competency`\n- `secondary_competencies`\n- `learning_objectives`\n- `prerequisite_competencies`\n- `patient_safety_domain`\n- `arena_skill_ids`\n- `arena_challenge_types`\n- `tags`\n- `editorial_status`\n- `content_version`\n- `schema_version`\n- `scientific_review_notes`\n- `related_lesson_ids`\n- `arena_eligible`\n- `arena_difficulty_weight`\n- `estimated_response_time_seconds`\n\nNão inventar IDs de aulas relacionadas. Buscar os identificadores reais no repositório; se não houver correspondência segura, utilizar lista vazia e registrar pendência.\n\n## 3.2. Competências principais\n\n| Questão | `primary_competency` |\n|---|---|\n| 056 | `identify_trimethoprim_induced_hyperkalemia` |\n| 057 | `recognize_type4_renal_tubular_acidosis` |\n| 058 | `recognize_heparin_induced_hyperkalemia` |\n| 059 | `distinguish_serum_potassium_from_total_body_stores` |\n| 060 | `identify_thrombocytosis_related_pseudohyperkalemia` |\n\n## 3.3. Competências secundárias\n\n**056**\n\n- `understand_enac_blockade`\n- `recognize_drug_interactions`\n- `assess_renal_potassium_excretion`\n- `interpret_medication_timeline`\n- `assess_hyperkalemia_urgency`\n\n**057**\n\n- `interpret_metabolic_acidosis`\n- `calculate_anion_gap`\n- `understand_hypoaldosteronism`\n- `recognize_hyperchloremic_acidosis`\n- `recognize_diagnostic_uncertainty`\n\n**058**\n\n- `understand_aldosterone_synthesis`\n- `identify_medication_adverse_effects`\n- `interpret_serial_potassium_measurements`\n- `balance_thrombotic_and_metabolic_risk`\n- `perform_medication_review`\n\n**059**\n\n- `understand_potassium_redistribution`\n- `understand_insulin_effect_on_potassium`\n- `recognize_osmotic_diuresis_losses`\n- `anticipate_treatment_related_hypokalemia`\n- `monitor_potassium_during_dka`\n\n**060**\n\n- `compare_serum_and_plasma_potassium`\n- `recognize_preanalytical_artifacts`\n- `understand_platelet_potassium_release`\n- `avoid_unnecessary_hyperkalemia_treatment`\n- `interpret_discordant_laboratory_results`\n\n## 3.4. Domínios clínicos\n\n| Questão | `clinical_domain` | `clinical_context` | `urgency_level` |\n|---|---|---|---|\n| 056 | drug_induced_hyperkalemia | emergency_department | urgent_evaluation |\n| 057 | renal_pathophysiology | outpatient | prompt_evaluation |\n| 058 | drug_induced_hyperkalemia | hospital_ward | prompt_evaluation |\n| 059 | potassium_redistribution | emergency_department | emergency |\n| 060 | laboratory_diagnosis | emergency_department | diagnostic_confirmation |\n\nTodas as questões têm dificuldade `advanced`.\n\n---\n\n# 4. MICRODADOS INDIVIDUALIZADOS DAS 20 ALTERNATIVAS\n\nCada alternativa deverá possuir:\n\n- `option_id`\n- `question_id`\n- `letter`\n- `text`\n- `is_correct`\n- `feedback`\n- `error_type`\n- `misconception_id`\n- `misconception_description`\n- `competency_ids`\n- `clinical_risk_if_applied`\n\nUtilizar identificadores no formato:\n\n`aqz-hiper-056-A`\n\nOs textos e comentários devem ser exatamente aqueles apresentados na seção editorial.\n\n## Matriz de classificação\n\n| Alternativa | Correta | `error_type` | `misconception_id` |\n|---|---|---|---|\n| 056-A | Não | mechanism_inversion | trimethoprim_increases_k_excretion |\n| 056-B | Não | incorrect_pathophysiology | trimethoprim_causes_muscle_potassium_release |\n| 056-C | Sim | null | null |\n| 056-D | Não | ecg_overreliance | normal_ecg_proves_pseudohyperkalemia |\n| 057-A | Não | acid_base_misinterpretation | normal_gap_acidosis_requires_organic_acids |\n| 057-B | Sim | null | null |\n| 057-C | Não | gastrointestinal_loss_misinterpretation | bicarbonate_loss_always_causes_hyperkalemia |\n| 057-D | Não | mechanism_inversion | increased_distal_k_secretion_causes_hyperkalemia |\n| 058-A | Sim | null | null |\n| 058-B | Não | incorrect_pathophysiology | heparin_hyperkalemia_requires_hemolysis |\n| 058-C | Não | incorrect_drug_mechanism | heparin_increases_intestinal_k_absorption |\n| 058-D | Não | failure_to_recognize_drug_effect | heparin_cannot_affect_potassium |\n| 059-A | Não | compartment_misinterpretation | serum_hyperkalemia_proves_total_body_excess |\n| 059-B | Não | inappropriate_treatment_contraindication | elevated_k_prohibits_insulin_in_dka |\n| 059-C | Não | failure_to_anticipate_complication | initial_hyperkalemia_prevents_treatment_hypokalemia |\n| 059-D | Sim | null | null |\n| 060-A | Não | unnecessary_emergency_treatment | serum_plasma_discrepancy_requires_iv_insulin |\n| 060-B | Não | laboratory_method_misinterpretation | serum_always_more_reliable_in_thrombocytosis |\n| 060-C | Sim | null | null |\n| 060-D | Não | ecg_overreliance | normal_ecg_eliminates_need_for_investigation |\n\n## Regras de preenchimento\n\nPara cada alternativa incorreta:\n\n1. Associar o tipo de erro descrito na matriz.\n2. Registrar a descrição do conceito equivocado.\n3. Associar a competência que o aluno precisaria mobilizar para evitar o erro.\n4. Registrar o risco clínico potencial de aplicar aquele raciocínio na prática.\n5. Preservar o comentário editorial integral.\n\nPara alternativas corretas:\n\n- `is_correct`: true.\n- `error_type`: null.\n- `misconception_id`: null.\n- `misconception_description`: null.\n- Associar a competência principal e as competências secundárias efetivamente demonstradas pela decisão.\n\nNão inferir que uma única resposta errada comprova deficiência permanente de competência.\n\n---\n\n# 5. MICRODADOS INDIVIDUALIZADOS DOS 71 RACIOCÍNIOS CLÍNICOS\n\nCada pergunta e sua explicação devem ser armazenadas como uma unidade pedagógica independente.\n\nCada unidade deverá conter:\n\n- `reasoning_id`\n- `question_id`\n- `sequence`\n- `prompt`\n- `explanation`\n- `reasoning_type`\n- `competency_ids`\n- `cognitive_operation`\n- `clinical_relevance`\n- `prerequisite_concepts`\n\nFormato dos identificadores:\n\n`aqz-hiper-056-r01`\n\nA numeração deve seguir exatamente a ordem editorial.\n\n## Questão 056 — Classificação das 14 etapas\n\n| Etapa | `reasoning_type` |\n|---|---|\n| 01 | problem_recognition |\n| 02 | temporal_association |\n| 03 | drug_identification |\n| 04 | renal_tubular_anatomy |\n| 05 | enac_physiology |\n| 06 | pharmacological_mechanism |\n| 07 | pharmacological_analogy |\n| 08 | renal_risk_assessment |\n| 09 | drug_interaction |\n| 10 | laboratory_interpretation |\n| 11 | ecg_interpretation |\n| 12 | therapeutic_prioritization |\n| 13 | medication_safety |\n| 14 | competency_synthesis |\n\n## Questão 057 — Classificação das 14 etapas\n\n| Etapa | `reasoning_type` |\n|---|---|\n| 01 | laboratory_pattern_recognition |\n| 02 | acid_base_interpretation |\n| 03 | anion_gap_calculation |\n| 04 | differential_diagnosis |\n| 05 | risk_factor_identification |\n| 06 | endocrine_pathophysiology |\n| 07 | aldosterone_physiology |\n| 08 | renal_potassium_handling |\n| 09 | ammonium_excretion_physiology |\n| 10 | syndrome_recognition |\n| 11 | diagnostic_criteria |\n| 12 | diagnostic_uncertainty |\n| 13 | therapeutic_implication |\n| 14 | competency_synthesis |\n\n## Questão 058 — Classificação das 14 etapas\n\n| Etapa | `reasoning_type` |\n|---|---|\n| 01 | laboratory_trend_interpretation |\n| 02 | temporal_association |\n| 03 | medication_review |\n| 04 | prophylactic_dose_effect |\n| 05 | aldosterone_synthesis |\n| 06 | renal_potassium_handling |\n| 07 | endocrine_pathophysiology |\n| 08 | risk_factor_identification |\n| 09 | laboratory_interpretation |\n| 10 | ecg_interpretation |\n| 11 | clinical_reassessment |\n| 12 | thrombotic_risk_assessment |\n| 13 | treatment_response_monitoring |\n| 14 | competency_synthesis |\n\n## Questão 059 — Classificação das 15 etapas\n\n| Etapa | `reasoning_type` |\n|---|---|\n| 01 | syndrome_recognition |\n| 02 | laboratory_interpretation |\n| 03 | compartment_physiology |\n| 04 | insulin_physiology |\n| 05 | hyperosmolality_physiology |\n| 06 | acid_base_potassium_interaction |\n| 07 | total_body_potassium_loss |\n| 08 | compartment_integration |\n| 09 | insulin_treatment_effect |\n| 10 | fluid_therapy_effect |\n| 11 | treatment_complication |\n| 12 | potassium_replacement_safety |\n| 13 | insulin_treatment_safety |\n| 14 | serial_monitoring |\n| 15 | competency_synthesis |\n\n## Questão 060 — Classificação das 14 etapas\n\n| Etapa | `reasoning_type` |\n|---|---|\n| 01 | laboratory_discrepancy |\n| 02 | hematological_risk_identification |\n| 03 | specimen_type_differentiation |\n| 04 | platelet_potassium_release |\n| 05 | artifact_pathophysiology |\n| 06 | pseudohyperkalemia_definition |\n| 07 | laboratory_confirmation |\n| 08 | preanalytical_quality |\n| 09 | clinical_laboratory_integration |\n| 10 | ecg_interpretation |\n| 11 | ecg_limitations |\n| 12 | unnecessary_treatment_prevention |\n| 13 | diagnostic_synthesis |\n| 14 | competency_synthesis |\n\n## Regras adicionais\n\n- Preservar integralmente o texto de cada pergunta e explicação.\n- Não transformar os 71 raciocínios em cinco textos corridos.\n- Não atribuir a mesma competência a todas as etapas indiscriminadamente.\n- Associar cada etapa às competências que realmente mobiliza.\n- Registrar a operação cognitiva predominante.\n- Permitir que futuras atividades do AgoraArena utilizem etapas específicas como base para desafios de raciocínio.\n- Não considerar que acertar uma questão demonstra automaticamente domínio de todos os seus raciocínios.\n\n---\n\n# 6. ESTRUTURA DE DADOS\n\nAdaptar à arquitetura existente do AgoraQuiz.\n\nA estrutura conceitual deverá contemplar:\n\n```json\n{\n  \"question_id\": \"aqz-hiper-056\",\n  \"schema_version\": 1,\n  \"content_version\": 1,\n  \"block_number\": 12,\n  \"question_number\": 56,\n  \"title\": \"O antibiótico que se comporta como um diurético poupador de potássio\",\n  \"correct_option\": \"C\",\n  \"options\": [],\n  \"reasoning_steps\": [],\n  \"clinical_pearl\": \"\",\n  \"references\": [],\n  \"metadata\": {\n    \"difficulty\": \"advanced\",\n    \"clinical_domain\": \"drug_induced_hyperkalemia\",\n    \"primary_competency\": \"identify_trimethoprim_induced_hyperkalemia\",\n    \"editorial_status\": \"approved\"\n  },\n  \"arena\": {\n    \"eligible\": true,\n    \"skill_ids\": [\n      \"hyperkalemia_drug_causes\",\n      \"renal_potassium_handling\",\n      \"medication_safety\"\n    ],\n    \"challenge_types\": [\n      \"mechanism_identification\",\n      \"clinical_decision\"\n    ],\n    \"base_xp\": null,\n    \"difficulty_weight\": null\n  }\n}\n```\n\nEste exemplo demonstra o formato, mas **não representa o registro completo**.\n\nNa implementação real, preencher integralmente enunciados, alternativas, comentários, raciocínios, Pérolas e referências a partir deste prompt.\n\nNão deixar placeholders no banco de produção.\n\nOs IDs de curso, quiz e aulas devem corresponder aos existentes no repositório.\n\n---\n\n# 7. PREPARAÇÃO PARA O AGORAARENA\n\nO AgoraArena deverá futuramente utilizar os microdados do AgoraQuiz para construir experiências de aprendizagem adaptativa.\n\nA arquitetura deve permitir:\n\n1. Identificar competências clínicas trabalhadas.\n2. Reconhecer padrões recorrentes de erros.\n3. Relacionar alternativas incorretas a conceitos equivocados.\n4. Identificar etapas de raciocínio que precisam ser reforçadas.\n5. Recomendar revisões direcionadas.\n6. Selecionar desafios de acordo com o desempenho.\n7. Comparar a evolução de competências ao longo do tempo.\n8. Permitir futura gamificação sem alterar o conteúdo das questões.\n\nNão implementar agora rankings, partidas, pontuações ou recompensas.\n\n## Eventos de aprendizagem\n\nReutilizar ou preparar os seguintes eventos:\n\n- `quiz_question_presented`\n- `quiz_answer_submitted`\n- `quiz_answer_evaluated`\n- `quiz_explanation_viewed`\n- `quiz_question_flagged_for_review`\n- `quiz_review_completed`\n- `quiz_competency_progress_updated`\n\nOs eventos devem permitir registrar:\n\n- Identificador do aluno autenticado.\n- Identificador da questão.\n- Versão editorial.\n- Identificador da tentativa.\n- Alternativa selecionada.\n- Resultado da resposta.\n- Tempo de resposta.\n- Modo de utilização.\n- Data e horário.\n- Competências associadas.\n- Estado de revisão.\n\nPreservar as regras existentes de segurança, privacidade e autorização.\n\nNão registrar informações clínicas reais de pacientes.\n\nNão duplicar eventos de tentativas.\n\n---\n\n# 8. INTEGRAÇÃO COM OS MODOS DO AGORAQUIZ\n\n## Modo Estudo\n\nApós o envio da resposta, apresentar:\n\n1. Resultado da resposta.\n2. Gabarito correto.\n3. Comentário da alternativa escolhida.\n4. Comentários das demais alternativas, conforme a interface existente.\n5. Todas as etapas do raciocínio clínico.\n6. Pérola do Plantão.\n7. Referências científicas.\n\nNão truncar o raciocínio clínico.\n\nPreservar a numeração de cada etapa.\n\n## Modo Simulação\n\nPreservar:\n\n- Apresentação sem revelar previamente o gabarito.\n- Registro das respostas.\n- Correção conforme as regras existentes.\n- Apuração de desempenho.\n- Exibição dos resultados.\n\n## Caderno de erros\n\nIntegrar as novas questões aos estados:\n\n- Precisa revisar.\n- Em revisão.\n- Dominada.\n\nPreservar a regra existente de duas respostas corretas consecutivas durante a revisão para considerar uma questão dominada.\n\nNão reiniciar o progresso das questões anteriores.\n\n---\n\n# 9. IDENTIDADE VISUAL\n\nRespeitar a identidade visual do AgoraMed:\n\n- Azul-petróleo: `#346f77`\n- Cinza: `#808080`\n- Branco suave: `#F5F5F5`\n\nPreservar os destaques violeta específicos do curso de hipercalemia.\n\nNão criar componentes visuais incompatíveis com o AgoraQuiz existente.\n\nGarantir boa leitura das questões, dos comentários e dos raciocínios em desktop e dispositivos móveis.\n\n---\n\n# 10. VALIDAÇÃO AUTOMATIZADA\n\n## Integridade editorial\n\nConfirmar:\n\n- Cinco questões.\n- Identificadores 056–060 únicos.\n- Gabaritos C, B, A, D, C.\n- Vinte alternativas.\n- Vinte comentários individualizados.\n- Setenta e uma etapas de raciocínio.\n- Distribuição 14, 14, 14, 15, 14.\n- Cinco Pérolas do Plantão.\n- Cinco conjuntos de referências.\n- Observações científicas e pedagógicas preservadas.\n- Ausência de textos truncados.\n- Ausência de placeholders.\n\n## Integridade dos microdados\n\nConfirmar:\n\n- Cinco conjuntos completos de metadados.\n- Vinte conjuntos de microdados de alternativas.\n- Setenta e um conjuntos de microdados de raciocínio.\n- Identificadores únicos.\n- Relacionamentos consistentes.\n- Classificações coerentes com os textos.\n- Competências associadas.\n- Ausência de campos obrigatórios vazios.\n\n## Regressão\n\nConfirmar:\n\n- Questões 001–055 preservadas.\n- Modo Estudo funcionando.\n- Modo Simulação funcionando.\n- Caderno de erros funcionando.\n- Progresso anterior preservado.\n- Interface responsiva.\n- Nenhuma duplicação de questões ou tentativas.\n\nSe as questões 001–055 já estiverem implementadas, o AgoraQuiz deverá totalizar 60 questões após a inclusão deste bloco.\n\nOs Blocos 11 e 12, juntos, deverão conter 140 etapas de raciocínio clínico.\n\n---\n\n# 11. RELATÓRIO FINAL OBRIGATÓRIO\n\nApós a implementação, apresentar:\n\n1. Arquivos modificados.\n2. Estrutura de armazenamento utilizada.\n3. Questões importadas.\n4. Gabaritos e quantidades conferidos.\n5. Metadados de cada questão.\n6. Microdados de cada alternativa.\n7. Microdados de cada etapa de raciocínio.\n8. Eventos disponíveis para o AgoraArena.\n9. Testes executados e resultados.\n10. Pendências técnicas ou científicas.\n11. Confirmação de que as questões 001–055 não foram modificadas.\n\nNão declarar a implementação concluída se faltar qualquer conteúdo editorial obrigatório.\n\n**RESULTADO ESPERADO:** Bloco 12 integralmente implementado no AgoraQuiz, preservando o conteúdo científico e pedagógico aprovado, com microdados estruturados para permitir futura integração ao AgoraArena e desenvolvimento de aprendizagem adaptativa baseada em competências clínicas.",
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 12,
+      "stem": "Uma mulher de 68 anos, em acompanhamento hematológico por trombocitemia essencial, é encaminhada à emergência após resultado laboratorial de potássio sérico de 6,7 mEq/L.\n\nA paciente está assintomática.\n\nNa avaliação:\n\n- PA: 126/74 mmHg.\n- FC: 78 bpm.\n- Creatinina: 0,9 mg/dL.\n- Plaquetas: 1.120.000/mm³.\n- Leucócitos: 9.800/mm³.\n- ECG: sem alterações sugestivas de hipercalemia.\n\nUma nova coleta, realizada cuidadosamente, apresenta:\n\n- Potássio sérico: 6,5 mEq/L.\n- Potássio plasmático, em amostra heparinizada adequadamente processada: 4,6 mEq/L.\n\nNão há história de doença renal, uso de medicamentos associados à hipercalemia ou sintomas sugestivos de toxicidade elétrica.\n\n**Qual é a interpretação mais adequada?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-060-A",
+          "question_id": "aqz-hiper-060",
+          "letter": "A",
+          "text": "A diferença entre potássio sérico e plasmático comprova que a paciente apresenta hipercalemia grave com necessidade obrigatória de insulina intravenosa.",
+          "is_correct": false,
+          "feedback": "A discrepância entre soro e plasma favorece pseudo-hipercalemia, não a necessidade automática de tratamento intravenoso.",
+          "error_type": "unnecessary_emergency_treatment",
+          "misconception_id": "serum_plasma_discrepancy_requires_iv_insulin",
+          "misconception_description": "Interpreta discrepância soro-plasma como indicação automática de insulina intravenosa.",
+          "competency_ids": [
+            "avoid_unnecessary_hyperkalemia_treatment"
+          ],
+          "clinical_risk_if_applied": "Pode causar hipocalemia iatrogênica diante de potássio plasmático normal."
+        },
+        {
+          "option_id": "aqz-hiper-060-B",
+          "question_id": "aqz-hiper-060",
+          "letter": "B",
+          "text": "O potássio plasmático normal deve ser ignorado, pois o potássio sérico é sempre a medida mais confiável em pacientes com trombocitose.",
+          "is_correct": false,
+          "feedback": "Na trombocitose, o potássio sérico pode estar artificialmente elevado pela liberação de potássio durante a coagulação.",
+          "error_type": "laboratory_method_misinterpretation",
+          "misconception_id": "serum_always_more_reliable_in_thrombocytosis",
+          "misconception_description": "Supõe que o potássio sérico é sempre mais confiável mesmo com trombocitose importante.",
+          "competency_ids": [
+            "compare_serum_and_plasma_potassium"
+          ],
+          "clinical_risk_if_applied": "Pode induzir tratamento de um artefato e provocar hipocalemia."
+        },
+        {
+          "option_id": "aqz-hiper-060-C",
+          "question_id": "aqz-hiper-060",
+          "letter": "C",
+          "text": "A trombocitose importante pode provocar liberação de potássio durante a coagulação da amostra, produzindo pseudo-hipercalemia sérica; os resultados devem ser interpretados conforme o tipo de amostra e a avaliação clínica.",
+          "is_correct": true,
+          "feedback": "A trombocitose acentuada pode provocar pseudo-hipercalemia sérica, e a concentração plasmática normal é uma pista decisiva.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "identify_thrombocytosis_related_pseudohyperkalemia",
+            "compare_serum_and_plasma_potassium",
+            "understand_platelet_potassium_release"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-060-D",
+          "question_id": "aqz-hiper-060",
+          "letter": "D",
+          "text": "A ausência de alterações no ECG demonstra que o potássio sérico elevado não precisa ser investigado.",
+          "is_correct": false,
+          "feedback": "O ECG normal não elimina a necessidade de investigar um resultado elevado, especialmente quando existe discrepância entre amostras.",
+          "error_type": "ecg_overreliance",
+          "misconception_id": "normal_ecg_eliminates_need_for_investigation",
+          "misconception_description": "Usa ECG normal para dispensar investigação de resultado laboratorial elevado.",
+          "competency_ids": [
+            "interpret_discordant_laboratory_results"
+          ],
+          "clinical_risk_if_applied": "Pode deixar de identificar tanto hipercalemia verdadeira quanto pseudo-hipercalemia."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-060-r01",
+          "question_id": "aqz-hiper-060",
+          "sequence": 1,
+          "prompt": "Qual é a aparente contradição do caso?",
+          "explanation": "O potássio sérico está muito elevado, mas o potássio plasmático é normal.",
+          "reasoning_type": "laboratory_discrepancy",
+          "competency_ids": [
+            "interpret_discordant_laboratory_results"
+          ],
+          "cognitive_operation": "compare",
+          "clinical_relevance": "O potássio sérico está muito elevado, mas o potássio plasmático é normal.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-060-r02",
+          "question_id": "aqz-hiper-060",
+          "sequence": 2,
+          "prompt": "Qual alteração hematológica chama atenção?",
+          "explanation": "Trombocitose importante, com contagem superior a um milhão de plaquetas por milímetro cúbico.",
+          "reasoning_type": "hematological_risk_identification",
+          "competency_ids": [
+            "recognize_preanalytical_artifacts"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Trombocitose importante, com contagem superior a um milhão de plaquetas por milímetro cúbico.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-060-r03",
+          "question_id": "aqz-hiper-060",
+          "sequence": 3,
+          "prompt": "Qual é a diferença fundamental entre soro e plasma?",
+          "explanation": "O soro é obtido após a coagulação da amostra, enquanto o plasma é obtido com anticoagulante.",
+          "reasoning_type": "specimen_type_differentiation",
+          "competency_ids": [
+            "compare_serum_and_plasma_potassium"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "O soro é obtido após a coagulação da amostra, enquanto o plasma é obtido com anticoagulante.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-060-r04",
+          "question_id": "aqz-hiper-060",
+          "sequence": 4,
+          "prompt": "O que acontece com as plaquetas durante a coagulação?",
+          "explanation": "As plaquetas podem liberar potássio para a amostra.",
+          "reasoning_type": "platelet_potassium_release",
+          "competency_ids": [
+            "understand_platelet_potassium_release"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "As plaquetas podem liberar potássio para a amostra.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-060-r05",
+          "question_id": "aqz-hiper-060",
+          "sequence": 5,
+          "prompt": "Por que esse fenômeno se intensifica na trombocitose?",
+          "explanation": "Porque a grande quantidade de plaquetas aumenta a quantidade de potássio potencialmente liberada durante a formação do coágulo.",
+          "reasoning_type": "artifact_pathophysiology",
+          "competency_ids": [
+            "understand_platelet_potassium_release"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Porque a grande quantidade de plaquetas aumenta a quantidade de potássio potencialmente liberada durante a formação do coágulo.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-060-r06",
+          "question_id": "aqz-hiper-060",
+          "sequence": 6,
+          "prompt": "O que é pseudo-hipercalemia?",
+          "explanation": "É uma elevação artificial do potássio medido na amostra, sem elevação correspondente da concentração circulante no paciente.",
+          "reasoning_type": "pseudohyperkalemia_definition",
+          "competency_ids": [
+            "identify_thrombocytosis_related_pseudohyperkalemia"
+          ],
+          "cognitive_operation": "analyze",
+          "clinical_relevance": "É uma elevação artificial do potássio medido na amostra, sem elevação correspondente da concentração circulante no paciente.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-060-r07",
+          "question_id": "aqz-hiper-060",
+          "sequence": 7,
+          "prompt": "Qual resultado favorece essa interpretação?",
+          "explanation": "A concentração plasmática de 4,6 mEq/L, muito inferior à concentração sérica de 6,5 mEq/L.",
+          "reasoning_type": "laboratory_confirmation",
+          "competency_ids": [
+            "compare_serum_and_plasma_potassium"
+          ],
+          "cognitive_operation": "confirm",
+          "clinical_relevance": "A concentração plasmática de 4,6 mEq/L, muito inferior à concentração sérica de 6,5 mEq/L.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-060-r08",
+          "question_id": "aqz-hiper-060",
+          "sequence": 8,
+          "prompt": "Qual é a importância da coleta e do processamento adequados?",
+          "explanation": "Reduzir interferências pré-analíticas e permitir comparação confiável entre os tipos de amostra.",
+          "reasoning_type": "preanalytical_quality",
+          "competency_ids": [
+            "recognize_preanalytical_artifacts"
+          ],
+          "cognitive_operation": "assess",
+          "clinical_relevance": "Reduzir interferências pré-analíticas e permitir comparação confiável entre os tipos de amostra.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-060-r09",
+          "question_id": "aqz-hiper-060",
+          "sequence": 9,
+          "prompt": "A creatinina normal é suficiente para confirmar pseudo-hipercalemia?",
+          "explanation": "Não. Ela contribui para a avaliação, mas a interpretação depende principalmente da discrepância laboratorial e do contexto clínico.",
+          "reasoning_type": "clinical_laboratory_integration",
+          "competency_ids": [
+            "interpret_discordant_laboratory_results"
+          ],
+          "cognitive_operation": "integrate",
+          "clinical_relevance": "Não. Ela contribui para a avaliação, mas a interpretação depende principalmente da discrepância laboratorial e do contexto clínico.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-060-r10",
+          "question_id": "aqz-hiper-060",
+          "sequence": 10,
+          "prompt": "Qual é o papel do ECG?",
+          "explanation": "Auxiliar na avaliação de toxicidade elétrica, sem substituir a investigação laboratorial.",
+          "reasoning_type": "ecg_interpretation",
+          "competency_ids": [
+            "avoid_unnecessary_hyperkalemia_treatment"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Auxiliar na avaliação de toxicidade elétrica, sem substituir a investigação laboratorial.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-060-r11",
+          "question_id": "aqz-hiper-060",
+          "sequence": 11,
+          "prompt": "A ausência de alterações eletrocardiográficas exclui hipercalemia verdadeira em qualquer situação?",
+          "explanation": "Não. Pacientes com hipercalemia verdadeira podem apresentar ECG sem alterações típicas.",
+          "reasoning_type": "ecg_limitations",
+          "competency_ids": [
+            "avoid_unnecessary_hyperkalemia_treatment"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Não. Pacientes com hipercalemia verdadeira podem apresentar ECG sem alterações típicas.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-060-r12",
+          "question_id": "aqz-hiper-060",
+          "sequence": 12,
+          "prompt": "Por que tratar automaticamente o valor sérico pode ser perigoso?",
+          "explanation": "Porque a administração desnecessária de insulina e outras medidas redutoras de potássio pode provocar hipocalemia em uma paciente com concentração circulante normal.",
+          "reasoning_type": "unnecessary_treatment_prevention",
+          "competency_ids": [
+            "avoid_unnecessary_hyperkalemia_treatment"
+          ],
+          "cognitive_operation": "prevent",
+          "clinical_relevance": "Porque a administração desnecessária de insulina e outras medidas redutoras de potássio pode provocar hipocalemia em uma paciente com concentração circulante normal.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-060-r13",
+          "question_id": "aqz-hiper-060",
+          "sequence": 13,
+          "prompt": "Qual é a conduta interpretativa mais adequada?",
+          "explanation": "Reconhecer a possibilidade de pseudo-hipercalemia por trombocitose, conferir as condições das amostras e utilizar a avaliação clínica e laboratorial para evitar tratamento desnecessário.",
+          "reasoning_type": "diagnostic_synthesis",
+          "competency_ids": [
+            "identify_thrombocytosis_related_pseudohyperkalemia"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Reconhecer a possibilidade de pseudo-hipercalemia por trombocitose, conferir as condições das amostras e utilizar a avaliação clínica e laboratorial para evitar tratamento desnecessário.",
+          "prerequisite_concepts": []
+        },
+        {
+          "reasoning_id": "aqz-hiper-060-r14",
+          "question_id": "aqz-hiper-060",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Identificar pseudo-hipercalemia relacionada à trombocitose e diferenciar um artefato laboratorial de uma emergência hipercalêmica verdadeira.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "identify_thrombocytosis_related_pseudohyperkalemia"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Identificar pseudo-hipercalemia relacionada à trombocitose e diferenciar um artefato laboratorial de uma emergência hipercalêmica verdadeira.",
+          "prerequisite_concepts": []
+        }
+      ],
+      "clinical_pearl": "> Antes de tratar um número, confirme o que ele representa. Em pacientes com trombocitose importante, o potássio pode subir dentro do tubo de coleta — e não dentro do paciente.",
+      "references": [
+        "*Causes and evaluation of hyperkalemia in adults*. UpToDate — seção “Pseudohyperkalemia”, especialmente a discussão sobre trombocitose e diferenças entre potássio sérico e plasmático."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "laboratory_diagnosis",
+        "clinical_context": "emergency_department",
+        "urgency_level": "diagnostic_confirmation",
+        "cognitive_level": "clinical_reasoning",
+        "primary_competency": "identify_thrombocytosis_related_pseudohyperkalemia",
+        "secondary_competencies": [
+          "compare_serum_and_plasma_potassium",
+          "recognize_preanalytical_artifacts",
+          "understand_platelet_potassium_release",
+          "avoid_unnecessary_hyperkalemia_treatment",
+          "interpret_discordant_laboratory_results"
+        ],
+        "learning_objectives": [
+          "Identificar pseudo-hipercalemia relacionada à trombocitose e diferenciar um artefato laboratorial de uma emergência hipercalêmica verdadeira."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "clinical_reasoning",
+        "arena_skill_ids": [
+          "laboratory_safety",
+          "preanalytical_quality",
+          "hyperkalemia_diagnosis"
+        ],
+        "arena_challenge_types": [
+          "laboratory_interpretation",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "pseudohyperkalemia",
+          "thrombocytosis",
+          "serum",
+          "plasma"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "A pseudo-hipercalemia já apareceu em blocos anteriores. Nesta questão, o foco específico é o mecanismo de liberação de potássio pelas plaquetas durante a coagulação e a interpretação da discrepância entre soro e plasma.\n\n---\n\n# 3. METADADOS E MICRODADOS PARA O AGORAARENA\n\nEsta seção é obrigatória.\n\nO AgoraQuiz deve ser estruturado não apenas como um banco de perguntas, mas como uma futura fonte de informações sobre o desenvolvimento de competências clínicas.\n\nOs microdados devem permitir identificar:\n\n- O conteúdo e as competências avaliadas.\n- O conceito equivocado representado por cada alternativa incorreta.\n- O tipo de raciocínio exigido em cada etapa.\n- Os padrões de erro do aluno ao longo do tempo.\n- As competências que precisam de revisão.\n- As competências potencialmente dominadas.\n- As oportunidades de aprendizagem adaptativa.\n\nNão implementar o AgoraArena nesta etapa. Apenas estruturar e armazenar os dados de maneira compatível com sua futura integração.\n\n## 3.1. Metadados por questão\n\nCada questão deverá conter:\n\n- `question_id`\n- `course_id`\n- `quiz_id`\n- `block_number`\n- `question_number`\n- `title`\n- `difficulty`\n- `clinical_domain`\n- `clinical_context`\n- `urgency_level`\n- `cognitive_level`\n- `primary_competency`\n- `secondary_competencies`\n- `learning_objectives`\n- `prerequisite_competencies`\n- `patient_safety_domain`\n- `arena_skill_ids`\n- `arena_challenge_types`\n- `tags`\n- `editorial_status`\n- `content_version`\n- `schema_version`\n- `scientific_review_notes`\n- `related_lesson_ids`\n- `arena_eligible`\n- `arena_difficulty_weight`\n- `estimated_response_time_seconds`\n\nNão inventar IDs de aulas relacionadas. Buscar os identificadores reais no repositório; se não houver correspondência segura, utilizar lista vazia e registrar pendência.\n\n## 3.2. Competências principais\n\n| Questão | `primary_competency` |\n|---|---|\n| 056 | `identify_trimethoprim_induced_hyperkalemia` |\n| 057 | `recognize_type4_renal_tubular_acidosis` |\n| 058 | `recognize_heparin_induced_hyperkalemia` |\n| 059 | `distinguish_serum_potassium_from_total_body_stores` |\n| 060 | `identify_thrombocytosis_related_pseudohyperkalemia` |\n\n## 3.3. Competências secundárias\n\n**056**\n\n- `understand_enac_blockade`\n- `recognize_drug_interactions`\n- `assess_renal_potassium_excretion`\n- `interpret_medication_timeline`\n- `assess_hyperkalemia_urgency`\n\n**057**\n\n- `interpret_metabolic_acidosis`\n- `calculate_anion_gap`\n- `understand_hypoaldosteronism`\n- `recognize_hyperchloremic_acidosis`\n- `recognize_diagnostic_uncertainty`\n\n**058**\n\n- `understand_aldosterone_synthesis`\n- `identify_medication_adverse_effects`\n- `interpret_serial_potassium_measurements`\n- `balance_thrombotic_and_metabolic_risk`\n- `perform_medication_review`\n\n**059**\n\n- `understand_potassium_redistribution`\n- `understand_insulin_effect_on_potassium`\n- `recognize_osmotic_diuresis_losses`\n- `anticipate_treatment_related_hypokalemia`\n- `monitor_potassium_during_dka`\n\n**060**\n\n- `compare_serum_and_plasma_potassium`\n- `recognize_preanalytical_artifacts`\n- `understand_platelet_potassium_release`\n- `avoid_unnecessary_hyperkalemia_treatment`\n- `interpret_discordant_laboratory_results`\n\n## 3.4. Domínios clínicos\n\n| Questão | `clinical_domain` | `clinical_context` | `urgency_level` |\n|---|---|---|---|\n| 056 | drug_induced_hyperkalemia | emergency_department | urgent_evaluation |\n| 057 | renal_pathophysiology | outpatient | prompt_evaluation |\n| 058 | drug_induced_hyperkalemia | hospital_ward | prompt_evaluation |\n| 059 | potassium_redistribution | emergency_department | emergency |\n| 060 | laboratory_diagnosis | emergency_department | diagnostic_confirmation |\n\nTodas as questões têm dificuldade `advanced`.\n\n---\n\n# 4. MICRODADOS INDIVIDUALIZADOS DAS 20 ALTERNATIVAS\n\nCada alternativa deverá possuir:\n\n- `option_id`\n- `question_id`\n- `letter`\n- `text`\n- `is_correct`\n- `feedback`\n- `error_type`\n- `misconception_id`\n- `misconception_description`\n- `competency_ids`\n- `clinical_risk_if_applied`\n\nUtilizar identificadores no formato:\n\n`aqz-hiper-056-A`\n\nOs textos e comentários devem ser exatamente aqueles apresentados na seção editorial.\n\n## Matriz de classificação\n\n| Alternativa | Correta | `error_type` | `misconception_id` |\n|---|---|---|---|\n| 056-A | Não | mechanism_inversion | trimethoprim_increases_k_excretion |\n| 056-B | Não | incorrect_pathophysiology | trimethoprim_causes_muscle_potassium_release |\n| 056-C | Sim | null | null |\n| 056-D | Não | ecg_overreliance | normal_ecg_proves_pseudohyperkalemia |\n| 057-A | Não | acid_base_misinterpretation | normal_gap_acidosis_requires_organic_acids |\n| 057-B | Sim | null | null |\n| 057-C | Não | gastrointestinal_loss_misinterpretation | bicarbonate_loss_always_causes_hyperkalemia |\n| 057-D | Não | mechanism_inversion | increased_distal_k_secretion_causes_hyperkalemia |\n| 058-A | Sim | null | null |\n| 058-B | Não | incorrect_pathophysiology | heparin_hyperkalemia_requires_hemolysis |\n| 058-C | Não | incorrect_drug_mechanism | heparin_increases_intestinal_k_absorption |\n| 058-D | Não | failure_to_recognize_drug_effect | heparin_cannot_affect_potassium |\n| 059-A | Não | compartment_misinterpretation | serum_hyperkalemia_proves_total_body_excess |\n| 059-B | Não | inappropriate_treatment_contraindication | elevated_k_prohibits_insulin_in_dka |\n| 059-C | Não | failure_to_anticipate_complication | initial_hyperkalemia_prevents_treatment_hypokalemia |\n| 059-D | Sim | null | null |\n| 060-A | Não | unnecessary_emergency_treatment | serum_plasma_discrepancy_requires_iv_insulin |\n| 060-B | Não | laboratory_method_misinterpretation | serum_always_more_reliable_in_thrombocytosis |\n| 060-C | Sim | null | null |\n| 060-D | Não | ecg_overreliance | normal_ecg_eliminates_need_for_investigation |\n\n## Regras de preenchimento\n\nPara cada alternativa incorreta:\n\n1. Associar o tipo de erro descrito na matriz.\n2. Registrar a descrição do conceito equivocado.\n3. Associar a competência que o aluno precisaria mobilizar para evitar o erro.\n4. Registrar o risco clínico potencial de aplicar aquele raciocínio na prática.\n5. Preservar o comentário editorial integral.\n\nPara alternativas corretas:\n\n- `is_correct`: true.\n- `error_type`: null.\n- `misconception_id`: null.\n- `misconception_description`: null.\n- Associar a competência principal e as competências secundárias efetivamente demonstradas pela decisão.\n\nNão inferir que uma única resposta errada comprova deficiência permanente de competência.\n\n---\n\n# 5. MICRODADOS INDIVIDUALIZADOS DOS 71 RACIOCÍNIOS CLÍNICOS\n\nCada pergunta e sua explicação devem ser armazenadas como uma unidade pedagógica independente.\n\nCada unidade deverá conter:\n\n- `reasoning_id`\n- `question_id`\n- `sequence`\n- `prompt`\n- `explanation`\n- `reasoning_type`\n- `competency_ids`\n- `cognitive_operation`\n- `clinical_relevance`\n- `prerequisite_concepts`\n\nFormato dos identificadores:\n\n`aqz-hiper-056-r01`\n\nA numeração deve seguir exatamente a ordem editorial.\n\n## Questão 056 — Classificação das 14 etapas\n\n| Etapa | `reasoning_type` |\n|---|---|\n| 01 | problem_recognition |\n| 02 | temporal_association |\n| 03 | drug_identification |\n| 04 | renal_tubular_anatomy |\n| 05 | enac_physiology |\n| 06 | pharmacological_mechanism |\n| 07 | pharmacological_analogy |\n| 08 | renal_risk_assessment |\n| 09 | drug_interaction |\n| 10 | laboratory_interpretation |\n| 11 | ecg_interpretation |\n| 12 | therapeutic_prioritization |\n| 13 | medication_safety |\n| 14 | competency_synthesis |\n\n## Questão 057 — Classificação das 14 etapas\n\n| Etapa | `reasoning_type` |\n|---|---|\n| 01 | laboratory_pattern_recognition |\n| 02 | acid_base_interpretation |\n| 03 | anion_gap_calculation |\n| 04 | differential_diagnosis |\n| 05 | risk_factor_identification |\n| 06 | endocrine_pathophysiology |\n| 07 | aldosterone_physiology |\n| 08 | renal_potassium_handling |\n| 09 | ammonium_excretion_physiology |\n| 10 | syndrome_recognition |\n| 11 | diagnostic_criteria |\n| 12 | diagnostic_uncertainty |\n| 13 | therapeutic_implication |\n| 14 | competency_synthesis |\n\n## Questão 058 — Classificação das 14 etapas\n\n| Etapa | `reasoning_type` |\n|---|---|\n| 01 | laboratory_trend_interpretation |\n| 02 | temporal_association |\n| 03 | medication_review |\n| 04 | prophylactic_dose_effect |\n| 05 | aldosterone_synthesis |\n| 06 | renal_potassium_handling |\n| 07 | endocrine_pathophysiology |\n| 08 | risk_factor_identification |\n| 09 | laboratory_interpretation |\n| 10 | ecg_interpretation |\n| 11 | clinical_reassessment |\n| 12 | thrombotic_risk_assessment |\n| 13 | treatment_response_monitoring |\n| 14 | competency_synthesis |\n\n## Questão 059 — Classificação das 15 etapas\n\n| Etapa | `reasoning_type` |\n|---|---|\n| 01 | syndrome_recognition |\n| 02 | laboratory_interpretation |\n| 03 | compartment_physiology |\n| 04 | insulin_physiology |\n| 05 | hyperosmolality_physiology |\n| 06 | acid_base_potassium_interaction |\n| 07 | total_body_potassium_loss |\n| 08 | compartment_integration |\n| 09 | insulin_treatment_effect |\n| 10 | fluid_therapy_effect |\n| 11 | treatment_complication |\n| 12 | potassium_replacement_safety |\n| 13 | insulin_treatment_safety |\n| 14 | serial_monitoring |\n| 15 | competency_synthesis |\n\n## Questão 060 — Classificação das 14 etapas\n\n| Etapa | `reasoning_type` |\n|---|---|\n| 01 | laboratory_discrepancy |\n| 02 | hematological_risk_identification |\n| 03 | specimen_type_differentiation |\n| 04 | platelet_potassium_release |\n| 05 | artifact_pathophysiology |\n| 06 | pseudohyperkalemia_definition |\n| 07 | laboratory_confirmation |\n| 08 | preanalytical_quality |\n| 09 | clinical_laboratory_integration |\n| 10 | ecg_interpretation |\n| 11 | ecg_limitations |\n| 12 | unnecessary_treatment_prevention |\n| 13 | diagnostic_synthesis |\n| 14 | competency_synthesis |\n\n## Regras adicionais\n\n- Preservar integralmente o texto de cada pergunta e explicação.\n- Não transformar os 71 raciocínios em cinco textos corridos.\n- Não atribuir a mesma competência a todas as etapas indiscriminadamente.\n- Associar cada etapa às competências que realmente mobiliza.\n- Registrar a operação cognitiva predominante.\n- Permitir que futuras atividades do AgoraArena utilizem etapas específicas como base para desafios de raciocínio.\n- Não considerar que acertar uma questão demonstra automaticamente domínio de todos os seus raciocínios.\n\n---\n\n# 6. ESTRUTURA DE DADOS\n\nAdaptar à arquitetura existente do AgoraQuiz.\n\nA estrutura conceitual deverá contemplar:\n\n```json\n{\n  \"question_id\": \"aqz-hiper-056\",\n  \"schema_version\": 1,\n  \"content_version\": 1,\n  \"block_number\": 12,\n  \"question_number\": 56,\n  \"title\": \"O antibiótico que se comporta como um diurético poupador de potássio\",\n  \"correct_option\": \"C\",\n  \"options\": [],\n  \"reasoning_steps\": [],\n  \"clinical_pearl\": \"\",\n  \"references\": [],\n  \"metadata\": {\n    \"difficulty\": \"advanced\",\n    \"clinical_domain\": \"drug_induced_hyperkalemia\",\n    \"primary_competency\": \"identify_trimethoprim_induced_hyperkalemia\",\n    \"editorial_status\": \"approved\"\n  },\n  \"arena\": {\n    \"eligible\": true,\n    \"skill_ids\": [\n      \"hyperkalemia_drug_causes\",\n      \"renal_potassium_handling\",\n      \"medication_safety\"\n    ],\n    \"challenge_types\": [\n      \"mechanism_identification\",\n      \"clinical_decision\"\n    ],\n    \"base_xp\": null,\n    \"difficulty_weight\": null\n  }\n}\n```\n\nEste exemplo demonstra o formato, mas **não representa o registro completo**.\n\nNa implementação real, preencher integralmente enunciados, alternativas, comentários, raciocínios, Pérolas e referências a partir deste prompt.\n\nNão deixar placeholders no banco de produção.\n\nOs IDs de curso, quiz e aulas devem corresponder aos existentes no repositório.\n\n---\n\n# 7. PREPARAÇÃO PARA O AGORAARENA\n\nO AgoraArena deverá futuramente utilizar os microdados do AgoraQuiz para construir experiências de aprendizagem adaptativa.\n\nA arquitetura deve permitir:\n\n1. Identificar competências clínicas trabalhadas.\n2. Reconhecer padrões recorrentes de erros.\n3. Relacionar alternativas incorretas a conceitos equivocados.\n4. Identificar etapas de raciocínio que precisam ser reforçadas.\n5. Recomendar revisões direcionadas.\n6. Selecionar desafios de acordo com o desempenho.\n7. Comparar a evolução de competências ao longo do tempo.\n8. Permitir futura gamificação sem alterar o conteúdo das questões.\n\nNão implementar agora rankings, partidas, pontuações ou recompensas.\n\n## Eventos de aprendizagem\n\nReutilizar ou preparar os seguintes eventos:\n\n- `quiz_question_presented`\n- `quiz_answer_submitted`\n- `quiz_answer_evaluated`\n- `quiz_explanation_viewed`\n- `quiz_question_flagged_for_review`\n- `quiz_review_completed`\n- `quiz_competency_progress_updated`\n\nOs eventos devem permitir registrar:\n\n- Identificador do aluno autenticado.\n- Identificador da questão.\n- Versão editorial.\n- Identificador da tentativa.\n- Alternativa selecionada.\n- Resultado da resposta.\n- Tempo de resposta.\n- Modo de utilização.\n- Data e horário.\n- Competências associadas.\n- Estado de revisão.\n\nPreservar as regras existentes de segurança, privacidade e autorização.\n\nNão registrar informações clínicas reais de pacientes.\n\nNão duplicar eventos de tentativas.\n\n---\n\n# 8. INTEGRAÇÃO COM OS MODOS DO AGORAQUIZ\n\n## Modo Estudo\n\nApós o envio da resposta, apresentar:\n\n1. Resultado da resposta.\n2. Gabarito correto.\n3. Comentário da alternativa escolhida.\n4. Comentários das demais alternativas, conforme a interface existente.\n5. Todas as etapas do raciocínio clínico.\n6. Pérola do Plantão.\n7. Referências científicas.\n\nNão truncar o raciocínio clínico.\n\nPreservar a numeração de cada etapa.\n\n## Modo Simulação\n\nPreservar:\n\n- Apresentação sem revelar previamente o gabarito.\n- Registro das respostas.\n- Correção conforme as regras existentes.\n- Apuração de desempenho.\n- Exibição dos resultados.\n\n## Caderno de erros\n\nIntegrar as novas questões aos estados:\n\n- Precisa revisar.\n- Em revisão.\n- Dominada.\n\nPreservar a regra existente de duas respostas corretas consecutivas durante a revisão para considerar uma questão dominada.\n\nNão reiniciar o progresso das questões anteriores.\n\n---\n\n# 9. IDENTIDADE VISUAL\n\nRespeitar a identidade visual do AgoraMed:\n\n- Azul-petróleo: `#346f77`\n- Cinza: `#808080`\n- Branco suave: `#F5F5F5`\n\nPreservar os destaques violeta específicos do curso de hipercalemia.\n\nNão criar componentes visuais incompatíveis com o AgoraQuiz existente.\n\nGarantir boa leitura das questões, dos comentários e dos raciocínios em desktop e dispositivos móveis.\n\n---\n\n# 10. VALIDAÇÃO AUTOMATIZADA\n\n## Integridade editorial\n\nConfirmar:\n\n- Cinco questões.\n- Identificadores 056–060 únicos.\n- Gabaritos C, B, A, D, C.\n- Vinte alternativas.\n- Vinte comentários individualizados.\n- Setenta e uma etapas de raciocínio.\n- Distribuição 14, 14, 14, 15, 14.\n- Cinco Pérolas do Plantão.\n- Cinco conjuntos de referências.\n- Observações científicas e pedagógicas preservadas.\n- Ausência de textos truncados.\n- Ausência de placeholders.\n\n## Integridade dos microdados\n\nConfirmar:\n\n- Cinco conjuntos completos de metadados.\n- Vinte conjuntos de microdados de alternativas.\n- Setenta e um conjuntos de microdados de raciocínio.\n- Identificadores únicos.\n- Relacionamentos consistentes.\n- Classificações coerentes com os textos.\n- Competências associadas.\n- Ausência de campos obrigatórios vazios.\n\n## Regressão\n\nConfirmar:\n\n- Questões 001–055 preservadas.\n- Modo Estudo funcionando.\n- Modo Simulação funcionando.\n- Caderno de erros funcionando.\n- Progresso anterior preservado.\n- Interface responsiva.\n- Nenhuma duplicação de questões ou tentativas.\n\nSe as questões 001–055 já estiverem implementadas, o AgoraQuiz deverá totalizar 60 questões após a inclusão deste bloco.\n\nOs Blocos 11 e 12, juntos, deverão conter 140 etapas de raciocínio clínico.\n\n---\n\n# 11. RELATÓRIO FINAL OBRIGATÓRIO\n\nApós a implementação, apresentar:\n\n1. Arquivos modificados.\n2. Estrutura de armazenamento utilizada.\n3. Questões importadas.\n4. Gabaritos e quantidades conferidos.\n5. Metadados de cada questão.\n6. Microdados de cada alternativa.\n7. Microdados de cada etapa de raciocínio.\n8. Eventos disponíveis para o AgoraArena.\n9. Testes executados e resultados.\n10. Pendências técnicas ou científicas.\n11. Confirmação de que as questões 001–055 não foram modificadas.\n\nNão declarar a implementação concluída se faltar qualquer conteúdo editorial obrigatório.\n\n**RESULTADO ESPERADO:** Bloco 12 integralmente implementado no AgoraQuiz, preservando o conteúdo científico e pedagógico aprovado, com microdados estruturados para permitir futura integração ao AgoraArena e desenvolvimento de aprendizagem adaptativa baseada em competências clínicas.",
+        "related_lesson_ids": [
+          "6456d65e-8879-4b0d-9032-499f4a97678f"
+        ],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "laboratory_safety",
+          "preanalytical_quality",
+          "hyperkalemia_diagnosis"
+        ],
+        "challenge_types": [
+          "laboratory_interpretation",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    }
+  ]
+}

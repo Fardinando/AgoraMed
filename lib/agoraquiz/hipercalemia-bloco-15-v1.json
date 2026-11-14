@@ -1,0 +1,2107 @@
+{
+  "cursoId": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+  "quizId": "agoraquiz-hipercalemia",
+  "cursoOrigem": "Tratamento da Hipercalemia em Adultos",
+  "bancoOrigem": "AgoraQuiz Hipercalemia",
+  "bloco": "15",
+  "temaEditorial": "Hipercalemia em contextos especiais — mecanismos ocultos, interações medicamentosas e decisões complexas.",
+  "questoes": [
+    {
+      "id": "aqz-hiper-071",
+      "question_id": "aqz-hiper-071",
+      "numero": 71,
+      "question_number": 71,
+      "titulo": "O enxerto funciona, mas o potássio continua alto",
+      "competenciaPrincipal": "Reconhecer alterações tubulares relacionadas aos inibidores da calcineurina.",
+      "competenciasSecundarias": [
+        "distinguish_gfr_from_tubular_function",
+        "understand_distal_potassium_secretion",
+        "recognize_tacrolimus_tubular_effects",
+        "interpret_hyperchloremic_acidosis",
+        "preserve_transplant_immunosuppression_safety"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Um homem de 46 anos, submetido a transplante renal há quatro meses, comparece ao ambulatório de transplantes após dois exames consecutivos demonstrarem hipercalemia.\n\nO paciente está assintomático e apresenta boa evolução clínica desde o transplante.\n\nUtiliza tacrolimo, micofenolato de mofetila e prednisona.\n\nNa avaliação:\n\n- PA: 136/82 mmHg.\n- FC: 78 bpm.\n- Potássio: 5,9 mEq/L, confirmado em amostra sem hemólise.\n- Creatinina: 1,3 mg/dL, estável nos últimos dois meses.\n- Sódio: 139 mEq/L.\n- Cloro: 110 mEq/L.\n- Bicarbonato: 19 mEq/L.\n- Glicemia: 104 mg/dL.\n- ECG: sem alterações típicas de hipercalemia.\n\nA concentração de tacrolimo está acima da faixa-alvo estabelecida pela equipe de transplante.\n\nA ultrassonografia Doppler do enxerto não demonstra alterações relevantes.\n\nUm residente argumenta que o tacrolimo não pode ser responsável pela hipercalemia porque a creatinina permanece estável.\n\n**Qual é a interpretação mais adequada?**",
+      "alternativas": {
+        "A": "A creatinina estável exclui alterações do transporte tubular de potássio, tornando improvável a participação do tacrolimo.",
+        "B": "O tacrolimo pode prejudicar a excreção distal de potássio por mecanismos tubulares e alterações da sinalização mineralocorticoide, inclusive sem queda importante da filtração glomerular. A conduta exige avaliação medicamentosa e metabólica, com ajuste da imunossupressão exclusivamente pela equipe responsável pelo transplante.",
+        "C": "A hipercalemia demonstra obrigatoriamente rejeição aguda do enxerto, mesmo com creatinina estável e ausência de outros achados sugestivos.",
+        "D": "A conduta mais adequada é suspender imediatamente toda a imunossupressão, pois a normalização do potássio tem prioridade sobre o risco de rejeição."
+      },
+      "gabarito": "B",
+      "raciocinioClinico": "**1. Qual é o principal problema apresentado?**\n\nHipercalemia persistente em um receptor de transplante renal com função global do enxerto aparentemente estável.\n\n**2. A creatinina estável exclui disfunção tubular?**\n\nNão. A creatinina é utilizada principalmente como marcador indireto da filtração glomerular e não avalia isoladamente todas as funções tubulares.\n\n**3. Qual medicamento merece atenção especial?**\n\nO tacrolimo, um inibidor da calcineurina frequentemente utilizado na imunossupressão após transplante.\n\n**4. Como o tacrolimo pode contribuir para a hipercalemia?**\n\nPode interferir na excreção distal de potássio por alterações do transporte tubular, da atividade de canais iônicos e da resposta à sinalização mineralocorticoide.\n\n**5. O que acontece normalmente no néfron distal para permitir a secreção de potássio?**\n\nA reabsorção eletrogênica de sódio e a atividade dos canais de potássio contribuem para estabelecer condições favoráveis à secreção de potássio para o lúmen tubular.\n\n**6. Qual é a relação entre tacrolimo e mecanismos semelhantes ao hipoaldosteronismo?**\n\nInibidores da calcineurina podem produzir alterações funcionais da excreção distal de potássio, incluindo redução da resposta mineralocorticoide e modificações do transporte de sódio.\n\n**7. O bicarbonato de 19 mEq/L é relevante?**\n\nSim. Sugere acidose metabólica, que pode acompanhar alterações tubulares relacionadas ao manejo de potássio e ao equilíbrio ácido-base.\n\n**8. O cloro de 110 mEq/L acrescenta alguma informação?**\n\nA hipercloremia discreta é compatível com um componente de acidose metabólica hiperclorêmica, embora seja necessária avaliação ácido-base mais completa para caracterizá-la.\n\n**9. A concentração elevada de tacrolimo confirma causalidade absoluta?**\n\nNão. Fortalece a suspeita de contribuição medicamentosa, mas outras causas de hipercalemia devem ser avaliadas.\n\n**10. Quais outros fatores devem ser investigados?**\n\nOutros medicamentos, função renal, ingestão de potássio, alterações metabólicas, infecções e possíveis complicações do transplante.\n\n**11. A hipercalemia isolada confirma rejeição do enxerto?**\n\nNão. A rejeição exige avaliação específica e não pode ser diagnosticada apenas pela concentração sérica de potássio.\n\n**12. Por que não devemos suspender o tacrolimo indiscriminadamente?**\n\nPorque a imunossupressão protege contra rejeição do enxerto. Alterações de dose devem considerar o risco imunológico e ser conduzidas pela equipe de transplante.\n\n**13. Qual é a abordagem mais adequada?**\n\nAvaliar a gravidade da hipercalemia, confirmar a alteração, revisar medicamentos e concentrações de tacrolimo, investigar a função tubular e definir o tratamento em conjunto com a equipe de transplante.\n\n**14. Qual é a competência principal?**\n\nReconhecer que medicamentos podem comprometer a excreção tubular de potássio mesmo quando a filtração glomerular permanece relativamente preservada.",
+      "comentarios": {
+        "A": "A creatinina estável não exclui disfunção tubular. O manejo renal do potássio depende de mecanismos que não são adequadamente avaliados apenas pela creatinina sérica.",
+        "B": "O tacrolimo pode contribuir para hipercalemia por alterações do transporte tubular distal e da resposta mineralocorticoide. A avaliação deve integrar fatores metabólicos e farmacológicos, preservando a segurança do enxerto.",
+        "C": "A hipercalemia isolada não estabelece diagnóstico de rejeição aguda. É necessário avaliar o conjunto dos achados clínicos e laboratoriais.",
+        "D": "A suspensão indiscriminada da imunossupressão pode provocar rejeição e perda do enxerto."
+      },
+      "perola": "> Um rim transplantado pode filtrar adequadamente e ainda apresentar dificuldade para eliminar potássio. Creatinina estável não significa que todas as funções tubulares estejam preservadas.",
+      "referencias": "*Causes and evaluation of hyperkalemia in adults*. UpToDate.\n*Electrolyte and acid-base disturbances induced by calcineurin inhibitors*. Revisões de fisiopatologia renal.\nLiteratura de nefrologia do transplante sobre hipercalemia associada ao tacrolimo.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 15,
+      "stem": "Um homem de 46 anos, submetido a transplante renal há quatro meses, comparece ao ambulatório de transplantes após dois exames consecutivos demonstrarem hipercalemia.\n\nO paciente está assintomático e apresenta boa evolução clínica desde o transplante.\n\nUtiliza tacrolimo, micofenolato de mofetila e prednisona.\n\nNa avaliação:\n\n- PA: 136/82 mmHg.\n- FC: 78 bpm.\n- Potássio: 5,9 mEq/L, confirmado em amostra sem hemólise.\n- Creatinina: 1,3 mg/dL, estável nos últimos dois meses.\n- Sódio: 139 mEq/L.\n- Cloro: 110 mEq/L.\n- Bicarbonato: 19 mEq/L.\n- Glicemia: 104 mg/dL.\n- ECG: sem alterações típicas de hipercalemia.\n\nA concentração de tacrolimo está acima da faixa-alvo estabelecida pela equipe de transplante.\n\nA ultrassonografia Doppler do enxerto não demonstra alterações relevantes.\n\nUm residente argumenta que o tacrolimo não pode ser responsável pela hipercalemia porque a creatinina permanece estável.\n\n**Qual é a interpretação mais adequada?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-071-A",
+          "question_id": "aqz-hiper-071",
+          "letter": "A",
+          "text": "A creatinina estável exclui alterações do transporte tubular de potássio, tornando improvável a participação do tacrolimo.",
+          "is_correct": false,
+          "feedback": "A creatinina estável não exclui disfunção tubular. O manejo renal do potássio depende de mecanismos que não são adequadamente avaliados apenas pela creatinina sérica.",
+          "error_type": "renal_function_misinterpretation",
+          "misconception_id": "stable_creatinine_excludes_tubular_dysfunction",
+          "misconception_description": "Confunde função glomerular preservada com ausência de disfunção tubular.",
+          "competency_ids": [
+            "distinguish_gfr_from_tubular_function"
+          ],
+          "clinical_risk_if_applied": "não reconhecer efeito medicamentoso relevante."
+        },
+        {
+          "option_id": "aqz-hiper-071-B",
+          "question_id": "aqz-hiper-071",
+          "letter": "B",
+          "text": "O tacrolimo pode prejudicar a excreção distal de potássio por mecanismos tubulares e alterações da sinalização mineralocorticoide, inclusive sem queda importante da filtração glomerular. A conduta exige avaliação medicamentosa e metabólica, com ajuste da imunossupressão exclusivamente pela equipe responsável pelo transplante.",
+          "is_correct": true,
+          "feedback": "O tacrolimo pode contribuir para hipercalemia por alterações do transporte tubular distal e da resposta mineralocorticoide. A avaliação deve integrar fatores metabólicos e farmacológicos, preservando a segurança do enxerto.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "recognize_calcineurin_inhibitor_hyperkalemia",
+            "distinguish_gfr_from_tubular_function",
+            "understand_distal_potassium_secretion"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-071-C",
+          "question_id": "aqz-hiper-071",
+          "letter": "C",
+          "text": "A hipercalemia demonstra obrigatoriamente rejeição aguda do enxerto, mesmo com creatinina estável e ausência de outros achados sugestivos.",
+          "is_correct": false,
+          "feedback": "A hipercalemia isolada não estabelece diagnóstico de rejeição aguda. É necessário avaliar o conjunto dos achados clínicos e laboratoriais.",
+          "error_type": "diagnostic_overattribution",
+          "misconception_id": "hyperkalemia_alone_proves_graft_rejection",
+          "misconception_description": "Atribui hipercalemia isolada à rejeição do enxerto.",
+          "competency_ids": [
+            "recognize_tacrolimus_tubular_effects"
+          ],
+          "clinical_risk_if_applied": "investigação e tratamento inadequados."
+        },
+        {
+          "option_id": "aqz-hiper-071-D",
+          "question_id": "aqz-hiper-071",
+          "letter": "D",
+          "text": "A conduta mais adequada é suspender imediatamente toda a imunossupressão, pois a normalização do potássio tem prioridade sobre o risco de rejeição.",
+          "is_correct": false,
+          "feedback": "A suspensão indiscriminada da imunossupressão pode provocar rejeição e perda do enxerto.",
+          "error_type": "unsafe_medication_discontinuation",
+          "misconception_id": "hyperkalemia_requires_stopping_all_immunosuppression",
+          "misconception_description": "Propõe suspensão indiscriminada da imunossupressão.",
+          "competency_ids": [
+            "interpret_hyperchloremic_acidosis"
+          ],
+          "clinical_risk_if_applied": "rejeição aguda e perda do enxerto."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-071-r01",
+          "question_id": "aqz-hiper-071",
+          "sequence": 1,
+          "prompt": "Qual é o principal problema apresentado?",
+          "explanation": "Hipercalemia persistente em um receptor de transplante renal com função global do enxerto aparentemente estável.",
+          "reasoning_type": "clinical_problem_recognition",
+          "competency_ids": [
+            "interpret_hyperchloremic_acidosis"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque hipercalemia persistente em um receptor de transplante renal com função global do enxerto aparentemente estável.",
+          "prerequisite_concepts": [
+            "imunossupressão no transplante renal",
+            "excreção tubular distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-071-r02",
+          "question_id": "aqz-hiper-071",
+          "sequence": 2,
+          "prompt": "A creatinina estável exclui disfunção tubular?",
+          "explanation": "Não. A creatinina é utilizada principalmente como marcador indireto da filtração glomerular e não avalia isoladamente todas as funções tubulares.",
+          "reasoning_type": "glomerular_tubular_differentiation",
+          "competency_ids": [
+            "recognize_tacrolimus_tubular_effects"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. A creatinina é utilizada principalmente como marcador indireto da filtração glomerular e não avalia isoladamente todas as funções tubulares.",
+          "prerequisite_concepts": [
+            "diferença entre filtração glomerular e função tubular",
+            "secreção distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-071-r03",
+          "question_id": "aqz-hiper-071",
+          "sequence": 3,
+          "prompt": "Qual medicamento merece atenção especial?",
+          "explanation": "O tacrolimo, um inibidor da calcineurina frequentemente utilizado na imunossupressão após transplante.",
+          "reasoning_type": "medication_identification",
+          "competency_ids": [
+            "recognize_tacrolimus_tubular_effects"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque o tacrolimo, um inibidor da calcineurina frequentemente utilizado na imunossupressão após transplante.",
+          "prerequisite_concepts": [
+            "imunossupressão no transplante renal",
+            "excreção tubular distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-071-r04",
+          "question_id": "aqz-hiper-071",
+          "sequence": 4,
+          "prompt": "Como o tacrolimo pode contribuir para a hipercalemia?",
+          "explanation": "Pode interferir na excreção distal de potássio por alterações do transporte tubular, da atividade de canais iônicos e da resposta à sinalização mineralocorticoide.",
+          "reasoning_type": "tacrolimus_pathophysiology",
+          "competency_ids": [
+            "recognize_tacrolimus_tubular_effects"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque pode interferir na excreção distal de potássio por alterações do transporte tubular, da atividade de canais iônicos e da resposta à sinalização mineralocorticoide.",
+          "prerequisite_concepts": [
+            "imunossupressão no transplante renal",
+            "excreção tubular distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-071-r05",
+          "question_id": "aqz-hiper-071",
+          "sequence": 5,
+          "prompt": "O que acontece normalmente no néfron distal para permitir a secreção de potássio?",
+          "explanation": "A reabsorção eletrogênica de sódio e a atividade dos canais de potássio contribuem para estabelecer condições favoráveis à secreção de potássio para o lúmen tubular.",
+          "reasoning_type": "distal_potassium_secretion",
+          "competency_ids": [
+            "understand_distal_potassium_secretion"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque a reabsorção eletrogênica de sódio e a atividade dos canais de potássio contribuem para estabelecer condições favoráveis à secreção de potássio para o lúmen tubular.",
+          "prerequisite_concepts": [
+            "diferença entre filtração glomerular e função tubular",
+            "secreção distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-071-r06",
+          "question_id": "aqz-hiper-071",
+          "sequence": 6,
+          "prompt": "Qual é a relação entre tacrolimo e mecanismos semelhantes ao hipoaldosteronismo?",
+          "explanation": "Inibidores da calcineurina podem produzir alterações funcionais da excreção distal de potássio, incluindo redução da resposta mineralocorticoide e modificações do transporte de sódio.",
+          "reasoning_type": "mineralocorticoid_signaling",
+          "competency_ids": [
+            "recognize_tacrolimus_tubular_effects"
+          ],
+          "cognitive_operation": "integrate",
+          "clinical_relevance": "Este raciocínio é relevante porque inibidores da calcineurina podem produzir alterações funcionais da excreção distal de potássio, incluindo redução da resposta mineralocorticoide e modificações do transporte de sódio.",
+          "prerequisite_concepts": [
+            "imunossupressão no transplante renal",
+            "excreção tubular distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-071-r07",
+          "question_id": "aqz-hiper-071",
+          "sequence": 7,
+          "prompt": "O bicarbonato de 19 mEq/L é relevante?",
+          "explanation": "Sim. Sugere acidose metabólica, que pode acompanhar alterações tubulares relacionadas ao manejo de potássio e ao equilíbrio ácido-base.",
+          "reasoning_type": "metabolic_acidosis_interpretation",
+          "competency_ids": [
+            "interpret_hyperchloremic_acidosis"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Este raciocínio é relevante porque sim. Sugere acidose metabólica, que pode acompanhar alterações tubulares relacionadas ao manejo de potássio e ao equilíbrio ácido-base.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-071-r08",
+          "question_id": "aqz-hiper-071",
+          "sequence": 8,
+          "prompt": "O cloro de 110 mEq/L acrescenta alguma informação?",
+          "explanation": "A hipercloremia discreta é compatível com um componente de acidose metabólica hiperclorêmica, embora seja necessária avaliação ácido-base mais completa para caracterizá-la.",
+          "reasoning_type": "hyperchloremia_interpretation",
+          "competency_ids": [
+            "recognize_tacrolimus_tubular_effects"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Este raciocínio é relevante porque a hipercloremia discreta é compatível com um componente de acidose metabólica hiperclorêmica, embora seja necessária avaliação ácido-base mais completa para caracterizá-la.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-071-r09",
+          "question_id": "aqz-hiper-071",
+          "sequence": 9,
+          "prompt": "A concentração elevada de tacrolimo confirma causalidade absoluta?",
+          "explanation": "Não. Fortalece a suspeita de contribuição medicamentosa, mas outras causas de hipercalemia devem ser avaliadas.",
+          "reasoning_type": "drug_causality_assessment",
+          "competency_ids": [
+            "interpret_hyperchloremic_acidosis"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. Fortalece a suspeita de contribuição medicamentosa, mas outras causas de hipercalemia devem ser avaliadas.",
+          "prerequisite_concepts": [
+            "imunossupressão no transplante renal",
+            "excreção tubular distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-071-r10",
+          "question_id": "aqz-hiper-071",
+          "sequence": 10,
+          "prompt": "Quais outros fatores devem ser investigados?",
+          "explanation": "Outros medicamentos, função renal, ingestão de potássio, alterações metabólicas, infecções e possíveis complicações do transplante.",
+          "reasoning_type": "differential_diagnosis",
+          "competency_ids": [
+            "recognize_tacrolimus_tubular_effects"
+          ],
+          "cognitive_operation": "analyze",
+          "clinical_relevance": "Este raciocínio é relevante porque outros medicamentos, função renal, ingestão de potássio, alterações metabólicas, infecções e possíveis complicações do transplante.",
+          "prerequisite_concepts": [
+            "imunossupressão no transplante renal",
+            "excreção tubular distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-071-r11",
+          "question_id": "aqz-hiper-071",
+          "sequence": 11,
+          "prompt": "A hipercalemia isolada confirma rejeição do enxerto?",
+          "explanation": "Não. A rejeição exige avaliação específica e não pode ser diagnosticada apenas pela concentração sérica de potássio.",
+          "reasoning_type": "graft_rejection_differentiation",
+          "competency_ids": [
+            "interpret_hyperchloremic_acidosis"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. A rejeição exige avaliação específica e não pode ser diagnosticada apenas pela concentração sérica de potássio.",
+          "prerequisite_concepts": [
+            "imunossupressão no transplante renal",
+            "excreção tubular distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-071-r12",
+          "question_id": "aqz-hiper-071",
+          "sequence": 12,
+          "prompt": "Por que não devemos suspender o tacrolimo indiscriminadamente?",
+          "explanation": "Porque a imunossupressão protege contra rejeição do enxerto. Alterações de dose devem considerar o risco imunológico e ser conduzidas pela equipe de transplante.",
+          "reasoning_type": "immunosuppression_safety",
+          "competency_ids": [
+            "preserve_transplant_immunosuppression_safety"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque porque a imunossupressão protege contra rejeição do enxerto. Alterações de dose devem considerar o risco imunológico e ser conduzidas pela equipe de transplante.",
+          "prerequisite_concepts": [
+            "imunossupressão no transplante renal",
+            "excreção tubular distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-071-r13",
+          "question_id": "aqz-hiper-071",
+          "sequence": 13,
+          "prompt": "Qual é a abordagem mais adequada?",
+          "explanation": "Avaliar a gravidade da hipercalemia, confirmar a alteração, revisar medicamentos e concentrações de tacrolimo, investigar a função tubular e definir o tratamento em conjunto com a equipe de transplante.",
+          "reasoning_type": "integrated_transplant_management",
+          "competency_ids": [
+            "preserve_transplant_immunosuppression_safety"
+          ],
+          "cognitive_operation": "plan",
+          "clinical_relevance": "Este raciocínio é relevante porque avaliar a gravidade da hipercalemia, confirmar a alteração, revisar medicamentos e concentrações de tacrolimo, investigar a função tubular e definir o tratamento em conjunto com a equipe de transplante.",
+          "prerequisite_concepts": [
+            "imunossupressão no transplante renal",
+            "excreção tubular distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-071-r14",
+          "question_id": "aqz-hiper-071",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Reconhecer que medicamentos podem comprometer a excreção tubular de potássio mesmo quando a filtração glomerular permanece relativamente preservada.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "recognize_tacrolimus_tubular_effects"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque reconhecer que medicamentos podem comprometer a excreção tubular de potássio mesmo quando a filtração glomerular permanece relativamente preservada.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        }
+      ],
+      "clinical_pearl": "> Um rim transplantado pode filtrar adequadamente e ainda apresentar dificuldade para eliminar potássio. Creatinina estável não significa que todas as funções tubulares estejam preservadas.",
+      "references": [
+        "*Causes and evaluation of hyperkalemia in adults*. UpToDate.",
+        "*Electrolyte and acid-base disturbances induced by calcineurin inhibitors*. Revisões de fisiopatologia renal.",
+        "Literatura de nefrologia do transplante sobre hipercalemia associada ao tacrolimo."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "transplant_associated_hyperkalemia",
+        "clinical_context": "transplant_clinic",
+        "urgency_level": "prompt_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "recognize_calcineurin_inhibitor_hyperkalemia",
+        "secondary_competencies": [
+          "distinguish_gfr_from_tubular_function",
+          "understand_distal_potassium_secretion",
+          "recognize_tacrolimus_tubular_effects",
+          "interpret_hyperchloremic_acidosis",
+          "preserve_transplant_immunosuppression_safety"
+        ],
+        "learning_objectives": [
+          "Reconhecer alterações tubulares relacionadas aos inibidores da calcineurina."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "medication_safety",
+        "arena_skill_ids": [
+          "recognize_calcineurin_inhibitor_hyperkalemia",
+          "distinguish_gfr_from_tubular_function",
+          "understand_distal_potassium_secretion",
+          "recognize_tacrolimus_tubular_effects",
+          "interpret_hyperchloremic_acidosis",
+          "preserve_transplant_immunosuppression_safety"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "recognize",
+          "calcineurin",
+          "inhibitor"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "recognize_calcineurin_inhibitor_hyperkalemia",
+          "distinguish_gfr_from_tubular_function",
+          "understand_distal_potassium_secretion",
+          "recognize_tacrolimus_tubular_effects",
+          "interpret_hyperchloremic_acidosis",
+          "preserve_transplant_immunosuppression_safety"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-072",
+      "question_id": "aqz-hiper-072",
+      "numero": 72,
+      "question_number": 72,
+      "titulo": "O potássio subiu durante a transfusão",
+      "competenciaPrincipal": "Reconhecer hipercalemia associada à transfusão rápida de concentrados de hemácias.",
+      "competenciasSecundarias": [
+        "understand_stored_rbc_potassium",
+        "recognize_massive_transfusion_electrolyte_risks",
+        "interpret_concurrent_hyperkalemia_hypocalcemia",
+        "prioritize_cardiac_membrane_stabilization",
+        "coordinate_transfusion_safety"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Um homem de 32 anos é admitido no centro cirúrgico após acidente automobilístico, com hemorragia abdominal importante.\n\nDurante a cirurgia, apresenta sangramento persistente e necessidade de transfusão rápida de múltiplos hemocomponentes.\n\nO paciente recebe concentrados de hemácias por um dispositivo de infusão rápida.\n\nNa admissão, o potássio era de 4,2 mEq/L.\n\nApós a administração rápida de várias unidades de concentrado de hemácias, a equipe observa:\n\n- PA: 92/54 mmHg, sob suporte hemodinâmico.\n- FC: 108 bpm.\n- Potássio: 6,8 mEq/L.\n- pH arterial: 7,24.\n- Cálcio ionizado: 0,86 mmol/L.\n- Temperatura: 35,1 °C.\n- ECG: ondas T apiculadas e início de alargamento do QRS.\n\nA amostra é repetida, confirmando a hipercalemia.\n\nA equipe reconhece que a acidose e a hipoperfusão podem contribuir para o distúrbio, mas questiona se a própria transfusão também pode estar envolvida.\n\n**Qual é a interpretação mais adequada?**",
+      "alternativas": {
+        "A": "Os concentrados de hemácias não contêm potássio extracelular relevante, portanto a transfusão não pode contribuir para a hipercalemia.",
+        "B": "A hipercalemia transfusional ocorre exclusivamente por insuficiência renal crônica preexistente, sendo impossível em um paciente previamente saudável.",
+        "C": "A presença de hipocalcemia exclui a hipercalemia transfusional, pois os dois distúrbios não podem ocorrer simultaneamente.",
+        "D": "O potássio pode se acumular no sobrenadante dos concentrados de hemácias durante o armazenamento. A infusão rápida de grandes volumes pode contribuir para hipercalemia, especialmente em pacientes críticos, exigindo tratamento imediato da toxicidade elétrica e avaliação das estratégias transfusionais em conjunto com a hemoterapia."
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. Qual é o distúrbio eletrolítico mais urgente?**\n\nHipercalemia grave com alterações eletrocardiográficas sugestivas de toxicidade elétrica.\n\n**2. Qual é a prioridade imediata diante do alargamento do QRS?**\n\nEstabilização da membrana cardíaca com cálcio intravenoso, conforme o protocolo, associada ao tratamento da hipercalemia e à correção das causas contribuintes.\n\n**3. Como os concentrados de hemácias podem conter potássio extracelular?**\n\nDurante o armazenamento, ocorre saída progressiva de potássio das hemácias para o meio extracelular da bolsa.\n\n**4. Qual é a importância do tempo de armazenamento?**\n\nEm geral, o potássio presente no sobrenadante aumenta durante o armazenamento, embora sua concentração dependa também do processamento e das características do hemocomponente.\n\n**5. Por que a velocidade de transfusão importa?**\n\nA infusão rápida pode introduzir potássio em velocidade superior à capacidade momentânea de redistribuição e eliminação do organismo.\n\n**6. A transfusão de uma única unidade representa o mesmo risco de uma transfusão maciça?**\n\nNão. O risco depende da quantidade administrada, velocidade de infusão, características dos hemocomponentes e condições do paciente.\n\n**7. A hipercalemia transfusional pode ocorrer sem doença renal prévia?**\n\nSim. A carga rápida de potássio pode ser relevante mesmo em pacientes sem doença renal crônica, particularmente durante ressuscitação maciça.\n\n**8. Qual é a importância da acidose e da hipoperfusão?**\n\nPodem agravar a instabilidade metabólica e comprometer a capacidade do organismo de manter a homeostase do potássio.\n\n**9. O cálcio ionizado de 0,86 mmol/L deve ser considerado?**\n\nSim. A hipocalcemia pode ocorrer durante transfusão maciça, entre outros mecanismos, pelo efeito do citrato dos hemocomponentes.\n\n**10. A hipocalcemia exclui a hipercalemia?**\n\nNão. Os dois distúrbios podem coexistir e contribuir para instabilidade cardiovascular.\n\n**11. O que deve ser feito em relação à transfusão?**\n\nA hemorragia ameaçadora à vida continua exigindo controle e ressuscitação. A equipe deve coordenar estratégias com a hemoterapia para reduzir riscos associados aos hemocomponentes, sem interromper inadequadamente uma transfusão vital.\n\n**12. Quais estratégias podem ser consideradas em situações selecionadas?**\n\nA utilização de hemocomponentes com menor carga de potássio, conforme disponibilidade, processamento e protocolos locais, especialmente quando há risco elevado.\n\n**13. Qual monitorização é necessária?**\n\nAvaliação eletrocardiográfica contínua e dosagens seriadas de potássio, cálcio ionizado, equilíbrio ácido-base e outros parâmetros relevantes durante a ressuscitação.\n\n**14. Qual é a competência principal?**\n\nReconhecer a contribuição potencial da transfusão rápida de concentrados de hemácias para a hipercalemia e integrar seu tratamento à ressuscitação hemorrágica.",
+      "comentarios": {
+        "A": "O potássio pode se acumular no sobrenadante dos concentrados de hemácias durante o armazenamento.",
+        "B": "A hipercalemia transfusional pode ocorrer mesmo sem doença renal crônica, sobretudo quando há administração rápida de grandes volumes.",
+        "C": "Hipocalcemia e hipercalemia podem coexistir durante transfusão maciça e devem ser avaliadas separadamente.",
+        "D": "A transfusão rápida pode fornecer carga significativa de potássio, especialmente em contextos críticos. A abordagem deve incluir tratamento imediato da toxicidade elétrica, monitorização e estratégias transfusionais adequadas."
+      },
+      "perola": "> Na transfusão maciça, o concentrado de hemácias não transporta apenas hemoglobina. A velocidade de infusão e as características do hemocomponente podem transformar o potássio em um problema adicional durante a ressuscitação.",
+      "referencias": "Literatura de medicina transfusional sobre lesão de armazenamento de hemácias e hipercalemia transfusional.\n*Treatment and prevention of hyperkalemia in adults*. UpToDate.\nDiretrizes de ressuscitação hemorrágica e transfusão maciça.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 15,
+      "stem": "Um homem de 32 anos é admitido no centro cirúrgico após acidente automobilístico, com hemorragia abdominal importante.\n\nDurante a cirurgia, apresenta sangramento persistente e necessidade de transfusão rápida de múltiplos hemocomponentes.\n\nO paciente recebe concentrados de hemácias por um dispositivo de infusão rápida.\n\nNa admissão, o potássio era de 4,2 mEq/L.\n\nApós a administração rápida de várias unidades de concentrado de hemácias, a equipe observa:\n\n- PA: 92/54 mmHg, sob suporte hemodinâmico.\n- FC: 108 bpm.\n- Potássio: 6,8 mEq/L.\n- pH arterial: 7,24.\n- Cálcio ionizado: 0,86 mmol/L.\n- Temperatura: 35,1 °C.\n- ECG: ondas T apiculadas e início de alargamento do QRS.\n\nA amostra é repetida, confirmando a hipercalemia.\n\nA equipe reconhece que a acidose e a hipoperfusão podem contribuir para o distúrbio, mas questiona se a própria transfusão também pode estar envolvida.\n\n**Qual é a interpretação mais adequada?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-072-A",
+          "question_id": "aqz-hiper-072",
+          "letter": "A",
+          "text": "Os concentrados de hemácias não contêm potássio extracelular relevante, portanto a transfusão não pode contribuir para a hipercalemia.",
+          "is_correct": false,
+          "feedback": "O potássio pode se acumular no sobrenadante dos concentrados de hemácias durante o armazenamento.",
+          "error_type": "transfusion_physiology_error",
+          "misconception_id": "stored_rbc_contains_no_extracellular_potassium",
+          "misconception_description": "Ignora o acúmulo de potássio no sobrenadante das hemácias armazenadas.",
+          "competency_ids": [
+            "understand_stored_rbc_potassium"
+          ],
+          "clinical_risk_if_applied": "não reconhecer uma causa transfusional."
+        },
+        {
+          "option_id": "aqz-hiper-072-B",
+          "question_id": "aqz-hiper-072",
+          "letter": "B",
+          "text": "A hipercalemia transfusional ocorre exclusivamente por insuficiência renal crônica preexistente, sendo impossível em um paciente previamente saudável.",
+          "is_correct": false,
+          "feedback": "A hipercalemia transfusional pode ocorrer mesmo sem doença renal crônica, sobretudo quando há administração rápida de grandes volumes.",
+          "error_type": "risk_factor_overrestriction",
+          "misconception_id": "transfusion_hyperkalemia_requires_preexisting_ckd",
+          "misconception_description": "Considera doença renal prévia condição obrigatória para hipercalemia transfusional.",
+          "competency_ids": [
+            "recognize_massive_transfusion_electrolyte_risks"
+          ],
+          "clinical_risk_if_applied": "subestimar a complicação durante ressuscitação maciça."
+        },
+        {
+          "option_id": "aqz-hiper-072-C",
+          "question_id": "aqz-hiper-072",
+          "letter": "C",
+          "text": "A presença de hipocalcemia exclui a hipercalemia transfusional, pois os dois distúrbios não podem ocorrer simultaneamente.",
+          "is_correct": false,
+          "feedback": "Hipocalcemia e hipercalemia podem coexistir durante transfusão maciça e devem ser avaliadas separadamente.",
+          "error_type": "electrolyte_interaction_error",
+          "misconception_id": "hypocalcemia_excludes_hyperkalemia",
+          "misconception_description": "Trata hipocalcemia e hipercalemia como mutuamente excludentes.",
+          "competency_ids": [
+            "interpret_concurrent_hyperkalemia_hypocalcemia"
+          ],
+          "clinical_risk_if_applied": "não identificar distúrbios eletrolíticos simultâneos."
+        },
+        {
+          "option_id": "aqz-hiper-072-D",
+          "question_id": "aqz-hiper-072",
+          "letter": "D",
+          "text": "O potássio pode se acumular no sobrenadante dos concentrados de hemácias durante o armazenamento. A infusão rápida de grandes volumes pode contribuir para hipercalemia, especialmente em pacientes críticos, exigindo tratamento imediato da toxicidade elétrica e avaliação das estratégias transfusionais em conjunto com a hemoterapia.",
+          "is_correct": true,
+          "feedback": "A transfusão rápida pode fornecer carga significativa de potássio, especialmente em contextos críticos. A abordagem deve incluir tratamento imediato da toxicidade elétrica, monitorização e estratégias transfusionais adequadas.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "recognize_transfusion_associated_hyperkalemia",
+            "understand_stored_rbc_potassium",
+            "recognize_massive_transfusion_electrolyte_risks"
+          ],
+          "clinical_risk_if_applied": null
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-072-r01",
+          "question_id": "aqz-hiper-072",
+          "sequence": 1,
+          "prompt": "Qual é o distúrbio eletrolítico mais urgente?",
+          "explanation": "Hipercalemia grave com alterações eletrocardiográficas sugestivas de toxicidade elétrica.",
+          "reasoning_type": "emergency_electrolyte_recognition",
+          "competency_ids": [
+            "recognize_massive_transfusion_electrolyte_risks"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque hipercalemia grave com alterações eletrocardiográficas sugestivas de toxicidade elétrica.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-072-r02",
+          "question_id": "aqz-hiper-072",
+          "sequence": 2,
+          "prompt": "Qual é a prioridade imediata diante do alargamento do QRS?",
+          "explanation": "Estabilização da membrana cardíaca com cálcio intravenoso, conforme o protocolo, associada ao tratamento da hipercalemia e à correção das causas contribuintes.",
+          "reasoning_type": "cardiac_stabilization_priority",
+          "competency_ids": [
+            "prioritize_cardiac_membrane_stabilization"
+          ],
+          "cognitive_operation": "prioritize",
+          "clinical_relevance": "Este raciocínio é relevante porque estabilização da membrana cardíaca com cálcio intravenoso, conforme o protocolo, associada ao tratamento da hipercalemia e à correção das causas contribuintes.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-072-r03",
+          "question_id": "aqz-hiper-072",
+          "sequence": 3,
+          "prompt": "Como os concentrados de hemácias podem conter potássio extracelular?",
+          "explanation": "Durante o armazenamento, ocorre saída progressiva de potássio das hemácias para o meio extracelular da bolsa.",
+          "reasoning_type": "stored_blood_potassium_mechanism",
+          "competency_ids": [
+            "understand_stored_rbc_potassium"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque durante o armazenamento, ocorre saída progressiva de potássio das hemácias para o meio extracelular da bolsa.",
+          "prerequisite_concepts": [
+            "transfusão de hemocomponentes",
+            "alterações eletrolíticas associadas à transfusão"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-072-r04",
+          "question_id": "aqz-hiper-072",
+          "sequence": 4,
+          "prompt": "Qual é a importância do tempo de armazenamento?",
+          "explanation": "Em geral, o potássio presente no sobrenadante aumenta durante o armazenamento, embora sua concentração dependa também do processamento e das características do hemocomponente.",
+          "reasoning_type": "storage_duration_effect",
+          "competency_ids": [
+            "prioritize_cardiac_membrane_stabilization"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque em geral, o potássio presente no sobrenadante aumenta durante o armazenamento, embora sua concentração dependa também do processamento e das características do hemocomponente.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-072-r05",
+          "question_id": "aqz-hiper-072",
+          "sequence": 5,
+          "prompt": "Por que a velocidade de transfusão importa?",
+          "explanation": "A infusão rápida pode introduzir potássio em velocidade superior à capacidade momentânea de redistribuição e eliminação do organismo.",
+          "reasoning_type": "infusion_rate_risk",
+          "competency_ids": [
+            "prioritize_cardiac_membrane_stabilization"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque a infusão rápida pode introduzir potássio em velocidade superior à capacidade momentânea de redistribuição e eliminação do organismo.",
+          "prerequisite_concepts": [
+            "transfusão de hemocomponentes",
+            "alterações eletrolíticas associadas à transfusão"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-072-r06",
+          "question_id": "aqz-hiper-072",
+          "sequence": 6,
+          "prompt": "A transfusão de uma única unidade representa o mesmo risco de uma transfusão maciça?",
+          "explanation": "Não. O risco depende da quantidade administrada, velocidade de infusão, características dos hemocomponentes e condições do paciente.",
+          "reasoning_type": "transfusion_volume_risk",
+          "competency_ids": [
+            "recognize_massive_transfusion_electrolyte_risks"
+          ],
+          "cognitive_operation": "compare",
+          "clinical_relevance": "Este raciocínio é relevante porque não. O risco depende da quantidade administrada, velocidade de infusão, características dos hemocomponentes e condições do paciente.",
+          "prerequisite_concepts": [
+            "transfusão de hemocomponentes",
+            "alterações eletrolíticas associadas à transfusão"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-072-r07",
+          "question_id": "aqz-hiper-072",
+          "sequence": 7,
+          "prompt": "A hipercalemia transfusional pode ocorrer sem doença renal prévia?",
+          "explanation": "Sim. A carga rápida de potássio pode ser relevante mesmo em pacientes sem doença renal crônica, particularmente durante ressuscitação maciça.",
+          "reasoning_type": "risk_without_ckd",
+          "competency_ids": [
+            "prioritize_cardiac_membrane_stabilization"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque sim. A carga rápida de potássio pode ser relevante mesmo em pacientes sem doença renal crônica, particularmente durante ressuscitação maciça.",
+          "prerequisite_concepts": [
+            "transfusão de hemocomponentes",
+            "alterações eletrolíticas associadas à transfusão"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-072-r08",
+          "question_id": "aqz-hiper-072",
+          "sequence": 8,
+          "prompt": "Qual é a importância da acidose e da hipoperfusão?",
+          "explanation": "Podem agravar a instabilidade metabólica e comprometer a capacidade do organismo de manter a homeostase do potássio.",
+          "reasoning_type": "shock_acidosis_interaction",
+          "competency_ids": [
+            "prioritize_cardiac_membrane_stabilization"
+          ],
+          "cognitive_operation": "integrate",
+          "clinical_relevance": "Este raciocínio é relevante porque podem agravar a instabilidade metabólica e comprometer a capacidade do organismo de manter a homeostase do potássio.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-072-r09",
+          "question_id": "aqz-hiper-072",
+          "sequence": 9,
+          "prompt": "O cálcio ionizado de 0,86 mmol/L deve ser considerado?",
+          "explanation": "Sim. A hipocalcemia pode ocorrer durante transfusão maciça, entre outros mecanismos, pelo efeito do citrato dos hemocomponentes.",
+          "reasoning_type": "citrate_hypocalcemia",
+          "competency_ids": [
+            "interpret_concurrent_hyperkalemia_hypocalcemia"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque sim. A hipocalcemia pode ocorrer durante transfusão maciça, entre outros mecanismos, pelo efeito do citrato dos hemocomponentes.",
+          "prerequisite_concepts": [
+            "transfusão de hemocomponentes",
+            "alterações eletrolíticas associadas à transfusão"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-072-r10",
+          "question_id": "aqz-hiper-072",
+          "sequence": 10,
+          "prompt": "A hipocalcemia exclui a hipercalemia?",
+          "explanation": "Não. Os dois distúrbios podem coexistir e contribuir para instabilidade cardiovascular.",
+          "reasoning_type": "simultaneous_electrolyte_disorders",
+          "competency_ids": [
+            "recognize_massive_transfusion_electrolyte_risks"
+          ],
+          "cognitive_operation": "integrate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. Os dois distúrbios podem coexistir e contribuir para instabilidade cardiovascular.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-072-r11",
+          "question_id": "aqz-hiper-072",
+          "sequence": 11,
+          "prompt": "O que deve ser feito em relação à transfusão?",
+          "explanation": "A hemorragia ameaçadora à vida continua exigindo controle e ressuscitação. A equipe deve coordenar estratégias com a hemoterapia para reduzir riscos associados aos hemocomponentes, sem interromper inadequadamente uma transfusão vital.",
+          "reasoning_type": "transfusion_priority_safety",
+          "competency_ids": [
+            "coordinate_transfusion_safety"
+          ],
+          "cognitive_operation": "prioritize",
+          "clinical_relevance": "Este raciocínio é relevante porque a hemorragia ameaçadora à vida continua exigindo controle e ressuscitação. A equipe deve coordenar estratégias com a hemoterapia para reduzir riscos associados aos hemocomponentes, sem interromper inadequadamente uma transfusão vital.",
+          "prerequisite_concepts": [
+            "transfusão de hemocomponentes",
+            "alterações eletrolíticas associadas à transfusão"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-072-r12",
+          "question_id": "aqz-hiper-072",
+          "sequence": 12,
+          "prompt": "Quais estratégias podem ser consideradas em situações selecionadas?",
+          "explanation": "A utilização de hemocomponentes com menor carga de potássio, conforme disponibilidade, processamento e protocolos locais, especialmente quando há risco elevado.",
+          "reasoning_type": "blood_product_risk_reduction",
+          "competency_ids": [
+            "coordinate_transfusion_safety"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque a utilização de hemocomponentes com menor carga de potássio, conforme disponibilidade, processamento e protocolos locais, especialmente quando há risco elevado.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-072-r13",
+          "question_id": "aqz-hiper-072",
+          "sequence": 13,
+          "prompt": "Qual monitorização é necessária?",
+          "explanation": "Avaliação eletrocardiográfica contínua e dosagens seriadas de potássio, cálcio ionizado, equilíbrio ácido-base e outros parâmetros relevantes durante a ressuscitação.",
+          "reasoning_type": "serial_monitoring",
+          "competency_ids": [
+            "interpret_concurrent_hyperkalemia_hypocalcemia"
+          ],
+          "cognitive_operation": "plan",
+          "clinical_relevance": "Este raciocínio é relevante porque avaliação eletrocardiográfica contínua e dosagens seriadas de potássio, cálcio ionizado, equilíbrio ácido-base e outros parâmetros relevantes durante a ressuscitação.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-072-r14",
+          "question_id": "aqz-hiper-072",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Reconhecer a contribuição potencial da transfusão rápida de concentrados de hemácias para a hipercalemia e integrar seu tratamento à ressuscitação hemorrágica.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "interpret_concurrent_hyperkalemia_hypocalcemia"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque reconhecer a contribuição potencial da transfusão rápida de concentrados de hemácias para a hipercalemia e integrar seu tratamento à ressuscitação hemorrágica.",
+          "prerequisite_concepts": [
+            "transfusão de hemocomponentes",
+            "alterações eletrolíticas associadas à transfusão"
+          ]
+        }
+      ],
+      "clinical_pearl": "> Na transfusão maciça, o concentrado de hemácias não transporta apenas hemoglobina. A velocidade de infusão e as características do hemocomponente podem transformar o potássio em um problema adicional durante a ressuscitação.",
+      "references": [
+        "Literatura de medicina transfusional sobre lesão de armazenamento de hemácias e hipercalemia transfusional.",
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate.",
+        "Diretrizes de ressuscitação hemorrágica e transfusão maciça."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "transfusion_associated_hyperkalemia",
+        "clinical_context": "critical_care",
+        "urgency_level": "urgent_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "recognize_transfusion_associated_hyperkalemia",
+        "secondary_competencies": [
+          "understand_stored_rbc_potassium",
+          "recognize_massive_transfusion_electrolyte_risks",
+          "interpret_concurrent_hyperkalemia_hypocalcemia",
+          "prioritize_cardiac_membrane_stabilization",
+          "coordinate_transfusion_safety"
+        ],
+        "learning_objectives": [
+          "Reconhecer hipercalemia associada à transfusão rápida de concentrados de hemácias."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_safety",
+        "arena_skill_ids": [
+          "recognize_transfusion_associated_hyperkalemia",
+          "understand_stored_rbc_potassium",
+          "recognize_massive_transfusion_electrolyte_risks",
+          "interpret_concurrent_hyperkalemia_hypocalcemia",
+          "prioritize_cardiac_membrane_stabilization",
+          "coordinate_transfusion_safety"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "recognize",
+          "transfusion",
+          "associated"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "recognize_transfusion_associated_hyperkalemia",
+          "understand_stored_rbc_potassium",
+          "recognize_massive_transfusion_electrolyte_risks",
+          "interpret_concurrent_hyperkalemia_hypocalcemia",
+          "prioritize_cardiac_membrane_stabilization",
+          "coordinate_transfusion_safety"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-073",
+      "question_id": "aqz-hiper-073",
+      "numero": 73,
+      "question_number": 73,
+      "titulo": "A hipercalemia começou depois de um analgésico",
+      "competenciaPrincipal": "Identificar mecanismos de hipercalemia associados aos AINEs e às interações farmacológicas renais.",
+      "competenciasSecundarias": [
+        "understand_nsaid_renal_hemodynamics",
+        "recognize_prostaglandin_renin_interaction",
+        "understand_aldosterone_potassium_excretion",
+        "identify_high_risk_drug_combinations",
+        "recognize_drug_associated_aki"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Uma mulher de 67 anos, com hipertensão arterial, diabetes mellitus tipo 2 e doença renal crônica estágio G3a, procura atendimento por fraqueza e redução discreta da diurese.\n\nUtiliza regularmente:\n\n- Losartana 100 mg/dia.\n- Espironolactona 25 mg/dia.\n- Metformina 850 mg duas vezes ao dia.\n\nHá cinco dias, iniciou ibuprofeno 600 mg a cada oito horas por dor lombar.\n\nNa avaliação:\n\n- PA: 126/76 mmHg.\n- FC: 84 bpm.\n- Potássio: 6,2 mEq/L.\n- Creatinina: 2,1 mg/dL, anteriormente 1,2 mg/dL.\n- Bicarbonato: 21 mEq/L.\n- ECG: sem alterações típicas de hipercalemia.\n\nNão há sinais de obstrução urinária.\n\nO médico responsável suspeita que o anti-inflamatório tenha contribuído para o quadro, mas um residente argumenta que os AINEs não interferem diretamente na regulação do potássio.\n\n**Qual mecanismo melhor explica a participação do ibuprofeno?**",
+      "alternativas": {
+        "A": "Os AINEs estimulam a secreção de aldosterona e aumentam a excreção renal de potássio, tornando improvável sua participação.",
+        "B": "Os AINEs provocam hipercalemia exclusivamente por destruição muscular direta, independentemente da função renal.",
+        "C": "A inibição das prostaglandinas renais pode reduzir a liberação de renina e comprometer a perfusão renal em pacientes suscetíveis. Isso pode diminuir a atividade do sistema renina-angiotensina-aldosterona e a excreção de potássio, especialmente quando há associação com losartana e espironolactona.",
+        "D": "O ibuprofeno provoca hipercalemia apenas quando utilizado em doses tóxicas, sem relevância clínica em doses terapêuticas."
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. Qual é a alteração temporal mais relevante?**\n\nO aparecimento de hipercalemia e piora da função renal após o início recente de ibuprofeno.\n\n**2. Qual é o mecanismo farmacológico básico dos AINEs?**\n\nInibição das enzimas ciclo-oxigenases, reduzindo a síntese de prostaglandinas.\n\n**3. Qual é a importância das prostaglandinas na circulação renal?**\n\nContribuem para a manutenção da vasodilatação renal, especialmente em condições nas quais a perfusão depende de mecanismos compensatórios.\n\n**4. O que pode ocorrer após a inibição dessas prostaglandinas?**\n\nRedução da perfusão renal e da filtração glomerular em pacientes suscetíveis.\n\n**5. Como as prostaglandinas participam da regulação da renina?**\n\nDeterminadas prostaglandinas favorecem a liberação de renina pelas células justaglomerulares.\n\n**6. Qual é o efeito da redução da renina?**\n\nPode diminuir a atividade do sistema renina-angiotensina-aldosterona, reduzindo o estímulo à secreção de aldosterona.\n\n**7. Como a aldosterona influencia a excreção de potássio?**\n\nFavorece mecanismos de reabsorção distal de sódio e secreção de potássio.\n\n**8. Qual é a participação da losartana?**\n\nBloqueia o receptor AT1 da angiotensina II, podendo reduzir o estímulo à secreção de aldosterona e contribuir para hipercalemia.\n\n**9. Qual é a participação da espironolactona?**\n\nAntagoniza o receptor mineralocorticoide, reduzindo a ação da aldosterona nos segmentos distais do néfron.\n\n**10. Por que a combinação medicamentosa aumenta o risco?**\n\nPorque diferentes medicamentos podem atuar simultaneamente sobre a perfusão renal e os mecanismos de excreção de potássio.\n\n**11. A dose terapêutica de ibuprofeno exclui esse efeito?**\n\nNão. Mesmo doses utilizadas habitualmente podem provocar complicações renais em pacientes suscetíveis.\n\n**12. Qual é a importância da elevação da creatinina?**\n\nSugere lesão renal aguda, que pode reduzir ainda mais a capacidade de excreção de potássio.\n\n**13. Qual é a abordagem adequada?**\n\nTratar a hipercalemia conforme sua gravidade, interromper o AINE suspeito quando apropriado, reavaliar a função renal e revisar os demais medicamentos com base na situação clínica e em seus benefícios.\n\n**14. Qual é a competência principal?**\n\nReconhecer como os AINEs podem contribuir para hipercalemia por mecanismos hemodinâmicos e hormonais renais, especialmente em associações farmacológicas de risco.",
+      "comentarios": {
+        "A": "Os AINEs podem reduzir a liberação de renina e favorecer hipercalemia, em vez de aumentar obrigatoriamente a excreção de potássio.",
+        "B": "A hipercalemia associada aos AINEs geralmente envolve alterações da função renal e da regulação hormonal, não destruição muscular como mecanismo obrigatório.",
+        "C": "A inibição de prostaglandinas pode comprometer a perfusão renal e reduzir a atividade renina-angiotensina-aldosterona, com efeito potencializado por outros medicamentos que interferem na excreção de potássio.",
+        "D": "Efeitos renais adversos dos AINEs podem ocorrer em doses terapêuticas, especialmente em pacientes com fatores de risco."
+      },
+      "perola": "> Na hipercalemia, não procure apenas medicamentos que bloqueiam a aldosterona. Um anti-inflamatório pode reduzir sua produção e comprometer a perfusão renal, completando uma combinação perigosa.",
+      "referencias": "*Causes and evaluation of hyperkalemia in adults*. UpToDate.\nLiteratura de nefrologia sobre nefrotoxicidade dos AINEs.\nRevisões sobre interações entre AINEs, bloqueadores do sistema renina-angiotensina e antagonistas mineralocorticoides.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 15,
+      "stem": "Uma mulher de 67 anos, com hipertensão arterial, diabetes mellitus tipo 2 e doença renal crônica estágio G3a, procura atendimento por fraqueza e redução discreta da diurese.\n\nUtiliza regularmente:\n\n- Losartana 100 mg/dia.\n- Espironolactona 25 mg/dia.\n- Metformina 850 mg duas vezes ao dia.\n\nHá cinco dias, iniciou ibuprofeno 600 mg a cada oito horas por dor lombar.\n\nNa avaliação:\n\n- PA: 126/76 mmHg.\n- FC: 84 bpm.\n- Potássio: 6,2 mEq/L.\n- Creatinina: 2,1 mg/dL, anteriormente 1,2 mg/dL.\n- Bicarbonato: 21 mEq/L.\n- ECG: sem alterações típicas de hipercalemia.\n\nNão há sinais de obstrução urinária.\n\nO médico responsável suspeita que o anti-inflamatório tenha contribuído para o quadro, mas um residente argumenta que os AINEs não interferem diretamente na regulação do potássio.\n\n**Qual mecanismo melhor explica a participação do ibuprofeno?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-073-A",
+          "question_id": "aqz-hiper-073",
+          "letter": "A",
+          "text": "Os AINEs estimulam a secreção de aldosterona e aumentam a excreção renal de potássio, tornando improvável sua participação.",
+          "is_correct": false,
+          "feedback": "Os AINEs podem reduzir a liberação de renina e favorecer hipercalemia, em vez de aumentar obrigatoriamente a excreção de potássio.",
+          "error_type": "pharmacology_mechanism_error",
+          "misconception_id": "nsaids_increase_aldosterone_and_potassium_excretion",
+          "misconception_description": "Inverte o efeito dos AINEs sobre a sinalização renal de renina.",
+          "competency_ids": [
+            "understand_nsaid_renal_hemodynamics"
+          ],
+          "clinical_risk_if_applied": "não reconhecer contribuição farmacológica."
+        },
+        {
+          "option_id": "aqz-hiper-073-B",
+          "question_id": "aqz-hiper-073",
+          "letter": "B",
+          "text": "Os AINEs provocam hipercalemia exclusivamente por destruição muscular direta, independentemente da função renal.",
+          "is_correct": false,
+          "feedback": "A hipercalemia associada aos AINEs geralmente envolve alterações da função renal e da regulação hormonal, não destruição muscular como mecanismo obrigatório.",
+          "error_type": "incorrect_causal_mechanism",
+          "misconception_id": "nsaid_hyperkalemia_requires_rhabdomyolysis",
+          "misconception_description": "Atribui hipercalemia por AINEs exclusivamente à destruição muscular.",
+          "competency_ids": [
+            "recognize_prostaglandin_renin_interaction"
+          ],
+          "clinical_risk_if_applied": "ignorar alterações hemodinâmicas e hormonais renais."
+        },
+        {
+          "option_id": "aqz-hiper-073-C",
+          "question_id": "aqz-hiper-073",
+          "letter": "C",
+          "text": "A inibição das prostaglandinas renais pode reduzir a liberação de renina e comprometer a perfusão renal em pacientes suscetíveis. Isso pode diminuir a atividade do sistema renina-angiotensina-aldosterona e a excreção de potássio, especialmente quando há associação com losartana e espironolactona.",
+          "is_correct": true,
+          "feedback": "A inibição de prostaglandinas pode comprometer a perfusão renal e reduzir a atividade renina-angiotensina-aldosterona, com efeito potencializado por outros medicamentos que interferem na excreção de potássio.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "identify_nsaid_related_hyperkalemia",
+            "understand_nsaid_renal_hemodynamics",
+            "recognize_prostaglandin_renin_interaction"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-073-D",
+          "question_id": "aqz-hiper-073",
+          "letter": "D",
+          "text": "O ibuprofeno provoca hipercalemia apenas quando utilizado em doses tóxicas, sem relevância clínica em doses terapêuticas.",
+          "is_correct": false,
+          "feedback": "Efeitos renais adversos dos AINEs podem ocorrer em doses terapêuticas, especialmente em pacientes com fatores de risco.",
+          "error_type": "dose_risk_misinterpretation",
+          "misconception_id": "therapeutic_nsaid_doses_cannot_cause_hyperkalemia",
+          "misconception_description": "Considera doses terapêuticas incapazes de produzir efeitos renais adversos.",
+          "competency_ids": [
+            "identify_high_risk_drug_combinations"
+          ],
+          "clinical_risk_if_applied": "manter exposição prejudicial em paciente suscetível."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-073-r01",
+          "question_id": "aqz-hiper-073",
+          "sequence": 1,
+          "prompt": "Qual é a alteração temporal mais relevante?",
+          "explanation": "O aparecimento de hipercalemia e piora da função renal após o início recente de ibuprofeno.",
+          "reasoning_type": "temporal_drug_association",
+          "competency_ids": [
+            "recognize_drug_associated_aki"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque o aparecimento de hipercalemia e piora da função renal após o início recente de ibuprofeno.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-073-r02",
+          "question_id": "aqz-hiper-073",
+          "sequence": 2,
+          "prompt": "Qual é o mecanismo farmacológico básico dos AINEs?",
+          "explanation": "Inibição das enzimas ciclo-oxigenases, reduzindo a síntese de prostaglandinas.",
+          "reasoning_type": "nsaid_cox_inhibition",
+          "competency_ids": [
+            "understand_nsaid_renal_hemodynamics"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque inibição das enzimas ciclo-oxigenases, reduzindo a síntese de prostaglandinas.",
+          "prerequisite_concepts": [
+            "fisiologia renal das prostaglandinas",
+            "sistema renina-angiotensina-aldosterona"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-073-r03",
+          "question_id": "aqz-hiper-073",
+          "sequence": 3,
+          "prompt": "Qual é a importância das prostaglandinas na circulação renal?",
+          "explanation": "Contribuem para a manutenção da vasodilatação renal, especialmente em condições nas quais a perfusão depende de mecanismos compensatórios.",
+          "reasoning_type": "renal_prostaglandin_function",
+          "competency_ids": [
+            "understand_nsaid_renal_hemodynamics"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque contribuem para a manutenção da vasodilatação renal, especialmente em condições nas quais a perfusão depende de mecanismos compensatórios.",
+          "prerequisite_concepts": [
+            "fisiologia renal das prostaglandinas",
+            "sistema renina-angiotensina-aldosterona"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-073-r04",
+          "question_id": "aqz-hiper-073",
+          "sequence": 4,
+          "prompt": "O que pode ocorrer após a inibição dessas prostaglandinas?",
+          "explanation": "Redução da perfusão renal e da filtração glomerular em pacientes suscetíveis.",
+          "reasoning_type": "renal_perfusion_effect",
+          "competency_ids": [
+            "understand_nsaid_renal_hemodynamics"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque redução da perfusão renal e da filtração glomerular em pacientes suscetíveis.",
+          "prerequisite_concepts": [
+            "fisiologia renal das prostaglandinas",
+            "sistema renina-angiotensina-aldosterona"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-073-r05",
+          "question_id": "aqz-hiper-073",
+          "sequence": 5,
+          "prompt": "Como as prostaglandinas participam da regulação da renina?",
+          "explanation": "Determinadas prostaglandinas favorecem a liberação de renina pelas células justaglomerulares.",
+          "reasoning_type": "prostaglandin_renin_signaling",
+          "competency_ids": [
+            "recognize_prostaglandin_renin_interaction"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque determinadas prostaglandinas favorecem a liberação de renina pelas células justaglomerulares.",
+          "prerequisite_concepts": [
+            "fisiologia renal das prostaglandinas",
+            "sistema renina-angiotensina-aldosterona"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-073-r06",
+          "question_id": "aqz-hiper-073",
+          "sequence": 6,
+          "prompt": "Qual é o efeito da redução da renina?",
+          "explanation": "Pode diminuir a atividade do sistema renina-angiotensina-aldosterona, reduzindo o estímulo à secreção de aldosterona.",
+          "reasoning_type": "raas_suppression",
+          "competency_ids": [
+            "understand_aldosterone_potassium_excretion"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque pode diminuir a atividade do sistema renina-angiotensina-aldosterona, reduzindo o estímulo à secreção de aldosterona.",
+          "prerequisite_concepts": [
+            "fisiologia renal das prostaglandinas",
+            "sistema renina-angiotensina-aldosterona"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-073-r07",
+          "question_id": "aqz-hiper-073",
+          "sequence": 7,
+          "prompt": "Como a aldosterona influencia a excreção de potássio?",
+          "explanation": "Favorece mecanismos de reabsorção distal de sódio e secreção de potássio.",
+          "reasoning_type": "aldosterone_potassium_excretion",
+          "competency_ids": [
+            "understand_aldosterone_potassium_excretion"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque favorece mecanismos de reabsorção distal de sódio e secreção de potássio.",
+          "prerequisite_concepts": [
+            "fisiologia renal das prostaglandinas",
+            "sistema renina-angiotensina-aldosterona"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-073-r08",
+          "question_id": "aqz-hiper-073",
+          "sequence": 8,
+          "prompt": "Qual é a participação da losartana?",
+          "explanation": "Bloqueia o receptor AT1 da angiotensina II, podendo reduzir o estímulo à secreção de aldosterona e contribuir para hipercalemia.",
+          "reasoning_type": "arb_potassium_effect",
+          "competency_ids": [
+            "understand_aldosterone_potassium_excretion"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque bloqueia o receptor AT1 da angiotensina II, podendo reduzir o estímulo à secreção de aldosterona e contribuir para hipercalemia.",
+          "prerequisite_concepts": [
+            "fisiologia renal das prostaglandinas",
+            "sistema renina-angiotensina-aldosterona"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-073-r09",
+          "question_id": "aqz-hiper-073",
+          "sequence": 9,
+          "prompt": "Qual é a participação da espironolactona?",
+          "explanation": "Antagoniza o receptor mineralocorticoide, reduzindo a ação da aldosterona nos segmentos distais do néfron.",
+          "reasoning_type": "mineralocorticoid_antagonism",
+          "competency_ids": [
+            "understand_aldosterone_potassium_excretion"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque antagoniza o receptor mineralocorticoide, reduzindo a ação da aldosterona nos segmentos distais do néfron.",
+          "prerequisite_concepts": [
+            "fisiologia renal das prostaglandinas",
+            "sistema renina-angiotensina-aldosterona"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-073-r10",
+          "question_id": "aqz-hiper-073",
+          "sequence": 10,
+          "prompt": "Por que a combinação medicamentosa aumenta o risco?",
+          "explanation": "Porque diferentes medicamentos podem atuar simultaneamente sobre a perfusão renal e os mecanismos de excreção de potássio.",
+          "reasoning_type": "medication_synergy",
+          "competency_ids": [
+            "understand_aldosterone_potassium_excretion"
+          ],
+          "cognitive_operation": "integrate",
+          "clinical_relevance": "Este raciocínio é relevante porque porque diferentes medicamentos podem atuar simultaneamente sobre a perfusão renal e os mecanismos de excreção de potássio.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-073-r11",
+          "question_id": "aqz-hiper-073",
+          "sequence": 11,
+          "prompt": "A dose terapêutica de ibuprofeno exclui esse efeito?",
+          "explanation": "Não. Mesmo doses utilizadas habitualmente podem provocar complicações renais em pacientes suscetíveis.",
+          "reasoning_type": "therapeutic_dose_risk",
+          "competency_ids": [
+            "identify_high_risk_drug_combinations"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. Mesmo doses utilizadas habitualmente podem provocar complicações renais em pacientes suscetíveis.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-073-r12",
+          "question_id": "aqz-hiper-073",
+          "sequence": 12,
+          "prompt": "Qual é a importância da elevação da creatinina?",
+          "explanation": "Sugere lesão renal aguda, que pode reduzir ainda mais a capacidade de excreção de potássio.",
+          "reasoning_type": "acute_kidney_injury_interpretation",
+          "competency_ids": [
+            "recognize_drug_associated_aki"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Este raciocínio é relevante porque sugere lesão renal aguda, que pode reduzir ainda mais a capacidade de excreção de potássio.",
+          "prerequisite_concepts": [
+            "diferença entre filtração glomerular e função tubular",
+            "secreção distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-073-r13",
+          "question_id": "aqz-hiper-073",
+          "sequence": 13,
+          "prompt": "Qual é a abordagem adequada?",
+          "explanation": "Tratar a hipercalemia conforme sua gravidade, interromper o AINE suspeito quando apropriado, reavaliar a função renal e revisar os demais medicamentos com base na situação clínica e em seus benefícios.",
+          "reasoning_type": "medication_safety_management",
+          "competency_ids": [
+            "identify_high_risk_drug_combinations"
+          ],
+          "cognitive_operation": "plan",
+          "clinical_relevance": "Este raciocínio é relevante porque tratar a hipercalemia conforme sua gravidade, interromper o AINE suspeito quando apropriado, reavaliar a função renal e revisar os demais medicamentos com base na situação clínica e em seus benefícios.",
+          "prerequisite_concepts": [
+            "fisiologia renal das prostaglandinas",
+            "sistema renina-angiotensina-aldosterona"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-073-r14",
+          "question_id": "aqz-hiper-073",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Reconhecer como os AINEs podem contribuir para hipercalemia por mecanismos hemodinâmicos e hormonais renais, especialmente em associações farmacológicas de risco.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "understand_aldosterone_potassium_excretion"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque reconhecer como os AINEs podem contribuir para hipercalemia por mecanismos hemodinâmicos e hormonais renais, especialmente em associações farmacológicas de risco.",
+          "prerequisite_concepts": [
+            "fisiologia renal das prostaglandinas",
+            "sistema renina-angiotensina-aldosterona"
+          ]
+        }
+      ],
+      "clinical_pearl": "> Na hipercalemia, não procure apenas medicamentos que bloqueiam a aldosterona. Um anti-inflamatório pode reduzir sua produção e comprometer a perfusão renal, completando uma combinação perigosa.",
+      "references": [
+        "*Causes and evaluation of hyperkalemia in adults*. UpToDate.",
+        "Literatura de nefrologia sobre nefrotoxicidade dos AINEs.",
+        "Revisões sobre interações entre AINEs, bloqueadores do sistema renina-angiotensina e antagonistas mineralocorticoides."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "drug_induced_hyperkalemia",
+        "clinical_context": "outpatient_clinic",
+        "urgency_level": "prompt_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "identify_nsaid_related_hyperkalemia",
+        "secondary_competencies": [
+          "understand_nsaid_renal_hemodynamics",
+          "recognize_prostaglandin_renin_interaction",
+          "understand_aldosterone_potassium_excretion",
+          "identify_high_risk_drug_combinations",
+          "recognize_drug_associated_aki"
+        ],
+        "learning_objectives": [
+          "Identificar mecanismos de hipercalemia associados aos AINEs e às interações farmacológicas renais."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "medication_safety",
+        "arena_skill_ids": [
+          "identify_nsaid_related_hyperkalemia",
+          "understand_nsaid_renal_hemodynamics",
+          "recognize_prostaglandin_renin_interaction",
+          "understand_aldosterone_potassium_excretion",
+          "identify_high_risk_drug_combinations",
+          "recognize_drug_associated_aki"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "identify",
+          "nsaid",
+          "related"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "identify_nsaid_related_hyperkalemia",
+          "understand_nsaid_renal_hemodynamics",
+          "recognize_prostaglandin_renin_interaction",
+          "understand_aldosterone_potassium_excretion",
+          "identify_high_risk_drug_combinations",
+          "recognize_drug_associated_aki"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-074",
+      "question_id": "aqz-hiper-074",
+      "numero": 74,
+      "question_number": 74,
+      "titulo": "O potássio está alto, mas o problema começou na suprarrenal",
+      "competenciaPrincipal": "Reconhecer insuficiência adrenal primária e tratar uma possível crise adrenal.",
+      "competenciasSecundarias": [
+        "recognize_primary_adrenal_insufficiency",
+        "understand_aldosterone_deficiency",
+        "interpret_hyponatremia_hyperkalemia",
+        "prioritize_stress_dose_hydrocortisone",
+        "avoid_delayed_adrenal_crisis_treatment"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Uma mulher de 41 anos, sem doença renal conhecida, procura a emergência por fraqueza intensa, náuseas, vômitos e tontura.\n\nRelata perda de peso progressiva, fadiga e episódios de tontura ao levantar-se nas últimas semanas.\n\nAo exame, apresenta hiperpigmentação cutânea, particularmente em pregas palmares e mucosa oral.\n\nNa admissão:\n\n- PA: 76/44 mmHg.\n- FC: 118 bpm.\n- Temperatura: 36,4 °C.\n- Potássio: 6,3 mEq/L.\n- Sódio: 124 mEq/L.\n- Creatinina: 1,1 mg/dL.\n- Glicemia: 58 mg/dL.\n- Bicarbonato: 18 mEq/L.\n\nO ECG apresenta ondas T discretamente apiculadas.\n\nA equipe inicia monitorização e tratamento da hipercalemia.\n\nUm residente sugere que o problema será resolvido apenas com insulina e glicose, pois a creatinina está praticamente normal.\n\n**Qual é a interpretação e a estratégia mais adequadas?**",
+      "alternativas": {
+        "A": "A combinação de hiponatremia e hipercalemia indica obrigatoriamente insuficiência renal terminal, mesmo com creatinina normal.",
+        "B": "O quadro é altamente sugestivo de insuficiência adrenal primária com possível crise adrenal. Além do tratamento urgente da hipercalemia, é necessário administrar hidrocortisona parenteral sem aguardar confirmação laboratorial, realizar reposição volêmica apropriada e investigar a deficiência hormonal.",
+        "C": "A presença de hipoglicemia exclui insuficiência adrenal, pois a deficiência de cortisol provoca exclusivamente hiperglicemia.",
+        "D": "A hipercalemia é explicada exclusivamente por redistribuição intracelular inadequada, sem participação da excreção renal de potássio."
+      },
+      "gabarito": "B",
+      "raciocinioClinico": "**1. Quais achados sugerem uma síndrome endócrina?**\n\nHipotensão importante, hiponatremia, hipercalemia, hipoglicemia, perda de peso e hiperpigmentação.\n\n**2. Qual diagnóstico deve ser considerado prioritariamente?**\n\nInsuficiência adrenal primária, com suspeita de crise adrenal diante da instabilidade hemodinâmica.\n\n**3. Qual hormônio está relacionado principalmente à hipercalemia?**\n\nA aldosterona, cuja deficiência compromete a excreção renal de potássio.\n\n**4. Qual é a função da aldosterona no néfron distal?**\n\nEstimular mecanismos de reabsorção de sódio e secreção de potássio, contribuindo para a manutenção do equilíbrio hidroeletrolítico.\n\n**5. Como a deficiência de aldosterona provoca hipercalemia?**\n\nReduz a secreção distal de potássio, favorecendo sua retenção.\n\n**6. Por que ocorre hiponatremia?**\n\nA deficiência mineralocorticoide promove perda renal de sódio e redução do volume circulante. A deficiência de cortisol também favorece alterações na regulação da água.\n\n**7. Qual é a importância da hiperpigmentação?**\n\nNa insuficiência adrenal primária, a elevação do ACTH pode acompanhar aumento da pigmentação cutânea e mucosa.\n\n**8. Como a deficiência de cortisol contribui para a hipotensão?**\n\nCompromete a resposta vascular às catecolaminas e favorece instabilidade hemodinâmica.\n\n**9. Por que pode ocorrer hipoglicemia?**\n\nO cortisol participa da manutenção da glicemia, inclusive por estímulo à produção hepática de glicose.\n\n**10. A creatinina normal exclui deficiência de excreção renal de potássio?**\n\nNão. A excreção distal depende de mecanismos hormonais e tubulares que podem estar comprometidos mesmo sem redução importante da filtração glomerular.\n\n**11. Qual é a prioridade diante da suspeita de crise adrenal?**\n\nAdministrar hidrocortisona parenteral imediatamente, associada à reposição volêmica e ao suporte clínico, sem aguardar resultados hormonais.\n\n**12. Devemos coletar cortisol e ACTH antes da hidrocortisona?**\n\nQuando isso puder ser feito prontamente e sem atrasar o tratamento, a coleta é útil. Entretanto, a administração de hidrocortisona não deve ser retardada para obtenção dos exames.\n\n**13. A hidrocortisona substitui o tratamento emergencial da hipercalemia?**\n\nNão. A hipercalemia com alterações elétricas exige abordagem imediata conforme a gravidade, simultaneamente ao tratamento da crise adrenal.\n\n**14. Qual é a competência principal?**\n\nReconhecer insuficiência adrenal primária como causa de hipercalemia e iniciar tratamento da crise adrenal sem atrasar intervenções de emergência.",
+      "comentarios": {
+        "A": "Hiponatremia e hipercalemia podem resultar de deficiência mineralocorticoide, mesmo sem insuficiência renal terminal.",
+        "B": "O conjunto de hipotensão, hiponatremia, hipercalemia, hipoglicemia e hiperpigmentação é sugestivo de insuficiência adrenal primária. A suspeita de crise adrenal exige tratamento imediato.",
+        "C": "A deficiência de cortisol pode provocar hipoglicemia, especialmente em situações de estresse ou ingestão reduzida.",
+        "D": "A deficiência de aldosterona compromete diretamente a secreção renal distal de potássio."
+      },
+      "perola": "> Nem toda hipercalemia com creatinina normal é um problema de redistribuição. Às vezes, o rim consegue filtrar, mas não recebe o sinal hormonal necessário para eliminar potássio.",
+      "referencias": "Endocrine Society — *Diagnosis and Treatment of Primary Adrenal Insufficiency: An Endocrine Society Clinical Practice Guideline*.\n*Clinical manifestations of adrenal insufficiency in adults*. UpToDate.\n*Treatment of adrenal crisis in adults*. UpToDate.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 15,
+      "stem": "Uma mulher de 41 anos, sem doença renal conhecida, procura a emergência por fraqueza intensa, náuseas, vômitos e tontura.\n\nRelata perda de peso progressiva, fadiga e episódios de tontura ao levantar-se nas últimas semanas.\n\nAo exame, apresenta hiperpigmentação cutânea, particularmente em pregas palmares e mucosa oral.\n\nNa admissão:\n\n- PA: 76/44 mmHg.\n- FC: 118 bpm.\n- Temperatura: 36,4 °C.\n- Potássio: 6,3 mEq/L.\n- Sódio: 124 mEq/L.\n- Creatinina: 1,1 mg/dL.\n- Glicemia: 58 mg/dL.\n- Bicarbonato: 18 mEq/L.\n\nO ECG apresenta ondas T discretamente apiculadas.\n\nA equipe inicia monitorização e tratamento da hipercalemia.\n\nUm residente sugere que o problema será resolvido apenas com insulina e glicose, pois a creatinina está praticamente normal.\n\n**Qual é a interpretação e a estratégia mais adequadas?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-074-A",
+          "question_id": "aqz-hiper-074",
+          "letter": "A",
+          "text": "A combinação de hiponatremia e hipercalemia indica obrigatoriamente insuficiência renal terminal, mesmo com creatinina normal.",
+          "is_correct": false,
+          "feedback": "Hiponatremia e hipercalemia podem resultar de deficiência mineralocorticoide, mesmo sem insuficiência renal terminal.",
+          "error_type": "diagnostic_misclassification",
+          "misconception_id": "hyponatremia_hyperkalemia_always_means_esrd",
+          "misconception_description": "Interpreta hiponatremia e hipercalemia como diagnóstico obrigatório de insuficiência renal terminal.",
+          "competency_ids": [
+            "recognize_primary_adrenal_insufficiency"
+          ],
+          "clinical_risk_if_applied": "atrasar reconhecimento da crise adrenal."
+        },
+        {
+          "option_id": "aqz-hiper-074-B",
+          "question_id": "aqz-hiper-074",
+          "letter": "B",
+          "text": "O quadro é altamente sugestivo de insuficiência adrenal primária com possível crise adrenal. Além do tratamento urgente da hipercalemia, é necessário administrar hidrocortisona parenteral sem aguardar confirmação laboratorial, realizar reposição volêmica apropriada e investigar a deficiência hormonal.",
+          "is_correct": true,
+          "feedback": "O conjunto de hipotensão, hiponatremia, hipercalemia, hipoglicemia e hiperpigmentação é sugestivo de insuficiência adrenal primária. A suspeita de crise adrenal exige tratamento imediato.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "recognize_adrenal_crisis_with_hyperkalemia",
+            "recognize_primary_adrenal_insufficiency",
+            "understand_aldosterone_deficiency"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-074-C",
+          "question_id": "aqz-hiper-074",
+          "letter": "C",
+          "text": "A presença de hipoglicemia exclui insuficiência adrenal, pois a deficiência de cortisol provoca exclusivamente hiperglicemia.",
+          "is_correct": false,
+          "feedback": "A deficiência de cortisol pode provocar hipoglicemia, especialmente em situações de estresse ou ingestão reduzida.",
+          "error_type": "endocrine_physiology_error",
+          "misconception_id": "hypoglycemia_excludes_adrenal_insufficiency",
+          "misconception_description": "Confunde o efeito da deficiência de cortisol sobre a glicemia.",
+          "competency_ids": [
+            "interpret_hyponatremia_hyperkalemia"
+          ],
+          "clinical_risk_if_applied": "descartar insuficiência adrenal."
+        },
+        {
+          "option_id": "aqz-hiper-074-D",
+          "question_id": "aqz-hiper-074",
+          "letter": "D",
+          "text": "A hipercalemia é explicada exclusivamente por redistribuição intracelular inadequada, sem participação da excreção renal de potássio.",
+          "is_correct": false,
+          "feedback": "A deficiência de aldosterona compromete diretamente a secreção renal distal de potássio.",
+          "error_type": "renal_excretion_omission",
+          "misconception_id": "adrenal_hyperkalemia_is_only_redistribution",
+          "misconception_description": "Ignora a participação da aldosterona na secreção renal de potássio.",
+          "competency_ids": [
+            "prioritize_stress_dose_hydrocortisone"
+          ],
+          "clinical_risk_if_applied": "tratar apenas a concentração sérica sem abordar a causa hormonal."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-074-r01",
+          "question_id": "aqz-hiper-074",
+          "sequence": 1,
+          "prompt": "Quais achados sugerem uma síndrome endócrina?",
+          "explanation": "Hipotensão importante, hiponatremia, hipercalemia, hipoglicemia, perda de peso e hiperpigmentação.",
+          "reasoning_type": "endocrine_pattern_recognition",
+          "competency_ids": [
+            "prioritize_stress_dose_hydrocortisone"
+          ],
+          "cognitive_operation": "integrate",
+          "clinical_relevance": "Este raciocínio é relevante porque hipotensão importante, hiponatremia, hipercalemia, hipoglicemia, perda de peso e hiperpigmentação.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-074-r02",
+          "question_id": "aqz-hiper-074",
+          "sequence": 2,
+          "prompt": "Qual diagnóstico deve ser considerado prioritariamente?",
+          "explanation": "Insuficiência adrenal primária, com suspeita de crise adrenal diante da instabilidade hemodinâmica.",
+          "reasoning_type": "adrenal_crisis_identification",
+          "competency_ids": [
+            "avoid_delayed_adrenal_crisis_treatment"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque insuficiência adrenal primária, com suspeita de crise adrenal diante da instabilidade hemodinâmica.",
+          "prerequisite_concepts": [
+            "fisiologia do córtex adrenal",
+            "efeitos mineralocorticoides e glicocorticoides"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-074-r03",
+          "question_id": "aqz-hiper-074",
+          "sequence": 3,
+          "prompt": "Qual hormônio está relacionado principalmente à hipercalemia?",
+          "explanation": "A aldosterona, cuja deficiência compromete a excreção renal de potássio.",
+          "reasoning_type": "aldosterone_deficiency",
+          "competency_ids": [
+            "understand_aldosterone_deficiency"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque a aldosterona, cuja deficiência compromete a excreção renal de potássio.",
+          "prerequisite_concepts": [
+            "fisiologia renal das prostaglandinas",
+            "sistema renina-angiotensina-aldosterona"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-074-r04",
+          "question_id": "aqz-hiper-074",
+          "sequence": 4,
+          "prompt": "Qual é a função da aldosterona no néfron distal?",
+          "explanation": "Estimular mecanismos de reabsorção de sódio e secreção de potássio, contribuindo para a manutenção do equilíbrio hidroeletrolítico.",
+          "reasoning_type": "distal_renal_potassium_handling",
+          "competency_ids": [
+            "avoid_delayed_adrenal_crisis_treatment"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque estimular mecanismos de reabsorção de sódio e secreção de potássio, contribuindo para a manutenção do equilíbrio hidroeletrolítico.",
+          "prerequisite_concepts": [
+            "fisiologia renal das prostaglandinas",
+            "sistema renina-angiotensina-aldosterona"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-074-r05",
+          "question_id": "aqz-hiper-074",
+          "sequence": 5,
+          "prompt": "Como a deficiência de aldosterona provoca hipercalemia?",
+          "explanation": "Reduz a secreção distal de potássio, favorecendo sua retenção.",
+          "reasoning_type": "potassium_retention_mechanism",
+          "competency_ids": [
+            "prioritize_stress_dose_hydrocortisone"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque reduz a secreção distal de potássio, favorecendo sua retenção.",
+          "prerequisite_concepts": [
+            "fisiologia renal das prostaglandinas",
+            "sistema renina-angiotensina-aldosterona"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-074-r06",
+          "question_id": "aqz-hiper-074",
+          "sequence": 6,
+          "prompt": "Por que ocorre hiponatremia?",
+          "explanation": "A deficiência mineralocorticoide promove perda renal de sódio e redução do volume circulante. A deficiência de cortisol também favorece alterações na regulação da água.",
+          "reasoning_type": "hyponatremia_pathophysiology",
+          "competency_ids": [
+            "interpret_hyponatremia_hyperkalemia"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque a deficiência mineralocorticoide promove perda renal de sódio e redução do volume circulante. A deficiência de cortisol também favorece alterações na regulação da água.",
+          "prerequisite_concepts": [
+            "fisiologia do córtex adrenal",
+            "efeitos mineralocorticoides e glicocorticoides"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-074-r07",
+          "question_id": "aqz-hiper-074",
+          "sequence": 7,
+          "prompt": "Qual é a importância da hiperpigmentação?",
+          "explanation": "Na insuficiência adrenal primária, a elevação do ACTH pode acompanhar aumento da pigmentação cutânea e mucosa.",
+          "reasoning_type": "acth_hyperpigmentation",
+          "competency_ids": [
+            "interpret_hyponatremia_hyperkalemia"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque na insuficiência adrenal primária, a elevação do ACTH pode acompanhar aumento da pigmentação cutânea e mucosa.",
+          "prerequisite_concepts": [
+            "fisiologia do córtex adrenal",
+            "efeitos mineralocorticoides e glicocorticoides"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-074-r08",
+          "question_id": "aqz-hiper-074",
+          "sequence": 8,
+          "prompt": "Como a deficiência de cortisol contribui para a hipotensão?",
+          "explanation": "Compromete a resposta vascular às catecolaminas e favorece instabilidade hemodinâmica.",
+          "reasoning_type": "cortisol_vascular_effect",
+          "competency_ids": [
+            "prioritize_stress_dose_hydrocortisone"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque compromete a resposta vascular às catecolaminas e favorece instabilidade hemodinâmica.",
+          "prerequisite_concepts": [
+            "fisiologia do córtex adrenal",
+            "efeitos mineralocorticoides e glicocorticoides"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-074-r09",
+          "question_id": "aqz-hiper-074",
+          "sequence": 9,
+          "prompt": "Por que pode ocorrer hipoglicemia?",
+          "explanation": "O cortisol participa da manutenção da glicemia, inclusive por estímulo à produção hepática de glicose.",
+          "reasoning_type": "cortisol_glucose_effect",
+          "competency_ids": [
+            "prioritize_stress_dose_hydrocortisone"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque o cortisol participa da manutenção da glicemia, inclusive por estímulo à produção hepática de glicose.",
+          "prerequisite_concepts": [
+            "fisiologia do córtex adrenal",
+            "efeitos mineralocorticoides e glicocorticoides"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-074-r10",
+          "question_id": "aqz-hiper-074",
+          "sequence": 10,
+          "prompt": "A creatinina normal exclui deficiência de excreção renal de potássio?",
+          "explanation": "Não. A excreção distal depende de mecanismos hormonais e tubulares que podem estar comprometidos mesmo sem redução importante da filtração glomerular.",
+          "reasoning_type": "tubular_function_vs_creatinine",
+          "competency_ids": [
+            "avoid_delayed_adrenal_crisis_treatment"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. A excreção distal depende de mecanismos hormonais e tubulares que podem estar comprometidos mesmo sem redução importante da filtração glomerular.",
+          "prerequisite_concepts": [
+            "diferença entre filtração glomerular e função tubular",
+            "secreção distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-074-r11",
+          "question_id": "aqz-hiper-074",
+          "sequence": 11,
+          "prompt": "Qual é a prioridade diante da suspeita de crise adrenal?",
+          "explanation": "Administrar hidrocortisona parenteral imediatamente, associada à reposição volêmica e ao suporte clínico, sem aguardar resultados hormonais.",
+          "reasoning_type": "emergency_hydrocortisone_priority",
+          "competency_ids": [
+            "prioritize_stress_dose_hydrocortisone"
+          ],
+          "cognitive_operation": "prioritize",
+          "clinical_relevance": "Este raciocínio é relevante porque administrar hidrocortisona parenteral imediatamente, associada à reposição volêmica e ao suporte clínico, sem aguardar resultados hormonais.",
+          "prerequisite_concepts": [
+            "fisiologia do córtex adrenal",
+            "efeitos mineralocorticoides e glicocorticoides"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-074-r12",
+          "question_id": "aqz-hiper-074",
+          "sequence": 12,
+          "prompt": "Devemos coletar cortisol e ACTH antes da hidrocortisona?",
+          "explanation": "Quando isso puder ser feito prontamente e sem atrasar o tratamento, a coleta é útil. Entretanto, a administração de hidrocortisona não deve ser retardada para obtenção dos exames.",
+          "reasoning_type": "laboratory_sampling_without_delay",
+          "competency_ids": [
+            "avoid_delayed_adrenal_crisis_treatment"
+          ],
+          "cognitive_operation": "decide",
+          "clinical_relevance": "Este raciocínio é relevante porque quando isso puder ser feito prontamente e sem atrasar o tratamento, a coleta é útil. Entretanto, a administração de hidrocortisona não deve ser retardada para obtenção dos exames.",
+          "prerequisite_concepts": [
+            "fisiologia do córtex adrenal",
+            "efeitos mineralocorticoides e glicocorticoides"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-074-r13",
+          "question_id": "aqz-hiper-074",
+          "sequence": 13,
+          "prompt": "A hidrocortisona substitui o tratamento emergencial da hipercalemia?",
+          "explanation": "Não. A hipercalemia com alterações elétricas exige abordagem imediata conforme a gravidade, simultaneamente ao tratamento da crise adrenal.",
+          "reasoning_type": "parallel_hyperkalemia_treatment",
+          "competency_ids": [
+            "interpret_hyponatremia_hyperkalemia"
+          ],
+          "cognitive_operation": "integrate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. A hipercalemia com alterações elétricas exige abordagem imediata conforme a gravidade, simultaneamente ao tratamento da crise adrenal.",
+          "prerequisite_concepts": [
+            "fisiologia do córtex adrenal",
+            "efeitos mineralocorticoides e glicocorticoides"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-074-r14",
+          "question_id": "aqz-hiper-074",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Reconhecer insuficiência adrenal primária como causa de hipercalemia e iniciar tratamento da crise adrenal sem atrasar intervenções de emergência.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "interpret_hyponatremia_hyperkalemia"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque reconhecer insuficiência adrenal primária como causa de hipercalemia e iniciar tratamento da crise adrenal sem atrasar intervenções de emergência.",
+          "prerequisite_concepts": [
+            "fisiologia do córtex adrenal",
+            "efeitos mineralocorticoides e glicocorticoides"
+          ]
+        }
+      ],
+      "clinical_pearl": "> Nem toda hipercalemia com creatinina normal é um problema de redistribuição. Às vezes, o rim consegue filtrar, mas não recebe o sinal hormonal necessário para eliminar potássio.",
+      "references": [
+        "Endocrine Society — *Diagnosis and Treatment of Primary Adrenal Insufficiency: An Endocrine Society Clinical Practice Guideline*.",
+        "*Clinical manifestations of adrenal insufficiency in adults*. UpToDate.",
+        "*Treatment of adrenal crisis in adults*. UpToDate."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "adrenal_hyperkalemia",
+        "clinical_context": "emergency_department",
+        "urgency_level": "urgent_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "recognize_adrenal_crisis_with_hyperkalemia",
+        "secondary_competencies": [
+          "recognize_primary_adrenal_insufficiency",
+          "understand_aldosterone_deficiency",
+          "interpret_hyponatremia_hyperkalemia",
+          "prioritize_stress_dose_hydrocortisone",
+          "avoid_delayed_adrenal_crisis_treatment"
+        ],
+        "learning_objectives": [
+          "Reconhecer insuficiência adrenal primária e tratar uma possível crise adrenal."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_safety",
+        "arena_skill_ids": [
+          "recognize_adrenal_crisis_with_hyperkalemia",
+          "recognize_primary_adrenal_insufficiency",
+          "understand_aldosterone_deficiency",
+          "interpret_hyponatremia_hyperkalemia",
+          "prioritize_stress_dose_hydrocortisone",
+          "avoid_delayed_adrenal_crisis_treatment"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "recognize",
+          "adrenal",
+          "crisis",
+          "with"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "recognize_adrenal_crisis_with_hyperkalemia",
+          "recognize_primary_adrenal_insufficiency",
+          "understand_aldosterone_deficiency",
+          "interpret_hyponatremia_hyperkalemia",
+          "prioritize_stress_dose_hydrocortisone",
+          "avoid_delayed_adrenal_crisis_treatment"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-075",
+      "question_id": "aqz-hiper-075",
+      "numero": 75,
+      "question_number": 75,
+      "titulo": "O tratamento do câncer desencadeou a hipercalemia",
+      "competenciaPrincipal": "Reconhecer síndrome de lise tumoral e integrar o manejo de seus distúrbios metabólicos.",
+      "competenciasSecundarias": [
+        "recognize_cell_lysis_potassium_release",
+        "integrate_tumor_lysis_electrolytes",
+        "understand_hyperuricemia_aki",
+        "distinguish_cardiac_calcium_from_hypocalcemia_replacement",
+        "recognize_tumor_lysis_dialysis_indications"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Um homem de 52 anos, recentemente diagnosticado com linfoma de Burkitt, é internado para início de quimioterapia.\n\nApresenta elevada carga tumoral e LDH significativamente aumentado antes do tratamento.\n\nTrinta e seis horas após o início da quimioterapia, desenvolve náuseas, fraqueza e redução da diurese.\n\nOs exames mostram:\n\n- PA: 116/72 mmHg.\n- FC: 104 bpm.\n- Potássio: 6,7 mEq/L, anteriormente 4,3 mEq/L.\n- Fósforo: 8,2 mg/dL.\n- Cálcio total: 6,8 mg/dL.\n- Ácido úrico: 12,4 mg/dL.\n- Creatinina: 2,4 mg/dL, anteriormente 0,9 mg/dL.\n- LDH: 3.800 U/L.\n- ECG: ondas T apiculadas.\n\nA equipe administra cálcio intravenoso devido à toxicidade elétrica associada à hipercalemia e inicia medidas para redução do potássio.\n\nUm residente sugere administrar cálcio adicional apenas para normalizar o valor laboratorial, apesar de o paciente não apresentar tetania, convulsões ou outras manifestações atribuíveis à hipocalcemia.\n\n**Qual interpretação integra melhor o quadro e orienta a abordagem?**",
+      "alternativas": {
+        "A": "O quadro corresponde exclusivamente à nefrotoxicidade da quimioterapia, sem relação com destruição celular tumoral.",
+        "B": "A hipocalcemia deve ser corrigida agressivamente até normalização laboratorial em todos os pacientes, independentemente de sintomas ou hiperfosfatemia.",
+        "C": "A elevação do ácido úrico exclui síndrome de lise tumoral, pois esse distúrbio ocorre apenas quando há hipouricemia.",
+        "D": "O quadro é compatível com síndrome de lise tumoral, caracterizada pela liberação de componentes intracelulares e alterações metabólicas associadas. É necessário tratar imediatamente a hipercalemia, manejar a hiperuricemia e a lesão renal, controlar o fósforo e evitar reposição indiscriminada de cálcio em hipocalcemia assintomática associada à hiperfosfatemia."
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. Qual é a síndrome metabólica mais provável?**\n\nSíndrome de lise tumoral após início de quimioterapia em paciente com neoplasia de elevada proliferação celular.\n\n**2. Qual é o mecanismo fisiopatológico central?**\n\nDestruição rápida de células tumorais, com liberação de componentes intracelulares para a circulação.\n\n**3. Por que ocorre hipercalemia?**\n\nO potássio intracelular é liberado durante a lise celular, podendo elevar rapidamente sua concentração extracelular.\n\n**4. Por que ocorre hiperfosfatemia?**\n\nO fósforo intracelular também é liberado em grandes quantidades durante a destruição tumoral.\n\n**5. Qual é a origem da hiperuricemia?**\n\nA degradação dos ácidos nucleicos liberados pelas células tumorais aumenta a produção de ácido úrico.\n\n**6. Como pode ocorrer lesão renal aguda?**\n\nPor mecanismos multifatoriais, incluindo alterações de perfusão, precipitação de cristais de ácido úrico e deposição de fosfato de cálcio.\n\n**7. Por que o cálcio sérico diminui?**\n\nA hiperfosfatemia favorece a formação de complexos e a precipitação de fosfato de cálcio, contribuindo para hipocalcemia.\n\n**8. Qual é a prioridade diante da hipercalemia com ondas T apiculadas?**\n\nEstabilizar a membrana cardíaca com cálcio intravenoso quando indicado e iniciar prontamente medidas de redução do potássio.\n\n**9. Existe contradição entre administrar cálcio para toxicidade elétrica e evitar reposição indiscriminada de cálcio?**\n\nNão. O cálcio intravenoso pode ser necessário para estabilização cardíaca na hipercalemia. Isso é diferente de corrigir rotineiramente uma hipocalcemia laboratorial assintomática.\n\n**10. Por que a reposição indiscriminada de cálcio pode ser problemática?**\n\nNa presença de hiperfosfatemia importante, pode aumentar o risco de precipitação de fosfato de cálcio em tecidos e rins.\n\n**11. Qual é a importância do controle do ácido úrico?**\n\nA hiperuricemia contribui para complicações renais e pode exigir tratamento específico, como rasburicase em pacientes selecionados, conforme indicação e contraindicações.\n\n**12. Qual é o papel da hidratação?**\n\nA reposição volêmica apropriada pode favorecer a perfusão renal e a excreção de solutos, mas deve ser individualizada, especialmente diante de oligúria e risco de sobrecarga.\n\n**13. Quando considerar terapia renal substitutiva?**\n\nEm situações como hipercalemia grave refratária, sobrecarga volêmica não controlável, acidose grave refratária ou complicações metabólicas relevantes, conforme avaliação clínica e nefrológica.\n\n**14. Qual é a competência principal?**\n\nReconhecer a síndrome de lise tumoral e integrar o tratamento da hipercalemia aos demais distúrbios metabólicos, evitando intervenções potencialmente prejudiciais.",
+      "comentarios": {
+        "A": "A associação de hipercalemia, hiperfosfatemia, hipocalcemia, hiperuricemia e lesão renal após quimioterapia é fortemente sugestiva de síndrome de lise tumoral.",
+        "B": "A correção indiscriminada da hipocalcemia assintomática em presença de hiperfosfatemia pode favorecer precipitação de fosfato de cálcio.",
+        "C": "A hiperuricemia é um achado característico da síndrome de lise tumoral.",
+        "D": "Integra o mecanismo de lise celular, os distúrbios metabólicos e a necessidade de tratar a hipercalemia grave sem realizar reposição indiscriminada de cálcio para hipocalcemia assintomática."
+      },
+      "perola": "> Na síndrome de lise tumoral, tratar um eletrólito sem considerar os demais pode criar outro problema. O cálcio pode ser indispensável para proteger o coração na hipercalemia, mas sua reposição indiscriminada diante da hiperfosfatemia pode ser prejudicial.",
+      "referencias": "*Tumor lysis syndrome: Definition, pathogenesis, clinical manifestations, etiology and risk factors*. UpToDate.\n*Tumor lysis syndrome: Prevention and treatment*. UpToDate.\nCairo MS, Bishop M. *Tumour lysis syndrome: new therapeutic strategies and classification*. British Journal of Haematology.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 15,
+      "stem": "Um homem de 52 anos, recentemente diagnosticado com linfoma de Burkitt, é internado para início de quimioterapia.\n\nApresenta elevada carga tumoral e LDH significativamente aumentado antes do tratamento.\n\nTrinta e seis horas após o início da quimioterapia, desenvolve náuseas, fraqueza e redução da diurese.\n\nOs exames mostram:\n\n- PA: 116/72 mmHg.\n- FC: 104 bpm.\n- Potássio: 6,7 mEq/L, anteriormente 4,3 mEq/L.\n- Fósforo: 8,2 mg/dL.\n- Cálcio total: 6,8 mg/dL.\n- Ácido úrico: 12,4 mg/dL.\n- Creatinina: 2,4 mg/dL, anteriormente 0,9 mg/dL.\n- LDH: 3.800 U/L.\n- ECG: ondas T apiculadas.\n\nA equipe administra cálcio intravenoso devido à toxicidade elétrica associada à hipercalemia e inicia medidas para redução do potássio.\n\nUm residente sugere administrar cálcio adicional apenas para normalizar o valor laboratorial, apesar de o paciente não apresentar tetania, convulsões ou outras manifestações atribuíveis à hipocalcemia.\n\n**Qual interpretação integra melhor o quadro e orienta a abordagem?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-075-A",
+          "question_id": "aqz-hiper-075",
+          "letter": "A",
+          "text": "O quadro corresponde exclusivamente à nefrotoxicidade da quimioterapia, sem relação com destruição celular tumoral.",
+          "is_correct": false,
+          "feedback": "A associação de hipercalemia, hiperfosfatemia, hipocalcemia, hiperuricemia e lesão renal após quimioterapia é fortemente sugestiva de síndrome de lise tumoral.",
+          "error_type": "syndrome_recognition_failure",
+          "misconception_id": "postchemotherapy_aki_is_only_direct_nephrotoxicity",
+          "misconception_description": "Desconsidera a liberação celular e o padrão metabólico da lise tumoral.",
+          "competency_ids": [
+            "recognize_cell_lysis_potassium_release"
+          ],
+          "clinical_risk_if_applied": "não tratar as complicações específicas."
+        },
+        {
+          "option_id": "aqz-hiper-075-B",
+          "question_id": "aqz-hiper-075",
+          "letter": "B",
+          "text": "A hipocalcemia deve ser corrigida agressivamente até normalização laboratorial em todos os pacientes, independentemente de sintomas ou hiperfosfatemia.",
+          "is_correct": false,
+          "feedback": "A correção indiscriminada da hipocalcemia assintomática em presença de hiperfosfatemia pode favorecer precipitação de fosfato de cálcio.",
+          "error_type": "unsafe_electrolyte_correction",
+          "misconception_id": "all_tumor_lysis_hypocalcemia_requires_aggressive_calcium",
+          "misconception_description": "Propõe correção indiscriminada da hipocalcemia em presença de hiperfosfatemia.",
+          "competency_ids": [
+            "integrate_tumor_lysis_electrolytes"
+          ],
+          "clinical_risk_if_applied": "precipitação de fosfato de cálcio."
+        },
+        {
+          "option_id": "aqz-hiper-075-C",
+          "question_id": "aqz-hiper-075",
+          "letter": "C",
+          "text": "A elevação do ácido úrico exclui síndrome de lise tumoral, pois esse distúrbio ocorre apenas quando há hipouricemia.",
+          "is_correct": false,
+          "feedback": "A hiperuricemia é um achado característico da síndrome de lise tumoral.",
+          "error_type": "laboratory_pattern_error",
+          "misconception_id": "hyperuricemia_excludes_tumor_lysis",
+          "misconception_description": "Interpreta incorretamente a hiperuricemia, um achado característico da síndrome.",
+          "competency_ids": [
+            "understand_hyperuricemia_aki"
+          ],
+          "clinical_risk_if_applied": "não reconhecer a lise tumoral.\n\nPara as alternativas corretas, registrar as competências demonstradas e deixar os campos de erro nulos.\n\nPreencher `competency_ids` individualmente, de acordo com a competência efetivamente avaliada pela alternativa.\n\n---"
+        },
+        {
+          "option_id": "aqz-hiper-075-D",
+          "question_id": "aqz-hiper-075",
+          "letter": "D",
+          "text": "O quadro é compatível com síndrome de lise tumoral, caracterizada pela liberação de componentes intracelulares e alterações metabólicas associadas. É necessário tratar imediatamente a hipercalemia, manejar a hiperuricemia e a lesão renal, controlar o fósforo e evitar reposição indiscriminada de cálcio em hipocalcemia assintomática associada à hiperfosfatemia.",
+          "is_correct": true,
+          "feedback": "Integra o mecanismo de lise celular, os distúrbios metabólicos e a necessidade de tratar a hipercalemia grave sem realizar reposição indiscriminada de cálcio para hipocalcemia assintomática.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "recognize_tumor_lysis_syndrome",
+            "recognize_cell_lysis_potassium_release",
+            "integrate_tumor_lysis_electrolytes"
+          ],
+          "clinical_risk_if_applied": null
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-075-r01",
+          "question_id": "aqz-hiper-075",
+          "sequence": 1,
+          "prompt": "Qual é a síndrome metabólica mais provável?",
+          "explanation": "Síndrome de lise tumoral após início de quimioterapia em paciente com neoplasia de elevada proliferação celular.",
+          "reasoning_type": "tumor_lysis_pattern_recognition",
+          "competency_ids": [
+            "recognize_tumor_lysis_dialysis_indications"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque síndrome de lise tumoral após início de quimioterapia em paciente com neoplasia de elevada proliferação celular.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-075-r02",
+          "question_id": "aqz-hiper-075",
+          "sequence": 2,
+          "prompt": "Qual é o mecanismo fisiopatológico central?",
+          "explanation": "Destruição rápida de células tumorais, com liberação de componentes intracelulares para a circulação.",
+          "reasoning_type": "rapid_cell_lysis_mechanism",
+          "competency_ids": [
+            "recognize_cell_lysis_potassium_release"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque destruição rápida de células tumorais, com liberação de componentes intracelulares para a circulação.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-075-r03",
+          "question_id": "aqz-hiper-075",
+          "sequence": 3,
+          "prompt": "Por que ocorre hipercalemia?",
+          "explanation": "O potássio intracelular é liberado durante a lise celular, podendo elevar rapidamente sua concentração extracelular.",
+          "reasoning_type": "intracellular_potassium_release",
+          "competency_ids": [
+            "recognize_cell_lysis_potassium_release"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque o potássio intracelular é liberado durante a lise celular, podendo elevar rapidamente sua concentração extracelular.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-075-r04",
+          "question_id": "aqz-hiper-075",
+          "sequence": 4,
+          "prompt": "Por que ocorre hiperfosfatemia?",
+          "explanation": "O fósforo intracelular também é liberado em grandes quantidades durante a destruição tumoral.",
+          "reasoning_type": "phosphate_release",
+          "competency_ids": [
+            "recognize_cell_lysis_potassium_release"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque o fósforo intracelular também é liberado em grandes quantidades durante a destruição tumoral.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-075-r05",
+          "question_id": "aqz-hiper-075",
+          "sequence": 5,
+          "prompt": "Qual é a origem da hiperuricemia?",
+          "explanation": "A degradação dos ácidos nucleicos liberados pelas células tumorais aumenta a produção de ácido úrico.",
+          "reasoning_type": "uric_acid_generation",
+          "competency_ids": [
+            "distinguish_cardiac_calcium_from_hypocalcemia_replacement"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque a degradação dos ácidos nucleicos liberados pelas células tumorais aumenta a produção de ácido úrico.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-075-r06",
+          "question_id": "aqz-hiper-075",
+          "sequence": 6,
+          "prompt": "Como pode ocorrer lesão renal aguda?",
+          "explanation": "Por mecanismos multifatoriais, incluindo alterações de perfusão, precipitação de cristais de ácido úrico e deposição de fosfato de cálcio.",
+          "reasoning_type": "tumor_lysis_aki_mechanisms",
+          "competency_ids": [
+            "recognize_tumor_lysis_dialysis_indications"
+          ],
+          "cognitive_operation": "integrate",
+          "clinical_relevance": "Este raciocínio é relevante porque por mecanismos multifatoriais, incluindo alterações de perfusão, precipitação de cristais de ácido úrico e deposição de fosfato de cálcio.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-075-r07",
+          "question_id": "aqz-hiper-075",
+          "sequence": 7,
+          "prompt": "Por que o cálcio sérico diminui?",
+          "explanation": "A hiperfosfatemia favorece a formação de complexos e a precipitação de fosfato de cálcio, contribuindo para hipocalcemia.",
+          "reasoning_type": "hypocalcemia_hyperphosphatemia",
+          "competency_ids": [
+            "distinguish_cardiac_calcium_from_hypocalcemia_replacement"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque a hiperfosfatemia favorece a formação de complexos e a precipitação de fosfato de cálcio, contribuindo para hipocalcemia.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-075-r08",
+          "question_id": "aqz-hiper-075",
+          "sequence": 8,
+          "prompt": "Qual é a prioridade diante da hipercalemia com ondas T apiculadas?",
+          "explanation": "Estabilizar a membrana cardíaca com cálcio intravenoso quando indicado e iniciar prontamente medidas de redução do potássio.",
+          "reasoning_type": "hyperkalemia_cardiac_stabilization",
+          "competency_ids": [
+            "distinguish_cardiac_calcium_from_hypocalcemia_replacement"
+          ],
+          "cognitive_operation": "prioritize",
+          "clinical_relevance": "Este raciocínio é relevante porque estabilizar a membrana cardíaca com cálcio intravenoso quando indicado e iniciar prontamente medidas de redução do potássio.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-075-r09",
+          "question_id": "aqz-hiper-075",
+          "sequence": 9,
+          "prompt": "Existe contradição entre administrar cálcio para toxicidade elétrica e evitar reposição indiscriminada de cálcio?",
+          "explanation": "Não. O cálcio intravenoso pode ser necessário para estabilização cardíaca na hipercalemia. Isso é diferente de corrigir rotineiramente uma hipocalcemia laboratorial assintomática.",
+          "reasoning_type": "calcium_indication_differentiation",
+          "competency_ids": [
+            "distinguish_cardiac_calcium_from_hypocalcemia_replacement"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. O cálcio intravenoso pode ser necessário para estabilização cardíaca na hipercalemia. Isso é diferente de corrigir rotineiramente uma hipocalcemia laboratorial assintomática.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-075-r10",
+          "question_id": "aqz-hiper-075",
+          "sequence": 10,
+          "prompt": "Por que a reposição indiscriminada de cálcio pode ser problemática?",
+          "explanation": "Na presença de hiperfosfatemia importante, pode aumentar o risco de precipitação de fosfato de cálcio em tecidos e rins.",
+          "reasoning_type": "calcium_phosphate_precipitation_risk",
+          "competency_ids": [
+            "distinguish_cardiac_calcium_from_hypocalcemia_replacement"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque na presença de hiperfosfatemia importante, pode aumentar o risco de precipitação de fosfato de cálcio em tecidos e rins.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-075-r11",
+          "question_id": "aqz-hiper-075",
+          "sequence": 11,
+          "prompt": "Qual é a importância do controle do ácido úrico?",
+          "explanation": "A hiperuricemia contribui para complicações renais e pode exigir tratamento específico, como rasburicase em pacientes selecionados, conforme indicação e contraindicações.",
+          "reasoning_type": "uric_acid_management",
+          "competency_ids": [
+            "distinguish_cardiac_calcium_from_hypocalcemia_replacement"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque a hiperuricemia contribui para complicações renais e pode exigir tratamento específico, como rasburicase em pacientes selecionados, conforme indicação e contraindicações.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-075-r12",
+          "question_id": "aqz-hiper-075",
+          "sequence": 12,
+          "prompt": "Qual é o papel da hidratação?",
+          "explanation": "A reposição volêmica apropriada pode favorecer a perfusão renal e a excreção de solutos, mas deve ser individualizada, especialmente diante de oligúria e risco de sobrecarga.",
+          "reasoning_type": "fluid_resuscitation_safety",
+          "competency_ids": [
+            "distinguish_cardiac_calcium_from_hypocalcemia_replacement"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque a reposição volêmica apropriada pode favorecer a perfusão renal e a excreção de solutos, mas deve ser individualizada, especialmente diante de oligúria e risco de sobrecarga.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-075-r13",
+          "question_id": "aqz-hiper-075",
+          "sequence": 13,
+          "prompt": "Quando considerar terapia renal substitutiva?",
+          "explanation": "Em situações como hipercalemia grave refratária, sobrecarga volêmica não controlável, acidose grave refratária ou complicações metabólicas relevantes, conforme avaliação clínica e nefrológica.",
+          "reasoning_type": "renal_replacement_indications",
+          "competency_ids": [
+            "recognize_tumor_lysis_dialysis_indications"
+          ],
+          "cognitive_operation": "decide",
+          "clinical_relevance": "Este raciocínio é relevante porque em situações como hipercalemia grave refratária, sobrecarga volêmica não controlável, acidose grave refratária ou complicações metabólicas relevantes, conforme avaliação clínica e nefrológica.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-075-r14",
+          "question_id": "aqz-hiper-075",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Reconhecer a síndrome de lise tumoral e integrar o tratamento da hipercalemia aos demais distúrbios metabólicos, evitando intervenções potencialmente prejudiciais.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "understand_hyperuricemia_aki"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque reconhecer a síndrome de lise tumoral e integrar o tratamento da hipercalemia aos demais distúrbios metabólicos, evitando intervenções potencialmente prejudiciais.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        }
+      ],
+      "clinical_pearl": "> Na síndrome de lise tumoral, tratar um eletrólito sem considerar os demais pode criar outro problema. O cálcio pode ser indispensável para proteger o coração na hipercalemia, mas sua reposição indiscriminada diante da hiperfosfatemia pode ser prejudicial.",
+      "references": [
+        "*Tumor lysis syndrome: Definition, pathogenesis, clinical manifestations, etiology and risk factors*. UpToDate.",
+        "*Tumor lysis syndrome: Prevention and treatment*. UpToDate.",
+        "Cairo MS, Bishop M. *Tumour lysis syndrome: new therapeutic strategies and classification*. British Journal of Haematology."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "tumor_lysis_syndrome",
+        "clinical_context": "oncology_emergency",
+        "urgency_level": "urgent_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "recognize_tumor_lysis_syndrome",
+        "secondary_competencies": [
+          "recognize_cell_lysis_potassium_release",
+          "integrate_tumor_lysis_electrolytes",
+          "understand_hyperuricemia_aki",
+          "distinguish_cardiac_calcium_from_hypocalcemia_replacement",
+          "recognize_tumor_lysis_dialysis_indications"
+        ],
+        "learning_objectives": [
+          "Reconhecer síndrome de lise tumoral e integrar o manejo de seus distúrbios metabólicos."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_safety",
+        "arena_skill_ids": [
+          "recognize_tumor_lysis_syndrome",
+          "recognize_cell_lysis_potassium_release",
+          "integrate_tumor_lysis_electrolytes",
+          "understand_hyperuricemia_aki",
+          "distinguish_cardiac_calcium_from_hypocalcemia_replacement",
+          "recognize_tumor_lysis_dialysis_indications"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "recognize",
+          "tumor",
+          "lysis",
+          "syndrome"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "recognize_tumor_lysis_syndrome",
+          "recognize_cell_lysis_potassium_release",
+          "integrate_tumor_lysis_electrolytes",
+          "understand_hyperuricemia_aki",
+          "distinguish_cardiac_calcium_from_hypocalcemia_replacement",
+          "recognize_tumor_lysis_dialysis_indications"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "cursoId": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+  "cursoOrigem": "Tratamento da Hipercalemia em Adultos",
+  "bancoOrigem": "AgoraQuiz Hipercalemia",
+  "bloco": "03",
+  "temaEditorial": "Cálcio intravenoso e estabilização cardíaca",
+  "questoes": [
+    {
+      "id": "aqz-hiper-011",
+      "numero": 11,
+      "titulo": "POTÁSSIO DE 7,0 E ECG NORMAL: ADMINISTRAR CÁLCIO?",
+      "dificuldade": "Avançada.",
+      "competenciaPrincipal": "Decidir sobre a indicação de cálcio intravenoso em hipercalemia grave sem alterações eletrocardiográficas.",
+      "competenciasSecundarias": "Estratificação de risco; interpretação de recomendações científicas; reconhecimento de divergência entre especialistas; tratamento emergencial.",
+      "eixoTematico": "Indicação terapêutica e análise de recomendações.",
+      "categoria": "Cálcio intravenoso e estabilização cardíaca",
+      "subtemas": "Estratificação de risco; interpretação de recomendações científicas; reconhecimento de divergência entre especialistas; tratamento emergencial.",
+      "aulasRelacionadas": [
+        {
+          "numero": 10,
+          "aulaId": "b9426387-fb4c-42f8-a546-3d6cb2c8b729",
+          "moduloId": "787d750b-0433-41be-9a36-08e17acc671c"
+        },
+        {
+          "numero": 11,
+          "aulaId": "6ffea441-00a6-4415-a826-415317082d35",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 12,
+          "aulaId": "57d7dc97-84d2-494f-9d89-ae9745a8eaf9",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        }
+      ],
+      "tipo": "Caso clínico de decisão terapêutica.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0.",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 69 anos, com doença renal crônica estágio G4, procura a emergência por fraqueza progressiva e oligúria.\n\nApresenta:\n\n- PA: 136/84 mmHg.\n- FC: 82 bpm.\n- Potássio: 7,0 mEq/L, confirmado em amostra sem hemólise.\n- Creatinina: 4,2 mg/dL.\n- ECG: ritmo sinusal, ondas P preservadas e QRS estreito, sem alterações típicas de hipercalemia.\n\nA equipe concorda que o paciente necessita de tratamento emergencial, mas discute especificamente a administração de cálcio intravenoso.\n\n**Qual afirmação representa melhor a evidência e a conduta?**",
+      "alternativas": {
+        "A": "O cálcio está absolutamente contraindicado na ausência de alterações eletrocardiográficas, independentemente do potássio.",
+        "B": "O ECG normal exclui a necessidade de qualquer tratamento imediato, permitindo apenas observação.",
+        "C": "Existe divergência entre especialistas sobre administrar cálcio quando o potássio ultrapassa 6,5 mEq/L sem alterações no ECG; algumas recomendações favorecem sua administração, enquanto outras o reservam para alterações elétricas. Isso não modifica a necessidade de tratamento emergencial da hipercalemia.",
+        "D": "A administração de cálcio é suficiente para normalizar o potássio, dispensando insulina e estratégias de remoção.\n\n**GABARITO: C**"
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. O paciente apresenta emergência hipercalêmica?**\n\nSim. O potássio de 7,0 mEq/L, confirmado, caracteriza hipercalemia grave e exige abordagem rápida, independentemente do ECG normal.\n\n**2. Por que existe discussão sobre o cálcio?**\n\nPorque a indicação de estabilização cardíaca profilática na ausência de alterações eletrocardiográficas não é uniforme entre especialistas.\n\n**3. Qual é a posição descrita no UpToDate?**\n\nO texto apresenta a administração de cálcio em pacientes com potássio acima de 6,5 mEq/L, em consonância com recomendações de especialistas do KDIGO, mas reconhece que outros especialistas reservam o cálcio para alterações eletrocardiográficas.\n\n**4. Por que o ECG normal não resolve a discussão?**\n\nPorque ele não exclui risco elétrico. Entretanto, isso não significa que todas as recomendações adotem exatamente o mesmo limiar para cálcio.\n\n**5. O cálcio modifica a concentração sérica de potássio?**\n\nNão. Seu objetivo é antagonizar os efeitos cardíacos da hipercalemia, e não eliminar ou redistribuir potássio.\n\n**6. O que deve ser feito independentemente da decisão sobre cálcio?**\n\nMonitorização cardíaca, medidas rápidas de redução do potássio extracelular, avaliação da função renal, planejamento de remoção efetiva e correção de fatores precipitantes.\n\n**7. Qual é a competência central?**\n\nDistinguir uma divergência legítima sobre uma intervenção específica da necessidade inequívoca de tratar a emergência hipercalêmica.",
+      "comentarios": {
+        "A": "Não existe contraindicação absoluta baseada exclusivamente no ECG normal. Há recomendações que incluem cálcio na hipercalemia grave mesmo sem alterações elétricas.",
+        "B": "O ECG normal não exclui emergência hipercalêmica nem autoriza adiar o tratamento.",
+        "C": "Reconhece a divergência entre especialistas e preserva a prioridade do tratamento emergencial.",
+        "D": "O cálcio não reduz o potássio sérico e não substitui as medidas de redistribuição e remoção."
+      },
+      "perola": "Na hipercalemia grave com ECG normal, pode haver discussão sobre o cálcio. Não deve haver discussão sobre a necessidade de tratar rapidamente o potássio.",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeção: Patients with a hyperkalemic emergency.\n\nDiscussão sobre cálcio e recomendações KDIGO.\n\n---"
+    },
+    {
+      "id": "aqz-hiper-012",
+      "numero": 12,
+      "titulo": "GLUCONATO OU CLORETO DE CÁLCIO?",
+      "dificuldade": "Intermediária.",
+      "competenciaPrincipal": "Escolher adequadamente entre gluconato e cloreto de cálcio.",
+      "competenciasSecundarias": "Cálcio elementar; formulações; acesso venoso; segurança medicamentosa; prevenção de extravasamento.",
+      "eixoTematico": "Formulações e segurança da administração.",
+      "categoria": "Cálcio intravenoso e estabilização cardíaca",
+      "subtemas": "Cálcio elementar; formulações; acesso venoso; segurança medicamentosa; prevenção de extravasamento.",
+      "aulasRelacionadas": [
+        {
+          "numero": 11,
+          "aulaId": "6ffea441-00a6-4415-a826-415317082d35",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 12,
+          "aulaId": "57d7dc97-84d2-494f-9d89-ae9745a8eaf9",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 13,
+          "aulaId": "744bc45c-cae3-42d5-a7aa-9b9ca0e85044",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        }
+      ],
+      "tipo": "Caso clínico de escolha farmacológica.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0.",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Uma mulher de 71 anos, com doença renal crônica, apresenta potássio de 6,9 mEq/L e ECG com alargamento do QRS.\n\nA equipe decide administrar cálcio intravenoso. A paciente possui acesso venoso periférico calibroso e funcionante, mas ainda não possui acesso venoso central.\n\nEstão disponíveis ampolas de gluconato de cálcio a 10% e cloreto de cálcio a 10%.\n\nUm profissional sugere que ambas as soluções são equivalentes quando administradas no mesmo volume.\n\n**Qual é a afirmação mais adequada?**",
+      "alternativas": {
+        "A": "O cloreto de cálcio a 10% contém aproximadamente três vezes mais cálcio elementar que o gluconato de cálcio a 10% no mesmo volume; o gluconato costuma ser preferido por via periférica pelo menor risco de lesão local.",
+        "B": "O gluconato de cálcio contém aproximadamente três vezes mais cálcio elementar que o cloreto de cálcio e deve ser administrado exclusivamente por acesso central.",
+        "C": "As duas formulações possuem a mesma quantidade de cálcio elementar por mililitro, sendo intercambiáveis sem ajuste.",
+        "D": "O cloreto de cálcio não apresenta risco de lesão tecidual em caso de extravasamento, sendo a opção preferencial para qualquer acesso periférico.\n\n**GABARITO: A**"
+      },
+      "gabarito": "A",
+      "raciocinioClinico": "**1. Gluconato e cloreto têm o mesmo objetivo?**\n\nSim. Ambos fornecem cálcio intravenoso para antagonizar os efeitos cardíacos da hipercalemia.\n\n**2. As concentrações de cálcio elementar são iguais?**\n\nNão. Em 10 mL de solução a 10%, o cloreto fornece aproximadamente 13,6 mEq de cálcio, enquanto o gluconato fornece cerca de 4,6 mEq.\n\n**3. Por que isso importa?**\n\nPorque volumes iguais não correspondem a quantidades equivalentes de cálcio elementar. Confundir as formulações pode provocar erro de dose.\n\n**4. Qual é a vantagem prática do gluconato?**\n\nO gluconato geralmente provoca menor irritação local, sendo habitualmente preferido quando o acesso disponível é periférico.\n\n**5. Qual é a principal preocupação com o cloreto?**\n\nSua maior irritação venosa e o risco de lesão tecidual importante, inclusive necrose, caso ocorra extravasamento.\n\n**6. Qual acesso é preferível para o cloreto?**\n\nAcesso central ou veia profunda, conforme a situação clínica e o protocolo institucional. A necessidade de estabilização cardíaca não deve ser ignorada enquanto a equipe avalia a via mais segura disponível.\n\n**7. Quais doses são descritas no material-base?**\n\nGluconato de cálcio 1.000 mg (10 mL a 10%) ou cloreto de cálcio 500–1.000 mg (5–10 mL a 10%), administrados em dois a três minutos sob monitorização cardíaca contínua.\n\n**8. Essas doses significam equivalência exata?**\n\nNão. As faixas descritas são esquemas terapêuticos, não uma afirmação de que 10 mL de cada produto tenham a mesma quantidade de cálcio elementar.\n\n**9. Qual cuidado é essencial na administração?**\n\nConferir o sal, a concentração, a dose, o acesso e a monitorização. A prescrição deve identificar claramente a formulação.\n\n**10. Qual é a principal lição?**\n\nNa estabilização cardíaca, a escolha da formulação envolve eficácia, conteúdo de cálcio elementar e segurança da via de administração.",
+      "comentarios": {
+        "A": "Reconhece a diferença de cálcio elementar e o menor potencial de lesão local do gluconato em comparação ao cloreto.",
+        "B": "Inverte a relação de concentração entre as formulações e atribui incorretamente ao gluconato a exigência de acesso central.",
+        "C": "Soluções a 10% de sais diferentes não possuem necessariamente a mesma quantidade de cálcio elementar.",
+        "D": "O cloreto de cálcio é particularmente irritante, e seu extravasamento pode causar necrose tecidual."
+      },
+      "perola": "Gluconato de cálcio a 10% e cloreto de cálcio a 10% não são equivalentes mililitro por mililitro. Confira sempre o sal, a dose e o acesso venoso.",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeção: Calcium.\n\n---"
+    },
+    {
+      "id": "aqz-hiper-013",
+      "numero": 13,
+      "titulo": "O QRS CONTINUA LARGO APÓS O CÁLCIO",
+      "dificuldade": "Avançada.",
+      "competenciaPrincipal": "Reconhecer a necessidade de repetir cálcio intravenoso após resposta insuficiente.",
+      "competenciasSecundarias": "Reavaliação eletrocardiográfica; persistência de toxicidade; duração de ação; monitorização; tratamento concomitante.",
+      "eixoTematico": "Repetição de cálcio e resposta eletrocardiográfica.",
+      "categoria": "Cálcio intravenoso e estabilização cardíaca",
+      "subtemas": "Reavaliação eletrocardiográfica; persistência de toxicidade; duração de ação; monitorização; tratamento concomitante.",
+      "aulasRelacionadas": [
+        {
+          "numero": 11,
+          "aulaId": "6ffea441-00a6-4415-a826-415317082d35",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 12,
+          "aulaId": "57d7dc97-84d2-494f-9d89-ae9745a8eaf9",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 13,
+          "aulaId": "744bc45c-cae3-42d5-a7aa-9b9ca0e85044",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        }
+      ],
+      "tipo": "Caso clínico de reavaliação terapêutica.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0.",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 58 anos, em hemodiálise, chega à emergência com potássio de 7,8 mEq/L, bradicardia e QRS acentuadamente alargado.\n\nRecebe 10 mL de gluconato de cálcio a 10% por via intravenosa, em dois a três minutos, sob monitorização contínua.\n\nCinco minutos após a administração, o ECG permanece com alargamento importante do QRS.\n\nA equipe já iniciou medidas para redistribuir potássio e organiza hemodiálise urgente.\n\n**Qual é a conduta mais adequada em relação ao cálcio?**",
+      "alternativas": {
+        "A": "Não repetir a administração, pois uma dose de cálcio elimina definitivamente o risco elétrico, mesmo quando o ECG permanece alterado.",
+        "B": "Aguardar obrigatoriamente 60 minutos antes de qualquer nova dose, independentemente da persistência das alterações eletrocardiográficas.",
+        "C": "Administrar doses repetidas de cálcio continuamente, sem avaliação eletrocardiográfica ou preocupação com hipercalcemia.",
+        "D": "Reavaliar a resposta elétrica e considerar repetir a dose de cálcio após cinco minutos diante da persistência das alterações, mantendo monitorização e as medidas para redução e remoção do potássio.\n\n**GABARITO: D**"
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. Qual é o problema imediato?**\n\nO paciente permanece com alterações graves de condução, apesar da primeira dose de cálcio.\n\n**2. Qual é o objetivo do cálcio?**\n\nAntagonizar os efeitos da hipercalemia sobre a membrana cardíaca, buscando reduzir o risco elétrico imediato.\n\n**3. Em quanto tempo esperamos observar seu efeito?**\n\nO início da ação ocorre em minutos. Por isso, a reavaliação precoce do ECG é fundamental.\n\n**4. O que significa persistência do QRS largo?**\n\nPode indicar toxicidade elétrica ainda importante e resposta insuficiente à estabilização inicial.\n\n**5. Quando considerar nova dose?**\n\nO UpToDate descreve que a dose de gluconato ou cloreto pode ser repetida após cinco minutos quando as alterações eletrocardiográficas persistem ou recorrem.\n\n**6. É necessário esperar o potássio diminuir para repetir o cálcio?**\n\nNão. A decisão de repetir a estabilização cardíaca pode ser orientada pela persistência das manifestações elétricas, enquanto as medidas para reduzir o potássio seguem em paralelo.\n\n**7. O cálcio pode ser repetido indefinidamente sem controle?**\n\nNão. É necessário considerar a resposta clínica e eletrocardiográfica, a exposição cumulativa e o risco de elevação excessiva do cálcio sérico.\n\n**8. Qual é a duração do efeito?**\n\nAproximadamente 30 a 60 minutos, segundo o material-base. Portanto, mesmo após melhora inicial, a toxicidade elétrica pode retornar se a hipercalemia persistir.\n\n**9. Como diferenciar repetição precoce e nova administração posterior?**\n\nA repetição precoce pode ser necessária quando o ECG não melhora adequadamente. Doses posteriores podem ser consideradas se a emergência persistir ou as alterações retornarem.\n\n**10. Por que não basta repetir o cálcio?**\n\nPorque ele não reduz a concentração sérica de potássio. A insulina com glicose e as estratégias de remoção continuam essenciais.\n\n**11. Qual é a prioridade neste paciente dialítico?**\n\nProteger o coração imediatamente enquanto se organiza a remoção efetiva de potássio, particularmente por hemodiálise.\n\n**12. Qual é a competência avaliada?**\n\nReavaliar a resposta terapêutica e reconhecer quando uma intervenção inicial precisa ser repetida, sem confundi-la com o tratamento definitivo.",
+      "comentarios": {
+        "A": "Uma dose de cálcio não garante estabilização suficiente nem proteção permanente, sobretudo quando o ECG continua alterado.",
+        "B": "O material-base admite repetição após cinco minutos quando as alterações persistem ou retornam.",
+        "C": "A repetição precisa ser acompanhada de reavaliação e monitorização. A administração indiscriminada aumenta o risco de complicações.",
+        "D": "Integra reavaliação precoce, possibilidade de repetição, monitorização e continuidade do tratamento da hipercalemia."
+      },
+      "perola": "O cálcio foi administrado, mas o QRS continua largo? A intervenção não terminou com a ampola. Reavalie o ECG, considere repetir a dose e mantenha o tratamento para reduzir e remover potássio.",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeção: Calcium.\n\nInclui repetição após cinco minutos e duração do efeito.\n\n---"
+    },
+    {
+      "id": "aqz-hiper-014",
+      "numero": 14,
+      "titulo": "UM ERRO DE ADMINISTRAÇÃO QUE PODE CAUSAR NECROSE",
+      "dificuldade": "Intermediária.",
+      "competenciaPrincipal": "Prevenir complicações da administração intravenosa de cálcio.",
+      "competenciasSecundarias": "Extravasamento; necrose tecidual; compatibilidade de soluções; acesso venoso; segurança medicamentosa.",
+      "eixoTematico": "Segurança medicamentosa e compatibilidade.",
+      "categoria": "Cálcio intravenoso e estabilização cardíaca",
+      "subtemas": "Extravasamento; necrose tecidual; compatibilidade de soluções; acesso venoso; segurança medicamentosa.",
+      "aulasRelacionadas": [
+        {
+          "numero": 11,
+          "aulaId": "6ffea441-00a6-4415-a826-415317082d35",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 12,
+          "aulaId": "57d7dc97-84d2-494f-9d89-ae9745a8eaf9",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 13,
+          "aulaId": "744bc45c-cae3-42d5-a7aa-9b9ca0e85044",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        }
+      ],
+      "tipo": "Caso clínico de prevenção de erro medicamentoso.",
+      "statusEditorial": "Aprovada.",
+      "versao": "1.0.",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 66 anos, com hipercalemia grave e alterações eletrocardiográficas, está recebendo tratamento na sala de emergência.\n\nA equipe dispõe de cloreto de cálcio a 10% e de gluconato de cálcio a 10%.\n\nO paciente possui acesso periférico em uma pequena veia do dorso da mão. Também está prescrita infusão de bicarbonato de sódio por acidose metabólica, conforme avaliação clínica.\n\nDurante a preparação dos medicamentos, um profissional sugere utilizar a mesma solução contendo bicarbonato para administrar o cálcio, economizando tempo.\n\n**Qual conduta reduz melhor os riscos associados à administração do cálcio?**",
+      "alternativas": {
+        "A": "Misturar o cálcio à solução contendo bicarbonato, pois essa associação impede a precipitação de sais.",
+        "B": "Preferir cloreto de cálcio na pequena veia do dorso da mão, pois seu maior conteúdo de cálcio elementar elimina o risco de extravasamento.",
+        "C": "Reconhecer o risco de lesão tecidual por extravasamento, especialmente com cloreto de cálcio; selecionar uma via apropriada, considerar gluconato por acesso periférico adequado e não misturar cálcio a soluções contendo bicarbonato.",
+        "D": "Administrar cálcio sem verificar a formulação ou a permeabilidade do acesso, pois qualquer atraso na preparação é mais perigoso do que possíveis complicações locais.\n\n**GABARITO: C**"
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. Por que a administração de cálcio exige cuidado com o acesso?**\n\nSoluções concentradas de cálcio são irritantes para os tecidos e podem causar lesão importante quando extravasam.\n\n**2. Qual formulação apresenta maior preocupação local?**\n\nO cloreto de cálcio, particularmente pela irritação venosa e pelo risco de necrose tecidual.\n\n**3. Qual via é preferível para o cloreto?**\n\nO material-base recomenda preferencialmente acesso central ou veia profunda.\n\n**4. O gluconato pode ser administrado perifericamente?**\n\nSim. O material descreve seu uso periférico, idealmente em veia calibrosa com cateter apropriado e acesso funcionante.\n\n**5. Uma pequena veia do dorso da mão é a melhor escolha?**\n\nNão. Quando possível, deve-se escolher uma veia mais adequada e reduzir o risco de extravasamento.\n\n**6. Por que não misturar cálcio com bicarbonato?**\n\nPorque a associação pode provocar precipitação de carbonato de cálcio.\n\n**7. Qual é a consequência prática dessa incompatibilidade?**\n\nOs medicamentos não devem ser misturados na mesma solução. A equipe precisa avaliar a compatibilidade da via e seguir os procedimentos institucionais para administração segura.\n\n**8. O risco de extravasamento significa que devemos atrasar indefinidamente o cálcio?**\n\nNão. Em emergência hipercalêmica com manifestações cardíacas, a estabilização é urgente. A equipe deve providenciar rapidamente a via mais segura disponível.\n\n**9. O que fazer se houver suspeita de extravasamento?**\n\nInterromper a administração pelo acesso comprometido e iniciar imediatamente a avaliação e o protocolo institucional de manejo de extravasamento.\n\n**10. Qual é o erro conceitual da equipe?**\n\nConfundir rapidez com ausência de verificação. Uma intervenção emergencial deve ser rápida, mas também precisa considerar concentração, compatibilidade e segurança da via.\n\n**11. Qual é a competência principal?**\n\nPrevenir danos evitáveis durante a estabilização cardíaca, reconhecendo que a segurança da administração faz parte da conduta terapêutica.",
+      "comentarios": {
+        "A": "O bicarbonato pode reagir com cálcio, produzindo precipitação de carbonato de cálcio.",
+        "B": "O maior conteúdo de cálcio elementar não elimina o risco de extravasamento. O cloreto apresenta maior potencial de irritação e lesão tecidual.",
+        "C": "Reúne os cuidados com formulação, acesso, extravasamento e incompatibilidade com bicarbonato.",
+        "D": "A urgência não elimina a necessidade de conferir o medicamento e a segurança da administração."
+      },
+      "perola": "Na emergência, a administração precisa ser rápida, não descuidada. Cloreto de cálcio pode causar necrose por extravasamento, e cálcio não deve ser misturado a soluções contendo bicarbonato.",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeção: Calcium.\n\nRiscos de extravasamento e precipitação de carbonato de cálcio.\n\n---"
+    },
+    {
+      "id": "aqz-hiper-015",
+      "numero": 15,
+      "titulo": "HIPERCALEMIA GRAVE EM UM PACIENTE QUE UTILIZA DIGOXINA",
+      "dificuldade": "Avançada.",
+      "competenciaPrincipal": "Manejar a indicação de cálcio intravenoso em paciente que utiliza digoxina.",
+      "competenciasSecundarias": "Toxicidade digitálica; farmacologia; alterações eletrocardiográficas; função renal; decisão terapêutica em situação especial.",
+      "eixoTematico": "Situações especiais e digoxina.",
+      "categoria": "Cálcio intravenoso e estabilização cardíaca",
+      "subtemas": "Toxicidade digitálica; farmacologia; alterações eletrocardiográficas; função renal; decisão terapêutica em situação especial.",
+      "aulasRelacionadas": [
+        {
+          "numero": 11,
+          "aulaId": "6ffea441-00a6-4415-a826-415317082d35",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 12,
+          "aulaId": "57d7dc97-84d2-494f-9d89-ae9745a8eaf9",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 13,
+          "aulaId": "744bc45c-cae3-42d5-a7aa-9b9ca0e85044",
+          "moduloId": "ba715c22-8cc0-49fc-8c06-987b01a76d61"
+        },
+        {
+          "numero": 29,
+          "aulaId": "5e4e4643-e6c6-4732-b069-b9d0479377e6",
+          "moduloId": "09f41441-7485-4722-a595-56106a808f3f"
+        }
+      ],
+      "tipo": "Caso clínico integrador de farmacologia e tratamento emergencial.",
+      "statusEditorial": "Aprovada, com verificação científica específica recomendada.",
+      "versao": "1.0.",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 78 anos, com fibrilação atrial e insuficiência cardíaca, utiliza digoxina regularmente.\n\nProcura a emergência por fraqueza e redução da diurese. Apresenta doença renal crônica e piora recente da função renal.\n\nNa avaliação:\n\n- PA: 108/64 mmHg.\n- FC: 48 bpm.\n- Potássio: 7,1 mEq/L.\n- Creatinina: 3,8 mg/dL.\n- ECG: bradicardia, redução da amplitude das ondas P e QRS alargado.\n\nA equipe considera administrar cálcio intravenoso, mas um profissional afirma que o uso de digoxina torna o cálcio absolutamente contraindicado em qualquer circunstância.\n\nNão há, até o momento, confirmação de intoxicação digitálica aguda.\n\n**Qual é a interpretação mais adequada?**",
+      "alternativas": {
+        "A": "O uso de digoxina contraindica absolutamente o cálcio intravenoso, mesmo diante de hipercalemia com alterações eletrocardiográficas graves.",
+        "B": "A presença de digoxina elimina a necessidade de tratar a hipercalemia, pois o medicamento protege o coração contra os efeitos do potássio.",
+        "C": "O cálcio deve ser administrado em dose ilimitada e rapidamente, sem considerar a possibilidade de toxicidade digitálica.",
+        "D": "O uso de digoxina, isoladamente, não constitui contraindicação absoluta ao cálcio em hipercalemia com manifestações elétricas graves; é necessário avaliar possível toxicidade digitálica, considerar cuidados específicos de administração e tratar simultaneamente a emergência.\n\n**GABARITO: D**"
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. Por que existe preocupação com cálcio em pacientes que usam digoxina?**\n\nHistoricamente, foi levantada a possibilidade de potencialização da cardiotoxicidade digitálica, especialmente na presença de hipercalcemia.\n\n**2. Isso significa contraindicação absoluta?**\n\nNão. O material-base orienta que pacientes em uso de digitálicos podem receber cálcio pelas mesmas indicações de outros pacientes, incluindo alterações graves de condução associadas à hipercalemia.\n\n**3. Qual é a diferença entre usar digoxina e apresentar intoxicação digitálica?**\n\nO uso regular não comprova intoxicação. Toxicidade deve ser avaliada com base na história, função renal, sintomas, ECG e exames pertinentes.\n\n**4. Por que a função renal importa?**\n\nA disfunção renal pode aumentar o risco de acúmulo de digoxina e também comprometer a excreção de potássio.\n\n**5. O que o ECG sugere neste caso?**\n\nA combinação de QRS alargado e redução das ondas P, em contexto de hipercalemia grave, exige reconhecimento de possível toxicidade cardíaca.\n\n**6. O cálcio deve ser simplesmente omitido por causa da digoxina?**\n\nNão. O risco de deixar de estabilizar uma emergência elétrica precisa ser considerado.\n\n**7. Existe cuidado específico descrito na referência?**\n\nSim. Para pacientes tratados com digitálicos, o UpToDate descreve uma alternativa de administração mais lenta e diluída de gluconato de cálcio, buscando evitar hipercalcemia aguda.\n\n**8. Qual é o esquema citado?**\n\nO material descreve 10 mL de gluconato de cálcio a 10%, diluídos em 100 mL de glicose a 5%, administrados em 20 a 30 minutos nesse contexto específico. A aplicação clínica depende da avaliação da gravidade e da suspeita de toxicidade.\n\n**9. E se houver suspeita de intoxicação digitálica aguda?**\n\nA situação exige avaliação específica e urgente. Quando há intoxicação digitálica grave, anticorpos específicos antidigoxina podem ser fundamentais, e a decisão sobre cálcio deve considerar essa condição particular.\n\n**10. O cálcio substitui o tratamento da hipercalemia?**\n\nNão. A redistribuição e a remoção de potássio continuam necessárias.\n\n**11. Qual é o cuidado pedagógico mais importante?**\n\nNão transformar uma precaução histórica em contraindicação absoluta, nem transformar a ausência de contraindicação absoluta em autorização para administrar cálcio sem avaliar o contexto.\n\n**12. Qual é a principal competência?**\n\nTomar decisões diante de uma interação farmacológica potencialmente relevante, distinguindo o uso habitual de digoxina de intoxicação digitálica.",
+      "comentarios": {
+        "A": "O uso de digoxina, isoladamente, não estabelece contraindicação absoluta ao cálcio intravenoso quando há indicações de estabilização cardíaca.",
+        "B": "A digoxina não protege contra a toxicidade cardíaca da hipercalemia.",
+        "C": "A administração indiscriminada de cálcio não é adequada. A formulação, a dose, a velocidade e a possibilidade de toxicidade digitálica precisam ser consideradas.",
+        "D": "Reconhece a ausência de contraindicação absoluta pelo simples uso de digoxina e a necessidade de avaliar toxicidade e administrar tratamento apropriado à emergência."
+      },
+      "perola": "Uso de digoxina não é sinônimo de intoxicação digitálica. Na hipercalemia grave, não transforme uma precaução em contraindicação absoluta — mas investigue cuidadosamente a possibilidade de toxicidade.",
+      "referencias": "UpToDate — *Treatment and prevention of hyperkalemia in adults*.\n\nSeção: Calcium.\n\nConsiderações sobre pacientes tratados com digitálicos.",
+      "observacaoCientificaEditorial": "A referência principal descreve administração de cálcio em pacientes tratados com digitálicos, mas a decisão clínica pode ser diferente quando existe intoxicação digitálica aguda.\n\nVerificar especificamente:\n\n- Uso habitual de digoxina versus intoxicação aguda.\n- Hipercalemia decorrente de insuficiência renal versus hipercalemia relacionada à intoxicação digitálica.\n- Indicações de anticorpos específicos antidigoxina.\n- Precauções relativas ao cálcio.\n- Compatibilidade do esquema de administração com a urgência clínica.\n- Atualidade das recomendações.\n\nNão transformar o esquema lento descrito na referência em recomendação universal para qualquer emergência com instabilidade elétrica.\n\nNão alterar silenciosamente o conteúdo aprovado. Registrar qualquer divergência para revisão do responsável pedagógico.\n\n---\n\n# 5. METADADOS OBRIGATÓRIOS\n\nCada questão deve possuir:\n\n- `question_id`: identificador estável e único.\n- `source_bank`: AgoraQuiz.\n- `source_course`: Tratamento da Hipercalemia em Adultos.\n- `course_id`: ID real existente no banco de dados.\n- `block_number`: 3.\n- `question_number`: 11, 12, 13, 14 ou 15.\n- `title`: título completo.\n- `primary_competency`: competência principal.\n- `secondary_competencies`: lista de competências secundárias.\n- `topic`: eixo temático.\n- `difficulty`: intermediária ou avançada.\n- `question_type`: caso clínico.\n- `related_lessons`: IDs reais das aulas relacionadas.\n- `stem`: enunciado integral.\n- `alternatives`: quatro alternativas completas.\n- `correct_answer`: gabarito.\n- `clinical_reasoning`: todos os tópicos numerados.\n- `alternative_feedback`: comentários individuais A, B, C e D.\n- `clinical_pearl`: Pérola do Plantão.\n- `references`: referências científicas.\n- `editorial_status`: aprovado.\n- `version`: 1.0.\n- `scientific_review_status`: estado real da verificação científica.\n- `created_at`: data real de cadastro.\n- `updated_at`: data real da última alteração.\n\nUtilizar a nomenclatura real da aplicação, se já existir um esquema equivalente.\n\nNão duplicar campos desnecessariamente.\n\nNão inventar datas de revisão, nomes de revisores ou certificações científicas.\n\n## Matriz de integração futura\n\n| Questão | Eixo | Aulas propostas |\n|---|---|---|\n| 011 | Indicação de cálcio e recomendações | 09, 10, 11, 12 |\n| 012 | Formulações e segurança | 11, 12, 13 |\n| 013 | Repetição e resposta elétrica | 11, 12, 13 |\n| 014 | Administração e compatibilidade | 11, 12, 13 |\n| 015 | Digoxina e situações especiais | 11, 12, 13, 29 |\n\nEsses vínculos são provisórios.\n\nConferir a correspondência com as 34 aulas reais antes de gravar os relacionamentos.\n\n---\n\n# 6. PREPARAÇÃO PARA O AGORAARENA\n\nO AgoraArena será implementado futuramente como ambiente de questões e simulados multidisciplinares.\n\nPreparar a estrutura para que as questões do AgoraQuiz possam ser reutilizadas sem duplicação.\n\nRequisitos:\n\n1. Identidade persistente independente da sessão.\n2. Metadados de competências e dificuldade.\n3. Identificação do curso e banco de origem.\n4. Possibilidade de inclusão em simulados multidisciplinares.\n5. Separação entre questão, sessão e tentativa.\n6. Histórico individual por usuário.\n7. Identificação da modalidade em que cada tentativa ocorreu.\n8. Compatibilidade com futuras análises de desempenho.\n9. Possibilidade de versionamento editorial.\n10. Preservação da autoria e das referências.\n\n**Não implementar telas, rankings, desafios ou funcionalidades do AgoraArena agora.**\n\n---\n\n# 7. INTEGRAÇÃO COM O CADERNO DE ERROS\n\nReutilizar a estrutura existente.\n\nNão criar um segundo Caderno de Erros.\n\nRegistrar:\n\n- Usuário.\n- Questão.\n- Curso.\n- Banco de origem.\n- Modalidade.\n- Sessão.\n- Alternativa selecionada.\n- Gabarito.\n- Resultado.\n- Data da tentativa.\n- Estado de revisão.\n\nPreservar os estados:\n\n- Precisa revisar.\n- Em revisão.\n- Dominada.\n\nPreservar a regra de **duas respostas corretas consecutivas durante a revisão** para que uma questão seja considerada Dominada.\n\nUma resposta incorreta reinicia a sequência de acertos de revisão.\n\nEvitar duplicação de registros principais de uma mesma questão para o mesmo aluno.\n\nPreservar o histórico de tentativas.\n\nGarantir isolamento entre usuários.\n\n---\n\n# 8. MODO ESTUDO\n\nO aluno deverá:\n\n1. Visualizar o enunciado completo.\n2. Selecionar uma alternativa.\n3. Confirmar a resposta.\n4. Receber indicação de acerto ou erro.\n5. Visualizar o gabarito.\n6. Ler todos os tópicos de raciocínio clínico.\n7. Consultar os comentários de cada alternativa.\n8. Ler a Pérola do Plantão.\n9. Consultar as referências.\n10. Avançar para a próxima questão.\n\nNão permitir alteração da resposta após a confirmação daquela tentativa.\n\nO conteúdo explicativo deverá ser integralmente acessível.\n\nPode-se utilizar seções expansíveis para organizar o feedback, desde que nenhum texto seja omitido.\n\n---\n\n# 9. MODO SIMULADO\n\nPreservar as regras já implementadas.\n\nRequisitos:\n\n- Não revelar gabaritos durante a resolução.\n- Não exibir explicações antes da finalização.\n- Permitir navegação entre questões.\n- Permitir revisão de respostas antes do encerramento.\n- Calcular o resultado corretamente.\n- Disponibilizar revisão completa após a conclusão.\n- Registrar a modalidade da tentativa.\n- Não repetir questões na mesma sessão.\n\nAs novas questões deverão ficar disponíveis no banco do curso, respeitando as regras atuais de seleção e acesso.\n\nNão criar um novo modo de simulado sem necessidade.\n\n---\n\n# 10. IDENTIDADE VISUAL\n\nPreservar o padrão visual existente do AgoraMed.\n\nCores institucionais de referência:\n\n- Azul-petróleo: `#346f77`.\n- Cinza: `#808080`.\n- Branco suave: `#F5F5F5`.\n\nO curso de hipercalemia também utiliza detalhes em violeta e superfícies escuras.\n\nPriorizar os tokens já existentes no projeto.\n\nNão introduzir uma identidade visual paralela.\n\nA interface deverá funcionar adequadamente em desktop e dispositivos móveis.\n\nGarantir contraste, legibilidade, navegação por teclado e indicação acessível das respostas.\n\n---\n\n# 11. AUDITORIA CIENTÍFICA\n\nReferência principal:\n\n**UpToDate — Treatment and prevention of hyperkalemia in adults.**\n\nVerificar:\n\n1. Indicação de cálcio com alterações eletrocardiográficas.\n2. Divergência sobre cálcio na hipercalemia grave com ECG normal.\n3. Conteúdo de cálcio elementar no gluconato e no cloreto.\n4. Doses descritas para as formulações.\n5. Tempo de administração.\n6. Início de ação.\n7. Duração do efeito.\n8. Repetição após cinco minutos.\n9. Repetição posterior se a emergência persistir.\n10. Risco de hipercalcemia.\n11. Extravasamento e necrose.\n12. Preferência de acesso para cloreto de cálcio.\n13. Administração periférica de gluconato.\n14. Incompatibilidade com bicarbonato.\n15. Uso de cálcio em pacientes tratados com digoxina.\n16. Diferença entre uso habitual e intoxicação digitálica.\n17. Indicações de anticorpos antidigoxina.\n18. Necessidade de redistribuição e remoção do potássio.\n\nA questão 015 merece revisão científica específica antes da publicação definitiva.\n\nCaso alguma referência não esteja acessível, informar a limitação. Não afirmar que a conferência foi realizada.\n\nCaso sejam identificadas divergências relevantes, documentá-las sem modificar automaticamente o conteúdo aprovado.\n\n---\n\n# 12. AUDITORIA PEDAGÓGICA\n\nVerificar:\n\n- Cinco questões completas.\n- Enunciados íntegros.\n- Quatro alternativas por questão.\n- Um único gabarito.\n- Distribuição de dificuldade preservada.\n- Todos os tópicos numerados.\n- Comentários individuais de A, B, C e D.\n- Cinco Pérolas do Plantão.\n- Referências científicas cadastradas.\n- Metadados completos.\n- Coerência entre competência e caso clínico.\n- Ausência de contradições entre enunciado e feedback.\n- Ausência de duplicação com os Blocos 01 e 02.\n- Vínculos corretos com as aulas.\n\nA sobreposição de conceitos entre questões não constitui, isoladamente, motivo para exclusão. Avaliar a habilidade cognitiva específica exigida em cada caso.\n\n---\n\n# 13. TESTES OBRIGATÓRIOS\n\nExecutar, quando disponíveis:\n\n1. Cadastro das questões 011 a 015.\n2. Validação dos IDs.\n3. Verificação dos gabaritos C, A, D, C e D.\n4. Preservação das questões 001 a 010.\n5. Exibição integral dos textos.\n6. Exibição das quatro alternativas.\n7. Correção das respostas.\n8. Feedback completo.\n9. Exibição das Pérolas do Plantão.\n10. Exibição das referências.\n11. Funcionamento do Modo Estudo.\n12. Funcionamento do Modo Simulado.\n13. Persistência das tentativas.\n14. Integração com o Caderno de Erros.\n15. Aplicação da regra de duas revisões corretas.\n16. Controle de acesso por usuário.\n17. Ausência de duplicação de questões.\n18. Responsividade.\n19. Acessibilidade.\n20. Ausência de regressões nos AgoraQuest.\n21. Compatibilidade com o Bloco 04.\n22. Compatibilidade arquitetural futura com o AgoraArena.\n\nNão afirmar que testes passaram sem executá-los.\n\n---\n\n# 14. CRITÉRIOS DE ACEITE\n\nA implementação será considerada concluída quando:\n\n- As cinco questões estiverem cadastradas.\n- Os textos estiverem completos.\n- Os gabaritos estiverem corretos.\n- Os metadados estiverem disponíveis.\n- Os Blocos 01 e 02 permanecerem intactos.\n- O AgoraQuest continuar funcionando.\n- O Caderno de Erros estiver integrado.\n- Os modos Estudo e Simulado estiverem funcionando.\n- A identidade visual estiver preservada.\n- Os dados dos usuários estiverem protegidos.\n- Não houver questões duplicadas.\n- A estrutura estiver preparada para novos blocos.\n- Não houver implementação prematura do AgoraArena.\n\nPendências de revisão científica deverão ser explicitamente identificadas, especialmente na questão 015.\n\n---\n\n# 15. RELATÓRIO FINAL\n\nApós a implementação, apresentar:\n\n1. Resumo das alterações.\n2. Arquivos modificados.\n3. Tabelas ou coleções utilizadas.\n4. Identificadores das questões cadastradas.\n5. Confirmação dos gabaritos.\n6. Confirmação da preservação dos textos.\n7. Quantidade total de questões disponíveis.\n8. Situação dos Blocos 01 e 02.\n9. Situação do Caderno de Erros.\n10. Funcionamento dos modos Estudo e Simulado.\n11. Metadados cadastrados.\n12. Vínculos com as aulas.\n13. Testes executados.\n14. Pendências científicas.\n15. Pendências técnicas.\n16. Preparação para o Bloco 04.\n\n## INSTRUÇÃO FINAL\n\nImplemente o Bloco 03 do AgoraQuiz de Hipercalemia com as questões 011 a 015, preservando integralmente o conteúdo aprovado.\n\nNão altere os Blocos 01 e 02.\n\nNão modifique os AgoraQuest ou outros cursos.\n\nNão implemente o AgoraArena.\n\n**A prioridade é preservar a profundidade pedagógica, o rigor científico, a segurança dos dados e a capacidade de expansão futura da plataforma.**",
+      "revisaoCientificaPendente": true
+    }
+  ]
+}

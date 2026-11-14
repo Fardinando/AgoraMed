@@ -1,0 +1,2110 @@
+{
+  "cursoId": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+  "quizId": "agoraquiz-hipercalemia",
+  "cursoOrigem": "Tratamento da Hipercalemia em Adultos",
+  "bancoOrigem": "AgoraQuiz Hipercalemia",
+  "bloco": "16",
+  "temaEditorial": "Hipercalemia na prática crítica — interpretação eletrocardiográfica, confiabilidade laboratorial, fluidoterapia, bloqueio neuromuscular e segurança terapêutica.",
+  "questoes": [
+    {
+      "id": "aqz-hiper-076",
+      "question_id": "aqz-hiper-076",
+      "numero": 76,
+      "question_number": 76,
+      "titulo": "O ECG parece um infarto, mas o potássio conta outra história",
+      "competenciaPrincipal": "Reconhecer padrões eletrocardiográficos atípicos da hipercalemia sem descartar síndrome coronariana aguda.",
+      "competenciasSecundarias": [
+        "recognize_atypical_hyperkalemia_ecg",
+        "prioritize_cardiac_membrane_stabilization",
+        "avoid_premature_acs_exclusion",
+        "interpret_serial_ecg",
+        "manage_parallel_emergencies"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Um homem de 61 anos, com diabetes mellitus tipo 2, hipertensão arterial e doença renal crônica estágio G5, é admitido na emergência por dor torácica opressiva iniciada há aproximadamente 40 minutos, acompanhada de náuseas e fraqueza intensa.\n\nO paciente ainda não iniciou terapia dialítica.\n\nNa avaliação inicial:\n\n- PA: 98/62 mmHg.\n- FC: 52 bpm.\n- FR: 22 irpm.\n- SpO₂: 96% em ar ambiente.\n- Potássio: 7,8 mEq/L, confirmado.\n- Creatinina: 7,1 mg/dL.\n- Bicarbonato: 15 mEq/L.\n- Glicemia: 184 mg/dL.\n\nO ECG demonstra ondas T muito apiculadas, alargamento do QRS para 154 ms e supradesnivelamento do segmento ST nas derivações V1 a V3.\n\nA equipe considera a possibilidade de um padrão eletrocardiográfico de pseudo-infarto relacionado à hipercalemia.\n\nEntretanto, o paciente apresenta dor torácica típica e fatores de risco cardiovasculares importantes.\n\n**Qual é a conduta mais adequada?**",
+      "alternativas": {
+        "A": "Considerar que o supradesnivelamento do ST é necessariamente provocado pela hipercalemia e descartar síndrome coronariana aguda sem investigação adicional.",
+        "B": "Priorizar exclusivamente a investigação coronariana, adiando o tratamento da hipercalemia até que seja possível confirmar a presença de infarto agudo do miocárdio.",
+        "C": "Tratar imediatamente a hipercalemia com toxicidade elétrica, incluindo cálcio intravenoso e medidas de redução do potássio, enquanto se mantém avaliação simultânea para síndrome coronariana aguda, com ECGs seriados e definição da estratégia de reperfusão quando indicada.",
+        "D": "Aguardar a normalização espontânea do QRS, pois a presença de supradesnivelamento do ST contraindica a administração de cálcio intravenoso."
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. Qual é o achado laboratorial de maior risco imediato?**\n\nO potássio de 7,8 mEq/L, associado a alterações eletrocardiográficas importantes.\n\n**2. Quais alterações do ECG sugerem toxicidade elétrica pela hipercalemia?**\n\nOndas T muito apiculadas, alargamento do QRS e bradicardia.\n\n**3. A hipercalemia pode provocar supradesnivelamento do segmento ST?**\n\nSim. Embora incomum, a hipercalemia grave pode produzir padrões eletrocardiográficos que simulam infarto agudo do miocárdio.\n\n**4. Como esse fenômeno é frequentemente denominado?**\n\nPadrão de pseudo-infarto ou *pseudoinfarction pattern* associado à hipercalemia.\n\n**5. A identificação de hipercalemia exclui infarto verdadeiro?**\n\nNão. As duas condições podem coexistir, especialmente em pacientes com fatores de risco cardiovasculares.\n\n**6. Qual é a prioridade diante do QRS alargado e da hipercalemia grave?**\n\nAdministrar cálcio intravenoso para estabilização cardíaca, conforme protocolo, sem atrasar as demais medidas necessárias.\n\n**7. O cálcio intravenoso reduz a concentração sérica de potássio?**\n\nNão. Sua finalidade é reduzir a toxicidade elétrica, enquanto outras intervenções promovem redistribuição ou remoção do potássio.\n\n**8. Quais medidas podem reduzir rapidamente o potássio sérico?**\n\nInsulina com glicose e beta-2-agonistas, conforme a situação clínica e os protocolos assistenciais.\n\n**9. Qual é a importância da doença renal avançada?**\n\nA capacidade de eliminação renal de potássio está gravemente comprometida, podendo ser necessária remoção por terapia dialítica.\n\n**10. O que pode acontecer com o ECG após o tratamento da hipercalemia?**\n\nAs alterações atribuíveis à hipercalemia podem regredir, mas essa resposta não exclui automaticamente doença coronariana concomitante.\n\n**11. Por que são necessários ECGs seriados?**\n\nPara acompanhar a resposta ao tratamento e identificar alterações persistentes ou dinâmicas sugestivas de isquemia miocárdica.\n\n**12. Qual é o papel da troponina?**\n\nAuxilia na avaliação de lesão miocárdica quando interpretada com a evolução clínica e eletrocardiográfica. Em doença renal avançada, valores isolados podem exigir interpretação cuidadosa.\n\n**13. Quando a investigação coronariana deve prosseguir?**\n\nSimultaneamente à estabilização da hipercalemia, sem atrasar indevidamente reperfusão quando houver suspeita de oclusão coronariana aguda.\n\n**14. Qual é a competência principal?**\n\nReconhecer que uma alteração eletrocardiográfica pode ter mais de uma explicação e tratar ameaças simultâneas sem criar uma falsa exclusão diagnóstica.",
+      "comentarios": {
+        "A": "A hipercalemia pode simular infarto, mas não permite descartar síndrome coronariana aguda, especialmente diante de dor típica.",
+        "B": "A hipercalemia grave com alargamento do QRS exige tratamento imediato. Adiar a estabilização cardíaca expõe o paciente a arritmias potencialmente fatais.",
+        "C": "A abordagem deve ser simultânea: tratar imediatamente a toxicidade elétrica da hipercalemia e continuar a investigação da possível síndrome coronariana aguda.",
+        "D": "O supradesnivelamento do ST não contraindica o cálcio intravenoso quando há indicação de estabilização cardíaca por hipercalemia."
+      },
+      "perola": "> A hipercalemia pode imitar um infarto, mas não protege o paciente de ter um infarto verdadeiro. Quando duas emergências são plausíveis, trate a ameaça elétrica imediata sem abandonar a investigação coronariana.",
+      "referencias": "*Treatment and prevention of hyperkalemia in adults*. UpToDate.\n*Electrocardiographic manifestations of hyperkalemia*. Literatura de eletrocardiografia clínica.\nDiretrizes de síndrome coronariana aguda e avaliação de supradesnivelamento do segmento ST.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 16,
+      "stem": "Um homem de 61 anos, com diabetes mellitus tipo 2, hipertensão arterial e doença renal crônica estágio G5, é admitido na emergência por dor torácica opressiva iniciada há aproximadamente 40 minutos, acompanhada de náuseas e fraqueza intensa.\n\nO paciente ainda não iniciou terapia dialítica.\n\nNa avaliação inicial:\n\n- PA: 98/62 mmHg.\n- FC: 52 bpm.\n- FR: 22 irpm.\n- SpO₂: 96% em ar ambiente.\n- Potássio: 7,8 mEq/L, confirmado.\n- Creatinina: 7,1 mg/dL.\n- Bicarbonato: 15 mEq/L.\n- Glicemia: 184 mg/dL.\n\nO ECG demonstra ondas T muito apiculadas, alargamento do QRS para 154 ms e supradesnivelamento do segmento ST nas derivações V1 a V3.\n\nA equipe considera a possibilidade de um padrão eletrocardiográfico de pseudo-infarto relacionado à hipercalemia.\n\nEntretanto, o paciente apresenta dor torácica típica e fatores de risco cardiovasculares importantes.\n\n**Qual é a conduta mais adequada?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-076-A",
+          "question_id": "aqz-hiper-076",
+          "letter": "A",
+          "text": "Considerar que o supradesnivelamento do ST é necessariamente provocado pela hipercalemia e descartar síndrome coronariana aguda sem investigação adicional.",
+          "is_correct": false,
+          "feedback": "A hipercalemia pode simular infarto, mas não permite descartar síndrome coronariana aguda, especialmente diante de dor típica.",
+          "error_type": "premature_diagnostic_closure",
+          "misconception_id": "hyperkalemia_excludes_true_acs",
+          "misconception_description": "Atribui o supradesnivelamento do ST exclusivamente à hipercalemia.",
+          "competency_ids": [
+            "recognize_atypical_hyperkalemia_ecg"
+          ],
+          "clinical_risk_if_applied": "deixar de reconhecer uma oclusão coronariana verdadeira."
+        },
+        {
+          "option_id": "aqz-hiper-076-B",
+          "question_id": "aqz-hiper-076",
+          "letter": "B",
+          "text": "Priorizar exclusivamente a investigação coronariana, adiando o tratamento da hipercalemia até que seja possível confirmar a presença de infarto agudo do miocárdio.",
+          "is_correct": false,
+          "feedback": "A hipercalemia grave com alargamento do QRS exige tratamento imediato. Adiar a estabilização cardíaca expõe o paciente a arritmias potencialmente fatais.",
+          "error_type": "emergency_priority_error",
+          "misconception_id": "coronary_workup_must_precede_hyperkalemia_treatment",
+          "misconception_description": "Adia tratamento de toxicidade elétrica para priorizar investigação coronariana.",
+          "competency_ids": [
+            "prioritize_cardiac_membrane_stabilization"
+          ],
+          "clinical_risk_if_applied": "arritmia fatal antes da estabilização."
+        },
+        {
+          "option_id": "aqz-hiper-076-C",
+          "question_id": "aqz-hiper-076",
+          "letter": "C",
+          "text": "Tratar imediatamente a hipercalemia com toxicidade elétrica, incluindo cálcio intravenoso e medidas de redução do potássio, enquanto se mantém avaliação simultânea para síndrome coronariana aguda, com ECGs seriados e definição da estratégia de reperfusão quando indicada.",
+          "is_correct": true,
+          "feedback": "A abordagem deve ser simultânea: tratar imediatamente a toxicidade elétrica da hipercalemia e continuar a investigação da possível síndrome coronariana aguda.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "differentiate_hyperkalemia_pseudoinfarction_from_acs",
+            "recognize_atypical_hyperkalemia_ecg",
+            "prioritize_cardiac_membrane_stabilization"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-076-D",
+          "question_id": "aqz-hiper-076",
+          "letter": "D",
+          "text": "Aguardar a normalização espontânea do QRS, pois a presença de supradesnivelamento do ST contraindica a administração de cálcio intravenoso.",
+          "is_correct": false,
+          "feedback": "O supradesnivelamento do ST não contraindica o cálcio intravenoso quando há indicação de estabilização cardíaca por hipercalemia.",
+          "error_type": "inappropriate_contraindication",
+          "misconception_id": "st_elevation_contraindicates_iv_calcium",
+          "misconception_description": "Considera o supradesnivelamento do ST uma contraindicação inexistente ao cálcio intravenoso.",
+          "competency_ids": [
+            "interpret_serial_ecg"
+          ],
+          "clinical_risk_if_applied": "atrasar estabilização cardíaca."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-076-r01",
+          "question_id": "aqz-hiper-076",
+          "sequence": 1,
+          "prompt": "Qual é o achado laboratorial de maior risco imediato?",
+          "explanation": "O potássio de 7,8 mEq/L, associado a alterações eletrocardiográficas importantes.",
+          "reasoning_type": "severe_hyperkalemia_recognition",
+          "competency_ids": [
+            "recognize_atypical_hyperkalemia_ecg"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque o potássio de 7,8 mEq/L, associado a alterações eletrocardiográficas importantes.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-076-r02",
+          "question_id": "aqz-hiper-076",
+          "sequence": 2,
+          "prompt": "Quais alterações do ECG sugerem toxicidade elétrica pela hipercalemia?",
+          "explanation": "Ondas T muito apiculadas, alargamento do QRS e bradicardia.",
+          "reasoning_type": "ecg_toxicity_recognition",
+          "competency_ids": [
+            "recognize_atypical_hyperkalemia_ecg"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque ondas T muito apiculadas, alargamento do QRS e bradicardia.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-076-r03",
+          "question_id": "aqz-hiper-076",
+          "sequence": 3,
+          "prompt": "A hipercalemia pode provocar supradesnivelamento do segmento ST?",
+          "explanation": "Sim. Embora incomum, a hipercalemia grave pode produzir padrões eletrocardiográficos que simulam infarto agudo do miocárdio.",
+          "reasoning_type": "atypical_ecg_manifestation",
+          "competency_ids": [
+            "recognize_atypical_hyperkalemia_ecg"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque sim. Embora incomum, a hipercalemia grave pode produzir padrões eletrocardiográficos que simulam infarto agudo do miocárdio.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-076-r04",
+          "question_id": "aqz-hiper-076",
+          "sequence": 4,
+          "prompt": "Como esse fenômeno é frequentemente denominado?",
+          "explanation": "Padrão de pseudo-infarto ou *pseudoinfarction pattern* associado à hipercalemia.",
+          "reasoning_type": "pseudoinfarction_pattern",
+          "competency_ids": [
+            "avoid_premature_acs_exclusion"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque padrão de pseudo-infarto ou *pseudoinfarction pattern* associado à hipercalemia.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-076-r05",
+          "question_id": "aqz-hiper-076",
+          "sequence": 5,
+          "prompt": "A identificação de hipercalemia exclui infarto verdadeiro?",
+          "explanation": "Não. As duas condições podem coexistir, especialmente em pacientes com fatores de risco cardiovasculares.",
+          "reasoning_type": "diagnostic_coexistence",
+          "competency_ids": [
+            "avoid_premature_acs_exclusion"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. As duas condições podem coexistir, especialmente em pacientes com fatores de risco cardiovasculares.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-076-r06",
+          "question_id": "aqz-hiper-076",
+          "sequence": 6,
+          "prompt": "Qual é a prioridade diante do QRS alargado e da hipercalemia grave?",
+          "explanation": "Administrar cálcio intravenoso para estabilização cardíaca, conforme protocolo, sem atrasar as demais medidas necessárias.",
+          "reasoning_type": "cardiac_stabilization_priority",
+          "competency_ids": [
+            "prioritize_cardiac_membrane_stabilization"
+          ],
+          "cognitive_operation": "prioritize",
+          "clinical_relevance": "Este raciocínio é relevante porque administrar cálcio intravenoso para estabilização cardíaca, conforme protocolo, sem atrasar as demais medidas necessárias.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-076-r07",
+          "question_id": "aqz-hiper-076",
+          "sequence": 7,
+          "prompt": "O cálcio intravenoso reduz a concentração sérica de potássio?",
+          "explanation": "Não. Sua finalidade é reduzir a toxicidade elétrica, enquanto outras intervenções promovem redistribuição ou remoção do potássio.",
+          "reasoning_type": "calcium_mechanism",
+          "competency_ids": [
+            "avoid_premature_acs_exclusion"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. Sua finalidade é reduzir a toxicidade elétrica, enquanto outras intervenções promovem redistribuição ou remoção do potássio.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-076-r08",
+          "question_id": "aqz-hiper-076",
+          "sequence": 8,
+          "prompt": "Quais medidas podem reduzir rapidamente o potássio sérico?",
+          "explanation": "Insulina com glicose e beta-2-agonistas, conforme a situação clínica e os protocolos assistenciais.",
+          "reasoning_type": "potassium_redistribution",
+          "competency_ids": [
+            "avoid_premature_acs_exclusion"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque insulina com glicose e beta-2-agonistas, conforme a situação clínica e os protocolos assistenciais.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-076-r09",
+          "question_id": "aqz-hiper-076",
+          "sequence": 9,
+          "prompt": "Qual é a importância da doença renal avançada?",
+          "explanation": "A capacidade de eliminação renal de potássio está gravemente comprometida, podendo ser necessária remoção por terapia dialítica.",
+          "reasoning_type": "renal_potassium_removal_limitation",
+          "competency_ids": [
+            "manage_parallel_emergencies"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque a capacidade de eliminação renal de potássio está gravemente comprometida, podendo ser necessária remoção por terapia dialítica.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-076-r10",
+          "question_id": "aqz-hiper-076",
+          "sequence": 10,
+          "prompt": "O que pode acontecer com o ECG após o tratamento da hipercalemia?",
+          "explanation": "As alterações atribuíveis à hipercalemia podem regredir, mas essa resposta não exclui automaticamente doença coronariana concomitante.",
+          "reasoning_type": "ecg_response_interpretation",
+          "competency_ids": [
+            "recognize_atypical_hyperkalemia_ecg"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Este raciocínio é relevante porque as alterações atribuíveis à hipercalemia podem regredir, mas essa resposta não exclui automaticamente doença coronariana concomitante.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-076-r11",
+          "question_id": "aqz-hiper-076",
+          "sequence": 11,
+          "prompt": "Por que são necessários ECGs seriados?",
+          "explanation": "Para acompanhar a resposta ao tratamento e identificar alterações persistentes ou dinâmicas sugestivas de isquemia miocárdica.",
+          "reasoning_type": "serial_ecg_monitoring",
+          "competency_ids": [
+            "interpret_serial_ecg"
+          ],
+          "cognitive_operation": "apply",
+          "clinical_relevance": "Este raciocínio é relevante porque para acompanhar a resposta ao tratamento e identificar alterações persistentes ou dinâmicas sugestivas de isquemia miocárdica.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-076-r12",
+          "question_id": "aqz-hiper-076",
+          "sequence": 12,
+          "prompt": "Qual é o papel da troponina?",
+          "explanation": "Auxilia na avaliação de lesão miocárdica quando interpretada com a evolução clínica e eletrocardiográfica. Em doença renal avançada, valores isolados podem exigir interpretação cuidadosa.",
+          "reasoning_type": "troponin_interpretation_in_ckd",
+          "competency_ids": [
+            "manage_parallel_emergencies"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque auxilia na avaliação de lesão miocárdica quando interpretada com a evolução clínica e eletrocardiográfica. Em doença renal avançada, valores isolados podem exigir interpretação cuidadosa.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-076-r13",
+          "question_id": "aqz-hiper-076",
+          "sequence": 13,
+          "prompt": "Quando a investigação coronariana deve prosseguir?",
+          "explanation": "Simultaneamente à estabilização da hipercalemia, sem atrasar indevidamente reperfusão quando houver suspeita de oclusão coronariana aguda.",
+          "reasoning_type": "simultaneous_acs_management",
+          "competency_ids": [
+            "avoid_premature_acs_exclusion"
+          ],
+          "cognitive_operation": "plan",
+          "clinical_relevance": "Este raciocínio é relevante porque simultaneamente à estabilização da hipercalemia, sem atrasar indevidamente reperfusão quando houver suspeita de oclusão coronariana aguda.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-076-r14",
+          "question_id": "aqz-hiper-076",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Reconhecer que uma alteração eletrocardiográfica pode ter mais de uma explicação e tratar ameaças simultâneas sem criar uma falsa exclusão diagnóstica.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "avoid_premature_acs_exclusion"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque reconhecer que uma alteração eletrocardiográfica pode ter mais de uma explicação e tratar ameaças simultâneas sem criar uma falsa exclusão diagnóstica.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        }
+      ],
+      "clinical_pearl": "> A hipercalemia pode imitar um infarto, mas não protege o paciente de ter um infarto verdadeiro. Quando duas emergências são plausíveis, trate a ameaça elétrica imediata sem abandonar a investigação coronariana.",
+      "references": [
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate.",
+        "*Electrocardiographic manifestations of hyperkalemia*. Literatura de eletrocardiografia clínica.",
+        "Diretrizes de síndrome coronariana aguda e avaliação de supradesnivelamento do segmento ST."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "electrocardiographic_hyperkalemia",
+        "clinical_context": "emergency_department",
+        "urgency_level": "urgent_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "differentiate_hyperkalemia_pseudoinfarction_from_acs",
+        "secondary_competencies": [
+          "recognize_atypical_hyperkalemia_ecg",
+          "prioritize_cardiac_membrane_stabilization",
+          "avoid_premature_acs_exclusion",
+          "interpret_serial_ecg",
+          "manage_parallel_emergencies"
+        ],
+        "learning_objectives": [
+          "Reconhecer padrões eletrocardiográficos atípicos da hipercalemia sem descartar síndrome coronariana aguda."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_safety",
+        "arena_skill_ids": [
+          "differentiate_hyperkalemia_pseudoinfarction_from_acs",
+          "recognize_atypical_hyperkalemia_ecg",
+          "prioritize_cardiac_membrane_stabilization",
+          "avoid_premature_acs_exclusion",
+          "interpret_serial_ecg",
+          "manage_parallel_emergencies"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "differentiate",
+          "pseudoinfarction",
+          "from",
+          "acs"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "differentiate_hyperkalemia_pseudoinfarction_from_acs",
+          "recognize_atypical_hyperkalemia_ecg",
+          "prioritize_cardiac_membrane_stabilization",
+          "avoid_premature_acs_exclusion",
+          "interpret_serial_ecg",
+          "manage_parallel_emergencies"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-077",
+      "question_id": "aqz-hiper-077",
+      "numero": 77,
+      "question_number": 77,
+      "titulo": "O potássio está alto na gasometria, mas normal no laboratório",
+      "competenciaPrincipal": "Reconhecer discrepâncias laboratoriais e interferências pré-analíticas.",
+      "competenciasSecundarias": [
+        "recognize_preanalytical_hemolysis",
+        "understand_blood_gas_potassium_limitations",
+        "interpret_discordant_laboratory_results",
+        "avoid_unnecessary_hyperkalemia_treatment",
+        "recognize_normal_ecg_limitations"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Uma mulher de 56 anos está internada na UTI após cirurgia abdominal de grande porte.\n\nEncontra-se hemodinamicamente estável, com diurese preservada e sem história de doença renal.\n\nDurante a avaliação matinal, uma gasometria arterial apresenta:\n\n- pH: 7,39.\n- Bicarbonato: 23 mEq/L.\n- Potássio: 6,7 mEq/L.\n- Sódio: 139 mEq/L.\n- Lactato: 1,4 mmol/L.\n\nO ECG demonstra ritmo sinusal, sem alterações típicas de hipercalemia.\n\nA equipe observa que a amostra da gasometria foi coletada por punção arterial difícil, com múltiplas tentativas e manipulação da seringa.\n\nQuase simultaneamente, uma amostra venosa coletada adequadamente e analisada no laboratório central apresenta:\n\n- Potássio: 4,3 mEq/L.\n- Creatinina: 0,9 mg/dL.\n- Sódio: 140 mEq/L.\n\nO equipamento de gasometria não informa índice de hemólise.\n\nA paciente permanece assintomática.\n\n**Qual é a interpretação e a conduta mais adequadas?**",
+      "alternativas": {
+        "A": "O potássio da gasometria deve ser considerado obrigatoriamente correto, porque a análise em sangue total sempre apresenta maior precisão do que a bioquímica laboratorial.",
+        "B": "A discrepância sugere possível interferência pré-analítica, incluindo hemólise da amostra da gasometria. Diante da estabilidade clínica e do resultado laboratorial discordante, deve-se obter nova amostra cuidadosamente coletada e analisá-la prontamente, mantendo vigilância e reavaliando a necessidade de tratamento conforme os resultados e o contexto clínico.",
+        "C": "O potássio de 4,3 mEq/L do laboratório central demonstra que qualquer resultado elevado de gasometria é falso, tornando desnecessária a investigação.",
+        "D": "A ausência de alterações eletrocardiográficas comprova que o potássio de 6,7 mEq/L é impossível e exclui hipercalemia verdadeira."
+      },
+      "gabarito": "B",
+      "raciocinioClinico": "**1. Qual é o problema central?**\n\nA discrepância importante entre duas medidas de potássio obtidas em momentos próximos.\n\n**2. Quais são os resultados discordantes?**\n\nPotássio de 6,7 mEq/L na gasometria e 4,3 mEq/L na bioquímica do laboratório central.\n\n**3. A gasometria pode medir potássio de maneira confiável?**\n\nSim. Analisadores de gases sanguíneos podem fornecer medidas úteis de eletrólitos, mas estão sujeitos a limitações analíticas e pré-analíticas.\n\n**4. Qual característica da coleta aumenta a suspeita de interferência?**\n\nA punção difícil, com múltiplas tentativas e manipulação da amostra.\n\n**5. Como a hemólise pode elevar artificialmente o potássio?**\n\nA ruptura das hemácias libera potássio intracelular para a amostra, podendo produzir resultado falsamente elevado.\n\n**6. Por que a ausência de índice de hemólise na gasometria é relevante?**\n\nPorque muitos analisadores de gases sanguíneos não detectam ou não sinalizam hemólise da mesma forma que os sistemas de bioquímica do laboratório central.\n\n**7. A ausência de alterações no ECG exclui hipercalemia verdadeira?**\n\nNão. O ECG pode permanecer sem alterações típicas mesmo diante de hipercalemia importante.\n\n**8. Qual é a importância da função renal preservada?**\n\nReduz a probabilidade de determinadas causas de hipercalemia, mas não exclui outras causas nem substitui a confirmação laboratorial.\n\n**9. O resultado venoso normal comprova definitivamente que a gasometria estava errada?**\n\nNão de maneira isolada. A discrepância deve ser interpretada considerando o método, a coleta, o processamento e a possibilidade de mudanças reais no potássio.\n\n**10. Qual é a próxima medida diagnóstica mais apropriada?**\n\nObter nova amostra com técnica adequada, evitando trauma, hemólise e contaminação, com análise rápida.\n\n**11. Por que é importante avaliar a possibilidade de contaminação da amostra?**\n\nA coleta próxima a infusões ou a partir de dispositivos inadequadamente preparados pode alterar artificialmente resultados laboratoriais.\n\n**12. Devemos tratar imediatamente qualquer resultado isolado de potássio elevado?**\n\nA decisão depende da gravidade, da plausibilidade clínica, do ECG, da estabilidade do paciente e da confiabilidade do resultado. Não se deve atrasar tratamento em situações de alto risco.\n\n**13. Qual é o risco de tratar uma pseudo-hipercalemia?**\n\nProvocar hipocalemia iatrogênica e outras complicações, como hipoglicemia após insulina.\n\n**14. Qual é a competência principal?**\n\nReconhecer discrepâncias laboratoriais e investigar interferências pré-analíticas sem negligenciar uma hipercalemia verdadeira potencialmente perigosa.",
+      "comentarios": {
+        "A": "A gasometria não é imune a erros pré-analíticos. A hemólise pode passar despercebida quando o equipamento não fornece índice de hemólise.",
+        "B": "A coleta difícil, a discrepância expressiva e a estabilidade clínica justificam investigar interferência pré-analítica e confirmar o resultado rapidamente, sem abandonar a vigilância.",
+        "C": "Um resultado normal não invalida automaticamente qualquer resultado elevado obtido por outro método.",
+        "D": "O ECG normal não exclui hipercalemia verdadeira."
+      },
+      "perola": "> Um resultado de potássio não é apenas um número: ele também carrega a história de como o sangue foi coletado. Antes de tratar uma discrepância laboratorial, avalie a amostra — mas nunca use um ECG normal como garantia de segurança.",
+      "referencias": "*Causes and evaluation of hyperkalemia in adults*. UpToDate.\nLiteratura de medicina laboratorial sobre hemólise e interferências pré-analíticas na dosagem de potássio.\nRecomendações de qualidade para coleta e processamento de amostras destinadas à análise de eletrólitos.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 16,
+      "stem": "Uma mulher de 56 anos está internada na UTI após cirurgia abdominal de grande porte.\n\nEncontra-se hemodinamicamente estável, com diurese preservada e sem história de doença renal.\n\nDurante a avaliação matinal, uma gasometria arterial apresenta:\n\n- pH: 7,39.\n- Bicarbonato: 23 mEq/L.\n- Potássio: 6,7 mEq/L.\n- Sódio: 139 mEq/L.\n- Lactato: 1,4 mmol/L.\n\nO ECG demonstra ritmo sinusal, sem alterações típicas de hipercalemia.\n\nA equipe observa que a amostra da gasometria foi coletada por punção arterial difícil, com múltiplas tentativas e manipulação da seringa.\n\nQuase simultaneamente, uma amostra venosa coletada adequadamente e analisada no laboratório central apresenta:\n\n- Potássio: 4,3 mEq/L.\n- Creatinina: 0,9 mg/dL.\n- Sódio: 140 mEq/L.\n\nO equipamento de gasometria não informa índice de hemólise.\n\nA paciente permanece assintomática.\n\n**Qual é a interpretação e a conduta mais adequadas?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-077-A",
+          "question_id": "aqz-hiper-077",
+          "letter": "A",
+          "text": "O potássio da gasometria deve ser considerado obrigatoriamente correto, porque a análise em sangue total sempre apresenta maior precisão do que a bioquímica laboratorial.",
+          "is_correct": false,
+          "feedback": "A gasometria não é imune a erros pré-analíticos. A hemólise pode passar despercebida quando o equipamento não fornece índice de hemólise.",
+          "error_type": "analytical_method_overconfidence",
+          "misconception_id": "blood_gas_potassium_is_always_correct",
+          "misconception_description": "Considera a gasometria imune a interferências pré-analíticas.",
+          "competency_ids": [
+            "recognize_preanalytical_hemolysis"
+          ],
+          "clinical_risk_if_applied": "tratar resultado artificialmente elevado."
+        },
+        {
+          "option_id": "aqz-hiper-077-B",
+          "question_id": "aqz-hiper-077",
+          "letter": "B",
+          "text": "A discrepância sugere possível interferência pré-analítica, incluindo hemólise da amostra da gasometria. Diante da estabilidade clínica e do resultado laboratorial discordante, deve-se obter nova amostra cuidadosamente coletada e analisá-la prontamente, mantendo vigilância e reavaliando a necessidade de tratamento conforme os resultados e o contexto clínico.",
+          "is_correct": true,
+          "feedback": "A coleta difícil, a discrepância expressiva e a estabilidade clínica justificam investigar interferência pré-analítica e confirmar o resultado rapidamente, sem abandonar a vigilância.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "evaluate_discordant_potassium_results",
+            "recognize_preanalytical_hemolysis",
+            "understand_blood_gas_potassium_limitations"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-077-C",
+          "question_id": "aqz-hiper-077",
+          "letter": "C",
+          "text": "O potássio de 4,3 mEq/L do laboratório central demonstra que qualquer resultado elevado de gasometria é falso, tornando desnecessária a investigação.",
+          "is_correct": false,
+          "feedback": "Um resultado normal não invalida automaticamente qualquer resultado elevado obtido por outro método.",
+          "error_type": "premature_result_dismissal",
+          "misconception_id": "normal_central_lab_always_invalidates_blood_gas",
+          "misconception_description": "Descarta automaticamente um resultado discordante sem investigar.",
+          "competency_ids": [
+            "interpret_discordant_laboratory_results"
+          ],
+          "clinical_risk_if_applied": "ignorar alteração verdadeira ou problema de coleta."
+        },
+        {
+          "option_id": "aqz-hiper-077-D",
+          "question_id": "aqz-hiper-077",
+          "letter": "D",
+          "text": "A ausência de alterações eletrocardiográficas comprova que o potássio de 6,7 mEq/L é impossível e exclui hipercalemia verdadeira.",
+          "is_correct": false,
+          "feedback": "O ECG normal não exclui hipercalemia verdadeira.",
+          "error_type": "ecg_overreliance",
+          "misconception_id": "normal_ecg_excludes_true_hyperkalemia",
+          "misconception_description": "Utiliza ECG normal para excluir hipercalemia.",
+          "competency_ids": [
+            "avoid_unnecessary_hyperkalemia_treatment"
+          ],
+          "clinical_risk_if_applied": "não reconhecer hipercalemia clinicamente relevante."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-077-r01",
+          "question_id": "aqz-hiper-077",
+          "sequence": 1,
+          "prompt": "Qual é o problema central?",
+          "explanation": "A discrepância importante entre duas medidas de potássio obtidas em momentos próximos.",
+          "reasoning_type": "laboratory_discrepancy_recognition",
+          "competency_ids": [
+            "interpret_discordant_laboratory_results"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque a discrepância importante entre duas medidas de potássio obtidas em momentos próximos.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-077-r02",
+          "question_id": "aqz-hiper-077",
+          "sequence": 2,
+          "prompt": "Quais são os resultados discordantes?",
+          "explanation": "Potássio de 6,7 mEq/L na gasometria e 4,3 mEq/L na bioquímica do laboratório central.",
+          "reasoning_type": "potassium_result_comparison",
+          "competency_ids": [
+            "understand_blood_gas_potassium_limitations"
+          ],
+          "cognitive_operation": "compare",
+          "clinical_relevance": "Este raciocínio é relevante porque potássio de 6,7 mEq/L na gasometria e 4,3 mEq/L na bioquímica do laboratório central.",
+          "prerequisite_concepts": [
+            "coleta e processamento de amostras",
+            "métodos de mensuração do potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-077-r03",
+          "question_id": "aqz-hiper-077",
+          "sequence": 3,
+          "prompt": "A gasometria pode medir potássio de maneira confiável?",
+          "explanation": "Sim. Analisadores de gases sanguíneos podem fornecer medidas úteis de eletrólitos, mas estão sujeitos a limitações analíticas e pré-analíticas.",
+          "reasoning_type": "blood_gas_method_limitations",
+          "competency_ids": [
+            "understand_blood_gas_potassium_limitations"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque sim. Analisadores de gases sanguíneos podem fornecer medidas úteis de eletrólitos, mas estão sujeitos a limitações analíticas e pré-analíticas.",
+          "prerequisite_concepts": [
+            "coleta e processamento de amostras",
+            "métodos de mensuração do potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-077-r04",
+          "question_id": "aqz-hiper-077",
+          "sequence": 4,
+          "prompt": "Qual característica da coleta aumenta a suspeita de interferência?",
+          "explanation": "A punção difícil, com múltiplas tentativas e manipulação da amostra.",
+          "reasoning_type": "collection_quality_assessment",
+          "competency_ids": [
+            "avoid_unnecessary_hyperkalemia_treatment"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque a punção difícil, com múltiplas tentativas e manipulação da amostra.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-077-r05",
+          "question_id": "aqz-hiper-077",
+          "sequence": 5,
+          "prompt": "Como a hemólise pode elevar artificialmente o potássio?",
+          "explanation": "A ruptura das hemácias libera potássio intracelular para a amostra, podendo produzir resultado falsamente elevado.",
+          "reasoning_type": "hemolysis_mechanism",
+          "competency_ids": [
+            "recognize_preanalytical_hemolysis"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque a ruptura das hemácias libera potássio intracelular para a amostra, podendo produzir resultado falsamente elevado.",
+          "prerequisite_concepts": [
+            "transfusão de hemocomponentes",
+            "alterações eletrolíticas associadas à transfusão"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-077-r06",
+          "question_id": "aqz-hiper-077",
+          "sequence": 6,
+          "prompt": "Por que a ausência de índice de hemólise na gasometria é relevante?",
+          "explanation": "Porque muitos analisadores de gases sanguíneos não detectam ou não sinalizam hemólise da mesma forma que os sistemas de bioquímica do laboratório central.",
+          "reasoning_type": "hemolysis_detection_limitation",
+          "competency_ids": [
+            "recognize_preanalytical_hemolysis"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque porque muitos analisadores de gases sanguíneos não detectam ou não sinalizam hemólise da mesma forma que os sistemas de bioquímica do laboratório central.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-077-r07",
+          "question_id": "aqz-hiper-077",
+          "sequence": 7,
+          "prompt": "A ausência de alterações no ECG exclui hipercalemia verdadeira?",
+          "explanation": "Não. O ECG pode permanecer sem alterações típicas mesmo diante de hipercalemia importante.",
+          "reasoning_type": "normal_ecg_limitation",
+          "competency_ids": [
+            "recognize_normal_ecg_limitations"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. O ECG pode permanecer sem alterações típicas mesmo diante de hipercalemia importante.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-077-r08",
+          "question_id": "aqz-hiper-077",
+          "sequence": 8,
+          "prompt": "Qual é a importância da função renal preservada?",
+          "explanation": "Reduz a probabilidade de determinadas causas de hipercalemia, mas não exclui outras causas nem substitui a confirmação laboratorial.",
+          "reasoning_type": "renal_function_context",
+          "competency_ids": [
+            "avoid_unnecessary_hyperkalemia_treatment"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Este raciocínio é relevante porque reduz a probabilidade de determinadas causas de hipercalemia, mas não exclui outras causas nem substitui a confirmação laboratorial.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-077-r09",
+          "question_id": "aqz-hiper-077",
+          "sequence": 9,
+          "prompt": "O resultado venoso normal comprova definitivamente que a gasometria estava errada?",
+          "explanation": "Não de maneira isolada. A discrepância deve ser interpretada considerando o método, a coleta, o processamento e a possibilidade de mudanças reais no potássio.",
+          "reasoning_type": "discordant_result_interpretation",
+          "competency_ids": [
+            "interpret_discordant_laboratory_results"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque não de maneira isolada. A discrepância deve ser interpretada considerando o método, a coleta, o processamento e a possibilidade de mudanças reais no potássio.",
+          "prerequisite_concepts": [
+            "coleta e processamento de amostras",
+            "métodos de mensuração do potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-077-r10",
+          "question_id": "aqz-hiper-077",
+          "sequence": 10,
+          "prompt": "Qual é a próxima medida diagnóstica mais apropriada?",
+          "explanation": "Obter nova amostra com técnica adequada, evitando trauma, hemólise e contaminação, com análise rápida.",
+          "reasoning_type": "repeat_sampling_strategy",
+          "competency_ids": [
+            "avoid_unnecessary_hyperkalemia_treatment"
+          ],
+          "cognitive_operation": "decide",
+          "clinical_relevance": "Este raciocínio é relevante porque obter nova amostra com técnica adequada, evitando trauma, hemólise e contaminação, com análise rápida.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-077-r11",
+          "question_id": "aqz-hiper-077",
+          "sequence": 11,
+          "prompt": "Por que é importante avaliar a possibilidade de contaminação da amostra?",
+          "explanation": "A coleta próxima a infusões ou a partir de dispositivos inadequadamente preparados pode alterar artificialmente resultados laboratoriais.",
+          "reasoning_type": "sample_contamination_assessment",
+          "competency_ids": [
+            "avoid_unnecessary_hyperkalemia_treatment"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque a coleta próxima a infusões ou a partir de dispositivos inadequadamente preparados pode alterar artificialmente resultados laboratoriais.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-077-r12",
+          "question_id": "aqz-hiper-077",
+          "sequence": 12,
+          "prompt": "Devemos tratar imediatamente qualquer resultado isolado de potássio elevado?",
+          "explanation": "A decisão depende da gravidade, da plausibilidade clínica, do ECG, da estabilidade do paciente e da confiabilidade do resultado. Não se deve atrasar tratamento em situações de alto risco.",
+          "reasoning_type": "treatment_threshold_reasoning",
+          "competency_ids": [
+            "avoid_unnecessary_hyperkalemia_treatment"
+          ],
+          "cognitive_operation": "decide",
+          "clinical_relevance": "Este raciocínio é relevante porque a decisão depende da gravidade, da plausibilidade clínica, do ECG, da estabilidade do paciente e da confiabilidade do resultado. Não se deve atrasar tratamento em situações de alto risco.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-077-r13",
+          "question_id": "aqz-hiper-077",
+          "sequence": 13,
+          "prompt": "Qual é o risco de tratar uma pseudo-hipercalemia?",
+          "explanation": "Provocar hipocalemia iatrogênica e outras complicações, como hipoglicemia após insulina.",
+          "reasoning_type": "overtreatment_risk",
+          "competency_ids": [
+            "interpret_discordant_laboratory_results"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque provocar hipocalemia iatrogênica e outras complicações, como hipoglicemia após insulina.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-077-r14",
+          "question_id": "aqz-hiper-077",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Reconhecer discrepâncias laboratoriais e investigar interferências pré-analíticas sem negligenciar uma hipercalemia verdadeira potencialmente perigosa.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "interpret_discordant_laboratory_results"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque reconhecer discrepâncias laboratoriais e investigar interferências pré-analíticas sem negligenciar uma hipercalemia verdadeira potencialmente perigosa.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        }
+      ],
+      "clinical_pearl": "> Um resultado de potássio não é apenas um número: ele também carrega a história de como o sangue foi coletado. Antes de tratar uma discrepância laboratorial, avalie a amostra — mas nunca use um ECG normal como garantia de segurança.",
+      "references": [
+        "*Causes and evaluation of hyperkalemia in adults*. UpToDate.",
+        "Literatura de medicina laboratorial sobre hemólise e interferências pré-analíticas na dosagem de potássio.",
+        "Recomendações de qualidade para coleta e processamento de amostras destinadas à análise de eletrólitos."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "pseudohyperkalemia",
+        "clinical_context": "emergency_department",
+        "urgency_level": "urgent_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "evaluate_discordant_potassium_results",
+        "secondary_competencies": [
+          "recognize_preanalytical_hemolysis",
+          "understand_blood_gas_potassium_limitations",
+          "interpret_discordant_laboratory_results",
+          "avoid_unnecessary_hyperkalemia_treatment",
+          "recognize_normal_ecg_limitations"
+        ],
+        "learning_objectives": [
+          "Reconhecer discrepâncias laboratoriais e interferências pré-analíticas."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_safety",
+        "arena_skill_ids": [
+          "evaluate_discordant_potassium_results",
+          "recognize_preanalytical_hemolysis",
+          "understand_blood_gas_potassium_limitations",
+          "interpret_discordant_laboratory_results",
+          "avoid_unnecessary_hyperkalemia_treatment",
+          "recognize_normal_ecg_limitations"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "evaluate",
+          "discordant",
+          "potassium",
+          "results"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "evaluate_discordant_potassium_results",
+          "recognize_preanalytical_hemolysis",
+          "understand_blood_gas_potassium_limitations",
+          "interpret_discordant_laboratory_results",
+          "avoid_unnecessary_hyperkalemia_treatment",
+          "recognize_normal_ecg_limitations"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-078",
+      "question_id": "aqz-hiper-078",
+      "numero": 78,
+      "question_number": 78,
+      "titulo": "O potássio aumentou depois da reposição volêmica",
+      "competenciaPrincipal": "Interpretar a relação entre cristaloides, equilíbrio ácido-base e potássio.",
+      "competenciasSecundarias": [
+        "understand_balanced_crystalloid_composition",
+        "calculate_crystalloid_potassium_load",
+        "recognize_hyperchloremic_acidosis_risk",
+        "integrate_aki_oliguria_and_potassium",
+        "individualize_fluid_selection"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Um homem de 68 anos, com diabetes mellitus tipo 2 e doença renal crônica estágio G3b, é admitido na emergência por diarreia intensa, hipotensão e redução da diurese.\n\nNa admissão:\n\n- PA: 86/52 mmHg.\n- FC: 112 bpm.\n- Potássio: 5,6 mEq/L.\n- Creatinina: 2,7 mg/dL, anteriormente 1,7 mg/dL.\n- pH: 7,29.\n- Bicarbonato: 17 mEq/L.\n- Cloro: 108 mEq/L.\n- Lactato: 2,6 mmol/L.\n\nA equipe inicia ressuscitação volêmica com cristaloide balanceado contendo aproximadamente 4 mEq/L de potássio, com reavaliação clínica frequente.\n\nApós a administração de 1.500 mL, a pressão arterial melhora para 108/66 mmHg.\n\nO paciente permanece oligúrico.\n\nNovo exame, realizado duas horas depois, demonstra:\n\n- Potássio: 6,1 mEq/L.\n- Creatinina: 2,9 mg/dL.\n- Bicarbonato: 16 mEq/L.\n- Lactato: 1,8 mmol/L.\n\nO ECG não apresenta alterações típicas de hipercalemia.\n\nUm residente afirma que a elevação do potássio foi necessariamente causada pelo cristaloide balanceado, pois a solução contém potássio, e propõe utilizar exclusivamente soro fisiológico 0,9% em qualquer paciente hipercalêmico.\n\n**Qual interpretação é mais adequada?**",
+      "alternativas": {
+        "A": "Qualquer solução que contenha potássio é absolutamente contraindicada em pacientes com hipercalemia, independentemente da concentração e do contexto clínico.",
+        "B": "O soro fisiológico 0,9% não influencia o equilíbrio ácido-base, sendo sempre a solução mais segura para pacientes com hipercalemia.",
+        "C": "A presença de potássio no cristaloide balanceado comprova que ele foi a única causa da elevação sérica, tornando desnecessário avaliar a função renal e a acidose.",
+        "D": "A elevação do potássio deve ser interpretada considerando a lesão renal aguda, a oligúria, o equilíbrio ácido-base e a evolução clínica. A pequena concentração de potássio de determinados cristaloides balanceados não os torna automaticamente contraindicados, enquanto grandes volumes de solução salina 0,9% podem favorecer acidose hiperclorêmica."
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. Qual era o principal problema hemodinâmico inicial?**\n\nHipotensão associada à perda gastrointestinal de líquidos, com suspeita de hipovolemia e lesão renal aguda.\n\n**2. Qual era a alteração do potássio antes da reposição volêmica?**\n\nHipercalemia de 5,6 mEq/L, já presente antes da administração do cristaloide.\n\n**3. Qual é a importância da creatinina elevada?**\n\nSugere redução da função renal em relação ao valor basal, com possível comprometimento da excreção de potássio.\n\n**4. Qual é a importância da oligúria persistente?**\n\nIndica que a capacidade de excreção renal de potássio pode continuar limitada, mesmo após melhora da pressão arterial.\n\n**5. Todos os cristaloides balanceados possuem a mesma composição?**\n\nNão. A composição varia conforme a solução, incluindo diferenças nas concentrações de sódio, cloro, potássio e ânions metabolizáveis.\n\n**6. A presença de aproximadamente 4 mEq/L de potássio torna uma solução automaticamente contraindicada?**\n\nNão. É necessário considerar a quantidade administrada, o contexto clínico e os efeitos globais da solução sobre o equilíbrio ácido-base.\n\n**7. Quanto potássio está presente em 1.500 mL de uma solução com 4 mEq/L?**\n\nAproximadamente 6 mEq de potássio.\n\n**8. Essa quantidade comprova que a solução provocou a elevação sérica?**\n\nNão. A concentração sérica depende da distribuição entre compartimentos, da excreção renal e de diversos fatores metabólicos.\n\n**9. Qual é a principal característica ácido-base do soro fisiológico 0,9%?**\n\nSua concentração de cloro é relativamente elevada, podendo favorecer acidose metabólica hiperclorêmica quando administrado em volumes significativos.\n\n**10. Como a acidose pode influenciar o potássio sérico?**\n\nDeterminadas formas de acidose metabólica podem favorecer aumento do potássio extracelular, embora a resposta dependa do mecanismo da acidose.\n\n**11. Os cristaloides balanceados podem apresentar vantagens em determinados pacientes?**\n\nSim. Em alguns contextos, podem reduzir a ocorrência de acidose hiperclorêmica em comparação com grandes volumes de solução salina 0,9%.\n\n**12. Isso significa que cristaloides balanceados são sempre a melhor escolha?**\n\nNão. A escolha deve ser individualizada conforme a condição clínica, composição da solução, eletrólitos, necessidades volêmicas e contraindicações específicas.\n\n**13. Qual deve ser a conduta diante do potássio de 6,1 mEq/L?**\n\nReavaliar prontamente a hipercalemia, monitorizar o ECG, considerar medidas de redução do potássio conforme a gravidade e investigar a persistência da oligúria e da disfunção renal.\n\n**14. Qual é a competência principal?**\n\nInterpretar a relação entre fluidoterapia, função renal e equilíbrio ácido-base sem atribuir automaticamente a hipercalemia ao potássio presente em um cristaloide balanceado.",
+      "comentarios": {
+        "A": "A presença de pequenas quantidades de potássio em determinados cristaloides balanceados não representa contraindicação absoluta em todos os pacientes hipercalêmicos.",
+        "B": "Grandes volumes de solução salina 0,9% podem favorecer acidose metabólica hiperclorêmica.",
+        "C": "A elevação do potássio é multifatorial e não pode ser atribuída exclusivamente à composição do cristaloide sem avaliação do contexto.",
+        "D": "A interpretação deve integrar a disfunção renal, a oligúria, o equilíbrio ácido-base e a composição das soluções. A presença de potássio no cristaloide não determina, isoladamente, sua inadequação."
+      },
+      "perola": "> Não escolha o soro apenas olhando se existe potássio no rótulo. Na hipercalemia, a função renal e o equilíbrio ácido-base podem influenciar mais a evolução do paciente do que a pequena quantidade de potássio presente em um cristaloide balanceado.",
+      "referencias": "*Treatment and prevention of hyperkalemia in adults*. UpToDate.\nSemler MW et al. *Balanced Crystalloids versus Saline in Critically Ill Adults*. New England Journal of Medicine, 2018.\nSelf WH et al. *Balanced Crystalloids versus Saline in Noncritically Ill Adults*. New England Journal of Medicine, 2018.\nLiteratura sobre cristaloides balanceados em pacientes com hipercalemia e disfunção renal.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 16,
+      "stem": "Um homem de 68 anos, com diabetes mellitus tipo 2 e doença renal crônica estágio G3b, é admitido na emergência por diarreia intensa, hipotensão e redução da diurese.\n\nNa admissão:\n\n- PA: 86/52 mmHg.\n- FC: 112 bpm.\n- Potássio: 5,6 mEq/L.\n- Creatinina: 2,7 mg/dL, anteriormente 1,7 mg/dL.\n- pH: 7,29.\n- Bicarbonato: 17 mEq/L.\n- Cloro: 108 mEq/L.\n- Lactato: 2,6 mmol/L.\n\nA equipe inicia ressuscitação volêmica com cristaloide balanceado contendo aproximadamente 4 mEq/L de potássio, com reavaliação clínica frequente.\n\nApós a administração de 1.500 mL, a pressão arterial melhora para 108/66 mmHg.\n\nO paciente permanece oligúrico.\n\nNovo exame, realizado duas horas depois, demonstra:\n\n- Potássio: 6,1 mEq/L.\n- Creatinina: 2,9 mg/dL.\n- Bicarbonato: 16 mEq/L.\n- Lactato: 1,8 mmol/L.\n\nO ECG não apresenta alterações típicas de hipercalemia.\n\nUm residente afirma que a elevação do potássio foi necessariamente causada pelo cristaloide balanceado, pois a solução contém potássio, e propõe utilizar exclusivamente soro fisiológico 0,9% em qualquer paciente hipercalêmico.\n\n**Qual interpretação é mais adequada?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-078-A",
+          "question_id": "aqz-hiper-078",
+          "letter": "A",
+          "text": "Qualquer solução que contenha potássio é absolutamente contraindicada em pacientes com hipercalemia, independentemente da concentração e do contexto clínico.",
+          "is_correct": false,
+          "feedback": "A presença de pequenas quantidades de potássio em determinados cristaloides balanceados não representa contraindicação absoluta em todos os pacientes hipercalêmicos.",
+          "error_type": "absolute_fluid_contraindication",
+          "misconception_id": "all_potassium_containing_fluids_are_forbidden",
+          "misconception_description": "Interpreta a presença de potássio em qualquer cristaloide como contraindicação absoluta.",
+          "competency_ids": [
+            "understand_balanced_crystalloid_composition"
+          ],
+          "clinical_risk_if_applied": "seleção inadequada de fluidoterapia."
+        },
+        {
+          "option_id": "aqz-hiper-078-B",
+          "question_id": "aqz-hiper-078",
+          "letter": "B",
+          "text": "O soro fisiológico 0,9% não influencia o equilíbrio ácido-base, sendo sempre a solução mais segura para pacientes com hipercalemia.",
+          "is_correct": false,
+          "feedback": "Grandes volumes de solução salina 0,9% podem favorecer acidose metabólica hiperclorêmica.",
+          "error_type": "acid_base_misinterpretation",
+          "misconception_id": "saline_has_no_acid_base_effect",
+          "misconception_description": "Ignora o efeito ácido-base da solução salina 0,9%.",
+          "competency_ids": [
+            "calculate_crystalloid_potassium_load"
+          ],
+          "clinical_risk_if_applied": "favorecer acidose hiperclorêmica em pacientes suscetíveis."
+        },
+        {
+          "option_id": "aqz-hiper-078-C",
+          "question_id": "aqz-hiper-078",
+          "letter": "C",
+          "text": "A presença de potássio no cristaloide balanceado comprova que ele foi a única causa da elevação sérica, tornando desnecessário avaliar a função renal e a acidose.",
+          "is_correct": false,
+          "feedback": "A elevação do potássio é multifatorial e não pode ser atribuída exclusivamente à composição do cristaloide sem avaliação do contexto.",
+          "error_type": "incorrect_causal_attribution",
+          "misconception_id": "balanced_crystalloid_is_sole_cause_of_potassium_rise",
+          "misconception_description": "Atribui causalidade exclusiva ao cristaloide sem avaliar oligúria e lesão renal.",
+          "competency_ids": [
+            "recognize_hyperchloremic_acidosis_risk"
+          ],
+          "clinical_risk_if_applied": "deixar de tratar os mecanismos predominantes da hipercalemia."
+        },
+        {
+          "option_id": "aqz-hiper-078-D",
+          "question_id": "aqz-hiper-078",
+          "letter": "D",
+          "text": "A elevação do potássio deve ser interpretada considerando a lesão renal aguda, a oligúria, o equilíbrio ácido-base e a evolução clínica. A pequena concentração de potássio de determinados cristaloides balanceados não os torna automaticamente contraindicados, enquanto grandes volumes de solução salina 0,9% podem favorecer acidose hiperclorêmica.",
+          "is_correct": true,
+          "feedback": "A interpretação deve integrar a disfunção renal, a oligúria, o equilíbrio ácido-base e a composição das soluções. A presença de potássio no cristaloide não determina, isoladamente, sua inadequação.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "evaluate_crystalloid_choice_in_hyperkalemia",
+            "understand_balanced_crystalloid_composition",
+            "calculate_crystalloid_potassium_load"
+          ],
+          "clinical_risk_if_applied": null
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-078-r01",
+          "question_id": "aqz-hiper-078",
+          "sequence": 1,
+          "prompt": "Qual era o principal problema hemodinâmico inicial?",
+          "explanation": "Hipotensão associada à perda gastrointestinal de líquidos, com suspeita de hipovolemia e lesão renal aguda.",
+          "reasoning_type": "hypovolemia_aki_recognition",
+          "competency_ids": [
+            "integrate_aki_oliguria_and_potassium"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque hipotensão associada à perda gastrointestinal de líquidos, com suspeita de hipovolemia e lesão renal aguda.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-078-r02",
+          "question_id": "aqz-hiper-078",
+          "sequence": 2,
+          "prompt": "Qual era a alteração do potássio antes da reposição volêmica?",
+          "explanation": "Hipercalemia de 5,6 mEq/L, já presente antes da administração do cristaloide.",
+          "reasoning_type": "baseline_hyperkalemia_recognition",
+          "competency_ids": [
+            "integrate_aki_oliguria_and_potassium"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque hipercalemia de 5,6 mEq/L, já presente antes da administração do cristaloide.",
+          "prerequisite_concepts": [
+            "composição dos cristaloides",
+            "equilíbrio ácido-base e balanço de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-078-r03",
+          "question_id": "aqz-hiper-078",
+          "sequence": 3,
+          "prompt": "Qual é a importância da creatinina elevada?",
+          "explanation": "Sugere redução da função renal em relação ao valor basal, com possível comprometimento da excreção de potássio.",
+          "reasoning_type": "renal_function_interpretation",
+          "competency_ids": [
+            "integrate_aki_oliguria_and_potassium"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Este raciocínio é relevante porque sugere redução da função renal em relação ao valor basal, com possível comprometimento da excreção de potássio.",
+          "prerequisite_concepts": [
+            "diferença entre filtração glomerular e função tubular",
+            "secreção distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-078-r04",
+          "question_id": "aqz-hiper-078",
+          "sequence": 4,
+          "prompt": "Qual é a importância da oligúria persistente?",
+          "explanation": "Indica que a capacidade de excreção renal de potássio pode continuar limitada, mesmo após melhora da pressão arterial.",
+          "reasoning_type": "oliguria_potassium_excretion",
+          "competency_ids": [
+            "integrate_aki_oliguria_and_potassium"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque indica que a capacidade de excreção renal de potássio pode continuar limitada, mesmo após melhora da pressão arterial.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-078-r05",
+          "question_id": "aqz-hiper-078",
+          "sequence": 5,
+          "prompt": "Todos os cristaloides balanceados possuem a mesma composição?",
+          "explanation": "Não. A composição varia conforme a solução, incluindo diferenças nas concentrações de sódio, cloro, potássio e ânions metabolizáveis.",
+          "reasoning_type": "crystalloid_composition_comparison",
+          "competency_ids": [
+            "understand_balanced_crystalloid_composition"
+          ],
+          "cognitive_operation": "compare",
+          "clinical_relevance": "Este raciocínio é relevante porque não. A composição varia conforme a solução, incluindo diferenças nas concentrações de sódio, cloro, potássio e ânions metabolizáveis.",
+          "prerequisite_concepts": [
+            "composição dos cristaloides",
+            "equilíbrio ácido-base e balanço de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-078-r06",
+          "question_id": "aqz-hiper-078",
+          "sequence": 6,
+          "prompt": "A presença de aproximadamente 4 mEq/L de potássio torna uma solução automaticamente contraindicada?",
+          "explanation": "Não. É necessário considerar a quantidade administrada, o contexto clínico e os efeitos globais da solução sobre o equilíbrio ácido-base.",
+          "reasoning_type": "fluid_potassium_risk_assessment",
+          "competency_ids": [
+            "recognize_hyperchloremic_acidosis_risk"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. É necessário considerar a quantidade administrada, o contexto clínico e os efeitos globais da solução sobre o equilíbrio ácido-base.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-078-r07",
+          "question_id": "aqz-hiper-078",
+          "sequence": 7,
+          "prompt": "Quanto potássio está presente em 1.500 mL de uma solução com 4 mEq/L?",
+          "explanation": "Aproximadamente 6 mEq de potássio.",
+          "reasoning_type": "potassium_load_calculation",
+          "competency_ids": [
+            "calculate_crystalloid_potassium_load"
+          ],
+          "cognitive_operation": "calculate",
+          "clinical_relevance": "Este raciocínio é relevante porque aproximadamente 6 mEq de potássio.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-078-r08",
+          "question_id": "aqz-hiper-078",
+          "sequence": 8,
+          "prompt": "Essa quantidade comprova que a solução provocou a elevação sérica?",
+          "explanation": "Não. A concentração sérica depende da distribuição entre compartimentos, da excreção renal e de diversos fatores metabólicos.",
+          "reasoning_type": "serum_potassium_causality",
+          "competency_ids": [
+            "integrate_aki_oliguria_and_potassium"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. A concentração sérica depende da distribuição entre compartimentos, da excreção renal e de diversos fatores metabólicos.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-078-r09",
+          "question_id": "aqz-hiper-078",
+          "sequence": 9,
+          "prompt": "Qual é a principal característica ácido-base do soro fisiológico 0,9%?",
+          "explanation": "Sua concentração de cloro é relativamente elevada, podendo favorecer acidose metabólica hiperclorêmica quando administrado em volumes significativos.",
+          "reasoning_type": "saline_hyperchloremic_acidosis",
+          "competency_ids": [
+            "recognize_hyperchloremic_acidosis_risk"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque sua concentração de cloro é relativamente elevada, podendo favorecer acidose metabólica hiperclorêmica quando administrado em volumes significativos.",
+          "prerequisite_concepts": [
+            "composição dos cristaloides",
+            "equilíbrio ácido-base e balanço de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-078-r10",
+          "question_id": "aqz-hiper-078",
+          "sequence": 10,
+          "prompt": "Como a acidose pode influenciar o potássio sérico?",
+          "explanation": "Determinadas formas de acidose metabólica podem favorecer aumento do potássio extracelular, embora a resposta dependa do mecanismo da acidose.",
+          "reasoning_type": "acidosis_potassium_relationship",
+          "competency_ids": [
+            "recognize_hyperchloremic_acidosis_risk"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque determinadas formas de acidose metabólica podem favorecer aumento do potássio extracelular, embora a resposta dependa do mecanismo da acidose.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-078-r11",
+          "question_id": "aqz-hiper-078",
+          "sequence": 11,
+          "prompt": "Os cristaloides balanceados podem apresentar vantagens em determinados pacientes?",
+          "explanation": "Sim. Em alguns contextos, podem reduzir a ocorrência de acidose hiperclorêmica em comparação com grandes volumes de solução salina 0,9%.",
+          "reasoning_type": "balanced_crystalloid_potential_benefits",
+          "competency_ids": [
+            "understand_balanced_crystalloid_composition"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque sim. Em alguns contextos, podem reduzir a ocorrência de acidose hiperclorêmica em comparação com grandes volumes de solução salina 0,9%.",
+          "prerequisite_concepts": [
+            "composição dos cristaloides",
+            "equilíbrio ácido-base e balanço de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-078-r12",
+          "question_id": "aqz-hiper-078",
+          "sequence": 12,
+          "prompt": "Isso significa que cristaloides balanceados são sempre a melhor escolha?",
+          "explanation": "Não. A escolha deve ser individualizada conforme a condição clínica, composição da solução, eletrólitos, necessidades volêmicas e contraindicações específicas.",
+          "reasoning_type": "individualized_fluid_selection",
+          "competency_ids": [
+            "individualize_fluid_selection"
+          ],
+          "cognitive_operation": "decide",
+          "clinical_relevance": "Este raciocínio é relevante porque não. A escolha deve ser individualizada conforme a condição clínica, composição da solução, eletrólitos, necessidades volêmicas e contraindicações específicas.",
+          "prerequisite_concepts": [
+            "composição dos cristaloides",
+            "equilíbrio ácido-base e balanço de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-078-r13",
+          "question_id": "aqz-hiper-078",
+          "sequence": 13,
+          "prompt": "Qual deve ser a conduta diante do potássio de 6,1 mEq/L?",
+          "explanation": "Reavaliar prontamente a hipercalemia, monitorizar o ECG, considerar medidas de redução do potássio conforme a gravidade e investigar a persistência da oligúria e da disfunção renal.",
+          "reasoning_type": "persistent_hyperkalemia_management",
+          "competency_ids": [
+            "integrate_aki_oliguria_and_potassium"
+          ],
+          "cognitive_operation": "plan",
+          "clinical_relevance": "Este raciocínio é relevante porque reavaliar prontamente a hipercalemia, monitorizar o ECG, considerar medidas de redução do potássio conforme a gravidade e investigar a persistência da oligúria e da disfunção renal.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-078-r14",
+          "question_id": "aqz-hiper-078",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Interpretar a relação entre fluidoterapia, função renal e equilíbrio ácido-base sem atribuir automaticamente a hipercalemia ao potássio presente em um cristaloide balanceado.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "recognize_hyperchloremic_acidosis_risk"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque interpretar a relação entre fluidoterapia, função renal e equilíbrio ácido-base sem atribuir automaticamente a hipercalemia ao potássio presente em um cristaloide balanceado.",
+          "prerequisite_concepts": [
+            "composição dos cristaloides",
+            "equilíbrio ácido-base e balanço de potássio"
+          ]
+        }
+      ],
+      "clinical_pearl": "> Não escolha o soro apenas olhando se existe potássio no rótulo. Na hipercalemia, a função renal e o equilíbrio ácido-base podem influenciar mais a evolução do paciente do que a pequena quantidade de potássio presente em um cristaloide balanceado.",
+      "references": [
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate.",
+        "Semler MW et al. *Balanced Crystalloids versus Saline in Critically Ill Adults*. New England Journal of Medicine, 2018.",
+        "Self WH et al. *Balanced Crystalloids versus Saline in Noncritically Ill Adults*. New England Journal of Medicine, 2018.",
+        "Literatura sobre cristaloides balanceados em pacientes com hipercalemia e disfunção renal."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "fluid_associated_hyperkalemia",
+        "clinical_context": "emergency_department",
+        "urgency_level": "urgent_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "evaluate_crystalloid_choice_in_hyperkalemia",
+        "secondary_competencies": [
+          "understand_balanced_crystalloid_composition",
+          "calculate_crystalloid_potassium_load",
+          "recognize_hyperchloremic_acidosis_risk",
+          "integrate_aki_oliguria_and_potassium",
+          "individualize_fluid_selection"
+        ],
+        "learning_objectives": [
+          "Interpretar a relação entre cristaloides, equilíbrio ácido-base e potássio."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_safety",
+        "arena_skill_ids": [
+          "evaluate_crystalloid_choice_in_hyperkalemia",
+          "understand_balanced_crystalloid_composition",
+          "calculate_crystalloid_potassium_load",
+          "recognize_hyperchloremic_acidosis_risk",
+          "integrate_aki_oliguria_and_potassium",
+          "individualize_fluid_selection"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "evaluate",
+          "crystalloid",
+          "choice",
+          "in"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "evaluate_crystalloid_choice_in_hyperkalemia",
+          "understand_balanced_crystalloid_composition",
+          "calculate_crystalloid_potassium_load",
+          "recognize_hyperchloremic_acidosis_risk",
+          "integrate_aki_oliguria_and_potassium",
+          "individualize_fluid_selection"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-079",
+      "question_id": "aqz-hiper-079",
+      "numero": 79,
+      "question_number": 79,
+      "titulo": "A hipercalemia apareceu após a intubação",
+      "competenciaPrincipal": "Reconhecer risco de hipercalemia grave induzida por succinilcolina.",
+      "competenciasSecundarias": [
+        "understand_depolarizing_neuromuscular_blockade",
+        "recognize_extrajunctional_receptor_upregulation",
+        "identify_succinylcholine_contraindications",
+        "recognize_acute_potassium_release",
+        "select_safer_intubation_strategy"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Um homem de 29 anos está internado na UTI há 18 dias após trauma raquimedular cervical, com tetraplegia e importante imobilização.\n\nDurante a internação, desenvolve pneumonia associada à assistência à saúde e apresenta piora respiratória, necessitando de intubação orotraqueal.\n\nAntes do procedimento:\n\n- PA: 118/72 mmHg.\n- FC: 106 bpm.\n- Potássio: 4,4 mEq/L.\n- Creatinina: 0,9 mg/dL.\n\nDurante a indução anestésica, recebe succinilcolina.\n\nPoucos minutos depois, apresenta bradicardia intensa, alargamento progressivo do QRS e evolução para taquicardia ventricular sem pulso.\n\nA equipe inicia imediatamente as manobras de ressuscitação.\n\nUma gasometria coletada durante o atendimento demonstra potássio de 8,6 mEq/L.\n\n**Qual mecanismo melhor explica essa complicação?**",
+      "alternativas": {
+        "A": "A succinilcolina provoca liberação de potássio por ativação de receptores nicotínicos musculares. Após desnervação e imobilização prolongada, a expressão aumentada e a distribuição extrajuncional desses receptores podem produzir efluxo exagerado de potássio, tornando o medicamento potencialmente perigoso.",
+        "B": "A succinilcolina provoca hipercalemia exclusivamente quando existe insuficiência renal terminal, não havendo relação com alterações neuromusculares.",
+        "C": "O aumento do potássio ocorre porque a succinilcolina bloqueia diretamente a excreção renal de potássio, efeito que se desenvolve em poucos segundos.",
+        "D": "A presença de potássio normal antes da intubação exclui a possibilidade de hipercalemia grave após a administração de succinilcolina."
+      },
+      "gabarito": "A",
+      "raciocinioClinico": "**1. Qual é a complicação apresentada?**\n\nHipercalemia grave associada a instabilidade elétrica e parada cardíaca após administração de succinilcolina.\n\n**2. Qual é a classe farmacológica da succinilcolina?**\n\nBloqueador neuromuscular despolarizante.\n\n**3. Qual receptor é ativado pela succinilcolina?**\n\nO receptor nicotínico de acetilcolina presente na membrana muscular.\n\n**4. O que acontece quando esse receptor é ativado?**\n\nOcorre abertura de canais iônicos, com fluxo de cátions e despolarização da membrana muscular.\n\n**5. Qual é a relação entre despolarização muscular e potássio?**\n\nA ativação dos receptores permite efluxo de potássio das células musculares, produzindo aumento transitório de sua concentração extracelular.\n\n**6. Esse aumento acontece também em indivíduos sem fatores de risco?**\n\nSim, geralmente de pequena magnitude, mas a resposta pode ser muito maior em condições predisponentes.\n\n**7. Qual é a principal condição predisponente neste paciente?**\n\nO trauma raquimedular com desnervação e imobilização prolongada.\n\n**8. O que acontece com os receptores nicotínicos após determinadas lesões neuromusculares?**\n\nPode ocorrer aumento da expressão e disseminação de receptores para regiões extrajuncionais da membrana muscular.\n\n**9. Como isso modifica a resposta à succinilcolina?**\n\nA ativação de maior quantidade de receptores pode provocar efluxo muito mais intenso de potássio.\n\n**10. A creatinina normal protege contra esse mecanismo?**\n\nNão. A complicação decorre principalmente de liberação rápida de potássio do músculo, e não necessariamente de falha na excreção renal.\n\n**11. O potássio normal antes da intubação exclui risco?**\n\nNão. O aumento pode ocorrer abruptamente após a administração do bloqueador despolarizante.\n\n**12. Quais outras situações podem aumentar esse risco?**\n\nDeterminadas queimaduras extensas após o período inicial, lesões neuromusculares, desnervação, imobilização prolongada e algumas doenças musculares.\n\n**13. Como prevenir essa complicação?**\n\nIdentificar condições de risco antes da intubação e selecionar um bloqueador neuromuscular alternativo quando a succinilcolina estiver contraindicada.\n\n**14. Qual é a competência principal?**\n\nReconhecer situações em que a succinilcolina pode provocar hipercalemia grave por alterações da expressão dos receptores musculares.",
+      "comentarios": {
+        "A": "A succinilcolina pode produzir efluxo exagerado de potássio em pacientes com desnervação e alterações da expressão dos receptores nicotínicos musculares.",
+        "B": "A hipercalemia grave associada à succinilcolina pode ocorrer independentemente de insuficiência renal terminal.",
+        "C": "O mecanismo agudo envolve liberação de potássio do músculo, não bloqueio instantâneo da excreção renal.",
+        "D": "O potássio prévio normal não exclui elevação abrupta após administração de succinilcolina em pacientes suscetíveis."
+      },
+      "perola": "> Antes de utilizar succinilcolina, não pergunte apenas quanto está o potássio. Pergunte também o que aconteceu com os músculos daquele paciente nas últimas semanas.",
+      "referencias": "*Clinical use of neuromuscular blocking agents in anesthesia*. UpToDate.\nLiteratura de anestesiologia sobre hipercalemia induzida por succinilcolina.\nRevisões sobre alterações dos receptores nicotínicos após desnervação, queimaduras e imobilização.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 16,
+      "stem": "Um homem de 29 anos está internado na UTI há 18 dias após trauma raquimedular cervical, com tetraplegia e importante imobilização.\n\nDurante a internação, desenvolve pneumonia associada à assistência à saúde e apresenta piora respiratória, necessitando de intubação orotraqueal.\n\nAntes do procedimento:\n\n- PA: 118/72 mmHg.\n- FC: 106 bpm.\n- Potássio: 4,4 mEq/L.\n- Creatinina: 0,9 mg/dL.\n\nDurante a indução anestésica, recebe succinilcolina.\n\nPoucos minutos depois, apresenta bradicardia intensa, alargamento progressivo do QRS e evolução para taquicardia ventricular sem pulso.\n\nA equipe inicia imediatamente as manobras de ressuscitação.\n\nUma gasometria coletada durante o atendimento demonstra potássio de 8,6 mEq/L.\n\n**Qual mecanismo melhor explica essa complicação?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-079-A",
+          "question_id": "aqz-hiper-079",
+          "letter": "A",
+          "text": "A succinilcolina provoca liberação de potássio por ativação de receptores nicotínicos musculares. Após desnervação e imobilização prolongada, a expressão aumentada e a distribuição extrajuncional desses receptores podem produzir efluxo exagerado de potássio, tornando o medicamento potencialmente perigoso.",
+          "is_correct": true,
+          "feedback": "A succinilcolina pode produzir efluxo exagerado de potássio em pacientes com desnervação e alterações da expressão dos receptores nicotínicos musculares.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "recognize_succinylcholine_hyperkalemia_risk",
+            "understand_depolarizing_neuromuscular_blockade",
+            "recognize_extrajunctional_receptor_upregulation"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-079-B",
+          "question_id": "aqz-hiper-079",
+          "letter": "B",
+          "text": "A succinilcolina provoca hipercalemia exclusivamente quando existe insuficiência renal terminal, não havendo relação com alterações neuromusculares.",
+          "is_correct": false,
+          "feedback": "A hipercalemia grave associada à succinilcolina pode ocorrer independentemente de insuficiência renal terminal.",
+          "error_type": "risk_factor_overrestriction",
+          "misconception_id": "succinylcholine_hyperkalemia_requires_esrd",
+          "misconception_description": "Restringe incorretamente o risco da succinilcolina à insuficiência renal terminal.",
+          "competency_ids": [
+            "recognize_extrajunctional_receptor_upregulation"
+          ],
+          "clinical_risk_if_applied": "administrar medicamento potencialmente perigoso em paciente desnervado."
+        },
+        {
+          "option_id": "aqz-hiper-079-C",
+          "question_id": "aqz-hiper-079",
+          "letter": "C",
+          "text": "O aumento do potássio ocorre porque a succinilcolina bloqueia diretamente a excreção renal de potássio, efeito que se desenvolve em poucos segundos.",
+          "is_correct": false,
+          "feedback": "O mecanismo agudo envolve liberação de potássio do músculo, não bloqueio instantâneo da excreção renal.",
+          "error_type": "pharmacologic_mechanism_error",
+          "misconception_id": "succinylcholine_immediately_blocks_renal_potassium_excretion",
+          "misconception_description": "Confunde efluxo muscular agudo com bloqueio da excreção renal.",
+          "competency_ids": [
+            "identify_succinylcholine_contraindications"
+          ],
+          "clinical_risk_if_applied": "não identificar contraindicações neuromusculares."
+        },
+        {
+          "option_id": "aqz-hiper-079-D",
+          "question_id": "aqz-hiper-079",
+          "letter": "D",
+          "text": "A presença de potássio normal antes da intubação exclui a possibilidade de hipercalemia grave após a administração de succinilcolina.",
+          "is_correct": false,
+          "feedback": "O potássio prévio normal não exclui elevação abrupta após administração de succinilcolina em pacientes suscetíveis.",
+          "error_type": "baseline_lab_false_reassurance",
+          "misconception_id": "normal_potassium_excludes_succinylcholine_risk",
+          "misconception_description": "Considera potássio basal normal garantia de segurança.",
+          "competency_ids": [
+            "recognize_acute_potassium_release"
+          ],
+          "clinical_risk_if_applied": "hipercalemia abrupta após succinilcolina."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-079-r01",
+          "question_id": "aqz-hiper-079",
+          "sequence": 1,
+          "prompt": "Qual é a complicação apresentada?",
+          "explanation": "Hipercalemia grave associada a instabilidade elétrica e parada cardíaca após administração de succinilcolina.",
+          "reasoning_type": "peri_intubation_hyperkalemia_recognition",
+          "competency_ids": [
+            "select_safer_intubation_strategy"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque hipercalemia grave associada a instabilidade elétrica e parada cardíaca após administração de succinilcolina.",
+          "prerequisite_concepts": [
+            "bloqueio neuromuscular despolarizante",
+            "regulação dos receptores extrajuncionais"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-079-r02",
+          "question_id": "aqz-hiper-079",
+          "sequence": 2,
+          "prompt": "Qual é a classe farmacológica da succinilcolina?",
+          "explanation": "Bloqueador neuromuscular despolarizante.",
+          "reasoning_type": "depolarizing_blocker_classification",
+          "competency_ids": [
+            "understand_depolarizing_neuromuscular_blockade"
+          ],
+          "cognitive_operation": "classify",
+          "clinical_relevance": "Este raciocínio é relevante porque bloqueador neuromuscular despolarizante.",
+          "prerequisite_concepts": [
+            "bloqueio neuromuscular despolarizante",
+            "regulação dos receptores extrajuncionais"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-079-r03",
+          "question_id": "aqz-hiper-079",
+          "sequence": 3,
+          "prompt": "Qual receptor é ativado pela succinilcolina?",
+          "explanation": "O receptor nicotínico de acetilcolina presente na membrana muscular.",
+          "reasoning_type": "nicotinic_receptor_identification",
+          "competency_ids": [
+            "recognize_extrajunctional_receptor_upregulation"
+          ],
+          "cognitive_operation": "recall",
+          "clinical_relevance": "Este raciocínio é relevante porque o receptor nicotínico de acetilcolina presente na membrana muscular.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-079-r04",
+          "question_id": "aqz-hiper-079",
+          "sequence": 4,
+          "prompt": "O que acontece quando esse receptor é ativado?",
+          "explanation": "Ocorre abertura de canais iônicos, com fluxo de cátions e despolarização da membrana muscular.",
+          "reasoning_type": "muscle_membrane_depolarization",
+          "competency_ids": [
+            "recognize_acute_potassium_release"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque ocorre abertura de canais iônicos, com fluxo de cátions e despolarização da membrana muscular.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-079-r05",
+          "question_id": "aqz-hiper-079",
+          "sequence": 5,
+          "prompt": "Qual é a relação entre despolarização muscular e potássio?",
+          "explanation": "A ativação dos receptores permite efluxo de potássio das células musculares, produzindo aumento transitório de sua concentração extracelular.",
+          "reasoning_type": "potassium_efflux_mechanism",
+          "competency_ids": [
+            "recognize_acute_potassium_release"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque a ativação dos receptores permite efluxo de potássio das células musculares, produzindo aumento transitório de sua concentração extracelular.",
+          "prerequisite_concepts": [
+            "bloqueio neuromuscular despolarizante",
+            "regulação dos receptores extrajuncionais"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-079-r06",
+          "question_id": "aqz-hiper-079",
+          "sequence": 6,
+          "prompt": "Esse aumento acontece também em indivíduos sem fatores de risco?",
+          "explanation": "Sim, geralmente de pequena magnitude, mas a resposta pode ser muito maior em condições predisponentes.",
+          "reasoning_type": "physiologic_potassium_increase",
+          "competency_ids": [
+            "recognize_acute_potassium_release"
+          ],
+          "cognitive_operation": "compare",
+          "clinical_relevance": "Este raciocínio é relevante porque sim, geralmente de pequena magnitude, mas a resposta pode ser muito maior em condições predisponentes.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-079-r07",
+          "question_id": "aqz-hiper-079",
+          "sequence": 7,
+          "prompt": "Qual é a principal condição predisponente neste paciente?",
+          "explanation": "O trauma raquimedular com desnervação e imobilização prolongada.",
+          "reasoning_type": "spinal_cord_injury_risk",
+          "competency_ids": [
+            "select_safer_intubation_strategy"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque o trauma raquimedular com desnervação e imobilização prolongada.",
+          "prerequisite_concepts": [
+            "bloqueio neuromuscular despolarizante",
+            "regulação dos receptores extrajuncionais"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-079-r08",
+          "question_id": "aqz-hiper-079",
+          "sequence": 8,
+          "prompt": "O que acontece com os receptores nicotínicos após determinadas lesões neuromusculares?",
+          "explanation": "Pode ocorrer aumento da expressão e disseminação de receptores para regiões extrajuncionais da membrana muscular.",
+          "reasoning_type": "extrajunctional_receptor_upregulation",
+          "competency_ids": [
+            "recognize_extrajunctional_receptor_upregulation"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque pode ocorrer aumento da expressão e disseminação de receptores para regiões extrajuncionais da membrana muscular.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-079-r09",
+          "question_id": "aqz-hiper-079",
+          "sequence": 9,
+          "prompt": "Como isso modifica a resposta à succinilcolina?",
+          "explanation": "A ativação de maior quantidade de receptores pode provocar efluxo muito mais intenso de potássio.",
+          "reasoning_type": "exaggerated_potassium_release",
+          "competency_ids": [
+            "recognize_acute_potassium_release"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque a ativação de maior quantidade de receptores pode provocar efluxo muito mais intenso de potássio.",
+          "prerequisite_concepts": [
+            "bloqueio neuromuscular despolarizante",
+            "regulação dos receptores extrajuncionais"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-079-r10",
+          "question_id": "aqz-hiper-079",
+          "sequence": 10,
+          "prompt": "A creatinina normal protege contra esse mecanismo?",
+          "explanation": "Não. A complicação decorre principalmente de liberação rápida de potássio do músculo, e não necessariamente de falha na excreção renal.",
+          "reasoning_type": "renal_function_independence",
+          "competency_ids": [
+            "recognize_acute_potassium_release"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. A complicação decorre principalmente de liberação rápida de potássio do músculo, e não necessariamente de falha na excreção renal.",
+          "prerequisite_concepts": [
+            "diferença entre filtração glomerular e função tubular",
+            "secreção distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-079-r11",
+          "question_id": "aqz-hiper-079",
+          "sequence": 11,
+          "prompt": "O potássio normal antes da intubação exclui risco?",
+          "explanation": "Não. O aumento pode ocorrer abruptamente após a administração do bloqueador despolarizante.",
+          "reasoning_type": "normal_baseline_potassium_limitation",
+          "competency_ids": [
+            "recognize_acute_potassium_release"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. O aumento pode ocorrer abruptamente após a administração do bloqueador despolarizante.",
+          "prerequisite_concepts": [
+            "bloqueio neuromuscular despolarizante",
+            "regulação dos receptores extrajuncionais"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-079-r12",
+          "question_id": "aqz-hiper-079",
+          "sequence": 12,
+          "prompt": "Quais outras situações podem aumentar esse risco?",
+          "explanation": "Determinadas queimaduras extensas após o período inicial, lesões neuromusculares, desnervação, imobilização prolongada e algumas doenças musculares.",
+          "reasoning_type": "other_neuromuscular_risk_states",
+          "competency_ids": [
+            "understand_depolarizing_neuromuscular_blockade"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque determinadas queimaduras extensas após o período inicial, lesões neuromusculares, desnervação, imobilização prolongada e algumas doenças musculares.",
+          "prerequisite_concepts": [
+            "bloqueio neuromuscular despolarizante",
+            "regulação dos receptores extrajuncionais"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-079-r13",
+          "question_id": "aqz-hiper-079",
+          "sequence": 13,
+          "prompt": "Como prevenir essa complicação?",
+          "explanation": "Identificar condições de risco antes da intubação e selecionar um bloqueador neuromuscular alternativo quando a succinilcolina estiver contraindicada.",
+          "reasoning_type": "safer_airway_drug_selection",
+          "competency_ids": [
+            "select_safer_intubation_strategy"
+          ],
+          "cognitive_operation": "decide",
+          "clinical_relevance": "Este raciocínio é relevante porque identificar condições de risco antes da intubação e selecionar um bloqueador neuromuscular alternativo quando a succinilcolina estiver contraindicada.",
+          "prerequisite_concepts": [
+            "bloqueio neuromuscular despolarizante",
+            "regulação dos receptores extrajuncionais"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-079-r14",
+          "question_id": "aqz-hiper-079",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Reconhecer situações em que a succinilcolina pode provocar hipercalemia grave por alterações da expressão dos receptores musculares.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "identify_succinylcholine_contraindications"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque reconhecer situações em que a succinilcolina pode provocar hipercalemia grave por alterações da expressão dos receptores musculares.",
+          "prerequisite_concepts": [
+            "bloqueio neuromuscular despolarizante",
+            "regulação dos receptores extrajuncionais"
+          ]
+        }
+      ],
+      "clinical_pearl": "> Antes de utilizar succinilcolina, não pergunte apenas quanto está o potássio. Pergunte também o que aconteceu com os músculos daquele paciente nas últimas semanas.",
+      "references": [
+        "*Clinical use of neuromuscular blocking agents in anesthesia*. UpToDate.",
+        "Literatura de anestesiologia sobre hipercalemia induzida por succinilcolina.",
+        "Revisões sobre alterações dos receptores nicotínicos após desnervação, queimaduras e imobilização."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "drug_induced_hyperkalemia",
+        "clinical_context": "peri_intubation",
+        "urgency_level": "urgent_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "recognize_succinylcholine_hyperkalemia_risk",
+        "secondary_competencies": [
+          "understand_depolarizing_neuromuscular_blockade",
+          "recognize_extrajunctional_receptor_upregulation",
+          "identify_succinylcholine_contraindications",
+          "recognize_acute_potassium_release",
+          "select_safer_intubation_strategy"
+        ],
+        "learning_objectives": [
+          "Reconhecer risco de hipercalemia grave induzida por succinilcolina."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "medication_safety",
+        "arena_skill_ids": [
+          "recognize_succinylcholine_hyperkalemia_risk",
+          "understand_depolarizing_neuromuscular_blockade",
+          "recognize_extrajunctional_receptor_upregulation",
+          "identify_succinylcholine_contraindications",
+          "recognize_acute_potassium_release",
+          "select_safer_intubation_strategy"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "recognize",
+          "succinylcholine",
+          "risk"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "recognize_succinylcholine_hyperkalemia_risk",
+          "understand_depolarizing_neuromuscular_blockade",
+          "recognize_extrajunctional_receptor_upregulation",
+          "identify_succinylcholine_contraindications",
+          "recognize_acute_potassium_release",
+          "select_safer_intubation_strategy"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-080",
+      "question_id": "aqz-hiper-080",
+      "numero": 80,
+      "question_number": 80,
+      "titulo": "O tratamento da hipercalemia provocou hipocalemia",
+      "competenciaPrincipal": "Reconhecer e prevenir hipocalemia iatrogênica após tratamento da hipercalemia.",
+      "competenciasSecundarias": [
+        "recognize_redistributive_treatment_overlap",
+        "interpret_hypokalemia_ecg",
+        "recognize_hypomagnesemia_risk",
+        "evaluate_potassium_replacement_safety",
+        "prevent_handoff_medication_errors"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Uma mulher de 64 anos, com diabetes mellitus tipo 2 e doença renal crônica estágio G3b, é admitida na emergência com potássio de 6,7 mEq/L e ondas T apiculadas.\n\nA paciente apresenta:\n\n- PA: 132/78 mmHg.\n- FC: 92 bpm.\n- Creatinina: 2,0 mg/dL.\n- Glicemia: 178 mg/dL.\n\nRecebe cálcio intravenoso, insulina regular com glicose e salbutamol nebulizado.\n\nCerca de 90 minutos depois, o potássio é de 5,1 mEq/L.\n\nDurante a troca de plantão, a equipe seguinte não identifica que o tratamento redistributivo já havia sido realizado e administra uma nova dose de insulina com glicose, além de repetir o salbutamol.\n\nTrês horas depois, a paciente apresenta palpitações e fraqueza.\n\nOs exames demonstram:\n\n- Potássio: 2,7 mEq/L.\n- Magnésio: 1,5 mg/dL.\n- Glicemia: 96 mg/dL.\n\nO ECG apresenta achatamento das ondas T, depressão do segmento ST e ondas U evidentes.\n\n**Qual é a interpretação e a conduta mais adequadas?**",
+      "alternativas": {
+        "A": "A hipocalemia demonstra que o cálcio intravenoso removeu potássio em excesso, sendo esse o principal mecanismo da complicação.",
+        "B": "A hipocalemia exclui qualquer relação com o tratamento anterior, pois insulina e salbutamol não conseguem reduzir o potássio abaixo do intervalo de referência.",
+        "C": "A redução excessiva do potássio pode resultar da repetição de terapias redistributivas sem reavaliação adequada. É necessário interromper novas medidas hipocalemiantes, monitorizar o ECG e os eletrólitos, avaliar a reposição cautelosa de potássio e corrigir a hipomagnesemia conforme o contexto, mantendo vigilância para posterior rebote.",
+        "D": "O potássio de 2,7 mEq/L deve ser ignorado porque a paciente apresentou hipercalemia grave algumas horas antes."
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. Qual é a nova alteração eletrolítica?**\n\nHipocalemia importante, com potássio de 2,7 mEq/L.\n\n**2. Quais achados eletrocardiográficos são compatíveis com hipocalemia?**\n\nAchatamento das ondas T, depressão do segmento ST e ondas U proeminentes.\n\n**3. Qual foi o principal problema no processo assistencial?**\n\nA repetição de terapias redistributivas sem reconhecimento adequado das intervenções já realizadas e da resposta laboratorial.\n\n**4. Como a insulina reduz o potássio sérico?**\n\nEstimula a entrada de potássio nas células por aumento da atividade da Na⁺/K⁺-ATPase.\n\n**5. Como o salbutamol contribui para essa redução?**\n\nAtiva receptores beta-2-adrenérgicos, favorecendo a entrada de potássio nas células.\n\n**6. A associação dessas terapias pode produzir efeitos aditivos?**\n\nSim. Ambas favorecem redistribuição intracelular e podem provocar redução expressiva da concentração sérica de potássio.\n\n**7. O cálcio intravenoso foi responsável pela redução do potássio?**\n\nNão. O cálcio é utilizado para estabilização cardíaca e não promove remoção ou redistribuição significativa do potássio.\n\n**8. Qual é a importância da hipomagnesemia?**\n\nPode aumentar o risco de arritmias e dificultar a correção da hipocalemia.\n\n**9. Qual é a primeira medida diante da hipocalemia iatrogênica?**\n\nInterromper novas intervenções destinadas a reduzir o potássio e reavaliar imediatamente o paciente.\n\n**10. A reposição de potássio deve ser automática e agressiva?**\n\nNão. Deve considerar gravidade, sintomas, ECG, função renal, mecanismos responsáveis e possibilidade de redistribuição reversa.\n\n**11. Por que existe risco de rebote posterior?**\n\nPorque parte da redução pode resultar de deslocamento temporário para o compartimento intracelular, com possível retorno do potássio ao meio extracelular.\n\n**12. Qual é a importância da monitorização eletrocardiográfica?**\n\nA hipocalemia pode provocar alterações de repolarização e arritmias, especialmente em pacientes suscetíveis.\n\n**13. Qual medida de segurança poderia ter prevenido a complicação?**\n\nRegistro e comunicação adequados das intervenções, conferência das doses já administradas e reavaliação laboratorial antes de repetir terapias redistributivas, salvo indicação clínica emergencial devidamente justificada.\n\n**14. Qual é a competência principal?**\n\nReconhecer e prevenir hipocalemia iatrogênica causada por tratamento redistributivo excessivo, com atenção à comunicação entre equipes e à monitorização seriada.",
+      "comentarios": {
+        "A": "O cálcio intravenoso não é responsável pela remoção ou redistribuição significativa do potássio.",
+        "B": "Insulina e salbutamol podem produzir redução excessiva do potássio, especialmente quando administrados repetidamente.",
+        "C": "O quadro é compatível com hipocalemia iatrogênica após repetição de terapias redistributivas. A abordagem exige interrupção das medidas hipocalemiantes, monitorização e correção individualizada.",
+        "D": "Hipocalemia importante não deve ser ignorada por causa de hipercalemia anterior. Ambas podem provocar arritmias graves."
+      },
+      "perola": "> O tratamento da hipercalemia não termina quando o potássio começa a cair. Sem reavaliação e comunicação entre as equipes, a tentativa de evitar uma arritmia pode criar outra.",
+      "referencias": "*Treatment and prevention of hyperkalemia in adults*. UpToDate.\n*Clinical manifestations and treatment of hypokalemia in adults*. UpToDate.\nLiteratura sobre segurança medicamentosa, transição de cuidados e monitorização de eletrólitos.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 16,
+      "stem": "Uma mulher de 64 anos, com diabetes mellitus tipo 2 e doença renal crônica estágio G3b, é admitida na emergência com potássio de 6,7 mEq/L e ondas T apiculadas.\n\nA paciente apresenta:\n\n- PA: 132/78 mmHg.\n- FC: 92 bpm.\n- Creatinina: 2,0 mg/dL.\n- Glicemia: 178 mg/dL.\n\nRecebe cálcio intravenoso, insulina regular com glicose e salbutamol nebulizado.\n\nCerca de 90 minutos depois, o potássio é de 5,1 mEq/L.\n\nDurante a troca de plantão, a equipe seguinte não identifica que o tratamento redistributivo já havia sido realizado e administra uma nova dose de insulina com glicose, além de repetir o salbutamol.\n\nTrês horas depois, a paciente apresenta palpitações e fraqueza.\n\nOs exames demonstram:\n\n- Potássio: 2,7 mEq/L.\n- Magnésio: 1,5 mg/dL.\n- Glicemia: 96 mg/dL.\n\nO ECG apresenta achatamento das ondas T, depressão do segmento ST e ondas U evidentes.\n\n**Qual é a interpretação e a conduta mais adequadas?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-080-A",
+          "question_id": "aqz-hiper-080",
+          "letter": "A",
+          "text": "A hipocalemia demonstra que o cálcio intravenoso removeu potássio em excesso, sendo esse o principal mecanismo da complicação.",
+          "is_correct": false,
+          "feedback": "O cálcio intravenoso não é responsável pela remoção ou redistribuição significativa do potássio.",
+          "error_type": "calcium_mechanism_confusion",
+          "misconception_id": "iv_calcium_removes_potassium",
+          "misconception_description": "Atribui redução de potássio ao cálcio intravenoso.",
+          "competency_ids": [
+            "recognize_redistributive_treatment_overlap"
+          ],
+          "clinical_risk_if_applied": "compreensão incorreta das intervenções e da causa da hipocalemia."
+        },
+        {
+          "option_id": "aqz-hiper-080-B",
+          "question_id": "aqz-hiper-080",
+          "letter": "B",
+          "text": "A hipocalemia exclui qualquer relação com o tratamento anterior, pois insulina e salbutamol não conseguem reduzir o potássio abaixo do intervalo de referência.",
+          "is_correct": false,
+          "feedback": "Insulina e salbutamol podem produzir redução excessiva do potássio, especialmente quando administrados repetidamente.",
+          "error_type": "treatment_effect_underestimation",
+          "misconception_id": "insulin_salbutamol_cannot_cause_hypokalemia",
+          "misconception_description": "Subestima o efeito aditivo de insulina e salbutamol.",
+          "competency_ids": [
+            "interpret_hypokalemia_ecg"
+          ],
+          "clinical_risk_if_applied": "repetição excessiva de tratamento."
+        },
+        {
+          "option_id": "aqz-hiper-080-C",
+          "question_id": "aqz-hiper-080",
+          "letter": "C",
+          "text": "A redução excessiva do potássio pode resultar da repetição de terapias redistributivas sem reavaliação adequada. É necessário interromper novas medidas hipocalemiantes, monitorizar o ECG e os eletrólitos, avaliar a reposição cautelosa de potássio e corrigir a hipomagnesemia conforme o contexto, mantendo vigilância para posterior rebote.",
+          "is_correct": true,
+          "feedback": "O quadro é compatível com hipocalemia iatrogênica após repetição de terapias redistributivas. A abordagem exige interrupção das medidas hipocalemiantes, monitorização e correção individualizada.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "prevent_treatment_induced_hypokalemia",
+            "recognize_redistributive_treatment_overlap",
+            "interpret_hypokalemia_ecg"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-080-D",
+          "question_id": "aqz-hiper-080",
+          "letter": "D",
+          "text": "O potássio de 2,7 mEq/L deve ser ignorado porque a paciente apresentou hipercalemia grave algumas horas antes.",
+          "is_correct": false,
+          "feedback": "Hipocalemia importante não deve ser ignorada por causa de hipercalemia anterior. Ambas podem provocar arritmias graves.",
+          "error_type": "unsafe_result_dismissal",
+          "misconception_id": "previous_hyperkalemia_makes_current_hypokalemia_irrelevant",
+          "misconception_description": "Desconsidera hipocalemia atual devido à hipercalemia anterior.",
+          "competency_ids": [
+            "evaluate_potassium_replacement_safety"
+          ],
+          "clinical_risk_if_applied": "arritmias e atraso na correção.\n\nPara as cinco alternativas corretas, registrar as competências demonstradas e manter `error_type` e `misconception_id` nulos.\n\nAssociar `competency_ids` individualmente a cada alternativa.\n\n---"
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-080-r01",
+          "question_id": "aqz-hiper-080",
+          "sequence": 1,
+          "prompt": "Qual é a nova alteração eletrolítica?",
+          "explanation": "Hipocalemia importante, com potássio de 2,7 mEq/L.",
+          "reasoning_type": "iatrogenic_hypokalemia_recognition",
+          "competency_ids": [
+            "interpret_hypokalemia_ecg"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque hipocalemia importante, com potássio de 2,7 mEq/L.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-080-r02",
+          "question_id": "aqz-hiper-080",
+          "sequence": 2,
+          "prompt": "Quais achados eletrocardiográficos são compatíveis com hipocalemia?",
+          "explanation": "Achatamento das ondas T, depressão do segmento ST e ondas U proeminentes.",
+          "reasoning_type": "hypokalemia_ecg_interpretation",
+          "competency_ids": [
+            "interpret_hypokalemia_ecg"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Este raciocínio é relevante porque achatamento das ondas T, depressão do segmento ST e ondas U proeminentes.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-080-r03",
+          "question_id": "aqz-hiper-080",
+          "sequence": 3,
+          "prompt": "Qual foi o principal problema no processo assistencial?",
+          "explanation": "A repetição de terapias redistributivas sem reconhecimento adequado das intervenções já realizadas e da resposta laboratorial.",
+          "reasoning_type": "handoff_safety_failure",
+          "competency_ids": [
+            "prevent_handoff_medication_errors"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque a repetição de terapias redistributivas sem reconhecimento adequado das intervenções já realizadas e da resposta laboratorial.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-080-r04",
+          "question_id": "aqz-hiper-080",
+          "sequence": 4,
+          "prompt": "Como a insulina reduz o potássio sérico?",
+          "explanation": "Estimula a entrada de potássio nas células por aumento da atividade da Na⁺/K⁺-ATPase.",
+          "reasoning_type": "insulin_potassium_shift",
+          "competency_ids": [
+            "evaluate_potassium_replacement_safety"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque estimula a entrada de potássio nas células por aumento da atividade da Na⁺/K⁺-ATPase.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-080-r05",
+          "question_id": "aqz-hiper-080",
+          "sequence": 5,
+          "prompt": "Como o salbutamol contribui para essa redução?",
+          "explanation": "Ativa receptores beta-2-adrenérgicos, favorecendo a entrada de potássio nas células.",
+          "reasoning_type": "beta2_potassium_shift",
+          "competency_ids": [
+            "evaluate_potassium_replacement_safety"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque ativa receptores beta-2-adrenérgicos, favorecendo a entrada de potássio nas células.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-080-r06",
+          "question_id": "aqz-hiper-080",
+          "sequence": 6,
+          "prompt": "A associação dessas terapias pode produzir efeitos aditivos?",
+          "explanation": "Sim. Ambas favorecem redistribuição intracelular e podem provocar redução expressiva da concentração sérica de potássio.",
+          "reasoning_type": "additive_redistributive_effect",
+          "competency_ids": [
+            "recognize_redistributive_treatment_overlap"
+          ],
+          "cognitive_operation": "integrate",
+          "clinical_relevance": "Este raciocínio é relevante porque sim. Ambas favorecem redistribuição intracelular e podem provocar redução expressiva da concentração sérica de potássio.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-080-r07",
+          "question_id": "aqz-hiper-080",
+          "sequence": 7,
+          "prompt": "O cálcio intravenoso foi responsável pela redução do potássio?",
+          "explanation": "Não. O cálcio é utilizado para estabilização cardíaca e não promove remoção ou redistribuição significativa do potássio.",
+          "reasoning_type": "calcium_mechanism_differentiation",
+          "competency_ids": [
+            "evaluate_potassium_replacement_safety"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. O cálcio é utilizado para estabilização cardíaca e não promove remoção ou redistribuição significativa do potássio.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-080-r08",
+          "question_id": "aqz-hiper-080",
+          "sequence": 8,
+          "prompt": "Qual é a importância da hipomagnesemia?",
+          "explanation": "Pode aumentar o risco de arritmias e dificultar a correção da hipocalemia.",
+          "reasoning_type": "hypomagnesemia_arrhythmia_risk",
+          "competency_ids": [
+            "recognize_hypomagnesemia_risk"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque pode aumentar o risco de arritmias e dificultar a correção da hipocalemia.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-080-r09",
+          "question_id": "aqz-hiper-080",
+          "sequence": 9,
+          "prompt": "Qual é a primeira medida diante da hipocalemia iatrogênica?",
+          "explanation": "Interromper novas intervenções destinadas a reduzir o potássio e reavaliar imediatamente o paciente.",
+          "reasoning_type": "stop_hypokalemic_treatments",
+          "competency_ids": [
+            "evaluate_potassium_replacement_safety"
+          ],
+          "cognitive_operation": "prioritize",
+          "clinical_relevance": "Este raciocínio é relevante porque interromper novas intervenções destinadas a reduzir o potássio e reavaliar imediatamente o paciente.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-080-r10",
+          "question_id": "aqz-hiper-080",
+          "sequence": 10,
+          "prompt": "A reposição de potássio deve ser automática e agressiva?",
+          "explanation": "Não. Deve considerar gravidade, sintomas, ECG, função renal, mecanismos responsáveis e possibilidade de redistribuição reversa.",
+          "reasoning_type": "potassium_replacement_risk_benefit",
+          "competency_ids": [
+            "evaluate_potassium_replacement_safety"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. Deve considerar gravidade, sintomas, ECG, função renal, mecanismos responsáveis e possibilidade de redistribuição reversa.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-080-r11",
+          "question_id": "aqz-hiper-080",
+          "sequence": 11,
+          "prompt": "Por que existe risco de rebote posterior?",
+          "explanation": "Porque parte da redução pode resultar de deslocamento temporário para o compartimento intracelular, com possível retorno do potássio ao meio extracelular.",
+          "reasoning_type": "rebound_hyperkalemia_risk",
+          "competency_ids": [
+            "recognize_hypomagnesemia_risk"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque porque parte da redução pode resultar de deslocamento temporário para o compartimento intracelular, com possível retorno do potássio ao meio extracelular.",
+          "prerequisite_concepts": [
+            "gradiente de potássio entre sangue e dialisato",
+            "redistribuição intra e extracelular"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-080-r12",
+          "question_id": "aqz-hiper-080",
+          "sequence": 12,
+          "prompt": "Qual é a importância da monitorização eletrocardiográfica?",
+          "explanation": "A hipocalemia pode provocar alterações de repolarização e arritmias, especialmente em pacientes suscetíveis.",
+          "reasoning_type": "ecg_monitoring",
+          "competency_ids": [
+            "interpret_hypokalemia_ecg"
+          ],
+          "cognitive_operation": "apply",
+          "clinical_relevance": "Este raciocínio é relevante porque a hipocalemia pode provocar alterações de repolarização e arritmias, especialmente em pacientes suscetíveis.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-080-r13",
+          "question_id": "aqz-hiper-080",
+          "sequence": 13,
+          "prompt": "Qual medida de segurança poderia ter prevenido a complicação?",
+          "explanation": "Registro e comunicação adequados das intervenções, conferência das doses já administradas e reavaliação laboratorial antes de repetir terapias redistributivas, salvo indicação clínica emergencial devidamente justificada.",
+          "reasoning_type": "medication_handoff_prevention",
+          "competency_ids": [
+            "prevent_handoff_medication_errors"
+          ],
+          "cognitive_operation": "plan",
+          "clinical_relevance": "Este raciocínio é relevante porque registro e comunicação adequados das intervenções, conferência das doses já administradas e reavaliação laboratorial antes de repetir terapias redistributivas, salvo indicação clínica emergencial devidamente justificada.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-080-r14",
+          "question_id": "aqz-hiper-080",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Reconhecer e prevenir hipocalemia iatrogênica causada por tratamento redistributivo excessivo, com atenção à comunicação entre equipes e à monitorização seriada.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "recognize_hypomagnesemia_risk"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque reconhecer e prevenir hipocalemia iatrogênica causada por tratamento redistributivo excessivo, com atenção à comunicação entre equipes e à monitorização seriada.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        }
+      ],
+      "clinical_pearl": "> O tratamento da hipercalemia não termina quando o potássio começa a cair. Sem reavaliação e comunicação entre as equipes, a tentativa de evitar uma arritmia pode criar outra.",
+      "references": [
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate.",
+        "*Clinical manifestations and treatment of hypokalemia in adults*. UpToDate.",
+        "Literatura sobre segurança medicamentosa, transição de cuidados e monitorização de eletrólitos."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "treatment_induced_hypokalemia",
+        "clinical_context": "inpatient_handoff",
+        "urgency_level": "prompt_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "prevent_treatment_induced_hypokalemia",
+        "secondary_competencies": [
+          "recognize_redistributive_treatment_overlap",
+          "interpret_hypokalemia_ecg",
+          "recognize_hypomagnesemia_risk",
+          "evaluate_potassium_replacement_safety",
+          "prevent_handoff_medication_errors"
+        ],
+        "learning_objectives": [
+          "Reconhecer e prevenir hipocalemia iatrogênica após tratamento da hipercalemia."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_safety",
+        "arena_skill_ids": [
+          "prevent_treatment_induced_hypokalemia",
+          "recognize_redistributive_treatment_overlap",
+          "interpret_hypokalemia_ecg",
+          "recognize_hypomagnesemia_risk",
+          "evaluate_potassium_replacement_safety",
+          "prevent_handoff_medication_errors"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "prevent",
+          "treatment",
+          "induced",
+          "hypokalemia"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "prevent_treatment_induced_hypokalemia",
+          "recognize_redistributive_treatment_overlap",
+          "interpret_hypokalemia_ecg",
+          "recognize_hypomagnesemia_risk",
+          "evaluate_potassium_replacement_safety",
+          "prevent_handoff_medication_errors"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    }
+  ]
+}

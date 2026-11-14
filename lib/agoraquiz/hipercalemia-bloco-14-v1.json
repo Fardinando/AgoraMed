@@ -1,0 +1,2105 @@
+{
+  "cursoId": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+  "quizId": "agoraquiz-hipercalemia",
+  "cursoOrigem": "Tratamento da Hipercalemia em Adultos",
+  "bancoOrigem": "AgoraQuiz Hipercalemia",
+  "bloco": "14",
+  "temaEditorial": "Armadilhas terapêuticas, complicações do tratamento e decisões farmacológicas",
+  "questoes": [
+    {
+      "id": "aqz-hiper-066",
+      "question_id": "aqz-hiper-066",
+      "numero": 66,
+      "question_number": 66,
+      "titulo": "O potássio melhorou, mas a glicemia despencou",
+      "competenciaPrincipal": "Prevenção e reconhecimento da hipoglicemia após insulinoterapia para hipercalemia.",
+      "competenciasSecundarias": [
+        "recognize_delayed_hypoglycemia",
+        "understand_insulin_clearance_in_ckd",
+        "monitor_glucose_after_insulin",
+        "treat_severe_hypoglycemia",
+        "distinguish_potassium_response_from_glucose_response"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Uma mulher de 72 anos, com diabetes mellitus tipo 2 e doença renal crônica estágio G5, ainda não dialítica, procura a emergência por fraqueza e redução da diurese.\n\nNa admissão:\n\n- PA: 138/82 mmHg.\n- FC: 88 bpm.\n- Potássio: 6,6 mEq/L.\n- Creatinina: 5,2 mg/dL.\n- Glicemia capilar: 112 mg/dL.\n- ECG: ondas T apiculadas, sem alargamento do QRS.\n\nApós avaliação, recebe cálcio intravenoso, insulina regular intravenosa associada à glicose e salbutamol nebulizado.\n\nUma hora depois, o potássio diminui para 5,4 mEq/L e a glicemia está em 146 mg/dL.\n\nA paciente permanece em observação, mas não são programadas novas verificações de glicemia.\n\nQuatro horas após o tratamento, apresenta sudorese intensa, confusão mental e rebaixamento progressivo do nível de consciência. A glicemia capilar é de 34 mg/dL.\n\n**Qual interpretação explica melhor a complicação e orienta sua prevenção?**",
+      "alternativas": {
+        "A": "A hipoglicemia tardia é improvável após administração intravenosa de insulina, pois seu efeito termina assim que o potássio diminui.",
+        "B": "A disfunção renal avançada pode prolongar o efeito hipoglicemiante da insulina e reduzir as reservas de segurança metabólica, exigindo monitorização glicêmica seriada por várias horas e suplementação de glicose conforme a evolução.",
+        "C": "A hipoglicemia indica que a glicose administrada provocou uma resposta pancreática exagerada, sendo desnecessário considerar a insulina intravenosa.",
+        "D": "A glicemia normal uma hora após o tratamento exclui a possibilidade de hipoglicemia posterior."
+      },
+      "gabarito": "B",
+      "raciocinioClinico": "**1. Qual é a complicação apresentada?**\n\nHipoglicemia grave sintomática após tratamento da hipercalemia com insulina intravenosa.\n\n**2. Qual foi o objetivo da administração de insulina?**\n\nEstimular a entrada de potássio nas células, reduzindo temporariamente sua concentração extracelular.\n\n**3. Por que a insulina também pode provocar hipoglicemia?**\n\nPorque estimula a captação de glicose pelos tecidos e reduz a produção hepática de glicose.\n\n**4. Qual é a importância da doença renal crônica avançada?**\n\nA disfunção renal pode reduzir a depuração da insulina e comprometer mecanismos de manutenção da glicemia, aumentando o risco de hipoglicemia prolongada ou tardia.\n\n**5. A glicemia inicial de 112 mg/dL representa um fator de risco?**\n\nSim. Uma glicemia basal relativamente baixa aumenta a possibilidade de queda para valores hipoglicêmicos após a administração de insulina.\n\n**6. Por que a administração simultânea de glicose não elimina esse risco?**\n\nPorque o efeito da glicose administrada pode diminuir antes que o efeito metabólico da insulina tenha terminado.\n\n**7. O potássio de 5,4 mEq/L após uma hora demonstra que a insulina deixou de agir?**\n\nNão. A resposta do potássio e a evolução da glicemia não são equivalentes e não devem ser utilizadas como indicadores intercambiáveis.\n\n**8. Qual foi o principal erro de segurança?**\n\nInterromper a vigilância glicêmica após uma única medida normal.\n\n**9. Como a complicação poderia ter sido prevenida?**\n\nCom protocolo de monitorização glicêmica seriada, iniciado antes do tratamento e mantido por várias horas, com atenção especial aos pacientes com insuficiência renal e glicemia basal mais baixa.\n\n**10. A dose de insulina deve ser igual para todos os pacientes?**\n\nA escolha do esquema deve considerar o protocolo institucional, o risco de hipoglicemia e as evidências disponíveis. Estratégias com doses menores podem ser utilizadas em determinados protocolos, mas exigem avaliação da eficácia e da segurança.\n\n**11. Qual é a conduta imediata diante da glicemia de 34 mg/dL com alteração neurológica?**\n\nTratar imediatamente a hipoglicemia grave com glicose intravenosa, seguindo o protocolo assistencial, e realizar reavaliações glicêmicas frequentes.\n\n**12. A correção inicial da hipoglicemia encerra a vigilância?**\n\nNão. Pode ocorrer recorrência, especialmente quando persiste o efeito da insulina e há disfunção renal importante.\n\n**13. Qual outro parâmetro deve continuar sendo monitorizado?**\n\nO potássio sérico, pois a redistribuição promovida pela insulina é temporária e a paciente apresenta capacidade renal de excreção reduzida.\n\n**14. Qual é a competência principal?**\n\nPrevenir, reconhecer e tratar hipoglicemia tardia associada à insulinoterapia utilizada para hipercalemia.",
+      "comentarios": {
+        "A": "A redução do potássio não determina o término do efeito metabólico da insulina. A hipoglicemia pode ocorrer horas após o tratamento.",
+        "B": "A doença renal avançada e a glicemia basal relativamente baixa aumentam o risco de hipoglicemia. A prevenção depende de monitorização seriada e suplementação de glicose quando necessária.",
+        "C": "A insulina intravenosa administrada é um fator diretamente relacionado à hipoglicemia, independentemente da secreção pancreática endógena.",
+        "D": "Uma glicemia normal após uma hora não exclui hipoglicemia tardia."
+      },
+      "perola": "> Na hipercalemia, a insulina pode resolver um problema e criar outro. O potássio pode melhorar na primeira hora, enquanto a hipoglicemia aparece várias horas depois.",
+      "referencias": "*Treatment and prevention of hyperkalemia in adults*. UpToDate.\nUK Kidney Association — recomendações de monitorização glicêmica após insulina e glicose no tratamento da hipercalemia.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 14,
+      "stem": "Uma mulher de 72 anos, com diabetes mellitus tipo 2 e doença renal crônica estágio G5, ainda não dialítica, procura a emergência por fraqueza e redução da diurese.\n\nNa admissão:\n\n- PA: 138/82 mmHg.\n- FC: 88 bpm.\n- Potássio: 6,6 mEq/L.\n- Creatinina: 5,2 mg/dL.\n- Glicemia capilar: 112 mg/dL.\n- ECG: ondas T apiculadas, sem alargamento do QRS.\n\nApós avaliação, recebe cálcio intravenoso, insulina regular intravenosa associada à glicose e salbutamol nebulizado.\n\nUma hora depois, o potássio diminui para 5,4 mEq/L e a glicemia está em 146 mg/dL.\n\nA paciente permanece em observação, mas não são programadas novas verificações de glicemia.\n\nQuatro horas após o tratamento, apresenta sudorese intensa, confusão mental e rebaixamento progressivo do nível de consciência. A glicemia capilar é de 34 mg/dL.\n\n**Qual interpretação explica melhor a complicação e orienta sua prevenção?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-066-A",
+          "question_id": "aqz-hiper-066",
+          "letter": "A",
+          "text": "A hipoglicemia tardia é improvável após administração intravenosa de insulina, pois seu efeito termina assim que o potássio diminui.",
+          "is_correct": false,
+          "feedback": "A redução do potássio não determina o término do efeito metabólico da insulina. A hipoglicemia pode ocorrer horas após o tratamento.",
+          "error_type": "pharmacokinetic_misinterpretation",
+          "misconception_id": "insulin_effect_ends_with_potassium_drop",
+          "misconception_description": "Confunde a redução do potássio com o término do efeito metabólico da insulina.",
+          "competency_ids": [
+            "recognize_delayed_hypoglycemia"
+          ],
+          "clinical_risk_if_applied": "interromper precocemente a monitorização glicêmica."
+        },
+        {
+          "option_id": "aqz-hiper-066-B",
+          "question_id": "aqz-hiper-066",
+          "letter": "B",
+          "text": "A disfunção renal avançada pode prolongar o efeito hipoglicemiante da insulina e reduzir as reservas de segurança metabólica, exigindo monitorização glicêmica seriada por várias horas e suplementação de glicose conforme a evolução.",
+          "is_correct": true,
+          "feedback": "A doença renal avançada e a glicemia basal relativamente baixa aumentam o risco de hipoglicemia. A prevenção depende de monitorização seriada e suplementação de glicose quando necessária.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "prevent_insulin_induced_hypoglycemia",
+            "recognize_delayed_hypoglycemia",
+            "understand_insulin_clearance_in_ckd"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-066-C",
+          "question_id": "aqz-hiper-066",
+          "letter": "C",
+          "text": "A hipoglicemia indica que a glicose administrada provocou uma resposta pancreática exagerada, sendo desnecessário considerar a insulina intravenosa.",
+          "is_correct": false,
+          "feedback": "A insulina intravenosa administrada é um fator diretamente relacionado à hipoglicemia, independentemente da secreção pancreática endógena.",
+          "error_type": "incorrect_causal_attribution",
+          "misconception_id": "administered_glucose_causes_delayed_hypoglycemia",
+          "misconception_description": "Atribui incorretamente a hipoglicemia à glicose administrada, desconsiderando a insulina exógena.",
+          "competency_ids": [
+            "monitor_glucose_after_insulin"
+          ],
+          "clinical_risk_if_applied": "não reconhecer a causa farmacológica."
+        },
+        {
+          "option_id": "aqz-hiper-066-D",
+          "question_id": "aqz-hiper-066",
+          "letter": "D",
+          "text": "A glicemia normal uma hora após o tratamento exclui a possibilidade de hipoglicemia posterior.",
+          "is_correct": false,
+          "feedback": "Uma glicemia normal após uma hora não exclui hipoglicemia tardia.",
+          "error_type": "monitoring_failure",
+          "misconception_id": "normal_one_hour_glucose_excludes_late_hypoglycemia",
+          "misconception_description": "Interpreta uma medida glicêmica normal como exclusão de hipoglicemia tardia.",
+          "competency_ids": [
+            "treat_severe_hypoglycemia"
+          ],
+          "clinical_risk_if_applied": "deixar de detectar hipoglicemia grave."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-066-r01",
+          "question_id": "aqz-hiper-066",
+          "sequence": 1,
+          "prompt": "Qual é a complicação apresentada?",
+          "explanation": "Hipoglicemia grave sintomática após tratamento da hipercalemia com insulina intravenosa.",
+          "reasoning_type": "adverse_event_recognition",
+          "competency_ids": [
+            "treat_severe_hypoglycemia"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque hipoglicemia grave sintomática após tratamento da hipercalemia com insulina intravenosa.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-066-r02",
+          "question_id": "aqz-hiper-066",
+          "sequence": 2,
+          "prompt": "Qual foi o objetivo da administração de insulina?",
+          "explanation": "Estimular a entrada de potássio nas células, reduzindo temporariamente sua concentração extracelular.",
+          "reasoning_type": "insulin_treatment_objective",
+          "competency_ids": [
+            "understand_insulin_clearance_in_ckd"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque estimular a entrada de potássio nas células, reduzindo temporariamente sua concentração extracelular.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-066-r03",
+          "question_id": "aqz-hiper-066",
+          "sequence": 3,
+          "prompt": "Por que a insulina também pode provocar hipoglicemia?",
+          "explanation": "Porque estimula a captação de glicose pelos tecidos e reduz a produção hepática de glicose.",
+          "reasoning_type": "insulin_glucose_mechanism",
+          "competency_ids": [
+            "monitor_glucose_after_insulin"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque porque estimula a captação de glicose pelos tecidos e reduz a produção hepática de glicose.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-066-r04",
+          "question_id": "aqz-hiper-066",
+          "sequence": 4,
+          "prompt": "Qual é a importância da doença renal crônica avançada?",
+          "explanation": "A disfunção renal pode reduzir a depuração da insulina e comprometer mecanismos de manutenção da glicemia, aumentando o risco de hipoglicemia prolongada ou tardia.",
+          "reasoning_type": "renal_insulin_clearance",
+          "competency_ids": [
+            "understand_insulin_clearance_in_ckd"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque a disfunção renal pode reduzir a depuração da insulina e comprometer mecanismos de manutenção da glicemia, aumentando o risco de hipoglicemia prolongada ou tardia.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-066-r05",
+          "question_id": "aqz-hiper-066",
+          "sequence": 5,
+          "prompt": "A glicemia inicial de 112 mg/dL representa um fator de risco?",
+          "explanation": "Sim. Uma glicemia basal relativamente baixa aumenta a possibilidade de queda para valores hipoglicêmicos após a administração de insulina.",
+          "reasoning_type": "baseline_glucose_risk",
+          "competency_ids": [
+            "monitor_glucose_after_insulin"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque sim. Uma glicemia basal relativamente baixa aumenta a possibilidade de queda para valores hipoglicêmicos após a administração de insulina.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-066-r06",
+          "question_id": "aqz-hiper-066",
+          "sequence": 6,
+          "prompt": "Por que a administração simultânea de glicose não elimina esse risco?",
+          "explanation": "Porque o efeito da glicose administrada pode diminuir antes que o efeito metabólico da insulina tenha terminado.",
+          "reasoning_type": "glucose_insulin_duration_mismatch",
+          "competency_ids": [
+            "monitor_glucose_after_insulin"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque porque o efeito da glicose administrada pode diminuir antes que o efeito metabólico da insulina tenha terminado.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-066-r07",
+          "question_id": "aqz-hiper-066",
+          "sequence": 7,
+          "prompt": "O potássio de 5,4 mEq/L após uma hora demonstra que a insulina deixou de agir?",
+          "explanation": "Não. A resposta do potássio e a evolução da glicemia não são equivalentes e não devem ser utilizadas como indicadores intercambiáveis.",
+          "reasoning_type": "laboratory_response_differentiation",
+          "competency_ids": [
+            "distinguish_potassium_response_from_glucose_response"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. A resposta do potássio e a evolução da glicemia não são equivalentes e não devem ser utilizadas como indicadores intercambiáveis.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-066-r08",
+          "question_id": "aqz-hiper-066",
+          "sequence": 8,
+          "prompt": "Qual foi o principal erro de segurança?",
+          "explanation": "Interromper a vigilância glicêmica após uma única medida normal.",
+          "reasoning_type": "monitoring_failure_identification",
+          "competency_ids": [
+            "treat_severe_hypoglycemia"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque interromper a vigilância glicêmica após uma única medida normal.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-066-r09",
+          "question_id": "aqz-hiper-066",
+          "sequence": 9,
+          "prompt": "Como a complicação poderia ter sido prevenida?",
+          "explanation": "Com protocolo de monitorização glicêmica seriada, iniciado antes do tratamento e mantido por várias horas, com atenção especial aos pacientes com insuficiência renal e glicemia basal mais baixa.",
+          "reasoning_type": "hypoglycemia_prevention",
+          "competency_ids": [
+            "treat_severe_hypoglycemia"
+          ],
+          "cognitive_operation": "apply",
+          "clinical_relevance": "Este raciocínio é relevante porque com protocolo de monitorização glicêmica seriada, iniciado antes do tratamento e mantido por várias horas, com atenção especial aos pacientes com insuficiência renal e glicemia basal mais baixa.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-066-r10",
+          "question_id": "aqz-hiper-066",
+          "sequence": 10,
+          "prompt": "A dose de insulina deve ser igual para todos os pacientes?",
+          "explanation": "A escolha do esquema deve considerar o protocolo institucional, o risco de hipoglicemia e as evidências disponíveis. Estratégias com doses menores podem ser utilizadas em determinados protocolos, mas exigem avaliação da eficácia e da segurança.",
+          "reasoning_type": "insulin_dosing_safety",
+          "competency_ids": [
+            "understand_insulin_clearance_in_ckd"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque a escolha do esquema deve considerar o protocolo institucional, o risco de hipoglicemia e as evidências disponíveis. Estratégias com doses menores podem ser utilizadas em determinados protocolos, mas exigem avaliação da eficácia e da segurança.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-066-r11",
+          "question_id": "aqz-hiper-066",
+          "sequence": 11,
+          "prompt": "Qual é a conduta imediata diante da glicemia de 34 mg/dL com alteração neurológica?",
+          "explanation": "Tratar imediatamente a hipoglicemia grave com glicose intravenosa, seguindo o protocolo assistencial, e realizar reavaliações glicêmicas frequentes.",
+          "reasoning_type": "emergency_hypoglycemia_treatment",
+          "competency_ids": [
+            "treat_severe_hypoglycemia"
+          ],
+          "cognitive_operation": "decide",
+          "clinical_relevance": "Este raciocínio é relevante porque tratar imediatamente a hipoglicemia grave com glicose intravenosa, seguindo o protocolo assistencial, e realizar reavaliações glicêmicas frequentes.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-066-r12",
+          "question_id": "aqz-hiper-066",
+          "sequence": 12,
+          "prompt": "A correção inicial da hipoglicemia encerra a vigilância?",
+          "explanation": "Não. Pode ocorrer recorrência, especialmente quando persiste o efeito da insulina e há disfunção renal importante.",
+          "reasoning_type": "recurrent_hypoglycemia_risk",
+          "competency_ids": [
+            "treat_severe_hypoglycemia"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. Pode ocorrer recorrência, especialmente quando persiste o efeito da insulina e há disfunção renal importante.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-066-r13",
+          "question_id": "aqz-hiper-066",
+          "sequence": 13,
+          "prompt": "Qual outro parâmetro deve continuar sendo monitorizado?",
+          "explanation": "O potássio sérico, pois a redistribuição promovida pela insulina é temporária e a paciente apresenta capacidade renal de excreção reduzida.",
+          "reasoning_type": "continued_potassium_monitoring",
+          "competency_ids": [
+            "distinguish_potassium_response_from_glucose_response"
+          ],
+          "cognitive_operation": "apply",
+          "clinical_relevance": "Este raciocínio é relevante porque o potássio sérico, pois a redistribuição promovida pela insulina é temporária e a paciente apresenta capacidade renal de excreção reduzida.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-066-r14",
+          "question_id": "aqz-hiper-066",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Prevenir, reconhecer e tratar hipoglicemia tardia associada à insulinoterapia utilizada para hipercalemia.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "monitor_glucose_after_insulin"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque prevenir, reconhecer e tratar hipoglicemia tardia associada à insulinoterapia utilizada para hipercalemia.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        }
+      ],
+      "clinical_pearl": "> Na hipercalemia, a insulina pode resolver um problema e criar outro. O potássio pode melhorar na primeira hora, enquanto a hipoglicemia aparece várias horas depois.",
+      "references": [
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate.",
+        "UK Kidney Association — recomendações de monitorização glicêmica após insulina e glicose no tratamento da hipercalemia."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "treatment_induced_hypoglycemia",
+        "clinical_context": "emergency_department",
+        "urgency_level": "urgent_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "prevent_insulin_induced_hypoglycemia",
+        "secondary_competencies": [
+          "recognize_delayed_hypoglycemia",
+          "understand_insulin_clearance_in_ckd",
+          "monitor_glucose_after_insulin",
+          "treat_severe_hypoglycemia",
+          "distinguish_potassium_response_from_glucose_response"
+        ],
+        "learning_objectives": [
+          "Prevenção e reconhecimento da hipoglicemia após insulinoterapia para hipercalemia."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_safety",
+        "arena_skill_ids": [
+          "prevent_insulin_induced_hypoglycemia",
+          "recognize_delayed_hypoglycemia",
+          "understand_insulin_clearance_in_ckd",
+          "monitor_glucose_after_insulin",
+          "treat_severe_hypoglycemia",
+          "distinguish_potassium_response_from_glucose_response"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "prevent",
+          "insulin",
+          "induced",
+          "hypoglycemia"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "prevent_insulin_induced_hypoglycemia",
+          "recognize_delayed_hypoglycemia",
+          "understand_insulin_clearance_in_ckd",
+          "monitor_glucose_after_insulin",
+          "treat_severe_hypoglycemia",
+          "distinguish_potassium_response_from_glucose_response"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-067",
+      "question_id": "aqz-hiper-067",
+      "numero": 67,
+      "question_number": 67,
+      "titulo": "O salbutamol não funcionou como esperado",
+      "competenciaPrincipal": "Reconhecer a variabilidade da resposta ao salbutamol.",
+      "competenciasSecundarias": [
+        "understand_beta2_receptor_effects",
+        "recognize_salbutamol_nonresponse",
+        "interpret_drug_adverse_effects",
+        "avoid_salbutamol_monotherapy",
+        "select_complementary_hyperkalemia_treatments"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Um homem de 59 anos, com doença renal crônica estágio G4 e doença pulmonar obstrutiva crônica, é atendido na emergência por hipercalemia de 6,2 mEq/L, confirmada em nova amostra.\n\nApresenta:\n\n- PA: 142/84 mmHg.\n- FC: 94 bpm.\n- Creatinina: 3,4 mg/dL.\n- Glicemia: 126 mg/dL.\n- ECG: ritmo sinusal, sem alterações típicas de hipercalemia.\n\nO paciente está hemodinamicamente estável.\n\nPor preocupação com a possibilidade de hipoglicemia após insulina, a equipe administra salbutamol nebulizado como única medida redistributiva inicial, em dose utilizada para tratamento da hipercalemia.\n\nSessenta minutos depois, o potássio permanece em 6,1 mEq/L.\n\nDurante a reavaliação, o paciente apresenta tremor e taquicardia sinusal de 118 bpm.\n\n**Qual é a interpretação mais adequada?**",
+      "alternativas": {
+        "A": "A ausência de redução significativa do potássio demonstra que a hipercalemia inicial era laboratorialmente falsa.",
+        "B": "O salbutamol é capaz de remover potássio do organismo, mas necessita de várias horas para iniciar sua eliminação renal.",
+        "C": "O aparecimento de tremor e taquicardia comprova que houve redistribuição suficiente de potássio, independentemente do resultado laboratorial.",
+        "D": "A resposta hipocalemiante ao salbutamol é variável, e alguns pacientes apresentam resposta pequena ou ausente. Por isso, o medicamento não deve ser utilizado como única estratégia em hipercalemia clinicamente relevante, sendo necessária reavaliação e associação de outras medidas indicadas."
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. Qual foi a intervenção farmacológica realizada?**\n\nAdministração de salbutamol nebulizado com a finalidade de promover redistribuição intracelular de potássio.\n\n**2. Qual receptor é responsável pelo principal efeito hipocalemiante?**\n\nO receptor beta-2-adrenérgico.\n\n**3. Como a estimulação beta-2 reduz o potássio sérico?**\n\nPor mecanismos intracelulares que aumentam a atividade da Na⁺/K⁺-ATPase, favorecendo a entrada de potássio nas células.\n\n**4. Esse mecanismo remove potássio do organismo?**\n\nNão. Promove redistribuição temporária entre os compartimentos extracelular e intracelular.\n\n**5. Todos os pacientes respondem da mesma maneira ao salbutamol?**\n\nNão. A magnitude da resposta é variável, e alguns pacientes apresentam redução pequena ou ausente do potássio.\n\n**6. Qual é a importância do potássio permanecer em 6,1 mEq/L?**\n\nDemonstra que não ocorreu redução laboratorial clinicamente satisfatória após a intervenção isolada.\n\n**7. O tremor demonstra que o medicamento foi absorvido?**\n\nÉ compatível com efeito sistêmico beta-adrenérgico, mas não permite quantificar a resposta hipocalemiante.\n\n**8. A taquicardia comprova que o potássio entrou nas células?**\n\nNão. Os efeitos cardiovasculares e metabólicos não apresentam correspondência suficiente para dispensar a dosagem de potássio.\n\n**9. Por que o salbutamol não deve ser utilizado como monoterapia em hipercalemia clinicamente relevante?**\n\nPorque sua resposta é variável e pode ser insuficiente para produzir a redução necessária do potássio.\n\n**10. Qual é o papel da insulina com glicose?**\n\nConstitui uma estratégia redistributiva importante, cuja utilização exige prevenção e monitorização da hipoglicemia.\n\n**11. O risco de hipoglicemia justifica abandonar automaticamente a insulinoterapia?**\n\nNão. O risco deve ser mitigado por seleção apropriada do esquema, administração de glicose e monitorização, considerando a gravidade da hipercalemia.\n\n**12. Qual cuidado deve ser adotado diante da taquicardia?**\n\nReavaliar a condição clínica e os efeitos adversos, evitando repetição indiscriminada de beta-2-agonistas.\n\n**13. Qual estratégia deve acompanhar a redistribuição?**\n\nAvaliar e implementar formas apropriadas de remoção de potássio, considerando função renal, gravidade e resposta terapêutica.\n\n**14. Qual é a competência principal?**\n\nReconhecer a variabilidade da resposta ao salbutamol e evitar utilizá-lo isoladamente como estratégia insuficiente de tratamento.",
+      "comentarios": {
+        "A": "A ausência de resposta ao salbutamol não comprova pseudo-hipercalemia, especialmente diante de resultado laboratorial confirmado.",
+        "B": "O salbutamol promove redistribuição intracelular e não elimina diretamente o potássio por via renal.",
+        "C": "Tremor e taquicardia indicam efeitos farmacológicos, mas não demonstram redução suficiente do potássio.",
+        "D": "A resposta ao salbutamol é variável, podendo ser insuficiente. A persistência da hipercalemia exige reavaliação e tratamento adicional conforme a condição clínica."
+      },
+      "perola": "> O paciente pode apresentar tremor e taquicardia após salbutamol e continuar hipercalêmico. Efeito colateral não é sinônimo de eficácia terapêutica.",
+      "referencias": "*Treatment and prevention of hyperkalemia in adults*. UpToDate — agonistas beta-2 e redistribuição de potássio.\nUK Kidney Association — recomendações sobre salbutamol como tratamento adjuvante.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 14,
+      "stem": "Um homem de 59 anos, com doença renal crônica estágio G4 e doença pulmonar obstrutiva crônica, é atendido na emergência por hipercalemia de 6,2 mEq/L, confirmada em nova amostra.\n\nApresenta:\n\n- PA: 142/84 mmHg.\n- FC: 94 bpm.\n- Creatinina: 3,4 mg/dL.\n- Glicemia: 126 mg/dL.\n- ECG: ritmo sinusal, sem alterações típicas de hipercalemia.\n\nO paciente está hemodinamicamente estável.\n\nPor preocupação com a possibilidade de hipoglicemia após insulina, a equipe administra salbutamol nebulizado como única medida redistributiva inicial, em dose utilizada para tratamento da hipercalemia.\n\nSessenta minutos depois, o potássio permanece em 6,1 mEq/L.\n\nDurante a reavaliação, o paciente apresenta tremor e taquicardia sinusal de 118 bpm.\n\n**Qual é a interpretação mais adequada?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-067-A",
+          "question_id": "aqz-hiper-067",
+          "letter": "A",
+          "text": "A ausência de redução significativa do potássio demonstra que a hipercalemia inicial era laboratorialmente falsa.",
+          "is_correct": false,
+          "feedback": "A ausência de resposta ao salbutamol não comprova pseudo-hipercalemia, especialmente diante de resultado laboratorial confirmado.",
+          "error_type": "diagnostic_misclassification",
+          "misconception_id": "salbutamol_nonresponse_proves_pseudohyperkalemia",
+          "misconception_description": "Confunde ausência de resposta terapêutica com erro laboratorial.",
+          "competency_ids": [
+            "understand_beta2_receptor_effects"
+          ],
+          "clinical_risk_if_applied": "não tratar hipercalemia verdadeira."
+        },
+        {
+          "option_id": "aqz-hiper-067-B",
+          "question_id": "aqz-hiper-067",
+          "letter": "B",
+          "text": "O salbutamol é capaz de remover potássio do organismo, mas necessita de várias horas para iniciar sua eliminação renal.",
+          "is_correct": false,
+          "feedback": "O salbutamol promove redistribuição intracelular e não elimina diretamente o potássio por via renal.",
+          "error_type": "mechanism_confusion",
+          "misconception_id": "salbutamol_directly_removes_potassium",
+          "misconception_description": "Confunde redistribuição intracelular com eliminação corporal.",
+          "competency_ids": [
+            "recognize_salbutamol_nonresponse"
+          ],
+          "clinical_risk_if_applied": "considerar o tratamento definitivo quando não houve remoção."
+        },
+        {
+          "option_id": "aqz-hiper-067-C",
+          "question_id": "aqz-hiper-067",
+          "letter": "C",
+          "text": "O aparecimento de tremor e taquicardia comprova que houve redistribuição suficiente de potássio, independentemente do resultado laboratorial.",
+          "is_correct": false,
+          "feedback": "Tremor e taquicardia indicam efeitos farmacológicos, mas não demonstram redução suficiente do potássio.",
+          "error_type": "surrogate_marker_error",
+          "misconception_id": "beta2_adverse_effects_prove_potassium_reduction",
+          "misconception_description": "Utiliza efeitos adversos como substitutos de uma medida objetiva de eficácia.",
+          "competency_ids": [
+            "interpret_drug_adverse_effects"
+          ],
+          "clinical_risk_if_applied": "não reconhecer hipercalemia persistente."
+        },
+        {
+          "option_id": "aqz-hiper-067-D",
+          "question_id": "aqz-hiper-067",
+          "letter": "D",
+          "text": "A resposta hipocalemiante ao salbutamol é variável, e alguns pacientes apresentam resposta pequena ou ausente. Por isso, o medicamento não deve ser utilizado como única estratégia em hipercalemia clinicamente relevante, sendo necessária reavaliação e associação de outras medidas indicadas.",
+          "is_correct": true,
+          "feedback": "A resposta ao salbutamol é variável, podendo ser insuficiente. A persistência da hipercalemia exige reavaliação e tratamento adicional conforme a condição clínica.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "recognize_variable_salbutamol_response",
+            "understand_beta2_receptor_effects",
+            "recognize_salbutamol_nonresponse"
+          ],
+          "clinical_risk_if_applied": null
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-067-r01",
+          "question_id": "aqz-hiper-067",
+          "sequence": 1,
+          "prompt": "Qual foi a intervenção farmacológica realizada?",
+          "explanation": "Administração de salbutamol nebulizado com a finalidade de promover redistribuição intracelular de potássio.",
+          "reasoning_type": "pharmacologic_intervention_identification",
+          "competency_ids": [
+            "avoid_salbutamol_monotherapy"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque administração de salbutamol nebulizado com a finalidade de promover redistribuição intracelular de potássio.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-067-r02",
+          "question_id": "aqz-hiper-067",
+          "sequence": 2,
+          "prompt": "Qual receptor é responsável pelo principal efeito hipocalemiante?",
+          "explanation": "O receptor beta-2-adrenérgico.",
+          "reasoning_type": "beta2_receptor_identification",
+          "competency_ids": [
+            "understand_beta2_receptor_effects"
+          ],
+          "cognitive_operation": "recall",
+          "clinical_relevance": "Este raciocínio é relevante porque o receptor beta-2-adrenérgico.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-067-r03",
+          "question_id": "aqz-hiper-067",
+          "sequence": 3,
+          "prompt": "Como a estimulação beta-2 reduz o potássio sérico?",
+          "explanation": "Por mecanismos intracelulares que aumentam a atividade da Na⁺/K⁺-ATPase, favorecendo a entrada de potássio nas células.",
+          "reasoning_type": "sodium_potassium_atpase_mechanism",
+          "competency_ids": [
+            "select_complementary_hyperkalemia_treatments"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque por mecanismos intracelulares que aumentam a atividade da Na⁺/K⁺-ATPase, favorecendo a entrada de potássio nas células.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-067-r04",
+          "question_id": "aqz-hiper-067",
+          "sequence": 4,
+          "prompt": "Esse mecanismo remove potássio do organismo?",
+          "explanation": "Não. Promove redistribuição temporária entre os compartimentos extracelular e intracelular.",
+          "reasoning_type": "redistribution_vs_removal",
+          "competency_ids": [
+            "avoid_salbutamol_monotherapy"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. Promove redistribuição temporária entre os compartimentos extracelular e intracelular.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-067-r05",
+          "question_id": "aqz-hiper-067",
+          "sequence": 5,
+          "prompt": "Todos os pacientes respondem da mesma maneira ao salbutamol?",
+          "explanation": "Não. A magnitude da resposta é variável, e alguns pacientes apresentam redução pequena ou ausente do potássio.",
+          "reasoning_type": "treatment_response_variability",
+          "competency_ids": [
+            "avoid_salbutamol_monotherapy"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque não. A magnitude da resposta é variável, e alguns pacientes apresentam redução pequena ou ausente do potássio.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-067-r06",
+          "question_id": "aqz-hiper-067",
+          "sequence": 6,
+          "prompt": "Qual é a importância do potássio permanecer em 6,1 mEq/L?",
+          "explanation": "Demonstra que não ocorreu redução laboratorial clinicamente satisfatória após a intervenção isolada.",
+          "reasoning_type": "laboratory_response_assessment",
+          "competency_ids": [
+            "avoid_salbutamol_monotherapy"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque demonstra que não ocorreu redução laboratorial clinicamente satisfatória após a intervenção isolada.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-067-r07",
+          "question_id": "aqz-hiper-067",
+          "sequence": 7,
+          "prompt": "O tremor demonstra que o medicamento foi absorvido?",
+          "explanation": "É compatível com efeito sistêmico beta-adrenérgico, mas não permite quantificar a resposta hipocalemiante.",
+          "reasoning_type": "systemic_drug_effect_recognition",
+          "competency_ids": [
+            "interpret_drug_adverse_effects"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Este raciocínio é relevante porque é compatível com efeito sistêmico beta-adrenérgico, mas não permite quantificar a resposta hipocalemiante.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-067-r08",
+          "question_id": "aqz-hiper-067",
+          "sequence": 8,
+          "prompt": "A taquicardia comprova que o potássio entrou nas células?",
+          "explanation": "Não. Os efeitos cardiovasculares e metabólicos não apresentam correspondência suficiente para dispensar a dosagem de potássio.",
+          "reasoning_type": "adverse_effect_vs_efficacy",
+          "competency_ids": [
+            "interpret_drug_adverse_effects"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. Os efeitos cardiovasculares e metabólicos não apresentam correspondência suficiente para dispensar a dosagem de potássio.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-067-r09",
+          "question_id": "aqz-hiper-067",
+          "sequence": 9,
+          "prompt": "Por que o salbutamol não deve ser utilizado como monoterapia em hipercalemia clinicamente relevante?",
+          "explanation": "Porque sua resposta é variável e pode ser insuficiente para produzir a redução necessária do potássio.",
+          "reasoning_type": "monotherapy_limitation",
+          "competency_ids": [
+            "avoid_salbutamol_monotherapy"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque porque sua resposta é variável e pode ser insuficiente para produzir a redução necessária do potássio.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-067-r10",
+          "question_id": "aqz-hiper-067",
+          "sequence": 10,
+          "prompt": "Qual é o papel da insulina com glicose?",
+          "explanation": "Constitui uma estratégia redistributiva importante, cuja utilização exige prevenção e monitorização da hipoglicemia.",
+          "reasoning_type": "insulin_complementary_role",
+          "competency_ids": [
+            "select_complementary_hyperkalemia_treatments"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque constitui uma estratégia redistributiva importante, cuja utilização exige prevenção e monitorização da hipoglicemia.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-067-r11",
+          "question_id": "aqz-hiper-067",
+          "sequence": 11,
+          "prompt": "O risco de hipoglicemia justifica abandonar automaticamente a insulinoterapia?",
+          "explanation": "Não. O risco deve ser mitigado por seleção apropriada do esquema, administração de glicose e monitorização, considerando a gravidade da hipercalemia.",
+          "reasoning_type": "risk_benefit_treatment_decision",
+          "competency_ids": [
+            "select_complementary_hyperkalemia_treatments"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. O risco deve ser mitigado por seleção apropriada do esquema, administração de glicose e monitorização, considerando a gravidade da hipercalemia.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-067-r12",
+          "question_id": "aqz-hiper-067",
+          "sequence": 12,
+          "prompt": "Qual cuidado deve ser adotado diante da taquicardia?",
+          "explanation": "Reavaliar a condição clínica e os efeitos adversos, evitando repetição indiscriminada de beta-2-agonistas.",
+          "reasoning_type": "tachycardia_safety_assessment",
+          "competency_ids": [
+            "avoid_salbutamol_monotherapy"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque reavaliar a condição clínica e os efeitos adversos, evitando repetição indiscriminada de beta-2-agonistas.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-067-r13",
+          "question_id": "aqz-hiper-067",
+          "sequence": 13,
+          "prompt": "Qual estratégia deve acompanhar a redistribuição?",
+          "explanation": "Avaliar e implementar formas apropriadas de remoção de potássio, considerando função renal, gravidade e resposta terapêutica.",
+          "reasoning_type": "potassium_removal_planning",
+          "competency_ids": [
+            "avoid_salbutamol_monotherapy"
+          ],
+          "cognitive_operation": "decide",
+          "clinical_relevance": "Este raciocínio é relevante porque avaliar e implementar formas apropriadas de remoção de potássio, considerando função renal, gravidade e resposta terapêutica.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-067-r14",
+          "question_id": "aqz-hiper-067",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Reconhecer a variabilidade da resposta ao salbutamol e evitar utilizá-lo isoladamente como estratégia insuficiente de tratamento.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "interpret_drug_adverse_effects"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque reconhecer a variabilidade da resposta ao salbutamol e evitar utilizá-lo isoladamente como estratégia insuficiente de tratamento.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        }
+      ],
+      "clinical_pearl": "> O paciente pode apresentar tremor e taquicardia após salbutamol e continuar hipercalêmico. Efeito colateral não é sinônimo de eficácia terapêutica.",
+      "references": [
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate — agonistas beta-2 e redistribuição de potássio.",
+        "UK Kidney Association — recomendações sobre salbutamol como tratamento adjuvante."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "refractory_hyperkalemia",
+        "clinical_context": "emergency_department",
+        "urgency_level": "urgent_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "recognize_variable_salbutamol_response",
+        "secondary_competencies": [
+          "understand_beta2_receptor_effects",
+          "recognize_salbutamol_nonresponse",
+          "interpret_drug_adverse_effects",
+          "avoid_salbutamol_monotherapy",
+          "select_complementary_hyperkalemia_treatments"
+        ],
+        "learning_objectives": [
+          "Reconhecer a variabilidade da resposta ao salbutamol."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_safety",
+        "arena_skill_ids": [
+          "recognize_variable_salbutamol_response",
+          "understand_beta2_receptor_effects",
+          "recognize_salbutamol_nonresponse",
+          "interpret_drug_adverse_effects",
+          "avoid_salbutamol_monotherapy",
+          "select_complementary_hyperkalemia_treatments"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "recognize",
+          "variable",
+          "salbutamol",
+          "response"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "recognize_variable_salbutamol_response",
+          "understand_beta2_receptor_effects",
+          "recognize_salbutamol_nonresponse",
+          "interpret_drug_adverse_effects",
+          "avoid_salbutamol_monotherapy",
+          "select_complementary_hyperkalemia_treatments"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-068",
+      "question_id": "aqz-hiper-068",
+      "numero": 68,
+      "question_number": 68,
+      "titulo": "Bicarbonato: quando faz sentido utilizar?",
+      "competenciaPrincipal": "Identificar o papel adjuvante do bicarbonato na hipercalemia com acidose metabólica.",
+      "competenciasSecundarias": [
+        "interpret_hyperchloremic_acidosis",
+        "calculate_anion_gap",
+        "understand_acid_base_potassium_shift",
+        "recognize_bicarbonate_limitations",
+        "evaluate_bicarbonate_adverse_effects"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Um homem de 63 anos, com doença renal crônica estágio G4, é admitido na emergência após três dias de diarreia intensa, redução da ingestão hídrica e diminuição da diurese.\n\nNa avaliação:\n\n- PA: 104/64 mmHg.\n- FC: 108 bpm.\n- Potássio: 6,1 mEq/L.\n- Creatinina: 3,8 mg/dL, anteriormente 2,5 mg/dL.\n- pH arterial: 7,12.\n- Bicarbonato: 9 mEq/L.\n- PaCO₂: 27 mmHg.\n- Sódio: 139 mEq/L.\n- Cloro: 117 mEq/L.\n- Lactato: 1,5 mmol/L.\n- Albumina: 4,0 g/dL.\n\nO ECG apresenta ritmo sinusal, sem alterações típicas de hipercalemia.\n\nA equipe inicia a abordagem da hipercalemia e da hipovolemia.\n\nDurante a discussão, um médico sugere que o bicarbonato de sódio intravenoso seja utilizado como único tratamento para reduzir o potássio.\n\n**Qual interpretação é mais adequada?**",
+      "alternativas": {
+        "A": "O bicarbonato pode ser considerado como medida adjuvante em determinadas situações de acidose metabólica importante, especialmente com componente de acidose mineral, mas seu efeito sobre o potássio é variável e não substitui as demais medidas indicadas.",
+        "B": "O bicarbonato reduz o potássio de forma imediata e previsível em qualquer paciente com hipercalemia, independentemente do equilíbrio ácido-base.",
+        "C": "A presença de acidose metabólica contraindica a utilização de insulina com glicose, tornando o bicarbonato a única opção redistributiva.",
+        "D": "O bicarbonato promove eliminação direta de potássio pelas fezes, sendo equivalente aos agentes ligantes gastrointestinais."
+      },
+      "gabarito": "A",
+      "raciocinioClinico": "**1. Qual é o principal distúrbio ácido-base?**\n\nAcidose metabólica importante, caracterizada por pH de 7,12 e bicarbonato de 9 mEq/L.\n\n**2. O que sugere o cloro de 117 mEq/L?**\n\nHipercloremia, compatível com um componente de acidose metabólica hiperclorêmica.\n\n**3. Qual é o ânion gap calculado?**\n\nÂnion gap = 139 − (117 + 9) = 13 mEq/L, valor que deve ser interpretado conforme o intervalo de referência do laboratório. Com albumina normal, o quadro é compatível com predomínio de acidose hiperclorêmica, embora outros componentes não possam ser excluídos apenas pelos dados apresentados.\n\n**4. Qual é a relação entre diarreia e acidose metabólica?**\n\nA perda gastrointestinal de bicarbonato pode produzir acidose metabólica hiperclorêmica.\n\n**5. A diarreia explica isoladamente a hipercalemia?**\n\nNão. A perda gastrointestinal frequentemente favorece perda de potássio. Neste caso, a disfunção renal importante pode comprometer sua excreção e contribuir para a hipercalemia.\n\n**6. Como a acidose pode influenciar a distribuição do potássio?**\n\nDeterminadas formas de acidose metabólica, especialmente as associadas a ácidos minerais, podem favorecer deslocamento de potássio para o meio extracelular, embora o efeito varie conforme o mecanismo da acidose.\n\n**7. Qual é o fundamento para considerar bicarbonato neste paciente?**\n\nA presença de acidemia importante e de um componente hiperclorêmico fornece justificativa fisiológica para considerar correção da acidose, conforme avaliação clínica e protocolo.\n\n**8. O bicarbonato reduz o potássio de maneira previsível?**\n\nNão. Seu efeito hipocalemiante é variável e depende do contexto ácido-base, da gravidade e de outros fatores.\n\n**9. O bicarbonato deve ser utilizado como monoterapia da hipercalemia?**\n\nNão. Não substitui medidas redistributivas de eficácia mais estabelecida nem estratégias de remoção quando indicadas.\n\n**10. O bicarbonato estabiliza diretamente a membrana cardíaca como o cálcio?**\n\nNão. Os mecanismos são diferentes, e o bicarbonato não substitui cálcio intravenoso quando há toxicidade elétrica que indique estabilização cardíaca.\n\n**11. Quais riscos devem ser considerados na administração de bicarbonato?**\n\nSobrecarga de sódio e volume, alcalemia, redução do cálcio ionizado e outros distúrbios eletrolíticos, dependendo da dose, velocidade e condição clínica.\n\n**12. Qual é a importância da disfunção renal na decisão?**\n\nEla pode limitar a eliminação de potássio e aumentar o risco de sobrecarga volêmica, exigindo reavaliação frequente.\n\n**13. Qual deve ser a abordagem global?**\n\nTratar a hipercalemia conforme a gravidade, corrigir os fatores precipitantes, avaliar a acidose, monitorizar os eletrólitos e considerar remoção efetiva do potássio quando necessária.\n\n**14. Qual é a competência principal?**\n\nIdentificar quando o bicarbonato pode ter papel adjuvante no tratamento da hipercalemia associada à acidose metabólica importante, reconhecendo suas limitações e riscos.",
+      "comentarios": {
+        "A": "A acidose metabólica importante, particularmente com componente hiperclorêmico, pode justificar considerar bicarbonato como medida adjuvante. Seu efeito sobre o potássio não é suficientemente previsível para substituir as demais intervenções indicadas.",
+        "B": "O bicarbonato não apresenta efeito hipocalemiante universal, imediato ou previsível em todos os contextos clínicos.",
+        "C": "A acidose metabólica não contraindica, por si só, a insulinoterapia com glicose para hipercalemia.",
+        "D": "O bicarbonato não atua como agente ligante intestinal de potássio."
+      },
+      "perola": "> O bicarbonato não é um antídoto universal para o potássio. Sua utilidade depende da acidose que está presente — e não apenas do número que aparece no exame.",
+      "referencias": "*Treatment and prevention of hyperkalemia in adults*. UpToDate — bicarbonato de sódio e tratamento da hipercalemia.\n*Approach to the adult with metabolic acidosis*. UpToDate — interpretação e abordagem da acidose metabólica.\nUK Kidney Association — recomendações sobre bicarbonato no tratamento agudo da hipercalemia.",
+      "scientificReviewNotes": "Preservar a ressalva de que o efeito do bicarbonato sobre o potássio é variável. Não apresentar bicarbonato como tratamento isolado ou universal.\n\nA gasometria permite ainda avaliar a compensação respiratória. A implementação deve preservar os valores editoriais, sem inferir que todo o distúrbio ácido-base esteja completamente explicado apenas pelo ânion gap.\n\n---",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": "Preservar a ressalva de que o efeito do bicarbonato sobre o potássio é variável. Não apresentar bicarbonato como tratamento isolado ou universal.\n\nA gasometria permite ainda avaliar a compensação respiratória. A implementação deve preservar os valores editoriais, sem inferir que todo o distúrbio ácido-base esteja completamente explicado apenas pelo ânion gap.\n\n---",
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 14,
+      "stem": "Um homem de 63 anos, com doença renal crônica estágio G4, é admitido na emergência após três dias de diarreia intensa, redução da ingestão hídrica e diminuição da diurese.\n\nNa avaliação:\n\n- PA: 104/64 mmHg.\n- FC: 108 bpm.\n- Potássio: 6,1 mEq/L.\n- Creatinina: 3,8 mg/dL, anteriormente 2,5 mg/dL.\n- pH arterial: 7,12.\n- Bicarbonato: 9 mEq/L.\n- PaCO₂: 27 mmHg.\n- Sódio: 139 mEq/L.\n- Cloro: 117 mEq/L.\n- Lactato: 1,5 mmol/L.\n- Albumina: 4,0 g/dL.\n\nO ECG apresenta ritmo sinusal, sem alterações típicas de hipercalemia.\n\nA equipe inicia a abordagem da hipercalemia e da hipovolemia.\n\nDurante a discussão, um médico sugere que o bicarbonato de sódio intravenoso seja utilizado como único tratamento para reduzir o potássio.\n\n**Qual interpretação é mais adequada?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-068-A",
+          "question_id": "aqz-hiper-068",
+          "letter": "A",
+          "text": "O bicarbonato pode ser considerado como medida adjuvante em determinadas situações de acidose metabólica importante, especialmente com componente de acidose mineral, mas seu efeito sobre o potássio é variável e não substitui as demais medidas indicadas.",
+          "is_correct": true,
+          "feedback": "A acidose metabólica importante, particularmente com componente hiperclorêmico, pode justificar considerar bicarbonato como medida adjuvante. Seu efeito sobre o potássio não é suficientemente previsível para substituir as demais intervenções indicadas.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "evaluate_bicarbonate_in_hyperkalemia",
+            "interpret_hyperchloremic_acidosis",
+            "calculate_anion_gap"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-068-B",
+          "question_id": "aqz-hiper-068",
+          "letter": "B",
+          "text": "O bicarbonato reduz o potássio de forma imediata e previsível em qualquer paciente com hipercalemia, independentemente do equilíbrio ácido-base.",
+          "is_correct": false,
+          "feedback": "O bicarbonato não apresenta efeito hipocalemiante universal, imediato ou previsível em todos os contextos clínicos.",
+          "error_type": "treatment_overgeneralization",
+          "misconception_id": "bicarbonate_always_rapidly_lowers_potassium",
+          "misconception_description": "Superestima a previsibilidade e a rapidez do bicarbonato.",
+          "competency_ids": [
+            "calculate_anion_gap"
+          ],
+          "clinical_risk_if_applied": "utilizar tratamento insuficiente em uma emergência."
+        },
+        {
+          "option_id": "aqz-hiper-068-C",
+          "question_id": "aqz-hiper-068",
+          "letter": "C",
+          "text": "A presença de acidose metabólica contraindica a utilização de insulina com glicose, tornando o bicarbonato a única opção redistributiva.",
+          "is_correct": false,
+          "feedback": "A acidose metabólica não contraindica, por si só, a insulinoterapia com glicose para hipercalemia.",
+          "error_type": "inappropriate_contraindication",
+          "misconception_id": "metabolic_acidosis_contraindicates_insulin",
+          "misconception_description": "Cria contraindicação inexistente à insulinoterapia em presença de acidose.",
+          "competency_ids": [
+            "understand_acid_base_potassium_shift"
+          ],
+          "clinical_risk_if_applied": "impedir intervenção indicada."
+        },
+        {
+          "option_id": "aqz-hiper-068-D",
+          "question_id": "aqz-hiper-068",
+          "letter": "D",
+          "text": "O bicarbonato promove eliminação direta de potássio pelas fezes, sendo equivalente aos agentes ligantes gastrointestinais.",
+          "is_correct": false,
+          "feedback": "O bicarbonato não atua como agente ligante intestinal de potássio.",
+          "error_type": "drug_mechanism_confusion",
+          "misconception_id": "bicarbonate_is_intestinal_potassium_binder",
+          "misconception_description": "Confunde o mecanismo do bicarbonato com o dos agentes ligantes intestinais.",
+          "competency_ids": [
+            "recognize_bicarbonate_limitations"
+          ],
+          "clinical_risk_if_applied": "selecionar terapia com fundamento fisiológico incorreto."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-068-r01",
+          "question_id": "aqz-hiper-068",
+          "sequence": 1,
+          "prompt": "Qual é o principal distúrbio ácido-base?",
+          "explanation": "Acidose metabólica importante, caracterizada por pH de 7,12 e bicarbonato de 9 mEq/L.",
+          "reasoning_type": "acid_base_disorder_identification",
+          "competency_ids": [
+            "understand_acid_base_potassium_shift"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque acidose metabólica importante, caracterizada por pH de 7,12 e bicarbonato de 9 mEq/L.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-068-r02",
+          "question_id": "aqz-hiper-068",
+          "sequence": 2,
+          "prompt": "O que sugere o cloro de 117 mEq/L?",
+          "explanation": "Hipercloremia, compatível com um componente de acidose metabólica hiperclorêmica.",
+          "reasoning_type": "hyperchloremia_interpretation",
+          "competency_ids": [
+            "understand_acid_base_potassium_shift"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Este raciocínio é relevante porque hipercloremia, compatível com um componente de acidose metabólica hiperclorêmica.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-068-r03",
+          "question_id": "aqz-hiper-068",
+          "sequence": 3,
+          "prompt": "Qual é o ânion gap calculado?",
+          "explanation": "Ânion gap = 139 − (117 + 9) = 13 mEq/L, valor que deve ser interpretado conforme o intervalo de referência do laboratório. Com albumina normal, o quadro é compatível com predomínio de acidose hiperclorêmica, embora outros componentes não possam ser excluídos apenas pelos dados apresentados.",
+          "reasoning_type": "anion_gap_calculation",
+          "competency_ids": [
+            "calculate_anion_gap"
+          ],
+          "cognitive_operation": "calculate",
+          "clinical_relevance": "Este raciocínio é relevante porque ânion gap = 139 − (117 + 9) = 13 mEq/L, valor que deve ser interpretado conforme o intervalo de referência do laboratório. Com albumina normal, o quadro é compatível com predomínio de acidose hiperclorêmica, embora outros componentes não possam ser excluídos apenas pelos dados apresentados.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-068-r04",
+          "question_id": "aqz-hiper-068",
+          "sequence": 4,
+          "prompt": "Qual é a relação entre diarreia e acidose metabólica?",
+          "explanation": "A perda gastrointestinal de bicarbonato pode produzir acidose metabólica hiperclorêmica.",
+          "reasoning_type": "gastrointestinal_bicarbonate_loss",
+          "competency_ids": [
+            "recognize_bicarbonate_limitations"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque a perda gastrointestinal de bicarbonato pode produzir acidose metabólica hiperclorêmica.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-068-r05",
+          "question_id": "aqz-hiper-068",
+          "sequence": 5,
+          "prompt": "A diarreia explica isoladamente a hipercalemia?",
+          "explanation": "Não. A perda gastrointestinal frequentemente favorece perda de potássio. Neste caso, a disfunção renal importante pode comprometer sua excreção e contribuir para a hipercalemia.",
+          "reasoning_type": "hyperkalemia_cause_integration",
+          "competency_ids": [
+            "recognize_bicarbonate_limitations"
+          ],
+          "cognitive_operation": "integrate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. A perda gastrointestinal frequentemente favorece perda de potássio. Neste caso, a disfunção renal importante pode comprometer sua excreção e contribuir para a hipercalemia.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-068-r06",
+          "question_id": "aqz-hiper-068",
+          "sequence": 6,
+          "prompt": "Como a acidose pode influenciar a distribuição do potássio?",
+          "explanation": "Determinadas formas de acidose metabólica, especialmente as associadas a ácidos minerais, podem favorecer deslocamento de potássio para o meio extracelular, embora o efeito varie conforme o mecanismo da acidose.",
+          "reasoning_type": "acid_base_potassium_shift",
+          "competency_ids": [
+            "understand_acid_base_potassium_shift"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque determinadas formas de acidose metabólica, especialmente as associadas a ácidos minerais, podem favorecer deslocamento de potássio para o meio extracelular, embora o efeito varie conforme o mecanismo da acidose.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-068-r07",
+          "question_id": "aqz-hiper-068",
+          "sequence": 7,
+          "prompt": "Qual é o fundamento para considerar bicarbonato neste paciente?",
+          "explanation": "A presença de acidemia importante e de um componente hiperclorêmico fornece justificativa fisiológica para considerar correção da acidose, conforme avaliação clínica e protocolo.",
+          "reasoning_type": "bicarbonate_indication_assessment",
+          "competency_ids": [
+            "recognize_bicarbonate_limitations"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque a presença de acidemia importante e de um componente hiperclorêmico fornece justificativa fisiológica para considerar correção da acidose, conforme avaliação clínica e protocolo.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-068-r08",
+          "question_id": "aqz-hiper-068",
+          "sequence": 8,
+          "prompt": "O bicarbonato reduz o potássio de maneira previsível?",
+          "explanation": "Não. Seu efeito hipocalemiante é variável e depende do contexto ácido-base, da gravidade e de outros fatores.",
+          "reasoning_type": "bicarbonate_response_variability",
+          "competency_ids": [
+            "recognize_bicarbonate_limitations"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque não. Seu efeito hipocalemiante é variável e depende do contexto ácido-base, da gravidade e de outros fatores.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-068-r09",
+          "question_id": "aqz-hiper-068",
+          "sequence": 9,
+          "prompt": "O bicarbonato deve ser utilizado como monoterapia da hipercalemia?",
+          "explanation": "Não. Não substitui medidas redistributivas de eficácia mais estabelecida nem estratégias de remoção quando indicadas.",
+          "reasoning_type": "monotherapy_limitation",
+          "competency_ids": [
+            "understand_acid_base_potassium_shift"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. Não substitui medidas redistributivas de eficácia mais estabelecida nem estratégias de remoção quando indicadas.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-068-r10",
+          "question_id": "aqz-hiper-068",
+          "sequence": 10,
+          "prompt": "O bicarbonato estabiliza diretamente a membrana cardíaca como o cálcio?",
+          "explanation": "Não. Os mecanismos são diferentes, e o bicarbonato não substitui cálcio intravenoso quando há toxicidade elétrica que indique estabilização cardíaca.",
+          "reasoning_type": "cardiac_stabilization_differentiation",
+          "competency_ids": [
+            "recognize_bicarbonate_limitations"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. Os mecanismos são diferentes, e o bicarbonato não substitui cálcio intravenoso quando há toxicidade elétrica que indique estabilização cardíaca.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-068-r11",
+          "question_id": "aqz-hiper-068",
+          "sequence": 11,
+          "prompt": "Quais riscos devem ser considerados na administração de bicarbonato?",
+          "explanation": "Sobrecarga de sódio e volume, alcalemia, redução do cálcio ionizado e outros distúrbios eletrolíticos, dependendo da dose, velocidade e condição clínica.",
+          "reasoning_type": "bicarbonate_adverse_effects",
+          "competency_ids": [
+            "evaluate_bicarbonate_adverse_effects"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque sobrecarga de sódio e volume, alcalemia, redução do cálcio ionizado e outros distúrbios eletrolíticos, dependendo da dose, velocidade e condição clínica.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-068-r12",
+          "question_id": "aqz-hiper-068",
+          "sequence": 12,
+          "prompt": "Qual é a importância da disfunção renal na decisão?",
+          "explanation": "Ela pode limitar a eliminação de potássio e aumentar o risco de sobrecarga volêmica, exigindo reavaliação frequente.",
+          "reasoning_type": "renal_volume_risk",
+          "competency_ids": [
+            "recognize_bicarbonate_limitations"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque ela pode limitar a eliminação de potássio e aumentar o risco de sobrecarga volêmica, exigindo reavaliação frequente.",
+          "prerequisite_concepts": [
+            "composição dos cristaloides",
+            "equilíbrio ácido-base e balanço de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-068-r13",
+          "question_id": "aqz-hiper-068",
+          "sequence": 13,
+          "prompt": "Qual deve ser a abordagem global?",
+          "explanation": "Tratar a hipercalemia conforme a gravidade, corrigir os fatores precipitantes, avaliar a acidose, monitorizar os eletrólitos e considerar remoção efetiva do potássio quando necessária.",
+          "reasoning_type": "integrated_treatment_strategy",
+          "competency_ids": [
+            "recognize_bicarbonate_limitations"
+          ],
+          "cognitive_operation": "plan",
+          "clinical_relevance": "Este raciocínio é relevante porque tratar a hipercalemia conforme a gravidade, corrigir os fatores precipitantes, avaliar a acidose, monitorizar os eletrólitos e considerar remoção efetiva do potássio quando necessária.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-068-r14",
+          "question_id": "aqz-hiper-068",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Identificar quando o bicarbonato pode ter papel adjuvante no tratamento da hipercalemia associada à acidose metabólica importante, reconhecendo suas limitações e riscos.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "understand_acid_base_potassium_shift"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque identificar quando o bicarbonato pode ter papel adjuvante no tratamento da hipercalemia associada à acidose metabólica importante, reconhecendo suas limitações e riscos.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        }
+      ],
+      "clinical_pearl": "> O bicarbonato não é um antídoto universal para o potássio. Sua utilidade depende da acidose que está presente — e não apenas do número que aparece no exame.",
+      "references": [
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate — bicarbonato de sódio e tratamento da hipercalemia.",
+        "*Approach to the adult with metabolic acidosis*. UpToDate — interpretação e abordagem da acidose metabólica.",
+        "UK Kidney Association — recomendações sobre bicarbonato no tratamento agudo da hipercalemia."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "metabolic_acidosis",
+        "clinical_context": "emergency_department",
+        "urgency_level": "urgent_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "evaluate_bicarbonate_in_hyperkalemia",
+        "secondary_competencies": [
+          "interpret_hyperchloremic_acidosis",
+          "calculate_anion_gap",
+          "understand_acid_base_potassium_shift",
+          "recognize_bicarbonate_limitations",
+          "evaluate_bicarbonate_adverse_effects"
+        ],
+        "learning_objectives": [
+          "Identificar o papel adjuvante do bicarbonato na hipercalemia com acidose metabólica."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_safety",
+        "arena_skill_ids": [
+          "evaluate_bicarbonate_in_hyperkalemia",
+          "interpret_hyperchloremic_acidosis",
+          "calculate_anion_gap",
+          "understand_acid_base_potassium_shift",
+          "recognize_bicarbonate_limitations",
+          "evaluate_bicarbonate_adverse_effects"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "evaluate",
+          "bicarbonate",
+          "in"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "Preservar a ressalva de que o efeito do bicarbonato sobre o potássio é variável. Não apresentar bicarbonato como tratamento isolado ou universal.\n\nA gasometria permite ainda avaliar a compensação respiratória. A implementação deve preservar os valores editoriais, sem inferir que todo o distúrbio ácido-base esteja completamente explicado apenas pelo ânion gap.\n\n---",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "evaluate_bicarbonate_in_hyperkalemia",
+          "interpret_hyperchloremic_acidosis",
+          "calculate_anion_gap",
+          "understand_acid_base_potassium_shift",
+          "recognize_bicarbonate_limitations",
+          "evaluate_bicarbonate_adverse_effects"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-069",
+      "question_id": "aqz-hiper-069",
+      "numero": 69,
+      "question_number": 69,
+      "titulo": "O quelante de potássio não é um antídoto cardíaco",
+      "competenciaPrincipal": "Diferenciar agentes ligantes gastrointestinais de potássio.",
+      "competenciasSecundarias": [
+        "understand_patiromer_mechanism",
+        "understand_sodium_zirconium_cyclosilicate_mechanism",
+        "compare_drug_onset",
+        "recognize_potassium_binder_adverse_effects",
+        "support_raas_inhibitor_continuation"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Uma mulher de 69 anos, com insuficiência cardíaca de fração de ejeção reduzida e doença renal crônica estágio G3b, é avaliada em ambulatório especializado por hipercalemia persistente.\n\nUtiliza sacubitril/valsartana e espironolactona, ambos com indicação clínica estabelecida.\n\nNos últimos dois meses, apresentou concentrações de potássio entre 5,4 e 5,8 mEq/L.\n\nNa avaliação atual:\n\n- PA: 118/72 mmHg.\n- FC: 76 bpm.\n- Potássio: 5,7 mEq/L, confirmado.\n- Creatinina: 1,9 mg/dL, estável.\n- Bicarbonato: 23 mEq/L.\n- ECG: sem alterações típicas de hipercalemia.\n- Sem sintomas ou sinais de instabilidade.\n\nA equipe discute a possibilidade de utilizar um agente ligante gastrointestinal de potássio para auxiliar no controle da hipercalemia e favorecer a continuidade do tratamento cardiovascular, quando clinicamente apropriado.\n\nUm residente afirma que patiromer e ciclosilicato de zircônio sódico são equivalentes em todas as situações, inclusive na emergência, porque ambos eliminam potássio pelo intestino.\n\n**Qual afirmação demonstra melhor compreensão farmacológica?**",
+      "alternativas": {
+        "A": "Ambos são medicamentos intravenosos que estabilizam a membrana cardíaca, podendo substituir o cálcio quando existem alterações eletrocardiográficas.",
+        "B": "O patiromer possui efeito imediato, sendo preferível como única medida em hipercalemia com instabilidade elétrica.",
+        "C": "Ambos promovem remoção gastrointestinal de potássio, mas apresentam características farmacológicas e perfis de início de ação diferentes. Podem ser úteis no controle da hipercalemia persistente, sem substituir o tratamento emergencial quando necessário.",
+        "D": "A utilização de qualquer ligante gastrointestinal elimina a necessidade de monitorizar potássio, função renal e efeitos adversos."
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. Qual é o contexto clínico predominante?**\n\nHipercalemia persistente, sem sinais de instabilidade, em paciente com doença renal crônica e insuficiência cardíaca.\n\n**2. Por que os medicamentos cardiovasculares são relevantes?**\n\nAlguns tratamentos que atuam no sistema renina-angiotensina-aldosterona podem favorecer hipercalemia, embora ofereçam benefícios clínicos importantes em pacientes selecionados.\n\n**3. Qual é o objetivo de considerar um ligante gastrointestinal?**\n\nFavorecer a remoção de potássio pelo trato gastrointestinal e auxiliar no controle de sua concentração sérica.\n\n**4. Qual é o mecanismo geral do patiromer?**\n\nÉ um polímero não absorvido que liga potássio no trato gastrointestinal, aumentando sua eliminação fecal.\n\n**5. Qual é o mecanismo geral do ciclosilicato de zircônio sódico?**\n\nÉ um composto não absorvido que captura potássio no trato gastrointestinal por troca iônica, favorecendo sua eliminação fecal.\n\n**6. Esses medicamentos estabilizam diretamente a membrana cardíaca?**\n\nNão. Não apresentam o mesmo mecanismo de proteção elétrica do cálcio intravenoso.\n\n**7. Os dois medicamentos possuem início de ação idêntico?**\n\nNão. O ciclosilicato de zircônio sódico pode apresentar redução mensurável do potássio mais precocemente, enquanto o patiromer possui início de ação mais lento.\n\n**8. Isso significa que o ciclosilicato substitui automaticamente o tratamento emergencial?**\n\nNão. Mesmo quando há redução relativamente precoce do potássio, o medicamento não substitui estabilização cardíaca e medidas redistributivas urgentes quando indicadas.\n\n**9. Qual é uma limitação importante do patiromer?**\n\nSeu início de ação não é adequado para utilizá-lo como único tratamento de uma emergência hipercalêmica.\n\n**10. Qual efeito adverso merece atenção com o patiromer?**\n\nHipomagnesemia, além de possíveis efeitos gastrointestinais e interações relacionadas à administração de outros medicamentos orais.\n\n**11. Qual cuidado é relevante com o ciclosilicato de zircônio sódico?**\n\nConsiderar sua carga de sódio e o risco de edema, especialmente em pacientes suscetíveis à retenção de volume.\n\n**12. Qual é a relação desses agentes com a continuidade do tratamento cardiovascular?**\n\nEm pacientes selecionados, podem auxiliar no controle da hipercalemia e facilitar a manutenção de tratamentos com benefício cardiovascular, desde que a decisão seja individualizada.\n\n**13. A prescrição de um ligante elimina a necessidade de monitorização?**\n\nNão. É necessário acompanhar potássio, função renal, resposta terapêutica e efeitos adversos.\n\n**14. Qual é a competência principal?**\n\nDiferenciar o papel, as características farmacológicas e as limitações dos agentes ligantes gastrointestinais de potássio.",
+      "comentarios": {
+        "A": "Patiromer e ciclosilicato de zircônio sódico são agentes de administração oral e não estabilizam diretamente a membrana cardíaca.",
+        "B": "O patiromer não apresenta início de ação adequado para ser utilizado isoladamente diante de toxicidade elétrica aguda.",
+        "C": "Ambos favorecem eliminação gastrointestinal de potássio, mas diferem em características farmacológicas, início de ação e perfil de segurança. Seu uso não substitui medidas emergenciais quando indicadas.",
+        "D": "A monitorização permanece necessária para avaliar eficácia, evitar hipocalemia e identificar efeitos adversos."
+      },
+      "perola": "> Remover potássio pelo intestino é diferente de proteger imediatamente o coração. Conhecer o início de ação de cada medicamento evita transformar uma boa estratégia de controle em uma escolha inadequada para a emergência.",
+      "referencias": "*Treatment and prevention of hyperkalemia in adults*. UpToDate — agentes ligantes gastrointestinais.\nInformações de prescrição de patiromer e ciclosilicato de zircônio sódico — mecanismos, início de ação, interações e efeitos adversos.\nDiretrizes contemporâneas de insuficiência cardíaca e doença renal crônica — manejo da hipercalemia durante tratamentos cardiovasculares.",
+      "scientificReviewNotes": "Preservar as diferenças farmacológicas entre patiromer e ciclosilicato de zircônio sódico. Não apresentar qualquer ligante gastrointestinal como substituto automático das intervenções emergenciais.\n\n---",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": "Preservar as diferenças farmacológicas entre patiromer e ciclosilicato de zircônio sódico. Não apresentar qualquer ligante gastrointestinal como substituto automático das intervenções emergenciais.\n\n---",
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 14,
+      "stem": "Uma mulher de 69 anos, com insuficiência cardíaca de fração de ejeção reduzida e doença renal crônica estágio G3b, é avaliada em ambulatório especializado por hipercalemia persistente.\n\nUtiliza sacubitril/valsartana e espironolactona, ambos com indicação clínica estabelecida.\n\nNos últimos dois meses, apresentou concentrações de potássio entre 5,4 e 5,8 mEq/L.\n\nNa avaliação atual:\n\n- PA: 118/72 mmHg.\n- FC: 76 bpm.\n- Potássio: 5,7 mEq/L, confirmado.\n- Creatinina: 1,9 mg/dL, estável.\n- Bicarbonato: 23 mEq/L.\n- ECG: sem alterações típicas de hipercalemia.\n- Sem sintomas ou sinais de instabilidade.\n\nA equipe discute a possibilidade de utilizar um agente ligante gastrointestinal de potássio para auxiliar no controle da hipercalemia e favorecer a continuidade do tratamento cardiovascular, quando clinicamente apropriado.\n\nUm residente afirma que patiromer e ciclosilicato de zircônio sódico são equivalentes em todas as situações, inclusive na emergência, porque ambos eliminam potássio pelo intestino.\n\n**Qual afirmação demonstra melhor compreensão farmacológica?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-069-A",
+          "question_id": "aqz-hiper-069",
+          "letter": "A",
+          "text": "Ambos são medicamentos intravenosos que estabilizam a membrana cardíaca, podendo substituir o cálcio quando existem alterações eletrocardiográficas.",
+          "is_correct": false,
+          "feedback": "Patiromer e ciclosilicato de zircônio sódico são agentes de administração oral e não estabilizam diretamente a membrana cardíaca.",
+          "error_type": "drug_class_misclassification",
+          "misconception_id": "potassium_binders_are_iv_cardiac_stabilizers",
+          "misconception_description": "Classifica incorretamente os ligantes intestinais como medicamentos intravenosos estabilizadores cardíacos.",
+          "competency_ids": [
+            "understand_patiromer_mechanism"
+          ],
+          "clinical_risk_if_applied": "atrasar tratamento de toxicidade elétrica."
+        },
+        {
+          "option_id": "aqz-hiper-069-B",
+          "question_id": "aqz-hiper-069",
+          "letter": "B",
+          "text": "O patiromer possui efeito imediato, sendo preferível como única medida em hipercalemia com instabilidade elétrica.",
+          "is_correct": false,
+          "feedback": "O patiromer não apresenta início de ação adequado para ser utilizado isoladamente diante de toxicidade elétrica aguda.",
+          "error_type": "onset_of_action_error",
+          "misconception_id": "patiromer_immediately_treats_cardiac_toxicity",
+          "misconception_description": "Atribui início de ação imediato ao patiromer.",
+          "competency_ids": [
+            "understand_sodium_zirconium_cyclosilicate_mechanism"
+          ],
+          "clinical_risk_if_applied": "utilizá-lo isoladamente em emergência hipercalêmica."
+        },
+        {
+          "option_id": "aqz-hiper-069-C",
+          "question_id": "aqz-hiper-069",
+          "letter": "C",
+          "text": "Ambos promovem remoção gastrointestinal de potássio, mas apresentam características farmacológicas e perfis de início de ação diferentes. Podem ser úteis no controle da hipercalemia persistente, sem substituir o tratamento emergencial quando necessário.",
+          "is_correct": true,
+          "feedback": "Ambos favorecem eliminação gastrointestinal de potássio, mas diferem em características farmacológicas, início de ação e perfil de segurança. Seu uso não substitui medidas emergenciais quando indicadas.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "differentiate_potassium_binders",
+            "understand_patiromer_mechanism",
+            "understand_sodium_zirconium_cyclosilicate_mechanism"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-069-D",
+          "question_id": "aqz-hiper-069",
+          "letter": "D",
+          "text": "A utilização de qualquer ligante gastrointestinal elimina a necessidade de monitorizar potássio, função renal e efeitos adversos.",
+          "is_correct": false,
+          "feedback": "A monitorização permanece necessária para avaliar eficácia, evitar hipocalemia e identificar efeitos adversos.",
+          "error_type": "monitoring_failure",
+          "misconception_id": "potassium_binders_eliminate_monitoring_need",
+          "misconception_description": "Considera que a prescrição de um ligante elimina a necessidade de acompanhamento.",
+          "competency_ids": [
+            "recognize_potassium_binder_adverse_effects"
+          ],
+          "clinical_risk_if_applied": "hipocalemia, efeitos adversos e falha terapêutica não identificados."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-069-r01",
+          "question_id": "aqz-hiper-069",
+          "sequence": 1,
+          "prompt": "Qual é o contexto clínico predominante?",
+          "explanation": "Hipercalemia persistente, sem sinais de instabilidade, em paciente com doença renal crônica e insuficiência cardíaca.",
+          "reasoning_type": "clinical_context_classification",
+          "competency_ids": [
+            "recognize_potassium_binder_adverse_effects"
+          ],
+          "cognitive_operation": "classify",
+          "clinical_relevance": "Este raciocínio é relevante porque hipercalemia persistente, sem sinais de instabilidade, em paciente com doença renal crônica e insuficiência cardíaca.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-069-r02",
+          "question_id": "aqz-hiper-069",
+          "sequence": 2,
+          "prompt": "Por que os medicamentos cardiovasculares são relevantes?",
+          "explanation": "Alguns tratamentos que atuam no sistema renina-angiotensina-aldosterona podem favorecer hipercalemia, embora ofereçam benefícios clínicos importantes em pacientes selecionados.",
+          "reasoning_type": "raas_related_hyperkalemia",
+          "competency_ids": [
+            "support_raas_inhibitor_continuation"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque alguns tratamentos que atuam no sistema renina-angiotensina-aldosterona podem favorecer hipercalemia, embora ofereçam benefícios clínicos importantes em pacientes selecionados.",
+          "prerequisite_concepts": [
+            "fisiologia renal das prostaglandinas",
+            "sistema renina-angiotensina-aldosterona"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-069-r03",
+          "question_id": "aqz-hiper-069",
+          "sequence": 3,
+          "prompt": "Qual é o objetivo de considerar um ligante gastrointestinal?",
+          "explanation": "Favorecer a remoção de potássio pelo trato gastrointestinal e auxiliar no controle de sua concentração sérica.",
+          "reasoning_type": "intestinal_potassium_removal",
+          "competency_ids": [
+            "recognize_potassium_binder_adverse_effects"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque favorecer a remoção de potássio pelo trato gastrointestinal e auxiliar no controle de sua concentração sérica.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-069-r04",
+          "question_id": "aqz-hiper-069",
+          "sequence": 4,
+          "prompt": "Qual é o mecanismo geral do patiromer?",
+          "explanation": "É um polímero não absorvido que liga potássio no trato gastrointestinal, aumentando sua eliminação fecal.",
+          "reasoning_type": "patiromer_mechanism",
+          "competency_ids": [
+            "understand_patiromer_mechanism"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque é um polímero não absorvido que liga potássio no trato gastrointestinal, aumentando sua eliminação fecal.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-069-r05",
+          "question_id": "aqz-hiper-069",
+          "sequence": 5,
+          "prompt": "Qual é o mecanismo geral do ciclosilicato de zircônio sódico?",
+          "explanation": "É um composto não absorvido que captura potássio no trato gastrointestinal por troca iônica, favorecendo sua eliminação fecal.",
+          "reasoning_type": "zirconium_cyclosilicate_mechanism",
+          "competency_ids": [
+            "understand_sodium_zirconium_cyclosilicate_mechanism"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque é um composto não absorvido que captura potássio no trato gastrointestinal por troca iônica, favorecendo sua eliminação fecal.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-069-r06",
+          "question_id": "aqz-hiper-069",
+          "sequence": 6,
+          "prompt": "Esses medicamentos estabilizam diretamente a membrana cardíaca?",
+          "explanation": "Não. Não apresentam o mesmo mecanismo de proteção elétrica do cálcio intravenoso.",
+          "reasoning_type": "cardiac_stabilization_differentiation",
+          "competency_ids": [
+            "recognize_potassium_binder_adverse_effects"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. Não apresentam o mesmo mecanismo de proteção elétrica do cálcio intravenoso.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-069-r07",
+          "question_id": "aqz-hiper-069",
+          "sequence": 7,
+          "prompt": "Os dois medicamentos possuem início de ação idêntico?",
+          "explanation": "Não. O ciclosilicato de zircônio sódico pode apresentar redução mensurável do potássio mais precocemente, enquanto o patiromer possui início de ação mais lento.",
+          "reasoning_type": "drug_onset_comparison",
+          "competency_ids": [
+            "compare_drug_onset"
+          ],
+          "cognitive_operation": "compare",
+          "clinical_relevance": "Este raciocínio é relevante porque não. O ciclosilicato de zircônio sódico pode apresentar redução mensurável do potássio mais precocemente, enquanto o patiromer possui início de ação mais lento.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-069-r08",
+          "question_id": "aqz-hiper-069",
+          "sequence": 8,
+          "prompt": "Isso significa que o ciclosilicato substitui automaticamente o tratamento emergencial?",
+          "explanation": "Não. Mesmo quando há redução relativamente precoce do potássio, o medicamento não substitui estabilização cardíaca e medidas redistributivas urgentes quando indicadas.",
+          "reasoning_type": "emergency_treatment_limitation",
+          "competency_ids": [
+            "recognize_potassium_binder_adverse_effects"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. Mesmo quando há redução relativamente precoce do potássio, o medicamento não substitui estabilização cardíaca e medidas redistributivas urgentes quando indicadas.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-069-r09",
+          "question_id": "aqz-hiper-069",
+          "sequence": 9,
+          "prompt": "Qual é uma limitação importante do patiromer?",
+          "explanation": "Seu início de ação não é adequado para utilizá-lo como único tratamento de uma emergência hipercalêmica.",
+          "reasoning_type": "patiromer_onset_limitation",
+          "competency_ids": [
+            "understand_patiromer_mechanism"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque seu início de ação não é adequado para utilizá-lo como único tratamento de uma emergência hipercalêmica.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-069-r10",
+          "question_id": "aqz-hiper-069",
+          "sequence": 10,
+          "prompt": "Qual efeito adverso merece atenção com o patiromer?",
+          "explanation": "Hipomagnesemia, além de possíveis efeitos gastrointestinais e interações relacionadas à administração de outros medicamentos orais.",
+          "reasoning_type": "patiromer_adverse_effects",
+          "competency_ids": [
+            "recognize_potassium_binder_adverse_effects"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque hipomagnesemia, além de possíveis efeitos gastrointestinais e interações relacionadas à administração de outros medicamentos orais.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-069-r11",
+          "question_id": "aqz-hiper-069",
+          "sequence": 11,
+          "prompt": "Qual cuidado é relevante com o ciclosilicato de zircônio sódico?",
+          "explanation": "Considerar sua carga de sódio e o risco de edema, especialmente em pacientes suscetíveis à retenção de volume.",
+          "reasoning_type": "zirconium_sodium_load",
+          "competency_ids": [
+            "understand_sodium_zirconium_cyclosilicate_mechanism"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque considerar sua carga de sódio e o risco de edema, especialmente em pacientes suscetíveis à retenção de volume.",
+          "prerequisite_concepts": [
+            "composição dos cristaloides",
+            "equilíbrio ácido-base e balanço de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-069-r12",
+          "question_id": "aqz-hiper-069",
+          "sequence": 12,
+          "prompt": "Qual é a relação desses agentes com a continuidade do tratamento cardiovascular?",
+          "explanation": "Em pacientes selecionados, podem auxiliar no controle da hipercalemia e facilitar a manutenção de tratamentos com benefício cardiovascular, desde que a decisão seja individualizada.",
+          "reasoning_type": "cardiovascular_treatment_continuation",
+          "competency_ids": [
+            "support_raas_inhibitor_continuation"
+          ],
+          "cognitive_operation": "integrate",
+          "clinical_relevance": "Este raciocínio é relevante porque em pacientes selecionados, podem auxiliar no controle da hipercalemia e facilitar a manutenção de tratamentos com benefício cardiovascular, desde que a decisão seja individualizada.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-069-r13",
+          "question_id": "aqz-hiper-069",
+          "sequence": 13,
+          "prompt": "A prescrição de um ligante elimina a necessidade de monitorização?",
+          "explanation": "Não. É necessário acompanhar potássio, função renal, resposta terapêutica e efeitos adversos.",
+          "reasoning_type": "longitudinal_monitoring",
+          "competency_ids": [
+            "compare_drug_onset"
+          ],
+          "cognitive_operation": "apply",
+          "clinical_relevance": "Este raciocínio é relevante porque não. É necessário acompanhar potássio, função renal, resposta terapêutica e efeitos adversos.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-069-r14",
+          "question_id": "aqz-hiper-069",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Diferenciar o papel, as características farmacológicas e as limitações dos agentes ligantes gastrointestinais de potássio.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "compare_drug_onset"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque diferenciar o papel, as características farmacológicas e as limitações dos agentes ligantes gastrointestinais de potássio.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        }
+      ],
+      "clinical_pearl": "> Remover potássio pelo intestino é diferente de proteger imediatamente o coração. Conhecer o início de ação de cada medicamento evita transformar uma boa estratégia de controle em uma escolha inadequada para a emergência.",
+      "references": [
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate — agentes ligantes gastrointestinais.",
+        "Informações de prescrição de patiromer e ciclosilicato de zircônio sódico — mecanismos, início de ação, interações e efeitos adversos.",
+        "Diretrizes contemporâneas de insuficiência cardíaca e doença renal crônica — manejo da hipercalemia durante tratamentos cardiovasculares."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "chronic_hyperkalemia",
+        "clinical_context": "outpatient_clinic",
+        "urgency_level": "prompt_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "differentiate_potassium_binders",
+        "secondary_competencies": [
+          "understand_patiromer_mechanism",
+          "understand_sodium_zirconium_cyclosilicate_mechanism",
+          "compare_drug_onset",
+          "recognize_potassium_binder_adverse_effects",
+          "support_raas_inhibitor_continuation"
+        ],
+        "learning_objectives": [
+          "Diferenciar agentes ligantes gastrointestinais de potássio."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_safety",
+        "arena_skill_ids": [
+          "differentiate_potassium_binders",
+          "understand_patiromer_mechanism",
+          "understand_sodium_zirconium_cyclosilicate_mechanism",
+          "compare_drug_onset",
+          "recognize_potassium_binder_adverse_effects",
+          "support_raas_inhibitor_continuation"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "differentiate",
+          "potassium",
+          "binders"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "Preservar as diferenças farmacológicas entre patiromer e ciclosilicato de zircônio sódico. Não apresentar qualquer ligante gastrointestinal como substituto automático das intervenções emergenciais.\n\n---",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "differentiate_potassium_binders",
+          "understand_patiromer_mechanism",
+          "understand_sodium_zirconium_cyclosilicate_mechanism",
+          "compare_drug_onset",
+          "recognize_potassium_binder_adverse_effects",
+          "support_raas_inhibitor_continuation"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-070",
+      "question_id": "aqz-hiper-070",
+      "numero": 70,
+      "question_number": 70,
+      "titulo": "A hemodiálise começou, mas o risco não acabou",
+      "competenciaPrincipal": "Compreender a cinética do potássio durante e após a hemodiálise.",
+      "competenciasSecundarias": [
+        "understand_dialysis_diffusion",
+        "interpret_dialysate_potassium_gradient",
+        "recognize_postdialysis_rebound",
+        "assess_rapid_potassium_reduction_risk",
+        "interpret_serial_dialysis_laboratory_values"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Um homem de 58 anos, com doença renal terminal em hemodiálise, é internado após faltar a duas sessões por dificuldades de transporte.\n\nNa admissão:\n\n- PA: 152/86 mmHg.\n- FC: 90 bpm.\n- Potássio: 7,2 mEq/L.\n- Creatinina: 11,2 mg/dL.\n- Bicarbonato: 17 mEq/L.\n- ECG: ondas T apiculadas.\n\nApós estabilização e tratamento inicial, inicia hemodiálise urgente.\n\nDurante a sessão, o potássio sérico diminui progressivamente.\n\n| Momento | Potássio |\n|---|---:|\n| Antes da hemodiálise | 7,2 mEq/L |\n| Após 1 hora de hemodiálise | 5,4 mEq/L |\n| Ao término da sessão | 3,4 mEq/L |\n| Duas horas após a sessão | 4,5 mEq/L |\n\nO paciente permanece hemodinamicamente estável, sem sintomas.\n\nUm residente considera que o aumento do potássio de 3,4 para 4,5 mEq/L comprova que a hemodiálise foi ineficaz.\n\n**Qual interpretação é mais adequada?**",
+      "alternativas": {
+        "A": "A elevação após a sessão demonstra obrigatoriamente falha da membrana do dialisador, pois a hemodiálise deve manter o potássio sérico permanentemente no menor valor alcançado.",
+        "B": "A queda durante a hemodiálise depende do gradiente entre sangue e dialisato, enquanto a elevação posterior pode ocorrer por redistribuição do potássio intracelular para o meio extracelular, fenômeno conhecido como rebote pós-dialítico.",
+        "C": "A elevação posterior demonstra que o potássio removido durante a hemodiálise retornou integralmente do dialisato para a circulação.",
+        "D": "A concentração de potássio no dialisato não influencia a velocidade de remoção, pois o processo depende exclusivamente da pressão arterial."
+      },
+      "gabarito": "B",
+      "raciocinioClinico": "**1. Qual é o principal mecanismo de remoção de potássio durante a hemodiálise?**\n\nA difusão do potássio através da membrana dialítica, determinada principalmente pelo gradiente de concentração entre o sangue e o dialisato.\n\n**2. Qual é a importância do potássio no dialisato?**\n\nSua concentração influencia o gradiente de difusão e, consequentemente, a velocidade de remoção do potássio.\n\n**3. Por que o potássio sérico pode cair rapidamente no início da sessão?**\n\nPorque o gradiente entre o potássio sanguíneo e o dialisato pode ser elevado, favorecendo a difusão.\n\n**4. A queda do potássio sérico corresponde exatamente à redução do estoque corporal total?**\n\nNão. A concentração sérica reflete o compartimento extracelular, enquanto grande parte do potássio corporal está no meio intracelular.\n\n**5. O que acontece com o potássio intracelular durante a sessão?**\n\nPode ocorrer redistribuição gradual para o compartimento extracelular, contribuindo para manter a concentração sanguínea enquanto o potássio é removido.\n\n**6. Por que o potássio pode aumentar após o término da hemodiálise?**\n\nPorque a redistribuição entre os compartimentos continua após o encerramento da remoção dialítica.\n\n**7. Como esse fenômeno é denominado?**\n\nRebote pós-dialítico do potássio.\n\n**8. O rebote significa necessariamente que a hemodiálise foi ineficaz?**\n\nNão. Uma elevação após a sessão pode ocorrer mesmo quando houve remoção efetiva de potássio.\n\n**9. O valor de 3,4 mEq/L ao término da sessão merece atenção?**\n\nSim. Uma concentração baixa pode estar associada a risco de alterações elétricas, especialmente em pacientes suscetíveis.\n\n**10. A utilização de dialisato com potássio muito baixo é sempre mais segura?**\n\nNão. Um gradiente excessivamente elevado pode provocar redução rápida do potássio sérico e potencialmente aumentar o risco de arritmias.\n\n**11. Como deve ser escolhida a concentração de potássio do dialisato?**\n\nDe forma individualizada, considerando o potássio pré-dialítico, a gravidade clínica, o risco arrítmico e o protocolo nefrológico.\n\n**12. O potássio pós-dialítico deve ser interpretado isoladamente?**\n\nNão. É necessário considerar o momento da coleta, a tendência laboratorial e a possibilidade de rebote.\n\n**13. Qual é a importância da monitorização após a hemodiálise?**\n\nPermite reconhecer alterações relevantes do potássio, tanto por redução excessiva quanto por elevação posterior, orientando a necessidade de novas intervenções.\n\n**14. Qual é a competência principal?**\n\nCompreender a cinética do potássio durante e após a hemodiálise, distinguindo remoção efetiva, queda sérica rápida e rebote pós-dialítico.",
+      "comentarios": {
+        "A": "O rebote pós-dialítico não comprova falha do dialisador. Pode ocorrer por redistribuição do potássio entre os compartimentos.",
+        "B": "A remoção dialítica depende principalmente do gradiente entre sangue e dialisato, e o rebote pós-dialítico pode ocorrer devido à redistribuição do potássio intracelular.",
+        "C": "O rebote não significa que o potássio removido tenha retornado do dialisato para o sangue.",
+        "D": "A concentração de potássio do dialisato influencia diretamente o gradiente de difusão e a velocidade de remoção."
+      },
+      "perola": "> Na hemodiálise, o potássio sai do sangue, mas o organismo continua redistribuindo potássio entre seus compartimentos. Por isso, o menor valor ao final da sessão nem sempre representa o equilíbrio que será encontrado algumas horas depois.",
+      "referencias": "*Treatment and prevention of hyperkalemia in adults*. UpToDate — hemodiálise e remoção de potássio.\nLiteratura nefrológica sobre cinética do potássio durante hemodiálise, gradiente sangue-dialisato e rebote pós-dialítico.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 14,
+      "stem": "Um homem de 58 anos, com doença renal terminal em hemodiálise, é internado após faltar a duas sessões por dificuldades de transporte.\n\nNa admissão:\n\n- PA: 152/86 mmHg.\n- FC: 90 bpm.\n- Potássio: 7,2 mEq/L.\n- Creatinina: 11,2 mg/dL.\n- Bicarbonato: 17 mEq/L.\n- ECG: ondas T apiculadas.\n\nApós estabilização e tratamento inicial, inicia hemodiálise urgente.\n\nDurante a sessão, o potássio sérico diminui progressivamente.\n\n| Momento | Potássio |\n|---|---:|\n| Antes da hemodiálise | 7,2 mEq/L |\n| Após 1 hora de hemodiálise | 5,4 mEq/L |\n| Ao término da sessão | 3,4 mEq/L |\n| Duas horas após a sessão | 4,5 mEq/L |\n\nO paciente permanece hemodinamicamente estável, sem sintomas.\n\nUm residente considera que o aumento do potássio de 3,4 para 4,5 mEq/L comprova que a hemodiálise foi ineficaz.\n\n**Qual interpretação é mais adequada?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-070-A",
+          "question_id": "aqz-hiper-070",
+          "letter": "A",
+          "text": "A elevação após a sessão demonstra obrigatoriamente falha da membrana do dialisador, pois a hemodiálise deve manter o potássio sérico permanentemente no menor valor alcançado.",
+          "is_correct": false,
+          "feedback": "O rebote pós-dialítico não comprova falha do dialisador. Pode ocorrer por redistribuição do potássio entre os compartimentos.",
+          "error_type": "dialysis_mechanism_misinterpretation",
+          "misconception_id": "postdialysis_rebound_proves_dialyzer_failure",
+          "misconception_description": "Interpreta rebote pós-dialítico como falha obrigatória do equipamento.",
+          "competency_ids": [
+            "understand_dialysis_diffusion"
+          ],
+          "clinical_risk_if_applied": "avaliação incorreta da eficácia da hemodiálise."
+        },
+        {
+          "option_id": "aqz-hiper-070-B",
+          "question_id": "aqz-hiper-070",
+          "letter": "B",
+          "text": "A queda durante a hemodiálise depende do gradiente entre sangue e dialisato, enquanto a elevação posterior pode ocorrer por redistribuição do potássio intracelular para o meio extracelular, fenômeno conhecido como rebote pós-dialítico.",
+          "is_correct": true,
+          "feedback": "A remoção dialítica depende principalmente do gradiente entre sangue e dialisato, e o rebote pós-dialítico pode ocorrer devido à redistribuição do potássio intracelular.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "understand_dialysis_potassium_kinetics",
+            "understand_dialysis_diffusion",
+            "interpret_dialysate_potassium_gradient"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-070-C",
+          "question_id": "aqz-hiper-070",
+          "letter": "C",
+          "text": "A elevação posterior demonstra que o potássio removido durante a hemodiálise retornou integralmente do dialisato para a circulação.",
+          "is_correct": false,
+          "feedback": "O rebote não significa que o potássio removido tenha retornado do dialisato para o sangue.",
+          "error_type": "compartment_misinterpretation",
+          "misconception_id": "removed_potassium_returns_from_dialysate",
+          "misconception_description": "Atribui o rebote ao retorno de potássio do dialisato.",
+          "competency_ids": [
+            "recognize_postdialysis_rebound"
+          ],
+          "clinical_risk_if_applied": "compreensão inadequada da cinética dos compartimentos."
+        },
+        {
+          "option_id": "aqz-hiper-070-D",
+          "question_id": "aqz-hiper-070",
+          "letter": "D",
+          "text": "A concentração de potássio no dialisato não influencia a velocidade de remoção, pois o processo depende exclusivamente da pressão arterial.",
+          "is_correct": false,
+          "feedback": "A concentração de potássio do dialisato influencia diretamente o gradiente de difusão e a velocidade de remoção.",
+          "error_type": "diffusion_mechanism_error",
+          "misconception_id": "dialysate_potassium_does_not_affect_removal",
+          "misconception_description": "Ignora o gradiente de concentração na difusão dialítica.",
+          "competency_ids": [
+            "assess_rapid_potassium_reduction_risk"
+          ],
+          "clinical_risk_if_applied": "avaliação inadequada da prescrição do dialisato.\n\nPara cada alternativa correta, registrar as competências demonstradas e deixar `error_type` e `misconception_id` nulos.\n\nOs campos `competency_ids` devem ser associados individualmente ao erro ou acerto correspondente, sem atribuir automaticamente todas as competências da questão a cada alternativa.\n\n---"
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-070-r01",
+          "question_id": "aqz-hiper-070",
+          "sequence": 1,
+          "prompt": "Qual é o principal mecanismo de remoção de potássio durante a hemodiálise?",
+          "explanation": "A difusão do potássio através da membrana dialítica, determinada principalmente pelo gradiente de concentração entre o sangue e o dialisato.",
+          "reasoning_type": "dialysis_diffusion_mechanism",
+          "competency_ids": [
+            "understand_dialysis_diffusion"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque a difusão do potássio através da membrana dialítica, determinada principalmente pelo gradiente de concentração entre o sangue e o dialisato.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-070-r02",
+          "question_id": "aqz-hiper-070",
+          "sequence": 2,
+          "prompt": "Qual é a importância do potássio no dialisato?",
+          "explanation": "Sua concentração influencia o gradiente de difusão e, consequentemente, a velocidade de remoção do potássio.",
+          "reasoning_type": "dialysate_potassium_gradient",
+          "competency_ids": [
+            "interpret_dialysate_potassium_gradient"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque sua concentração influencia o gradiente de difusão e, consequentemente, a velocidade de remoção do potássio.",
+          "prerequisite_concepts": [
+            "gradiente de potássio entre sangue e dialisato",
+            "redistribuição intra e extracelular"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-070-r03",
+          "question_id": "aqz-hiper-070",
+          "sequence": 3,
+          "prompt": "Por que o potássio sérico pode cair rapidamente no início da sessão?",
+          "explanation": "Porque o gradiente entre o potássio sanguíneo e o dialisato pode ser elevado, favorecendo a difusão.",
+          "reasoning_type": "initial_dialysis_kinetics",
+          "competency_ids": [
+            "understand_dialysis_diffusion"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque porque o gradiente entre o potássio sanguíneo e o dialisato pode ser elevado, favorecendo a difusão.",
+          "prerequisite_concepts": [
+            "gradiente de potássio entre sangue e dialisato",
+            "redistribuição intra e extracelular"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-070-r04",
+          "question_id": "aqz-hiper-070",
+          "sequence": 4,
+          "prompt": "A queda do potássio sérico corresponde exatamente à redução do estoque corporal total?",
+          "explanation": "Não. A concentração sérica reflete o compartimento extracelular, enquanto grande parte do potássio corporal está no meio intracelular.",
+          "reasoning_type": "serum_vs_total_body_potassium",
+          "competency_ids": [
+            "interpret_dialysate_potassium_gradient"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. A concentração sérica reflete o compartimento extracelular, enquanto grande parte do potássio corporal está no meio intracelular.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-070-r05",
+          "question_id": "aqz-hiper-070",
+          "sequence": 5,
+          "prompt": "O que acontece com o potássio intracelular durante a sessão?",
+          "explanation": "Pode ocorrer redistribuição gradual para o compartimento extracelular, contribuindo para manter a concentração sanguínea enquanto o potássio é removido.",
+          "reasoning_type": "intracellular_extracellular_exchange",
+          "competency_ids": [
+            "assess_rapid_potassium_reduction_risk"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque pode ocorrer redistribuição gradual para o compartimento extracelular, contribuindo para manter a concentração sanguínea enquanto o potássio é removido.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-070-r06",
+          "question_id": "aqz-hiper-070",
+          "sequence": 6,
+          "prompt": "Por que o potássio pode aumentar após o término da hemodiálise?",
+          "explanation": "Porque a redistribuição entre os compartimentos continua após o encerramento da remoção dialítica.",
+          "reasoning_type": "postdialysis_redistribution",
+          "competency_ids": [
+            "recognize_postdialysis_rebound"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque porque a redistribuição entre os compartimentos continua após o encerramento da remoção dialítica.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-070-r07",
+          "question_id": "aqz-hiper-070",
+          "sequence": 7,
+          "prompt": "Como esse fenômeno é denominado?",
+          "explanation": "Rebote pós-dialítico do potássio.",
+          "reasoning_type": "rebound_identification",
+          "competency_ids": [
+            "recognize_postdialysis_rebound"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque rebote pós-dialítico do potássio.",
+          "prerequisite_concepts": [
+            "gradiente de potássio entre sangue e dialisato",
+            "redistribuição intra e extracelular"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-070-r08",
+          "question_id": "aqz-hiper-070",
+          "sequence": 8,
+          "prompt": "O rebote significa necessariamente que a hemodiálise foi ineficaz?",
+          "explanation": "Não. Uma elevação após a sessão pode ocorrer mesmo quando houve remoção efetiva de potássio.",
+          "reasoning_type": "rebound_vs_treatment_failure",
+          "competency_ids": [
+            "recognize_postdialysis_rebound"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. Uma elevação após a sessão pode ocorrer mesmo quando houve remoção efetiva de potássio.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-070-r09",
+          "question_id": "aqz-hiper-070",
+          "sequence": 9,
+          "prompt": "O valor de 3,4 mEq/L ao término da sessão merece atenção?",
+          "explanation": "Sim. Uma concentração baixa pode estar associada a risco de alterações elétricas, especialmente em pacientes suscetíveis.",
+          "reasoning_type": "postdialysis_hypokalemia_risk",
+          "competency_ids": [
+            "recognize_postdialysis_rebound"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque sim. Uma concentração baixa pode estar associada a risco de alterações elétricas, especialmente em pacientes suscetíveis.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-070-r10",
+          "question_id": "aqz-hiper-070",
+          "sequence": 10,
+          "prompt": "A utilização de dialisato com potássio muito baixo é sempre mais segura?",
+          "explanation": "Não. Um gradiente excessivamente elevado pode provocar redução rápida do potássio sérico e potencialmente aumentar o risco de arritmias.",
+          "reasoning_type": "excessive_gradient_risk",
+          "competency_ids": [
+            "interpret_dialysate_potassium_gradient"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. Um gradiente excessivamente elevado pode provocar redução rápida do potássio sérico e potencialmente aumentar o risco de arritmias.",
+          "prerequisite_concepts": [
+            "gradiente de potássio entre sangue e dialisato",
+            "redistribuição intra e extracelular"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-070-r11",
+          "question_id": "aqz-hiper-070",
+          "sequence": 11,
+          "prompt": "Como deve ser escolhida a concentração de potássio do dialisato?",
+          "explanation": "De forma individualizada, considerando o potássio pré-dialítico, a gravidade clínica, o risco arrítmico e o protocolo nefrológico.",
+          "reasoning_type": "individualized_dialysate_prescription",
+          "competency_ids": [
+            "interpret_dialysate_potassium_gradient"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque de forma individualizada, considerando o potássio pré-dialítico, a gravidade clínica, o risco arrítmico e o protocolo nefrológico.",
+          "prerequisite_concepts": [
+            "gradiente de potássio entre sangue e dialisato",
+            "redistribuição intra e extracelular"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-070-r12",
+          "question_id": "aqz-hiper-070",
+          "sequence": 12,
+          "prompt": "O potássio pós-dialítico deve ser interpretado isoladamente?",
+          "explanation": "Não. É necessário considerar o momento da coleta, a tendência laboratorial e a possibilidade de rebote.",
+          "reasoning_type": "timing_of_laboratory_measurement",
+          "competency_ids": [
+            "interpret_serial_dialysis_laboratory_values"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Este raciocínio é relevante porque não. É necessário considerar o momento da coleta, a tendência laboratorial e a possibilidade de rebote.",
+          "prerequisite_concepts": [
+            "gradiente de potássio entre sangue e dialisato",
+            "redistribuição intra e extracelular"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-070-r13",
+          "question_id": "aqz-hiper-070",
+          "sequence": 13,
+          "prompt": "Qual é a importância da monitorização após a hemodiálise?",
+          "explanation": "Permite reconhecer alterações relevantes do potássio, tanto por redução excessiva quanto por elevação posterior, orientando a necessidade de novas intervenções.",
+          "reasoning_type": "postdialysis_monitoring",
+          "competency_ids": [
+            "recognize_postdialysis_rebound"
+          ],
+          "cognitive_operation": "apply",
+          "clinical_relevance": "Este raciocínio é relevante porque permite reconhecer alterações relevantes do potássio, tanto por redução excessiva quanto por elevação posterior, orientando a necessidade de novas intervenções.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-070-r14",
+          "question_id": "aqz-hiper-070",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Compreender a cinética do potássio durante e após a hemodiálise, distinguindo remoção efetiva, queda sérica rápida e rebote pós-dialítico.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "recognize_postdialysis_rebound"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque compreender a cinética do potássio durante e após a hemodiálise, distinguindo remoção efetiva, queda sérica rápida e rebote pós-dialítico.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        }
+      ],
+      "clinical_pearl": "> Na hemodiálise, o potássio sai do sangue, mas o organismo continua redistribuindo potássio entre seus compartimentos. Por isso, o menor valor ao final da sessão nem sempre representa o equilíbrio que será encontrado algumas horas depois.",
+      "references": [
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate — hemodiálise e remoção de potássio.",
+        "Literatura nefrológica sobre cinética do potássio durante hemodiálise, gradiente sangue-dialisato e rebote pós-dialítico."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "dialysis_associated_hyperkalemia",
+        "clinical_context": "dialysis_unit",
+        "urgency_level": "prompt_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "understand_dialysis_potassium_kinetics",
+        "secondary_competencies": [
+          "understand_dialysis_diffusion",
+          "interpret_dialysate_potassium_gradient",
+          "recognize_postdialysis_rebound",
+          "assess_rapid_potassium_reduction_risk",
+          "interpret_serial_dialysis_laboratory_values"
+        ],
+        "learning_objectives": [
+          "Compreender a cinética do potássio durante e após a hemodiálise."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_safety",
+        "arena_skill_ids": [
+          "understand_dialysis_potassium_kinetics",
+          "understand_dialysis_diffusion",
+          "interpret_dialysate_potassium_gradient",
+          "recognize_postdialysis_rebound",
+          "assess_rapid_potassium_reduction_risk",
+          "interpret_serial_dialysis_laboratory_values"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "understand",
+          "dialysis",
+          "potassium",
+          "kinetics"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "understand_dialysis_potassium_kinetics",
+          "understand_dialysis_diffusion",
+          "interpret_dialysate_potassium_gradient",
+          "recognize_postdialysis_rebound",
+          "assess_rapid_potassium_reduction_risk",
+          "interpret_serial_dialysis_laboratory_values"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    }
+  ]
+}

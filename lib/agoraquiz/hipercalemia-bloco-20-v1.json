@@ -1,0 +1,2117 @@
+{
+  "cursoId": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+  "quizId": "agoraquiz-hipercalemia",
+  "cursoOrigem": "Tratamento da Hipercalemia em Adultos",
+  "bancoOrigem": "AgoraQuiz Hipercalemia",
+  "bloco": "20",
+  "temaEditorial": "Decisões de alta complexidade e integração do raciocínio clínico.",
+  "questoes": [
+    {
+      "id": "aqz-hiper-096",
+      "question_id": "aqz-hiper-096",
+      "numero": 96,
+      "question_number": 96,
+      "titulo": "O potássio não parece tão alto, mas o coração está parando",
+      "competenciaPrincipal": "Reconhecer uma interação fisiopatológica complexa e tratar simultaneamente seus componentes, em vez de atribuir toda a instabilidade a uma única causa.",
+      "competenciasSecundarias": [
+        "recognize_severe_bradycardia_with_shock",
+        "identify_aki_as_brash_trigger",
+        "understand_av_nodal_blockade_synergy",
+        "recognize_ecg_limitations_in_hyperkalemia",
+        "coordinate_brash_multimodal_treatment"
+      ],
+      "dificuldade": "Muito avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Um homem de 74 anos, com hipertensão arterial, diabetes mellitus tipo 2, doença renal crônica estágio G3b e fibrilação atrial permanente, é levado à emergência por tontura intensa, fraqueza e redução do nível de consciência.\n\nFaz uso regular de:\n\n- Carvedilol 25 mg, duas vezes ao dia.\n- Losartana 100 mg/dia.\n- Apixabana 5 mg, duas vezes ao dia.\n- Furosemida 40 mg/dia.\n\nHá três dias, apresenta diarreia e redução importante da ingestão de líquidos. Apesar disso, manteve suas medicações habituais.\n\nNa admissão:\n\n- PA: 72/38 mmHg.\n- FC: 28 bpm.\n- FR: 22 irpm.\n- SpO₂: 95% em ar ambiente.\n- Temperatura: 36,2 °C.\n- Potássio: 5,9 mEq/L.\n- Creatinina: 3,4 mg/dL.\n- Creatinina basal: 1,7 mg/dL.\n- Bicarbonato: 18 mEq/L.\n- Lactato: 4,1 mmol/L.\n\nO ECG demonstra ritmo juncional lento, com QRS de 108 ms, sem ondas T apiculadas evidentes.\n\nA equipe considera que o potássio não está suficientemente elevado para justificar a bradicardia e propõe tratar exclusivamente uma possível intoxicação por carvedilol.\n\n**Qual é a interpretação e a abordagem mais adequadas?**",
+      "alternativas": {
+        "A": "A ausência de ondas T apiculadas exclui participação da hipercalemia na bradicardia. O quadro deve ser tratado exclusivamente como intoxicação por betabloqueador.",
+        "B": "A bradicardia é necessariamente causada apenas pela hipercalemia, de modo que a administração de cálcio isoladamente resolverá definitivamente o choque.",
+        "C": "O quadro é compatível com síndrome BRASH, na qual disfunção renal, hipercalemia e bloqueio farmacológico do nó atrioventricular podem potencializar-se. A abordagem deve integrar estabilização hemodinâmica, tratamento da hipercalemia, suspensão temporária dos medicamentos implicados e correção dos fatores precipitantes, com suporte circulatório e avaliação de intervenções adicionais conforme a resposta.",
+        "D": "O potássio de 5,9 mEq/L é insuficiente para produzir repercussões cardíacas em qualquer circunstância, tornando desnecessário seu tratamento."
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. Qual é a principal ameaça imediata?**\n\nBradicardia profunda associada a hipotensão grave e sinais de hipoperfusão sistêmica.\n\n**2. Qual é a importância da frequência cardíaca de 28 bpm?**\n\nRepresenta bradicardia extrema, potencialmente incapaz de manter débito cardíaco adequado.\n\n**3. Qual é a importância da creatinina de 3,4 mg/dL?**\n\nDemonstra deterioração importante da função renal em relação ao valor basal, compatível com lesão renal aguda.\n\n**4. Qual fator pode ter precipitado a deterioração renal?**\n\nA diarreia e a redução da ingestão hídrica, possivelmente associadas à hipovolemia e à redução da perfusão renal.\n\n**5. Qual medicamento interfere diretamente na condução atrioventricular?**\n\nO carvedilol, por seu efeito betabloqueador.\n\n**6. Qual é a importância da losartana?**\n\nPode contribuir para hipercalemia ao reduzir a atividade da aldosterona e influenciar a hemodinâmica renal em situações de hipovolemia.\n\n**7. O que significa BRASH?**\n\n*Bradycardia, Renal failure, AV nodal blockade, Shock, Hyperkalemia*: bradicardia, disfunção renal, bloqueio do nó atrioventricular, choque e hipercalemia.\n\n**8. Qual é o mecanismo central da síndrome?**\n\nUma interação potencialmente autoperpetuante entre disfunção renal, acúmulo ou maior efeito de medicamentos bloqueadores nodais, hipercalemia, bradicardia e redução da perfusão renal.\n\n**9. Por que a bradicardia pode ser desproporcional ao valor do potássio?**\n\nPorque a hipercalemia e os bloqueadores nodais podem atuar de forma sinérgica, produzindo depressão da condução cardíaca maior do que seria esperada por cada fator isoladamente.\n\n**10. A ausência de ondas T apiculadas exclui hipercalemia clinicamente relevante?**\n\nNão. O ECG possui sensibilidade limitada para identificar hipercalemia e suas manifestações variam entre pacientes.\n\n**11. Qual é a prioridade terapêutica?**\n\nEstabilizar a circulação, monitorizar continuamente o ECG e tratar os mecanismos envolvidos, incluindo a hipercalemia e a bradicardia com hipoperfusão.\n\n**12. Qual é o papel do cálcio intravenoso?**\n\nPode reduzir a toxicidade elétrica associada à hipercalemia, mas não corrige isoladamente a disfunção renal, a hipovolemia ou o bloqueio farmacológico.\n\n**13. Quais outras intervenções podem ser necessárias?**\n\nInsulina com glicose para redistribuição de potássio, suspensão temporária dos medicamentos implicados, reposição volêmica cautelosa quando indicada, suporte vasoativo ou cronotrópico e avaliação de medidas adicionais para bradicardia refratária, incluindo estimulação cardíaca quando necessária.\n\n**14. Qual é a competência principal?**\n\nReconhecer uma interação fisiopatológica complexa e tratar simultaneamente seus componentes, em vez de atribuir toda a instabilidade a uma única causa.",
+      "comentarios": {
+        "A": "A ausência de ondas T apiculadas não exclui participação da hipercalemia. O quadro clínico sugere interação entre disfunção renal, bloqueio nodal e potássio elevado.",
+        "B": "O cálcio pode ser necessário, mas não resolve isoladamente todos os componentes da síndrome BRASH.",
+        "C": "A abordagem integrada reconhece a interação entre hipercalemia, bloqueio nodal, lesão renal aguda e choque, com tratamento simultâneo dos fatores envolvidos.",
+        "D": "Na presença de bloqueadores nodais, a hipercalemia pode contribuir para bradicardia grave mesmo em concentrações que não costumam provocar toxicidade elétrica extrema isoladamente."
+      },
+      "perola": "> Na síndrome BRASH, o perigo não está apenas no valor do potássio, mas na interação entre potássio, rim, medicamentos e circulação. Uma hipercalemia moderada pode participar de uma bradicardia profunda.",
+      "referencias": "Revisões clínicas sobre síndrome BRASH e seu manejo na emergência.\nAmerican Heart Association — diretrizes de suporte avançado de vida cardiovascular.\n*Treatment and prevention of hyperkalemia in adults*. UpToDate.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 20,
+      "stem": "Um homem de 74 anos, com hipertensão arterial, diabetes mellitus tipo 2, doença renal crônica estágio G3b e fibrilação atrial permanente, é levado à emergência por tontura intensa, fraqueza e redução do nível de consciência.\n\nFaz uso regular de:\n\n- Carvedilol 25 mg, duas vezes ao dia.\n- Losartana 100 mg/dia.\n- Apixabana 5 mg, duas vezes ao dia.\n- Furosemida 40 mg/dia.\n\nHá três dias, apresenta diarreia e redução importante da ingestão de líquidos. Apesar disso, manteve suas medicações habituais.\n\nNa admissão:\n\n- PA: 72/38 mmHg.\n- FC: 28 bpm.\n- FR: 22 irpm.\n- SpO₂: 95% em ar ambiente.\n- Temperatura: 36,2 °C.\n- Potássio: 5,9 mEq/L.\n- Creatinina: 3,4 mg/dL.\n- Creatinina basal: 1,7 mg/dL.\n- Bicarbonato: 18 mEq/L.\n- Lactato: 4,1 mmol/L.\n\nO ECG demonstra ritmo juncional lento, com QRS de 108 ms, sem ondas T apiculadas evidentes.\n\nA equipe considera que o potássio não está suficientemente elevado para justificar a bradicardia e propõe tratar exclusivamente uma possível intoxicação por carvedilol.\n\n**Qual é a interpretação e a abordagem mais adequadas?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-096-A",
+          "question_id": "aqz-hiper-096",
+          "letter": "A",
+          "text": "A ausência de ondas T apiculadas exclui participação da hipercalemia na bradicardia. O quadro deve ser tratado exclusivamente como intoxicação por betabloqueador.",
+          "is_correct": false,
+          "feedback": "A ausência de ondas T apiculadas não exclui participação da hipercalemia. O quadro clínico sugere interação entre disfunção renal, bloqueio nodal e potássio elevado.",
+          "error_type": "ecg_exclusion_error",
+          "misconception_id": "absent_peaked_t_waves_excludes_hyperkalemia",
+          "misconception_description": "Exclui participação da hipercalemia pela ausência de ondas T apiculadas.",
+          "competency_ids": [
+            "recognize_severe_bradycardia_with_shock"
+          ],
+          "clinical_risk_if_applied": "não reconhecer síndrome BRASH e atrasar tratamento integrado."
+        },
+        {
+          "option_id": "aqz-hiper-096-B",
+          "question_id": "aqz-hiper-096",
+          "letter": "B",
+          "text": "A bradicardia é necessariamente causada apenas pela hipercalemia, de modo que a administração de cálcio isoladamente resolverá definitivamente o choque.",
+          "is_correct": false,
+          "feedback": "O cálcio pode ser necessário, mas não resolve isoladamente todos os componentes da síndrome BRASH.",
+          "error_type": "single_cause_attribution",
+          "misconception_id": "calcium_alone_resolves_brash",
+          "misconception_description": "Atribui a bradicardia exclusivamente ao potássio e considera o cálcio tratamento definitivo.",
+          "competency_ids": [
+            "identify_aki_as_brash_trigger"
+          ],
+          "clinical_risk_if_applied": "persistência do choque e dos fatores precipitantes."
+        },
+        {
+          "option_id": "aqz-hiper-096-C",
+          "question_id": "aqz-hiper-096",
+          "letter": "C",
+          "text": "O quadro é compatível com síndrome BRASH, na qual disfunção renal, hipercalemia e bloqueio farmacológico do nó atrioventricular podem potencializar-se. A abordagem deve integrar estabilização hemodinâmica, tratamento da hipercalemia, suspensão temporária dos medicamentos implicados e correção dos fatores precipitantes, com suporte circulatório e avaliação de intervenções adicionais conforme a resposta.",
+          "is_correct": true,
+          "feedback": "A abordagem integrada reconhece a interação entre hipercalemia, bloqueio nodal, lesão renal aguda e choque, com tratamento simultâneo dos fatores envolvidos.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "recognize_and_manage_brash_syndrome",
+            "recognize_severe_bradycardia_with_shock",
+            "identify_aki_as_brash_trigger"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-096-D",
+          "question_id": "aqz-hiper-096",
+          "letter": "D",
+          "text": "O potássio de 5,9 mEq/L é insuficiente para produzir repercussões cardíacas em qualquer circunstância, tornando desnecessário seu tratamento.",
+          "is_correct": false,
+          "feedback": "Na presença de bloqueadores nodais, a hipercalemia pode contribuir para bradicardia grave mesmo em concentrações que não costumam provocar toxicidade elétrica extrema isoladamente.",
+          "error_type": "potassium_threshold_absolutism",
+          "misconception_id": "moderate_hyperkalemia_cannot_contribute_to_bradycardia",
+          "misconception_description": "Utiliza limiar absoluto de potássio para descartar toxicidade.",
+          "competency_ids": [
+            "recognize_ecg_limitations_in_hyperkalemia"
+          ],
+          "clinical_risk_if_applied": "não tratar interação entre hipercalemia e bloqueio nodal."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-096-r01",
+          "question_id": "aqz-hiper-096",
+          "sequence": 1,
+          "prompt": "Qual é a principal ameaça imediata?",
+          "explanation": "Bradicardia profunda associada a hipotensão grave e sinais de hipoperfusão sistêmica.",
+          "reasoning_type": "severe_bradycardia_shock",
+          "competency_ids": [
+            "recognize_severe_bradycardia_with_shock"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque bradicardia profunda associada a hipotensão grave e sinais de hipoperfusão sistêmica.",
+          "prerequisite_concepts": [
+            "lesão muscular e liberação intracelular de potássio",
+            "cinética da creatinoquinase"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-096-r02",
+          "question_id": "aqz-hiper-096",
+          "sequence": 2,
+          "prompt": "Qual é a importância da frequência cardíaca de 28 bpm?",
+          "explanation": "Representa bradicardia extrema, potencialmente incapaz de manter débito cardíaco adequado.",
+          "reasoning_type": "bradycardia_hemodynamic_impact",
+          "competency_ids": [
+            "recognize_severe_bradycardia_with_shock"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque representa bradicardia extrema, potencialmente incapaz de manter débito cardíaco adequado.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-096-r03",
+          "question_id": "aqz-hiper-096",
+          "sequence": 3,
+          "prompt": "Qual é a importância da creatinina de 3,4 mg/dL?",
+          "explanation": "Demonstra deterioração importante da função renal em relação ao valor basal, compatível com lesão renal aguda.",
+          "reasoning_type": "acute_kidney_injury",
+          "competency_ids": [
+            "recognize_ecg_limitations_in_hyperkalemia"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque demonstra deterioração importante da função renal em relação ao valor basal, compatível com lesão renal aguda.",
+          "prerequisite_concepts": [
+            "diferença entre filtração glomerular e função tubular",
+            "secreção distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-096-r04",
+          "question_id": "aqz-hiper-096",
+          "sequence": 4,
+          "prompt": "Qual fator pode ter precipitado a deterioração renal?",
+          "explanation": "A diarreia e a redução da ingestão hídrica, possivelmente associadas à hipovolemia e à redução da perfusão renal.",
+          "reasoning_type": "volume_depletion_trigger",
+          "competency_ids": [
+            "identify_aki_as_brash_trigger"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque a diarreia e a redução da ingestão hídrica, possivelmente associadas à hipovolemia e à redução da perfusão renal.",
+          "prerequisite_concepts": [
+            "composição dos cristaloides",
+            "equilíbrio ácido-base e balanço de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-096-r05",
+          "question_id": "aqz-hiper-096",
+          "sequence": 5,
+          "prompt": "Qual medicamento interfere diretamente na condução atrioventricular?",
+          "explanation": "O carvedilol, por seu efeito betabloqueador.",
+          "reasoning_type": "av_nodal_blocker_identification",
+          "competency_ids": [
+            "understand_av_nodal_blockade_synergy"
+          ],
+          "cognitive_operation": "recall",
+          "clinical_relevance": "Este raciocínio é relevante porque o carvedilol, por seu efeito betabloqueador.",
+          "prerequisite_concepts": [
+            "fisiologia da condução atrioventricular",
+            "causas reversíveis e intrínsecas de bloqueio cardíaco"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-096-r06",
+          "question_id": "aqz-hiper-096",
+          "sequence": 6,
+          "prompt": "Qual é a importância da losartana?",
+          "explanation": "Pode contribuir para hipercalemia ao reduzir a atividade da aldosterona e influenciar a hemodinâmica renal em situações de hipovolemia.",
+          "reasoning_type": "arb_hyperkalemia_contribution",
+          "competency_ids": [
+            "recognize_ecg_limitations_in_hyperkalemia"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque pode contribuir para hipercalemia ao reduzir a atividade da aldosterona e influenciar a hemodinâmica renal em situações de hipovolemia.",
+          "prerequisite_concepts": [
+            "fisiologia renal das prostaglandinas",
+            "sistema renina-angiotensina-aldosterona"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-096-r07",
+          "question_id": "aqz-hiper-096",
+          "sequence": 7,
+          "prompt": "O que significa BRASH?",
+          "explanation": "*Bradycardia, Renal failure, AV nodal blockade, Shock, Hyperkalemia*: bradicardia, disfunção renal, bloqueio do nó atrioventricular, choque e hipercalemia.",
+          "reasoning_type": "brash_definition",
+          "competency_ids": [
+            "identify_aki_as_brash_trigger"
+          ],
+          "cognitive_operation": "recall",
+          "clinical_relevance": "Este raciocínio é relevante porque *Bradycardia, Renal failure, AV nodal blockade, Shock, Hyperkalemia*: bradicardia, disfunção renal, bloqueio do nó atrioventricular, choque e hipercalemia.",
+          "prerequisite_concepts": [
+            "estabilidade hemodinâmica e escolha de terapia renal substitutiva",
+            "remoção de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-096-r08",
+          "question_id": "aqz-hiper-096",
+          "sequence": 8,
+          "prompt": "Qual é o mecanismo central da síndrome?",
+          "explanation": "Uma interação potencialmente autoperpetuante entre disfunção renal, acúmulo ou maior efeito de medicamentos bloqueadores nodais, hipercalemia, bradicardia e redução da perfusão renal.",
+          "reasoning_type": "brash_feedback_cycle",
+          "competency_ids": [
+            "identify_aki_as_brash_trigger"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque uma interação potencialmente autoperpetuante entre disfunção renal, acúmulo ou maior efeito de medicamentos bloqueadores nodais, hipercalemia, bradicardia e redução da perfusão renal.",
+          "prerequisite_concepts": [
+            "interação entre insuficiência renal, hipercalemia e bloqueadores nodais",
+            "fisiologia da condução cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-096-r09",
+          "question_id": "aqz-hiper-096",
+          "sequence": 9,
+          "prompt": "Por que a bradicardia pode ser desproporcional ao valor do potássio?",
+          "explanation": "Porque a hipercalemia e os bloqueadores nodais podem atuar de forma sinérgica, produzindo depressão da condução cardíaca maior do que seria esperada por cada fator isoladamente.",
+          "reasoning_type": "potassium_av_blocker_synergy",
+          "competency_ids": [
+            "understand_av_nodal_blockade_synergy"
+          ],
+          "cognitive_operation": "integrate",
+          "clinical_relevance": "Este raciocínio é relevante porque porque a hipercalemia e os bloqueadores nodais podem atuar de forma sinérgica, produzindo depressão da condução cardíaca maior do que seria esperada por cada fator isoladamente.",
+          "prerequisite_concepts": [
+            "fisiologia da condução atrioventricular",
+            "causas reversíveis e intrínsecas de bloqueio cardíaco"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-096-r10",
+          "question_id": "aqz-hiper-096",
+          "sequence": 10,
+          "prompt": "A ausência de ondas T apiculadas exclui hipercalemia clinicamente relevante?",
+          "explanation": "Não. O ECG possui sensibilidade limitada para identificar hipercalemia e suas manifestações variam entre pacientes.",
+          "reasoning_type": "ecg_sensitivity_limitations",
+          "competency_ids": [
+            "recognize_ecg_limitations_in_hyperkalemia"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. O ECG possui sensibilidade limitada para identificar hipercalemia e suas manifestações variam entre pacientes.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-096-r11",
+          "question_id": "aqz-hiper-096",
+          "sequence": 11,
+          "prompt": "Qual é a prioridade terapêutica?",
+          "explanation": "Estabilizar a circulação, monitorizar continuamente o ECG e tratar os mecanismos envolvidos, incluindo a hipercalemia e a bradicardia com hipoperfusão.",
+          "reasoning_type": "immediate_hemodynamic_stabilization",
+          "competency_ids": [
+            "recognize_ecg_limitations_in_hyperkalemia"
+          ],
+          "cognitive_operation": "prioritize",
+          "clinical_relevance": "Este raciocínio é relevante porque estabilizar a circulação, monitorizar continuamente o ECG e tratar os mecanismos envolvidos, incluindo a hipercalemia e a bradicardia com hipoperfusão.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-096-r12",
+          "question_id": "aqz-hiper-096",
+          "sequence": 12,
+          "prompt": "Qual é o papel do cálcio intravenoso?",
+          "explanation": "Pode reduzir a toxicidade elétrica associada à hipercalemia, mas não corrige isoladamente a disfunção renal, a hipovolemia ou o bloqueio farmacológico.",
+          "reasoning_type": "calcium_role_in_brash",
+          "competency_ids": [
+            "recognize_ecg_limitations_in_hyperkalemia"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque pode reduzir a toxicidade elétrica associada à hipercalemia, mas não corrige isoladamente a disfunção renal, a hipovolemia ou o bloqueio farmacológico.",
+          "prerequisite_concepts": [
+            "interação entre insuficiência renal, hipercalemia e bloqueadores nodais",
+            "fisiologia da condução cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-096-r13",
+          "question_id": "aqz-hiper-096",
+          "sequence": 13,
+          "prompt": "Quais outras intervenções podem ser necessárias?",
+          "explanation": "Insulina com glicose para redistribuição de potássio, suspensão temporária dos medicamentos implicados, reposição volêmica cautelosa quando indicada, suporte vasoativo ou cronotrópico e avaliação de medidas adicionais para bradicardia refratária, incluindo estimulação cardíaca quando necessária.",
+          "reasoning_type": "multimodal_brash_management",
+          "competency_ids": [
+            "coordinate_brash_multimodal_treatment"
+          ],
+          "cognitive_operation": "plan",
+          "clinical_relevance": "Este raciocínio é relevante porque insulina com glicose para redistribuição de potássio, suspensão temporária dos medicamentos implicados, reposição volêmica cautelosa quando indicada, suporte vasoativo ou cronotrópico e avaliação de medidas adicionais para bradicardia refratária, incluindo estimulação cardíaca quando necessária.",
+          "prerequisite_concepts": [
+            "interação entre insuficiência renal, hipercalemia e bloqueadores nodais",
+            "fisiologia da condução cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-096-r14",
+          "question_id": "aqz-hiper-096",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Reconhecer uma interação fisiopatológica complexa e tratar simultaneamente seus componentes, em vez de atribuir toda a instabilidade a uma única causa.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "understand_av_nodal_blockade_synergy"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque reconhecer uma interação fisiopatológica complexa e tratar simultaneamente seus componentes, em vez de atribuir toda a instabilidade a uma única causa.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        }
+      ],
+      "clinical_pearl": "> Na síndrome BRASH, o perigo não está apenas no valor do potássio, mas na interação entre potássio, rim, medicamentos e circulação. Uma hipercalemia moderada pode participar de uma bradicardia profunda.",
+      "references": [
+        "Revisões clínicas sobre síndrome BRASH e seu manejo na emergência.",
+        "American Heart Association — diretrizes de suporte avançado de vida cardiovascular.",
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "brash_syndrome",
+        "clinical_context": "critical_care",
+        "urgency_level": "urgent_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "recognize_and_manage_brash_syndrome",
+        "secondary_competencies": [
+          "recognize_severe_bradycardia_with_shock",
+          "identify_aki_as_brash_trigger",
+          "understand_av_nodal_blockade_synergy",
+          "recognize_ecg_limitations_in_hyperkalemia",
+          "coordinate_brash_multimodal_treatment"
+        ],
+        "learning_objectives": [
+          "Reconhecer uma interação fisiopatológica complexa e tratar simultaneamente seus componentes, em vez de atribuir toda a instabilidade a uma única causa."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_safety",
+        "arena_skill_ids": [
+          "recognize_and_manage_brash_syndrome",
+          "recognize_severe_bradycardia_with_shock",
+          "identify_aki_as_brash_trigger",
+          "understand_av_nodal_blockade_synergy",
+          "recognize_ecg_limitations_in_hyperkalemia",
+          "coordinate_brash_multimodal_treatment"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "recognize",
+          "and",
+          "manage",
+          "brash",
+          "syndrome"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "recognize_and_manage_brash_syndrome",
+          "recognize_severe_bradycardia_with_shock",
+          "identify_aki_as_brash_trigger",
+          "understand_av_nodal_blockade_synergy",
+          "recognize_ecg_limitations_in_hyperkalemia",
+          "coordinate_brash_multimodal_treatment"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-097",
+      "question_id": "aqz-hiper-097",
+      "numero": 97,
+      "question_number": 97,
+      "titulo": "O ECG melhorou depois do cálcio, mas o potássio continua em 7,2",
+      "competenciaPrincipal": "Diferenciar estabilização elétrica, redistribuição intracelular e remoção definitiva de potássio, reconhecendo que a melhora de um parâmetro não significa resolução completa do problema.",
+      "competenciasSecundarias": [
+        "recognize_severe_ecg_toxicity",
+        "understand_calcium_electrophysiologic_effect",
+        "differentiate_shifting_from_removal",
+        "anticipate_recurrent_electrical_toxicity",
+        "recognize_urgent_krt_indication"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Uma mulher de 69 anos, com doença renal crônica estágio G5, é admitida na emergência por fraqueza intensa e palpitações.\n\nNão realiza diálise regularmente, mas apresenta deterioração progressiva da função renal.\n\nNa admissão:\n\n- PA: 104/62 mmHg.\n- FC: 52 bpm.\n- Potássio: 7,2 mEq/L.\n- Creatinina: 8,6 mg/dL.\n- Bicarbonato: 15 mEq/L.\n- pH: 7,22.\n\nO ECG demonstra QRS de 164 ms, ondas T apiculadas e ausência de ondas P claramente identificáveis.\n\nA equipe administra cálcio intravenoso.\n\nCinco minutos depois, o QRS diminui para 108 ms, a frequência cardíaca aumenta para 68 bpm e a paciente relata melhora das palpitações.\n\nUma nova dosagem de potássio, realizada sem que outras medidas para reduzi-lo tenham sido administradas, permanece em 7,2 mEq/L.\n\nUm residente sugere encerrar o tratamento, pois considera que a normalização do ECG demonstra resolução da hipercalemia.\n\n**Qual é a conduta mais adequada?**",
+      "alternativas": {
+        "A": "Encerrar o tratamento, pois a melhora do ECG confirma que o potássio foi eliminado do organismo.",
+        "B": "Reconhecer que o cálcio melhorou a estabilidade elétrica sem reduzir a concentração de potássio. Manter monitorização, iniciar medidas apropriadas de redistribuição e providenciar remoção efetiva do potássio, considerando urgentemente terapia renal substitutiva.",
+        "C": "Administrar apenas doses repetidas de cálcio até que o potássio sérico se normalize, pois o cálcio promove excreção renal direta de potássio.",
+        "D": "Considerar o potássio de 7,2 mEq/L um resultado laboratorial falso, pois a melhora do ECG exclui hipercalemia verdadeira."
+      },
+      "gabarito": "B",
+      "raciocinioClinico": "**1. Qual é o distúrbio eletrolítico predominante?**\n\nHipercalemia grave, com potássio de 7,2 mEq/L.\n\n**2. Quais alterações do ECG sugerem toxicidade elétrica importante?**\n\nAlargamento acentuado do QRS, ondas T apiculadas e ausência de ondas P identificáveis.\n\n**3. Qual é a finalidade do cálcio intravenoso?**\n\nAntagonizar os efeitos elétricos da hipercalemia sobre o miocárdio, promovendo estabilização cardíaca temporária.\n\n**4. O cálcio promove entrada significativa de potássio nas células?**\n\nNão. Esse não é seu mecanismo terapêutico principal.\n\n**5. O cálcio aumenta diretamente a excreção renal de potássio?**\n\nNão. Sua administração não representa remoção efetiva do potássio corporal.\n\n**6. O que significa a redução do QRS de 164 para 108 ms?**\n\nSugere melhora da condução elétrica após a administração do cálcio.\n\n**7. Essa melhora comprova resolução da hipercalemia?**\n\nNão. O potássio permanece em concentração perigosa.\n\n**8. Por que a toxicidade elétrica pode retornar?**\n\nPorque o efeito estabilizador do cálcio é temporário e a hipercalemia persiste.\n\n**9. Qual é o papel da insulina com glicose?**\n\nEstimular a entrada de potássio nas células, reduzindo temporariamente sua concentração extracelular.\n\n**10. Qual é o papel dos agonistas beta-2-adrenérgicos?**\n\nPodem favorecer redistribuição intracelular de potássio, funcionando como medida complementar.\n\n**11. Essas medidas eliminam o excesso corporal de potássio?**\n\nNão. Redistribuem potássio, mas não substituem estratégias de remoção efetiva.\n\n**12. Qual é a importância da doença renal avançada?**\n\nA capacidade de excreção renal está gravemente comprometida, aumentando a necessidade de considerar remoção extracorpórea.\n\n**13. O que fazer se as alterações eletrocardiográficas reaparecerem?**\n\nReavaliar imediatamente o paciente, repetir cálcio intravenoso quando indicado e manter tratamento da hipercalemia enquanto se providencia sua remoção.\n\n**14. Qual é a competência principal?**\n\nDiferenciar estabilização elétrica, redistribuição intracelular e remoção definitiva de potássio, reconhecendo que a melhora de um parâmetro não significa resolução completa do problema.",
+      "comentarios": {
+        "A": "O cálcio não elimina potássio. A melhora eletrocardiográfica não significa normalização do distúrbio.",
+        "B": "O cálcio estabiliza temporariamente a atividade elétrica, mas a hipercalemia persiste e exige medidas de redução e remoção efetiva.",
+        "C": "Doses adicionais de cálcio podem ser necessárias diante de toxicidade elétrica persistente ou recorrente, mas não substituem a redução do potássio.",
+        "D": "A melhora do ECG após cálcio é compatível com resposta terapêutica à toxicidade elétrica e não demonstra erro laboratorial."
+      },
+      "perola": "> O cálcio pode melhorar o ECG sem modificar o potássio. Um traçado mais bonito não significa um paciente livre do risco de hipercalemia.",
+      "referencias": "*Treatment and prevention of hyperkalemia in adults*. UpToDate.\nDiretrizes clínicas de manejo da hipercalemia aguda.\nLiteratura sobre efeitos eletrofisiológicos do cálcio intravenoso na hipercalemia.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 20,
+      "stem": "Uma mulher de 69 anos, com doença renal crônica estágio G5, é admitida na emergência por fraqueza intensa e palpitações.\n\nNão realiza diálise regularmente, mas apresenta deterioração progressiva da função renal.\n\nNa admissão:\n\n- PA: 104/62 mmHg.\n- FC: 52 bpm.\n- Potássio: 7,2 mEq/L.\n- Creatinina: 8,6 mg/dL.\n- Bicarbonato: 15 mEq/L.\n- pH: 7,22.\n\nO ECG demonstra QRS de 164 ms, ondas T apiculadas e ausência de ondas P claramente identificáveis.\n\nA equipe administra cálcio intravenoso.\n\nCinco minutos depois, o QRS diminui para 108 ms, a frequência cardíaca aumenta para 68 bpm e a paciente relata melhora das palpitações.\n\nUma nova dosagem de potássio, realizada sem que outras medidas para reduzi-lo tenham sido administradas, permanece em 7,2 mEq/L.\n\nUm residente sugere encerrar o tratamento, pois considera que a normalização do ECG demonstra resolução da hipercalemia.\n\n**Qual é a conduta mais adequada?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-097-A",
+          "question_id": "aqz-hiper-097",
+          "letter": "A",
+          "text": "Encerrar o tratamento, pois a melhora do ECG confirma que o potássio foi eliminado do organismo.",
+          "is_correct": false,
+          "feedback": "O cálcio não elimina potássio. A melhora eletrocardiográfica não significa normalização do distúrbio.",
+          "error_type": "electrical_stabilization_confusion",
+          "misconception_id": "improved_ecg_means_potassium_removed",
+          "misconception_description": "Confunde melhora elétrica com remoção de potássio.",
+          "competency_ids": [
+            "recognize_severe_ecg_toxicity"
+          ],
+          "clinical_risk_if_applied": "interrupção precoce do tratamento."
+        },
+        {
+          "option_id": "aqz-hiper-097-B",
+          "question_id": "aqz-hiper-097",
+          "letter": "B",
+          "text": "Reconhecer que o cálcio melhorou a estabilidade elétrica sem reduzir a concentração de potássio. Manter monitorização, iniciar medidas apropriadas de redistribuição e providenciar remoção efetiva do potássio, considerando urgentemente terapia renal substitutiva.",
+          "is_correct": true,
+          "feedback": "O cálcio estabiliza temporariamente a atividade elétrica, mas a hipercalemia persiste e exige medidas de redução e remoção efetiva.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "differentiate_calcium_stabilization_from_potassium_removal",
+            "recognize_severe_ecg_toxicity",
+            "understand_calcium_electrophysiologic_effect"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-097-C",
+          "question_id": "aqz-hiper-097",
+          "letter": "C",
+          "text": "Administrar apenas doses repetidas de cálcio até que o potássio sérico se normalize, pois o cálcio promove excreção renal direta de potássio.",
+          "is_correct": false,
+          "feedback": "Doses adicionais de cálcio podem ser necessárias diante de toxicidade elétrica persistente ou recorrente, mas não substituem a redução do potássio.",
+          "error_type": "calcium_mechanism_error",
+          "misconception_id": "calcium_directly_excretes_potassium",
+          "misconception_description": "Atribui ao cálcio efeito de eliminação renal de potássio.",
+          "competency_ids": [
+            "differentiate_shifting_from_removal"
+          ],
+          "clinical_risk_if_applied": "manutenção de hipercalemia grave."
+        },
+        {
+          "option_id": "aqz-hiper-097-D",
+          "question_id": "aqz-hiper-097",
+          "letter": "D",
+          "text": "Considerar o potássio de 7,2 mEq/L um resultado laboratorial falso, pois a melhora do ECG exclui hipercalemia verdadeira.",
+          "is_correct": false,
+          "feedback": "A melhora do ECG após cálcio é compatível com resposta terapêutica à toxicidade elétrica e não demonstra erro laboratorial.",
+          "error_type": "unsupported_pseudohyperkalemia_assumption",
+          "misconception_id": "calcium_response_proves_false_potassium_result",
+          "misconception_description": "Interpreta resposta ao cálcio como prova de pseudohipercalemia.",
+          "competency_ids": [
+            "anticipate_recurrent_electrical_toxicity"
+          ],
+          "clinical_risk_if_applied": "desconsiderar hipercalemia verdadeira."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-097-r01",
+          "question_id": "aqz-hiper-097",
+          "sequence": 1,
+          "prompt": "Qual é o distúrbio eletrolítico predominante?",
+          "explanation": "Hipercalemia grave, com potássio de 7,2 mEq/L.",
+          "reasoning_type": "severe_hyperkalemia",
+          "competency_ids": [
+            "recognize_severe_ecg_toxicity"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque hipercalemia grave, com potássio de 7,2 mEq/L.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-097-r02",
+          "question_id": "aqz-hiper-097",
+          "sequence": 2,
+          "prompt": "Quais alterações do ECG sugerem toxicidade elétrica importante?",
+          "explanation": "Alargamento acentuado do QRS, ondas T apiculadas e ausência de ondas P identificáveis.",
+          "reasoning_type": "ecg_toxicity_recognition",
+          "competency_ids": [
+            "recognize_severe_ecg_toxicity"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque alargamento acentuado do QRS, ondas T apiculadas e ausência de ondas P identificáveis.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-097-r03",
+          "question_id": "aqz-hiper-097",
+          "sequence": 3,
+          "prompt": "Qual é a finalidade do cálcio intravenoso?",
+          "explanation": "Antagonizar os efeitos elétricos da hipercalemia sobre o miocárdio, promovendo estabilização cardíaca temporária.",
+          "reasoning_type": "calcium_membrane_stabilization",
+          "competency_ids": [
+            "understand_calcium_electrophysiologic_effect"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque antagonizar os efeitos elétricos da hipercalemia sobre o miocárdio, promovendo estabilização cardíaca temporária.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-097-r04",
+          "question_id": "aqz-hiper-097",
+          "sequence": 4,
+          "prompt": "O cálcio promove entrada significativa de potássio nas células?",
+          "explanation": "Não. Esse não é seu mecanismo terapêutico principal.",
+          "reasoning_type": "calcium_not_intracellular_shift",
+          "competency_ids": [
+            "understand_calcium_electrophysiologic_effect"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. Esse não é seu mecanismo terapêutico principal.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-097-r05",
+          "question_id": "aqz-hiper-097",
+          "sequence": 5,
+          "prompt": "O cálcio aumenta diretamente a excreção renal de potássio?",
+          "explanation": "Não. Sua administração não representa remoção efetiva do potássio corporal.",
+          "reasoning_type": "calcium_not_renal_excretion",
+          "competency_ids": [
+            "understand_calcium_electrophysiologic_effect"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. Sua administração não representa remoção efetiva do potássio corporal.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-097-r06",
+          "question_id": "aqz-hiper-097",
+          "sequence": 6,
+          "prompt": "O que significa a redução do QRS de 164 para 108 ms?",
+          "explanation": "Sugere melhora da condução elétrica após a administração do cálcio.",
+          "reasoning_type": "qrs_response_interpretation",
+          "competency_ids": [
+            "anticipate_recurrent_electrical_toxicity"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Este raciocínio é relevante porque sugere melhora da condução elétrica após a administração do cálcio.",
+          "prerequisite_concepts": [
+            "fisiologia da condução atrioventricular",
+            "causas reversíveis e intrínsecas de bloqueio cardíaco"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-097-r07",
+          "question_id": "aqz-hiper-097",
+          "sequence": 7,
+          "prompt": "Essa melhora comprova resolução da hipercalemia?",
+          "explanation": "Não. O potássio permanece em concentração perigosa.",
+          "reasoning_type": "persistent_hyperkalemia",
+          "competency_ids": [
+            "differentiate_shifting_from_removal"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. O potássio permanece em concentração perigosa.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-097-r08",
+          "question_id": "aqz-hiper-097",
+          "sequence": 8,
+          "prompt": "Por que a toxicidade elétrica pode retornar?",
+          "explanation": "Porque o efeito estabilizador do cálcio é temporário e a hipercalemia persiste.",
+          "reasoning_type": "recurrent_electrical_toxicity",
+          "competency_ids": [
+            "anticipate_recurrent_electrical_toxicity"
+          ],
+          "cognitive_operation": "anticipate",
+          "clinical_relevance": "Este raciocínio é relevante porque porque o efeito estabilizador do cálcio é temporário e a hipercalemia persiste.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-097-r09",
+          "question_id": "aqz-hiper-097",
+          "sequence": 9,
+          "prompt": "Qual é o papel da insulina com glicose?",
+          "explanation": "Estimular a entrada de potássio nas células, reduzindo temporariamente sua concentração extracelular.",
+          "reasoning_type": "insulin_potassium_shift",
+          "competency_ids": [
+            "anticipate_recurrent_electrical_toxicity"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque estimular a entrada de potássio nas células, reduzindo temporariamente sua concentração extracelular.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-097-r10",
+          "question_id": "aqz-hiper-097",
+          "sequence": 10,
+          "prompt": "Qual é o papel dos agonistas beta-2-adrenérgicos?",
+          "explanation": "Podem favorecer redistribuição intracelular de potássio, funcionando como medida complementar.",
+          "reasoning_type": "beta2_agonist_shift",
+          "competency_ids": [
+            "anticipate_recurrent_electrical_toxicity"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque podem favorecer redistribuição intracelular de potássio, funcionando como medida complementar.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-097-r11",
+          "question_id": "aqz-hiper-097",
+          "sequence": 11,
+          "prompt": "Essas medidas eliminam o excesso corporal de potássio?",
+          "explanation": "Não. Redistribuem potássio, mas não substituem estratégias de remoção efetiva.",
+          "reasoning_type": "shifting_not_removal",
+          "competency_ids": [
+            "differentiate_shifting_from_removal"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. Redistribuem potássio, mas não substituem estratégias de remoção efetiva.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-097-r12",
+          "question_id": "aqz-hiper-097",
+          "sequence": 12,
+          "prompt": "Qual é a importância da doença renal avançada?",
+          "explanation": "A capacidade de excreção renal está gravemente comprometida, aumentando a necessidade de considerar remoção extracorpórea.",
+          "reasoning_type": "advanced_ckd_excretion_limitation",
+          "competency_ids": [
+            "recognize_urgent_krt_indication"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque a capacidade de excreção renal está gravemente comprometida, aumentando a necessidade de considerar remoção extracorpórea.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-097-r13",
+          "question_id": "aqz-hiper-097",
+          "sequence": 13,
+          "prompt": "O que fazer se as alterações eletrocardiográficas reaparecerem?",
+          "explanation": "Reavaliar imediatamente o paciente, repetir cálcio intravenoso quando indicado e manter tratamento da hipercalemia enquanto se providencia sua remoção.",
+          "reasoning_type": "recurrent_ecg_toxicity_management",
+          "competency_ids": [
+            "recognize_severe_ecg_toxicity"
+          ],
+          "cognitive_operation": "plan",
+          "clinical_relevance": "Este raciocínio é relevante porque reavaliar imediatamente o paciente, repetir cálcio intravenoso quando indicado e manter tratamento da hipercalemia enquanto se providencia sua remoção.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-097-r14",
+          "question_id": "aqz-hiper-097",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Diferenciar estabilização elétrica, redistribuição intracelular e remoção definitiva de potássio, reconhecendo que a melhora de um parâmetro não significa resolução completa do problema.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "differentiate_shifting_from_removal"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque diferenciar estabilização elétrica, redistribuição intracelular e remoção definitiva de potássio, reconhecendo que a melhora de um parâmetro não significa resolução completa do problema.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        }
+      ],
+      "clinical_pearl": "> O cálcio pode melhorar o ECG sem modificar o potássio. Um traçado mais bonito não significa um paciente livre do risco de hipercalemia.",
+      "references": [
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate.",
+        "Diretrizes clínicas de manejo da hipercalemia aguda.",
+        "Literatura sobre efeitos eletrofisiológicos do cálcio intravenoso na hipercalemia."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "hyperkalemic_cardiac_toxicity",
+        "clinical_context": "emergency_department",
+        "urgency_level": "urgent_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "differentiate_calcium_stabilization_from_potassium_removal",
+        "secondary_competencies": [
+          "recognize_severe_ecg_toxicity",
+          "understand_calcium_electrophysiologic_effect",
+          "differentiate_shifting_from_removal",
+          "anticipate_recurrent_electrical_toxicity",
+          "recognize_urgent_krt_indication"
+        ],
+        "learning_objectives": [
+          "Diferenciar estabilização elétrica, redistribuição intracelular e remoção definitiva de potássio, reconhecendo que a melhora de um parâmetro não significa resolução completa do problema."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_safety",
+        "arena_skill_ids": [
+          "differentiate_calcium_stabilization_from_potassium_removal",
+          "recognize_severe_ecg_toxicity",
+          "understand_calcium_electrophysiologic_effect",
+          "differentiate_shifting_from_removal",
+          "anticipate_recurrent_electrical_toxicity",
+          "recognize_urgent_krt_indication"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "differentiate",
+          "calcium",
+          "stabilization",
+          "from",
+          "potassium",
+          "removal"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "differentiate_calcium_stabilization_from_potassium_removal",
+          "recognize_severe_ecg_toxicity",
+          "understand_calcium_electrophysiologic_effect",
+          "differentiate_shifting_from_removal",
+          "anticipate_recurrent_electrical_toxicity",
+          "recognize_urgent_krt_indication"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-098",
+      "question_id": "aqz-hiper-098",
+      "numero": 98,
+      "question_number": 98,
+      "titulo": "O paciente tem hipercalemia, mas o problema começou com uma hipocalemia",
+      "competenciaPrincipal": "Reconhecer a necessidade de reavaliar continuamente prescrições e tratamentos diante de mudanças da função renal e do estado metabólico.",
+      "competenciasSecundarias": [
+        "recognize_initial_severe_hypokalemia",
+        "identify_aki_during_potassium_replacement",
+        "evaluate_exogenous_potassium_load",
+        "review_active_medication_orders",
+        "manage_therapy_related_hyperkalemia"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Um homem de 58 anos é internado por gastroenterite grave, com vômitos e diarreia prolongados.\n\nNa admissão:\n\n- Potássio: 2,4 mEq/L.\n- Creatinina: 1,0 mg/dL.\n- Magnésio: 1,4 mg/dL.\n- ECG: ondas U proeminentes.\n\nÉ iniciada reposição intravenosa de potássio, com monitorização clínica e laboratorial.\n\nNas primeiras horas, o paciente apresenta melhora da hipocalemia.\n\nEntretanto, evolui com hipotensão persistente, oligúria e deterioração da função renal.\n\nDoze horas depois:\n\n- PA: 94/58 mmHg.\n- Diurese nas últimas seis horas: 70 mL.\n- Creatinina: 2,8 mg/dL.\n- Potássio: 6,8 mEq/L.\n- Bicarbonato: 16 mEq/L.\n\nO ECG passa a demonstrar ondas T apiculadas e alargamento do QRS.\n\nAo revisar a prescrição, a equipe identifica que a reposição intravenosa de potássio permaneceu ativa mesmo após o desenvolvimento da lesão renal aguda.\n\n**Qual é a interpretação e a conduta mais adequadas?**",
+      "alternativas": {
+        "A": "Manter a reposição de potássio, pois a hipocalemia inicial comprova que o organismo permanece obrigatoriamente com déficit de potássio, independentemente da concentração sérica atual.",
+        "B": "Considerar que a hipercalemia representa exclusivamente redistribuição intracelular, sem participação do potássio administrado.",
+        "C": "Suspender a reposição de potássio, mas não tratar a hipercalemia, pois toda elevação após reposição intravenosa se resolve espontaneamente.",
+        "D": "Reconhecer que a reposição inicialmente indicada tornou-se potencialmente perigosa diante da redução da excreção renal. Suspender imediatamente o aporte de potássio, tratar a hipercalemia com alterações elétricas e reavaliar a função renal, o balanço de potássio e a necessidade de remoção efetiva."
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. Qual era o distúrbio eletrolítico inicial?**\n\nHipocalemia grave, com potássio de 2,4 mEq/L.\n\n**2. Por que a reposição de potássio estava inicialmente indicada?**\n\nPorque a hipocalemia grave pode provocar alterações neuromusculares e arritmias, exigindo correção monitorizada.\n\n**3. Qual é a importância do magnésio de 1,4 mg/dL?**\n\nA hipomagnesemia pode contribuir para perda renal de potássio e dificultar a correção da hipocalemia.\n\n**4. Qual alteração clínica ocorreu durante a internação?**\n\nDesenvolvimento de hipotensão, oligúria e lesão renal aguda.\n\n**5. Qual é a importância da redução da diurese?**\n\nSugere comprometimento da capacidade de excreção renal de água e solutos, incluindo potássio.\n\n**6. O que mudou na relação entre aporte e eliminação de potássio?**\n\nO aporte continuou, mas a capacidade renal de eliminar potássio diminuiu significativamente.\n\n**7. Por que uma prescrição inicialmente correta pode se tornar inadequada?**\n\nPorque as condições fisiológicas do paciente mudam, exigindo reavaliação das intervenções em andamento.\n\n**8. Qual é a importância do potássio de 6,8 mEq/L?**\n\nRepresenta hipercalemia grave, especialmente preocupante diante de alterações eletrocardiográficas.\n\n**9. Quais alterações do ECG indicam possível toxicidade elétrica?**\n\nOndas T apiculadas e alargamento do QRS.\n\n**10. Qual deve ser a primeira medida relacionada à prescrição?**\n\nSuspender imediatamente a administração de potássio e revisar outras fontes exógenas.\n\n**11. Suspender o aporte resolve imediatamente a toxicidade elétrica?**\n\nNão. É necessário tratar a hipercalemia presente, incluindo estabilização cardíaca quando indicada.\n\n**12. Qual é o papel das medidas redistributivas?**\n\nReduzir temporariamente o potássio extracelular enquanto se avalia a eliminação efetiva.\n\n**13. Quando considerar terapia renal substitutiva?**\n\nQuando houver hipercalemia grave persistente ou refratária, comprometimento renal importante e outras indicações clínicas, como sobrecarga volêmica ou acidose grave.\n\n**14. Qual é a competência principal?**\n\nReconhecer a necessidade de reavaliar continuamente prescrições e tratamentos diante de mudanças da função renal e do estado metabólico.",
+      "comentarios": {
+        "A": "A hipocalemia inicial não justifica manutenção automática da reposição quando o paciente desenvolve hipercalemia grave.",
+        "B": "A continuidade do aporte exógeno de potássio durante a lesão renal aguda constitui um fator causal importante.",
+        "C": "Suspender a reposição é necessário, mas insuficiente diante de hipercalemia grave com alterações elétricas.",
+        "D": "A conduta integra suspensão do aporte, tratamento imediato da toxicidade elétrica e reavaliação da capacidade de eliminação renal."
+      },
+      "perola": "> Uma prescrição não permanece correta apenas porque estava correta quando foi feita. Quando a função renal muda, a necessidade e a segurança da reposição de potássio também mudam.",
+      "referencias": "*Clinical manifestations and treatment of hypokalemia in adults*. UpToDate.\n*Treatment and prevention of hyperkalemia in adults*. UpToDate.\nDiretrizes de segurança na reposição intravenosa de eletrólitos.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 20,
+      "stem": "Um homem de 58 anos é internado por gastroenterite grave, com vômitos e diarreia prolongados.\n\nNa admissão:\n\n- Potássio: 2,4 mEq/L.\n- Creatinina: 1,0 mg/dL.\n- Magnésio: 1,4 mg/dL.\n- ECG: ondas U proeminentes.\n\nÉ iniciada reposição intravenosa de potássio, com monitorização clínica e laboratorial.\n\nNas primeiras horas, o paciente apresenta melhora da hipocalemia.\n\nEntretanto, evolui com hipotensão persistente, oligúria e deterioração da função renal.\n\nDoze horas depois:\n\n- PA: 94/58 mmHg.\n- Diurese nas últimas seis horas: 70 mL.\n- Creatinina: 2,8 mg/dL.\n- Potássio: 6,8 mEq/L.\n- Bicarbonato: 16 mEq/L.\n\nO ECG passa a demonstrar ondas T apiculadas e alargamento do QRS.\n\nAo revisar a prescrição, a equipe identifica que a reposição intravenosa de potássio permaneceu ativa mesmo após o desenvolvimento da lesão renal aguda.\n\n**Qual é a interpretação e a conduta mais adequadas?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-098-A",
+          "question_id": "aqz-hiper-098",
+          "letter": "A",
+          "text": "Manter a reposição de potássio, pois a hipocalemia inicial comprova que o organismo permanece obrigatoriamente com déficit de potássio, independentemente da concentração sérica atual.",
+          "is_correct": false,
+          "feedback": "A hipocalemia inicial não justifica manutenção automática da reposição quando o paciente desenvolve hipercalemia grave.",
+          "error_type": "outdated_treatment_assumption",
+          "misconception_id": "initial_hypokalemia_justifies_continued_replacement",
+          "misconception_description": "Mantém reposição com base em diagnóstico inicial desatualizado.",
+          "competency_ids": [
+            "recognize_initial_severe_hypokalemia"
+          ],
+          "clinical_risk_if_applied": "agravamento da hipercalemia iatrogênica."
+        },
+        {
+          "option_id": "aqz-hiper-098-B",
+          "question_id": "aqz-hiper-098",
+          "letter": "B",
+          "text": "Considerar que a hipercalemia representa exclusivamente redistribuição intracelular, sem participação do potássio administrado.",
+          "is_correct": false,
+          "feedback": "A continuidade do aporte exógeno de potássio durante a lesão renal aguda constitui um fator causal importante.",
+          "error_type": "exogenous_load_omission",
+          "misconception_id": "administered_potassium_cannot_cause_hyperkalemia",
+          "misconception_description": "Ignora aporte exógeno como fator causal.",
+          "competency_ids": [
+            "identify_aki_during_potassium_replacement"
+          ],
+          "clinical_risk_if_applied": "manutenção de fonte ativa de potássio."
+        },
+        {
+          "option_id": "aqz-hiper-098-C",
+          "question_id": "aqz-hiper-098",
+          "letter": "C",
+          "text": "Suspender a reposição de potássio, mas não tratar a hipercalemia, pois toda elevação após reposição intravenosa se resolve espontaneamente.",
+          "is_correct": false,
+          "feedback": "Suspender a reposição é necessário, mas insuficiente diante de hipercalemia grave com alterações elétricas.",
+          "error_type": "insufficient_treatment",
+          "misconception_id": "stopping_potassium_alone_resolves_ecg_toxicity",
+          "misconception_description": "Suspende a reposição, mas negligencia toxicidade elétrica.",
+          "competency_ids": [
+            "evaluate_exogenous_potassium_load"
+          ],
+          "clinical_risk_if_applied": "arritmias potencialmente fatais."
+        },
+        {
+          "option_id": "aqz-hiper-098-D",
+          "question_id": "aqz-hiper-098",
+          "letter": "D",
+          "text": "Reconhecer que a reposição inicialmente indicada tornou-se potencialmente perigosa diante da redução da excreção renal. Suspender imediatamente o aporte de potássio, tratar a hipercalemia com alterações elétricas e reavaliar a função renal, o balanço de potássio e a necessidade de remoção efetiva.",
+          "is_correct": true,
+          "feedback": "A conduta integra suspensão do aporte, tratamento imediato da toxicidade elétrica e reavaliação da capacidade de eliminação renal.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "prevent_iatrogenic_hyperkalemia_during_potassium_replacement",
+            "recognize_initial_severe_hypokalemia",
+            "identify_aki_during_potassium_replacement"
+          ],
+          "clinical_risk_if_applied": null
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-098-r01",
+          "question_id": "aqz-hiper-098",
+          "sequence": 1,
+          "prompt": "Qual era o distúrbio eletrolítico inicial?",
+          "explanation": "Hipocalemia grave, com potássio de 2,4 mEq/L.",
+          "reasoning_type": "severe_hypokalemia_recognition",
+          "competency_ids": [
+            "recognize_initial_severe_hypokalemia"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque hipocalemia grave, com potássio de 2,4 mEq/L.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-098-r02",
+          "question_id": "aqz-hiper-098",
+          "sequence": 2,
+          "prompt": "Por que a reposição de potássio estava inicialmente indicada?",
+          "explanation": "Porque a hipocalemia grave pode provocar alterações neuromusculares e arritmias, exigindo correção monitorizada.",
+          "reasoning_type": "potassium_replacement_indication",
+          "competency_ids": [
+            "identify_aki_during_potassium_replacement"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque porque a hipocalemia grave pode provocar alterações neuromusculares e arritmias, exigindo correção monitorizada.",
+          "prerequisite_concepts": [
+            "bloqueio neuromuscular despolarizante",
+            "regulação dos receptores extrajuncionais"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-098-r03",
+          "question_id": "aqz-hiper-098",
+          "sequence": 3,
+          "prompt": "Qual é a importância do magnésio de 1,4 mg/dL?",
+          "explanation": "A hipomagnesemia pode contribuir para perda renal de potássio e dificultar a correção da hipocalemia.",
+          "reasoning_type": "magnesium_hypokalemia_interaction",
+          "competency_ids": [
+            "recognize_initial_severe_hypokalemia"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque a hipomagnesemia pode contribuir para perda renal de potássio e dificultar a correção da hipocalemia.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-098-r04",
+          "question_id": "aqz-hiper-098",
+          "sequence": 4,
+          "prompt": "Qual alteração clínica ocorreu durante a internação?",
+          "explanation": "Desenvolvimento de hipotensão, oligúria e lesão renal aguda.",
+          "reasoning_type": "acute_clinical_deterioration",
+          "competency_ids": [
+            "review_active_medication_orders"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque desenvolvimento de hipotensão, oligúria e lesão renal aguda.",
+          "prerequisite_concepts": [
+            "mecanismo dos diuréticos de alça",
+            "diurese e excreção urinária de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-098-r05",
+          "question_id": "aqz-hiper-098",
+          "sequence": 5,
+          "prompt": "Qual é a importância da redução da diurese?",
+          "explanation": "Sugere comprometimento da capacidade de excreção renal de água e solutos, incluindo potássio.",
+          "reasoning_type": "oliguria_potassium_excretion",
+          "competency_ids": [
+            "identify_aki_during_potassium_replacement"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Este raciocínio é relevante porque sugere comprometimento da capacidade de excreção renal de água e solutos, incluindo potássio.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-098-r06",
+          "question_id": "aqz-hiper-098",
+          "sequence": 6,
+          "prompt": "O que mudou na relação entre aporte e eliminação de potássio?",
+          "explanation": "O aporte continuou, mas a capacidade renal de eliminar potássio diminuiu significativamente.",
+          "reasoning_type": "potassium_input_output_imbalance",
+          "competency_ids": [
+            "identify_aki_during_potassium_replacement"
+          ],
+          "cognitive_operation": "integrate",
+          "clinical_relevance": "Este raciocínio é relevante porque o aporte continuou, mas a capacidade renal de eliminar potássio diminuiu significativamente.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-098-r07",
+          "question_id": "aqz-hiper-098",
+          "sequence": 7,
+          "prompt": "Por que uma prescrição inicialmente correta pode se tornar inadequada?",
+          "explanation": "Porque as condições fisiológicas do paciente mudam, exigindo reavaliação das intervenções em andamento.",
+          "reasoning_type": "dynamic_prescription_reassessment",
+          "competency_ids": [
+            "review_active_medication_orders"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque porque as condições fisiológicas do paciente mudam, exigindo reavaliação das intervenções em andamento.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-098-r08",
+          "question_id": "aqz-hiper-098",
+          "sequence": 8,
+          "prompt": "Qual é a importância do potássio de 6,8 mEq/L?",
+          "explanation": "Representa hipercalemia grave, especialmente preocupante diante de alterações eletrocardiográficas.",
+          "reasoning_type": "severe_hyperkalemia_recognition",
+          "competency_ids": [
+            "recognize_initial_severe_hypokalemia"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque representa hipercalemia grave, especialmente preocupante diante de alterações eletrocardiográficas.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-098-r09",
+          "question_id": "aqz-hiper-098",
+          "sequence": 9,
+          "prompt": "Quais alterações do ECG indicam possível toxicidade elétrica?",
+          "explanation": "Ondas T apiculadas e alargamento do QRS.",
+          "reasoning_type": "ecg_toxicity_recognition",
+          "competency_ids": [
+            "review_active_medication_orders"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque ondas T apiculadas e alargamento do QRS.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-098-r10",
+          "question_id": "aqz-hiper-098",
+          "sequence": 10,
+          "prompt": "Qual deve ser a primeira medida relacionada à prescrição?",
+          "explanation": "Suspender imediatamente a administração de potássio e revisar outras fontes exógenas.",
+          "reasoning_type": "stop_exogenous_potassium",
+          "competency_ids": [
+            "evaluate_exogenous_potassium_load"
+          ],
+          "cognitive_operation": "prioritize",
+          "clinical_relevance": "Este raciocínio é relevante porque suspender imediatamente a administração de potássio e revisar outras fontes exógenas.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-098-r11",
+          "question_id": "aqz-hiper-098",
+          "sequence": 11,
+          "prompt": "Suspender o aporte resolve imediatamente a toxicidade elétrica?",
+          "explanation": "Não. É necessário tratar a hipercalemia presente, incluindo estabilização cardíaca quando indicada.",
+          "reasoning_type": "stabilization_not_replacement_cessation_alone",
+          "competency_ids": [
+            "identify_aki_during_potassium_replacement"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. É necessário tratar a hipercalemia presente, incluindo estabilização cardíaca quando indicada.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-098-r12",
+          "question_id": "aqz-hiper-098",
+          "sequence": 12,
+          "prompt": "Qual é o papel das medidas redistributivas?",
+          "explanation": "Reduzir temporariamente o potássio extracelular enquanto se avalia a eliminação efetiva.",
+          "reasoning_type": "temporary_potassium_shifting",
+          "competency_ids": [
+            "identify_aki_during_potassium_replacement"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque reduzir temporariamente o potássio extracelular enquanto se avalia a eliminação efetiva.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-098-r13",
+          "question_id": "aqz-hiper-098",
+          "sequence": 13,
+          "prompt": "Quando considerar terapia renal substitutiva?",
+          "explanation": "Quando houver hipercalemia grave persistente ou refratária, comprometimento renal importante e outras indicações clínicas, como sobrecarga volêmica ou acidose grave.",
+          "reasoning_type": "krt_indication_assessment",
+          "competency_ids": [
+            "review_active_medication_orders"
+          ],
+          "cognitive_operation": "decide",
+          "clinical_relevance": "Este raciocínio é relevante porque quando houver hipercalemia grave persistente ou refratária, comprometimento renal importante e outras indicações clínicas, como sobrecarga volêmica ou acidose grave.",
+          "prerequisite_concepts": [
+            "estabilidade hemodinâmica e escolha de terapia renal substitutiva",
+            "remoção de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-098-r14",
+          "question_id": "aqz-hiper-098",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Reconhecer a necessidade de reavaliar continuamente prescrições e tratamentos diante de mudanças da função renal e do estado metabólico.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "evaluate_exogenous_potassium_load"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque reconhecer a necessidade de reavaliar continuamente prescrições e tratamentos diante de mudanças da função renal e do estado metabólico.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        }
+      ],
+      "clinical_pearl": "> Uma prescrição não permanece correta apenas porque estava correta quando foi feita. Quando a função renal muda, a necessidade e a segurança da reposição de potássio também mudam.",
+      "references": [
+        "*Clinical manifestations and treatment of hypokalemia in adults*. UpToDate.",
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate.",
+        "Diretrizes de segurança na reposição intravenosa de eletrólitos."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "iatrogenic_hyperkalemia",
+        "clinical_context": "inpatient",
+        "urgency_level": "prompt_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "prevent_iatrogenic_hyperkalemia_during_potassium_replacement",
+        "secondary_competencies": [
+          "recognize_initial_severe_hypokalemia",
+          "identify_aki_during_potassium_replacement",
+          "evaluate_exogenous_potassium_load",
+          "review_active_medication_orders",
+          "manage_therapy_related_hyperkalemia"
+        ],
+        "learning_objectives": [
+          "Reconhecer a necessidade de reavaliar continuamente prescrições e tratamentos diante de mudanças da função renal e do estado metabólico."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_safety",
+        "arena_skill_ids": [
+          "prevent_iatrogenic_hyperkalemia_during_potassium_replacement",
+          "recognize_initial_severe_hypokalemia",
+          "identify_aki_during_potassium_replacement",
+          "evaluate_exogenous_potassium_load",
+          "review_active_medication_orders",
+          "manage_therapy_related_hyperkalemia"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "prevent",
+          "iatrogenic",
+          "during",
+          "potassium",
+          "replacement"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "prevent_iatrogenic_hyperkalemia_during_potassium_replacement",
+          "recognize_initial_severe_hypokalemia",
+          "identify_aki_during_potassium_replacement",
+          "evaluate_exogenous_potassium_load",
+          "review_active_medication_orders",
+          "manage_therapy_related_hyperkalemia"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-099",
+      "question_id": "aqz-hiper-099",
+      "numero": 99,
+      "question_number": 99,
+      "titulo": "O potássio voltou a subir quando o efeito do tratamento passou",
+      "competenciaPrincipal": "Antecipar a recorrência da hipercalemia após tratamentos redistributivos e reconhecer a necessidade de uma estratégia definitiva de eliminação.",
+      "competenciasSecundarias": [
+        "understand_insulin_potassium_shift",
+        "understand_beta2_agonist_potassium_shift",
+        "recognize_temporary_redistribution",
+        "anticipate_hyperkalemia_rebound",
+        "plan_definitive_potassium_removal"
+      ],
+      "dificuldade": "Muito avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Uma mulher de 63 anos, com doença renal crônica estágio G5 e lesão renal aguda sobreposta, é admitida na emergência com fraqueza muscular intensa.\n\nNa admissão:\n\n- PA: 118/72 mmHg.\n- FC: 88 bpm.\n- Potássio: 7,1 mEq/L.\n- Creatinina: 7,8 mg/dL.\n- Bicarbonato: 17 mEq/L.\n- ECG: ondas T apiculadas e QRS discretamente alargado.\n\nA equipe administra cálcio intravenoso, insulina regular com glicose e salbutamol nebulizado.\n\nApós uma hora:\n\n- Potássio: 5,4 mEq/L.\n- ECG: melhora das alterações iniciais.\n\nA paciente permanece com diurese inferior a 100 mL em seis horas.\n\nA equipe decide apenas observar, sem estabelecer estratégia de eliminação do potássio.\n\nQuatro horas depois:\n\n- Potássio: 6,8 mEq/L.\n- ECG: reaparecimento das ondas T apiculadas.\n\nNão houve administração significativa de potássio durante esse intervalo.\n\n**Qual é a explicação mais provável e a conduta mais adequada?**",
+      "alternativas": {
+        "A": "A redução inicial do potássio foi causada exclusivamente por eliminação renal, e o aumento posterior demonstra necessariamente erro laboratorial.",
+        "B": "A elevação tardia indica que o cálcio intravenoso provocou liberação maciça de potássio das células.",
+        "C": "A redução inicial ocorreu predominantemente por redistribuição intracelular. Como a eliminação corporal permaneceu insuficiente, o potássio voltou a aumentar com a diminuição do efeito das medidas temporizadoras. É necessário tratar novamente a toxicidade elétrica quando indicada e providenciar remoção efetiva de potássio.",
+        "D": "O retorno do potássio a 6,8 mEq/L deve ser ignorado porque qualquer melhora anterior do ECG elimina o risco de arritmias subsequentes."
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. Qual era o distúrbio inicial?**\n\nHipercalemia grave, com potássio de 7,1 mEq/L.\n\n**2. Qual é a importância da disfunção renal avançada?**\n\nCompromete significativamente a capacidade de excreção renal de potássio.\n\n**3. Qual foi o objetivo do cálcio intravenoso?**\n\nReduzir temporariamente a toxicidade elétrica cardíaca associada à hipercalemia.\n\n**4. Qual foi o objetivo da insulina com glicose?**\n\nPromover entrada de potássio nas células, reduzindo sua concentração extracelular.\n\n**5. Qual foi o objetivo do salbutamol?**\n\nEstimular mecanismos beta-2-adrenérgicos que favorecem a redistribuição intracelular de potássio.\n\n**6. O que significa a redução de 7,1 para 5,4 mEq/L?**\n\nDemonstra resposta inicial às intervenções, mas não comprova eliminação efetiva do excesso corporal de potássio.\n\n**7. Por que a diurese reduzida é relevante?**\n\nSugere capacidade limitada de eliminar potássio pelos rins.\n\n**8. Qual é a principal limitação das terapias redistributivas?**\n\nSeus efeitos são temporários e não reduzem necessariamente a quantidade total de potássio corporal.\n\n**9. O que pode acontecer quando esses efeitos diminuem?**\n\nO potássio pode retornar ao compartimento extracelular, elevando novamente sua concentração sérica.\n\n**10. Como interpretamos o potássio de 6,8 mEq/L após quatro horas?**\n\nComo hipercalemia grave recorrente, compatível com rebote após terapias redistributivas em paciente com eliminação insuficiente.\n\n**11. Qual é a importância do reaparecimento das ondas T apiculadas?**\n\nIndica possível recorrência da toxicidade elétrica e exige reavaliação imediata.\n\n**12. Qual deve ser a abordagem imediata?**\n\nMonitorização contínua, estabilização cardíaca quando indicada e novas medidas temporizadoras apropriadas, considerando o risco de hipoglicemia com repetição de insulina.\n\n**13. Qual é a estratégia necessária para evitar novos episódios?**\n\nPromover remoção efetiva de potássio, frequentemente por terapia renal substitutiva quando a função renal está gravemente comprometida.\n\n**14. Qual é a competência principal?**\n\nAntecipar a recorrência da hipercalemia após tratamentos redistributivos e reconhecer a necessidade de uma estratégia definitiva de eliminação.",
+      "comentarios": {
+        "A": "A redução inicial após insulina e salbutamol não comprova eliminação renal, especialmente em paciente com oligúria importante.",
+        "B": "O cálcio não provoca caracteristicamente liberação maciça de potássio das células. Sua função é estabilização elétrica.",
+        "C": "A recorrência é compatível com o desaparecimento gradual do efeito redistributivo, sem eliminação adequada do potássio corporal.",
+        "D": "A melhora inicial não impede recorrência de toxicidade elétrica quando o potássio volta a aumentar."
+      },
+      "perola": "> Insulina e salbutamol compram tempo. Se você não utilizar esse tempo para resolver a eliminação do potássio, a hipercalemia pode voltar — e o risco elétrico também.",
+      "referencias": "*Treatment and prevention of hyperkalemia in adults*. UpToDate.\nDiretrizes clínicas de manejo da hipercalemia aguda.\nLiteratura sobre duração de ação e recorrência da hipercalemia após terapias redistributivas.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 20,
+      "stem": "Uma mulher de 63 anos, com doença renal crônica estágio G5 e lesão renal aguda sobreposta, é admitida na emergência com fraqueza muscular intensa.\n\nNa admissão:\n\n- PA: 118/72 mmHg.\n- FC: 88 bpm.\n- Potássio: 7,1 mEq/L.\n- Creatinina: 7,8 mg/dL.\n- Bicarbonato: 17 mEq/L.\n- ECG: ondas T apiculadas e QRS discretamente alargado.\n\nA equipe administra cálcio intravenoso, insulina regular com glicose e salbutamol nebulizado.\n\nApós uma hora:\n\n- Potássio: 5,4 mEq/L.\n- ECG: melhora das alterações iniciais.\n\nA paciente permanece com diurese inferior a 100 mL em seis horas.\n\nA equipe decide apenas observar, sem estabelecer estratégia de eliminação do potássio.\n\nQuatro horas depois:\n\n- Potássio: 6,8 mEq/L.\n- ECG: reaparecimento das ondas T apiculadas.\n\nNão houve administração significativa de potássio durante esse intervalo.\n\n**Qual é a explicação mais provável e a conduta mais adequada?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-099-A",
+          "question_id": "aqz-hiper-099",
+          "letter": "A",
+          "text": "A redução inicial do potássio foi causada exclusivamente por eliminação renal, e o aumento posterior demonstra necessariamente erro laboratorial.",
+          "is_correct": false,
+          "feedback": "A redução inicial após insulina e salbutamol não comprova eliminação renal, especialmente em paciente com oligúria importante.",
+          "error_type": "shifting_removal_confusion",
+          "misconception_id": "insulin_response_proves_renal_potassium_excretion",
+          "misconception_description": "Confunde redistribuição com excreção renal.",
+          "competency_ids": [
+            "understand_insulin_potassium_shift"
+          ],
+          "clinical_risk_if_applied": "não antecipar recorrência."
+        },
+        {
+          "option_id": "aqz-hiper-099-B",
+          "question_id": "aqz-hiper-099",
+          "letter": "B",
+          "text": "A elevação tardia indica que o cálcio intravenoso provocou liberação maciça de potássio das células.",
+          "is_correct": false,
+          "feedback": "O cálcio não provoca caracteristicamente liberação maciça de potássio das células. Sua função é estabilização elétrica.",
+          "error_type": "calcium_mechanism_error",
+          "misconception_id": "calcium_causes_potassium_release",
+          "misconception_description": "Atribui ao cálcio liberação de potássio.",
+          "competency_ids": [
+            "understand_beta2_agonist_potassium_shift"
+          ],
+          "clinical_risk_if_applied": "interpretação incorreta do mecanismo de rebote."
+        },
+        {
+          "option_id": "aqz-hiper-099-C",
+          "question_id": "aqz-hiper-099",
+          "letter": "C",
+          "text": "A redução inicial ocorreu predominantemente por redistribuição intracelular. Como a eliminação corporal permaneceu insuficiente, o potássio voltou a aumentar com a diminuição do efeito das medidas temporizadoras. É necessário tratar novamente a toxicidade elétrica quando indicada e providenciar remoção efetiva de potássio.",
+          "is_correct": true,
+          "feedback": "A recorrência é compatível com o desaparecimento gradual do efeito redistributivo, sem eliminação adequada do potássio corporal.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "anticipate_rebound_after_potassium_shifting",
+            "understand_insulin_potassium_shift",
+            "understand_beta2_agonist_potassium_shift"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-099-D",
+          "question_id": "aqz-hiper-099",
+          "letter": "D",
+          "text": "O retorno do potássio a 6,8 mEq/L deve ser ignorado porque qualquer melhora anterior do ECG elimina o risco de arritmias subsequentes.",
+          "is_correct": false,
+          "feedback": "A melhora inicial não impede recorrência de toxicidade elétrica quando o potássio volta a aumentar.",
+          "error_type": "recurrence_risk_denial",
+          "misconception_id": "initial_ecg_improvement_prevents_future_arrhythmia",
+          "misconception_description": "Considera a melhora inicial garantia de segurança futura.",
+          "competency_ids": [
+            "anticipate_hyperkalemia_rebound"
+          ],
+          "clinical_risk_if_applied": "recorrência de toxicidade elétrica não reconhecida."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-099-r01",
+          "question_id": "aqz-hiper-099",
+          "sequence": 1,
+          "prompt": "Qual era o distúrbio inicial?",
+          "explanation": "Hipercalemia grave, com potássio de 7,1 mEq/L.",
+          "reasoning_type": "severe_hyperkalemia",
+          "competency_ids": [
+            "anticipate_hyperkalemia_rebound"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque hipercalemia grave, com potássio de 7,1 mEq/L.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-099-r02",
+          "question_id": "aqz-hiper-099",
+          "sequence": 2,
+          "prompt": "Qual é a importância da disfunção renal avançada?",
+          "explanation": "Compromete significativamente a capacidade de excreção renal de potássio.",
+          "reasoning_type": "renal_excretion_impairment",
+          "competency_ids": [
+            "anticipate_hyperkalemia_rebound"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque compromete significativamente a capacidade de excreção renal de potássio.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-099-r03",
+          "question_id": "aqz-hiper-099",
+          "sequence": 3,
+          "prompt": "Qual foi o objetivo do cálcio intravenoso?",
+          "explanation": "Reduzir temporariamente a toxicidade elétrica cardíaca associada à hipercalemia.",
+          "reasoning_type": "calcium_electrical_stabilization",
+          "competency_ids": [
+            "anticipate_hyperkalemia_rebound"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque reduzir temporariamente a toxicidade elétrica cardíaca associada à hipercalemia.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-099-r04",
+          "question_id": "aqz-hiper-099",
+          "sequence": 4,
+          "prompt": "Qual foi o objetivo da insulina com glicose?",
+          "explanation": "Promover entrada de potássio nas células, reduzindo sua concentração extracelular.",
+          "reasoning_type": "insulin_potassium_shift",
+          "competency_ids": [
+            "understand_insulin_potassium_shift"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque promover entrada de potássio nas células, reduzindo sua concentração extracelular.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-099-r05",
+          "question_id": "aqz-hiper-099",
+          "sequence": 5,
+          "prompt": "Qual foi o objetivo do salbutamol?",
+          "explanation": "Estimular mecanismos beta-2-adrenérgicos que favorecem a redistribuição intracelular de potássio.",
+          "reasoning_type": "beta2_potassium_shift",
+          "competency_ids": [
+            "understand_beta2_agonist_potassium_shift"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque estimular mecanismos beta-2-adrenérgicos que favorecem a redistribuição intracelular de potássio.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-099-r06",
+          "question_id": "aqz-hiper-099",
+          "sequence": 6,
+          "prompt": "O que significa a redução de 7,1 para 5,4 mEq/L?",
+          "explanation": "Demonstra resposta inicial às intervenções, mas não comprova eliminação efetiva do excesso corporal de potássio.",
+          "reasoning_type": "transient_potassium_reduction",
+          "competency_ids": [
+            "understand_insulin_potassium_shift"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Este raciocínio é relevante porque demonstra resposta inicial às intervenções, mas não comprova eliminação efetiva do excesso corporal de potássio.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-099-r07",
+          "question_id": "aqz-hiper-099",
+          "sequence": 7,
+          "prompt": "Por que a diurese reduzida é relevante?",
+          "explanation": "Sugere capacidade limitada de eliminar potássio pelos rins.",
+          "reasoning_type": "oliguria_significance",
+          "competency_ids": [
+            "recognize_temporary_redistribution"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque sugere capacidade limitada de eliminar potássio pelos rins.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-099-r08",
+          "question_id": "aqz-hiper-099",
+          "sequence": 8,
+          "prompt": "Qual é a principal limitação das terapias redistributivas?",
+          "explanation": "Seus efeitos são temporários e não reduzem necessariamente a quantidade total de potássio corporal.",
+          "reasoning_type": "temporary_shifting_limitations",
+          "competency_ids": [
+            "recognize_temporary_redistribution"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque seus efeitos são temporários e não reduzem necessariamente a quantidade total de potássio corporal.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-099-r09",
+          "question_id": "aqz-hiper-099",
+          "sequence": 9,
+          "prompt": "O que pode acontecer quando esses efeitos diminuem?",
+          "explanation": "O potássio pode retornar ao compartimento extracelular, elevando novamente sua concentração sérica.",
+          "reasoning_type": "redistribution_rebound",
+          "competency_ids": [
+            "recognize_temporary_redistribution"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque o potássio pode retornar ao compartimento extracelular, elevando novamente sua concentração sérica.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-099-r10",
+          "question_id": "aqz-hiper-099",
+          "sequence": 10,
+          "prompt": "Como interpretamos o potássio de 6,8 mEq/L após quatro horas?",
+          "explanation": "Como hipercalemia grave recorrente, compatível com rebote após terapias redistributivas em paciente com eliminação insuficiente.",
+          "reasoning_type": "recurrent_hyperkalemia_interpretation",
+          "competency_ids": [
+            "anticipate_hyperkalemia_rebound"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque como hipercalemia grave recorrente, compatível com rebote após terapias redistributivas em paciente com eliminação insuficiente.",
+          "prerequisite_concepts": [
+            "gradiente de potássio entre sangue e dialisato",
+            "redistribuição intra e extracelular"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-099-r11",
+          "question_id": "aqz-hiper-099",
+          "sequence": 11,
+          "prompt": "Qual é a importância do reaparecimento das ondas T apiculadas?",
+          "explanation": "Indica possível recorrência da toxicidade elétrica e exige reavaliação imediata.",
+          "reasoning_type": "recurrent_ecg_toxicity",
+          "competency_ids": [
+            "anticipate_hyperkalemia_rebound"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque indica possível recorrência da toxicidade elétrica e exige reavaliação imediata.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-099-r12",
+          "question_id": "aqz-hiper-099",
+          "sequence": 12,
+          "prompt": "Qual deve ser a abordagem imediata?",
+          "explanation": "Monitorização contínua, estabilização cardíaca quando indicada e novas medidas temporizadoras apropriadas, considerando o risco de hipoglicemia com repetição de insulina.",
+          "reasoning_type": "immediate_reassessment_and_treatment",
+          "competency_ids": [
+            "plan_definitive_potassium_removal"
+          ],
+          "cognitive_operation": "prioritize",
+          "clinical_relevance": "Este raciocínio é relevante porque monitorização contínua, estabilização cardíaca quando indicada e novas medidas temporizadoras apropriadas, considerando o risco de hipoglicemia com repetição de insulina.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-099-r13",
+          "question_id": "aqz-hiper-099",
+          "sequence": 13,
+          "prompt": "Qual é a estratégia necessária para evitar novos episódios?",
+          "explanation": "Promover remoção efetiva de potássio, frequentemente por terapia renal substitutiva quando a função renal está gravemente comprometida.",
+          "reasoning_type": "definitive_potassium_removal",
+          "competency_ids": [
+            "plan_definitive_potassium_removal"
+          ],
+          "cognitive_operation": "plan",
+          "clinical_relevance": "Este raciocínio é relevante porque promover remoção efetiva de potássio, frequentemente por terapia renal substitutiva quando a função renal está gravemente comprometida.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-099-r14",
+          "question_id": "aqz-hiper-099",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Antecipar a recorrência da hipercalemia após tratamentos redistributivos e reconhecer a necessidade de uma estratégia definitiva de eliminação.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "recognize_temporary_redistribution"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque antecipar a recorrência da hipercalemia após tratamentos redistributivos e reconhecer a necessidade de uma estratégia definitiva de eliminação.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        }
+      ],
+      "clinical_pearl": "> Insulina e salbutamol compram tempo. Se você não utilizar esse tempo para resolver a eliminação do potássio, a hipercalemia pode voltar — e o risco elétrico também.",
+      "references": [
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate.",
+        "Diretrizes clínicas de manejo da hipercalemia aguda.",
+        "Literatura sobre duração de ação e recorrência da hipercalemia após terapias redistributivas."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "rebound_hyperkalemia",
+        "clinical_context": "emergency_department",
+        "urgency_level": "urgent_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "anticipate_rebound_after_potassium_shifting",
+        "secondary_competencies": [
+          "understand_insulin_potassium_shift",
+          "understand_beta2_agonist_potassium_shift",
+          "recognize_temporary_redistribution",
+          "anticipate_hyperkalemia_rebound",
+          "plan_definitive_potassium_removal"
+        ],
+        "learning_objectives": [
+          "Antecipar a recorrência da hipercalemia após tratamentos redistributivos e reconhecer a necessidade de uma estratégia definitiva de eliminação."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_safety",
+        "arena_skill_ids": [
+          "anticipate_rebound_after_potassium_shifting",
+          "understand_insulin_potassium_shift",
+          "understand_beta2_agonist_potassium_shift",
+          "recognize_temporary_redistribution",
+          "anticipate_hyperkalemia_rebound",
+          "plan_definitive_potassium_removal"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "anticipate",
+          "rebound",
+          "after",
+          "potassium",
+          "shifting"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "anticipate_rebound_after_potassium_shifting",
+          "understand_insulin_potassium_shift",
+          "understand_beta2_agonist_potassium_shift",
+          "recognize_temporary_redistribution",
+          "anticipate_hyperkalemia_rebound",
+          "plan_definitive_potassium_removal"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-100",
+      "question_id": "aqz-hiper-100",
+      "numero": 100,
+      "question_number": 100,
+      "titulo": "Cinco minutos para decidir: o paciente com hipercalemia e múltiplas ameaças",
+      "competenciaPrincipal": "Integrar múltiplas ameaças fisiológicas e coordenar intervenções simultâneas, reconhecendo que o tratamento da hipercalemia não pode ser dissociado da estabilização global do paciente crítico.",
+      "competenciasSecundarias": [
+        "prioritize_electrical_stabilization",
+        "manage_severe_hypoxemia",
+        "manage_shock_with_pulmonary_congestion",
+        "interpret_winter_formula_in_critical_illness",
+        "coordinate_urgent_krt_and_resuscitation"
+      ],
+      "dificuldade": "Muito avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Um homem de 66 anos, com diabetes mellitus tipo 2, insuficiência cardíaca com fração de ejeção reduzida e doença renal crônica estágio G4, é admitido na sala vermelha por dispneia intensa, confusão mental e redução importante da diurese.\n\nNas últimas 48 horas, apresentou piora progressiva da dispneia e edema de membros inferiores.\n\nNa avaliação inicial:\n\n- PA: 78/42 mmHg.\n- FC: 42 bpm.\n- FR: 34 irpm.\n- SpO₂: 82% em ar ambiente.\n- Temperatura: 36,0 °C.\n- Glasgow: 12.\n- Extremidades frias.\n- Estertores crepitantes bilateralmente.\n- Turgência jugular.\n- Diurese nas últimas 12 horas: aproximadamente 80 mL.\n\nExames iniciais:\n\n- Potássio: 7,6 mEq/L.\n- Creatinina: 5,8 mg/dL.\n- Creatinina basal: 2,4 mg/dL.\n- Bicarbonato: 11 mEq/L.\n- pH: 7,12.\n- PaCO₂: 32 mmHg.\n- Lactato: 5,2 mmol/L.\n\nO ECG demonstra bradicardia, ausência de ondas P claramente identificáveis e QRS de 176 ms.\n\nA ultrassonografia à beira-leito sugere congestão pulmonar difusa e disfunção sistólica ventricular esquerda importante.\n\nA equipe dispõe de cálcio intravenoso, insulina com glicose, salbutamol, suporte ventilatório, vasopressores e acesso à terapia renal substitutiva de urgência.\n\nUm residente sugere iniciar insulina com glicose, aguardar a normalização do potássio e somente depois abordar a hipoxemia e o choque.\n\nOutro residente propõe administrar grande volume de cristaloide rapidamente, sem considerar a congestão pulmonar.\n\n**Qual é a estratégia inicial mais adequada?**",
+      "alternativas": {
+        "A": "Priorizar exclusivamente a redução laboratorial do potássio, adiando o tratamento da hipoxemia e do choque até que a concentração sérica esteja normal.",
+        "B": "Administrar grandes volumes de cristaloide como primeira intervenção obrigatória, independentemente da presença de congestão pulmonar e disfunção ventricular.",
+        "C": "Realizar imediatamente intubação orotraqueal sem planejamento hemodinâmico ou ventilatório, pois a ventilação mecânica elimina a necessidade de tratar simultaneamente a hipercalemia.",
+        "D": "Reconhecer múltiplas ameaças simultâneas e coordenar estabilização elétrica imediata com cálcio intravenoso, suporte de oxigenação e circulação, medidas redistributivas de potássio e preparação urgente de terapia renal substitutiva, individualizando o suporte ventilatório e hemodinâmico conforme a congestão, a acidemia e o risco de deterioração."
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. Quais são as principais ameaças imediatas à vida?**\n\nToxicidade elétrica pela hipercalemia, hipoxemia grave, choque circulatório, acidemia importante e disfunção renal com oligúria.\n\n**2. Qual é a importância do potássio de 7,6 mEq/L?**\n\nRepresenta hipercalemia grave, associada a risco elevado de arritmias e deterioração cardíaca.\n\n**3. Quais alterações do ECG indicam toxicidade elétrica importante?**\n\nBradicardia, ausência de ondas P identificáveis e alargamento acentuado do QRS.\n\n**4. Qual intervenção deve ser realizada imediatamente para a toxicidade elétrica?**\n\nAdministração de cálcio intravenoso, conforme o protocolo institucional, sem atrasar o suporte das demais funções vitais.\n\n**5. Por que a SpO₂ de 82% exige intervenção imediata?**\n\nPorque indica hipoxemia importante, capaz de agravar a disfunção orgânica e contribuir para deterioração cardiovascular.\n\n**6. Como deve ser abordada a oxigenação?**\n\nCom suporte imediato de oxigênio e avaliação da necessidade de suporte ventilatório não invasivo ou invasivo, conforme a consciência, a proteção da via aérea, a estabilidade hemodinâmica e a resposta clínica.\n\n**7. Qual é a importância da PA de 78/42 mmHg?**\n\nIndica hipotensão grave, associada a sinais de hipoperfusão e provável choque circulatório.\n\n**8. Por que a reposição volêmica indiscriminada pode ser perigosa?**\n\nPorque o paciente apresenta congestão pulmonar e disfunção ventricular, condições nas quais grandes volumes podem agravar a insuficiência respiratória.\n\n**9. Qual é a importância do bicarbonato de 11 mEq/L e do pH de 7,12?**\n\nDemonstram acidemia importante, que aumenta a complexidade do manejo ventilatório e circulatório.\n\n**10. A PaCO₂ de 32 mmHg representa compensação respiratória adequada?**\n\nNão. Pela fórmula de Winter, a PaCO₂ esperada para bicarbonato de 11 mEq/L é aproximadamente 24,5 mmHg, com intervalo de cerca de 22,5 a 26,5 mmHg. O valor de 32 mmHg sugere componente adicional de acidose respiratória ou compensação ventilatória insuficiente.\n\n**11. Qual é o papel da insulina com glicose e do salbutamol?**\n\nPromover redução temporária do potássio extracelular por redistribuição intracelular, sem eliminar o excesso corporal.\n\n**12. Por que a terapia renal substitutiva deve ser considerada urgentemente?**\n\nPorque há hipercalemia grave com alterações elétricas, lesão renal aguda oligúrica, acidemia importante e congestão pulmonar, condições que podem exigir remoção extracorpórea de potássio e controle de volume.\n\n**13. As intervenções devem ser realizadas em sequência rígida?**\n\nNão. Estabilização elétrica, suporte respiratório, suporte circulatório, redistribuição de potássio e preparação da terapia renal substitutiva devem ocorrer de maneira coordenada, com prioridades definidas pelo risco imediato.\n\n**14. Qual é a competência principal?**\n\nIntegrar múltiplas ameaças fisiológicas e coordenar intervenções simultâneas, reconhecendo que o tratamento da hipercalemia não pode ser dissociado da estabilização global do paciente crítico.",
+      "comentarios": {
+        "A": "A hipoxemia e o choque representam ameaças imediatas e não podem aguardar a normalização laboratorial do potássio.",
+        "B": "A congestão pulmonar e a disfunção ventricular exigem avaliação cuidadosa da responsividade e tolerância a fluidos. A administração indiscriminada de grandes volumes pode agravar o quadro.",
+        "C": "A intubação pode ser necessária, mas exige planejamento diante da instabilidade hemodinâmica e da acidemia. A ventilação mecânica não substitui o tratamento da hipercalemia.",
+        "D": "A abordagem integra estabilização elétrica, suporte das funções vitais, medidas redistributivas e planejamento de remoção efetiva do potássio, evitando atrasos e intervenções potencialmente prejudiciais."
+      },
+      "perola": "> No paciente crítico, a melhor conduta não é escolher entre tratar o potássio, a hipoxemia ou o choque. É reconhecer quais ameaças não podem esperar e coordenar intervenções que se complementam, sem permitir que o tratamento de uma delas agrave as outras.",
+      "referencias": "American Heart Association — diretrizes de suporte avançado de vida cardiovascular.\n*Treatment and prevention of hyperkalemia in adults*. UpToDate.\nKDIGO — diretrizes de lesão renal aguda e terapia renal substitutiva.\nLiteratura sobre manejo hemodinâmico e ventilatório de pacientes com choque, congestão pulmonar e acidemia grave.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 20,
+      "stem": "Um homem de 66 anos, com diabetes mellitus tipo 2, insuficiência cardíaca com fração de ejeção reduzida e doença renal crônica estágio G4, é admitido na sala vermelha por dispneia intensa, confusão mental e redução importante da diurese.\n\nNas últimas 48 horas, apresentou piora progressiva da dispneia e edema de membros inferiores.\n\nNa avaliação inicial:\n\n- PA: 78/42 mmHg.\n- FC: 42 bpm.\n- FR: 34 irpm.\n- SpO₂: 82% em ar ambiente.\n- Temperatura: 36,0 °C.\n- Glasgow: 12.\n- Extremidades frias.\n- Estertores crepitantes bilateralmente.\n- Turgência jugular.\n- Diurese nas últimas 12 horas: aproximadamente 80 mL.\n\nExames iniciais:\n\n- Potássio: 7,6 mEq/L.\n- Creatinina: 5,8 mg/dL.\n- Creatinina basal: 2,4 mg/dL.\n- Bicarbonato: 11 mEq/L.\n- pH: 7,12.\n- PaCO₂: 32 mmHg.\n- Lactato: 5,2 mmol/L.\n\nO ECG demonstra bradicardia, ausência de ondas P claramente identificáveis e QRS de 176 ms.\n\nA ultrassonografia à beira-leito sugere congestão pulmonar difusa e disfunção sistólica ventricular esquerda importante.\n\nA equipe dispõe de cálcio intravenoso, insulina com glicose, salbutamol, suporte ventilatório, vasopressores e acesso à terapia renal substitutiva de urgência.\n\nUm residente sugere iniciar insulina com glicose, aguardar a normalização do potássio e somente depois abordar a hipoxemia e o choque.\n\nOutro residente propõe administrar grande volume de cristaloide rapidamente, sem considerar a congestão pulmonar.\n\n**Qual é a estratégia inicial mais adequada?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-100-A",
+          "question_id": "aqz-hiper-100",
+          "letter": "A",
+          "text": "Priorizar exclusivamente a redução laboratorial do potássio, adiando o tratamento da hipoxemia e do choque até que a concentração sérica esteja normal.",
+          "is_correct": false,
+          "feedback": "A hipoxemia e o choque representam ameaças imediatas e não podem aguardar a normalização laboratorial do potássio.",
+          "error_type": "competing_emergencies_omission",
+          "misconception_id": "potassium_normalization_must_precede_oxygenation",
+          "misconception_description": "Prioriza exclusivamente o potássio e negligencia hipoxemia e choque.",
+          "competency_ids": [
+            "prioritize_electrical_stabilization"
+          ],
+          "clinical_risk_if_applied": "deterioração multissistêmica."
+        },
+        {
+          "option_id": "aqz-hiper-100-B",
+          "question_id": "aqz-hiper-100",
+          "letter": "B",
+          "text": "Administrar grandes volumes de cristaloide como primeira intervenção obrigatória, independentemente da presença de congestão pulmonar e disfunção ventricular.",
+          "is_correct": false,
+          "feedback": "A congestão pulmonar e a disfunção ventricular exigem avaliação cuidadosa da responsividade e tolerância a fluidos. A administração indiscriminada de grandes volumes pode agravar o quadro.",
+          "error_type": "indiscriminate_fluid_resuscitation",
+          "misconception_id": "all_shock_requires_large_fluid_bolus",
+          "misconception_description": "Recomenda volume indiscriminado diante de congestão.",
+          "competency_ids": [
+            "manage_severe_hypoxemia"
+          ],
+          "clinical_risk_if_applied": "agravamento da insuficiência respiratória."
+        },
+        {
+          "option_id": "aqz-hiper-100-C",
+          "question_id": "aqz-hiper-100",
+          "letter": "C",
+          "text": "Realizar imediatamente intubação orotraqueal sem planejamento hemodinâmico ou ventilatório, pois a ventilação mecânica elimina a necessidade de tratar simultaneamente a hipercalemia.",
+          "is_correct": false,
+          "feedback": "A intubação pode ser necessária, mas exige planejamento diante da instabilidade hemodinâmica e da acidemia. A ventilação mecânica não substitui o tratamento da hipercalemia.",
+          "error_type": "airway_management_oversimplification",
+          "misconception_id": "intubation_replaces_hyperkalemia_treatment",
+          "misconception_description": "Considera intubação suficiente para resolver múltiplas ameaças.",
+          "competency_ids": [
+            "manage_shock_with_pulmonary_congestion"
+          ],
+          "clinical_risk_if_applied": "colapso hemodinâmico e persistência da toxicidade elétrica.\n\nPara as alternativas corretas, manter campos de erro conceitual nulos e registrar as competências demonstradas.\n\n---"
+        },
+        {
+          "option_id": "aqz-hiper-100-D",
+          "question_id": "aqz-hiper-100",
+          "letter": "D",
+          "text": "Reconhecer múltiplas ameaças simultâneas e coordenar estabilização elétrica imediata com cálcio intravenoso, suporte de oxigenação e circulação, medidas redistributivas de potássio e preparação urgente de terapia renal substitutiva, individualizando o suporte ventilatório e hemodinâmico conforme a congestão, a acidemia e o risco de deterioração.",
+          "is_correct": true,
+          "feedback": "A abordagem integra estabilização elétrica, suporte das funções vitais, medidas redistributivas e planejamento de remoção efetiva do potássio, evitando atrasos e intervenções potencialmente prejudiciais.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "integrate_multisystem_resuscitation_in_severe_hyperkalemia",
+            "prioritize_electrical_stabilization",
+            "manage_severe_hypoxemia"
+          ],
+          "clinical_risk_if_applied": null
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-100-r01",
+          "question_id": "aqz-hiper-100",
+          "sequence": 1,
+          "prompt": "Quais são as principais ameaças imediatas à vida?",
+          "explanation": "Toxicidade elétrica pela hipercalemia, hipoxemia grave, choque circulatório, acidemia importante e disfunção renal com oligúria.",
+          "reasoning_type": "multiple_immediate_threats",
+          "competency_ids": [
+            "interpret_winter_formula_in_critical_illness"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque toxicidade elétrica pela hipercalemia, hipoxemia grave, choque circulatório, acidemia importante e disfunção renal com oligúria.",
+          "prerequisite_concepts": [
+            "estabilidade hemodinâmica e escolha de terapia renal substitutiva",
+            "remoção de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-100-r02",
+          "question_id": "aqz-hiper-100",
+          "sequence": 2,
+          "prompt": "Qual é a importância do potássio de 7,6 mEq/L?",
+          "explanation": "Representa hipercalemia grave, associada a risco elevado de arritmias e deterioração cardíaca.",
+          "reasoning_type": "severe_hyperkalemia_risk",
+          "competency_ids": [
+            "manage_severe_hypoxemia"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque representa hipercalemia grave, associada a risco elevado de arritmias e deterioração cardíaca.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-100-r03",
+          "question_id": "aqz-hiper-100",
+          "sequence": 3,
+          "prompt": "Quais alterações do ECG indicam toxicidade elétrica importante?",
+          "explanation": "Bradicardia, ausência de ondas P identificáveis e alargamento acentuado do QRS.",
+          "reasoning_type": "extreme_ecg_toxicity",
+          "competency_ids": [
+            "interpret_winter_formula_in_critical_illness"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque bradicardia, ausência de ondas P identificáveis e alargamento acentuado do QRS.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-100-r04",
+          "question_id": "aqz-hiper-100",
+          "sequence": 4,
+          "prompt": "Qual intervenção deve ser realizada imediatamente para a toxicidade elétrica?",
+          "explanation": "Administração de cálcio intravenoso, conforme o protocolo institucional, sem atrasar o suporte das demais funções vitais.",
+          "reasoning_type": "immediate_calcium_priority",
+          "competency_ids": [
+            "interpret_winter_formula_in_critical_illness"
+          ],
+          "cognitive_operation": "prioritize",
+          "clinical_relevance": "Este raciocínio é relevante porque administração de cálcio intravenoso, conforme o protocolo institucional, sem atrasar o suporte das demais funções vitais.",
+          "prerequisite_concepts": [
+            "conteúdo intracelular de eletrólitos",
+            "síndrome de lise tumoral"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-100-r05",
+          "question_id": "aqz-hiper-100",
+          "sequence": 5,
+          "prompt": "Por que a SpO₂ de 82% exige intervenção imediata?",
+          "explanation": "Porque indica hipoxemia importante, capaz de agravar a disfunção orgânica e contribuir para deterioração cardiovascular.",
+          "reasoning_type": "severe_hypoxemia_recognition",
+          "competency_ids": [
+            "manage_severe_hypoxemia"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque porque indica hipoxemia importante, capaz de agravar a disfunção orgânica e contribuir para deterioração cardiovascular.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-100-r06",
+          "question_id": "aqz-hiper-100",
+          "sequence": 6,
+          "prompt": "Como deve ser abordada a oxigenação?",
+          "explanation": "Com suporte imediato de oxigênio e avaliação da necessidade de suporte ventilatório não invasivo ou invasivo, conforme a consciência, a proteção da via aérea, a estabilidade hemodinâmica e a resposta clínica.",
+          "reasoning_type": "individualized_oxygenation_support",
+          "competency_ids": [
+            "interpret_winter_formula_in_critical_illness"
+          ],
+          "cognitive_operation": "plan",
+          "clinical_relevance": "Este raciocínio é relevante porque com suporte imediato de oxigênio e avaliação da necessidade de suporte ventilatório não invasivo ou invasivo, conforme a consciência, a proteção da via aérea, a estabilidade hemodinâmica e a resposta clínica.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-100-r07",
+          "question_id": "aqz-hiper-100",
+          "sequence": 7,
+          "prompt": "Qual é a importância da PA de 78/42 mmHg?",
+          "explanation": "Indica hipotensão grave, associada a sinais de hipoperfusão e provável choque circulatório.",
+          "reasoning_type": "shock_recognition",
+          "competency_ids": [
+            "manage_shock_with_pulmonary_congestion"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque indica hipotensão grave, associada a sinais de hipoperfusão e provável choque circulatório.",
+          "prerequisite_concepts": [
+            "estabilidade hemodinâmica e escolha de terapia renal substitutiva",
+            "remoção de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-100-r08",
+          "question_id": "aqz-hiper-100",
+          "sequence": 8,
+          "prompt": "Por que a reposição volêmica indiscriminada pode ser perigosa?",
+          "explanation": "Porque o paciente apresenta congestão pulmonar e disfunção ventricular, condições nas quais grandes volumes podem agravar a insuficiência respiratória.",
+          "reasoning_type": "fluid_overload_risk",
+          "competency_ids": [
+            "interpret_winter_formula_in_critical_illness"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque porque o paciente apresenta congestão pulmonar e disfunção ventricular, condições nas quais grandes volumes podem agravar a insuficiência respiratória.",
+          "prerequisite_concepts": [
+            "composição dos cristaloides",
+            "equilíbrio ácido-base e balanço de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-100-r09",
+          "question_id": "aqz-hiper-100",
+          "sequence": 9,
+          "prompt": "Qual é a importância do bicarbonato de 11 mEq/L e do pH de 7,12?",
+          "explanation": "Demonstram acidemia importante, que aumenta a complexidade do manejo ventilatório e circulatório.",
+          "reasoning_type": "severe_acidemia_interpretation",
+          "competency_ids": [
+            "manage_severe_hypoxemia"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Este raciocínio é relevante porque demonstram acidemia importante, que aumenta a complexidade do manejo ventilatório e circulatório.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-100-r10",
+          "question_id": "aqz-hiper-100",
+          "sequence": 10,
+          "prompt": "A PaCO₂ de 32 mmHg representa compensação respiratória adequada?",
+          "explanation": "Não. Pela fórmula de Winter, a PaCO₂ esperada para bicarbonato de 11 mEq/L é aproximadamente 24,5 mmHg, com intervalo de cerca de 22,5 a 26,5 mmHg. O valor de 32 mmHg sugere componente adicional de acidose respiratória ou compensação ventilatória insuficiente.",
+          "reasoning_type": "winter_formula_mixed_acidosis",
+          "competency_ids": [
+            "interpret_winter_formula_in_critical_illness"
+          ],
+          "cognitive_operation": "calculate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. Pela fórmula de Winter, a PaCO₂ esperada para bicarbonato de 11 mEq/L é aproximadamente 24,5 mmHg, com intervalo de cerca de 22,5 a 26,5 mmHg. O valor de 32 mmHg sugere componente adicional de acidose respiratória ou compensação ventilatória insuficiente.",
+          "prerequisite_concepts": [
+            "compensação respiratória da acidose metabólica",
+            "efeitos da ventilação minuto no pH"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-100-r11",
+          "question_id": "aqz-hiper-100",
+          "sequence": 11,
+          "prompt": "Qual é o papel da insulina com glicose e do salbutamol?",
+          "explanation": "Promover redução temporária do potássio extracelular por redistribuição intracelular, sem eliminar o excesso corporal.",
+          "reasoning_type": "potassium_shifting_measures",
+          "competency_ids": [
+            "interpret_winter_formula_in_critical_illness"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque promover redução temporária do potássio extracelular por redistribuição intracelular, sem eliminar o excesso corporal.",
+          "prerequisite_concepts": [
+            "redistribuição transcelular do potássio",
+            "monitorização eletrolítica após tratamento"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-100-r12",
+          "question_id": "aqz-hiper-100",
+          "sequence": 12,
+          "prompt": "Por que a terapia renal substitutiva deve ser considerada urgentemente?",
+          "explanation": "Porque há hipercalemia grave com alterações elétricas, lesão renal aguda oligúrica, acidemia importante e congestão pulmonar, condições que podem exigir remoção extracorpórea de potássio e controle de volume.",
+          "reasoning_type": "urgent_krt_indications",
+          "competency_ids": [
+            "coordinate_urgent_krt_and_resuscitation"
+          ],
+          "cognitive_operation": "decide",
+          "clinical_relevance": "Este raciocínio é relevante porque porque há hipercalemia grave com alterações elétricas, lesão renal aguda oligúrica, acidemia importante e congestão pulmonar, condições que podem exigir remoção extracorpórea de potássio e controle de volume.",
+          "prerequisite_concepts": [
+            "estabilidade hemodinâmica e escolha de terapia renal substitutiva",
+            "remoção de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-100-r13",
+          "question_id": "aqz-hiper-100",
+          "sequence": 13,
+          "prompt": "As intervenções devem ser realizadas em sequência rígida?",
+          "explanation": "Não. Estabilização elétrica, suporte respiratório, suporte circulatório, redistribuição de potássio e preparação da terapia renal substitutiva devem ocorrer de maneira coordenada, com prioridades definidas pelo risco imediato.",
+          "reasoning_type": "parallel_intervention_coordination",
+          "competency_ids": [
+            "interpret_winter_formula_in_critical_illness"
+          ],
+          "cognitive_operation": "plan",
+          "clinical_relevance": "Este raciocínio é relevante porque não. Estabilização elétrica, suporte respiratório, suporte circulatório, redistribuição de potássio e preparação da terapia renal substitutiva devem ocorrer de maneira coordenada, com prioridades definidas pelo risco imediato.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-100-r14",
+          "question_id": "aqz-hiper-100",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Integrar múltiplas ameaças fisiológicas e coordenar intervenções simultâneas, reconhecendo que o tratamento da hipercalemia não pode ser dissociado da estabilização global do paciente crítico.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "manage_shock_with_pulmonary_congestion"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque integrar múltiplas ameaças fisiológicas e coordenar intervenções simultâneas, reconhecendo que o tratamento da hipercalemia não pode ser dissociado da estabilização global do paciente crítico.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        }
+      ],
+      "clinical_pearl": "> No paciente crítico, a melhor conduta não é escolher entre tratar o potássio, a hipoxemia ou o choque. É reconhecer quais ameaças não podem esperar e coordenar intervenções que se complementam, sem permitir que o tratamento de uma delas agrave as outras.",
+      "references": [
+        "American Heart Association — diretrizes de suporte avançado de vida cardiovascular.",
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate.",
+        "KDIGO — diretrizes de lesão renal aguda e terapia renal substitutiva.",
+        "Literatura sobre manejo hemodinâmico e ventilatório de pacientes com choque, congestão pulmonar e acidemia grave."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "integrated_critical_hyperkalemia",
+        "clinical_context": "critical_care",
+        "urgency_level": "urgent_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "integrate_multisystem_resuscitation_in_severe_hyperkalemia",
+        "secondary_competencies": [
+          "prioritize_electrical_stabilization",
+          "manage_severe_hypoxemia",
+          "manage_shock_with_pulmonary_congestion",
+          "interpret_winter_formula_in_critical_illness",
+          "coordinate_urgent_krt_and_resuscitation"
+        ],
+        "learning_objectives": [
+          "Integrar múltiplas ameaças fisiológicas e coordenar intervenções simultâneas, reconhecendo que o tratamento da hipercalemia não pode ser dissociado da estabilização global do paciente crítico."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_safety",
+        "arena_skill_ids": [
+          "integrate_multisystem_resuscitation_in_severe_hyperkalemia",
+          "prioritize_electrical_stabilization",
+          "manage_severe_hypoxemia",
+          "manage_shock_with_pulmonary_congestion",
+          "interpret_winter_formula_in_critical_illness",
+          "coordinate_urgent_krt_and_resuscitation"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "integrate",
+          "multisystem",
+          "resuscitation",
+          "in",
+          "severe"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "integrate_multisystem_resuscitation_in_severe_hyperkalemia",
+          "prioritize_electrical_stabilization",
+          "manage_severe_hypoxemia",
+          "manage_shock_with_pulmonary_congestion",
+          "interpret_winter_formula_in_critical_illness",
+          "coordinate_urgent_krt_and_resuscitation"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    }
+  ]
+}

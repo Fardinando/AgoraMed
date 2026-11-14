@@ -1,0 +1,251 @@
+{
+  "cursoId": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+  "cursoOrigem": "Tratamento da Hipercalemia em Adultos",
+  "bancoOrigem": "AgoraQuiz Hipercalemia",
+  "bloco": "08",
+  "temaEditorial": "Diuréticos, quelantes e hemodiálise",
+  "questoes": [
+    {
+      "id": "aqz-hiper-036",
+      "numero": 36,
+      "titulo": "QUANDO A FUROSEMIDA PODE AJUDAR A ELIMINAR POTÁSSIO?",
+      "dificuldade": "Intermediária",
+      "competenciaPrincipal": "Selecionar diuréticos de alça conforme função renal, diurese e condição volêmica.",
+      "competenciasSecundarias": "Diuréticos de alça; kaliurese; função renal; hipervolemia; insuficiência cardíaca",
+      "eixoTematico": "Remoção renal de potássio",
+      "categoria": "Remoção renal de potássio",
+      "subtemas": "Diuréticos de alça; kaliurese; função renal; hipervolemia; insuficiência cardíaca",
+      "aulasRelacionadas": [
+        {
+          "numero": 20,
+          "aulaId": "aad65f01-fab2-47dc-b146-cb82f1234796",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        },
+        {
+          "numero": 21,
+          "aulaId": "89e1038e-82a1-42d0-ad9a-a55676dc005d",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        }
+      ],
+      "tipo": "Caso clínico de múltipla escolha.",
+      "statusEditorial": "Aprovada editorialmente.",
+      "versao": "1.0",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 67 anos, com insuficiência cardíaca e doença renal crônica estágio G3a, procura a emergência por piora da dispneia e edema de membros inferiores.\n\nApresenta:\n\n- Potássio: 5,9 mEq/L.\n- Creatinina: 1,7 mg/dL, semelhante ao basal.\n- Diurese preservada.\n- Pressão arterial: 148/86 mmHg.\n- Estertores bibasais e edema periférico.\n- ECG: sem alterações sugestivas de hipercalemia.\n\nA equipe considera utilizar furosemida intravenosa para tratar a congestão e favorecer a eliminação renal de potássio.\n\n**Qual é a interpretação mais adequada?**",
+      "alternativas": {
+        "A": "A furosemida pode aumentar a excreção urinária de potássio em pacientes com função renal e resposta diurética suficientes, sendo particularmente útil neste contexto de hipervolemia.",
+        "B": "A furosemida reduz o potássio exclusivamente por redistribuição intracelular, sem promover eliminação urinária.",
+        "C": "A furosemida é igualmente eficaz em pacientes anúricos, independentemente da função renal residual.",
+        "D": "A presença de hipercalemia torna todos os diuréticos de alça absolutamente contraindicados.\n\n**GABARITO: A**"
+      },
+      "gabarito": "A",
+      "raciocinioClinico": "**1. Qual é a condição volêmica do paciente?**\n\nApresenta sinais de hipervolemia, incluindo edema periférico, estertores e congestão.\n\n**2. Qual é a importância da diurese preservada?**\n\nIndica que existe capacidade de produção urinária, condição necessária para que a furosemida favoreça a eliminação renal de potássio.\n\n**3. Como a furosemida atua?**\n\nInibe o cotransportador Na-K-2Cl no ramo ascendente espesso da alça de Henle, aumentando a excreção de sódio e água.\n\n**4. Como isso favorece a excreção de potássio?**\n\nO aumento da entrega distal de sódio e do fluxo tubular pode estimular a secreção de potássio nos segmentos distais do néfron.\n\n**5. A furosemida apenas desloca potássio para o interior das células?**\n\nNão. Diferentemente da insulina, pode promover eliminação efetiva de potássio pela urina.\n\n**6. Qual é a importância da função renal residual?**\n\nA resposta kaliurética depende de função renal suficiente e da capacidade de produzir urina.\n\n**7. A furosemida funciona em pacientes anúricos?**\n\nNão se deve esperar eliminação urinária significativa de potássio em pacientes sem produção de urina.\n\n**8. Por que o contexto de hipervolemia favorece seu uso?**\n\nPorque a furosemida pode contribuir simultaneamente para descongestão e aumento da excreção urinária de potássio.\n\n**9. É necessário administrar solução salina a esse paciente?**\n\nNão rotineiramente. Como apresenta congestão, a expansão volêmica indiscriminada pode agravar a insuficiência cardíaca.\n\n**10. O que o UpToDate destaca sobre a resposta kaliurética?**\n\nA referência ressalta que não há evidências de uma resposta kaliurética de curto prazo clinicamente importante e previsível em todos os pacientes com hipercalemia persistente.\n\n**11. A furosemida pode ser a única estratégia de remoção em uma emergência hipercalêmica?**\n\nNão. O UpToDate não recomenda diuréticos como único método de remoção em uma emergência hipercalêmica.\n\n**12. Como monitorizar a resposta?**\n\nAvaliando diurese, volemia, pressão arterial, função renal e potássio sérico.\n\n**13. Qual é a competência principal?**\n\nSelecionar diuréticos de alça conforme a função renal, a diurese e a condição volêmica.",
+      "comentarios": {
+        "A": "A presença de hipervolemia, diurese preservada e função renal residual torna a furosemida uma opção apropriada para favorecer a excreção urinária de potássio.",
+        "B": "A furosemida não atua por redistribuição intracelular; pode aumentar a eliminação urinária de potássio.",
+        "C": "A ausência de diurese impede uma resposta kaliurética relevante.",
+        "D": "A hipercalemia não contraindica diuréticos de alça; em pacientes selecionados, eles podem integrar o tratamento."
+      },
+      "perola": "> Para a furosemida eliminar potássio, o rim precisa produzir urina. Antes de prescrevê-la, avalie três coisas: função renal, diurese e volemia.",
+      "referencias": "**Treatment and prevention of hyperkalemia in adults. UpToDate.**\n\nSeção: **Loop diuretics in patients without severe kidney function impairment**.\n\n---"
+    },
+    {
+      "id": "aqz-hiper-037",
+      "numero": 37,
+      "titulo": "HIPERCALEMIA GRAVE: ESPERAR O QUELANTE OU INICIAR HEMODIÁLISE?",
+      "dificuldade": "Avançada",
+      "competenciaPrincipal": "Reconhecer quando a hemodiálise é a estratégia prioritária de remoção de potássio.",
+      "competenciasSecundarias": "Doença renal terminal; toxicidade elétrica; remoção efetiva; acesso vascular; medidas temporizadoras",
+      "eixoTematico": "Hemodiálise na emergência hipercalêmica",
+      "categoria": "Hemodiálise na emergência hipercalêmica",
+      "subtemas": "Doença renal terminal; toxicidade elétrica; remoção efetiva; acesso vascular; medidas temporizadoras",
+      "aulasRelacionadas": [
+        {
+          "numero": 22,
+          "aulaId": "f99d47de-7f1e-4079-98ed-1209390ea2df",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        },
+        {
+          "numero": 23,
+          "aulaId": "3752db01-2371-4fec-8f6e-f7c2b9935390",
+          "moduloId": "18dc5aa4-8311-4f3c-b95f-8831cc6a2269"
+        }
+      ],
+      "tipo": "Caso clínico de múltipla escolha.",
+      "statusEditorial": "Aprovada editorialmente.",
+      "versao": "1.0",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 61 anos, com doença renal terminal em hemodiálise três vezes por semana, faltou às duas últimas sessões.\n\nChega à emergência com fraqueza intensa e bradicardia.\n\nExames:\n\n- Potássio: 7,6 mEq/L.\n- Creatinina: 10,2 mg/dL.\n- ECG: QRS alargado e ondas T apiculadas.\n- Acesso vascular para hemodiálise funcionante.\n\nRecebe imediatamente cálcio intravenoso e insulina com glicose.\n\nO serviço dispõe de equipe de hemodiálise e pode iniciar o procedimento prontamente.\n\nUm profissional sugere utilizar exclusivamente um quelante gastrointestinal e aguardar sua ação antes de solicitar diálise.\n\n**Qual é a conduta mais adequada?**",
+      "alternativas": {
+        "A": "Utilizar exclusivamente um quelante gastrointestinal, pois sua capacidade de remover potássio é mais rápida e previsível do que a hemodiálise.",
+        "B": "Aguardar seis horas para repetir o potássio antes de considerar diálise, mesmo com alterações eletrocardiográficas graves.",
+        "C": "Solicitar hemodiálise urgente, mantendo estabilização cardíaca, medidas temporizadoras e monitorização enquanto o procedimento é organizado.",
+        "D": "Administrar furosemida isoladamente, pois a doença renal terminal não interfere em sua capacidade de eliminar potássio.\n\n**GABARITO: C**"
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. O paciente apresenta uma emergência hipercalêmica?**\n\nSim. A hipercalemia grave associada à bradicardia e ao QRS alargado indica toxicidade elétrica importante.\n\n**2. Qual é a prioridade imediata?**\n\nEstabilizar a membrana cardíaca com cálcio intravenoso quando indicado e iniciar medidas de redução rápida do potássio extracelular.\n\n**3. A insulina elimina potássio do organismo?**\n\nNão. Promove redistribuição intracelular temporária.\n\n**4. Por que a doença renal terminal modifica a escolha do tratamento?**\n\nPorque a capacidade de eliminação renal de potássio é muito limitada ou ausente.\n\n**5. Qual modalidade remove potássio de forma mais eficiente nesse contexto?**\n\nA hemodiálise, quando prontamente disponível.\n\n**6. O que o material-base recomenda?**\n\nHemodiálise para pacientes com hipercalemia e comprometimento grave da função renal, especialmente quando há emergência hipercalêmica.\n\n**7. Qual é a importância do acesso vascular funcionante?**\n\nPermite iniciar o procedimento sem a necessidade de estabelecer novo acesso para diálise.\n\n**8. Um quelante gastrointestinal pode substituir a hemodiálise imediatamente disponível?**\n\nNão é a estratégia preferida no cenário apresentado. A hemodiálise proporciona remoção mais rápida e eficiente.\n\n**9. Os quelantes podem ter algum papel enquanto a diálise é organizada?**\n\nSim, especialmente quando há atraso significativo na disponibilidade da hemodiálise, conforme o contexto e a referência.\n\n**10. Por que não aguardar seis horas sem intervenção adicional?**\n\nPorque o paciente apresenta risco imediato de arritmias potencialmente fatais.\n\n**11. A furosemida isolada é adequada?**\n\nNão. A doença renal terminal limita a capacidade de eliminação urinária de potássio.\n\n**12. O tratamento temporizador deve ser interrompido após solicitar diálise?**\n\nNão. A estabilização, a monitorização e as medidas necessárias devem ser mantidas enquanto se organiza a remoção definitiva.\n\n**13. Qual é a importância da avaliação nefrológica urgente?**\n\nPermite definir e realizar a terapia dialítica apropriada, considerando a condição clínica e a disponibilidade do procedimento.\n\n**14. Qual é a competência principal?**\n\nReconhecer quando a hemodiálise é a estratégia prioritária de remoção efetiva de potássio.",
+      "comentarios": {
+        "A": "Os quelantes gastrointestinais não oferecem a mesma rapidez e previsibilidade da hemodiálise nesse cenário.",
+        "B": "A toxicidade elétrica exige intervenção imediata e não permite aguardar passivamente.",
+        "C": "A hemodiálise urgente é a estratégia preferida, acompanhada das medidas de estabilização e monitorização.",
+        "D": "A furosemida isolada não é uma alternativa adequada à hemodiálise em paciente com doença renal terminal e emergência hipercalêmica."
+      },
+      "perola": "> Na hipercalemia grave com falência renal, a insulina compra tempo. A hemodiálise remove o potássio que o rim não consegue eliminar.",
+      "referencias": "**Treatment and prevention of hyperkalemia in adults. UpToDate.**\n\nSeção: **Hemodialysis in patients with severe kidney dysfunction**.\n\n---"
+    },
+    {
+      "id": "aqz-hiper-038",
+      "numero": 38,
+      "titulo": "CICLOSSILICATO DE ZIRCÔNIO, PATIROMER OU POLIESTIRENOSSULFONATO?",
+      "dificuldade": "Avançada",
+      "competenciaPrincipal": "Selecionar agentes de remoção gastrointestinal considerando início de ação, segurança e disponibilidade da hemodiálise.",
+      "competenciasSecundarias": "Ciclossilicato de zircônio sódico; patiromer; poliestirenossulfonato de sódio; início de ação; segurança",
+      "eixoTematico": "Trocadores gastrointestinais de potássio",
+      "categoria": "Trocadores gastrointestinais de potássio",
+      "subtemas": "Ciclossilicato de zircônio sódico; patiromer; poliestirenossulfonato de sódio; início de ação; segurança",
+      "aulasRelacionadas": [
+        {
+          "numero": 21,
+          "aulaId": "89e1038e-82a1-42d0-ad9a-a55676dc005d",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        },
+        {
+          "numero": 22,
+          "aulaId": "f99d47de-7f1e-4079-98ed-1209390ea2df",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        },
+        {
+          "numero": 23,
+          "aulaId": "3752db01-2371-4fec-8f6e-f7c2b9935390",
+          "moduloId": "18dc5aa4-8311-4f3c-b95f-8831cc6a2269"
+        }
+      ],
+      "tipo": "Caso clínico de múltipla escolha.",
+      "statusEditorial": "Aprovada editorialmente.",
+      "versao": "1.0",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Uma mulher de 72 anos, com doença renal crônica avançada, é atendida por hipercalemia de 6,7 mEq/L.\n\nApresenta ondas T apiculadas no ECG e recebe tratamento emergencial com cálcio intravenoso e insulina associada à glicose.\n\nA equipe de nefrologia indica hemodiálise, mas informa que o procedimento não poderá ser iniciado nas próximas seis horas.\n\nA paciente está hemodinamicamente estável após as medidas iniciais, e o serviço dispõe de três medicamentos para remoção gastrointestinal de potássio:\n\n- Ciclossilicato de zircônio sódico (SZC).\n- Patiromer.\n- Poliestirenossulfonato de sódio (SPS).\n\n**Qual é a estratégia mais adequada?**",
+      "alternativas": {
+        "A": "Utilizar preferencialmente poliestirenossulfonato, pois apresenta ação mais rápida e menor risco gastrointestinal que os demais agentes.",
+        "B": "Considerar um trocador gastrointestinal, preferencialmente SZC quando disponível, como medida complementar enquanto se aguarda a hemodiálise, mantendo a monitorização e as demais intervenções indicadas.",
+        "C": "Substituir definitivamente a hemodiálise por qualquer um dos três medicamentos, pois todos apresentam eficácia e velocidade equivalentes.",
+        "D": "Não utilizar nenhum método de remoção gastrointestinal, pois esses medicamentos apenas deslocam potássio para o interior das células.\n\n**GABARITO: B**"
+      },
+      "gabarito": "B",
+      "raciocinioClinico": "**1. Qual é a condição inicial da paciente?**\n\nUma emergência hipercalêmica, caracterizada por potássio elevado associado a alterações eletrocardiográficas.\n\n**2. As medidas iniciais substituem a remoção de potássio?**\n\nNão. O cálcio estabiliza a membrana cardíaca, enquanto a insulina redistribui temporariamente o potássio.\n\n**3. Por que a hemodiálise foi indicada?**\n\nPorque a paciente apresenta comprometimento renal avançado e necessita de remoção efetiva do potássio.\n\n**4. Qual é o problema logístico?**\n\nA hemodiálise não poderá ser iniciada prontamente.\n\n**5. Como atuam os trocadores gastrointestinais?**\n\nLigam-se ao potássio no trato gastrointestinal, favorecendo sua eliminação fecal em troca de outros cátions.\n\n**6. O que é o SZC?**\n\nUm agente que se liga ao potássio no trato gastrointestinal, promovendo sua eliminação.\n\n**7. O que é o patiromer?**\n\nUm polímero que se liga ao potássio no trato gastrointestinal, favorecendo sua excreção fecal.\n\n**8. Qual agente o UpToDate prefere quando há necessidade de um trocador na emergência?**\n\nO material-base prefere SZC ou patiromer em relação ao SPS, geralmente favorecendo o SZC quando disponível por seu início de ação mais rápido.\n\n**9. O SZC age imediatamente como o cálcio intravenoso?**\n\nNão. Embora possa começar a reduzir o potássio nas primeiras horas, não substitui a estabilização cardíaca.\n\n**10. Qual efeito quantitativo é descrito na referência?**\n\nO UpToDate cita uma redução média de aproximadamente 0,37 mEq/L quatro horas após uma dose de 10 g de SZC, destacando que os dados em emergências ainda são limitados.\n\n**11. Por que o SPS não é a primeira escolha?**\n\nPorque apresenta limitações de eficácia e segurança, incluindo eventos gastrointestinais graves.\n\n**12. O trocador elimina a necessidade de hemodiálise?**\n\nNão necessariamente. Neste cenário, deve ser entendido como medida complementar enquanto se aguarda a terapia dialítica indicada.\n\n**13. A monitorização pode ser suspensa após administrar o SZC?**\n\nNão. A paciente continua exigindo acompanhamento clínico, eletrocardiográfico e laboratorial.\n\n**14. Qual é a competência principal?**\n\nSelecionar um agente de remoção gastrointestinal considerando início de ação, segurança e disponibilidade da hemodiálise.",
+      "comentarios": {
+        "A": "O SPS não é preferido quando SZC ou patiromer estão disponíveis, principalmente pelas preocupações de segurança gastrointestinal.",
+        "B": "Considera o SZC como opção complementar quando a hemodiálise não pode ser prontamente realizada, sem abandonar o tratamento emergencial.",
+        "C": "Os agentes não apresentam velocidade e segurança equivalentes, nem substituem automaticamente a hemodiálise indicada.",
+        "D": "Os trocadores gastrointestinais promovem eliminação de potássio, diferentemente das terapias redistributivas."
+      },
+      "perola": "> O quelante gastrointestinal pode ajudar a remover potássio, mas não substitui o cálcio quando existe toxicidade elétrica nem a hemodiálise quando ela é necessária e está disponível.",
+      "referencias": "**Treatment and prevention of hyperkalemia in adults. UpToDate.**\n\nSeções:\n\n- **Dialysis and gastrointestinal cation exchangers**\n- **Patiromer or sodium zirconium cyclosilicate (SZC)**",
+      "observacaoCientificaEditorial": "Preservar a distinção entre:\n\n1. Estabilização da membrana cardíaca.\n2. Redistribuição temporária de potássio.\n3. Remoção gastrointestinal.\n4. Remoção dialítica.\n\nNão apresentar SZC, patiromer ou SPS como substitutos universais da terapia dialítica indicada.\n\nNão afirmar que a redução do potássio por SZC é imediata ou previsível em todos os pacientes.\n\n---"
+    },
+    {
+      "id": "aqz-hiper-039",
+      "numero": 39,
+      "titulo": "O PACIENTE ESTÁ NO PÓS-OPERATÓRIO. PODEMOS USAR POLIESTIRENOSSULFONATO?",
+      "dificuldade": "Avançada",
+      "competenciaPrincipal": "Reconhecer situações em que os riscos de um agente de remoção superam seus possíveis benefícios.",
+      "competenciasSecundarias": "Poliestirenossulfonato de sódio; pós-operatório abdominal; íleo; necrose intestinal; contraindicações",
+      "eixoTematico": "Segurança dos trocadores gastrointestinais",
+      "categoria": "Segurança dos trocadores gastrointestinais",
+      "subtemas": "Poliestirenossulfonato de sódio; pós-operatório abdominal; íleo; necrose intestinal; contraindicações",
+      "aulasRelacionadas": [
+        {
+          "numero": 21,
+          "aulaId": "89e1038e-82a1-42d0-ad9a-a55676dc005d",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        },
+        {
+          "numero": 22,
+          "aulaId": "f99d47de-7f1e-4079-98ed-1209390ea2df",
+          "moduloId": "b53693d6-886f-4213-a193-d04c3adaefec"
+        }
+      ],
+      "tipo": "Caso clínico de múltipla escolha.",
+      "statusEditorial": "Aprovada editorialmente.",
+      "versao": "1.0",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Um homem de 74 anos encontra-se no terceiro dia pós-operatório de uma colectomia por neoplasia de cólon.\n\nEvolui com lesão renal aguda, potássio de 6,1 mEq/L e distensão abdominal importante.\n\nA equipe cirúrgica suspeita de íleo pós-operatório.\n\nO ECG não apresenta alterações sugestivas de hipercalemia, e a equipe está organizando as medidas de tratamento e remoção de potássio.\n\nUm profissional sugere administrar poliestirenossulfonato de sódio (SPS), argumentando que o medicamento elimina potássio pelo intestino.\n\n**Qual é a melhor decisão?**",
+      "alternativas": {
+        "A": "Administrar SPS, pois o íleo aumenta o tempo de contato com o medicamento e melhora sua segurança.",
+        "B": "Administrar SPS associado a sorbitol, pois essa combinação elimina o risco de necrose intestinal.",
+        "C": "Utilizar SPS como primeira escolha, pois a cirurgia abdominal recente não modifica seu perfil de segurança.",
+        "D": "Evitar SPS devido ao elevado risco de complicações gastrointestinais, especialmente necrose intestinal, e selecionar outras estratégias de tratamento e remoção conforme a gravidade e a função renal.\n\n**GABARITO: D**"
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. Qual é o contexto clínico?**\n\nUm paciente em pós-operatório abdominal recente, com possível íleo, lesão renal aguda e hipercalemia.\n\n**2. Qual é o mecanismo do SPS?**\n\nÉ uma resina de troca catiônica que se liga ao potássio no trato gastrointestinal, favorecendo sua eliminação.\n\n**3. Por que o pós-operatório é relevante?**\n\nPacientes em pós-operatório apresentam maior risco de complicações intestinais associadas ao SPS.\n\n**4. Qual é a importância do íleo?**\n\nA redução ou ausência de trânsito intestinal aumenta a preocupação com complicações gastrointestinais.\n\n**5. Qual complicação grave é descrita?**\n\nNecrose intestinal, potencialmente fatal.\n\n**6. O risco desaparece quando o SPS é administrado sem sorbitol?**\n\nNão. A referência alerta para o risco em pacientes suscetíveis com ou sem sorbitol.\n\n**7. Quais condições são citadas como situações de alto risco?**\n\nPós-operatório, íleo, obstrução intestinal, constipação ou risco de constipação e doenças intestinais subjacentes.\n\n**8. O fato de o SPS remover potássio justifica seu uso indiscriminado?**\n\nNão. A escolha deve considerar o benefício esperado e os riscos específicos do paciente.\n\n**9. Existem alternativas de remoção?**\n\nSim. A seleção pode incluir hemodiálise, outros trocadores gastrointestinais quando apropriados e estratégias renais quando houver função residual suficiente.\n\n**10. Os outros trocadores podem ser administrados automaticamente em qualquer paciente com íleo?**\n\nNão. A suspeita de comprometimento do trânsito intestinal também exige avaliação da viabilidade, segurança e adequação de medicamentos administrados por via gastrointestinal.\n\n**11. A ausência de alterações no ECG elimina a necessidade de tratar?**\n\nNão. O potássio de 6,1 mEq/L, associado à lesão renal aguda, exige avaliação e acompanhamento apropriados.\n\n**12. Qual é a competência principal?**\n\nReconhecer situações em que os riscos de um agente de remoção superam seus possíveis benefícios.\n\n**13. Qual é o erro central da proposta?**\n\nEscolher um medicamento apenas por seu mecanismo de ação, sem considerar contraindicações e riscos clínicos.",
+      "comentarios": {
+        "A": "O íleo aumenta a preocupação com toxicidade gastrointestinal e não representa vantagem terapêutica segura.",
+        "B": "A associação com sorbitol não elimina o risco de necrose intestinal.",
+        "C": "O pós-operatório abdominal recente é uma situação expressamente destacada pela referência como de alto risco.",
+        "D": "Reconhece a necessidade de evitar SPS e selecionar outras estratégias apropriadas para a condição clínica."
+      },
+      "perola": "> Não basta saber que um medicamento elimina potássio. É preciso saber quando ele pode causar mais dano do que benefício. No pós-operatório com íleo, o poliestirenossulfonato pode ser uma escolha perigosa.",
+      "referencias": "**Treatment and prevention of hyperkalemia in adults. UpToDate.**\n\nSeção: **Sodium polystyrene sulfonate (SPS) in rare settings**.",
+      "observacaoCientificaEditorial": "Não interpretar a contraindicação ao SPS como autorização automática para utilizar outros medicamentos por via gastrointestinal em um paciente com íleo.\n\nA escolha da estratégia de remoção deve considerar o trânsito intestinal, a gravidade da hipercalemia, a função renal e a possibilidade de diálise.\n\n---"
+    },
+    {
+      "id": "aqz-hiper-040",
+      "numero": 40,
+      "titulo": "O POTÁSSIO CAIU DURANTE A HEMODIÁLISE. O RISCO ACABOU?",
+      "dificuldade": "Avançada",
+      "competenciaPrincipal": "Reconhecer o rebote pós-dialítico e evitar interpretar uma elevação posterior como falha obrigatória do tratamento.",
+      "competenciasSecundarias": "Rebote pós-dialítico; redistribuição transcelular; gradiente plasma-dialisato; monitorização laboratorial",
+      "eixoTematico": "Monitorização após hemodiálise",
+      "categoria": "Monitorização após hemodiálise",
+      "subtemas": "Rebote pós-dialítico; redistribuição transcelular; gradiente plasma-dialisato; monitorização laboratorial",
+      "aulasRelacionadas": [
+        {
+          "numero": 23,
+          "aulaId": "3752db01-2371-4fec-8f6e-f7c2b9935390",
+          "moduloId": "18dc5aa4-8311-4f3c-b95f-8831cc6a2269"
+        },
+        {
+          "numero": 26,
+          "aulaId": "8d392762-12f2-496d-ad0a-be8cbaaa0d8a",
+          "moduloId": "18dc5aa4-8311-4f3c-b95f-8831cc6a2269"
+        },
+        {
+          "numero": 27,
+          "aulaId": "039e69cc-0aee-435a-bb07-71885a8878b5",
+          "moduloId": "09f41441-7485-4722-a595-56106a808f3f"
+        }
+      ],
+      "tipo": "Caso clínico de múltipla escolha.",
+      "statusEditorial": "Aprovada editorialmente.",
+      "versao": "1.0",
+      "estilo": "caso clínico de múltipla escolha",
+      "criadoEm": "2026-11-14",
+      "ultimaRevisaoCientificaEm": null,
+      "enunciado": "Uma mulher de 63 anos, com doença renal terminal em hemodiálise, é admitida com potássio de 7,2 mEq/L.\n\nApós tratamento emergencial inicial, é submetida à hemodiálise.\n\nO potássio sérico apresenta a seguinte evolução:\n\n| Momento | Potássio |\n|---|---|\n| Antes da hemodiálise | 7,2 mEq/L |\n| Imediatamente após a sessão | 4,5 mEq/L |\n| Duas horas depois | 5,4 mEq/L |\n\nA paciente permanece clinicamente estável e sem novas alterações eletrocardiográficas.\n\nUm profissional afirma que a elevação após a sessão demonstra falha da hemodiálise.\n\n**Qual é a interpretação mais adequada?**",
+      "alternativas": {
+        "A": "A elevação é compatível com rebote pós-dialítico, decorrente da redistribuição de potássio do meio intracelular para o extracelular, exigindo interpretação conjunta com a evolução clínica e laboratorial.",
+        "B": "A hemodiálise não removeu potássio, pois qualquer elevação posterior demonstra ausência de efeito terapêutico.",
+        "C": "O cálcio intravenoso administrado antes da hemodiálise é a causa obrigatória do aumento posterior do potássio.",
+        "D": "O potássio deve permanecer exatamente igual ao valor imediatamente pós-diálise; qualquer alteração comprova erro laboratorial.\n\n**GABARITO: A**"
+      },
+      "gabarito": "A",
+      "raciocinioClinico": "**1. A hemodiálise removeu potássio?**\n\nSim. A redução de 7,2 para 4,5 mEq/L é compatível com remoção efetiva durante o procedimento.\n\n**2. Como a hemodiálise remove potássio?**\n\nPrincipalmente pela difusão do potássio do sangue para o dialisato, de acordo com o gradiente de concentração.\n\n**3. Qual é a importância do gradiente entre plasma e dialisato?**\n\nÉ um dos principais determinantes da velocidade de remoção do potássio.\n\n**4. Por que o potássio pode aumentar após a sessão?**\n\nPorque o potássio intracelular pode se redistribuir para o meio extracelular após a redução da concentração plasmática durante a hemodiálise.\n\n**5. Como esse fenômeno é denominado?**\n\nRebote pós-dialítico do potássio.\n\n**6. O rebote significa necessariamente que a hemodiálise falhou?**\n\nNão. Pode ocorrer mesmo após remoção efetiva de potássio.\n\n**7. O UpToDate descreve esse fenômeno?**\n\nSim. O material-base descreve aumento da concentração sérica de potássio após a hemodiálise devido à redistribuição entre os compartimentos corporais.\n\n**8. O potássio imediatamente após a sessão representa necessariamente o valor definitivo?**\n\nNão. Ele pode aumentar nas horas seguintes.\n\n**9. O rebote é sempre inofensivo?**\n\nNão. Sua importância depende da magnitude, da concentração final, do risco elétrico e das condições clínicas.\n\n**10. Qual é a importância do acompanhamento laboratorial?**\n\nIdentificar elevação clinicamente relevante e orientar a necessidade de novas intervenções.\n\n**11. O ECG também deve ser considerado?**\n\nSim. A avaliação elétrica integra a monitorização, mas não substitui a dosagem de potássio.\n\n**12. Quais fatores influenciam a remoção durante a hemodiálise?**\n\nPotássio inicial, gradiente plasma-dialisato, fluxo sanguíneo, fluxo do dialisato, duração da sessão e características do dialisador, entre outros.\n\n**13. A interpretação do rebote deve ser isolada?**\n\nNão. É necessário considerar a evolução do potássio, a função renal residual, a condição clínica e a programação dialítica.\n\n**14. Qual é a competência principal?**\n\nReconhecer o rebote pós-dialítico e evitar interpretar uma elevação posterior como falha obrigatória do tratamento.",
+      "comentarios": {
+        "A": "Reconhece a redistribuição pós-dialítica e a necessidade de avaliação clínica e laboratorial.",
+        "B": "A hemodiálise pode ter removido potássio efetivamente, mesmo quando ocorre rebote posterior.",
+        "C": "O cálcio não é a causa obrigatória desse fenômeno.",
+        "D": "A elevação pós-dialítica pode ser fisiologicamente explicada e não representa necessariamente erro laboratorial."
+      },
+      "perola": "> O potássio medido imediatamente após a hemodiálise não conta toda a história. O rebote pós-dialítico existe, e a interpretação depende da evolução do paciente, não de um único exame.",
+      "referencias": "**Treatment and prevention of hyperkalemia in adults. UpToDate.**\n\nSeção: **Dialysis**, incluindo a discussão sobre rebote pós-hemodiálise.\n\n---\n\n# 5. REFERÊNCIA CIENTÍFICA GERAL\n\nReferência principal utilizada na elaboração das cinco questões:\n\n**Treatment and prevention of hyperkalemia in adults. UpToDate.**\n\nDocumento fornecido como material-base do curso AgoraMed.\n\nSeções relevantes:\n\n- **Remove potassium from the body**\n- **Loop diuretics in patients without severe kidney function impairment**\n- **Hemodialysis in patients with severe kidney dysfunction**\n- **Dialysis and gastrointestinal cation exchangers**\n- **Patiromer or sodium zirconium cyclosilicate (SZC)**\n- **Sodium polystyrene sulfonate (SPS) in rare settings**\n- **Dialysis**\n\nAs referências devem ser exibidas no mesmo padrão dos blocos anteriores.\n\nNão inventar DOI, páginas bibliográficas, URLs ou identificadores.\n\nCaso a plataforma possua uma estrutura centralizada de referências, reutilizá-la.\n\n---\n\n# 6. COMPORTAMENTO DOS MODOS DE RESOLUÇÃO\n\n## Modo Estudo\n\nApós o aluno responder:\n\n1. Registrar a alternativa selecionada.\n2. Identificar se a resposta está correta.\n3. Exibir o gabarito.\n4. Exibir o comentário correspondente à alternativa selecionada.\n5. Permitir consultar os comentários das quatro alternativas.\n6. Exibir integralmente **Entendendo o raciocínio clínico**.\n7. Exibir a **Pérola do Plantão**.\n8. Exibir as referências.\n9. Atualizar o Caderno de Erros conforme as regras existentes.\n10. Permitir avançar para a próxima questão.\n\nNão reduzir o raciocínio clínico a um resumo.\n\nTodos os itens numerados devem permanecer disponíveis.\n\n## Modo Simulado\n\nDurante a resolução:\n\n1. Não revelar o gabarito.\n2. Não exibir explicações.\n3. Não exibir comentários das alternativas.\n4. Não exibir a Pérola do Plantão.\n5. Registrar as respostas conforme o fluxo existente.\n\nApós finalizar:\n\n1. Exibir resultado e desempenho.\n2. Permitir revisão individual de todas as questões.\n3. Mostrar gabarito, resposta do aluno e comentários.\n4. Exibir o raciocínio clínico completo.\n5. Exibir a Pérola do Plantão e as referências.\n6. Atualizar o Caderno de Erros conforme o comportamento já implementado.\n\nEvitar vazamentos do gabarito durante o simulado, inclusive por atributos de interface, mensagens de acessibilidade ou respostas de API não autorizadas.\n\n---\n\n# 7. INTEGRAÇÃO COM O CADERNO DE ERROS\n\nO Caderno de Erros é compartilhado entre componentes educacionais que utilizam questões compatíveis.\n\nEstados previstos:\n\n- **Precisa revisar**\n- **Em revisão**\n- **Dominada**\n\nRegras:\n\n1. Uma resposta incorreta registra a questão no Caderno de Erros.\n2. Não criar registros duplicados para o mesmo usuário e questão.\n3. Uma questão errada deve permanecer elegível para revisão.\n4. Durante a revisão, uma resposta correta aumenta a sequência de acertos.\n5. Duas respostas corretas consecutivas nas revisões permitem classificar a questão como **Dominada**.\n6. Uma resposta incorreta durante a revisão reinicia a sequência de acertos.\n7. Uma questão anteriormente dominada que volte a ser respondida incorretamente deve retornar ao fluxo de revisão.\n8. Preservar histórico e persistência conforme a arquitetura existente.\n9. Não duplicar lógica de negócio entre frontend e backend.\n10. Respeitar as regras de acesso e isolamento dos dados por usuário.\n\nReutilizar o mecanismo já existente.\n\nCaso haja divergência entre essas regras e o código atual, identificar a divergência antes de promover mudanças estruturais.\n\n---\n\n# 8. METADADOS E COMPATIBILIDADE FUTURA\n\nPara cada questão, preservar os seguintes metadados, adaptando os nomes ao esquema existente:\n\n- `id`\n- `courseId`\n- `blockId`\n- `number`\n- `title`\n- `difficulty`\n- `category`\n- `subtopics`\n- `competency`\n- `relatedLessonIds`\n- `questionText`\n- `alternatives`\n- `correctAnswer`\n- `clinicalReasoning`\n- `alternativeFeedback`\n- `clinicalPearl`\n- `references`\n- `editorialStatus`\n\nEsses nomes são conceituais, não uma exigência de migração de esquema."
+    }
+  ]
+}

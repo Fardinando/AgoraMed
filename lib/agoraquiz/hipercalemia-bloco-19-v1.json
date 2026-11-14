@@ -1,0 +1,2112 @@
+{
+  "cursoId": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+  "quizId": "agoraquiz-hipercalemia",
+  "cursoOrigem": "Tratamento da Hipercalemia em Adultos",
+  "bancoOrigem": "AgoraQuiz Hipercalemia",
+  "bloco": "19",
+  "temaEditorial": "Hipercalemia e decisões terapêuticas complexas — quando tratar o potássio exige compreender a doença de base.",
+  "questoes": [
+    {
+      "id": "aqz-hiper-091",
+      "question_id": "aqz-hiper-091",
+      "numero": 91,
+      "question_number": 91,
+      "titulo": "O antibiótico que se comportou como um poupador de potássio",
+      "competenciaPrincipal": "Reconhecer a interferência farmacológica no transporte distal de sódio e potássio, identificando interações medicamentosas capazes de provocar hipercalemia grave.",
+      "competenciasSecundarias": [
+        "understand_enac_potassium_secretion",
+        "recognize_trimethoprim_amiloride_like_effect",
+        "identify_arb_drug_interaction",
+        "differentiate_creatinine_secretion_from_gfr",
+        "manage_medication_induced_hyperkalemia"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Um homem de 76 anos, com diabetes mellitus tipo 2, hipertensão arterial e doença renal crônica estágio G3b, procura a emergência por fraqueza muscular progressiva e sensação de palpitações.\n\nHá cinco dias, iniciou sulfametoxazol-trimetoprima para tratamento de infecção urinária.\n\nFaz uso regular de losartana 100 mg/dia e amlodipino 5 mg/dia.\n\nNa avaliação:\n\n- PA: 132/76 mmHg.\n- FC: 58 bpm.\n- Potássio: 6,5 mEq/L.\n- Creatinina: 1,9 mg/dL.\n- Creatinina basal: 1,7 mg/dL.\n- Bicarbonato: 21 mEq/L.\n- Glicemia: 148 mg/dL.\n\nO ECG demonstra ondas T apiculadas, sem alargamento do QRS.\n\nUma semana antes, o potássio era de 4,7 mEq/L.\n\nO residente considera que a hipercalemia deve ser atribuída exclusivamente à progressão da doença renal crônica, pois o antibiótico não possui efeito conhecido sobre o transporte renal de potássio.\n\n**Qual é a interpretação e a conduta mais adequadas?**",
+      "alternativas": {
+        "A": "O sulfametoxazol-trimetoprima estimula a secreção renal de potássio e, portanto, não pode contribuir para a hipercalemia.",
+        "B": "A hipercalemia é explicada exclusivamente pela pequena elevação da creatinina, tornando desnecessária a revisão dos medicamentos.",
+        "C": "O trimetoprima pode bloquear canais epiteliais de sódio (ENaC) no néfron distal, reduzindo a secreção de potássio. A associação com losartana e doença renal crônica aumenta o risco, exigindo tratamento da hipercalemia conforme sua gravidade e revisão da antibioticoterapia e dos demais medicamentos.",
+        "D": "A hipercalemia provocada por trimetoprima ocorre exclusivamente por destruição muscular aguda e deve ser tratada como rabdomiólise."
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. Qual é o principal distúrbio apresentado?**\n\nHipercalemia importante, com potássio de 6,5 mEq/L e alterações eletrocardiográficas compatíveis com toxicidade elétrica.\n\n**2. Qual informação da história clínica sugere um fator precipitante?**\n\nO início recente de sulfametoxazol-trimetoprima, seguido de elevação significativa do potássio.\n\n**3. Qual componente da associação antibiótica está mais diretamente relacionado à hipercalemia?**\n\nO trimetoprima.\n\n**4. Em qual segmento renal o trimetoprima interfere?**\n\nPrincipalmente no néfron distal, especialmente nas células principais do túbulo conector e ducto coletor cortical.\n\n**5. Qual é o mecanismo farmacológico responsável?**\n\nBloqueio dos canais epiteliais de sódio, conhecidos como ENaC, de maneira semelhante ao efeito da amilorida.\n\n**6. Qual é a importância fisiológica do ENaC?**\n\nA reabsorção de sódio por esses canais contribui para gerar um potencial elétrico luminal negativo, favorecendo a secreção de potássio.\n\n**7. O que acontece quando o ENaC é bloqueado?**\n\nA reabsorção eletrogênica de sódio diminui, reduzindo o gradiente favorável à secreção tubular de potássio.\n\n**8. Por que a losartana aumenta o risco?**\n\nPorque o bloqueio do receptor de angiotensina II pode reduzir a atividade da aldosterona, comprometendo adicionalmente a excreção renal de potássio.\n\n**9. Qual é a contribuição da doença renal crônica?**\n\nA redução da reserva funcional renal limita a capacidade de adaptação diante de medicamentos que diminuem a excreção de potássio.\n\n**10. A pequena elevação da creatinina explica obrigatoriamente toda a hipercalemia?**\n\nNão. A hipercalemia pode ocorrer por alterações do transporte tubular mesmo sem redução proporcional da filtração glomerular.\n\n**11. O trimetoprima pode influenciar a creatinina por outro mecanismo?**\n\nSim. Pode inibir a secreção tubular de creatinina, produzindo aumento da concentração sérica sem redução equivalente da filtração glomerular. Isso não exclui lesão renal verdadeira, que deve ser avaliada.\n\n**12. Qual é a prioridade diante do potássio de 6,5 mEq/L e das ondas T apiculadas?**\n\nTratar imediatamente a hipercalemia e sua possível toxicidade elétrica, conforme o protocolo clínico, com monitorização cardíaca.\n\n**13. Como abordar a causa precipitante?**\n\nReavaliar a necessidade do sulfametoxazol-trimetoprima, considerar alternativa antimicrobiana apropriada e revisar temporariamente medicamentos que favorecem hipercalemia, conforme a gravidade e o contexto.\n\n**14. Qual é a competência principal?**\n\nReconhecer a interferência farmacológica no transporte distal de sódio e potássio, identificando interações medicamentosas capazes de provocar hipercalemia grave.",
+      "comentarios": {
+        "A": "O trimetoprima pode reduzir a secreção renal de potássio por bloqueio de ENaC. Seu efeito é semelhante ao de um diurético poupador de potássio.",
+        "B": "A pequena variação da creatinina não explica necessariamente a intensidade da hipercalemia. A revisão medicamentosa é fundamental.",
+        "C": "O trimetoprima reduz a secreção distal de potássio. A associação com losartana e doença renal crônica favorece hipercalemia, exigindo tratamento imediato e revisão dos fatores precipitantes.",
+        "D": "O mecanismo característico é a redução da secreção renal de potássio, e não destruição muscular."
+      },
+      "perola": "> Nem todo medicamento que poupa potássio é prescrito como diurético. O trimetoprima pode se comportar como a amilorida no néfron distal — e transformar uma associação medicamentosa aparentemente habitual em uma hipercalemia grave.",
+      "referencias": "*Causes and evaluation of hyperkalemia in adults*. UpToDate.\nPerazella MA. Trimethoprim-induced hyperkalaemia: clinical data, mechanism, prevention and management. *Drug Safety*.\nLiteratura sobre interações entre trimetoprima, bloqueadores do sistema renina-angiotensina e doença renal crônica.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 19,
+      "stem": "Um homem de 76 anos, com diabetes mellitus tipo 2, hipertensão arterial e doença renal crônica estágio G3b, procura a emergência por fraqueza muscular progressiva e sensação de palpitações.\n\nHá cinco dias, iniciou sulfametoxazol-trimetoprima para tratamento de infecção urinária.\n\nFaz uso regular de losartana 100 mg/dia e amlodipino 5 mg/dia.\n\nNa avaliação:\n\n- PA: 132/76 mmHg.\n- FC: 58 bpm.\n- Potássio: 6,5 mEq/L.\n- Creatinina: 1,9 mg/dL.\n- Creatinina basal: 1,7 mg/dL.\n- Bicarbonato: 21 mEq/L.\n- Glicemia: 148 mg/dL.\n\nO ECG demonstra ondas T apiculadas, sem alargamento do QRS.\n\nUma semana antes, o potássio era de 4,7 mEq/L.\n\nO residente considera que a hipercalemia deve ser atribuída exclusivamente à progressão da doença renal crônica, pois o antibiótico não possui efeito conhecido sobre o transporte renal de potássio.\n\n**Qual é a interpretação e a conduta mais adequadas?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-091-A",
+          "question_id": "aqz-hiper-091",
+          "letter": "A",
+          "text": "O sulfametoxazol-trimetoprima estimula a secreção renal de potássio e, portanto, não pode contribuir para a hipercalemia.",
+          "is_correct": false,
+          "feedback": "O trimetoprima pode reduzir a secreção renal de potássio por bloqueio de ENaC. Seu efeito é semelhante ao de um diurético poupador de potássio.",
+          "error_type": "pharmacology_mechanism_error",
+          "misconception_id": "trimethoprim_increases_potassium_secretion",
+          "misconception_description": "Inverte o efeito do trimetoprima sobre o ENaC e a secreção distal de potássio.",
+          "competency_ids": [
+            "understand_enac_potassium_secretion"
+          ],
+          "clinical_risk_if_applied": "não reconhecer hipercalemia medicamentosa."
+        },
+        {
+          "option_id": "aqz-hiper-091-B",
+          "question_id": "aqz-hiper-091",
+          "letter": "B",
+          "text": "A hipercalemia é explicada exclusivamente pela pequena elevação da creatinina, tornando desnecessária a revisão dos medicamentos.",
+          "is_correct": false,
+          "feedback": "A pequena variação da creatinina não explica necessariamente a intensidade da hipercalemia. A revisão medicamentosa é fundamental.",
+          "error_type": "incorrect_causal_attribution",
+          "misconception_id": "small_creatinine_rise_explains_all_hyperkalemia",
+          "misconception_description": "Atribui a hipercalemia exclusivamente à pequena variação da creatinina.",
+          "competency_ids": [
+            "recognize_trimethoprim_amiloride_like_effect"
+          ],
+          "clinical_risk_if_applied": "manter associação farmacológica potencialmente perigosa."
+        },
+        {
+          "option_id": "aqz-hiper-091-C",
+          "question_id": "aqz-hiper-091",
+          "letter": "C",
+          "text": "O trimetoprima pode bloquear canais epiteliais de sódio (ENaC) no néfron distal, reduzindo a secreção de potássio. A associação com losartana e doença renal crônica aumenta o risco, exigindo tratamento da hipercalemia conforme sua gravidade e revisão da antibioticoterapia e dos demais medicamentos.",
+          "is_correct": true,
+          "feedback": "O trimetoprima reduz a secreção distal de potássio. A associação com losartana e doença renal crônica favorece hipercalemia, exigindo tratamento imediato e revisão dos fatores precipitantes.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "recognize_trimethoprim_enac_hyperkalemia",
+            "understand_enac_potassium_secretion",
+            "recognize_trimethoprim_amiloride_like_effect"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-091-D",
+          "question_id": "aqz-hiper-091",
+          "letter": "D",
+          "text": "A hipercalemia provocada por trimetoprima ocorre exclusivamente por destruição muscular aguda e deve ser tratada como rabdomiólise.",
+          "is_correct": false,
+          "feedback": "O mecanismo característico é a redução da secreção renal de potássio, e não destruição muscular.",
+          "error_type": "incorrect_pathophysiology",
+          "misconception_id": "trimethoprim_hyperkalemia_is_rhabdomyolysis",
+          "misconception_description": "Confunde redução da excreção renal com liberação muscular de potássio.",
+          "competency_ids": [
+            "differentiate_creatinine_secretion_from_gfr"
+          ],
+          "clinical_risk_if_applied": "investigar mecanismo inadequado e não corrigir a causa."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-091-r01",
+          "question_id": "aqz-hiper-091",
+          "sequence": 1,
+          "prompt": "Qual é o principal distúrbio apresentado?",
+          "explanation": "Hipercalemia importante, com potássio de 6,5 mEq/L e alterações eletrocardiográficas compatíveis com toxicidade elétrica.",
+          "reasoning_type": "severe_hyperkalemia_recognition",
+          "competency_ids": [
+            "manage_medication_induced_hyperkalemia"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque hipercalemia importante, com potássio de 6,5 mEq/L e alterações eletrocardiográficas compatíveis com toxicidade elétrica.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-091-r02",
+          "question_id": "aqz-hiper-091",
+          "sequence": 2,
+          "prompt": "Qual informação da história clínica sugere um fator precipitante?",
+          "explanation": "O início recente de sulfametoxazol-trimetoprima, seguido de elevação significativa do potássio.",
+          "reasoning_type": "recent_medication_trigger",
+          "competency_ids": [
+            "manage_medication_induced_hyperkalemia"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque o início recente de sulfametoxazol-trimetoprima, seguido de elevação significativa do potássio.",
+          "prerequisite_concepts": [
+            "secreção distal de potássio",
+            "efeitos de fármacos sobre ENaC"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-091-r03",
+          "question_id": "aqz-hiper-091",
+          "sequence": 3,
+          "prompt": "Qual componente da associação antibiótica está mais diretamente relacionado à hipercalemia?",
+          "explanation": "O trimetoprima.",
+          "reasoning_type": "trimethoprim_component_identification",
+          "competency_ids": [
+            "recognize_trimethoprim_amiloride_like_effect"
+          ],
+          "cognitive_operation": "recall",
+          "clinical_relevance": "Este raciocínio é relevante porque o trimetoprima.",
+          "prerequisite_concepts": [
+            "secreção distal de potássio",
+            "efeitos de fármacos sobre ENaC"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-091-r04",
+          "question_id": "aqz-hiper-091",
+          "sequence": 4,
+          "prompt": "Em qual segmento renal o trimetoprima interfere?",
+          "explanation": "Principalmente no néfron distal, especialmente nas células principais do túbulo conector e ducto coletor cortical.",
+          "reasoning_type": "distal_nephron_localization",
+          "competency_ids": [
+            "differentiate_creatinine_secretion_from_gfr"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque principalmente no néfron distal, especialmente nas células principais do túbulo conector e ducto coletor cortical.",
+          "prerequisite_concepts": [
+            "secreção distal de potássio",
+            "efeitos de fármacos sobre ENaC"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-091-r05",
+          "question_id": "aqz-hiper-091",
+          "sequence": 5,
+          "prompt": "Qual é o mecanismo farmacológico responsável?",
+          "explanation": "Bloqueio dos canais epiteliais de sódio, conhecidos como ENaC, de maneira semelhante ao efeito da amilorida.",
+          "reasoning_type": "enac_blockade_mechanism",
+          "competency_ids": [
+            "understand_enac_potassium_secretion"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque bloqueio dos canais epiteliais de sódio, conhecidos como ENaC, de maneira semelhante ao efeito da amilorida.",
+          "prerequisite_concepts": [
+            "secreção distal de potássio",
+            "efeitos de fármacos sobre ENaC"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-091-r06",
+          "question_id": "aqz-hiper-091",
+          "sequence": 6,
+          "prompt": "Qual é a importância fisiológica do ENaC?",
+          "explanation": "A reabsorção de sódio por esses canais contribui para gerar um potencial elétrico luminal negativo, favorecendo a secreção de potássio.",
+          "reasoning_type": "enac_physiologic_role",
+          "competency_ids": [
+            "understand_enac_potassium_secretion"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque a reabsorção de sódio por esses canais contribui para gerar um potencial elétrico luminal negativo, favorecendo a secreção de potássio.",
+          "prerequisite_concepts": [
+            "secreção distal de potássio",
+            "efeitos de fármacos sobre ENaC"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-091-r07",
+          "question_id": "aqz-hiper-091",
+          "sequence": 7,
+          "prompt": "O que acontece quando o ENaC é bloqueado?",
+          "explanation": "A reabsorção eletrogênica de sódio diminui, reduzindo o gradiente favorável à secreção tubular de potássio.",
+          "reasoning_type": "distal_potassium_secretion_reduction",
+          "competency_ids": [
+            "understand_enac_potassium_secretion"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque a reabsorção eletrogênica de sódio diminui, reduzindo o gradiente favorável à secreção tubular de potássio.",
+          "prerequisite_concepts": [
+            "secreção distal de potássio",
+            "efeitos de fármacos sobre ENaC"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-091-r08",
+          "question_id": "aqz-hiper-091",
+          "sequence": 8,
+          "prompt": "Por que a losartana aumenta o risco?",
+          "explanation": "Porque o bloqueio do receptor de angiotensina II pode reduzir a atividade da aldosterona, comprometendo adicionalmente a excreção renal de potássio.",
+          "reasoning_type": "arb_hyperkalemia_interaction",
+          "competency_ids": [
+            "identify_arb_drug_interaction"
+          ],
+          "cognitive_operation": "integrate",
+          "clinical_relevance": "Este raciocínio é relevante porque porque o bloqueio do receptor de angiotensina II pode reduzir a atividade da aldosterona, comprometendo adicionalmente a excreção renal de potássio.",
+          "prerequisite_concepts": [
+            "fisiologia renal das prostaglandinas",
+            "sistema renina-angiotensina-aldosterona"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-091-r09",
+          "question_id": "aqz-hiper-091",
+          "sequence": 9,
+          "prompt": "Qual é a contribuição da doença renal crônica?",
+          "explanation": "A redução da reserva funcional renal limita a capacidade de adaptação diante de medicamentos que diminuem a excreção de potássio.",
+          "reasoning_type": "ckd_susceptibility",
+          "competency_ids": [
+            "identify_arb_drug_interaction"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque a redução da reserva funcional renal limita a capacidade de adaptação diante de medicamentos que diminuem a excreção de potássio.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-091-r10",
+          "question_id": "aqz-hiper-091",
+          "sequence": 10,
+          "prompt": "A pequena elevação da creatinina explica obrigatoriamente toda a hipercalemia?",
+          "explanation": "Não. A hipercalemia pode ocorrer por alterações do transporte tubular mesmo sem redução proporcional da filtração glomerular.",
+          "reasoning_type": "creatinine_potassium_disproportion",
+          "competency_ids": [
+            "understand_enac_potassium_secretion"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Este raciocínio é relevante porque não. A hipercalemia pode ocorrer por alterações do transporte tubular mesmo sem redução proporcional da filtração glomerular.",
+          "prerequisite_concepts": [
+            "diferença entre filtração glomerular e função tubular",
+            "secreção distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-091-r11",
+          "question_id": "aqz-hiper-091",
+          "sequence": 11,
+          "prompt": "O trimetoprima pode influenciar a creatinina por outro mecanismo?",
+          "explanation": "Sim. Pode inibir a secreção tubular de creatinina, produzindo aumento da concentração sérica sem redução equivalente da filtração glomerular. Isso não exclui lesão renal verdadeira, que deve ser avaliada.",
+          "reasoning_type": "trimethoprim_creatinine_secretion",
+          "competency_ids": [
+            "differentiate_creatinine_secretion_from_gfr"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque sim. Pode inibir a secreção tubular de creatinina, produzindo aumento da concentração sérica sem redução equivalente da filtração glomerular. Isso não exclui lesão renal verdadeira, que deve ser avaliada.",
+          "prerequisite_concepts": [
+            "secreção distal de potássio",
+            "efeitos de fármacos sobre ENaC"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-091-r12",
+          "question_id": "aqz-hiper-091",
+          "sequence": 12,
+          "prompt": "Qual é a prioridade diante do potássio de 6,5 mEq/L e das ondas T apiculadas?",
+          "explanation": "Tratar imediatamente a hipercalemia e sua possível toxicidade elétrica, conforme o protocolo clínico, com monitorização cardíaca.",
+          "reasoning_type": "urgent_electrical_toxicity_management",
+          "competency_ids": [
+            "manage_medication_induced_hyperkalemia"
+          ],
+          "cognitive_operation": "prioritize",
+          "clinical_relevance": "Este raciocínio é relevante porque tratar imediatamente a hipercalemia e sua possível toxicidade elétrica, conforme o protocolo clínico, com monitorização cardíaca.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-091-r13",
+          "question_id": "aqz-hiper-091",
+          "sequence": 13,
+          "prompt": "Como abordar a causa precipitante?",
+          "explanation": "Reavaliar a necessidade do sulfametoxazol-trimetoprima, considerar alternativa antimicrobiana apropriada e revisar temporariamente medicamentos que favorecem hipercalemia, conforme a gravidade e o contexto.",
+          "reasoning_type": "medication_review_strategy",
+          "competency_ids": [
+            "manage_medication_induced_hyperkalemia"
+          ],
+          "cognitive_operation": "plan",
+          "clinical_relevance": "Este raciocínio é relevante porque reavaliar a necessidade do sulfametoxazol-trimetoprima, considerar alternativa antimicrobiana apropriada e revisar temporariamente medicamentos que favorecem hipercalemia, conforme a gravidade e o contexto.",
+          "prerequisite_concepts": [
+            "secreção distal de potássio",
+            "efeitos de fármacos sobre ENaC"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-091-r14",
+          "question_id": "aqz-hiper-091",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Reconhecer a interferência farmacológica no transporte distal de sódio e potássio, identificando interações medicamentosas capazes de provocar hipercalemia grave.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "identify_arb_drug_interaction"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque reconhecer a interferência farmacológica no transporte distal de sódio e potássio, identificando interações medicamentosas capazes de provocar hipercalemia grave.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        }
+      ],
+      "clinical_pearl": "> Nem todo medicamento que poupa potássio é prescrito como diurético. O trimetoprima pode se comportar como a amilorida no néfron distal — e transformar uma associação medicamentosa aparentemente habitual em uma hipercalemia grave.",
+      "references": [
+        "*Causes and evaluation of hyperkalemia in adults*. UpToDate.",
+        "Perazella MA. Trimethoprim-induced hyperkalaemia: clinical data, mechanism, prevention and management. *Drug Safety*.",
+        "Literatura sobre interações entre trimetoprima, bloqueadores do sistema renina-angiotensina e doença renal crônica."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "trimethoprim_induced_hyperkalemia",
+        "clinical_context": "emergency_department",
+        "urgency_level": "urgent_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "recognize_trimethoprim_enac_hyperkalemia",
+        "secondary_competencies": [
+          "understand_enac_potassium_secretion",
+          "recognize_trimethoprim_amiloride_like_effect",
+          "identify_arb_drug_interaction",
+          "differentiate_creatinine_secretion_from_gfr",
+          "manage_medication_induced_hyperkalemia"
+        ],
+        "learning_objectives": [
+          "Reconhecer a interferência farmacológica no transporte distal de sódio e potássio, identificando interações medicamentosas capazes de provocar hipercalemia grave."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_safety",
+        "arena_skill_ids": [
+          "recognize_trimethoprim_enac_hyperkalemia",
+          "understand_enac_potassium_secretion",
+          "recognize_trimethoprim_amiloride_like_effect",
+          "identify_arb_drug_interaction",
+          "differentiate_creatinine_secretion_from_gfr",
+          "manage_medication_induced_hyperkalemia"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "recognize",
+          "trimethoprim",
+          "enac"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "recognize_trimethoprim_enac_hyperkalemia",
+          "understand_enac_potassium_secretion",
+          "recognize_trimethoprim_amiloride_like_effect",
+          "identify_arb_drug_interaction",
+          "differentiate_creatinine_secretion_from_gfr",
+          "manage_medication_induced_hyperkalemia"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-092",
+      "question_id": "aqz-hiper-092",
+      "numero": 92,
+      "question_number": 92,
+      "titulo": "O potássio elevado que veio acompanhado de acidose hiperclorêmica",
+      "competenciaPrincipal": "Reconhecer a associação entre hipercalemia e acidose metabólica hiperclorêmica como pista para disfunção da aldosterona e acidose tubular renal tipo 4.",
+      "competenciasSecundarias": [
+        "calculate_anion_gap",
+        "recognize_normal_anion_gap_metabolic_acidosis",
+        "understand_aldosterone_potassium_regulation",
+        "identify_hyporeninemic_hypoaldosteronism",
+        "understand_ammonium_excretion_impairment"
+      ],
+      "dificuldade": "Muito avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Uma mulher de 62 anos, com diabetes mellitus tipo 2 há 22 anos e nefropatia diabética, é encaminhada para investigação de hipercalemia persistente.\n\nNos últimos três meses, apresenta potássio entre 5,6 e 6,0 mEq/L, mesmo após orientação para reduzir o consumo excessivo de alimentos ricos em potássio.\n\nNão utiliza espironolactona, inibidores da ECA, bloqueadores dos receptores de angiotensina II ou suplementos de potássio.\n\nNa avaliação atual:\n\n- PA: 128/74 mmHg.\n- FC: 78 bpm.\n- Potássio: 5,9 mEq/L.\n- Sódio: 138 mEq/L.\n- Cloro: 112 mEq/L.\n- Bicarbonato: 17 mEq/L.\n- Creatinina: 1,5 mg/dL.\n- Glicemia: 156 mg/dL.\n\nA gasometria demonstra pH de 7,31 e PaCO₂ de 34 mmHg.\n\nO ânion gap calculado é de 9 mEq/L, sem correção por albumina, que se encontra dentro do intervalo de referência.\n\nO ECG não apresenta alterações típicas de hipercalemia.\n\nA avaliação clínica não identifica diarreia, perdas digestivas de bicarbonato ou exposição recente a soluções com grande carga de cloreto.\n\nA investigação complementar sugere redução da atividade do sistema renina-angiotensina-aldosterona.\n\n**Qual é a hipótese fisiopatológica mais provável?**",
+      "alternativas": {
+        "A": "Acidose tubular renal tipo 1, cuja manifestação característica obrigatória é hipercalemia persistente causada por produção excessiva de aldosterona.",
+        "B": "Acidose tubular renal tipo 4, frequentemente associada ao hipoaldosteronismo hiporreninêmico no diabetes, com redução da secreção renal de potássio e prejuízo da excreção de ácido, especialmente pela menor produção e excreção de amônio.",
+        "C": "Acidose metabólica com ânion gap elevado, provocada exclusivamente por acúmulo de lactato.",
+        "D": "Hipercalemia causada por deslocamento intracelular excessivo de potássio, sem participação da excreção renal."
+      },
+      "gabarito": "B",
+      "raciocinioClinico": "**1. Quais são os dois distúrbios laboratoriais predominantes?**\n\nHipercalemia persistente e acidose metabólica.\n\n**2. Como identificamos a acidose metabólica?**\n\nPelo bicarbonato reduzido, associado ao pH abaixo do intervalo fisiológico.\n\n**3. Como calculamos o ânion gap?**\n\nÂnion gap = sódio − (cloro + bicarbonato).\n\n**4. Qual é o ânion gap neste caso?**\n\n138 − (112 + 17) = 9 mEq/L.\n\n**5. Como classificamos essa acidose metabólica?**\n\nComo acidose metabólica com ânion gap normal, acompanhada de hipercloremia.\n\n**6. Qual é a importância da ausência de diarreia?**\n\nReduz a probabilidade de perda gastrointestinal de bicarbonato como explicação principal, embora não elimine outras causas extrarrenais.\n\n**7. Qual associação clínica sugere acidose tubular renal tipo 4?**\n\nDiabetes de longa duração, disfunção renal moderada, hipercalemia persistente e acidose metabólica hiperclorêmica.\n\n**8. Qual é o papel da aldosterona na excreção de potássio?**\n\nEstimular mecanismos de reabsorção distal de sódio que favorecem a secreção de potássio pelas células principais.\n\n**9. O que é hipoaldosteronismo hiporreninêmico?**\n\nUma condição em que a produção de renina e a atividade da aldosterona estão reduzidas ou inadequadamente baixas para as necessidades fisiológicas.\n\n**10. Por que o diabetes pode favorecer esse mecanismo?**\n\nA nefropatia diabética pode comprometer a regulação do sistema renina-angiotensina-aldosterona e predispor ao hipoaldosteronismo hiporreninêmico.\n\n**11. Como a hipercalemia interfere na excreção renal de ácido?**\n\nA hipercalemia pode reduzir a produção renal de amônia e comprometer a excreção de ácido na forma de amônio.\n\n**12. Qual é a diferença central entre acidose tubular renal tipo 4 e as formas clássicas dos tipos 1 e 2?**\n\nA acidose tubular renal tipo 4 caracteriza-se especialmente pela associação com hipercalemia, enquanto as formas clássicas dos tipos 1 e 2 frequentemente se associam a hipocalemia.\n\n**13. Qual deve ser a abordagem terapêutica?**\n\nAvaliar a gravidade da hipercalemia, revisar medicamentos e aporte de potássio, tratar a acidose quando indicado e considerar estratégias que aumentem a eliminação renal de potássio ou corrijam o déficit de atividade mineralocorticoide em situações selecionadas.\n\n**14. Qual é a competência principal?**\n\nReconhecer a associação entre hipercalemia e acidose metabólica hiperclorêmica como pista para disfunção da aldosterona e acidose tubular renal tipo 4.",
+      "comentarios": {
+        "A": "A acidose tubular renal distal clássica, tipo 1, geralmente se associa a dificuldade de acidificação urinária e frequentemente a hipocalemia. Produção excessiva de aldosterona não caracteriza esse mecanismo.",
+        "B": "O conjunto de diabetes, hipercalemia persistente e acidose metabólica com ânion gap normal sugere acidose tubular renal tipo 4, frequentemente relacionada ao hipoaldosteronismo hiporreninêmico.",
+        "C": "A acidose láctica importante costuma produzir elevação do ânion gap. O caso apresenta ânion gap normal, sem evidências de hiperlactatemia como causa principal.",
+        "D": "O padrão é compatível com redução da excreção renal de potássio, e não exclusivamente com redistribuição entre compartimentos."
+      },
+      "perola": "> Hipercalemia persistente associada a bicarbonato baixo e ânion gap normal deve fazer você pensar além da filtração glomerular: o problema pode estar na aldosterona e na capacidade tubular de excretar potássio e amônio.",
+      "referencias": "*Type 4 renal tubular acidosis*. UpToDate.\n*Renal tubular acidosis in adults*. UpToDate.\nLiteratura sobre hipoaldosteronismo hiporreninêmico na nefropatia diabética.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 19,
+      "stem": "Uma mulher de 62 anos, com diabetes mellitus tipo 2 há 22 anos e nefropatia diabética, é encaminhada para investigação de hipercalemia persistente.\n\nNos últimos três meses, apresenta potássio entre 5,6 e 6,0 mEq/L, mesmo após orientação para reduzir o consumo excessivo de alimentos ricos em potássio.\n\nNão utiliza espironolactona, inibidores da ECA, bloqueadores dos receptores de angiotensina II ou suplementos de potássio.\n\nNa avaliação atual:\n\n- PA: 128/74 mmHg.\n- FC: 78 bpm.\n- Potássio: 5,9 mEq/L.\n- Sódio: 138 mEq/L.\n- Cloro: 112 mEq/L.\n- Bicarbonato: 17 mEq/L.\n- Creatinina: 1,5 mg/dL.\n- Glicemia: 156 mg/dL.\n\nA gasometria demonstra pH de 7,31 e PaCO₂ de 34 mmHg.\n\nO ânion gap calculado é de 9 mEq/L, sem correção por albumina, que se encontra dentro do intervalo de referência.\n\nO ECG não apresenta alterações típicas de hipercalemia.\n\nA avaliação clínica não identifica diarreia, perdas digestivas de bicarbonato ou exposição recente a soluções com grande carga de cloreto.\n\nA investigação complementar sugere redução da atividade do sistema renina-angiotensina-aldosterona.\n\n**Qual é a hipótese fisiopatológica mais provável?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-092-A",
+          "question_id": "aqz-hiper-092",
+          "letter": "A",
+          "text": "Acidose tubular renal tipo 1, cuja manifestação característica obrigatória é hipercalemia persistente causada por produção excessiva de aldosterona.",
+          "is_correct": false,
+          "feedback": "A acidose tubular renal distal clássica, tipo 1, geralmente se associa a dificuldade de acidificação urinária e frequentemente a hipocalemia. Produção excessiva de aldosterona não caracteriza esse mecanismo.",
+          "error_type": "rta_classification_error",
+          "misconception_id": "type1_rta_is_always_hyperkalemic",
+          "misconception_description": "Classifica incorretamente a acidose tubular renal tipo 1 como causa característica de hipercalemia por excesso de aldosterona.",
+          "competency_ids": [
+            "calculate_anion_gap"
+          ],
+          "clinical_risk_if_applied": "interpretação fisiopatológica equivocada."
+        },
+        {
+          "option_id": "aqz-hiper-092-B",
+          "question_id": "aqz-hiper-092",
+          "letter": "B",
+          "text": "Acidose tubular renal tipo 4, frequentemente associada ao hipoaldosteronismo hiporreninêmico no diabetes, com redução da secreção renal de potássio e prejuízo da excreção de ácido, especialmente pela menor produção e excreção de amônio.",
+          "is_correct": true,
+          "feedback": "O conjunto de diabetes, hipercalemia persistente e acidose metabólica com ânion gap normal sugere acidose tubular renal tipo 4, frequentemente relacionada ao hipoaldosteronismo hiporreninêmico.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "identify_type4_renal_tubular_acidosis",
+            "calculate_anion_gap",
+            "recognize_normal_anion_gap_metabolic_acidosis"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-092-C",
+          "question_id": "aqz-hiper-092",
+          "letter": "C",
+          "text": "Acidose metabólica com ânion gap elevado, provocada exclusivamente por acúmulo de lactato.",
+          "is_correct": false,
+          "feedback": "A acidose láctica importante costuma produzir elevação do ânion gap. O caso apresenta ânion gap normal, sem evidências de hiperlactatemia como causa principal.",
+          "error_type": "acid_base_classification_error",
+          "misconception_id": "normal_anion_gap_is_lactic_acidosis",
+          "misconception_description": "Ignora o cálculo do ânion gap e atribui acidose hiperclorêmica à hiperlactatemia.",
+          "competency_ids": [
+            "understand_aldosterone_potassium_regulation"
+          ],
+          "clinical_risk_if_applied": "diagnóstico incorreto do distúrbio ácido-base."
+        },
+        {
+          "option_id": "aqz-hiper-092-D",
+          "question_id": "aqz-hiper-092",
+          "letter": "D",
+          "text": "Hipercalemia causada por deslocamento intracelular excessivo de potássio, sem participação da excreção renal.",
+          "is_correct": false,
+          "feedback": "O padrão é compatível com redução da excreção renal de potássio, e não exclusivamente com redistribuição entre compartimentos.",
+          "error_type": "potassium_shift_direction_error",
+          "misconception_id": "intracellular_potassium_shift_causes_hyperkalemia",
+          "misconception_description": "Confunde redistribuição intracelular com retenção renal de potássio.",
+          "competency_ids": [
+            "identify_hyporeninemic_hypoaldosteronism"
+          ],
+          "clinical_risk_if_applied": "não reconhecer disfunção tubular."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-092-r01",
+          "question_id": "aqz-hiper-092",
+          "sequence": 1,
+          "prompt": "Quais são os dois distúrbios laboratoriais predominantes?",
+          "explanation": "Hipercalemia persistente e acidose metabólica.",
+          "reasoning_type": "hyperkalemia_acidosis_pattern",
+          "competency_ids": [
+            "recognize_normal_anion_gap_metabolic_acidosis"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque hipercalemia persistente e acidose metabólica.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-092-r02",
+          "question_id": "aqz-hiper-092",
+          "sequence": 2,
+          "prompt": "Como identificamos a acidose metabólica?",
+          "explanation": "Pelo bicarbonato reduzido, associado ao pH abaixo do intervalo fisiológico.",
+          "reasoning_type": "metabolic_acidosis_recognition",
+          "competency_ids": [
+            "recognize_normal_anion_gap_metabolic_acidosis"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque pelo bicarbonato reduzido, associado ao pH abaixo do intervalo fisiológico.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-092-r03",
+          "question_id": "aqz-hiper-092",
+          "sequence": 3,
+          "prompt": "Como calculamos o ânion gap?",
+          "explanation": "Ânion gap = sódio − (cloro + bicarbonato).",
+          "reasoning_type": "anion_gap_formula",
+          "competency_ids": [
+            "recognize_normal_anion_gap_metabolic_acidosis"
+          ],
+          "cognitive_operation": "recall",
+          "clinical_relevance": "Este raciocínio é relevante porque ânion gap = sódio − (cloro + bicarbonato).",
+          "prerequisite_concepts": [
+            "equilíbrio ácido-base",
+            "fisiologia da aldosterona e secreção de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-092-r04",
+          "question_id": "aqz-hiper-092",
+          "sequence": 4,
+          "prompt": "Qual é o ânion gap neste caso?",
+          "explanation": "138 − (112 + 17) = 9 mEq/L.",
+          "reasoning_type": "anion_gap_calculation",
+          "competency_ids": [
+            "recognize_normal_anion_gap_metabolic_acidosis"
+          ],
+          "cognitive_operation": "calculate",
+          "clinical_relevance": "Este raciocínio é relevante porque 138 − (112 + 17) = 9 mEq/L.",
+          "prerequisite_concepts": [
+            "equilíbrio ácido-base",
+            "fisiologia da aldosterona e secreção de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-092-r05",
+          "question_id": "aqz-hiper-092",
+          "sequence": 5,
+          "prompt": "Como classificamos essa acidose metabólica?",
+          "explanation": "Como acidose metabólica com ânion gap normal, acompanhada de hipercloremia.",
+          "reasoning_type": "normal_gap_hyperchloremic_acidosis",
+          "competency_ids": [
+            "recognize_normal_anion_gap_metabolic_acidosis"
+          ],
+          "cognitive_operation": "classify",
+          "clinical_relevance": "Este raciocínio é relevante porque como acidose metabólica com ânion gap normal, acompanhada de hipercloremia.",
+          "prerequisite_concepts": [
+            "equilíbrio ácido-base",
+            "fisiologia da aldosterona e secreção de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-092-r06",
+          "question_id": "aqz-hiper-092",
+          "sequence": 6,
+          "prompt": "Qual é a importância da ausência de diarreia?",
+          "explanation": "Reduz a probabilidade de perda gastrointestinal de bicarbonato como explicação principal, embora não elimine outras causas extrarrenais.",
+          "reasoning_type": "gastrointestinal_bicarbonate_loss_differential",
+          "competency_ids": [
+            "understand_ammonium_excretion_impairment"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque reduz a probabilidade de perda gastrointestinal de bicarbonato como explicação principal, embora não elimine outras causas extrarrenais.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-092-r07",
+          "question_id": "aqz-hiper-092",
+          "sequence": 7,
+          "prompt": "Qual associação clínica sugere acidose tubular renal tipo 4?",
+          "explanation": "Diabetes de longa duração, disfunção renal moderada, hipercalemia persistente e acidose metabólica hiperclorêmica.",
+          "reasoning_type": "type4_rta_pattern_recognition",
+          "competency_ids": [
+            "understand_ammonium_excretion_impairment"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque diabetes de longa duração, disfunção renal moderada, hipercalemia persistente e acidose metabólica hiperclorêmica.",
+          "prerequisite_concepts": [
+            "equilíbrio ácido-base",
+            "fisiologia da aldosterona e secreção de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-092-r08",
+          "question_id": "aqz-hiper-092",
+          "sequence": 8,
+          "prompt": "Qual é o papel da aldosterona na excreção de potássio?",
+          "explanation": "Estimular mecanismos de reabsorção distal de sódio que favorecem a secreção de potássio pelas células principais.",
+          "reasoning_type": "aldosterone_potassium_secretion",
+          "competency_ids": [
+            "understand_aldosterone_potassium_regulation"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque estimular mecanismos de reabsorção distal de sódio que favorecem a secreção de potássio pelas células principais.",
+          "prerequisite_concepts": [
+            "fisiologia renal das prostaglandinas",
+            "sistema renina-angiotensina-aldosterona"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-092-r09",
+          "question_id": "aqz-hiper-092",
+          "sequence": 9,
+          "prompt": "O que é hipoaldosteronismo hiporreninêmico?",
+          "explanation": "Uma condição em que a produção de renina e a atividade da aldosterona estão reduzidas ou inadequadamente baixas para as necessidades fisiológicas.",
+          "reasoning_type": "hyporeninemic_hypoaldosteronism",
+          "competency_ids": [
+            "identify_hyporeninemic_hypoaldosteronism"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque uma condição em que a produção de renina e a atividade da aldosterona estão reduzidas ou inadequadamente baixas para as necessidades fisiológicas.",
+          "prerequisite_concepts": [
+            "equilíbrio ácido-base",
+            "fisiologia da aldosterona e secreção de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-092-r10",
+          "question_id": "aqz-hiper-092",
+          "sequence": 10,
+          "prompt": "Por que o diabetes pode favorecer esse mecanismo?",
+          "explanation": "A nefropatia diabética pode comprometer a regulação do sistema renina-angiotensina-aldosterona e predispor ao hipoaldosteronismo hiporreninêmico.",
+          "reasoning_type": "diabetes_raas_dysfunction",
+          "competency_ids": [
+            "identify_hyporeninemic_hypoaldosteronism"
+          ],
+          "cognitive_operation": "integrate",
+          "clinical_relevance": "Este raciocínio é relevante porque a nefropatia diabética pode comprometer a regulação do sistema renina-angiotensina-aldosterona e predispor ao hipoaldosteronismo hiporreninêmico.",
+          "prerequisite_concepts": [
+            "equilíbrio ácido-base",
+            "fisiologia da aldosterona e secreção de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-092-r11",
+          "question_id": "aqz-hiper-092",
+          "sequence": 11,
+          "prompt": "Como a hipercalemia interfere na excreção renal de ácido?",
+          "explanation": "A hipercalemia pode reduzir a produção renal de amônia e comprometer a excreção de ácido na forma de amônio.",
+          "reasoning_type": "ammonium_excretion_impairment",
+          "competency_ids": [
+            "understand_ammonium_excretion_impairment"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque a hipercalemia pode reduzir a produção renal de amônia e comprometer a excreção de ácido na forma de amônio.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-092-r12",
+          "question_id": "aqz-hiper-092",
+          "sequence": 12,
+          "prompt": "Qual é a diferença central entre acidose tubular renal tipo 4 e as formas clássicas dos tipos 1 e 2?",
+          "explanation": "A acidose tubular renal tipo 4 caracteriza-se especialmente pela associação com hipercalemia, enquanto as formas clássicas dos tipos 1 e 2 frequentemente se associam a hipocalemia.",
+          "reasoning_type": "rta_type_differentiation",
+          "competency_ids": [
+            "identify_hyporeninemic_hypoaldosteronism"
+          ],
+          "cognitive_operation": "compare",
+          "clinical_relevance": "Este raciocínio é relevante porque a acidose tubular renal tipo 4 caracteriza-se especialmente pela associação com hipercalemia, enquanto as formas clássicas dos tipos 1 e 2 frequentemente se associam a hipocalemia.",
+          "prerequisite_concepts": [
+            "equilíbrio ácido-base",
+            "fisiologia da aldosterona e secreção de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-092-r13",
+          "question_id": "aqz-hiper-092",
+          "sequence": 13,
+          "prompt": "Qual deve ser a abordagem terapêutica?",
+          "explanation": "Avaliar a gravidade da hipercalemia, revisar medicamentos e aporte de potássio, tratar a acidose quando indicado e considerar estratégias que aumentem a eliminação renal de potássio ou corrijam o déficit de atividade mineralocorticoide em situações selecionadas.",
+          "reasoning_type": "type4_rta_treatment_strategy",
+          "competency_ids": [
+            "understand_ammonium_excretion_impairment"
+          ],
+          "cognitive_operation": "plan",
+          "clinical_relevance": "Este raciocínio é relevante porque avaliar a gravidade da hipercalemia, revisar medicamentos e aporte de potássio, tratar a acidose quando indicado e considerar estratégias que aumentem a eliminação renal de potássio ou corrijam o déficit de atividade mineralocorticoide em situações selecionadas.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-092-r14",
+          "question_id": "aqz-hiper-092",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Reconhecer a associação entre hipercalemia e acidose metabólica hiperclorêmica como pista para disfunção da aldosterona e acidose tubular renal tipo 4.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "understand_aldosterone_potassium_regulation"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque reconhecer a associação entre hipercalemia e acidose metabólica hiperclorêmica como pista para disfunção da aldosterona e acidose tubular renal tipo 4.",
+          "prerequisite_concepts": [
+            "equilíbrio ácido-base",
+            "fisiologia da aldosterona e secreção de potássio"
+          ]
+        }
+      ],
+      "clinical_pearl": "> Hipercalemia persistente associada a bicarbonato baixo e ânion gap normal deve fazer você pensar além da filtração glomerular: o problema pode estar na aldosterona e na capacidade tubular de excretar potássio e amônio.",
+      "references": [
+        "*Type 4 renal tubular acidosis*. UpToDate.",
+        "*Renal tubular acidosis in adults*. UpToDate.",
+        "Literatura sobre hipoaldosteronismo hiporreninêmico na nefropatia diabética."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "type4_renal_tubular_acidosis",
+        "clinical_context": "outpatient_clinic",
+        "urgency_level": "prompt_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "identify_type4_renal_tubular_acidosis",
+        "secondary_competencies": [
+          "calculate_anion_gap",
+          "recognize_normal_anion_gap_metabolic_acidosis",
+          "understand_aldosterone_potassium_regulation",
+          "identify_hyporeninemic_hypoaldosteronism",
+          "understand_ammonium_excretion_impairment"
+        ],
+        "learning_objectives": [
+          "Reconhecer a associação entre hipercalemia e acidose metabólica hiperclorêmica como pista para disfunção da aldosterona e acidose tubular renal tipo 4."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_safety",
+        "arena_skill_ids": [
+          "identify_type4_renal_tubular_acidosis",
+          "calculate_anion_gap",
+          "recognize_normal_anion_gap_metabolic_acidosis",
+          "understand_aldosterone_potassium_regulation",
+          "identify_hyporeninemic_hypoaldosteronism",
+          "understand_ammonium_excretion_impairment"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "identify",
+          "type4",
+          "renal",
+          "tubular",
+          "acidosis"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "identify_type4_renal_tubular_acidosis",
+          "calculate_anion_gap",
+          "recognize_normal_anion_gap_metabolic_acidosis",
+          "understand_aldosterone_potassium_regulation",
+          "identify_hyporeninemic_hypoaldosteronism",
+          "understand_ammonium_excretion_impairment"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-093",
+      "question_id": "aqz-hiper-093",
+      "numero": 93,
+      "question_number": 93,
+      "titulo": "O paciente tem hipercalemia, mas suspender o tratamento cardíaco pode prejudicá-lo",
+      "competenciaPrincipal": "Equilibrar o controle da hipercalemia com a preservação de tratamentos que modificam o prognóstico da insuficiência cardíaca, evitando tanto a suspensão automática quanto a manutenção indiscriminada.",
+      "competenciasSecundarias": [
+        "recognize_hf_guideline_directed_therapy_benefits",
+        "identify_raas_related_hyperkalemia",
+        "recognize_potassium_salt_substitute_risk",
+        "evaluate_potassium_binder_role",
+        "individualize_raas_therapy_adjustment"
+      ],
+      "dificuldade": "Muito avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Um homem de 59 anos apresenta insuficiência cardíaca com fração de ejeção reduzida, de etiologia isquêmica, com fração de ejeção ventricular esquerda de 28%.\n\nFaz uso de:\n\n- Sacubitril/valsartana.\n- Carvedilol.\n- Espironolactona 25 mg/dia.\n- Dapagliflozina.\n- Furosemida.\n\nApresenta doença renal crônica estágio G3b.\n\nNas últimas semanas, foram identificadas elevações recorrentes do potássio, entre 5,4 e 5,8 mEq/L.\n\nNa avaliação atual:\n\n- PA: 112/68 mmHg.\n- FC: 72 bpm.\n- Potássio: 5,7 mEq/L.\n- Creatinina: 1,9 mg/dL.\n- Creatinina basal: 1,8 mg/dL.\n- Bicarbonato: 23 mEq/L.\n- ECG: sem alterações típicas de hipercalemia.\n\nO paciente encontra-se clinicamente estável, sem sinais de congestão ou baixo débito.\n\nDurante a consulta, relata consumo frequente de substituto de sal à base de cloreto de potássio.\n\nUm residente sugere suspender definitivamente sacubitril/valsartana e espironolactona, argumentando que qualquer elevação do potássio elimina os benefícios prognósticos desses medicamentos.\n\n**Qual é a estratégia mais adequada?**",
+      "alternativas": {
+        "A": "Suspender definitivamente todos os medicamentos que atuam no sistema renina-angiotensina-aldosterona, independentemente da gravidade da hipercalemia e da possibilidade de corrigir fatores reversíveis.",
+        "B": "Manter todos os medicamentos sem qualquer ajuste ou monitorização, pois os benefícios cardiovasculares tornam a hipercalemia irrelevante.",
+        "C": "Reconhecer o benefício prognóstico das terapias modificadoras de doença e adotar uma estratégia individualizada para controlar a hipercalemia, incluindo suspensão do substituto de sal rico em potássio, revisão de fatores reversíveis, monitorização laboratorial e consideração de medidas que permitam preservar o tratamento cardioprotetor quando clinicamente seguro.",
+        "D": "Substituir sacubitril/valsartana e espironolactona por suplementação oral de potássio, pois a hipercalemia indica deficiência intracelular obrigatória desse eletrólito."
+      },
+      "gabarito": "C",
+      "raciocinioClinico": "**1. Qual é a principal doença de base?**\n\nInsuficiência cardíaca com fração de ejeção reduzida, associada a doença renal crônica.\n\n**2. Qual é a importância da fração de ejeção de 28%?**\n\nIndica disfunção sistólica importante e reforça a necessidade de terapias com benefício prognóstico.\n\n**3. Quais medicamentos utilizados podem favorecer hipercalemia?**\n\nPrincipalmente sacubitril/valsartana e espironolactona, por seus efeitos sobre o sistema renina-angiotensina-aldosterona.\n\n**4. Qual é o benefício dessas terapias na insuficiência cardíaca?**\n\nReduzir desfechos cardiovasculares importantes, incluindo hospitalizações e mortalidade, em pacientes com indicação apropriada.\n\n**5. Por que a espironolactona pode elevar o potássio?**\n\nPorque antagoniza os receptores mineralocorticoides, reduzindo mecanismos dependentes da aldosterona que favorecem a secreção distal de potássio.\n\n**6. Como sacubitril/valsartana pode influenciar o potássio?**\n\nO componente valsartana bloqueia o receptor de angiotensina II e pode reduzir a atividade da aldosterona, favorecendo retenção de potássio.\n\n**7. Qual é a contribuição da doença renal crônica?**\n\nA redução da reserva renal aumenta a vulnerabilidade à hipercalemia durante o uso dessas terapias.\n\n**8. Qual fator reversível foi identificado na história?**\n\nO consumo frequente de substituto de sal contendo cloreto de potássio.\n\n**9. Por que esse produto pode ser relevante?**\n\nPorque pode acrescentar quantidades significativas de potássio à ingestão diária, especialmente em pacientes com excreção renal reduzida.\n\n**10. O potássio de 5,7 mEq/L exige a mesma abordagem de uma hipercalemia de 7,5 mEq/L com QRS alargado?**\n\nNão. A urgência e as intervenções dependem do valor, da evolução, dos sintomas, do ECG, da função renal e do contexto clínico.\n\n**11. A ausência de alterações no ECG elimina a necessidade de acompanhamento?**\n\nNão. O ECG normal não exclui risco e não substitui monitorização laboratorial.\n\n**12. Quais estratégias podem favorecer a manutenção do tratamento cardioprotetor?**\n\nCorreção de fatores reversíveis, redução de fontes excessivas de potássio, revisão de medicamentos, otimização do tratamento diurético quando apropriado e consideração de quelantes de potássio em pacientes selecionados.\n\n**13. Os medicamentos devem ser mantidos em qualquer circunstância?**\n\nNão. Hipercalemia grave, persistente ou não controlável pode exigir redução ou suspensão temporária de medicamentos, conforme as recomendações específicas e a segurança do paciente. A reintrodução deve ser considerada quando apropriada.\n\n**14. Qual é a competência principal?**\n\nEquilibrar o controle da hipercalemia com a preservação de tratamentos que modificam o prognóstico da insuficiência cardíaca, evitando tanto a suspensão automática quanto a manutenção indiscriminada.",
+      "comentarios": {
+        "A": "A suspensão definitiva automática pode privar o paciente de terapias com benefício prognóstico. É necessário avaliar gravidade e fatores modificáveis.",
+        "B": "Os benefícios cardiovasculares não tornam a hipercalemia irrelevante. A segurança exige monitorização e intervenções apropriadas.",
+        "C": "A estratégia deve buscar controlar o potássio e preservar terapias modificadoras de doença quando possível, sem negligenciar os limites de segurança.",
+        "D": "A hipercalemia não indica necessidade de suplementação de potássio. Essa conduta pode agravar o distúrbio."
+      },
+      "perola": "> Tratar a hipercalemia também significa proteger o tratamento da doença de base. Na insuficiência cardíaca, a melhor decisão nem sempre é retirar o medicamento: muitas vezes é corrigir o que está impedindo seu uso seguro.",
+      "referencias": "Diretrizes contemporâneas da AHA/ACC/HFSA para insuficiência cardíaca.\nDiretrizes KDIGO para doença renal crônica e manejo da hipercalemia.\nLiteratura sobre estratégias de manutenção de terapias que atuam no sistema renina-angiotensina-aldosterona em pacientes com hipercalemia.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 19,
+      "stem": "Um homem de 59 anos apresenta insuficiência cardíaca com fração de ejeção reduzida, de etiologia isquêmica, com fração de ejeção ventricular esquerda de 28%.\n\nFaz uso de:\n\n- Sacubitril/valsartana.\n- Carvedilol.\n- Espironolactona 25 mg/dia.\n- Dapagliflozina.\n- Furosemida.\n\nApresenta doença renal crônica estágio G3b.\n\nNas últimas semanas, foram identificadas elevações recorrentes do potássio, entre 5,4 e 5,8 mEq/L.\n\nNa avaliação atual:\n\n- PA: 112/68 mmHg.\n- FC: 72 bpm.\n- Potássio: 5,7 mEq/L.\n- Creatinina: 1,9 mg/dL.\n- Creatinina basal: 1,8 mg/dL.\n- Bicarbonato: 23 mEq/L.\n- ECG: sem alterações típicas de hipercalemia.\n\nO paciente encontra-se clinicamente estável, sem sinais de congestão ou baixo débito.\n\nDurante a consulta, relata consumo frequente de substituto de sal à base de cloreto de potássio.\n\nUm residente sugere suspender definitivamente sacubitril/valsartana e espironolactona, argumentando que qualquer elevação do potássio elimina os benefícios prognósticos desses medicamentos.\n\n**Qual é a estratégia mais adequada?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-093-A",
+          "question_id": "aqz-hiper-093",
+          "letter": "A",
+          "text": "Suspender definitivamente todos os medicamentos que atuam no sistema renina-angiotensina-aldosterona, independentemente da gravidade da hipercalemia e da possibilidade de corrigir fatores reversíveis.",
+          "is_correct": false,
+          "feedback": "A suspensão definitiva automática pode privar o paciente de terapias com benefício prognóstico. É necessário avaliar gravidade e fatores modificáveis.",
+          "error_type": "inappropriate_permanent_discontinuation",
+          "misconception_id": "all_hyperkalemia_requires_permanent_raas_withdrawal",
+          "misconception_description": "Propõe suspensão definitiva automática de terapias cardioprotetoras.",
+          "competency_ids": [
+            "recognize_hf_guideline_directed_therapy_benefits"
+          ],
+          "clinical_risk_if_applied": "perda de benefícios prognósticos sem avaliação de alternativas."
+        },
+        {
+          "option_id": "aqz-hiper-093-B",
+          "question_id": "aqz-hiper-093",
+          "letter": "B",
+          "text": "Manter todos os medicamentos sem qualquer ajuste ou monitorização, pois os benefícios cardiovasculares tornam a hipercalemia irrelevante.",
+          "is_correct": false,
+          "feedback": "Os benefícios cardiovasculares não tornam a hipercalemia irrelevante. A segurança exige monitorização e intervenções apropriadas.",
+          "error_type": "safety_monitoring_omission",
+          "misconception_id": "hf_benefits_make_hyperkalemia_irrelevant",
+          "misconception_description": "Ignora a necessidade de monitorização e controle da hipercalemia.",
+          "competency_ids": [
+            "identify_raas_related_hyperkalemia"
+          ],
+          "clinical_risk_if_applied": "evolução para hipercalemia grave."
+        },
+        {
+          "option_id": "aqz-hiper-093-C",
+          "question_id": "aqz-hiper-093",
+          "letter": "C",
+          "text": "Reconhecer o benefício prognóstico das terapias modificadoras de doença e adotar uma estratégia individualizada para controlar a hipercalemia, incluindo suspensão do substituto de sal rico em potássio, revisão de fatores reversíveis, monitorização laboratorial e consideração de medidas que permitam preservar o tratamento cardioprotetor quando clinicamente seguro.",
+          "is_correct": true,
+          "feedback": "A estratégia deve buscar controlar o potássio e preservar terapias modificadoras de doença quando possível, sem negligenciar os limites de segurança.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "balance_hyperkalemia_with_hf_guideline_therapy",
+            "recognize_hf_guideline_directed_therapy_benefits",
+            "identify_raas_related_hyperkalemia"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-093-D",
+          "question_id": "aqz-hiper-093",
+          "letter": "D",
+          "text": "Substituir sacubitril/valsartana e espironolactona por suplementação oral de potássio, pois a hipercalemia indica deficiência intracelular obrigatória desse eletrólito.",
+          "is_correct": false,
+          "feedback": "A hipercalemia não indica necessidade de suplementação de potássio. Essa conduta pode agravar o distúrbio.",
+          "error_type": "potassium_balance_error",
+          "misconception_id": "hyperkalemia_requires_potassium_supplementation",
+          "misconception_description": "Propõe suplementação de potássio diante de hipercalemia.",
+          "competency_ids": [
+            "evaluate_potassium_binder_role"
+          ],
+          "clinical_risk_if_applied": "agravamento potencialmente fatal."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-093-r01",
+          "question_id": "aqz-hiper-093",
+          "sequence": 1,
+          "prompt": "Qual é a principal doença de base?",
+          "explanation": "Insuficiência cardíaca com fração de ejeção reduzida, associada a doença renal crônica.",
+          "reasoning_type": "hfref_ckd_context",
+          "competency_ids": [
+            "evaluate_potassium_binder_role"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque insuficiência cardíaca com fração de ejeção reduzida, associada a doença renal crônica.",
+          "prerequisite_concepts": [
+            "terapia modificadora de prognóstico na insuficiência cardíaca",
+            "efeitos do bloqueio do SRAA sobre o potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-093-r02",
+          "question_id": "aqz-hiper-093",
+          "sequence": 2,
+          "prompt": "Qual é a importância da fração de ejeção de 28%?",
+          "explanation": "Indica disfunção sistólica importante e reforça a necessidade de terapias com benefício prognóstico.",
+          "reasoning_type": "reduced_ejection_fraction_significance",
+          "competency_ids": [
+            "individualize_raas_therapy_adjustment"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Este raciocínio é relevante porque indica disfunção sistólica importante e reforça a necessidade de terapias com benefício prognóstico.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-093-r03",
+          "question_id": "aqz-hiper-093",
+          "sequence": 3,
+          "prompt": "Quais medicamentos utilizados podem favorecer hipercalemia?",
+          "explanation": "Principalmente sacubitril/valsartana e espironolactona, por seus efeitos sobre o sistema renina-angiotensina-aldosterona.",
+          "reasoning_type": "raas_medication_hyperkalemia_risk",
+          "competency_ids": [
+            "identify_raas_related_hyperkalemia"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque principalmente sacubitril/valsartana e espironolactona, por seus efeitos sobre o sistema renina-angiotensina-aldosterona.",
+          "prerequisite_concepts": [
+            "terapia modificadora de prognóstico na insuficiência cardíaca",
+            "efeitos do bloqueio do SRAA sobre o potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-093-r04",
+          "question_id": "aqz-hiper-093",
+          "sequence": 4,
+          "prompt": "Qual é o benefício dessas terapias na insuficiência cardíaca?",
+          "explanation": "Reduzir desfechos cardiovasculares importantes, incluindo hospitalizações e mortalidade, em pacientes com indicação apropriada.",
+          "reasoning_type": "guideline_directed_therapy_benefit",
+          "competency_ids": [
+            "recognize_hf_guideline_directed_therapy_benefits"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque reduzir desfechos cardiovasculares importantes, incluindo hospitalizações e mortalidade, em pacientes com indicação apropriada.",
+          "prerequisite_concepts": [
+            "terapia modificadora de prognóstico na insuficiência cardíaca",
+            "efeitos do bloqueio do SRAA sobre o potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-093-r05",
+          "question_id": "aqz-hiper-093",
+          "sequence": 5,
+          "prompt": "Por que a espironolactona pode elevar o potássio?",
+          "explanation": "Porque antagoniza os receptores mineralocorticoides, reduzindo mecanismos dependentes da aldosterona que favorecem a secreção distal de potássio.",
+          "reasoning_type": "mineralocorticoid_receptor_antagonism",
+          "competency_ids": [
+            "evaluate_potassium_binder_role"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque porque antagoniza os receptores mineralocorticoides, reduzindo mecanismos dependentes da aldosterona que favorecem a secreção distal de potássio.",
+          "prerequisite_concepts": [
+            "terapia modificadora de prognóstico na insuficiência cardíaca",
+            "efeitos do bloqueio do SRAA sobre o potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-093-r06",
+          "question_id": "aqz-hiper-093",
+          "sequence": 6,
+          "prompt": "Como sacubitril/valsartana pode influenciar o potássio?",
+          "explanation": "O componente valsartana bloqueia o receptor de angiotensina II e pode reduzir a atividade da aldosterona, favorecendo retenção de potássio.",
+          "reasoning_type": "arb_aldosterone_effect",
+          "competency_ids": [
+            "evaluate_potassium_binder_role"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque o componente valsartana bloqueia o receptor de angiotensina II e pode reduzir a atividade da aldosterona, favorecendo retenção de potássio.",
+          "prerequisite_concepts": [
+            "fisiologia renal das prostaglandinas",
+            "sistema renina-angiotensina-aldosterona"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-093-r07",
+          "question_id": "aqz-hiper-093",
+          "sequence": 7,
+          "prompt": "Qual é a contribuição da doença renal crônica?",
+          "explanation": "A redução da reserva renal aumenta a vulnerabilidade à hipercalemia durante o uso dessas terapias.",
+          "reasoning_type": "ckd_hyperkalemia_susceptibility",
+          "competency_ids": [
+            "identify_raas_related_hyperkalemia"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque a redução da reserva renal aumenta a vulnerabilidade à hipercalemia durante o uso dessas terapias.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-093-r08",
+          "question_id": "aqz-hiper-093",
+          "sequence": 8,
+          "prompt": "Qual fator reversível foi identificado na história?",
+          "explanation": "O consumo frequente de substituto de sal contendo cloreto de potássio.",
+          "reasoning_type": "reversible_potassium_source",
+          "competency_ids": [
+            "recognize_potassium_salt_substitute_risk"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque o consumo frequente de substituto de sal contendo cloreto de potássio.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-093-r09",
+          "question_id": "aqz-hiper-093",
+          "sequence": 9,
+          "prompt": "Por que esse produto pode ser relevante?",
+          "explanation": "Porque pode acrescentar quantidades significativas de potássio à ingestão diária, especialmente em pacientes com excreção renal reduzida.",
+          "reasoning_type": "potassium_salt_substitute_risk",
+          "competency_ids": [
+            "recognize_potassium_salt_substitute_risk"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque porque pode acrescentar quantidades significativas de potássio à ingestão diária, especialmente em pacientes com excreção renal reduzida.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-093-r10",
+          "question_id": "aqz-hiper-093",
+          "sequence": 10,
+          "prompt": "O potássio de 5,7 mEq/L exige a mesma abordagem de uma hipercalemia de 7,5 mEq/L com QRS alargado?",
+          "explanation": "Não. A urgência e as intervenções dependem do valor, da evolução, dos sintomas, do ECG, da função renal e do contexto clínico.",
+          "reasoning_type": "severity_based_management",
+          "competency_ids": [
+            "evaluate_potassium_binder_role"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. A urgência e as intervenções dependem do valor, da evolução, dos sintomas, do ECG, da função renal e do contexto clínico.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-093-r11",
+          "question_id": "aqz-hiper-093",
+          "sequence": 11,
+          "prompt": "A ausência de alterações no ECG elimina a necessidade de acompanhamento?",
+          "explanation": "Não. O ECG normal não exclui risco e não substitui monitorização laboratorial.",
+          "reasoning_type": "normal_ecg_limitations",
+          "competency_ids": [
+            "evaluate_potassium_binder_role"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. O ECG normal não exclui risco e não substitui monitorização laboratorial.",
+          "prerequisite_concepts": [
+            "interpretação do ECG",
+            "fisiologia elétrica cardíaca"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-093-r12",
+          "question_id": "aqz-hiper-093",
+          "sequence": 12,
+          "prompt": "Quais estratégias podem favorecer a manutenção do tratamento cardioprotetor?",
+          "explanation": "Correção de fatores reversíveis, redução de fontes excessivas de potássio, revisão de medicamentos, otimização do tratamento diurético quando apropriado e consideração de quelantes de potássio em pacientes selecionados.",
+          "reasoning_type": "preserve_hf_therapy_strategies",
+          "competency_ids": [
+            "recognize_hf_guideline_directed_therapy_benefits"
+          ],
+          "cognitive_operation": "plan",
+          "clinical_relevance": "Este raciocínio é relevante porque correção de fatores reversíveis, redução de fontes excessivas de potássio, revisão de medicamentos, otimização do tratamento diurético quando apropriado e consideração de quelantes de potássio em pacientes selecionados.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-093-r13",
+          "question_id": "aqz-hiper-093",
+          "sequence": 13,
+          "prompt": "Os medicamentos devem ser mantidos em qualquer circunstância?",
+          "explanation": "Não. Hipercalemia grave, persistente ou não controlável pode exigir redução ou suspensão temporária de medicamentos, conforme as recomendações específicas e a segurança do paciente. A reintrodução deve ser considerada quando apropriada.",
+          "reasoning_type": "medication_safety_limits",
+          "competency_ids": [
+            "evaluate_potassium_binder_role"
+          ],
+          "cognitive_operation": "decide",
+          "clinical_relevance": "Este raciocínio é relevante porque não. Hipercalemia grave, persistente ou não controlável pode exigir redução ou suspensão temporária de medicamentos, conforme as recomendações específicas e a segurança do paciente. A reintrodução deve ser considerada quando apropriada.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-093-r14",
+          "question_id": "aqz-hiper-093",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Equilibrar o controle da hipercalemia com a preservação de tratamentos que modificam o prognóstico da insuficiência cardíaca, evitando tanto a suspensão automática quanto a manutenção indiscriminada.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "recognize_potassium_salt_substitute_risk"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque equilibrar o controle da hipercalemia com a preservação de tratamentos que modificam o prognóstico da insuficiência cardíaca, evitando tanto a suspensão automática quanto a manutenção indiscriminada.",
+          "prerequisite_concepts": [
+            "terapia modificadora de prognóstico na insuficiência cardíaca",
+            "efeitos do bloqueio do SRAA sobre o potássio"
+          ]
+        }
+      ],
+      "clinical_pearl": "> Tratar a hipercalemia também significa proteger o tratamento da doença de base. Na insuficiência cardíaca, a melhor decisão nem sempre é retirar o medicamento: muitas vezes é corrigir o que está impedindo seu uso seguro.",
+      "references": [
+        "Diretrizes contemporâneas da AHA/ACC/HFSA para insuficiência cardíaca.",
+        "Diretrizes KDIGO para doença renal crônica e manejo da hipercalemia.",
+        "Literatura sobre estratégias de manutenção de terapias que atuam no sistema renina-angiotensina-aldosterona em pacientes com hipercalemia."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "heart_failure_medication_hyperkalemia",
+        "clinical_context": "cardiology_clinic",
+        "urgency_level": "prompt_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "balance_hyperkalemia_with_hf_guideline_therapy",
+        "secondary_competencies": [
+          "recognize_hf_guideline_directed_therapy_benefits",
+          "identify_raas_related_hyperkalemia",
+          "recognize_potassium_salt_substitute_risk",
+          "evaluate_potassium_binder_role",
+          "individualize_raas_therapy_adjustment"
+        ],
+        "learning_objectives": [
+          "Equilibrar o controle da hipercalemia com a preservação de tratamentos que modificam o prognóstico da insuficiência cardíaca, evitando tanto a suspensão automática quanto a manutenção indiscriminada."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_safety",
+        "arena_skill_ids": [
+          "balance_hyperkalemia_with_hf_guideline_therapy",
+          "recognize_hf_guideline_directed_therapy_benefits",
+          "identify_raas_related_hyperkalemia",
+          "recognize_potassium_salt_substitute_risk",
+          "evaluate_potassium_binder_role",
+          "individualize_raas_therapy_adjustment"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "balance",
+          "with",
+          "hf",
+          "guideline",
+          "therapy"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "balance_hyperkalemia_with_hf_guideline_therapy",
+          "recognize_hf_guideline_directed_therapy_benefits",
+          "identify_raas_related_hyperkalemia",
+          "recognize_potassium_salt_substitute_risk",
+          "evaluate_potassium_binder_role",
+          "individualize_raas_therapy_adjustment"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-094",
+      "question_id": "aqz-hiper-094",
+      "numero": 94,
+      "question_number": 94,
+      "titulo": "O diurético foi prescrito, mas o potássio não caiu",
+      "competenciaPrincipal": "Reconhecer que o benefício dos diuréticos para eliminar potássio depende de excreção urinária efetiva e que a ausência de resposta exige mudança de estratégia.",
+      "competenciasSecundarias": [
+        "understand_loop_diuretic_nkcc2_mechanism",
+        "recognize_distal_sodium_delivery_role",
+        "evaluate_diuretic_response",
+        "differentiate_potassium_shifting_from_removal",
+        "recognize_urgent_krt_consideration"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Uma mulher de 68 anos, com insuficiência cardíaca e doença renal crônica, encontra-se internada na UTI por descompensação cardiorrenal.\n\nApresenta congestão pulmonar, edema periférico importante e lesão renal aguda oligúrica.\n\nNa avaliação:\n\n- PA: 108/64 mmHg.\n- FC: 96 bpm.\n- Potássio: 6,6 mEq/L.\n- Creatinina: 4,3 mg/dL.\n- Bicarbonato: 18 mEq/L.\n- Diurese nas últimas 24 horas: 180 mL.\n\nO ECG demonstra ondas T apiculadas.\n\nA paciente recebe tratamento inicial da hipercalemia e furosemida intravenosa.\n\nApós a administração do diurético, apresenta diurese de apenas 20 mL nas duas horas seguintes.\n\nNova dosagem demonstra potássio de 6,3 mEq/L.\n\nA equipe considera administrar doses sucessivamente maiores de furosemida como única estratégia para eliminar o potássio, sem avaliar outras possibilidades de remoção.\n\n**Qual é a interpretação mais adequada?**",
+      "alternativas": {
+        "A": "A administração de furosemida garante eliminação significativa de potássio mesmo quando não ocorre resposta diurética.",
+        "B": "A furosemida pode favorecer a excreção renal de potássio quando existe função renal residual e resposta diurética efetiva. Entretanto, a diurese mínima indica que essa estratégia não está produzindo eliminação adequada, sendo necessário reavaliar urgentemente a necessidade de remoção extracorpórea, sem negligenciar o tratamento imediato da hipercalemia.",
+        "C": "A ausência de resposta diurética comprova que o potássio elevado é exclusivamente falso e decorre de hemólise laboratorial.",
+        "D": "A furosemida reduz o potássio exclusivamente por deslocamento intracelular, independentemente do volume urinário produzido."
+      },
+      "gabarito": "B",
+      "raciocinioClinico": "**1. Qual é o distúrbio eletrolítico predominante?**\n\nHipercalemia importante em paciente com lesão renal aguda oligúrica.\n\n**2. Qual é a importância da congestão clínica?**\n\nSugere excesso de volume extracelular e influencia a escolha das estratégias de manejo hídrico e renal.\n\n**3. Qual é o mecanismo de ação da furosemida?**\n\nInibição do cotransportador Na⁺/K⁺/2Cl⁻, conhecido como NKCC2, na alça espessa ascendente de Henle.\n\n**4. Como a furosemida pode favorecer a excreção de potássio?**\n\nAo aumentar a entrega distal de sódio e o fluxo tubular, pode favorecer a secreção de potássio nos segmentos distais do néfron.\n\n**5. A furosemida remove potássio diretamente do sangue?**\n\nNão. A eliminação ocorre pela excreção urinária de potássio, dependendo da resposta renal.\n\n**6. Qual é a importância da função renal residual?**\n\nÉ necessária capacidade funcional suficiente para produzir urina e permitir excreção efetiva de potássio.\n\n**7. O que significa uma diurese de apenas 20 mL após o diurético?**\n\nIndica resposta diurética muito limitada naquele período.\n\n**8. A administração de doses maiores garante resposta?**\n\nNão. A resposta depende de fatores como função renal, perfusão, entrega tubular do fármaco e gravidade da lesão renal.\n\n**9. O potássio de 6,3 mEq/L demonstra resolução do problema?**\n\nNão. Permanece significativamente elevado e exige acompanhamento e tratamento conforme o risco.\n\n**10. Qual é a diferença entre redistribuir e eliminar potássio?**\n\nRedistribuição modifica temporariamente sua localização entre compartimentos; eliminação reduz a carga corporal total.\n\n**11. Por que insistir exclusivamente no diurético pode ser perigoso?**\n\nPorque pode atrasar a remoção efetiva do potássio enquanto persiste risco de toxicidade elétrica.\n\n**12. Qual é a importância da lesão renal aguda oligúrica?**\n\nA capacidade de excreção renal está comprometida, tornando a resposta aos diuréticos menos previsível.\n\n**13. Qual estratégia deve ser considerada diante de hipercalemia persistente e resposta diurética insuficiente?**\n\nReavaliar a necessidade de terapia renal substitutiva, especialmente quando existem hipercalemia persistente, alterações elétricas, sobrecarga volêmica e comprometimento importante da função renal.\n\n**14. Qual é a competência principal?**\n\nReconhecer que o benefício dos diuréticos para eliminar potássio depende de excreção urinária efetiva e que a ausência de resposta exige mudança de estratégia.",
+      "comentarios": {
+        "A": "A administração do diurético não garante eliminação de potássio. É necessária resposta renal efetiva.",
+        "B": "A furosemida pode aumentar a excreção urinária de potássio, mas sua utilidade depende da função renal residual e da resposta diurética. A ausência de resposta exige reavaliação da estratégia.",
+        "C": "A ausência de resposta à furosemida não comprova pseudohipercalemia.",
+        "D": "A furosemida não atua principalmente por deslocamento intracelular de potássio, mas por alterações no transporte tubular e na excreção urinária."
+      },
+      "perola": "> Prescrever um diurético não significa eliminar potássio. Se o paciente não produz urina, não existe uma via renal efetiva de excreção apenas porque a furosemida foi administrada.",
+      "referencias": "*Treatment and prevention of hyperkalemia in adults*. UpToDate.\nKDIGO — diretrizes de lesão renal aguda.\nLiteratura sobre diuréticos de alça, resistência diurética e excreção renal de potássio.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 19,
+      "stem": "Uma mulher de 68 anos, com insuficiência cardíaca e doença renal crônica, encontra-se internada na UTI por descompensação cardiorrenal.\n\nApresenta congestão pulmonar, edema periférico importante e lesão renal aguda oligúrica.\n\nNa avaliação:\n\n- PA: 108/64 mmHg.\n- FC: 96 bpm.\n- Potássio: 6,6 mEq/L.\n- Creatinina: 4,3 mg/dL.\n- Bicarbonato: 18 mEq/L.\n- Diurese nas últimas 24 horas: 180 mL.\n\nO ECG demonstra ondas T apiculadas.\n\nA paciente recebe tratamento inicial da hipercalemia e furosemida intravenosa.\n\nApós a administração do diurético, apresenta diurese de apenas 20 mL nas duas horas seguintes.\n\nNova dosagem demonstra potássio de 6,3 mEq/L.\n\nA equipe considera administrar doses sucessivamente maiores de furosemida como única estratégia para eliminar o potássio, sem avaliar outras possibilidades de remoção.\n\n**Qual é a interpretação mais adequada?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-094-A",
+          "question_id": "aqz-hiper-094",
+          "letter": "A",
+          "text": "A administração de furosemida garante eliminação significativa de potássio mesmo quando não ocorre resposta diurética.",
+          "is_correct": false,
+          "feedback": "A administração do diurético não garante eliminação de potássio. É necessária resposta renal efetiva.",
+          "error_type": "diuretic_effect_overestimation",
+          "misconception_id": "furosemide_removes_potassium_without_urine",
+          "misconception_description": "Considera a prescrição de furosemida suficiente para eliminar potássio, independentemente da diurese.",
+          "competency_ids": [
+            "understand_loop_diuretic_nkcc2_mechanism"
+          ],
+          "clinical_risk_if_applied": "atraso na remoção efetiva."
+        },
+        {
+          "option_id": "aqz-hiper-094-B",
+          "question_id": "aqz-hiper-094",
+          "letter": "B",
+          "text": "A furosemida pode favorecer a excreção renal de potássio quando existe função renal residual e resposta diurética efetiva. Entretanto, a diurese mínima indica que essa estratégia não está produzindo eliminação adequada, sendo necessário reavaliar urgentemente a necessidade de remoção extracorpórea, sem negligenciar o tratamento imediato da hipercalemia.",
+          "is_correct": true,
+          "feedback": "A furosemida pode aumentar a excreção urinária de potássio, mas sua utilidade depende da função renal residual e da resposta diurética. A ausência de resposta exige reavaliação da estratégia.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "recognize_diuretic_limitations_in_oliguric_hyperkalemia",
+            "understand_loop_diuretic_nkcc2_mechanism",
+            "recognize_distal_sodium_delivery_role"
+          ],
+          "clinical_risk_if_applied": null
+        },
+        {
+          "option_id": "aqz-hiper-094-C",
+          "question_id": "aqz-hiper-094",
+          "letter": "C",
+          "text": "A ausência de resposta diurética comprova que o potássio elevado é exclusivamente falso e decorre de hemólise laboratorial.",
+          "is_correct": false,
+          "feedback": "A ausência de resposta à furosemida não comprova pseudohipercalemia.",
+          "error_type": "unsupported_pseudohyperkalemia_assumption",
+          "misconception_id": "diuretic_nonresponse_proves_hemolysis",
+          "misconception_description": "Atribui ausência de resposta diurética à pseudohipercalemia sem evidência.",
+          "competency_ids": [
+            "evaluate_diuretic_response"
+          ],
+          "clinical_risk_if_applied": "negligenciar hipercalemia verdadeira."
+        },
+        {
+          "option_id": "aqz-hiper-094-D",
+          "question_id": "aqz-hiper-094",
+          "letter": "D",
+          "text": "A furosemida reduz o potássio exclusivamente por deslocamento intracelular, independentemente do volume urinário produzido.",
+          "is_correct": false,
+          "feedback": "A furosemida não atua principalmente por deslocamento intracelular de potássio, mas por alterações no transporte tubular e na excreção urinária.",
+          "error_type": "diuretic_mechanism_error",
+          "misconception_id": "furosemide_only_shifts_potassium_intracellularly",
+          "misconception_description": "Confunde mecanismo diurético com redistribuição intracelular.",
+          "competency_ids": [
+            "differentiate_potassium_shifting_from_removal"
+          ],
+          "clinical_risk_if_applied": "superestimar efeito do medicamento em paciente oligúrico."
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-094-r01",
+          "question_id": "aqz-hiper-094",
+          "sequence": 1,
+          "prompt": "Qual é o distúrbio eletrolítico predominante?",
+          "explanation": "Hipercalemia importante em paciente com lesão renal aguda oligúrica.",
+          "reasoning_type": "oliguric_aki_hyperkalemia",
+          "competency_ids": [
+            "differentiate_potassium_shifting_from_removal"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque hipercalemia importante em paciente com lesão renal aguda oligúrica.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-094-r02",
+          "question_id": "aqz-hiper-094",
+          "sequence": 2,
+          "prompt": "Qual é a importância da congestão clínica?",
+          "explanation": "Sugere excesso de volume extracelular e influencia a escolha das estratégias de manejo hídrico e renal.",
+          "reasoning_type": "congestion_assessment",
+          "competency_ids": [
+            "evaluate_diuretic_response"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Este raciocínio é relevante porque sugere excesso de volume extracelular e influencia a escolha das estratégias de manejo hídrico e renal.",
+          "prerequisite_concepts": [
+            "composição dos cristaloides",
+            "equilíbrio ácido-base e balanço de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-094-r03",
+          "question_id": "aqz-hiper-094",
+          "sequence": 3,
+          "prompt": "Qual é o mecanismo de ação da furosemida?",
+          "explanation": "Inibição do cotransportador Na⁺/K⁺/2Cl⁻, conhecido como NKCC2, na alça espessa ascendente de Henle.",
+          "reasoning_type": "loop_diuretic_nkcc2_mechanism",
+          "competency_ids": [
+            "understand_loop_diuretic_nkcc2_mechanism"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque inibição do cotransportador Na⁺/K⁺/2Cl⁻, conhecido como NKCC2, na alça espessa ascendente de Henle.",
+          "prerequisite_concepts": [
+            "mecanismo dos diuréticos de alça",
+            "diurese e excreção urinária de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-094-r04",
+          "question_id": "aqz-hiper-094",
+          "sequence": 4,
+          "prompt": "Como a furosemida pode favorecer a excreção de potássio?",
+          "explanation": "Ao aumentar a entrega distal de sódio e o fluxo tubular, pode favorecer a secreção de potássio nos segmentos distais do néfron.",
+          "reasoning_type": "distal_sodium_delivery",
+          "competency_ids": [
+            "recognize_distal_sodium_delivery_role"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque ao aumentar a entrega distal de sódio e o fluxo tubular, pode favorecer a secreção de potássio nos segmentos distais do néfron.",
+          "prerequisite_concepts": [
+            "mecanismo dos diuréticos de alça",
+            "diurese e excreção urinária de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-094-r05",
+          "question_id": "aqz-hiper-094",
+          "sequence": 5,
+          "prompt": "A furosemida remove potássio diretamente do sangue?",
+          "explanation": "Não. A eliminação ocorre pela excreção urinária de potássio, dependendo da resposta renal.",
+          "reasoning_type": "urinary_potassium_excretion",
+          "competency_ids": [
+            "differentiate_potassium_shifting_from_removal"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. A eliminação ocorre pela excreção urinária de potássio, dependendo da resposta renal.",
+          "prerequisite_concepts": [
+            "mecanismo dos diuréticos de alça",
+            "diurese e excreção urinária de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-094-r06",
+          "question_id": "aqz-hiper-094",
+          "sequence": 6,
+          "prompt": "Qual é a importância da função renal residual?",
+          "explanation": "É necessária capacidade funcional suficiente para produzir urina e permitir excreção efetiva de potássio.",
+          "reasoning_type": "residual_renal_function",
+          "competency_ids": [
+            "differentiate_potassium_shifting_from_removal"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque é necessária capacidade funcional suficiente para produzir urina e permitir excreção efetiva de potássio.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-094-r07",
+          "question_id": "aqz-hiper-094",
+          "sequence": 7,
+          "prompt": "O que significa uma diurese de apenas 20 mL após o diurético?",
+          "explanation": "Indica resposta diurética muito limitada naquele período.",
+          "reasoning_type": "poor_diuretic_response",
+          "competency_ids": [
+            "evaluate_diuretic_response"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Este raciocínio é relevante porque indica resposta diurética muito limitada naquele período.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-094-r08",
+          "question_id": "aqz-hiper-094",
+          "sequence": 8,
+          "prompt": "A administração de doses maiores garante resposta?",
+          "explanation": "Não. A resposta depende de fatores como função renal, perfusão, entrega tubular do fármaco e gravidade da lesão renal.",
+          "reasoning_type": "dose_response_limitations",
+          "competency_ids": [
+            "evaluate_diuretic_response"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. A resposta depende de fatores como função renal, perfusão, entrega tubular do fármaco e gravidade da lesão renal.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-094-r09",
+          "question_id": "aqz-hiper-094",
+          "sequence": 9,
+          "prompt": "O potássio de 6,3 mEq/L demonstra resolução do problema?",
+          "explanation": "Não. Permanece significativamente elevado e exige acompanhamento e tratamento conforme o risco.",
+          "reasoning_type": "persistent_hyperkalemia_risk",
+          "competency_ids": [
+            "differentiate_potassium_shifting_from_removal"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. Permanece significativamente elevado e exige acompanhamento e tratamento conforme o risco.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-094-r10",
+          "question_id": "aqz-hiper-094",
+          "sequence": 10,
+          "prompt": "Qual é a diferença entre redistribuir e eliminar potássio?",
+          "explanation": "Redistribuição modifica temporariamente sua localização entre compartimentos; eliminação reduz a carga corporal total.",
+          "reasoning_type": "shifting_vs_removal",
+          "competency_ids": [
+            "differentiate_potassium_shifting_from_removal"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque redistribuição modifica temporariamente sua localização entre compartimentos; eliminação reduz a carga corporal total.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-094-r11",
+          "question_id": "aqz-hiper-094",
+          "sequence": 11,
+          "prompt": "Por que insistir exclusivamente no diurético pode ser perigoso?",
+          "explanation": "Porque pode atrasar a remoção efetiva do potássio enquanto persiste risco de toxicidade elétrica.",
+          "reasoning_type": "delay_of_definitive_removal",
+          "competency_ids": [
+            "differentiate_potassium_shifting_from_removal"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque porque pode atrasar a remoção efetiva do potássio enquanto persiste risco de toxicidade elétrica.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-094-r12",
+          "question_id": "aqz-hiper-094",
+          "sequence": 12,
+          "prompt": "Qual é a importância da lesão renal aguda oligúrica?",
+          "explanation": "A capacidade de excreção renal está comprometida, tornando a resposta aos diuréticos menos previsível.",
+          "reasoning_type": "severe_oliguric_aki",
+          "competency_ids": [
+            "differentiate_potassium_shifting_from_removal"
+          ],
+          "cognitive_operation": "integrate",
+          "clinical_relevance": "Este raciocínio é relevante porque a capacidade de excreção renal está comprometida, tornando a resposta aos diuréticos menos previsível.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-094-r13",
+          "question_id": "aqz-hiper-094",
+          "sequence": 13,
+          "prompt": "Qual estratégia deve ser considerada diante de hipercalemia persistente e resposta diurética insuficiente?",
+          "explanation": "Reavaliar a necessidade de terapia renal substitutiva, especialmente quando existem hipercalemia persistente, alterações elétricas, sobrecarga volêmica e comprometimento importante da função renal.",
+          "reasoning_type": "urgent_krt_consideration",
+          "competency_ids": [
+            "recognize_urgent_krt_consideration"
+          ],
+          "cognitive_operation": "plan",
+          "clinical_relevance": "Este raciocínio é relevante porque reavaliar a necessidade de terapia renal substitutiva, especialmente quando existem hipercalemia persistente, alterações elétricas, sobrecarga volêmica e comprometimento importante da função renal.",
+          "prerequisite_concepts": [
+            "estabilidade hemodinâmica e escolha de terapia renal substitutiva",
+            "remoção de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-094-r14",
+          "question_id": "aqz-hiper-094",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Reconhecer que o benefício dos diuréticos para eliminar potássio depende de excreção urinária efetiva e que a ausência de resposta exige mudança de estratégia.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "evaluate_diuretic_response"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque reconhecer que o benefício dos diuréticos para eliminar potássio depende de excreção urinária efetiva e que a ausência de resposta exige mudança de estratégia.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        }
+      ],
+      "clinical_pearl": "> Prescrever um diurético não significa eliminar potássio. Se o paciente não produz urina, não existe uma via renal efetiva de excreção apenas porque a furosemida foi administrada.",
+      "references": [
+        "*Treatment and prevention of hyperkalemia in adults*. UpToDate.",
+        "KDIGO — diretrizes de lesão renal aguda.",
+        "Literatura sobre diuréticos de alça, resistência diurética e excreção renal de potássio."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "oliguric_hyperkalemia",
+        "clinical_context": "emergency_department",
+        "urgency_level": "urgent_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "recognize_diuretic_limitations_in_oliguric_hyperkalemia",
+        "secondary_competencies": [
+          "understand_loop_diuretic_nkcc2_mechanism",
+          "recognize_distal_sodium_delivery_role",
+          "evaluate_diuretic_response",
+          "differentiate_potassium_shifting_from_removal",
+          "recognize_urgent_krt_consideration"
+        ],
+        "learning_objectives": [
+          "Reconhecer que o benefício dos diuréticos para eliminar potássio depende de excreção urinária efetiva e que a ausência de resposta exige mudança de estratégia."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_safety",
+        "arena_skill_ids": [
+          "recognize_diuretic_limitations_in_oliguric_hyperkalemia",
+          "understand_loop_diuretic_nkcc2_mechanism",
+          "recognize_distal_sodium_delivery_role",
+          "evaluate_diuretic_response",
+          "differentiate_potassium_shifting_from_removal",
+          "recognize_urgent_krt_consideration"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "recognize",
+          "diuretic",
+          "limitations",
+          "in",
+          "oliguric"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "recognize_diuretic_limitations_in_oliguric_hyperkalemia",
+          "understand_loop_diuretic_nkcc2_mechanism",
+          "recognize_distal_sodium_delivery_role",
+          "evaluate_diuretic_response",
+          "differentiate_potassium_shifting_from_removal",
+          "recognize_urgent_krt_consideration"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    },
+    {
+      "id": "aqz-hiper-095",
+      "question_id": "aqz-hiper-095",
+      "numero": 95,
+      "question_number": 95,
+      "titulo": "O potássio subiu depois da heparina",
+      "competenciaPrincipal": "Reconhecer a supressão de aldosterona induzida pela heparina como causa medicamentosa potencial de hipercalemia, mesmo sem deterioração evidente da função renal.",
+      "competenciasSecundarias": [
+        "recognize_heparin_endocrine_effects",
+        "understand_adrenal_aldosterone_synthesis",
+        "identify_distal_potassium_secretion_impairment",
+        "recognize_diabetes_ckd_susceptibility",
+        "evaluate_anticoagulation_alternatives"
+      ],
+      "dificuldade": "Avançada",
+      "statusEditorial": "aprovado",
+      "aulasRelacionadas": [],
+      "versao": "1.0",
+      "enunciado": "Um homem de 66 anos encontra-se internado na UTI há nove dias, após cirurgia vascular de grande porte.\n\nApresenta diabetes mellitus tipo 2 e doença renal crônica estágio G3a.\n\nDesde a admissão, recebe heparina não fracionada em infusão intravenosa para anticoagulação terapêutica.\n\nNos últimos quatro dias, o potássio apresentou elevação progressiva:\n\n- Dia 5: 4,5 mEq/L.\n- Dia 6: 5,0 mEq/L.\n- Dia 7: 5,5 mEq/L.\n- Dia 9: 6,0 mEq/L.\n\nA creatinina permaneceu estável em torno de 1,4 mg/dL.\n\nO paciente não apresenta acidose metabólica significativa, rabdomiólise, hemólise ou administração excessiva de potássio.\n\nNão utiliza espironolactona, trimetoprima ou bloqueadores do sistema renina-angiotensina-aldosterona.\n\nO ECG não apresenta alterações típicas de hipercalemia.\n\nDurante a discussão do caso, um residente afirma que a heparina não pode interferir no potássio, pois sua ação farmacológica está restrita à anticoagulação.\n\n**Qual é a interpretação mais adequada?**",
+      "alternativas": {
+        "A": "A heparina aumenta a produção de aldosterona, provocando perda renal excessiva de potássio e hipocalemia obrigatória.",
+        "B": "A heparina provoca hipercalemia exclusivamente por destruição direta das hemácias, independentemente da função adrenal.",
+        "C": "A estabilidade da creatinina exclui qualquer possibilidade de redução da excreção renal de potássio.",
+        "D": "A heparina pode reduzir a síntese de aldosterona na zona glomerulosa adrenal, favorecendo diminuição da secreção renal de potássio. Esse mecanismo deve ser considerado diante de hipercalemia progressiva durante exposição prolongada, especialmente em pacientes com diabetes ou doença renal crônica."
+      },
+      "gabarito": "D",
+      "raciocinioClinico": "**1. Qual é a alteração laboratorial observada?**\n\nElevação progressiva do potássio ao longo de vários dias.\n\n**2. Qual é a importância da estabilidade da creatinina?**\n\nSugere ausência de deterioração evidente da filtração renal durante o período, embora não exclua alterações específicas da excreção tubular de potássio.\n\n**3. Qual medicamento apresenta relação temporal com a hipercalemia?**\n\nA heparina não fracionada, utilizada continuamente durante a internação.\n\n**4. A heparina possui efeitos além da anticoagulação?**\n\nSim. Pode interferir na produção adrenal de aldosterona.\n\n**5. Qual região da glândula adrenal produz aldosterona?**\n\nA zona glomerulosa do córtex adrenal.\n\n**6. Como a heparina pode afetar essa produção?**\n\nPode reduzir a resposta da zona glomerulosa aos estímulos fisiológicos da síntese de aldosterona.\n\n**7. Qual é o papel da aldosterona no néfron distal?**\n\nEstimular a reabsorção de sódio e favorecer a secreção de potássio pelas células principais.\n\n**8. O que acontece quando a atividade da aldosterona diminui?**\n\nA secreção renal de potássio pode diminuir, favorecendo sua retenção.\n\n**9. Por que o diabetes aumenta a predisposição?**\n\nPacientes diabéticos podem apresentar alterações do sistema renina-angiotensina-aldosterona e menor reserva para excretar potássio.\n\n**10. Qual é a contribuição da doença renal crônica?**\n\nReduz a capacidade adaptativa de eliminação de potássio e aumenta a suscetibilidade a efeitos medicamentosos.\n\n**11. A hipercalemia induzida pela heparina ocorre obrigatoriamente em todos os pacientes?**\n\nNão. O risco depende da duração da exposição, da predisposição individual e de fatores associados.\n\n**12. Qual é a importância do início progressivo após vários dias?**\n\nÉ compatível com o desenvolvimento de supressão da aldosterona durante a exposição à heparina, embora não seja diagnóstico isoladamente.\n\n**13. Qual deve ser a abordagem clínica?**\n\nAvaliar a gravidade da hipercalemia, confirmar o resultado, revisar outras causas e discutir a possibilidade de substituir a heparina quando apropriado, considerando a indicação anticoagulante e os riscos trombóticos e hemorrágicos.\n\n**14. Qual é a competência principal?**\n\nReconhecer a supressão de aldosterona induzida pela heparina como causa medicamentosa potencial de hipercalemia, mesmo sem deterioração evidente da função renal.",
+      "comentarios": {
+        "A": "A heparina pode reduzir, e não aumentar, a produção de aldosterona, favorecendo hipercalemia.",
+        "B": "O mecanismo característico envolve supressão da aldosterona, não destruição obrigatória de hemácias.",
+        "C": "A estabilidade da creatinina não exclui comprometimento da excreção tubular de potássio.",
+        "D": "A heparina pode reduzir a síntese adrenal de aldosterona, comprometendo a secreção renal de potássio, especialmente em pacientes predispostos."
+      },
+      "perola": "> A heparina não atua apenas na coagulação. Depois de alguns dias de uso, ela pode reduzir a produção de aldosterona e contribuir para hipercalemia — mesmo quando a creatinina permanece praticamente inalterada.",
+      "referencias": "*Causes and evaluation of hyperkalemia in adults*. UpToDate.\nLiteratura sobre hipercalemia induzida por heparina e supressão adrenal de aldosterona.\nRevisões de farmacologia clínica sobre efeitos endócrinos da heparina.",
+      "scientificReviewNotes": "",
+      "revisaoCientificaPendente": false,
+      "observacaoCientificaEditorial": null,
+      "schema_version": 1,
+      "content_version": 1,
+      "course_id": "fa3c5d8d-94c4-4321-be7a-1cc45741a983",
+      "quiz_id": "agoraquiz-hipercalemia",
+      "block_number": 19,
+      "stem": "Um homem de 66 anos encontra-se internado na UTI há nove dias, após cirurgia vascular de grande porte.\n\nApresenta diabetes mellitus tipo 2 e doença renal crônica estágio G3a.\n\nDesde a admissão, recebe heparina não fracionada em infusão intravenosa para anticoagulação terapêutica.\n\nNos últimos quatro dias, o potássio apresentou elevação progressiva:\n\n- Dia 5: 4,5 mEq/L.\n- Dia 6: 5,0 mEq/L.\n- Dia 7: 5,5 mEq/L.\n- Dia 9: 6,0 mEq/L.\n\nA creatinina permaneceu estável em torno de 1,4 mg/dL.\n\nO paciente não apresenta acidose metabólica significativa, rabdomiólise, hemólise ou administração excessiva de potássio.\n\nNão utiliza espironolactona, trimetoprima ou bloqueadores do sistema renina-angiotensina-aldosterona.\n\nO ECG não apresenta alterações típicas de hipercalemia.\n\nDurante a discussão do caso, um residente afirma que a heparina não pode interferir no potássio, pois sua ação farmacológica está restrita à anticoagulação.\n\n**Qual é a interpretação mais adequada?**",
+      "options": [
+        {
+          "option_id": "aqz-hiper-095-A",
+          "question_id": "aqz-hiper-095",
+          "letter": "A",
+          "text": "A heparina aumenta a produção de aldosterona, provocando perda renal excessiva de potássio e hipocalemia obrigatória.",
+          "is_correct": false,
+          "feedback": "A heparina pode reduzir, e não aumentar, a produção de aldosterona, favorecendo hipercalemia.",
+          "error_type": "aldosterone_direction_error",
+          "misconception_id": "heparin_increases_aldosterone",
+          "misconception_description": "Inverte o efeito da heparina sobre a síntese de aldosterona.",
+          "competency_ids": [
+            "recognize_heparin_endocrine_effects"
+          ],
+          "clinical_risk_if_applied": "não reconhecer causa medicamentosa."
+        },
+        {
+          "option_id": "aqz-hiper-095-B",
+          "question_id": "aqz-hiper-095",
+          "letter": "B",
+          "text": "A heparina provoca hipercalemia exclusivamente por destruição direta das hemácias, independentemente da função adrenal.",
+          "is_correct": false,
+          "feedback": "O mecanismo característico envolve supressão da aldosterona, não destruição obrigatória de hemácias.",
+          "error_type": "incorrect_mechanism_attribution",
+          "misconception_id": "heparin_hyperkalemia_is_direct_hemolysis",
+          "misconception_description": "Atribui hipercalemia por heparina exclusivamente à hemólise.",
+          "competency_ids": [
+            "understand_adrenal_aldosterone_synthesis"
+          ],
+          "clinical_risk_if_applied": "não investigar supressão mineralocorticoide."
+        },
+        {
+          "option_id": "aqz-hiper-095-C",
+          "question_id": "aqz-hiper-095",
+          "letter": "C",
+          "text": "A estabilidade da creatinina exclui qualquer possibilidade de redução da excreção renal de potássio.",
+          "is_correct": false,
+          "feedback": "A estabilidade da creatinina não exclui comprometimento da excreção tubular de potássio.",
+          "error_type": "creatinine_excretion_confusion",
+          "misconception_id": "stable_creatinine_excludes_potassium_excretion_defect",
+          "misconception_description": "Considera creatinina estável garantia de excreção tubular normal de potássio.",
+          "competency_ids": [
+            "identify_distal_potassium_secretion_impairment"
+          ],
+          "clinical_risk_if_applied": "não reconhecer alterações hormonais ou tubulares.\n\nPara as alternativas corretas, manter `error_type` e `misconception_id` nulos e registrar as competências demonstradas.\n\nPreencher `competency_ids` individualmente, considerando o erro ou acerto específico de cada alternativa.\n\n---"
+        },
+        {
+          "option_id": "aqz-hiper-095-D",
+          "question_id": "aqz-hiper-095",
+          "letter": "D",
+          "text": "A heparina pode reduzir a síntese de aldosterona na zona glomerulosa adrenal, favorecendo diminuição da secreção renal de potássio. Esse mecanismo deve ser considerado diante de hipercalemia progressiva durante exposição prolongada, especialmente em pacientes com diabetes ou doença renal crônica.",
+          "is_correct": true,
+          "feedback": "A heparina pode reduzir a síntese adrenal de aldosterona, comprometendo a secreção renal de potássio, especialmente em pacientes predispostos.",
+          "error_type": null,
+          "misconception_id": null,
+          "misconception_description": null,
+          "competency_ids": [
+            "recognize_heparin_induced_hypoaldosteronism",
+            "recognize_heparin_endocrine_effects",
+            "understand_adrenal_aldosterone_synthesis"
+          ],
+          "clinical_risk_if_applied": null
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "reasoning_id": "aqz-hiper-095-r01",
+          "question_id": "aqz-hiper-095",
+          "sequence": 1,
+          "prompt": "Qual é a alteração laboratorial observada?",
+          "explanation": "Elevação progressiva do potássio ao longo de vários dias.",
+          "reasoning_type": "progressive_hyperkalemia",
+          "competency_ids": [
+            "identify_distal_potassium_secretion_impairment"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque elevação progressiva do potássio ao longo de vários dias.",
+          "prerequisite_concepts": [
+            "fisiologia do potássio",
+            "avaliação clínica da hipercalemia"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-095-r02",
+          "question_id": "aqz-hiper-095",
+          "sequence": 2,
+          "prompt": "Qual é a importância da estabilidade da creatinina?",
+          "explanation": "Sugere ausência de deterioração evidente da filtração renal durante o período, embora não exclua alterações específicas da excreção tubular de potássio.",
+          "reasoning_type": "stable_creatinine_interpretation",
+          "competency_ids": [
+            "recognize_diabetes_ckd_susceptibility"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque sugere ausência de deterioração evidente da filtração renal durante o período, embora não exclua alterações específicas da excreção tubular de potássio.",
+          "prerequisite_concepts": [
+            "diferença entre filtração glomerular e função tubular",
+            "secreção distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-095-r03",
+          "question_id": "aqz-hiper-095",
+          "sequence": 3,
+          "prompt": "Qual medicamento apresenta relação temporal com a hipercalemia?",
+          "explanation": "A heparina não fracionada, utilizada continuamente durante a internação.",
+          "reasoning_type": "temporal_heparin_exposure",
+          "competency_ids": [
+            "recognize_heparin_endocrine_effects"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque a heparina não fracionada, utilizada continuamente durante a internação.",
+          "prerequisite_concepts": [
+            "síntese adrenal de aldosterona",
+            "secreção distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-095-r04",
+          "question_id": "aqz-hiper-095",
+          "sequence": 4,
+          "prompt": "A heparina possui efeitos além da anticoagulação?",
+          "explanation": "Sim. Pode interferir na produção adrenal de aldosterona.",
+          "reasoning_type": "heparin_endocrine_effect",
+          "competency_ids": [
+            "recognize_heparin_endocrine_effects"
+          ],
+          "cognitive_operation": "recall",
+          "clinical_relevance": "Este raciocínio é relevante porque sim. Pode interferir na produção adrenal de aldosterona.",
+          "prerequisite_concepts": [
+            "síntese adrenal de aldosterona",
+            "secreção distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-095-r05",
+          "question_id": "aqz-hiper-095",
+          "sequence": 5,
+          "prompt": "Qual região da glândula adrenal produz aldosterona?",
+          "explanation": "A zona glomerulosa do córtex adrenal.",
+          "reasoning_type": "adrenal_zona_glomerulosa",
+          "competency_ids": [
+            "understand_adrenal_aldosterone_synthesis"
+          ],
+          "cognitive_operation": "identify",
+          "clinical_relevance": "Este raciocínio é relevante porque a zona glomerulosa do córtex adrenal.",
+          "prerequisite_concepts": [
+            "fisiologia renal das prostaglandinas",
+            "sistema renina-angiotensina-aldosterona"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-095-r06",
+          "question_id": "aqz-hiper-095",
+          "sequence": 6,
+          "prompt": "Como a heparina pode afetar essa produção?",
+          "explanation": "Pode reduzir a resposta da zona glomerulosa aos estímulos fisiológicos da síntese de aldosterona.",
+          "reasoning_type": "aldosterone_synthesis_suppression",
+          "competency_ids": [
+            "understand_adrenal_aldosterone_synthesis"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque pode reduzir a resposta da zona glomerulosa aos estímulos fisiológicos da síntese de aldosterona.",
+          "prerequisite_concepts": [
+            "síntese adrenal de aldosterona",
+            "secreção distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-095-r07",
+          "question_id": "aqz-hiper-095",
+          "sequence": 7,
+          "prompt": "Qual é o papel da aldosterona no néfron distal?",
+          "explanation": "Estimular a reabsorção de sódio e favorecer a secreção de potássio pelas células principais.",
+          "reasoning_type": "aldosterone_distal_nephron_role",
+          "competency_ids": [
+            "understand_adrenal_aldosterone_synthesis"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque estimular a reabsorção de sódio e favorecer a secreção de potássio pelas células principais.",
+          "prerequisite_concepts": [
+            "fisiologia renal das prostaglandinas",
+            "sistema renina-angiotensina-aldosterona"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-095-r08",
+          "question_id": "aqz-hiper-095",
+          "sequence": 8,
+          "prompt": "O que acontece quando a atividade da aldosterona diminui?",
+          "explanation": "A secreção renal de potássio pode diminuir, favorecendo sua retenção.",
+          "reasoning_type": "potassium_retention_mechanism",
+          "competency_ids": [
+            "identify_distal_potassium_secretion_impairment"
+          ],
+          "cognitive_operation": "explain",
+          "clinical_relevance": "Este raciocínio é relevante porque a secreção renal de potássio pode diminuir, favorecendo sua retenção.",
+          "prerequisite_concepts": [
+            "fisiologia renal das prostaglandinas",
+            "sistema renina-angiotensina-aldosterona"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-095-r09",
+          "question_id": "aqz-hiper-095",
+          "sequence": 9,
+          "prompt": "Por que o diabetes aumenta a predisposição?",
+          "explanation": "Pacientes diabéticos podem apresentar alterações do sistema renina-angiotensina-aldosterona e menor reserva para excretar potássio.",
+          "reasoning_type": "diabetes_predisposition",
+          "competency_ids": [
+            "recognize_diabetes_ckd_susceptibility"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque pacientes diabéticos podem apresentar alterações do sistema renina-angiotensina-aldosterona e menor reserva para excretar potássio.",
+          "prerequisite_concepts": [
+            "fisiologia renal das prostaglandinas",
+            "sistema renina-angiotensina-aldosterona"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-095-r10",
+          "question_id": "aqz-hiper-095",
+          "sequence": 10,
+          "prompt": "Qual é a contribuição da doença renal crônica?",
+          "explanation": "Reduz a capacidade adaptativa de eliminação de potássio e aumenta a suscetibilidade a efeitos medicamentosos.",
+          "reasoning_type": "ckd_susceptibility",
+          "competency_ids": [
+            "recognize_diabetes_ckd_susceptibility"
+          ],
+          "cognitive_operation": "evaluate",
+          "clinical_relevance": "Este raciocínio é relevante porque reduz a capacidade adaptativa de eliminação de potássio e aumenta a suscetibilidade a efeitos medicamentosos.",
+          "prerequisite_concepts": [
+            "efeitos renais dos medicamentos",
+            "revisão de medicamentos e risco individual"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-095-r11",
+          "question_id": "aqz-hiper-095",
+          "sequence": 11,
+          "prompt": "A hipercalemia induzida pela heparina ocorre obrigatoriamente em todos os pacientes?",
+          "explanation": "Não. O risco depende da duração da exposição, da predisposição individual e de fatores associados.",
+          "reasoning_type": "variable_individual_risk",
+          "competency_ids": [
+            "recognize_diabetes_ckd_susceptibility"
+          ],
+          "cognitive_operation": "differentiate",
+          "clinical_relevance": "Este raciocínio é relevante porque não. O risco depende da duração da exposição, da predisposição individual e de fatores associados.",
+          "prerequisite_concepts": [
+            "síntese adrenal de aldosterona",
+            "secreção distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-095-r12",
+          "question_id": "aqz-hiper-095",
+          "sequence": 12,
+          "prompt": "Qual é a importância do início progressivo após vários dias?",
+          "explanation": "É compatível com o desenvolvimento de supressão da aldosterona durante a exposição à heparina, embora não seja diagnóstico isoladamente.",
+          "reasoning_type": "delayed_onset_interpretation",
+          "competency_ids": [
+            "recognize_diabetes_ckd_susceptibility"
+          ],
+          "cognitive_operation": "interpret",
+          "clinical_relevance": "Este raciocínio é relevante porque é compatível com o desenvolvimento de supressão da aldosterona durante a exposição à heparina, embora não seja diagnóstico isoladamente.",
+          "prerequisite_concepts": [
+            "síntese adrenal de aldosterona",
+            "secreção distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-095-r13",
+          "question_id": "aqz-hiper-095",
+          "sequence": 13,
+          "prompt": "Qual deve ser a abordagem clínica?",
+          "explanation": "Avaliar a gravidade da hipercalemia, confirmar o resultado, revisar outras causas e discutir a possibilidade de substituir a heparina quando apropriado, considerando a indicação anticoagulante e os riscos trombóticos e hemorrágicos.",
+          "reasoning_type": "anticoagulation_review_strategy",
+          "competency_ids": [
+            "evaluate_anticoagulation_alternatives"
+          ],
+          "cognitive_operation": "plan",
+          "clinical_relevance": "Este raciocínio é relevante porque avaliar a gravidade da hipercalemia, confirmar o resultado, revisar outras causas e discutir a possibilidade de substituir a heparina quando apropriado, considerando a indicação anticoagulante e os riscos trombóticos e hemorrágicos.",
+          "prerequisite_concepts": [
+            "síntese adrenal de aldosterona",
+            "secreção distal de potássio"
+          ]
+        },
+        {
+          "reasoning_id": "aqz-hiper-095-r14",
+          "question_id": "aqz-hiper-095",
+          "sequence": 14,
+          "prompt": "Qual é a competência principal?",
+          "explanation": "Reconhecer a supressão de aldosterona induzida pela heparina como causa medicamentosa potencial de hipercalemia, mesmo sem deterioração evidente da função renal.",
+          "reasoning_type": "competency_synthesis",
+          "competency_ids": [
+            "understand_adrenal_aldosterone_synthesis"
+          ],
+          "cognitive_operation": "synthesize",
+          "clinical_relevance": "Este raciocínio é relevante porque reconhecer a supressão de aldosterona induzida pela heparina como causa medicamentosa potencial de hipercalemia, mesmo sem deterioração evidente da função renal.",
+          "prerequisite_concepts": [
+            "síntese adrenal de aldosterona",
+            "secreção distal de potássio"
+          ]
+        }
+      ],
+      "clinical_pearl": "> A heparina não atua apenas na coagulação. Depois de alguns dias de uso, ela pode reduzir a produção de aldosterona e contribuir para hipercalemia — mesmo quando a creatinina permanece praticamente inalterada.",
+      "references": [
+        "*Causes and evaluation of hyperkalemia in adults*. UpToDate.",
+        "Literatura sobre hipercalemia induzida por heparina e supressão adrenal de aldosterona.",
+        "Revisões de farmacologia clínica sobre efeitos endócrinos da heparina."
+      ],
+      "metadata": {
+        "difficulty": "advanced",
+        "clinical_domain": "heparin_induced_hypoaldosteronism",
+        "clinical_context": "inpatient",
+        "urgency_level": "prompt_evaluation",
+        "cognitive_level": "clinical_decision_making",
+        "primary_competency": "recognize_heparin_induced_hypoaldosteronism",
+        "secondary_competencies": [
+          "recognize_heparin_endocrine_effects",
+          "understand_adrenal_aldosterone_synthesis",
+          "identify_distal_potassium_secretion_impairment",
+          "recognize_diabetes_ckd_susceptibility",
+          "evaluate_anticoagulation_alternatives"
+        ],
+        "learning_objectives": [
+          "Reconhecer a supressão de aldosterona induzida pela heparina como causa medicamentosa potencial de hipercalemia, mesmo sem deterioração evidente da função renal."
+        ],
+        "prerequisite_competencies": [],
+        "patient_safety_domain": "electrolyte_safety",
+        "arena_skill_ids": [
+          "recognize_heparin_induced_hypoaldosteronism",
+          "recognize_heparin_endocrine_effects",
+          "understand_adrenal_aldosterone_synthesis",
+          "identify_distal_potassium_secretion_impairment",
+          "recognize_diabetes_ckd_susceptibility",
+          "evaluate_anticoagulation_alternatives"
+        ],
+        "arena_challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "tags": [
+          "hyperkalemia",
+          "recognize",
+          "heparin",
+          "induced",
+          "hypoaldosteronism"
+        ],
+        "editorial_status": "approved",
+        "content_version": 1,
+        "schema_version": 1,
+        "scientific_review_notes": "",
+        "related_lesson_ids": [],
+        "arena_eligible": true,
+        "arena_difficulty_weight": null,
+        "estimated_response_time_seconds": null,
+        "scientific_review_required": false
+      },
+      "arena": {
+        "eligible": true,
+        "skill_ids": [
+          "recognize_heparin_induced_hypoaldosteronism",
+          "recognize_heparin_endocrine_effects",
+          "understand_adrenal_aldosterone_synthesis",
+          "identify_distal_potassium_secretion_impairment",
+          "recognize_diabetes_ckd_susceptibility",
+          "evaluate_anticoagulation_alternatives"
+        ],
+        "challenge_types": [
+          "pattern_recognition",
+          "clinical_decision"
+        ],
+        "base_xp": null,
+        "difficulty_weight": null
+      }
+    }
+  ]
+}
