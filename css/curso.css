@@ -112,7 +112,10 @@
   border-color: #6b5996;
 }
 
-#curso-agoraprescreva,
+#curso-agoraprescreva {
+  margin-block-end: 0;
+}
+
 #curso-agoraatenda {
   margin-block-end: 28px;
 }
