@@ -229,19 +229,76 @@
     return (prescription ? 40 : 0) + (order.get('loop') === 'review' ? 20 : 0) +
       (order.has('labs') ? 20 : 0) + (order.has('fluid') ? 20 : 0)
   }
+  function scoreDomains(form) {
+    if (form.id === 'initial') {
+      const item = pickers.get(form.id)?.get('loop')
+      const dose = Number(orderValue(item || document.createElement('div'), 'dose').replace(',', '.'))
+      const unit = orderValue(item || document.createElement('div'), 'unit')
+      const mg = unit === 'g' ? dose * 1000 : unit === 'mg' ? dose : 0
+      return [
+        {name: 'Dose inicial', score: mg === 80 ? 40 : 0, max: 40},
+        {name: 'Via e momento', score: (orderValue(item || document.createElement('div'), 'route') === 'IV' ? 20 : 0) + (orderValue(item || document.createElement('div'), 'timing') === 'now' ? 10 : 0), max: 30},
+        {name: 'Monitorização e controle', score: (form.elements.diuresis.checked ? 10 : 0) + (form.elements.review.checked ? 10 : 0) + (form.elements.potassium.value === 'early' ? 10 : 0), max: 30}
+      ]
+    }
+    if (form.id === 'poor-form') {
+      return [{name: 'Reavaliação e segurança', score: scoreFor(form), max: 100}]
+    }
+    const order = new FormData(form)
+    const item = pickers.get(form.id)?.get('bicarb')
+    const dose = Number(orderValue(item || document.createElement('div'), 'dose').replace(',', '.'))
+    const unit = orderValue(item || document.createElement('div'), 'unit')
+    const mg = unit === 'g' ? dose * 1000 : unit === 'mg' ? dose : (unit === 'mEq' || unit === 'mmol') && dose >= 5.95 && dose <= 6 ? 500 : 0
+    const prescription = mg === 500 && orderValue(item || document.createElement('div'), 'route') === 'Oral' && orderValue(item || document.createElement('div'), 'timing') === '8'
+    return [
+      {name: 'Bicarbonato: dose e esquema', score: prescription ? 40 : 0, max: 40},
+      {name: 'Revisão da furosemida', score: order.get('loop') === 'review' ? 20 : 0, max: 20},
+      {name: 'Controle laboratorial', score: order.has('labs') ? 20 : 0, max: 20},
+      {name: 'Vigilância volêmica', score: order.has('fluid') ? 20 : 0, max: 20}
+    ]
+  }
   function feedback(id, messages, explanation, score) {
     const box = byId(id)
+    const form = byId(id === 'initial-feedback' ? 'initial' : id === 'poor-feedback' ? 'poor-form' : 'follow-up')
     const scoreCard = document.createElement('div')
-    scoreCard.className = 'case02-score'
-    scoreCard.innerHTML = `<strong>${score}<span>/100</span></strong><div><b>Nota desta etapa</b><small>${score === 100 ? 'Prescrição alinhada aos critérios desta etapa.' : 'A nota destaca itens atendidos; leia a justificativa e os próximos passos antes de avançar.'}</small></div>`
+    scoreCard.className = 'score-overview'
+    scoreCard.innerHTML = `<div class="score-ring"><strong></strong><span>/ 100</span></div><div class="score-copy"><span class="score-status"></span><h3></h3><p></p></div>`
+    scoreCard.querySelector('.score-ring strong').textContent = score
+    scoreCard.querySelector('.score-status').textContent = 'NOTA DESTA ETAPA'
+    scoreCard.querySelector('.score-copy h3').textContent = score === 100 ? 'Decisão alinhada aos critérios desta etapa.' : 'Há pontos importantes para revisar.'
+    scoreCard.querySelector('.score-copy p').textContent = 'A nota resume os critérios atendidos nesta etapa. Leia o comentário clínico e a referência antes de prosseguir.'
+    const domainGrid = document.createElement('div')
+    domainGrid.className = 'domain-grid'
+    for (const domain of scoreDomains(form)) {
+      const card = document.createElement('article')
+      card.className = 'domain-card'
+      card.innerHTML = `<div><span></span><strong></strong></div><i><b></b></i>`
+      card.querySelector('span').textContent = domain.name
+      card.querySelector('strong').innerHTML = `${domain.score}<small> / ${domain.max}</small>`
+      card.querySelector('i b').style.width = `${Math.round(domain.score / domain.max * 100)}%`
+      domainGrid.append(card)
+    }
     const list = document.createElement('ul')
     for (const message of messages) {
       const item = document.createElement('li')
       item.textContent = message
       list.append(item)
     }
-    box.replaceChildren(scoreCard, list)
-    if (explanation) box.append(explanation.content.cloneNode(true))
+    const reviewGrid = document.createElement('div')
+    reviewGrid.className = 'review-grid'
+    const recorded = document.createElement('article')
+    recorded.className = 'review-section'
+    recorded.innerHTML = '<span class="eyebrow">SUA DECISÃO</span><h3>Pontos desta etapa</h3>'
+    const recordedContent = document.createElement('div')
+    recordedContent.className = 'review-content'
+    recordedContent.append(list)
+    recorded.append(recordedContent)
+    const reference = document.createElement('article')
+    reference.className = 'review-section reference-section'
+    reference.innerHTML = '<span class="eyebrow">PLANO DE REFERÊNCIA</span><h3>Racional clínico do cenário</h3>'
+    if (explanation) reference.append(explanation.content.cloneNode(true))
+    reviewGrid.append(recorded, reference)
+    box.replaceChildren(scoreCard, domainGrid, reviewGrid)
     box.hidden = false
   }
   const operationId = crypto.randomUUID()
