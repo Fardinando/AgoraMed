@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AgoraPrescreva · Caso 02</title>
+<link rel="stylesheet" href="css/agoraprescreva.css?v=3">
 <style>
-:root{color-scheme:dark;--ink:#f4f2fa;--muted:#bfd1d8;--accent:#d3baff;--line:#456874}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% 0,#193741,#081b22 55%);color:var(--ink);font:16px/1.6 system-ui,sans-serif}
-header{border-bottom:1px solid var(--line);padding:16px max(5%,calc((100% - 1080px)/2));white-space:nowrap}header span{color:var(--accent);margin-left:14px}
-main{max-width:1120px;margin:auto;padding:34px 20px 60px}h1,h2{font-family:Georgia,serif;font-weight:400;line-height:1.15}h1{font-size:clamp(34px,5vw,60px);margin:8px 0 16px}h2{font-size:28px;margin:0 0 14px}h3{margin-top:0}p{margin:0 0 14px}.tag{color:var(--accent);font-size:.78rem;letter-spacing:.14em;font-weight:700}.grid{display:grid;grid-template-columns: minmax(0,1fr) minmax(0,1.35fr);gap:20px;align-items:start}.panel{padding:24px;border:1px solid var(--line);border-radius:16px;background:#102c35}.order{background:linear-gradient(135deg,#102e38,#29213a);border-color:#8f75b5}dl{display:grid;grid-template-columns:1fr 1.3fr;gap:8px;margin:0}dd{margin:0;font-weight:600}dt,small,.muted{color:var(--muted)}
+:root{color-scheme:dark;--ink:#f4f7f7;--muted:#b4c9ce;--accent:#c6a4f5;--line:#346f77}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% 0,#193741,#081b22 55%);color:var(--ink);font:16px/1.6 var(--sans)}
+h1,h2{font-family:var(--serif);font-weight:400;line-height:1.15}main{max-width:1500px;margin:auto;padding:34px max(4vw,28px) 60px}h1{font-size:clamp(34px,5vw,60px);margin:8px 0 16px}h2{font-size:28px;margin:0 0 14px}h3{margin-top:0}p{margin:0 0 14px}.tag{color:var(--accent);font-size:.78rem;letter-spacing:.14em;font-weight:700}.grid{display:grid;grid-template-columns: minmax(0,1fr) minmax(0,1.35fr);gap:20px;align-items:start}.panel{padding:24px;border:1px solid var(--line);border-radius:16px;background:#102c35}.order{background:linear-gradient(135deg,#102e38,#29213a);border-color:#8f75b5}dl{display:grid;grid-template-columns:1fr 1.3fr;gap:8px;margin:0}dd{margin:0;font-weight:600}dt,small,.muted{color:var(--muted)}
 label{display:block;margin:10px 0}input:not([type=checkbox]),select{display:block;width:100%;padding:9px;margin-top:5px;border:1px solid #647187;border-radius:8px;background:#101d2b;color:inherit;font:inherit}input[type=checkbox]{accent-color:var(--accent)}button{border:1px solid var(--accent);border-radius:10px;background:#cfb6fa;color:#211630;padding:10px 15px;font:inherit;font-weight:700;cursor:pointer}button.secondary{background:transparent;color:var(--accent)}button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:10px}.feedback{margin-top:18px;padding:15px;background:#152638;border:1px solid #8f75b5;border-radius:10px}.feedback ul{padding-left:20px}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}a{color:var(--accent)}details{margin-top:25px}summary{cursor:pointer}[hidden]{display:none!important}@media(max-width:750px){.grid,.fields{grid-template-columns:1fr}}
 .catalog{display:flex;gap:10px;align-items:end;margin-bottom:12px}.catalog label{flex:1;margin:0;min-width:0}.catalog button{flex:none}.order-item{min-width:0;border:1px solid var(--line);border-radius:10px;margin:0 0 12px;padding:10px 14px 14px}.order-item legend{color:var(--accent);font-weight:700;padding:0 6px}.order-item label{margin:4px 0}.order-item button{margin-top:10px}.feedback li+li{margin-top:9px}.catalog-empty{display:block;margin-bottom:10px}@media(max-width:420px){.catalog{flex-direction:column;align-items:stretch}}
 .order-actions{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:10px}
@@ -24,12 +24,22 @@ label{display:block;margin:10px 0}input:not([type=checkbox]),select{display:bloc
 </style>
 </head>
 <body>
-<header><strong>AGORAMED</strong><span>AgoraPrescreva</span></header>
+<header class="topbar">
+<a class="brand" href="app.html" aria-label="AgoraMed — início"><img src="img/agoramed-logo-branco.png" alt="AgoraMed · Pronto para o plantão" width="906" height="184"></a>
+<div class="top-context"><span class="course-dot"></span><span>TRATAMENTO DA HIPERCALEMIA EM ADULTOS</span></div>
+<div class="top-actions"><a class="text-button" href="curso.html?id=fa3c5d8d-94c4-4321-be7a-1cc45741a983">← Voltar ao curso</a></div>
+</header>
 <p id="case-access" class="access-message" role="status">Verificando acesso ao curso…</p>
 <main id="case-content" hidden>
-<nav class="actions" aria-label="Casos do AgoraPrescreva">
-  <a href="agoraprescreva.html">← Caso 01</a>
-  <a href="curso.html?id=fa3c5d8d-94c4-4321-be7a-1cc45741a983">Voltar ao curso</a>
+<nav class="case-switcher" aria-label="Casos do AgoraPrescreva">
+  <a class="case-choice" href="agoraprescreva.html">
+    <span class="case-number">CASO 01</span><strong>Hipercalemia grave com alteração no ECG</strong>
+    <span class="case-action">Abrir caso <b aria-hidden="true">→</b></span>
+  </a>
+  <a class="case-choice is-current" href="agoraprescreva-caso-02.html" aria-current="page">
+    <span class="case-number">CASO 02</span><strong>Hipercalemia com congestão e acidose</strong>
+    <span class="case-action">Em andamento <b aria-hidden="true">✓</b></span>
+  </a>
 </nav>
 <p class="tag">SIMULAÇÃO CLÍNICA · CASO 02</p>
 <h1>Hipercalemia com congestão e acidose</h1>
