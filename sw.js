@@ -3,7 +3,7 @@
    quando o aluno estiver sem internet. Assim as aulas e materiais novos aparecem
    na hora, e o app continua abrindo offline.
 */
-const CACHE = 'agoramed-v111';
+const CACHE = 'agoramed-v112';
 /* Recursos visuais do login e ícones também ficam disponíveis offline.
    As respostas autenticadas de /api/ continuam fora do cache. */
 const APP = [
@@ -49,8 +49,8 @@ self.addEventListener('fetch', (e) => {
   if (req.method !== 'GET' || url.origin !== location.origin) return;
   if (url.pathname.startsWith('/api/')) return;
 
-  /* Páginas de oferta e pagamento devem consultar a versão atual primeiro. */
-  if (['/hipercalemia.html', '/matricula-hipercalemia.html', '/pagamento.html'].includes(url.pathname)) {
+  /* Páginas sensíveis à versão atual consultam a rede primeiro e mantêm fallback offline. */
+  if (['/hipercalemia.html', '/matricula-hipercalemia.html', '/pagamento.html', '/curso.html'].includes(url.pathname)) {
     e.respondWith(fetch(req).then((res) => {
       if (res.ok) { const copia = res.clone(); e.waitUntil(caches.open(CACHE).then(c => c.put(req, copia))); }
       return res;
