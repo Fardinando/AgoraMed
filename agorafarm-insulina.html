@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#071d22">
+  <meta name="description" content="Estação interativa de farmacologia aplicada e prática de prescrição de insulina regular na hipercalemia.">
+  <title>AgoraFarm · Insulina regular · AgoraMed</title>
+  <link rel="stylesheet" href="css/agoraprescreva.css?v=5">
+  <link rel="stylesheet" href="css/agorafarm.css?v=5">
+  <link rel="stylesheet" href="css/agorafarm-insulina.css?v=1">
+</head>
+<body class="agorafarm af-insulin-page">
+  <header class="topbar">
+    <a class="brand" href="app.html" aria-label="AgoraMed — início"><img src="img/agoramed-logo-branco.png" alt="AgoraMed · Pronto para o plantão" width="906" height="184"></a>
+    <div class="top-context"><span class="course-dot"></span><span>TRATAMENTO DA HIPERCALEMIA EM ADULTOS</span></div>
+    <div class="top-actions"><a class="text-button" href="curso.html?id=fa3c5d8d-94c4-4321-be7a-1cc45741a983&amp;atualizar=1">← Voltar ao curso</a></div>
+  </header>
+  <main class="shell af-shell">
+    <nav class="breadcrumb" aria-label="Localização"><a href="agorafarm.html">AgoraFarm</a><b aria-hidden="true">/</b><strong>Insulina regular</strong></nav>
+    <section class="page-heading af-heading">
+      <div><span class="eyebrow">FARMACOLOGIA APLICADA · ESTAÇÃO 02</span><h1>Insulina regular<em> na hipercalemia</em></h1><p>Identifique o frasco, calcule a dose e a glicose associada, depois monte uma prescrição segura.</p></div>
+      <div class="heading-meta"><span class="status"><i></i> Aprenda fazendo</span></div>
+    </section>
+    <section class="af-progress" aria-label="Progresso da estação">
+      <div class="af-progress-copy"><strong id="progress-label">Etapa 1 de 4</strong><span id="progress-detail">Explorar apresentação</span></div>
+      <div class="af-progress-track" role="progressbar" aria-label="Progresso na estação" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25" id="progress-bar"><span id="progress-fill"></span></div>
+      <nav class="af-step-nav" aria-label="Etapas da estação">
+        <button type="button" data-step="0" aria-current="step"><span>01</span><b>Frasco</b></button>
+        <button type="button" data-step="1"><span>02</span><b>Ação</b></button>
+        <button type="button" data-step="2"><span>03</span><b>Cálculo</b></button>
+        <button type="button" data-step="3"><span>04</span><b>Prescrição</b></button>
+      </nav>
+    </section>
+    <div id="stage-announcement" class="sr-only" aria-live="polite"></div>
+
+    <section class="af-stage" data-stage="0" aria-labelledby="vial-title">
+      <div class="af-section-head"><div><span class="eyebrow">01 · IDENTIFIQUE O PRODUTO</span><h2 id="vial-title">Leia o frasco antes de calcular.</h2><p>Explore concentração, volume e forma farmacêutica para reconhecer o que está disponível.</p></div><span class="af-counter">01 / 04</span></div>
+      <div class="af-ampoule-layout">
+        <article class="af-card af-product-card">
+          <div class="af-product-label"><span>INSULINA HUMANA REGULAR · PADRÃO DE ENSINO</span><span class="af-live-dot">FRASCO-AMPOLA · 10 mL</span></div>
+          <div class="af-product-visual">
+            <div class="af-insulin-vial" role="img" aria-label="Ilustração educativa de frasco-ampola de insulina humana regular, solução injetável, 100 unidades internacionais por mililitro, volume de 10 mililitros">
+              <div class="af-vial-cap"></div><div class="af-vial-neck"></div><div class="af-vial-body"><span>100 UI/mL</span><small>INSULINA HUMANA<br>REGULAR<br>SOLUÇÃO INJETÁVEL</small><i>10 mL</i></div>
+            </div>
+            <div class="af-hotspots" role="group" aria-label="Dados do rótulo do frasco-ampola">
+              <button type="button" class="af-fact-select" data-fact="concentration" aria-pressed="true"><span class="af-fact-index">1</span>Concentração<span class="af-fact-check" data-fact-check="concentration" aria-hidden="true" hidden>✓</span></button>
+              <button type="button" class="af-fact-select" data-fact="volume" aria-pressed="false"><span class="af-fact-index">2</span>Volume<span class="af-fact-check" data-fact-check="volume" aria-hidden="true" hidden>✓</span></button>
+              <button type="button" class="af-fact-select" data-fact="form" aria-pressed="false"><span class="af-fact-index">3</span>Forma farmacêutica<span class="af-fact-check" data-fact-check="form" aria-hidden="true" hidden>✓</span></button>
+            </div>
+          </div>
+          <div class="af-product-note"><span aria-hidden="true">i</span><p>Para esta estação, considere uma apresentação padronizada: insulina humana regular 100 UI/mL em frasco-ampola de 10 mL. A apresentação pode variar conforme o serviço.</p></div>
+        </article>
+        <article class="af-card af-fact-panel" aria-live="polite">
+          <span class="eyebrow" id="fact-label">DADO DO RÓTULO</span><h3 id="fact-title">Concentração</h3><strong class="af-fact-value" id="fact-value">100 UI/mL</strong><p id="fact-description">Cada mililitro contém 100 unidades internacionais de insulina humana regular.</p>
+          <div class="af-fact-extra"><b>Como ler</b><span>UI é a unidade da dose de insulina. Nesta apresentação, 1 mL contém 100 UI; portanto, 10 UI correspondem a 0,1 mL.</span></div>
+          <div class="af-fact-confirmation"><button type="button" id="mark-current-fact" aria-pressed="false">Marcar este dado como visto</button><span id="ampoule-read-status" aria-live="polite">0 de 3 dados vistos</span></div>
+        </article>
+      </div>
+      <div class="af-learning-strip"><span class="af-strip-icon" aria-hidden="true">✓</span><p><strong>Alerta de segurança:</strong> a prescrição deve ser expressa em UI. Nunca confunda 10 UI com 10 mL; use seringa própria para insulina, graduada em unidades, e faça dupla checagem independente.</p></div>
+      <div class="af-actions"><span class="af-step-hint">Marque concentração, volume e forma farmacêutica como vistos para continuar.</span><button class="button primary" type="button" data-next disabled>Entender a ação <span aria-hidden="true">→</span></button></div>
+    </section>
+
+    <section class="af-stage" data-stage="1" aria-labelledby="mechanism-title" hidden>
+      <div class="af-section-head"><div><span class="eyebrow">02 · FARMACOLOGIA NA PRÁTICA</span><h2 id="mechanism-title">A insulina desloca o potássio para dentro das células.</h2><p>O efeito é temporário: redistribui potássio e não o remove do organismo.</p></div><span class="af-counter">02 / 04</span></div>
+      <div class="af-mechanism-grid">
+        <article class="af-card af-mechanism-card"><span class="af-mechanism-number">01</span><span class="eyebrow">EFEITO DA INSULINA</span><h3>Reduz temporariamente o potássio no sangue.</h3><p>A insulina estimula a entrada de potássio nas células, principalmente pela ativação da bomba de sódio e potássio. É uma medida de redistribuição enquanto se planeja o controle definitivo do potássio.</p><div class="af-effect-tag positive">Início em cerca de 15 min · efeito temporário</div></article>
+        <article class="af-card af-mechanism-card af-no-k"><span class="af-mechanism-number">02</span><span class="eyebrow">O QUE ELA NÃO FAZ</span><h3>Não elimina o potássio do corpo.</h3><p>O potássio pode voltar a subir quando o efeito de redistribuição diminui. Acompanhe o potássio e mantenha o plano de remoção indicado para o cenário clínico.</p><div class="af-effect-tag caution">A melhora laboratorial inicial não encerra o tratamento</div></article>
+      </div>
+      <div class="af-two-column">
+        <article class="af-card af-text-card"><span class="eyebrow">GLICOSE E HIPOGLICEMIA</span><h3>Por que associar glicose?</h3><ul><li><strong>A glicose reduz o risco de hipoglicemia</strong> causada pela insulina, mas não elimina esse risco.</li><li><strong>Confira a glicemia antes da dose.</strong> A UKKA recomenda glicose a 10% em infusão após a dose se a glicemia inicial for menor que 7,0 mmol/L (126 mg/dL).</li><li><strong>Monitore por pelo menos 6 horas:</strong> na referência UKKA, medir antes e aos 30, 60, 90, 120, 180, 240, 300 e 360 minutos.</li><li><strong>Reavalie o potássio</strong> em 1, 2, 4, 6 e 24 horas; a redistribuição pode ser seguida de rebote.</li></ul></article>
+        <article class="af-card af-text-card af-dose-focus"><span class="eyebrow">DOSE E PREPARO · UKKA 2026</span><h3>10 UI de insulina regular + 25 g de glicose por via IV.</h3><p>Para esta estação, o preparo de referência é 10 UI de insulina solúvel em 50 mL de glicose a 50% (25 g), administrados por via intravenosa em 5–15 minutos.</p><ul><li><strong>Insulina:</strong> aspirar 10 UI com seringa de insulina graduada em unidades; conferir a dose com outro profissional.</li><li><strong>Glicose concentrada:</strong> a UKKA alerta para risco de lesão por extravasamento; usar acesso venoso calibroso e pérvio e observar o local durante a administração.</li><li><strong>Se glicemia inicial &lt; 7,0 mmol/L (&lt; 126 mg/dL):</strong> acrescentar glicose a 10% a 50 mL/h por 5 horas (25 g), conforme a diretriz.</li><li><strong>Monitorize a glicemia e o potássio.</strong> Antecipe e trate prontamente a hipoglicemia segundo o protocolo institucional.</li></ul><p class="af-source-note"><strong>Importante:</strong> concentrações e volumes de glicose exigidos para fornecer 25 g diferem. Esta estação ensina o esquema do apêndice UKKA com glicose a 50%; alternativas devem seguir disponibilidade e protocolo local. Não aplique o conteúdo como prescrição para um paciente real.</p></article>
+      </div>
+      <fieldset class="af-knowledge-check"><legend>Confira a ideia central: a insulina remove potássio do organismo?</legend><label><input type="radio" name="insulin-effect" value="yes"><span>Sim. Ela elimina o potássio pela urina.</span></label><label><input type="radio" name="insulin-effect" value="no"><span>Não. Ela desloca temporariamente o potássio para dentro das células.</span></label><button class="button secondary" id="check-mechanism" type="button">Conferir resposta</button><p id="mechanism-feedback" role="status" aria-live="polite"></p></fieldset>
+      <div class="af-actions"><button class="button secondary" type="button" data-back>← Voltar ao frasco</button><span class="af-step-hint">Responda corretamente para praticar os cálculos.</span><button class="button primary" type="button" data-next disabled>Praticar cálculo <span aria-hidden="true">→</span></button></div>
+    </section>
+
+    <section class="af-stage" data-stage="2" aria-labelledby="conversion-title" hidden>
+      <div class="af-section-head"><div><span class="eyebrow">03 · CÁLCULO DA DOSE E DA GLICOSE</span><h2 id="conversion-title">Converta UI em volume sem trocar as unidades.</h2><p>Use o padrão didático da estação: insulina 100 UI/mL e glicose a 50%.</p></div><span class="af-counter">03 / 04</span></div>
+      <div class="af-insulin-calculations">
+        <article class="af-card af-insulin-calc-card"><span class="eyebrow">CÁLCULO 01 · INSULINA</span><h3>Quantos mililitros correspondem a 10 UI?</h3><div class="af-calc-equation"><span>10 UI</span><b>÷</b><span>100 UI/mL</span><b>=</b><strong>? mL</strong></div><fieldset class="af-answer-set"><legend>Escolha o volume a aspirar</legend><div class="af-answer-options"><label><input type="radio" name="insulin-volume" value="1"><span>1 mL</span></label><label><input type="radio" name="insulin-volume" value="0.1"><span>0,1 mL</span></label><label><input type="radio" name="insulin-volume" value="10"><span>10 mL</span></label></div></fieldset><div id="insulin-volume-feedback" class="af-feedback" role="status" aria-live="polite" hidden></div></article>
+        <article class="af-card af-insulin-calc-card"><span class="eyebrow">CÁLCULO 02 · GLICOSE</span><h3>Qual volume de glicose a 50% fornece 25 g?</h3><div class="af-calc-equation"><span>50 g</span><b>em</b><span>100 mL</span><b>→</b><strong>? mL = 25 g</strong></div><fieldset class="af-answer-set"><legend>Escolha o volume de glicose</legend><div class="af-answer-options"><label><input type="radio" name="glucose-volume" value="25"><span>25 mL</span></label><label><input type="radio" name="glucose-volume" value="50"><span>50 mL</span></label><label><input type="radio" name="glucose-volume" value="250"><span>250 mL</span></label></div></fieldset><div id="glucose-volume-feedback" class="af-feedback" role="status" aria-live="polite" hidden></div></article>
+      </div>
+      <div class="af-card af-insulin-safety"><strong>Dupla conferência</strong><p>10 UI ÷ 100 UI/mL = 0,1 mL. Esse volume equivalente ajuda a entender a concentração, mas a dose deve ser aspirada usando seringa de insulina graduada em UI. Não meça 0,1 mL com uma seringa comum sem orientação e conferência do protocolo.</p></div>
+      <div class="af-actions"><button class="button secondary" type="button" data-back>← Voltar à ação</button><span class="af-step-hint" id="calc-status">Acerte os dois cálculos para liberar a prescrição.</span><button class="button primary" type="button" data-next disabled>Montar prescrição <span aria-hidden="true">→</span></button></div>
+    </section>
+
+    <section class="af-stage" data-stage="3" aria-labelledby="prescription-title" hidden>
+      <div class="af-section-head"><div><span class="eyebrow">04 · SUA VEZ DE PRESCREVER</span><h2 id="prescription-title">Monte a ordem de insulina e glicose.</h2><p>Use a referência UKKA 2026 e inclua medidas explícitas para prevenir hipoglicemia.</p></div><span class="af-counter">04 / 04</span></div>
+      <div class="af-practice-layout">
+        <form class="af-card af-rx-form" id="prescription-form" novalidate>
+          <div class="af-insulin-baseline"><strong>Dado do exercício</strong><span>Glicemia inicial: 6,0 mmol/L (108 mg/dL). Como está abaixo do limite de 7,0 mmol/L (126 mg/dL), inclua glicose 10% a 50 mL/h por 5 horas após a dose.</span></div>
+          <div class="af-form-grid">
+            <label class="af-field af-wide" for="rx-drug"><span>Medicamento</span><select id="rx-drug" name="drug"><option value="">Selecione</option><option value="regular">Insulina humana regular/solúvel</option></select><span class="field-feedback" data-feedback="drug"></span></label>
+            <label class="af-field af-wide" for="rx-presentation"><span>Concentração e apresentação</span><select id="rx-presentation" name="presentation"><option value="">Selecione</option><option value="reference">100 UI/mL · frasco-ampola de 10 mL</option></select><small>Padrão único desta estação; a apresentação local pode variar.</small><span class="field-feedback" data-feedback="presentation"></span></label>
+            <label class="af-field" for="rx-dose"><span>Dose de insulina</span><input id="rx-dose" name="dose" type="number" inputmode="decimal" min="0" step="any" placeholder="Ex.: 10"><span class="field-feedback" data-feedback="dose"></span></label>
+            <label class="af-field" for="rx-unit"><span>Unidade da dose</span><select id="rx-unit" name="unit"><option value="">Selecione</option><option value="UI">UI</option><option value="mL">mL</option><option value="mg">mg</option></select><small>Prescreva insulina em unidades internacionais.</small><span class="field-feedback" data-feedback="unit"></span></label>
+            <label class="af-field" for="rx-route"><span>Via</span><select id="rx-route" name="route"><option value="">Selecione</option><option value="IV">Intravenosa (IV)</option><option value="SC">Subcutânea (SC)</option></select><span class="field-feedback" data-feedback="route"></span></label>
+            <label class="af-field" for="rx-time"><span>Tempo de administração</span><select id="rx-time" name="time"><option value="">Selecione</option><option value="5-15">5–15 minutos</option><option value="bolus">Bolus rápido</option><option value="60">60 minutos</option></select><span class="field-feedback" data-feedback="time"></span></label>
+            <label class="af-field af-wide" for="rx-glucose"><span>Glicose associada</span><select id="rx-glucose" name="glucose"><option value="">Selecione</option><option value="25g-50">Glicose 50% · 50 mL (25 g)</option><option value="25g-250">Glicose 10% · 250 mL (25 g)</option><option value="25g-25">Glicose 50% · 25 mL (12,5 g)</option></select><small>Esta estação segue a preparação UKKA: 25 g de glicose a 50%.</small><span class="field-feedback" data-feedback="glucose"></span></label>
+            <div class="af-field af-wide"><span class="af-field-label">Preparo e segurança</span><label class="af-checkline"><input id="rx-prep" type="checkbox"><span>Aspirar 10 UI com seringa de insulina graduada em UI, conferir a dose independentemente e adicionar a 50 mL de glicose 50% (25 g).</span></label><label class="af-checkline"><input id="rx-access" type="checkbox"><span>Usar acesso venoso calibroso e pérvio; observar o sítio durante a administração devido ao risco de lesão por extravasamento da glicose concentrada.</span></label><span class="field-feedback" data-feedback="prep"></span></div>
+            <fieldset class="af-field af-wide af-check-field"><legend>Glicemia, monitorização e reavaliação</legend><label class="af-checkline"><input id="rx-bg-baseline" type="checkbox"><span>Verificar e registrar a glicemia antes de administrar insulina.</span></label><label class="af-checkline"><input id="rx-bg-monitor" type="checkbox"><span>Monitorizar a glicemia antes e aos 30, 60, 90, 120, 180, 240, 300 e 360 minutos após a dose.</span></label><label class="af-checkline"><input id="rx-bg-infusion" type="checkbox"><span>Neste caso (6,0 mmol/L; 108 mg/dL): glicose 10% IV a 50 mL/h por 5 horas (25 g).</span></label><label class="af-checkline"><input id="rx-k-monitor" type="checkbox"><span>Reavaliar potássio em 1, 2, 4, 6 e 24 horas; manter plano de remoção e vigiar rebote.</span></label><span class="field-feedback" data-feedback="monitoring"></span></fieldset>
+          </div>
+          <div class="af-form-footer"><span id="rx-form-status" role="status" aria-live="polite">Preencha a ordem e marque os cuidados essenciais.</span><button class="button primary" type="submit">Revisar prescrição <span aria-hidden="true">→</span></button></div>
+        </form>
+        <aside class="af-card af-rx-side"><span class="eyebrow">CHECKLIST DA ORDEM</span><h3>O que deixa a prescrição executável?</h3><ol><li><b>Dose sem ambiguidade</b><span>Escrever 10 UI; nunca escrever “10 mL”.</span></li><li><b>Glicose associada</b><span>25 g: nesta referência, 50 mL de glicose 50%.</span></li><li><b>Via e tempo</b><span>Infusão IV em 5–15 minutos, segundo UKKA.</span></li><li><b>Prevenção de erro</b><span>Seringa de insulina graduada em UI e dupla checagem independente.</span></li><li><b>Monitorização</b><span>Glicemia até 6 h e potássio até 24 h.</span></li></ol><div class="af-rx-safety"><b>Risco principal:</b> hipoglicemia, que pode ocorrer após a administração. Confira a glicemia inicial e cumpra a monitorização seriada.</div><div class="af-rx-safety"><b>Risco do preparo:</b> glicose a 50% é concentrada; confirme acesso pérvio, observe o local e siga o protocolo institucional.</div></aside>
+      </div>
+      <section class="af-card af-rx-result" id="prescription-result" aria-live="polite" hidden>
+        <div class="af-result-heading"><div><span class="eyebrow">PRESCRIÇÃO MONTADA · SIMULAÇÃO</span><h3 id="result-title" tabindex="-1">Revise o que você escreveu</h3></div><div class="af-result-score" id="result-score" aria-label="Resultado da revisão"></div></div>
+        <div class="af-result-columns"><article><span class="eyebrow">SUA ORDEM</span><p id="assembled-rx"></p></article><article><span class="eyebrow">FEEDBACK POR CAMPO</span><ul id="field-review"></ul></article></div>
+        <div class="af-next-bridge"><div><span class="eyebrow">CONEXÃO COM A PRÁTICA CLÍNICA</span><h4>Da mecânica para a decisão clínica</h4><p>No AgoraPrescreva, você decide quando essa medida se aplica dentro de um caso e acompanha a resposta do paciente.</p></div><a class="button primary" href="agoraprescreva.html?atualizar=1">Ir ao AgoraPrescreva <span aria-hidden="true">→</span></a></div>
+      </section>
+      <div class="af-actions"><button class="button secondary" type="button" data-back>← Voltar ao cálculo</button><span class="af-step-hint">Simulação educacional; não registra uma prescrição clínica real.</span></div>
+    </section>
+
+    <footer class="af-footer"><p>AgoraFarm · Estação 02 · Conteúdo educacional com referências identificadas.</p><details><summary>Fontes desta estação</summary><ul>
+      <li><a href="https://guidelines.ukkidney.org/hyperkalaemia/11-1-ii-hyperkalaemia-in-hospital/11-1-4-ii-hyperkalaemia-in-hospital-16-1-16-6/" target="_blank" rel="noreferrer">UK Kidney Association. Management of Hyperkalaemia in Adults · atualização julho de 2026: dose, glicose associada, critérios para glicose adicional e monitorização.</a></li>
+      <li><a href="https://www.ukkidney.org/wp-content/uploads/drupal-archive/documents/FINAL%20VERSION%20-%20UKKA%20CLINICAL%20PRACTICE%20GUIDELINE%20-%20MANAGEMENT%20OF%20HYPERKALAEMIA%20IN%20ADULTS%20-%20UPDATED%20JULY%202026_0.pdf" target="_blank" rel="noreferrer">Apêndice de administração UKKA 2026: preparo de insulina solúvel em glicose 50% e segurança de acesso venoso.</a></li>
+      <li><a href="https://www.gov.br/saude/pt-br/composicao/sectics/daf/cbaf/insulinas-humanas" target="_blank" rel="noreferrer">Ministério da Saúde: insulina humana regular 100 UI/mL; frascos de 10 mL e outras apresentações podem estar disponíveis.</a></li>
+    </ul></details><p class="af-disclaimer">Simulação educacional. Não substitui bula, protocolo institucional, supervisão ou avaliação clínica. A estação não orienta atendimento real.</p></footer>
+  </main>
+  <script src="js/agorafarm-insulina.js?v=1"></script>
+</body>
+</html>
