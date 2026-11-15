@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071d22">
+  <title>AgoraPrescreva · Caso 03</title>
+  <link rel="stylesheet" href="css/agoraprescreva.css?v=4">
+  <style>
+    .case03-head{margin:25px 0 20px}.case03-head h1{max-width:950px}.case03-layout{display:grid;grid-template-columns:minmax(250px,.8fr) minmax(420px,1.35fr) minmax(300px,.85fr);gap:16px;align-items:start}.case03-pane{max-height:calc(100vh - 34px);overflow:auto;position:sticky;top:18px;scrollbar-color:#456874 transparent}.case03-pane.card{padding:18px}.case03-pane h2{font-size:21px}.case03-pane h3{font-size:15px}.case03-pane p,.case03-pane li{font-size:13px}.case03-data{display:grid;grid-template-columns:1fr 1fr;gap:8px}.case03-data>div{padding:10px;border:1px solid #28545d;border-radius:9px;background:#09252b}.case03-data small,.case03-data strong{display:block}.case03-data small{font-size:9px;letter-spacing:.8px;color:#91aaae}.case03-data strong{margin-top:3px;font-size:15px}.case03-data .critical strong{color:#ffb5b5}.rx-builder{margin-top:12px}.rx-builder .order-card{margin-bottom:10px;padding:14px;border:1px solid #346f77;border-radius:12px;background:#0a252c}.rx-builder .order-card.is-danger{border-color:#df7777}.rx-builder .form-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.rx-builder label{font-size:11px}.rx-builder input,.rx-builder select,.rx-toolbar select{width:100%;min-width:0;background:#101d2b;color:var(--text);border:1px solid #456874;border-radius:8px;padding:9px;font:inherit}.rx-builder textarea{width:100%;min-height:58px;background:#101d2b;color:var(--text);border:1px solid #456874;border-radius:8px;padding:9px;font:inherit}.rx-builder .order-card-top{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-bottom:9px}.rx-builder .order-name{font-weight:700}.rx-builder .order-actions{display:flex;gap:5px}.rx-builder .order-actions button{font-size:11px;padding:6px 8px}.rx-toolbar{display:grid;grid-template-columns:1fr auto;gap:9px;align-items:end}.rx-toolbar label{font-size:11px}.rx-checks{display:grid;gap:7px;margin:13px 0}.rx-checks label{display:flex;gap:8px;align-items:flex-start;font-size:12px}.rx-checks input{accent-color:var(--accent);margin-top:4px}.rx-tabs{display:none}.rx-review-empty{padding:14px;border:1px dashed #456874;border-radius:10px;color:var(--muted);font-size:13px}.rx-review-item{padding:12px 0;border-bottom:1px solid #28545d}.rx-review-item:last-child{border-bottom:0}.rx-review-item h4{margin:0 0 6px;font-size:14px}.rx-review-item p{margin:5px 0;color:var(--muted)}.rx-status{font-size:10px;text-transform:uppercase;letter-spacing:.6px;color:var(--accent)}.rx-critical{border-left:3px solid #ef8585;padding-left:10px}.rx-score{font:400 30px var(--serif);color:var(--accent)}.rx-history details{border-top:1px solid #28545d;padding:9px 0}.rx-history summary{cursor:pointer}.rx-safety{font-size:10px;color:#c8bd9c;border-left:3px solid var(--gold);padding:9px;background:#29281f;margin-top:14px}.rx-builder button,.rx-toolbar button{font-size:12px}.case03-case-switcher{grid-template-columns:repeat(3,minmax(0,1fr));margin:0 0 22px}.case03-case-switcher .case-choice{min-height:126px}.case03-case-switcher .case-choice strong{font-size:19px}.case03-case-switcher .case-action{font-size:12px}
+    @media(max-width:1100px){.case03-layout{grid-template-columns:minmax(220px,.8fr) minmax(360px,1.2fr)}.case03-review{position:static;grid-column:1/-1;max-height:none}.case03-pane:not(.case03-review){max-height:calc(100vh - 20px)}.case03-case-switcher{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:700px){.case03-head{margin:20px 0 14px}.case03-head h1{font-size:34px}.rx-tabs{position:sticky;top:66px;z-index:4;display:grid;grid-template-columns:repeat(3,1fr);gap:5px;padding:6px;background:#071d22;border-bottom:1px solid #28545d}.rx-tabs button{font-size:11px;padding:10px 4px;background:#0b2930;color:var(--muted);border:1px solid #28545d}.rx-tabs button.active{color:#211630;background:var(--accent);border-color:var(--accent)}.case03-layout{display:block}.case03-pane{display:none;position:static;max-height:none;margin-bottom:12px}.case03-pane.mobile-active{display:block}.case03-pane.card{padding:14px}.rx-toolbar{grid-template-columns:1fr}.rx-toolbar button{width:100%}.case03-case-switcher{grid-template-columns:1fr;gap:10px}.case03-case-switcher .case-choice{min-height:96px}}
+  </style>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="app.html" aria-label="AgoraMed — início"><img src="img/agoramed-logo-branco.png" alt="AgoraMed · Pronto para o plantão" width="906" height="184"></a>
+  <div class="top-context"><span class="course-dot"></span><span>TRATAMENTO DA HIPERCALEMIA EM ADULTOS</span></div>
+  <div class="top-actions"><a class="text-button" href="curso.html?id=fa3c5d8d-94c4-4321-be7a-1cc45741a983">← Voltar ao curso</a></div>
+</header>
+<p id="case-access" class="access-message" role="status">Verificando acesso ao curso…</p>
+<main class="shell" id="inicio" hidden>
+  <nav class="case-switcher case03-case-switcher" aria-label="Casos do AgoraPrescreva">
+    <a class="case-choice" href="agoraprescreva.html"><span class="case-number">CASO 01</span><strong>Hipercalemia grave com alteração no ECG</strong><span class="case-action">Abrir caso <b aria-hidden="true">→</b></span></a>
+    <a class="case-choice" href="agoraprescreva-caso-02.html"><span class="case-number">CASO 02</span><strong>Hipercalemia com congestão e acidose</strong><span class="case-action">Abrir caso <b aria-hidden="true">→</b></span></a>
+    <a class="case-choice is-current" href="agoraprescreva-caso-03.html" aria-current="page"><span class="case-number">CASO 03</span><strong>Hipercalemia grave em paciente dialítico</strong><span class="case-action">Em andamento <b aria-hidden="true">✓</b></span></a>
+  </nav>
+  <section class="case03-head"><div class="eyebrow">SIMULAÇÃO CLÍNICA · CASO 03</div><h1>Hipercalemia grave em paciente dialítico</h1><p>Construa uma prescrição completa, revise as decisões e acompanhe a evolução da tentativa.</p></section>
+  <div class="rx-tabs" role="tablist" aria-label="Painéis do caso"><button class="active" type="button" data-tab="case">Caso clínico</button><button type="button" data-tab="prescription">Minha prescrição</button><button type="button" data-tab="review">Revisão</button></div>
+  <div class="case03-layout">
+    <aside class="case03-pane case03-case card mobile-active" data-pane="case" aria-label="Caso clínico">
+      <span class="eyebrow">PRONTUÁRIO · EMERGÊNCIA</span><h2>Paciente masculino, 63 anos</h2><p>78 kg · Fraqueza muscular, náuseas e palpitações. Última hemodiálise há quatro dias.</p>
+      <h3>Antecedentes e contexto</h3><ul><li>DRC G5D em hemodiálise três vezes por semana</li><li>Diabetes tipo 2 e hipertensão arterial</li><li>Diurese residual inferior a 100 mL/dia</li><li>Sem uso de digoxina e sem alergias conhecidas</li></ul>
+      <h3>Exame e sinais vitais</h3><div class="case03-data"><div><small>PRESSÃO</small><strong>158/92 mmHg</strong></div><div class="critical"><small>FREQUÊNCIA</small><strong>48 bpm</strong></div><div><small>RESPIRAÇÃO</small><strong>20 irpm</strong></div><div><small>SATURAÇÃO</small><strong>97% em ar ambiente</strong></div><div><small>GLASGOW</small><strong>15</strong></div><div><small>PERFUSÃO</small><strong>Sem choque</strong></div></div>
+      <p>Consciente e orientado, bradicardia regular, pulmões sem estertores. Acesso periférico pérvio e fístula arteriovenosa funcionante.</p>
+      <h3>Laboratório e ECG</h3><div class="case03-data"><div class="critical"><small>POTÁSSIO</small><strong>7,4 mEq/L</strong></div><div><small>SÓDIO</small><strong>136 mEq/L</strong></div><div><small>CREATININA</small><strong>9,2 mg/dL</strong></div><div><small>UREIA</small><strong>168 mg/dL</strong></div><div><small>GLICEMIA</small><strong>102 mg/dL</strong></div><div><small>GASOMETRIA</small><strong>pH 7,31 · HCO₃⁻ 19</strong></div><div><small>CÁLCIO IONIZADO</small><strong>1,14 mmol/L</strong></div><div class="critical"><small>ECG</small><strong>T apiculadas · QRS 160 ms</strong></div></div>
+      <h3>Missão</h3><p>Priorize a proteção cardíaca, a redistribuição temporária do potássio, a prevenção de hipoglicemia e sua remoção definitiva.</p>
+      <div class="rx-safety">Ambiente simulado com paciente fictício. Não é uma prescrição assistencial. Requer revisão clínica antes de uso avaliativo.</div>
+    </aside>
+    <section class="case03-pane case03-prescription card mobile-active" data-pane="prescription" aria-label="Minha prescrição">
+      <span class="eyebrow">ÁREA DE TRABALHO</span><h2>Minha prescrição</h2><p>Adicione medicamentos e condutas, preencha os campos e organize a sequência.</p>
+      <div class="rx-toolbar"><label>Catálogo de medicamentos e condutas<select id="rx-catalog"><option value="">Buscar medicamento ou conduta…</option></select></label><button class="button secondary" id="rx-add" type="button" disabled>＋ Adicionar</button></div>
+      <div id="rx-orders" class="rx-builder" aria-live="polite"></div>
+      <div class="rx-checks" id="rx-checks"></div>
+      <div class="review-actions"><button class="button secondary" id="rx-save" type="button">Salvar rascunho</button><button class="button secondary" id="rx-review" type="button">Revisar prescrição</button><button class="button primary" id="rx-finish" type="button">Finalizar tentativa</button></div>
+      <div id="rx-status" role="status" aria-live="polite"></div>
+      <div class="review-actions"><button class="button secondary" id="rx-reset" type="button">Reiniciar exercício</button></div>
+    </section>
+    <aside class="case03-pane case03-review card" data-pane="review" aria-label="Revisão do preceptor">
+      <span class="eyebrow">ANÁLISE FORMATIVA</span><h2>Revisão do preceptor</h2><div id="rx-review-content" class="rx-review-empty">Sua prescrição ainda não foi avaliada. Construa as condutas e clique em Revisar prescrição.</div>
+      <section class="rx-history"><h3>Histórico de tentativas</h3><div id="rx-history-list"><p class="muted">Nenhuma tentativa finalizada neste navegador.</p></div></section>
+    </aside>
+  </div>
+  <details class="rx-safety"><summary>Referências e critérios da simulação</summary><p>Protocolo principal: UK Kidney Association, Clinical Practice Guideline: Management of Hyperkalaemia in Adults, julho de 2026. <a href="https://guidelines.ukkidney.org/hyperkalaemia/6-summary-of-clinical-practice-guideline-for-hyperkalaemia/6-2-section-ii-hospital/">Seção hospitalar</a>. As regras desta prévia são didáticas e aguardam validação médica.</p></details>
+</main>
+<script src="js/store.js?v=118"></script><script src="js/agoraprescreva-caso-03-rules.js?v=1"></script><script src="js/agoraprescreva-caso-03.js?v=2"></script>
+</body></html>
