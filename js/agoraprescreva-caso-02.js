@@ -17,6 +17,7 @@
   }
 
   const byId = id => document.getElementById(id)
+  const caseShell = byId('case-content')
   // Mesma ordem relativa do Caso 01. Resina e hemodiálise completam o catálogo.
   const catalog = {
     gluconate: 'Gluconato de cálcio 10%', chloride: 'Cloreto de cálcio 10%',
@@ -399,25 +400,34 @@
     if (order.get('potassium') !== 'early') messages.push('Antecipe a dosagem de potássio. Neste exercício, o primeiro controle é em 2 horas.')
     feedback('initial-feedback', messages, byId('admission-explanation'), scoreFor(event.currentTarget))
     recordReview(event.currentTarget, messages)
+    caseShell.classList.add('is-reviewing')
     setStage('feedback')
     byId('advance').hidden = false
+    window.scrollTo({top: 0, behavior: 'smooth'})
   })
   byId('advance').addEventListener('click', () => {
+    caseShell.classList.remove('is-reviewing', 'is-reviewing-reassessment')
+    caseShell.classList.add('is-reassessing')
     byId('evolution').hidden = false
     setStage('feedback')
     byId('evolution').querySelector('h2').focus()
+    window.scrollTo({top: 0, behavior: 'smooth'})
   })
   byId('back-to-feedback').addEventListener('click', () => {
     byId('evolution').hidden = true
+    caseShell.classList.remove('is-reassessing', 'is-reviewing-reassessment')
+    caseShell.classList.add('is-reviewing')
     setStage('feedback')
-    byId('initial-feedback').scrollIntoView({behavior: 'smooth', block: 'center'})
+    window.scrollTo({top: 0, behavior: 'smooth'})
   })
   byId('back-to-prescription').addEventListener('click', () => {
     byId('evolution').hidden = true
+    caseShell.classList.remove('is-reassessing', 'is-reviewing', 'is-reviewing-reassessment')
     setStage('prescription')
     byId('initial').scrollIntoView({behavior: 'smooth', block: 'center'})
   })
   byId('branch').addEventListener('change', event => {
+    caseShell.classList.remove('is-reviewing-reassessment')
     const poor = event.target.value === 'poor'
     byId('poor').hidden = !poor
     byId('good').hidden = poor
@@ -425,6 +435,7 @@
     updateFinishButton()
   })
   byId('poor-form').addEventListener('change', () => {
+    caseShell.classList.remove('is-reviewing-reassessment')
     byId('poor-feedback').hidden = true
     finishButton.hidden = true
   })
@@ -436,6 +447,12 @@
       : 'Repetir a mesma dose e aguardar até amanhã é inadequado. Carlos continua congesto e o potássio já subiu para 6,3 mEq/L. Esperar pode atrasar o reconhecimento de arritmias ou de piora respiratória. A conduta esperada é reavaliar agora, repetir o ECG, monitorizar e tratar a hipercalemia em paralelo à descongestão.'
     feedback('poor-feedback', [message], byId('poor-explanation'), scoreFor(event.currentTarget))
     recordReview(event.currentTarget, [message])
+    caseShell.classList.add('is-reviewing-reassessment')
+    window.scrollTo({top: 0, behavior: 'smooth'})
+  })
+  byId('follow-up').addEventListener('change', () => {
+    caseShell.classList.remove('is-reviewing-reassessment')
+    byId('final-feedback').hidden = true
   })
   byId('follow-up').addEventListener('submit', event => {
     event.preventDefault()
@@ -449,6 +466,8 @@
     if (!order.has('fluid')) messages.push('Inclua a vigilância da pressão, do peso e dos sinais de retenção de líquido.')
     feedback('final-feedback', messages, byId('follow-up-explanation'), scoreFor(event.currentTarget))
     recordReview(event.currentTarget, messages)
+    caseShell.classList.add('is-reviewing-reassessment')
+    window.scrollTo({top: 0, behavior: 'smooth'})
   })
   accessMessage.hidden = true;
   byId('case-content').hidden = false;
