@@ -23,6 +23,7 @@ const rotas = {
   'agoraquiz-curso': require('../lib/rotas/agoraquiz-curso'),
   'agoraprescreva': require('../lib/rotas/agoraprescreva'),
   'agoraatenda01': require('../lib/rotas/agoraatenda01'),
+  'agoraatenda02': require('../lib/rotas/agoraatenda02'),
   'agoraquiz': require('../lib/rotas/agoraquiz'),
   'admin/agoraquiz': require('../lib/rotas/admin/agoraquiz'),
   'progresso': require('../lib/rotas/progresso'),
