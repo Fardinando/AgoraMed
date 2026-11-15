@@ -59,7 +59,8 @@ label{display:block;margin:10px 0}input:not([type=checkbox]),select{display:bloc
 .case02-shell .branch-picker label{display:block;margin:0 0 6px;color:#c5d4d6;font-weight:700}
 .case02-shell .branch-picker select{margin:0;min-height:46px}
 .case02-shell .reassess-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px;align-items:stretch}
-.case02-shell .time-path{display:grid;gap:12px;min-width:0}
+.case02-shell .time-path{display:grid;grid-column:1/-1;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;min-width:0}
+.case02-shell #poor{grid-column:1/-1}
 .case02-shell .time-card{min-width:0;border:1px solid #345e67;border-radius:14px;padding:19px;background:linear-gradient(145deg,#102f38,#0a242b)}
 .case02-shell .time-label{display:block;color:#d0b9f3;font-size:10px;font-weight:850;letter-spacing:1.5px}
 .case02-shell .time-card h3{margin:7px 0 10px;font:400 25px/1.2 var(--serif);color:#f4f7f7}
@@ -81,7 +82,7 @@ label{display:block;margin:10px 0}input:not([type=checkbox]),select{display:bloc
 .case02-shell summary{color:#e6d8ff;font-weight:700}
 .case02-shell details p{font-size:12px}
 @media(max-width:980px){.case02-shell .grid{grid-template-columns:1fr}.case02-heading{display:block}}
-@media(max-width:640px){.case02-shell{padding:19px 13px 30px}.case02-shell .panel{padding:15px}.case02-shell .panel h2{font-size:25px}.case02-shell .panel.order h2{font-size:22px}.case02-shell .grid{gap:12px}.case02-shell .grid>div{gap:12px}.case02-shell .case-choice strong{font-size:19px}.case02-shell .steps{margin-bottom:13px}.case02-shell .step{padding:9px 8px;gap:7px;min-height:61px}.case02-shell .step>span{width:28px;height:28px}.case02-shell .step b{font-size:10px}.case02-shell .step small{font-size:8px}.case02-shell .review-head{display:block}.case02-shell .review-head .secondary{margin-top:12px}.case02-shell .timeline-line{gap:6px;font-size:8px}.case02-shell .reassess-grid{grid-template-columns:1fr}.case02-shell .time-card{padding:15px}.case02-shell .reassess-actions{flex-direction:column-reverse}.case02-shell .reassess-actions button{width:100%}.case02-shell #attempt-status{text-align:left}}
+@media(max-width:640px){.case02-shell{padding:19px 13px 30px}.case02-shell .panel{padding:15px}.case02-shell .panel h2{font-size:25px}.case02-shell .panel.order h2{font-size:22px}.case02-shell .grid{gap:12px}.case02-shell .grid>div{gap:12px}.case02-shell .case-choice strong{font-size:19px}.case02-shell .steps{margin-bottom:13px}.case02-shell .step{padding:9px 8px;gap:7px;min-height:61px}.case02-shell .step>span{width:28px;height:28px}.case02-shell .step b{font-size:10px}.case02-shell .step small{font-size:8px}.case02-shell .review-head{display:block}.case02-shell .review-head .secondary{margin-top:12px}.case02-shell .timeline-line{gap:6px;font-size:8px}.case02-shell .reassess-grid,.case02-shell .time-path{grid-template-columns:1fr}.case02-shell .time-card{padding:15px}.case02-shell .reassess-actions{flex-direction:column-reverse}.case02-shell .reassess-actions button{width:100%}.case02-shell #attempt-status{text-align:left}}
 </style>
 </head>
 <body>
