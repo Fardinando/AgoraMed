@@ -350,11 +350,20 @@
     setStage('feedback')
     byId('evolution').querySelector('h2').focus()
   })
+  byId('back-to-feedback').addEventListener('click', () => {
+    byId('evolution').hidden = true
+    setStage('feedback')
+    byId('initial-feedback').scrollIntoView({behavior: 'smooth', block: 'center'})
+  })
+  byId('back-to-prescription').addEventListener('click', () => {
+    byId('evolution').hidden = true
+    setStage('prescription')
+    byId('initial').scrollIntoView({behavior: 'smooth', block: 'center'})
+  })
   byId('branch').addEventListener('change', event => {
     const poor = event.target.value === 'poor'
     byId('poor').hidden = !poor
     byId('good').hidden = poor
-    byId('good-summary').hidden = poor
     byId('attempt-status').hidden = true
     updateFinishButton()
   })

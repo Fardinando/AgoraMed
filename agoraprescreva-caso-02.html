@@ -50,11 +50,38 @@ label{display:block;margin:10px 0}input:not([type=checkbox]),select{display:bloc
 .case02-score b,.case02-score small{display:block}.case02-score b{font-size:14px;color:#f4f7f7}.case02-score small{margin-top:3px;color:#b4c9ce;font-size:11px;line-height:1.45}
 .case02-shell .feedback-explanation{border-color:#34636d}
 .case02-shell .feedback-explanation h3{font:400 23px var(--serif);color:#f4f7f7}
+.case02-shell .review-head{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:20px}
+.case02-shell .review-head h2{font:400 clamp(30px,4vw,42px)/1.12 var(--serif);margin:7px 0}
+.case02-shell .review-head p{margin:0;color:#a5bdc0;font-size:13px}
+.case02-shell .timeline-line{display:flex;align-items:center;gap:12px;margin:0 0 16px;color:#c6a4f5;font-size:10px;font-weight:850;letter-spacing:1.4px}
+.case02-shell .timeline-line i{height:1px;flex:1;background:linear-gradient(90deg,#9075b8,#3c6670)}
+.case02-shell .branch-picker{max-width:760px;margin:0 0 18px}
+.case02-shell .branch-picker label{display:block;margin:0 0 6px;color:#c5d4d6;font-weight:700}
+.case02-shell .branch-picker select{margin:0;min-height:46px}
+.case02-shell .reassess-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px;align-items:stretch}
+.case02-shell .time-path{display:grid;gap:12px;min-width:0}
+.case02-shell .time-card{min-width:0;border:1px solid #345e67;border-radius:14px;padding:19px;background:linear-gradient(145deg,#102f38,#0a242b)}
+.case02-shell .time-label{display:block;color:#d0b9f3;font-size:10px;font-weight:850;letter-spacing:1.5px}
+.case02-shell .time-card h3{margin:7px 0 10px;font:400 25px/1.2 var(--serif);color:#f4f7f7}
+.case02-shell .response-data{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.case02-shell .response-data>div{min-width:110px;padding:10px 12px;border:1px solid #315963;border-radius:9px;background:#081f25}
+.case02-shell .response-data small,.case02-shell .response-data strong{display:block}
+.case02-shell .response-data small{color:#8aa6ab;font-size:9px;letter-spacing:1px}
+.case02-shell .response-data strong{font-size:19px;color:#f4f7f7}
+.case02-shell .time-card>p{font-size:12px;color:#a7bec1}
+.case02-shell .time-card h4{font-size:13px;margin:15px 0 8px}
+.case02-shell .time-card .panel{padding:0;border:0;background:transparent;box-shadow:none}
+.case02-shell .reassess-disclaimer{display:grid;gap:3px;border-left:3px solid #d6b66d;background:#29281f;padding:13px 15px;margin-top:16px;color:#e0d4b1;font-size:12px}
+.case02-shell .reassess-disclaimer span{color:#c8bd9c;font-size:11px}
+.case02-shell .reassess-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:16px}
+.case02-shell .reassess-actions button{min-width:190px}
+.case02-shell .reassess-actions #finish-attempt{background:linear-gradient(110deg,#d4c2ff,#ad8be7);color:#151123}
+.case02-shell #attempt-status{margin:12px 0 0;color:#bde8ce;text-align:right}
 .case02-shell details{padding:18px;border:1px solid #34636d;border-radius:14px;background:#0b2930;color:#b4c9ce}
 .case02-shell summary{color:#e6d8ff;font-weight:700}
 .case02-shell details p{font-size:12px}
 @media(max-width:980px){.case02-shell .grid{grid-template-columns:1fr}.case02-heading{display:block}}
-@media(max-width:640px){.case02-shell{padding:19px 13px 30px}.case02-shell .panel{padding:15px}.case02-shell .panel h2{font-size:25px}.case02-shell .panel.order h2{font-size:22px}.case02-shell .grid{gap:12px}.case02-shell .grid>div{gap:12px}.case02-shell .case-choice strong{font-size:19px}.case02-shell .steps{margin-bottom:13px}.case02-shell .step{padding:9px 8px;gap:7px;min-height:61px}.case02-shell .step>span{width:28px;height:28px}.case02-shell .step b{font-size:10px}.case02-shell .step small{font-size:8px}}
+@media(max-width:640px){.case02-shell{padding:19px 13px 30px}.case02-shell .panel{padding:15px}.case02-shell .panel h2{font-size:25px}.case02-shell .panel.order h2{font-size:22px}.case02-shell .grid{gap:12px}.case02-shell .grid>div{gap:12px}.case02-shell .case-choice strong{font-size:19px}.case02-shell .steps{margin-bottom:13px}.case02-shell .step{padding:9px 8px;gap:7px;min-height:61px}.case02-shell .step>span{width:28px;height:28px}.case02-shell .step b{font-size:10px}.case02-shell .step small{font-size:8px}.case02-shell .review-head{display:block}.case02-shell .review-head .secondary{margin-top:12px}.case02-shell .timeline-line{gap:6px;font-size:8px}.case02-shell .reassess-grid{grid-template-columns:1fr}.case02-shell .time-card{padding:15px}.case02-shell .reassess-actions{flex-direction:column-reverse}.case02-shell .reassess-actions button{width:100%}.case02-shell #attempt-status{text-align:left}}
 </style>
 </head>
 <body>
@@ -126,12 +153,17 @@ label{display:block;margin:10px 0}input:not([type=checkbox]),select{display:bloc
 <div class="actions"><button type="button" id="advance" hidden>Ver evolução simulada</button></div>
 </section>
 <section class="panel order" id="evolution" hidden>
-<h2 tabindex="-1">2. Reavaliar a resposta</h2>
-<p id="good-summary"><strong>Em 2 horas:</strong> diurese de 260 mL, pressão estável e K⁺ 5,5 mEq/L. Dispneia em melhora.</p>
-<label for="branch">Explorar outro resultado</label>
+<div class="review-head reassess-heading"><div><span class="eyebrow">ETAPA 03 · EVOLUÇÃO SIMULADA</span><h2 tabindex="-1">Reavalie a resposta do paciente.</h2><p>Os resultados abaixo são eventos pré-programados para esta atividade.</p></div><button type="button" class="secondary" id="back-to-feedback">← Voltar à devolutiva</button></div>
+<div class="timeline-line"><span>ADMISSÃO</span><i></i><span>2 HORAS</span><i></i><span>24 HORAS</span></div>
+<div class="branch-picker">
+<label for="branch">Escolha o resultado da reavaliação</label>
 <select id="branch"><option value="good">Boa resposta</option><option value="poor">Baixa diurese e potássio em elevação</option></select>
-<div id="poor" class="feedback" hidden>
-<p><strong>Em 2 horas na evolução alternativa:</strong> diurese de 40 mL, congestão persistente e K⁺ 6,3 mEq/L.</p>
+</div>
+<div class="reassess-grid">
+<div id="poor" class="time-card" hidden>
+<span class="time-label">2 HORAS · EVOLUÇÃO ALTERNATIVA</span><h3>Baixa resposta diurética e potássio em elevação.</h3>
+<div class="response-data"><div><small>DIURESE</small><strong>40 mL</strong></div><div><small>POTÁSSIO</small><strong>6,3 mEq/L</strong></div><div><small>CONGESTÃO</small><strong>Persistente</strong></div></div>
+<p>A combinação pede reavaliação imediata, monitorização e revisão paralela do potássio e da descongestão.</p>
 <form id="poor-form">
 <label>Próxima ordem<select name="decision" required><option value="">Selecione</option><option value="review">Reavaliar agora, repetir ECG, intensificar a vigilância e revisar o manejo do potássio e da congestão</option><option value="repeat">Repetir a mesma dose e aguardar até amanhã</option></select></label>
 <button>Conferir decisão</button>
@@ -147,8 +179,16 @@ label{display:block;margin:10px 0}input:not([type=checkbox]),select{display:bloc
   </div>
 </template>
 </div>
-<div id="good">
-<p><strong>Após 24 horas:</strong> congestão clinicamente resolvida, diurese preservada, PA estável. K⁺ 5,1 mEq/L, creatinina 2,7 mg/dL, pH 7,31, HCO₃⁻ 16 mEq/L. O prontuário mostra bicarbonato ambulatorial de 16 e 17 mEq/L nas últimas semanas.</p>
+<div id="good" class="time-path">
+<article class="time-card">
+<span class="time-label">2 HORAS · RESPOSTA INICIAL</span><h3>Congestão e potássio em melhora.</h3>
+<div class="response-data"><div><small>DIURESE</small><strong>260 mL</strong></div><div><small>POTÁSSIO</small><strong>5,5 mEq/L</strong></div><div><small>PRESSÃO</small><strong>Estável</strong></div></div>
+<p>Dispneia em melhora. A resposta sustenta seguir a descongestão e manter vigilância clínica e laboratorial.</p>
+</article>
+<article class="time-card">
+<span class="time-label">24 HORAS · NOVA AVALIAÇÃO</span><h3>Congestão resolvida; acidose persistente.</h3>
+<div class="response-data"><div><small>POTÁSSIO</small><strong>5,1 mEq/L</strong></div><div><small>CREATININA</small><strong>2,7 mg/dL</strong></div><div><small>HCO₃⁻</small><strong>16 mEq/L</strong></div></div>
+<p>Diurese preservada e pressão estável. O prontuário mostra bicarbonato ambulatorial de 16 e 17 mEq/L nas últimas semanas.</p>
 <h3>Prescrição após a descongestão</h3>
 <form id="follow-up">
 <div class="fields">
@@ -170,9 +210,9 @@ label{display:block;margin:10px 0}input:not([type=checkbox]),select{display:bloc
   </div>
 </template>
 </div>
-<div class="actions">
-  <button type="button" id="finish-attempt" hidden>Finalizar tentativa</button>
 </div>
+<div class="reassess-disclaimer"><b>Resposta simulada e previamente programada.</b><span>Este cenário não modela a fisiologia individual nem substitui protocolos institucionais ou avaliação clínica.</span></div>
+<div class="reassess-actions"><button type="button" class="secondary" id="back-to-prescription">Refazer prescrição</button><button type="button" id="finish-attempt" hidden>Concluir reavaliação　✓</button></div>
 <p id="attempt-status" role="status" tabindex="-1" hidden></p>
 </section>
 </div>
@@ -186,6 +226,6 @@ label{display:block;margin:10px 0}input:not([type=checkbox]),select{display:bloc
 </details>
 </main>
 <script src="js/store.js?v=118"></script>
-<script src="js/agoraprescreva-caso-02.js?v=1"></script>
+<script src="js/agoraprescreva-caso-02.js?v=2"></script>
 </body>
 </html>
