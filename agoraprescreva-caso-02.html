@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AgoraPrescreva · Caso 02</title>
+<style>
+:root{color-scheme:dark;--ink:#f4f2fa;--muted:#bfd1d8;--accent:#d3baff;--line:#456874}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% 0,#193741,#081b22 55%);color:var(--ink);font:16px/1.6 system-ui,sans-serif}
+header{border-bottom:1px solid var(--line);padding:16px max(5%,calc((100% - 1080px)/2));white-space:nowrap}header span{color:var(--accent);margin-left:14px}
+main{max-width:1120px;margin:auto;padding:34px 20px 60px}h1,h2{font-family:Georgia,serif;font-weight:400;line-height:1.15}h1{font-size:clamp(34px,5vw,60px);margin:8px 0 16px}h2{font-size:28px;margin:0 0 14px}h3{margin-top:0}p{margin:0 0 14px}.tag{color:var(--accent);font-size:.78rem;letter-spacing:.14em;font-weight:700}.grid{display:grid;grid-template-columns: minmax(0,1fr) minmax(0,1.35fr);gap:20px;align-items:start}.panel{padding:24px;border:1px solid var(--line);border-radius:16px;background:#102c35}.order{background:linear-gradient(135deg,#102e38,#29213a);border-color:#8f75b5}dl{display:grid;grid-template-columns:1fr 1.3fr;gap:8px;margin:0}dd{margin:0;font-weight:600}dt,small,.muted{color:var(--muted)}
+label{display:block;margin:10px 0}input:not([type=checkbox]),select{display:block;width:100%;padding:9px;margin-top:5px;border:1px solid #647187;border-radius:8px;background:#101d2b;color:inherit;font:inherit}input[type=checkbox]{accent-color:var(--accent)}button{border:1px solid var(--accent);border-radius:10px;background:#cfb6fa;color:#211630;padding:10px 15px;font:inherit;font-weight:700;cursor:pointer}button.secondary{background:transparent;color:var(--accent)}button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:10px}.feedback{margin-top:18px;padding:15px;background:#152638;border:1px solid #8f75b5;border-radius:10px}.feedback ul{padding-left:20px}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}a{color:var(--accent)}details{margin-top:25px}summary{cursor:pointer}[hidden]{display:none!important}@media(max-width:750px){.grid,.fields{grid-template-columns:1fr}}
+.catalog{display:flex;gap:10px;align-items:end;margin-bottom:12px}.catalog label{flex:1;margin:0;min-width:0}.catalog button{flex:none}.order-item{min-width:0;border:1px solid var(--line);border-radius:10px;margin:0 0 12px;padding:10px 14px 14px}.order-item legend{color:var(--accent);font-weight:700;padding:0 6px}.order-item label{margin:4px 0}.order-item button{margin-top:10px}.feedback li+li{margin-top:9px}.catalog-empty{display:block;margin-bottom:10px}@media(max-width:420px){.catalog{flex-direction:column;align-items:stretch}}
+.order-actions{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:10px}
+.order-actions button{margin-top:0}
+.order-status{flex-basis:100%;color:#bde8ce}
+.order-item.is-saved{background:#102530;border-color:#8f75b5}
+.order-summary{overflow-wrap:anywhere}
+.order-summary p{margin:0 0 4px}
+.order-summary [data-notes]{color:var(--muted);white-space:pre-wrap}
+.feedback-explanation{border-top:1px solid var(--line);padding-top:14px;margin-top:14px}
+.feedback-explanation p:last-child{margin-bottom:0}
+.access-message{max-width:1120px;margin:24px auto;padding:0 20px}nav.actions{margin:0 0 24px}
+</style>
+</head>
+<body>
+<header><strong>AGORAMED</strong><span>AgoraPrescreva</span></header>
+<p id="case-access" class="access-message" role="status">Verificando acesso ao curso…</p>
+<main id="case-content" hidden>
+<nav class="actions" aria-label="Casos do AgoraPrescreva">
+  <a href="agoraprescreva.html">← Caso 01</a>
+  <a href="curso.html?id=fa3c5d8d-94c4-4321-be7a-1cc45741a983">Voltar ao curso</a>
+</nav>
+<p class="tag">SIMULAÇÃO CLÍNICA · CASO 02</p>
+<h1>Hipercalemia com congestão e acidose</h1>
+<p class="muted">Escreva a ordem inicial, reavalie a resposta e revise a prescrição.</p>
+<div class="grid">
+<section class="panel" aria-label="Prontuário">
+<h2>Carlos, 67 anos</h2>
+<p>Insuficiência cardíaca e DRC estágio 4. Usava furosemida 40 mg por via oral pela manhã. Suspendeu há quatro dias. Ganhou 3 kg e apresenta ortopneia, edema bilateral e crepitações bibasais. Está alerta, com extremidades aquecidas e diurese preservada.</p>
+<dl>
+<dt>PA / SpO₂</dt><dd>148/86 mmHg / 94% em ar ambiente</dd>
+<dt>Potássio</dt><dd>5,8 mEq/L, sem hemólise</dd>
+<dt>Creatinina</dt><dd>2,8 mg/dL (basal 2,6)</dd>
+<dt>Gasometria</dt><dd>pH 7,29 · HCO₃⁻ 15 · pCO₂ 32</dd>
+<dt>Eletrólitos</dt><dd>Na⁺ 138 · Cl⁻ 112 mEq/L</dd>
+<dt>ECG</dt><dd>Ritmo sinusal, sem alterações novas</dd>
+</dl>
+</section>
+<div>
+<section class="panel order">
+<h2>1. Prescrição na admissão</h2>
+<form id="initial">
+<div data-order-picker></div>
+<label><input name="diuresis" type="checkbox"> Registrar diurese horária e balanço hídrico</label>
+<label><input name="review" type="checkbox"> Reavaliar congestão e diurese conforme a resposta inicial</label>
+<label>Potássio de controle<select name="potassium" required><option value="">Selecione</option><option value="early">Em 2 horas, com creatinina e eletrólitos</option><option value="late">Na manhã seguinte</option></select></label>
+<button>Conferir prescrição</button>
+</form>
+<div id="initial-feedback" class="feedback" role="status" hidden></div>
+<template id="admission-explanation">
+  <div class="feedback-explanation">
+    <h3>Por que a prioridade é descongestionar?</h3>
+    <p>Após suspender o diurético, Carlos ganhou 3 kg e passou a ter ortopneia, edema e crepitações bibasais. Esses achados indicam congestão pulmonar e periférica. A pressão está preservada, as extremidades estão aquecidas e ele ainda urina. A furosemida diminui a reabsorção de sódio na alça de Henle, aumenta a eliminação de sódio e água e pode também favorecer a eliminação urinária de potássio.</p>
+    <p><strong>Por que 80 mg IV agora?</strong> Carlos usava 40 mg por via oral ao dia. Na insuficiência cardíaca descompensada, a diretriz da ESC de 2026 orienta considerar uma dose inicial intravenosa equivalente a duas vezes a dose oral habitual em quem já usava diurético de alça: 2 × 40 mg = 80 mg. A via IV permite uma resposta mais previsível quando a congestão dificulta a absorção oral. Esta é a dose inicial de referência para Carlos. A próxima dose depende da resposta. <a href="https://doi.org/10.1093/eurheartj/ehag100">ESC 2026 · seção 7.5.1</a></p>
+    <p><strong>Por que evitar medidas de emergência para o potássio agora?</strong> O K⁺ confirmado de 5,8 mEq/L está na faixa leve. Carlos está estável e o ECG não tem alterações novas. Nesse contexto, cálcio IV não é indicado para proteção cardíaca e insulina com glicose ou salbutamol não são necessários para redução rápida. O bicarbonato IV não é usado rotineiramente para esse fim e acrescenta sódio em um paciente congesto. Um ECG sem alterações, por si só, não exclui risco. <a href="https://guidelines.ukkidney.org/hyperkalaemia/6-summary-of-clinical-practice-guideline-for-hyperkalaemia/6-2-section-ii-hospital/">UK Kidney Association · manejo hospitalar</a></p>
+    <p><strong>O que checar antes de repetir?</strong> Registre a diurese horária e o balanço hídrico. Reavalie dispneia, congestão e pressão arterial. Em 2 horas, confira potássio, outros eletrólitos e função renal. Se a diurese for baixa, a congestão persistir ou o potássio subir, reavalie imediatamente, repita o ECG e ajuste o plano conforme os novos achados.</p>
+    <p class="muted">A evolução simulada adiante mostra a resposta ao plano de referência.</p>
+  </div>
+</template>
+<div class="actions"><button type="button" id="advance" hidden>Ver evolução simulada</button></div>
+</section>
+<section class="panel order" id="evolution" hidden>
+<h2 tabindex="-1">2. Reavaliar a resposta</h2>
+<p id="good-summary"><strong>Em 2 horas:</strong> diurese de 260 mL, pressão estável e K⁺ 5,5 mEq/L. Dispneia em melhora.</p>
+<label for="branch">Explorar outro resultado</label>
+<select id="branch"><option value="good">Boa resposta</option><option value="poor">Baixa diurese e potássio em elevação</option></select>
+<div id="poor" class="feedback" hidden>
+<p><strong>Em 2 horas na evolução alternativa:</strong> diurese de 40 mL, congestão persistente e K⁺ 6,3 mEq/L.</p>
+<form id="poor-form">
+<label>Próxima ordem<select name="decision" required><option value="">Selecione</option><option value="review">Reavaliar agora, repetir ECG, intensificar a vigilância e revisar o manejo do potássio e da congestão</option><option value="repeat">Repetir a mesma dose e aguardar até amanhã</option></select></label>
+<button>Conferir decisão</button>
+</form>
+<div id="poor-feedback" class="feedback" role="status" hidden></div>
+<template id="poor-explanation">
+  <div class="feedback-explanation">
+    <h3>O que mudou e como agir agora?</h3>
+    <p><strong>O diurético teve pouca resposta e o risco aumentou.</strong> Carlos eliminou 40 mL em 2 horas, cerca de 20 mL/h, e continua congesto. Essa diurese está bem abaixo da referência de 100 mL/h nas primeiras horas após o diurético IV. Ao mesmo tempo, o K⁺ subiu de 5,8 para 6,3 mEq/L e entrou na faixa moderada. A DRC avançada já limita a capacidade de eliminar potássio. Com tão pouca diurese, contar apenas com a furosemida para controlar o K⁺ deixa o paciente exposto a uma nova elevação e a arritmias. Duas horas de baixa diurese também não bastam, por si só, para diagnosticar lesão renal aguda. <a href="https://doi.org/10.1093/eurheartj/ehag100">ESC 2026 · resposta diurética</a></p>
+    <p><strong>Reavalie à beira do leito e monitore.</strong> Confira pressão, perfusão, frequência respiratória, saturação e sinais de congestão. Faça um ECG de 12 derivações agora e inicie monitorização cardíaca contínua pela tendência de elevação do K⁺. Repita o potássio com coleta adequada e resultado rápido, confira creatinina, glicemia e equilíbrio ácido-base e revise medicamentos e aportes de potássio. Se houver alterações no ECG compatíveis com hipercalemia, administre cálcio IV prontamente para proteger o coração, sem esperar a repetição do exame. O cálcio protege o miocárdio e o controle do potássio exige medidas adicionais. <a href="https://guidelines.ukkidney.org/hyperkalaemia/6-summary-of-clinical-practice-guideline-for-hyperkalaemia/6-2-section-ii-hospital/">UK Kidney Association · avaliação e proteção cardíaca</a></p>
+    <p><strong>Trate o potássio em paralelo à congestão.</strong> Com K⁺ de 6,3 mEq/L em ascensão e pouca diurese, considere insulina regular IV com glicose conforme o protocolo hospitalar, mesmo se o ECG estiver normal. A insulina desloca o potássio para dentro das células e ganha tempo enquanto se organiza a remoção. Se usada, registre a glicemia basal e monitore de forma seriada por pelo menos 6 horas pelo risco de hipoglicemia. O salbutamol pode ser um adjuvante. Após o tratamento, acompanhe o K⁺ de forma seriada para verificar a resposta e detectar rebote. <a href="https://guidelines.ukkidney.org/hyperkalaemia/6-summary-of-clinical-practice-guideline-for-hyperkalaemia/6-2-section-ii-hospital/">UK Kidney Association · tratamento e monitorização</a></p>
+    <p><strong>Ajuste a descongestão pela resposta.</strong> Confirme que o diurético IV foi administrado e que a diurese foi medida corretamente. Investigue retenção urinária ou hipoperfusão conforme o exame. Se Carlos continuar congesto, com perfusão e pressão adequadas, considere aumentar a dose IV do diurético de alça conforme o protocolo e meça a resposta novamente nas próximas horas. Acione a nefrologia precocemente diante da DRC avançada, da baixa diurese e do K⁺ em ascensão. Hipercalemia refratária, edema pulmonar refratário ou acidose grave refratária podem exigir terapia renal substitutiva urgente. <a href="https://doi.org/10.1093/eurheartj/ehag100">ESC 2026 · ajuste do diurético</a> · <a href="https://kdigo.org/wp-content/uploads/2019/01/KDIGO-2012-AKI-Guideline-English.pdf">KDIGO · indicações de terapia renal substitutiva</a></p>
+  </div>
+</template>
+</div>
+<div id="good">
+<p><strong>Após 24 horas:</strong> congestão clinicamente resolvida, diurese preservada, PA estável. K⁺ 5,1 mEq/L, creatinina 2,7 mg/dL, pH 7,31, HCO₃⁻ 16 mEq/L. O prontuário mostra bicarbonato ambulatorial de 16 e 17 mEq/L nas últimas semanas.</p>
+<h3>Prescrição após a descongestão</h3>
+<form id="follow-up">
+<div class="fields">
+<label>Plano para a furosemida<select name="loop" required><option value="">Selecione</option><option value="review">Reavaliar necessidade de IV e ajustar manutenção oral</option><option value="fixed">Manter IV sem reavaliar</option></select></label>
+</div>
+<div data-order-picker></div>
+<label><input name="labs" type="checkbox"> Acompanhar bicarbonato sérico, potássio e função renal</label>
+<label><input name="fluid" type="checkbox"> Acompanhar pressão, peso e sinais de retenção de líquido</label>
+<button>Conferir prescrição</button>
+</form>
+<div id="final-feedback" class="feedback" role="status" hidden></div>
+<template id="follow-up-explanation">
+  <div class="feedback-explanation">
+    <h3>Como prescrever após a descongestão?</h3>
+    <p><strong>Indicação.</strong> O bicarbonato sérico já estava entre 16 e 17 mEq/L nas últimas semanas e permanece em 16 mEq/L, com pH 7,31, após a melhora da congestão. Isso sustenta a indicação de tratar a acidose metabólica persistente na DRC. A KDIGO 2024 orienta considerar tratamento quando a acidose pode ter repercussão clínica e cita bicarbonato abaixo de 18 mmol/L em adultos como exemplo. <a href="https://kdigo.org/wp-content/uploads/2017/02/KDIGO-2024-CKD-Guideline-Executive-Summary.pdf">KDIGO 2024 · itens 3.10.1 e 3.10.2</a></p>
+    <p><strong>Prescrição inicial de referência.</strong> Bicarbonato de sódio, cápsula oral de 500 mg. Administrar uma cápsula por via oral a cada 8 horas, por exemplo às 6h, 14h e 22h. O protocolo hospitalar de Liverpool propõe iniciar com 500 mg por via oral três vezes ao dia quando o bicarbonato sérico está baixo. Esse esquema fornece 1.500 mg ao dia em três tomadas. A dose deve ser ajustada conforme a resposta e a tolerância de Carlos. <a href="https://pathlabs.rlbuht.nhs.uk/Management%20of%20Acute%20Hyperkalaemia.pdf">Protocolo hospitalar de Liverpool</a></p>
+    <p><strong>Confira a unidade e a carga de sódio.</strong> Cada 500 mg de bicarbonato de sódio fornece aproximadamente 6 mEq de bicarbonato e 137 mg de sódio. Com três tomadas, são cerca de 18 mEq de bicarbonato e 411 mg de sódio ao dia. Calcule a dose por tomada e o total diário antes de comparar esquemas, pois ambos influenciam a resposta e a tolerância. <a href="https://www.medicines.org.uk/emc/product/101278/smpc">Informação técnica da cápsula de 500 mg</a></p>
+    <p><strong>Reavaliação.</strong> Acompanhe bicarbonato sérico, potássio e função renal. Como Carlos tem insuficiência cardíaca e acabou de descongestionar, vigie também pressão arterial, peso, edema e dispneia. Ajuste a dose conforme a resposta e reavalie o esquema se houver retorno da congestão, piora do controle pressórico ou queda excessiva do potássio. Evite elevar o bicarbonato acima do limite superior da normalidade. <a href="https://kdigo.org/wp-content/uploads/2017/02/KDIGO-2024-CKD-Guideline-Executive-Summary.pdf">KDIGO 2024 · item 3.10.2</a></p>
+  </div>
+</template>
+</div>
+<div class="actions">
+  <button type="button" id="finish-attempt" hidden>Finalizar tentativa</button>
+</div>
+<p id="attempt-status" role="status" tabindex="-1" hidden></p>
+</section>
+</div>
+</div>
+<details>
+<summary>Referências e critérios da simulação</summary>
+<p>UpToDate, <cite>Treatment and prevention of hyperkalemia in adults</cite>, seção sobre diuréticos de alça e p. 14 e 26. O esquema de furosemida 40 mg IV a cada 12 h no PDF é descrito para hipervolemia com função renal preservada. Para Carlos, a referência de primeira dose é 80 mg IV, duas vezes os 40 mg orais habituais, conforme a <a href="https://doi.org/10.1093/eurheartj/ehag100">ESC 2026, seção 7.5.1</a>. A dose é revista pela resposta.</p>
+<p>A <a href="https://guidelines.ukkidney.org/hyperkalaemia/10-1-i-hyperkalaemia-in-the-community-guidelines-1-1-12-1/10-1-6-i-hyperkalaemia-in-the-community-guideline-6-1/">UKKA 6.1</a> orienta o uso de bicarbonato na DRC com bicarbonato sérico baixo. A <a href="https://guidelines.ukkidney.org/hyperkalaemia/11-1-ii-hyperkalaemia-in-hospital/11-1-4-ii-hyperkalaemia-in-hospital-guidelines-16-1-16-6/">UKKA 16.5</a> desaconselha o uso IV rotineiro na hipercalemia aguda. Os PDFs fornecidos e a UKKA 6.1 não fixam a dose oral inicial para este cenário. A ordem didática de 500 mg VO a cada 8 h vem do <a href="https://pathlabs.rlbuht.nhs.uk/Management%20of%20Acute%20Hyperkalaemia.pdf">protocolo Liverpool University Hospitals NHS</a>. O acompanhamento de pressão, potássio e estado volêmico segue o <a href="https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf">KDIGO 2024, seção 3.10</a>.</p>
+<p>Os critérios para cálcio IV, redistribuição, resinas e avaliação de diálise seguem o <a href="https://guidelines.ukkidney.org/hyperkalaemia/6-summary-of-clinical-practice-guideline-for-hyperkalaemia/6-2-section-ii-hospital/">resumo hospitalar da UKKA</a>.</p>
+<p>Os exames da evolução e o controle em 2 h são escolhas didáticas deste cenário. As doses de referência servem à discussão, sem pontuação automática para alternativas.</p>
+</details>
+</main>
+<script src="js/store.js?v=118"></script>
+<script src="js/agoraprescreva-caso-02.js?v=1"></script>
+</body>
+</html>
