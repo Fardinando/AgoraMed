@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#071d22">
+  <title>AgoraAtenda 01 · Hipercalemia grave</title>
+  <link rel="stylesheet" href="css/agoraprescreva.css?v=5">
+    <link rel="stylesheet" href="css/agoraatenda01.css?v=5">
+</head>
+<body class="atenda-page">
+  <header class="topbar">
+    <a class="brand" href="app.html" aria-label="AgoraMed — início"><img src="img/agoramed-logo-branco.png" alt="AgoraMed — Pronto para o plantão" width="906" height="184"></a>
+    <div class="top-context"><span class="course-dot"></span><span>TRATAMENTO DA HIPERCALEMIA EM ADULTOS</span></div>
+    <div class="top-actions"><span class="local-tag">PROTÓTIPO LOCAL</span><a class="text-button" href="curso.html?id=fa3c5d8d-94c4-4321-be7a-1cc45741a983">← Voltar ao curso</a></div>
+  </header>
+  <main class="shell">
+    <nav class="breadcrumb" aria-label="Localização"><a href="curso.html?id=fa3c5d8d-94c4-4321-be7a-1cc45741a983">Curso de hipercalemia</a><b>/</b><strong>AgoraAtenda 01</strong></nav>
+    <section class="page-heading atenda-heading"><div><span class="eyebrow">SIMULAÇÃO CLÍNICA · ATENDIMENTO 01</span><h1>Hipercalemia grave com <em>instabilidade.</em></h1><p>Uma decisão por vez. Veja o feedback, acompanhe cada ordem e só então avance para a próxima fase.</p></div><div class="heading-meta"><span class="status"><i></i> Cenário ativo</span><span>Paciente fictício</span></div></section>
+    <nav class="steps" aria-label="Etapas do atendimento"><div class="step active" data-step="assessment"><span>01</span><div><b>Avaliação</b><small>Paciente e dados clínicos</small></div></div><div class="step" data-step="actions"><span>02</span><div><b>Condutas</b><small>Plano e monitorização</small></div></div><div class="step" data-step="report"><span>03</span><div><b>Relatório</b><small>Registro da tentativa</small></div></div></nav>
+    <div class="atenda-toolbar"><p><span class="live-dot"></span><span id="save-status" role="status">Rascunho salvo somente neste navegador.</span></p><button id="reset-attempt" class="button secondary" type="button">Nova tentativa</button></div>
+    <div class="atenda-grid" id="atenda-grid">
+      <aside class="atenda-panel patient-panel" data-panel="patient">
+        <div class="panel-title"><div><span class="eyebrow">PRONTUÁRIO · EMERGÊNCIA</span><h2>José Carlos M.</h2></div><span class="age-badge">67 anos · 78 kg</span></div>
+        <div class="acuity"><span class="pulse"></span><div><b>Instabilidade hemodinâmica</b><small>Bradicardia e hipotensão com alteração eletrocardiográfica</small></div></div>
+        <p class="patient-story">Fraqueza, diarreia e baixa ingestão oral. Relata redução importante da diurese. Histórico de DRC, insuficiência cardíaca e diabetes. Em uso de losartana, espironolactona e insulina basal.</p>
+        <h3>Sinais vitais</h3><div class="clinical-grid" id="vitals-grid"></div>
+        <h3>Resultados iniciais</h3><div class="clinical-grid" id="labs-grid"></div>
+        <section class="ecg-box"><span class="eyebrow">ECG INICIAL</span><p>Ondas T apiculadas · ondas P atenuadas · QRS alargado</p><strong>QRS aproximado: 160 ms</strong></section>
+        <section class="latest-assessment" id="latest-assessment" aria-live="polite" hidden></section>
+        <div id="history-discovery" class="history-discovery" hidden><span class="eyebrow">RECONCILIAÇÃO MEDICAMENTOSA</span><p>Além de losartana, espironolactona e insulina basal, o paciente usou ibuprofeno recentemente.</p></div>
+        <p class="patient-note">Ambiente de simulação com paciente fictício. As informações evolutivas são inseridas pelo aluno; o relógio não modifica o quadro automaticamente.</p>
+      </aside>
+      <section class="atenda-panel action-panel" data-panel="actions">
+        <div class="panel-title"><div><span class="eyebrow">DECISÃO GUIADA</span><h2 id="guided-title">Qual é sua prioridade?</h2></div><span class="order-count"><b id="guided-number">01</b><small id="guided-total">fase</small></span></div>
+        <div class="guided-progress" aria-hidden="true"><span id="guided-progress-bar"></span></div>
+        <div id="guided-screen" aria-live="polite"></div>
+      </section>
+      <aside class="atenda-panel monitor-panel" data-panel="monitor">
+        <span class="eyebrow">MONITOR E LINHA DO TEMPO</span><h2>Acompanhe e registre</h2>
+        <div class="monitor-status"><span class="monitor-pulse"></span><div><b>Estado inicial</b><small>Bradicardia · hipotensão · K 7,4 mEq/L</small></div></div>
+        <ol id="timeline" class="timeline"></ol>
+        <section class="reference-box"><span class="eyebrow">REFERÊNCIA DE BASE</span><p>UK Kidney Association, guideline hospitalar para hipercalemia, atualização julho de 2026. As doses e regras são didáticas e precisam de validação médica antes de uso avaliativo.</p><a href="https://guidelines.ukkidney.org/hyperkalaemia/6-summary-of-clinical-practice-guideline-for-hyperkalaemia/6-2-section-ii-hospital/" target="_blank" rel="noreferrer">Consultar seção hospitalar ↗</a></section>
+      </aside>
+    </div>
+    <section class="report-panel hidden" id="final-report" aria-live="polite"></section>
+    <div class="medical-note"><b>Simulação educacional</b><span>Este protótipo não substitui avaliação clínica, protocolos institucionais ou supervisão. A resposta não é um modelo fisiológico individual.</span></div>
+    <footer class="footer"><span>AGORAMED · AGORAATENDA 01</span><span>Protótipo local · dados armazenados neste navegador</span></footer>
+  </main>
+  <script src="js/agoraatenda01-engine.js?v=2"></script><script src="js/agoraatenda01-flow.js?v=2"></script><script src="js/agoraatenda01-pedagogy.js?v=1"></script><script src="js/agoraatenda01.js?v=7"></script>
+</body>
+</html>

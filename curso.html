@@ -66,6 +66,11 @@
           <span><small>SIMULAÇÃO CLÍNICA · PRÁTICA DE PRESCRIÇÃO</small><strong>AgoraPrescreva</strong><em>Organize suas condutas, receba feedback e reavalie o caso.</em></span>
           <span class="curso-atividade-acao">Iniciar atividade <b aria-hidden="true">→</b></span>
         </a>
+        <a id="curso-agoraatenda" class="curso-atividade oculto" href="agoraatenda01.html">
+          <span class="curso-atividade-selo" aria-hidden="true">✚</span>
+          <span><small>SIMULAÇÃO CLÍNICA · ATENDIMENTO</small><strong>AgoraAtenda 01</strong><em>Conduza o atendimento clínico em um cenário interativo.</em></span>
+          <span class="curso-atividade-acao">Iniciar atividade <b aria-hidden="true">→</b></span>
+        </a>
       </section>
       <aside class="curso-lateral" aria-label="Seu aprendizado">
         <section class="painel-progresso" id="c-progresso">
@@ -114,6 +119,7 @@
 
       const acessoAgoraPrescreva = cursoId === 'fa3c5d8d-94c4-4321-be7a-1cc45741a983' && permitido;
       document.getElementById('curso-agoraprescreva').classList.toggle('oculto', !acessoAgoraPrescreva);
+      document.getElementById('curso-agoraatenda').classList.toggle('oculto', !acessoAgoraPrescreva);
       if (acessoAgoraPrescreva) {
         const quiz = document.getElementById('curso-agoraquiz');
         quiz.href = 'agoraquiz-curso.html?curso_id=' + encodeURIComponent(curso.id);

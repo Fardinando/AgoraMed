@@ -4,7 +4,8 @@ window.AtividadesCurso = {
 
     const atividades = [
       ['✓', 'AgoraQuiz', 'Estudo ou Simulado', 'agoraquiz-curso.html?curso_id=' + encodeURIComponent(curso.id)],
-      ['Rx', 'AgoraPrescreva', 'Simulação de prescrição', 'agoraprescreva.html']
+      ['Rx', 'AgoraPrescreva', 'Simulação de prescrição', 'agoraprescreva.html'],
+      ['✚', 'AgoraAtenda 01', 'Simulação de atendimento clínico', 'agoraatenda01.html']
     ];
     const navegacao = document.createElement('nav');
     navegacao.className = 'atividades-curriculo';

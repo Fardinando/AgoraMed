@@ -1,0 +1,37 @@
+{
+  "id": "agoraatenda01-hyperkalemia-adult-v1",
+  "version": 1,
+  "status": "protótipo local; requer revisão médica antes de uso avaliativo",
+  "scenario": {
+    "patient": "José Carlos M.",
+    "ageYears": 67,
+    "weightKg": 78,
+    "setting": "Emergência",
+    "conditions": ["doença renal crônica com lesão renal aguda", "diabetes tipo 2", "hipertensão", "insuficiência cardíaca com fração de ejeção reduzida"],
+    "symptoms": ["fraqueza", "diarreia", "baixa ingestão oral", "oligúria"],
+    "initial": {"heartRateBpm": 42, "bloodPressureMmHg": "88/54", "spo2Percent": 96, "respiratoryRate": 22, "gcs": 15, "potassiumMmolL": 7.4, "creatinineMgDl": 4.3, "baselineCreatinineMgDl": 2.1, "ureaMgDl": 126, "sodiumMmolL": 134, "glucoseMgDl": 108, "venousPh": 7.27, "bicarbonateMmolL": 17, "lactateMmolL": 1.4, "ecg": ["ondas T apiculadas", "ondas P atenuadas", "QRS aproximado 160 ms"]},
+    "medicationReconciliationFinding": "uso recente de ibuprofeno; revelado após registrar reconciliação medicamentosa"
+  },
+  "clinicalRules": [
+    {"id":"CA-01","topic":"Proteção cardíaca","rule":"Diante de hipercalemia grave com alterações de ECG, apresentar cálcio IV como estabilização de membrana; não atribuir redução do potássio sérico ao cálcio.","reference":"UKKA 2026, hospital section; UpToDate Treatment and prevention (literature current Oct 2026).","note":"O guideline UKKA atualizado em julho de 2026 explicita evidência limitada/incerta; dose e sequência devem ser revisadas por responsável médico."},
+    {"id":"CA-02","topic":"Seleção do sal de cálcio","rule":"A regra de referência do protótipo aceita gluconato de cálcio 10% 30 mL IV em 10 min; cloreto de cálcio 10% 10 mL IV em 5 min é reservado ao contexto de peri-parada/ressuscitação.","reference":"UKKA 2026, hospital section."},
+    {"id":"SH-01","topic":"Redistribuição","rule":"Insulina solúvel 10 unidades IV acompanhada de 25 g de glicose é a opção de referência para K ≥ 6,5 mmol/L. Insulina não remove potássio corporal total.","reference":"UKKA 2026, hospital section; UpToDate Hyperkalemia Pathway v6.0 (30 Sep 2026)."},
+    {"id":"SH-02","topic":"Prevenção de hipoglicemia","rule":"Quando glicemia pré-tratamento < 7 mmol/L, incluir infusão de glicose a 10% a 50 mL/h por 5 h na referência UKKA e controles glicêmicos seriados após insulina. Glicemia inicial 108 mg/dL (~6,0 mmol/L).","reference":"UKKA 2026, hospital section."},
+    {"id":"SH-03","topic":"Adjuvante beta-2","rule":"Salbutamol nebulizado 10–20 mg é adjuvante; não usar como monoterapia.","reference":"UKKA 2026, hospital section."},
+    {"id":"RM-01","topic":"Remoção de potássio","rule":"Registrar plano de remoção definitiva/escalonamento urgente e envolver nefrologia/equipe crítica considerando DRC, LRA, oligúria, instabilidade e resposta. Resina de cálcio não é opção de rotina. A modalidade e o momento de terapia renal substitutiva exigem julgamento especializado.","reference":"UKKA 2026, hospital section; UpToDate Hyperkalemia Pathway v6.0."},
+    {"id":"MN-01","topic":"Reavaliação","rule":"Registrar ECG e potássio seriados. A resposta do ECG não prova normalização do potássio. Rebound pode ocorrer após redistribuição temporária.","reference":"UKKA 2026, hospital section; UpToDate Clinical manifestations and Treatment and prevention (literature current Oct 2026)."},
+    {"id":"MN-02","topic":"Vigilância glicêmica","rule":"Após insulina, monitorar glicemia em série; a referência UKKA lista 0, 30, 60, 90, 120, 180, 240, 300 e 360 minutos.","reference":"UKKA 2026, hospital section."},
+    {"id":"ET-01","topic":"Causas e medicamentos","rule":"Revisar DRC/LRA, oligúria, baixa ingestão/perdas gastrointestinais e medicamentos que alteram potássio; reconciliação do caso revela ibuprofeno recente.","reference":"UpToDate Causes and evaluation of hyperkalemia in adults (literature current Oct 2026)."},
+    {"id":"MD-01","topic":"Diferença entre referências","rule":"UKKA não recomenda bicarbonato IV rotineiro na hipercalemia; a via UpToDate 6.0 inclui bicarbonato em ramos selecionados. O protótipo não dá crédito automático para bicarbonato: exige justificativa contextual e protocolo local.","reference":"UKKA 2026, hospital section; UpToDate Hyperkalemia Pathway v6.0 (30 Sep 2026)."}
+  ],
+  "workflow": {"guidedPhases":["prioridade imediata","prescrever, preparar e administrar cálcio","reavaliar ECG e potássio","investigar causas e medicamentos","prescrever, preparar e administrar insulina com glicose","considerar salbutamol adjuvante","planejar e registrar monitorização","planejar remoção definitiva e acionar nefrologia","reavaliar após remoção","definir destino e gerar relatório"],"prescriptionStates":["draft","prescribed","preparing","administered","cancelled","suspended","not-administered","refused-safety"],"invariant":"Prescrição não equivale a administração. Bloqueio antes da administração não altera o estado clínico nem é pontuado como erro executado.","clock":"O relógio só avança mediante entrada explícita. Nenhum evento deteriora o quadro automaticamente.","responses":"ECG e valores de potássio/glicemia/diurese em 10 min, 60 min e 4 h são resultados fixos e ramificados deste caso fictício. Não são calculados por fórmula ou previsão individual.","storage":"Somente localStorage do navegador neste protótipo; sem API, conta ou envio remoto."},
+  "scoring": {"maximum":100,"passSuggestion":80,"domains":[{"id":"recognition","points":20},{"id":"protection","points":25},{"id":"shift","points":20},{"id":"removal","points":15},{"id":"monitoring","points":15},{"id":"etiology","points":5}],"criticalOmissions":["proteção cardíaca não administrada","redistribuição temporária não iniciada","sem plano de remoção definitiva/escalonamento","insulina administrada sem controles seriados de glicemia"],"antiGaming":"Cada domínio tem pontos limitados e ações repetidas não acumulam pontos."},
+  "references": [
+    {"label":"UK Kidney Association — hyperkalaemia guideline, versão atualizada em julho de 2026","url":"https://guidelines.ukkidney.org/hyperkalaemia/"},
+    {"label":"UKKA — seção hospitalar","url":"https://guidelines.ukkidney.org/hyperkalaemia/6-summary-of-clinical-practice-guideline-for-hyperkalaemia/6-2-section-ii-hospital/"},
+    {"label":"UpToDate — Causes and evaluation of hyperkalemia in adults","localSource":"/Users/anderson/Downloads/Causes and evaluation of hyperkalemia in adults - UpToDate.pdf"},
+    {"label":"UpToDate — Clinical manifestations of hyperkalemia in adults","localSource":"/Users/anderson/Downloads/Clinical manifestations of hyperkalemia in adults - UpToDate.pdf"},
+    {"label":"UpToDate — Hyperkalemia Treatment Pathway v6.0, updated 30 Sep 2026","localSource":"/Users/anderson/Downloads/Hyperkalemia_ Treatment in adults.pdf"},
+    {"label":"UpToDate — Treatment and prevention of hyperkalemia in adults","localSource":"/Users/anderson/Downloads/Treatment and prevention of hyperkalemia in adults - UpToDate.pdf"}
+  ]
+}

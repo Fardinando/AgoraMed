@@ -121,11 +121,12 @@
     try {
       const attempts=history();attempts.push({attemptId:crypto.randomUUID(),serverId:saved.attemptId,finishedAt:new Date().toISOString(),score:result.score,safe:result.safe,items:result.items});
       localStorage.setItem(historyKey,JSON.stringify(attempts));localStorage.removeItem(draftKey);renderHistory();
-      $('#rx-status').textContent='Tentativa finalizada e registrada na sua conta.';
+      $('#rx-status').textContent='Tentativa finalizada e registrada na sua conta. Abrindo AgoraAtenda…';
     } catch {
       $('#rx-status').textContent='Tentativa finalizada e registrada na sua conta. O histórico local não pôde ser atualizado.';
     }
     button.removeAttribute('aria-busy');
+    window.setTimeout(()=>window.location.assign('agoraatenda01.html'),900);
   });
   $('#rx-reset').addEventListener('click',()=>{if(!confirm('Reiniciar o exercício? O rascunho atual será removido. As tentativas finalizadas permanecem no histórico.'))return;$('#rx-orders').replaceChildren();$('#rx-checks').querySelectorAll('input').forEach(box=>box.checked=false);localStorage.removeItem(draftKey);$('#rx-review-content').className='rx-review-empty';$('#rx-review-content').textContent='Sua prescrição ainda não foi avaliada. Construa as condutas e clique em Revisar prescrição.';$('#rx-status').textContent='Exercício reiniciado.';});
   document.querySelectorAll('.rx-tabs button').forEach(button=>button.addEventListener('click',()=>switchTab(button.dataset.tab)));
