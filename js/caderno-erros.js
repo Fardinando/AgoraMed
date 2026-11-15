@@ -57,7 +57,7 @@
   const dialogo = document.getElementById('cd-review');
   const corpoDialogo = document.getElementById('cd-review-body');
 
-  let dados = { itens: [], indicadores: {}, estados: [], dominioAcertos: 2 };
+  let dados = { itens: [], atendimento: [], indicadores: {}, estados: [], dominioAcertos: 2 };
   let filtro = 'todos';
   let revisaoAtual = null;
   let escolha = null;
@@ -96,7 +96,12 @@
   function renderResumo() {
     const ind = dados.indicadores || {};
     const total = Number(ind.total) || 0;
-    if (!total) { resumo.innerHTML = ''; return; }
+    const atenda = Array.isArray(dados.atendimento) ? dados.atendimento.length : 0;
+    if (!total && !atenda) { resumo.innerHTML = ''; return; }
+    if (!total && atenda) {
+      resumo.innerHTML = '<div class="aq-stats"><div class="aq-stat"><strong>' + atenda + '</strong><span>Pontos do AgoraAtenda para revisar</span></div><div class="aq-stat"><strong>AgoraAtenda 01</strong><span>Tentativas vinculadas à sua conta</span></div></div>';
+      return;
+    }
     resumo.innerHTML = '<div class="aq-stats">' +
       '<div class="aq-stat"><strong>' + total + '</strong><span>Questões</span></div>' +
       '<div class="aq-stat"><strong>' + (Number(ind.precisaRevisar) || 0) + '</strong><span>Precisam revisar</span></div>' +
@@ -104,7 +109,7 @@
       '<div class="aq-stat"><strong>' + (Number(ind.dominadas) || 0) + '</strong><span>Dominadas</span></div>' +
       '</div>' +
       '<p class="cd-total">Domínio: <strong>' + (Number(ind.percentualDominio) || 0) + '%</strong> · ' +
-      '<strong>' + (Number(ind.revisoes) || 0) + '</strong> ' + plural(ind.revisoes, 'revisão realizada', 'revisões realizadas') + '</p>';
+      '<strong>' + (Number(ind.revisoes) || 0) + '</strong> ' + plural(ind.revisoes, 'revisão realizada', 'revisões realizadas') + (atenda ? ' · <strong>' + atenda + '</strong> pontos do AgoraAtenda para revisar' : '') + '</p>';
   }
 
   /* ------------------------------------------------------------- lista */
@@ -156,7 +161,8 @@
   function renderLista() {
     lista.setAttribute('aria-busy', 'false');
     const itens = Array.isArray(dados.itens) ? dados.itens : [];
-    if (!itens.length) {
+    const atendimento = Array.isArray(dados.atendimento) ? dados.atendimento : [];
+    if (!itens.length && !atendimento.length) {
       lista.innerHTML = '<div class="cd-vazio"><h2>Nenhum erro registrado ainda.</h2>' +
         '<p>Quando você errar uma questão do AgoraQuest, ela aparece aqui para revisão direcionada.</p>' +
         '<a class="aq-btn primary" href="app.html">Voltar aos meus cursos</a></div>';
@@ -164,7 +170,7 @@
     }
 
     const ind = dados.indicadores || {};
-    const opcoes = [{ estado: 'todos', rotulo: 'Todas', count: itens.length }].concat(
+    const opcoes = [{ estado: 'todos', rotulo: 'Todas', count: itens.length + atendimento.length }].concat(
       (dados.estados && dados.estados.length ? dados.estados : [
         { estado: 'precisa_revisar', rotulo: 'Precisa revisar' },
         { estado: 'em_revisao', rotulo: 'Em revisão' },
@@ -177,6 +183,8 @@
             : Number(ind.dominadas) || 0
       }))
     );
+    const precisaRevisar = opcoes.find(o => o.estado === 'precisa_revisar');
+    if (precisaRevisar) precisaRevisar.count += atendimento.length;
 
     const toolbar = '<div class="cd-toolbar"><div class="cd-filtros" role="group" aria-label="Filtrar questões por estado">' +
       opcoes.map((o) => '<button type="button" class="cd-filtro" data-filter="' + esc(o.estado) + '"' +
@@ -185,13 +193,15 @@
       '</div></div>';
 
     const visiveis = filtro === 'todos' ? itens : itens.filter((i) => i.estado === filtro);
-    if (!visiveis.length) {
+    const mostrarAtendimento = atendimento.length && (filtro === 'todos' || filtro === 'precisa_revisar');
+    const secaoAtendimento = mostrarAtendimento ? '<section class="cd-atenda"><h2>AgoraAtenda 01 · Hipercalemia grave</h2><p class="cd-curso-sub">Decisões e pontos de segurança registrados nas suas tentativas.</p><div class="cd-atenda-grid">' + atendimento.map((item) => '<article class="aq-notebook-item cd-atenda-item"><div class="aq-notebook-top"><p class="aq-eyebrow">' + esc(item.kind === 'omission' ? 'PONTO DE SEGURANÇA' : 'DECISÃO CLÍNICA') + '</p><span class="aq-state precisa_revisar">Precisa revisar</span></div><h3>' + esc(item.title) + '</h3><p><strong>Sua resposta:</strong> ' + esc(item.selected || 'Não registrado') + '</p><p><strong>Referência para revisão:</strong> ' + esc(item.expected || 'Consulte o feedback desta etapa.') + '</p>' + (item.feedback ? '<p>' + esc(item.feedback) + '</p>' : '') + (item.reference ? '<p class="cd-item-meta">' + esc(item.reference) + '</p>' : '') + '<p class="cd-item-meta">' + esc(item.occurrences) + ' ' + plural(item.occurrences, 'ocorrência', 'ocorrências') + (item.lastErrorAt ? ' · mais recente em ' + esc(data(item.lastErrorAt)) : '') + '</p></article>').join('') + '</div></section>' : '';
+    if (!visiveis.length && !mostrarAtendimento) {
       lista.innerHTML = toolbar + '<div class="cd-vazio">Nenhuma questão neste estado no momento.</div>';
       return;
     }
 
     const grupos = agrupar(visiveis);
-    lista.innerHTML = toolbar + grupos.map((curso) => '<section class="cd-curso">' +
+    lista.innerHTML = toolbar + (grupos.length ? grupos.map((curso) => '<section class="cd-curso">' +
       '<h2>' + esc(curso.titulo) + '</h2><p class="cd-curso-sub">Curso</p>' +
       curso.modulos.map((modulo) => '<section class="cd-modulo">' +
         '<h3>' + esc(modulo.titulo) + '</h3>' +
@@ -201,7 +211,7 @@
           '<div class="cd-itens">' + aula.itens.map(itemHTML).join('') + '</div>' +
           '</section>').join('') +
         '</section>').join('') +
-      '</section>').join('');
+      '</section>').join('') : '') + secaoAtendimento;
   }
 
   /* ----------------------------------------------------------- revisão */
@@ -379,6 +389,7 @@
       const r = await pedir('GET', null, null);
       dados = {
         itens: Array.isArray(r.itens) ? r.itens : [],
+        atendimento: Array.isArray(r.atendimento) ? r.atendimento : [],
         indicadores: r.indicadores || {},
         estados: Array.isArray(r.estados) ? r.estados : [],
         dominioAcertos: Number(r.dominioAcertos) || 2

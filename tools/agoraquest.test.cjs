@@ -2464,6 +2464,7 @@ function montarRotaCaderno({ acesso = true, perfil = { id: ids.aluno, liberado: 
       if (url.startsWith('/agoraquest_atividades?')) {
         return { ok: true, dados: semAtividade ? [] : [{ aula_id: AULA, versao_conteudo: 1 }] };
       }
+      if (url.startsWith('/agoraprescreva_tentativas?')) return { ok: true, dados: [] };
       if (url.startsWith('/rpc/agoraquest_caderno_revisar')) {
         const b = opt.corpo;
         const correta = b.p_correta===true;
@@ -3390,8 +3391,8 @@ test('estático: páginas, link no app, service worker e ausência do gabarito n
 
   const caderno = fs.readFileSync(path.join(__dirname, '../caderno-erros.html'), 'utf8');
   assert.match(caderno, /css\/agoraquest\.css\?v=4/);
-  assert.match(caderno, /css\/caderno-erros\.css\?v=2/);
-  assert.match(caderno, /js\/caderno-erros\.js\?v=3/);
+  assert.match(caderno, /css\/caderno-erros\.css\?v=3/);
+  assert.match(caderno, /js\/caderno-erros\.js\?v=4/);
   assert.match(caderno, /id="cd-review"/);
 
   const js = fs.readFileSync(path.join(__dirname, '../js/agoraquest.js'), 'utf8');

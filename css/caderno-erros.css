@@ -21,6 +21,10 @@
 .cd-aula-cab a:hover{text-decoration:underline}
 .cd-itens{display:grid;gap:10px}
 .cd-itens .aq-notebook-item{margin-bottom:0}
+.cd-atenda{background:var(--aq-card);border:1px solid var(--aq-line);border-radius:var(--aq-radius);box-shadow:var(--aq-shadow);padding:26px 28px;margin-bottom:20px}
+.cd-atenda>h2{font-size:26px;margin:0 0 5px}
+.cd-atenda-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:12px}
+.cd-atenda-item{margin:0}
 .cd-item-meta{font-size:12px;color:var(--aq-muted);margin:6px 0 0}
 .cd-item-meta strong{color:var(--aq-text)}
 .cd-vazio{padding:34px 22px;text-align:center;border:1px dashed var(--aq-teal-line);border-radius:14px;background:var(--aq-card);color:var(--aq-muted);font-size:14px}
@@ -40,6 +44,8 @@
 
 @media(max-width:760px){
   .cd-curso{padding:20px 17px;border-radius:14px}
+  .cd-atenda{padding:20px 17px;border-radius:14px}
+  .cd-atenda>h2{font-size:22px}
   .cd-toolbar{align-items:flex-start;flex-direction:column}
   .cd-review-head .aq-state{margin-left:0}
   .cd-review-actions .aq-btn{width:100%}
