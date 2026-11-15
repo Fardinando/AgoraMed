@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#071d22">
+  <meta name="description" content="Estação interativa sobre glicose associada à insulina no tratamento da hipercalemia em adultos.">
+  <title>AgoraFarm · Glicose · AgoraMed</title>
+  <link rel="stylesheet" href="css/agoraprescreva.css?v=5">
+  <link rel="stylesheet" href="css/agorafarm.css?v=5">
+  <link rel="stylesheet" href="css/agorafarm-glicose.css?v=1">
+</head>
+<body class="agorafarm af-glucose-page">
+  <header class="topbar">
+    <a class="brand" href="app.html" aria-label="AgoraMed — início"><img src="img/agoramed-logo-branco.png" alt="AgoraMed · Pronto para o plantão" width="906" height="184"></a>
+    <div class="top-context"><span class="course-dot"></span><span>TRATAMENTO DA HIPERCALEMIA EM ADULTOS</span></div>
+    <div class="top-actions"><a class="text-button" href="curso.html?id=fa3c5d8d-94c4-4321-be7a-1cc45741a983&amp;atualizar=1">← Voltar ao curso</a></div>
+  </header>
+  <main class="shell af-shell">
+    <nav class="breadcrumb" aria-label="Localização"><a href="agorafarm.html">AgoraFarm</a><b aria-hidden="true">/</b><strong>Glicose</strong></nav>
+    <section class="page-heading af-heading">
+      <div><span class="eyebrow">FARMACOLOGIA APLICADA · ESTAÇÃO 03</span><h1>Glicose<em> na hipercalemia</em></h1><p>Entenda como associar glicose à insulina, calcular gramas e volumes e prescrever a proteção contra hipoglicemia.</p></div>
+      <div class="heading-meta"><span class="status"><i></i> Aprenda fazendo</span></div>
+    </section>
+    <section class="af-progress" aria-label="Progresso da estação">
+      <div class="af-progress-copy"><strong id="progress-label">Etapa 1 de 4</strong><span id="progress-detail">Explorar apresentações</span></div>
+      <div class="af-progress-track" role="progressbar" aria-label="Progresso na estação" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25" id="progress-bar"><span id="progress-fill"></span></div>
+      <nav class="af-step-nav" aria-label="Etapas da estação">
+        <button type="button" data-step="0" aria-current="step"><span>01</span><b>Apresentações</b></button>
+        <button type="button" data-step="1"><span>02</span><b>Ação</b></button>
+        <button type="button" data-step="2"><span>03</span><b>Cálculo</b></button>
+        <button type="button" data-step="3"><span>04</span><b>Prescrição</b></button>
+      </nav>
+    </section>
+    <div id="stage-announcement" class="sr-only" aria-live="polite"></div>
+
+    <section class="af-stage" data-stage="0" aria-labelledby="glucose-label-title">
+      <div class="af-section-head"><div><span class="eyebrow">01 · IDENTIFIQUE AS APRESENTAÇÕES</span><h2 id="glucose-label-title">Concentrações diferentes, usos diferentes.</h2><p>Na referência UKKA, uma dose de 25 g acompanha a insulina; a infusão adicional usa glicose 10% quando a glicemia inicial fica abaixo do limite. A estação também mostra a equivalência matemática com soro glicosado 5%.</p></div><span class="af-counter">01 / 04</span></div>
+      <div class="af-ampoule-layout af-glucose-layout">
+        <article class="af-card af-product-card">
+          <div class="af-product-label"><span>GLICOSE · PADRÃO DE ENSINO</span><span class="af-live-dot">USO INTRAVENOSO</span></div>
+          <div class="af-glucose-products">
+            <div class="af-glucose-product">
+              <div class="af-glucose-ampoule" role="img" aria-label="Ilustração educativa de ampola de glicose a 50 por cento, 500 miligramas por mililitro, volume de 10 mililitros"><span class="amp-cap"></span><span class="amp-neck"></span><span class="amp-body"><b>50%</b><small>GLICOSE<br>500 mg/mL</small><i>10 mL</i></span></div>
+              <div><span class="eyebrow">DOSE INICIAL · UKKA</span><strong>Glicose 50%</strong><small>500 mg/mL · ampola de referência de 10 mL</small></div>
+            </div>
+            <div class="af-glucose-product d10">
+              <div class="af-glucose-bag" role="img" aria-label="Ilustração educativa de bolsa de glicose a 10 por cento, 100 miligramas por mililitro"><span class="bag-port"></span><span class="bag-label"><b>10%</b><small>GLICOSE<br>100 mg/mL</small></span></div>
+              <div><span class="eyebrow">SE GLICEMIA INICIAL &lt; 7,0 mmol/L (126 mg/dL)</span><strong>Glicose 10%</strong><small>100 mg/mL · infusão de prevenção conforme UKKA</small></div>
+            </div>
+            <div class="af-glucose-product d5">
+              <div class="af-glucose-bag af-glucose-bag-d5" role="img" aria-label="Ilustração educativa de bolsa de soro glicosado a 5 por cento, 50 miligramas por mililitro"><span class="bag-port"></span><span class="bag-label"><b>5%</b><small>SG<br>50 mg/mL</small></span></div>
+              <div><span class="eyebrow">ALTERNATIVA DISPONÍVEL</span><strong>Soro glicosado 5%</strong><small>50 mg/mL · exige o dobro do volume para a mesma dose</small></div>
+            </div>
+          </div>
+          <div class="af-hotspots af-glucose-facts" role="group" aria-label="Dados das apresentações de glicose">
+            <button type="button" class="af-fact-select" data-fact="d50concentration" aria-pressed="true"><span class="af-fact-index">1</span>Glicose 50%<span class="af-fact-check" data-fact-check="d50concentration" aria-hidden="true" hidden>✓</span></button>
+            <button type="button" class="af-fact-select" data-fact="volume" aria-pressed="false"><span class="af-fact-index">2</span>Volume da ampola<span class="af-fact-check" data-fact-check="volume" aria-hidden="true" hidden>✓</span></button>
+            <button type="button" class="af-fact-select" data-fact="d10concentration" aria-pressed="false"><span class="af-fact-index">3</span>Glicose 10%<span class="af-fact-check" data-fact-check="d10concentration" aria-hidden="true" hidden>✓</span></button>
+            <button type="button" class="af-fact-select" data-fact="form" aria-pressed="false"><span class="af-fact-index">4</span>Forma e via<span class="af-fact-check" data-fact-check="form" aria-hidden="true" hidden>✓</span></button>
+            <button type="button" class="af-fact-select" data-fact="d5concentration" aria-pressed="false"><span class="af-fact-index">5</span>Soro glicosado 5%<span class="af-fact-check" data-fact-check="d5concentration" aria-hidden="true" hidden>✓</span></button>
+          </div>
+          <div class="af-product-note"><span aria-hidden="true">i</span><p>Apresentações podem variar entre serviços. A atividade padroniza a ampola de glicose 50% de 10 mL para o cálculo inicial; use a apresentação disponível e o protocolo institucional na prática.</p></div>
+        </article>
+        <article class="af-card af-fact-panel" aria-live="polite">
+          <span class="eyebrow" id="fact-label">DADO DO RÓTULO</span><h3 id="fact-title">Concentração de glicose 50%</h3><strong class="af-fact-value" id="fact-value">50% · 500 mg/mL</strong><p id="fact-description">Cada mililitro contém 500 mg, ou 0,5 g, de glicose.</p>
+          <div class="af-fact-extra"><b>Como ler</b><span>50% m/v significa 50 g em 100 mL. Para alcançar 25 g, são necessários 50 mL da solução.</span></div>
+          <div class="af-fact-confirmation"><button type="button" id="mark-current-fact" aria-pressed="false">Marcar este dado como visto</button><span id="ampoule-read-status" aria-live="polite">0 de 5 dados vistos</span></div>
+        </article>
+      </div>
+      <div class="af-learning-strip"><span class="af-strip-icon" aria-hidden="true">✓</span><p><strong>Para guardar:</strong> glicose 50% = 500 mg/mL; 10% = 100 mg/mL; soro glicosado 5% = 50 mg/mL. Para fornecer 25 g, o SG 5% exige 500 mL, o dobro dos 250 mL de glicose 10%.</p></div>
+      <div class="af-actions"><span class="af-step-hint">Marque as cinco informações como vistas para continuar.</span><button class="button primary" type="button" data-next disabled>Entender o papel da glicose <span aria-hidden="true">→</span></button></div>
+    </section>
+
+    <section class="af-stage" data-stage="1" aria-labelledby="mechanism-title" hidden>
+      <div class="af-section-head"><div><span class="eyebrow">02 · FARMACOLOGIA NA PRÁTICA</span><h2 id="mechanism-title">A glicose acompanha a insulina para reduzir o risco de hipoglicemia.</h2><p>O esquema tem uma dose inicial e, em alguns pacientes, uma infusão complementar guiada pela glicemia.</p></div><span class="af-counter">02 / 04</span></div>
+      <div class="af-mechanism-grid">
+        <article class="af-card af-mechanism-card"><span class="af-mechanism-number">01</span><span class="eyebrow">DOSE INICIAL · ASSOCIADA À INSULINA</span><h3>25 g de glicose acompanham a insulina IV.</h3><p>Na hipercalemia aguda, a insulina redistribui o potássio para dentro das células. A glicose é administrada junto para reduzir o risco de hipoglicemia causada pela insulina; não substitui a monitorização.</p><div class="af-effect-tag positive">UKKA: 25 g = 50 mL de glicose 50%</div></article>
+        <article class="af-card af-mechanism-card af-no-k"><span class="af-mechanism-number">02</span><span class="eyebrow">PROTEÇÃO ADICIONAL · CONDICIONAL</span><h3>Se a glicemia inicial for &lt; 7,0 mmol/L (126 mg/dL).</h3><p>A UKKA recomenda glicose 10% a 50 mL/h por 5 horas: 250 mL, que fornecem 25 g. Se houver soro glicosado 5%, a equivalência matemática para a mesma quantidade é 100 mL/h por 5 horas: 500 mL, também 25 g.</p><div class="af-effect-tag caution">A equivalência com SG 5% dobra o volume; confirme se cabe no plano volêmico e no protocolo local</div></article>
+      </div>
+      <div class="af-two-column">
+        <article class="af-card af-text-card"><span class="eyebrow">EFEITO E CUIDADOS</span><h3>O que a glicose faz — e o que não faz?</h3><ul><li><strong>Reduz o risco de hipoglicemia</strong> quando associada à insulina; não garante que a hipoglicemia não ocorra.</li><li><strong>Não é a medida que desloca o potássio.</strong> Esse efeito vem da insulina; a glicose é sua coadministração de segurança.</li><li><strong>Verifique a glicemia antes e monitore até 6 horas:</strong> no início e aos 30, 60, 90, 120, 180, 240, 300 e 360 minutos.</li><li><strong>Acompanhe o potássio</strong> em 1, 2, 4, 6 e 24 horas, conforme a diretriz.</li></ul></article>
+        <article class="af-card af-text-card af-dose-focus"><span class="eyebrow">DOSE, PREPARO E SEGURANÇA · UKKA 2026</span><h3>25 g na dose inicial; 25 g adicionais se a glicemia estiver abaixo do limite.</h3><p>Esquema de referência para hipercalemia moderada ou grave tratada com insulina:</p><ul><li><strong>Dose inicial:</strong> glicose 50% · 50 mL (25 g), associada à insulina, por via IV em 5–15 minutos.</li><li><strong>Se glicemia inicial &lt; 7,0 mmol/L (&lt; 126 mg/dL):</strong> após a dose inicial, a UKKA recomenda glicose 10% · 50 mL/h por 5 horas (250 mL = 25 g). Com SG 5%, a equivalência matemática é 100 mL/h por 5 horas (500 mL = 25 g).</li><li><strong>Atenção ao volume:</strong> 250 mL de glicose 10% ou 500 mL de SG 5% podem ser relevantes em insuficiência renal ou risco de sobrecarga; avalie o estado volêmico e valide a alternativa com o protocolo local.</li><li><strong>Glicose 50% é concentrada:</strong> confirme acesso venoso pérvio, use veia de bom calibre e observe o local durante a administração. Extravasamento pode lesar tecidos.</li><li><strong>Monitore glicemia e potássio</strong> e trate prontamente hipoglicemia conforme protocolo institucional.</li></ul><p class="af-source-note"><strong>Importante:</strong> SG 5% não é a concentração indicada na infusão-padrão da UKKA. A equivalência apresentada mantém a mesma carga de glicose (25 g), mas dobra o volume; use somente conforme avaliação clínica e protocolo institucional.</p></article>
+      </div>
+      <fieldset class="af-knowledge-check"><legend>Qual é o papel principal da glicose neste esquema?</legend><label><input type="radio" name="glucose-role" value="potassium"><span>Ela desloca o potássio para dentro das células.</span></label><label><input type="radio" name="glucose-role" value="hypoglycemia"><span>Ela acompanha a insulina para reduzir o risco de hipoglicemia.</span></label><button class="button secondary" id="check-mechanism" type="button">Conferir resposta</button><p id="mechanism-feedback" role="status" aria-live="polite"></p></fieldset>
+      <div class="af-actions"><button class="button secondary" type="button" data-back>← Voltar às apresentações</button><span class="af-step-hint">Responda corretamente para praticar os cálculos.</span><button class="button primary" type="button" data-next disabled>Praticar conversão <span aria-hidden="true">→</span></button></div>
+    </section>
+
+    <section class="af-stage" data-stage="2" aria-labelledby="conversion-title" hidden>
+      <div class="af-section-head"><div><span class="eyebrow">03 · CONVERSÃO DE CONCENTRAÇÃO E VOLUME</span><h2 id="conversion-title">Calcule os dois momentos do esquema.</h2><p>A mesma quantidade de glicose pode exigir volumes e velocidades diferentes, conforme a concentração.</p></div><span class="af-counter">03 / 04</span></div>
+      <div class="af-glucose-calculations">
+        <article class="af-card af-insulin-calc-card"><span class="eyebrow">CÁLCULO 01 · SOLUÇÃO 50%</span><h3>25 g correspondem a quantas ampolas de 10 mL?</h3><div class="af-calc-equation"><span>25 g</span><b>÷</b><span>0,5 g/mL</span><b>=</b><strong>? mL</strong></div><fieldset class="af-answer-set"><legend>Escolha o volume total da dose</legend><div class="af-answer-options"><label><input type="radio" name="d50-volume" value="25"><span>25 mL</span></label><label><input type="radio" name="d50-volume" value="50"><span>50 mL</span></label><label><input type="radio" name="d50-volume" value="250"><span>250 mL</span></label></div></fieldset><fieldset class="af-answer-set af-secondary-answer"><legend>Quantas ampolas de 10 mL?</legend><div class="af-answer-options"><label><input type="radio" name="d50-ampoules" value="2"><span>2</span></label><label><input type="radio" name="d50-ampoules" value="5"><span>5</span></label><label><input type="radio" name="d50-ampoules" value="25"><span>25</span></label></div></fieldset><div id="d50-feedback" class="af-feedback" role="status" aria-live="polite" hidden></div><button class="button secondary af-check-calc" type="button" id="check-d50">Conferir cálculo</button></article>
+      <article class="af-card af-insulin-calc-card"><span class="eyebrow">CÁLCULO 02 · EQUIVALÊNCIA COM SG 5%</span><h3>Para fornecer os mesmos 25 g em 5 horas, qual velocidade usar?</h3><div class="af-calc-equation"><span>25 g</span><b>÷</b><span>0,05 g/mL</span><b>÷</b><strong>5 h</strong></div><fieldset class="af-answer-set"><legend>Escolha a velocidade e o volume total</legend><div class="af-answer-options"><label><input type="radio" name="sg5-rate" value="100"><span>100 mL/h · 500 mL</span></label><label><input type="radio" name="sg5-rate" value="50"><span>50 mL/h · 250 mL</span></label><label><input type="radio" name="sg5-rate" value="500"><span>500 mL/h · 2.500 mL</span></label></div></fieldset><div id="sg5-feedback" class="af-feedback" role="status" aria-live="polite" hidden></div><button class="button secondary af-check-calc" type="button" id="check-sg5">Conferir cálculo</button></article>
+      </div>
+      <div class="af-card af-insulin-safety"><strong>Compare o padrão UKKA e a equivalência com SG 5%</strong><p>UKKA: glicose 10%, 100 mg/mL = 0,1 g/mL; 50 mL/h × 5 h = 250 mL = 25 g. SG 5%: 50 mg/mL = 0,05 g/mL; para os mesmos 25 g em 5 h, 100 mL/h × 5 h = 500 mL. A carga de glicose é igual; o volume total dobra.</p></div>
+      <div class="af-actions"><button class="button secondary" type="button" data-back>← Voltar à ação</button><span class="af-step-hint">Acerte os dois cálculos para liberar a prescrição.</span><button class="button primary" type="button" data-next disabled>Montar prescrição <span aria-hidden="true">→</span></button></div>
+    </section>
+
+    <section class="af-stage" data-stage="3" aria-labelledby="prescription-title" hidden>
+      <div class="af-section-head"><div><span class="eyebrow">04 · SUA VEZ DE PRESCREVER</span><h2 id="prescription-title">Escreva as ordens sem misturar os esquemas.</h2><p>Considere glicemia inicial de 108 mg/dL (6,0 mmol/L): abaixo de 126 mg/dL (7,0 mmol/L).</p></div><span class="af-counter">04 / 04</span></div>
+      <div class="af-practice-layout">
+        <form class="af-card af-rx-form" id="prescription-form" novalidate>
+          <div class="af-insulin-baseline"><strong>Dado do exercício</strong><span>Glicemia inicial: 108 mg/dL (6,0 mmol/L). Como está abaixo de 126 mg/dL (7,0 mmol/L), inclua a infusão adicional de glicose 10% após a dose inicial associada à insulina.</span></div>
+          <div class="af-form-grid">
+            <label class="af-field af-wide" for="rx-drug"><span>Medicamento</span><select id="rx-drug" name="drug"><option value="">Selecione</option><option value="glucose">Glicose</option></select><span class="field-feedback" data-feedback="drug"></span></label>
+            <label class="af-field af-wide" for="rx-concentration"><span>Concentração para a dose inicial</span><select id="rx-concentration" name="concentration"><option value="">Selecione</option><option value="50">50% · 500 mg/mL</option><option value="10">10% · 100 mg/mL</option></select><small>Use a glicose 50% como dose inicial de referência da UKKA.</small><span class="field-feedback" data-feedback="concentration"></span></label>
+            <label class="af-field" for="rx-dose"><span>Dose inicial</span><input id="rx-dose" name="dose" type="number" inputmode="decimal" min="0" step="any" placeholder="Ex.: 25"><span class="field-feedback" data-feedback="dose"></span></label>
+            <label class="af-field" for="rx-unit"><span>Unidade da dose</span><select id="rx-unit" name="unit"><option value="">Selecione</option><option value="g">g</option><option value="mL">mL</option><option value="mg">mg</option></select><span class="field-feedback" data-feedback="unit"></span></label>
+            <label class="af-field" for="rx-volume"><span>Volume da glicose 50%</span><input id="rx-volume" name="volume" type="number" inputmode="decimal" min="0" step="any" placeholder="Ex.: 50"><span class="field-feedback" data-feedback="volume"></span></label>
+            <label class="af-field" for="rx-route"><span>Via</span><select id="rx-route" name="route"><option value="">Selecione</option><option value="IV">Intravenosa (IV)</option><option value="oral">Oral</option></select><span class="field-feedback" data-feedback="route"></span></label>
+            <label class="af-field af-wide" for="rx-time"><span>Tempo da dose inicial</span><select id="rx-time" name="time"><option value="">Selecione</option><option value="5-15">5–15 minutos</option><option value="bolus">Bolus rápido</option><option value="5h">5 horas</option></select><span class="field-feedback" data-feedback="time"></span></label>
+            <label class="af-field af-wide" for="rx-followup"><span>Conduta pela glicemia inicial (108 mg/dL)</span><select id="rx-followup" name="followup"><option value="">Selecione</option><option value="d10">UKKA: glicose 10% IV a 50 mL/h por 5 h (250 mL = 25 g)</option><option value="d5">Equivalência com SG 5%: 100 mL/h por 5 h (500 mL = 25 g)</option><option value="none">Não é necessária glicose adicional</option></select><small>Esta infusão é adicional aos 25 g iniciais; a opção SG 5% dobra o volume e depende do protocolo local.</small><span class="field-feedback" data-feedback="followup"></span></label>
+            <div class="af-field af-wide"><span class="af-field-label">Preparo e segurança</span><label class="af-checkline"><input id="rx-prep" type="checkbox"><span>Para o padrão de ensino, separar 50 mL de glicose 50% (25 g), equivalentes a cinco ampolas de 10 mL.</span></label><label class="af-checkline"><input id="rx-combine" type="checkbox"><span>Associar 10 UI de insulina solúvel à glicose 50% conforme o preparo UKKA: adicionar ao frasco de glicose, homogeneizar e transferir para seringa intravenosa.</span></label><label class="af-checkline"><input id="rx-access" type="checkbox"><span>Administrar a solução concentrada por acesso venoso pérvio de bom calibre, observar o sítio e seguir o protocolo institucional para infusão IV.</span></label><label class="af-checkline"><input id="rx-volume-status" type="checkbox"><span>Avaliar o estado volêmico antes da infusão complementar: 250 mL com glicose 10% ou 500 mL com SG 5%, especialmente em insuficiência renal ou risco de sobrecarga.</span></label><span class="field-feedback" data-feedback="prep"></span></div>
+            <fieldset class="af-field af-wide af-check-field"><legend>Monitorização e reavaliação</legend><label class="af-checkline"><input id="rx-bg" type="checkbox"><span>Verificar glicemia antes e aos 30, 60, 90, 120, 180, 240, 300 e 360 min após insulina-glicose.</span></label><label class="af-checkline"><input id="rx-k" type="checkbox"><span>Monitorizar potássio em 1, 2, 4, 6 e 24 h após tratamento.</span></label><label class="af-checkline"><input id="rx-hypo" type="checkbox"><span>Vigiar sinais de hipoglicemia e tratar prontamente segundo protocolo institucional.</span></label><span class="field-feedback" data-feedback="monitoring"></span></fieldset>
+          </div>
+          <div class="af-form-footer"><span id="rx-form-status" role="status" aria-live="polite">Preencha a ordem e marque os cuidados essenciais.</span><button class="button primary" type="submit">Revisar prescrição <span aria-hidden="true">→</span></button></div>
+        </form>
+        <aside class="af-card af-rx-side"><span class="eyebrow">CHECKLIST DA ORDEM</span><h3>O que deixa a prescrição executável?</h3><ol><li><b>Concentração e dose</b><span>Glicose 50%, 25 g (500 mg/mL).</span></li><li><b>Volume correspondente</b><span>50 mL: cinco ampolas de 10 mL no padrão da estação.</span></li><li><b>Associação e preparo</b><span>Adicionar 10 UI de insulina solúvel ao frasco de glicose, homogeneizar e transferir para seringa intravenosa.</span></li><li><b>Via e tempo</b><span>IV em 5–15 min, em veia de bom calibre, conforme UKKA.</span></li><li><b>Glicemia inicial</b><span>Abaixo de 7,0 mmol/L (126 mg/dL): UKKA propõe glicose 10% 50 mL/h; SG 5% fornece 25 g em 500 mL, se o protocolo local aceitar a equivalência.</span></li><li><b>Monitorização</b><span>Glicemia até 6 h; potássio até 24 h.</span></li></ol><div class="af-rx-safety"><b>Risco principal:</b> hipoglicemia após insulina; a glicose associada reduz o risco, mas não substitui os controles.</div><div class="af-rx-safety"><b>Segurança da infusão:</b> glicose 50% é concentrada; observe acesso e local para identificar extravasamento.</div></aside>
+      </div>
+      <section class="af-card af-rx-result" id="prescription-result" aria-live="polite" hidden>
+        <div class="af-result-heading"><div><span class="eyebrow">PRESCRIÇÃO MONTADA · SIMULAÇÃO</span><h3 id="result-title" tabindex="-1">Revise o que você escreveu</h3></div><div class="af-result-score" id="result-score" aria-label="Resultado da revisão"></div></div>
+        <div class="af-result-columns"><article><span class="eyebrow">SUA ORDEM</span><p id="assembled-rx"></p></article><article><span class="eyebrow">FEEDBACK POR CAMPO</span><ul id="field-review"></ul></article></div>
+        <div class="af-next-bridge"><div><span class="eyebrow">CONEXÃO COM A PRÁTICA CLÍNICA</span><h4>Da mecânica para a decisão clínica</h4><p>No AgoraPrescreva, você decide quando a insulina-glicose se aplica no caso e acompanha resposta, glicemia e potássio.</p></div><a class="button primary" href="agoraprescreva.html?atualizar=1">Ir ao AgoraPrescreva <span aria-hidden="true">→</span></a></div>
+      </section>
+      <div class="af-actions"><button class="button secondary" type="button" data-back>← Voltar ao cálculo</button><span class="af-step-hint">Simulação educacional; não registra prescrição clínica real.</span></div>
+    </section>
+
+    <footer class="af-footer"><p>AgoraFarm · Estação 03 · Conteúdo educacional com referências identificadas.</p><details><summary>Fontes desta estação</summary><ul>
+      <li><a href="https://guidelines.ukkidney.org/hyperkalaemia/11-1-ii-hyperkalaemia-in-hospital/11-1-4-ii-hyperkalaemia-in-hospital-16-1-16-6/" target="_blank" rel="noreferrer">UK Kidney Association. Management of Hyperkalaemia in Adults · atualização julho de 2026: 25 g de glicose com insulina e infusão adicional de glicose 10% conforme glicemia inicial.</a></li>
+      <li><a href="https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/bulas-e-rotulos/especificos/arquivos/6431json-file-1" target="_blank" rel="noreferrer">Anvisa: bula padrão de glicose 5% (50 mg/mL) e 10% (100 mg/mL); apresentações podem variar.</a></li>
+      <li><a href="https://bvsms.saude.gov.br/bvs/publicacoes/padrao_descritivo_medicamentos_saude_2ed.pdf" target="_blank" rel="noreferrer">Ministério da Saúde: referência de glicose 50% injetável em ampola de 10 mL e glicose 10% injetável em bolsas/frascos.</a></li>
+    </ul></details><p class="af-disclaimer">Simulação educacional. Não substitui bula, protocolo institucional, supervisão ou avaliação clínica. A estação não orienta atendimento real.</p></footer>
+  </main>
+  <script src="js/agorafarm-glicose.js?v=1"></script>
+</body>
+</html>
