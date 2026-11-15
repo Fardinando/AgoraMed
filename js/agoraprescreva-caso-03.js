@@ -21,6 +21,10 @@
   const startedAt = new Date().toISOString();
   let pendingOperationId = null;
   const $ = selector => document.querySelector(selector);
+  const setStage = stage => document.querySelectorAll('[data-case03-step]').forEach((node,index)=>{
+    const active=['assessment','prescription','feedback'].indexOf(stage);
+    node.classList.toggle('done',index<active);node.classList.toggle('active',index===active);
+  });
   const catalog = new Map(rules.catalog.map(item => [item.id,item]));
   const input = (label,field,placeholder='',type='text') => `<label>${label}<input data-field="${field}" type="${type}" placeholder="${placeholder}"></label>`;
   const select = (label,field,options) => `<label>${label}<select data-field="${field}"><option value="">Selecione</option>${options.map(value=>`<option>${value}</option>`).join('')}</select></label>`;
@@ -97,7 +101,7 @@
   $('#rx-add').addEventListener('click',()=>{if(!catalogSelect.value)return;addOrder(catalogSelect.value);catalogSelect.value='';$('#rx-add').disabled=true;persistDraft();if(innerWidth<=700)switchTab('prescription');});
   catalogSelect.addEventListener('change',()=>$('#rx-add').disabled=!catalogSelect.value);
   $('#rx-save').addEventListener('click',persistDraft);
-  $('#rx-review').addEventListener('click',()=>{const result=rules.evaluate(readState());renderReview(result);$('#rx-status').textContent='Revisão concluída. Ajuste as ordens e revise novamente quando desejar.';});
+  $('#rx-review').addEventListener('click',()=>{const result=rules.evaluate(readState());renderReview(result);setStage('feedback');$('#rx-status').textContent='Revisão concluída. Ajuste as ordens e revise novamente quando desejar.';});
   $('#rx-finish').addEventListener('click',async()=>{
     const state=readState();
     const result=rules.evaluate(state);
@@ -112,7 +116,7 @@
       $('#rx-status').textContent=(error.message||'Falha de conexão.')+' Seus dados continuam nesta página; tente novamente.';
       button.disabled=false;button.removeAttribute('aria-busy');return;
     }
-    renderReview(result);
+    renderReview(result);setStage('feedback');
     pendingOperationId=null;
     try {
       const attempts=history();attempts.push({attemptId:crypto.randomUUID(),serverId:saved.attemptId,finishedAt:new Date().toISOString(),score:result.score,safe:result.safe,items:result.items});

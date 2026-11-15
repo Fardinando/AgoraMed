@@ -26,6 +26,16 @@
     amlodipine: 'Anlodipino', saline: 'Soro fisiológico 0,9%', potassium: 'Gluconato de potássio',
     resin: 'Resina trocadora de cálcio', dialysis: 'Hemodiálise'
   }
+  const stepNodes = [...document.querySelectorAll('[data-case02-step]')]
+  function setStage(stage) {
+    const order = ['assessment', 'prescription', 'feedback']
+    const activeIndex = order.indexOf(stage)
+    stepNodes.forEach((node, index) => {
+      node.classList.toggle('done', index < activeIndex)
+      node.classList.toggle('active', index === activeIndex)
+    })
+  }
+  setStage('prescription')
   const pickers = new Map()
   for (const picker of document.querySelectorAll('[data-order-picker]')) {
     const orders = new Map()
@@ -193,15 +203,44 @@
       : 'Você acertou ao escolher bicarbonato de sódio para a acidose persistente.'
     return [recognition, ...adjustments].join(' ')
   }
-  function feedback(id, messages, explanation) {
+  function scoreFor(form) {
+    const id = form.id
+    if (id === 'initial') {
+      const orders = pickers.get(id)
+      const item = orders?.get('loop')
+      const dose = Number(orderValue(item || document.createElement('div'), 'dose').replace(',', '.'))
+      const unit = orderValue(item || document.createElement('div'), 'unit')
+      const route = orderValue(item || document.createElement('div'), 'route')
+      const timing = orderValue(item || document.createElement('div'), 'timing')
+      const mg = unit === 'g' ? dose * 1000 : unit === 'mg' ? dose : 0
+      return (mg === 80 ? 40 : 0) + (route === 'IV' ? 20 : 0) + (timing === 'now' ? 10 : 0) +
+        (form.elements.diuresis.checked ? 10 : 0) + (form.elements.review.checked ? 10 : 0) +
+        (form.elements.potassium.value === 'early' ? 10 : 0)
+    }
+    if (id === 'poor-form') return new FormData(form).get('decision') === 'review' ? 100 : 0
+    const order = new FormData(form)
+    const orders = pickers.get(id)
+    const item = orders?.get('bicarb')
+    const rawDose = orderValue(item || document.createElement('div'), 'dose')
+    const dose = Number(rawDose.replace(',', '.'))
+    const unit = orderValue(item || document.createElement('div'), 'unit')
+    const mg = unit === 'g' ? dose * 1000 : unit === 'mg' ? dose : (unit === 'mEq' || unit === 'mmol') && dose >= 5.95 && dose <= 6 ? 500 : 0
+    const prescription = mg === 500 && orderValue(item || document.createElement('div'), 'route') === 'Oral' && orderValue(item || document.createElement('div'), 'timing') === '8'
+    return (prescription ? 40 : 0) + (order.get('loop') === 'review' ? 20 : 0) +
+      (order.has('labs') ? 20 : 0) + (order.has('fluid') ? 20 : 0)
+  }
+  function feedback(id, messages, explanation, score) {
     const box = byId(id)
+    const scoreCard = document.createElement('div')
+    scoreCard.className = 'case02-score'
+    scoreCard.innerHTML = `<strong>${score}<span>/100</span></strong><div><b>Nota desta etapa</b><small>${score === 100 ? 'Prescrição alinhada aos critérios desta etapa.' : 'A nota destaca itens atendidos; leia a justificativa e os próximos passos antes de avançar.'}</small></div>`
     const list = document.createElement('ul')
     for (const message of messages) {
       const item = document.createElement('li')
       item.textContent = message
       list.append(item)
     }
-    box.replaceChildren(list)
+    box.replaceChildren(scoreCard, list)
     if (explanation) box.append(explanation.content.cloneNode(true))
     box.hidden = false
   }
@@ -222,8 +261,10 @@
   }
 
   function recordReview(form, messages) {
+    const score = scoreFor(form)
     reviewedSteps.set(form.id, {
       ...readStep(form),
+      score,
       reviewedAt: new Date().toISOString(),
       feedback: messages
     })
@@ -263,7 +304,8 @@
     const state = {
       startedAt: attemptStartedAt,
       finalBranch: byId('branch').value,
-      reviewedSteps: Object.fromEntries(reviewedSteps)
+      reviewedSteps: Object.fromEntries(reviewedSteps),
+      score: Math.round(requiredSteps.reduce((total, id) => total + reviewedSteps.get(id).score, 0) / requiredSteps.length),
     }
 
     const editableControls = Array.from(document.querySelectorAll('#initial input, #initial select, #initial button, #evolution input, #evolution select, #evolution button, #advance'))
@@ -298,12 +340,14 @@
     const messages = assessOrders('initial')
     if (!order.has('diuresis') || !order.has('review')) messages.push('Registre diurese e balanço e acompanhe a resposta clínica antes da próxima ordem.')
     if (order.get('potassium') !== 'early') messages.push('Antecipe a dosagem de potássio. Neste exercício, o primeiro controle é em 2 horas.')
-    feedback('initial-feedback', messages, byId('admission-explanation'))
+    feedback('initial-feedback', messages, byId('admission-explanation'), scoreFor(event.currentTarget))
     recordReview(event.currentTarget, messages)
+    setStage('feedback')
     byId('advance').hidden = false
   })
   byId('advance').addEventListener('click', () => {
     byId('evolution').hidden = false
+    setStage('feedback')
     byId('evolution').querySelector('h2').focus()
   })
   byId('branch').addEventListener('change', event => {
@@ -324,7 +368,7 @@
     const message = decision === 'review'
       ? 'Você acertou ao reavaliar imediatamente. Você reconheceu que a primeira dose teve pouca resposta e que a subida do potássio exige monitorização e um novo plano ainda agora.'
       : 'Repetir a mesma dose e aguardar até amanhã é inadequado. Carlos continua congesto e o potássio já subiu para 6,3 mEq/L. Esperar pode atrasar o reconhecimento de arritmias ou de piora respiratória. A conduta esperada é reavaliar agora, repetir o ECG, monitorizar e tratar a hipercalemia em paralelo à descongestão.'
-    feedback('poor-feedback', [message], byId('poor-explanation'))
+    feedback('poor-feedback', [message], byId('poor-explanation'), scoreFor(event.currentTarget))
     recordReview(event.currentTarget, [message])
   })
   byId('follow-up').addEventListener('submit', event => {
@@ -337,7 +381,7 @@
     }
     if (!order.has('labs')) messages.push('Inclua o acompanhamento do bicarbonato sérico, do potássio e da função renal.')
     if (!order.has('fluid')) messages.push('Inclua a vigilância da pressão, do peso e dos sinais de retenção de líquido.')
-    feedback('final-feedback', messages, byId('follow-up-explanation'))
+    feedback('final-feedback', messages, byId('follow-up-explanation'), scoreFor(event.currentTarget))
     recordReview(event.currentTarget, messages)
   })
   accessMessage.hidden = true;
