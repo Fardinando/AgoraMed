@@ -3,7 +3,7 @@
    quando o aluno estiver sem internet. Assim as aulas e materiais novos aparecem
    na hora, e o app continua abrindo offline.
 */
-const CACHE = 'agoramed-v114';
+const CACHE = 'agoramed-v115';
 /* Recursos visuais do login e ícones também ficam disponíveis offline.
    As respostas autenticadas de /api/ continuam fora do cache. */
 const APP = [
@@ -20,7 +20,7 @@ const APP = [
   'agoraquest.html', 'css/agoraquest.css?v=4', 'js/agoraquest.js?v=5',
   'caderno-erros.html', 'css/caderno-erros.css?v=2', 'js/caderno-erros.js?v=3',
   'morte-encefalica.html', 'css/landing-me.css?v=57', 'index.html', 'app.html', 'curso.html', 'aula.html', 'admin.html', 'redefinir.html', 'sobre.html',
-  'agoraprescreva.html', 'agoraprescreva-caso-02.html', 'agoraprescreva-caso-03.html', 'agorafarm.html', 'agorafarm-gluconato.html', 'agorafarm-insulina.html', 'agorafarm-glicose.html', 'agorafarm-salbutamol.html', 'agorafarm-furosemida.html', 'agorafarm-bicarbonato.html', 'agorafarm-ciclossilicato.html', 'css/agorafarm-hub.css?v=1', 'css/agorafarm.css?v=5', 'js/agorafarm.js?v=3', 'css/agorafarm-insulina.css?v=1', 'js/agorafarm-insulina.js?v=1', 'css/agorafarm-glicose.css?v=1', 'js/agorafarm-glicose.js?v=1', 'css/agorafarm-salbutamol.css?v=1', 'js/agorafarm-salbutamol.js?v=1', 'css/agorafarm-furosemida.css?v=1', 'js/agorafarm-furosemida.js?v=1', 'css/agorafarm-bicarbonato.css?v=1', 'js/agorafarm-bicarbonato.js?v=1', 'css/agorafarm-ciclossilicato.css?v=1', 'js/agorafarm-ciclossilicato.js?v=1', 'css/agoraprescreva.css?v=5', 'js/agoraprescreva-rules.js?v=1', 'js/agoraprescreva.js?v=1', 'js/agoraprescreva-caso-02.js?v=1', 'js/agoraprescreva-caso-03-rules.js?v=1', 'js/agoraprescreva-caso-03.js?v=2', 'css/curso.css?v=119', 'js/atividades-curso.js?v=3', 'abertura.html', 'js/abertura.js?v=127', 'js/store.js?v=118',
+  'agoraprescreva.html', 'agoraprescreva-caso-02.html', 'agoraprescreva-caso-03.html', 'agorafarm.html', 'agorafarm-gluconato.html', 'agorafarm-insulina.html', 'agorafarm-glicose.html', 'agorafarm-salbutamol.html', 'agorafarm-furosemida.html', 'agorafarm-bicarbonato.html', 'agorafarm-ciclossilicato.html', 'css/agorafarm-hub.css?v=1', 'css/agorafarm.css?v=5', 'js/agorafarm.js?v=3', 'css/agorafarm-insulina.css?v=1', 'js/agorafarm-insulina.js?v=1', 'css/agorafarm-glicose.css?v=1', 'js/agorafarm-glicose.js?v=1', 'css/agorafarm-salbutamol.css?v=1', 'js/agorafarm-salbutamol.js?v=1', 'css/agorafarm-furosemida.css?v=1', 'js/agorafarm-furosemida.js?v=1', 'css/agorafarm-bicarbonato.css?v=1', 'js/agorafarm-bicarbonato.js?v=1', 'css/agorafarm-ciclossilicato.css?v=1', 'js/agorafarm-ciclossilicato.js?v=1', 'css/agoraprescreva.css?v=5', 'js/agoraprescreva-rules.js?v=1', 'js/agoraprescreva.js?v=1', 'js/agoraprescreva-caso-02.js?v=1', 'js/agoraprescreva-caso-03-rules.js?v=1', 'js/agoraprescreva-caso-03.js?v=2', 'css/curso.css?v=119', 'js/atividades-curso.js?v=4', 'abertura.html', 'js/abertura.js?v=127', 'js/store.js?v=118',
   'css/dialogos.css?v=56', 'js/dialogos.js?v=56', 'css/redefinir.css?v=56', 'css/admin.css?v=82', 'css/aula.css?v=54', 'css/curso.css?v=52', 'css/styles.css?v=73', 'css/inicio.css?v=85', 'css/sobre.css', 'css/sobre-petroleo.css?v=51', 'img/anderson-uti.jpg', 'js/store.js?v=72', 'js/admin-ranking.js?v=58', 'js/admin-progresso.js?v=61', 'js/catalogo-cursos.js?v=83', 'js/editor-curso.js?v=70', 'manifest.json',
   'icons/icon-192.png?v=2', 'icons/icon-512.png?v=2', 'icons/icon-maskable-v2.png', 'icons/apple-touch-icon-v2.png',
   'css/login.css?v=48', 'js/login-ui.js', 'fonts/playfair-display-400-latin.woff2',
@@ -50,7 +50,7 @@ self.addEventListener('fetch', (e) => {
   if (url.pathname.startsWith('/api/')) return;
 
   /* Páginas sensíveis à versão atual consultam a rede primeiro e mantêm fallback offline. */
-  if (['/hipercalemia.html', '/matricula-hipercalemia.html', '/pagamento.html', '/curso.html', '/agoraatenda.html', '/agoraatenda01.html'].includes(url.pathname)) {
+  if (['/hipercalemia.html', '/matricula-hipercalemia.html', '/pagamento.html', '/curso.html', '/abertura.html', '/agoraatenda.html', '/agoraatenda01.html'].includes(url.pathname)) {
     e.respondWith(fetch(req).then((res) => {
       if (res.ok) { const copia = res.clone(); e.waitUntil(caches.open(CACHE).then(c => c.put(req, copia))); }
       return res;
