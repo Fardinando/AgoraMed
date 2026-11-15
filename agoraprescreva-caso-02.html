@@ -81,6 +81,16 @@ label{display:block;margin:10px 0}input:not([type=checkbox]),select{display:bloc
 .case02-shell .reassess-actions button{min-width:190px}
 .case02-shell .reassess-actions #finish-attempt{background:linear-gradient(110deg,#d4c2ff,#ad8be7);color:#151123}
 .case02-shell #attempt-status{margin:12px 0 0;color:#bde8ce;text-align:right}
+.case02-shell .attempt-history{margin:0 0 20px;padding:20px;border:1px solid #34636d;border-radius:14px;background:linear-gradient(130deg,#102d35,#15283a)}
+.case02-shell .attempt-history h2{margin:4px 0 12px;font:400 25px/1.2 var(--serif)}
+.case02-shell .attempt-history-list{display:grid;gap:10px}
+.case02-shell .saved-attempt{padding:14px 16px;border:1px solid #3b6670;border-radius:10px;background:#0b252c}
+.case02-shell .saved-attempt summary{font-size:15px}
+.case02-shell .saved-attempt-body{padding-top:12px;color:#b4c9ce}
+.case02-shell .saved-attempt-body h3{margin:12px 0 5px;color:#f4f7f7;font:700 15px/1.4 var(--sans)}
+.case02-shell .saved-attempt-body p,.case02-shell .saved-attempt-body li{font-size:14px;line-height:1.65}
+.case02-shell .saved-attempt-body ul{margin:5px 0;padding-left:20px}
+.case02-shell .attempt-history-status{margin:0;color:#b4c9ce}
 .case02-shell details{padding:18px;border:1px solid #34636d;border-radius:14px;background:#0b2930;color:#b4c9ce}
 .case02-shell summary{color:#e6d8ff;font-weight:700}
 .case02-shell details p{font-size:12px}
@@ -123,6 +133,11 @@ label{display:block;margin:10px 0}input:not([type=checkbox]),select{display:bloc
     <span class="case-action">Iniciar caso <b aria-hidden="true">→</b></span>
   </a>
 </nav>
+<section id="attempt-history" class="attempt-history" aria-labelledby="attempt-history-title" hidden>
+  <div class="eyebrow">TENTATIVAS SALVAS NA SUA CONTA</div>
+  <h2 id="attempt-history-title">Histórico do Caso 2</h2>
+  <div id="attempt-history-list" class="attempt-history-list" aria-live="polite"></div>
+</section>
 <nav class="steps" aria-label="Etapas da oficina">
   <div class="step active" data-case02-step="assessment"><span>01</span><div><b>Avaliação</b><small>Caso e dados clínicos</small></div><i></i></div>
   <div class="step" data-case02-step="prescription"><span>02</span><div><b>Prescrição</b><small>Ordens e monitorização</small></div><i></i></div>
@@ -238,6 +253,6 @@ label{display:block;margin:10px 0}input:not([type=checkbox]),select{display:bloc
 </details>
 </main>
 <script src="js/store.js?v=118"></script>
-<script src="js/agoraprescreva-caso-02-stage-layout.js"></script>
+<script src="js/agoraprescreva-caso-02-stage-layout.js?v=2"></script>
 </body>
 </html>

@@ -5,7 +5,6 @@
   (() => {
   const STORAGE = `agoramed-agoraprescreva-v1:${usuario.id}`;
   const ATTEMPTS_STORAGE = `agoramed-agoraprescreva-attempts-v1:${usuario.id}`;
-  const COURSE_HOME = 'https://www.andersongleryston.med.br/curso.html?id=fa3c5d8d-94c4-4321-be7a-1cc45741a983';
   const catalog = [
     ['Gluconato de cálcio 10%','calcium-gluconate'], ['Cloreto de cálcio 10%','calcium-chloride'],
     ['Insulina regular','regular-insulin'], ['Glicose 50%','glucose-50'], ['Glicose 10%','glucose-10'],
@@ -102,7 +101,7 @@
     try{const request=await fetch('/api/agoraprescreva',{method:'POST',headers:{'Content-Type':'application/json'},credentials:'same-origin',cache:'no-store',body:JSON.stringify({operationId:state.operationId,state:{orders:state.orders,actions:state.actions,notes:state.notes,reassessment:state.reassessment||{}}})});response=await request.json();if(!request.ok||!response.ok)throw new Error(response.erro||'Não foi possível salvar sua tentativa. Tente novamente.')}catch(error){status.textContent=error.message||'Falha de conexão. Sua tentativa permanece neste dispositivo; tente novamente.';button.disabled=false;button.removeAttribute('aria-busy');return}
     let attempts=[];try{attempts=JSON.parse(localStorage.getItem(ATTEMPTS_STORAGE)||'[]')}catch{}
     if(!attempts.some(item=>item.id===attempt.id)){attempt.serverId=response.attemptId;attempts.push(attempt);try{localStorage.setItem(ATTEMPTS_STORAGE,JSON.stringify(attempts))}catch{}}
-    window.location.assign(COURSE_HOME);
+    window.location.assign('agoraprescreva-caso-02.html');
   }
   function backToEditor(){hideScreens();$('#workGrid').classList.remove('hidden');$('.steps').classList.remove('hidden');$('.mobile-tabs').classList.remove('hidden');updateStep(2);window.scrollTo({top:0,behavior:'smooth'})}
   function hideScreens(){$('#workGrid').classList.add('hidden');$('#review').classList.add('hidden');$('#reassess').classList.add('hidden');$('#finished').classList.add('hidden')}

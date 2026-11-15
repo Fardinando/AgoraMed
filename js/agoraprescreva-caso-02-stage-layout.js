@@ -2,7 +2,7 @@
 
 (async () => {
   const courseId = 'fa3c5d8d-94c4-4321-be7a-1cc45741a983';
-  const courseUrl = 'curso.html?id=' + courseId;
+  const nextCaseUrl = 'agoraprescreva-caso-03.html';
   const accessMessage = document.getElementById('case-access');
   try {
     await Store.iniciar({ atualizar: true });
@@ -18,6 +18,75 @@
 
   const byId = id => document.getElementById(id)
   const caseShell = byId('case-content')
+  const answerLabels = {
+    diuresis: {on: 'Registrar diurese horária e balanço hídrico'},
+    review: {on: 'Reavaliar congestão e diurese'},
+    potassium: {early: 'Controlar potássio em 2 horas', late: 'Controlar potássio na manhã seguinte'},
+    decision: {review: 'Reavaliar imediatamente e intensificar vigilância', repeat: 'Repetir a mesma dose e aguardar até amanhã'},
+    loop: {review: 'Reavaliar necessidade de IV e ajustar manutenção oral', fixed: 'Manter IV sem reavaliar'},
+    labs: {on: 'Acompanhar bicarbonato, potássio e função renal'},
+    fluid: {on: 'Acompanhar pressão, peso e retenção de líquido'},
+  }
+  function addText(parent, tag, text, className) {
+    const element = document.createElement(tag)
+    if (className) element.className = className
+    element.textContent = text
+    parent.append(element)
+    return element
+  }
+  function renderSavedOrders(parent, orders) {
+    addText(parent, 'h3', 'Ordens registradas')
+    const list = document.createElement('ul')
+    if (!orders?.length) addText(list, 'li', 'Nenhuma ordem medicamentosa foi registrada nesta etapa.')
+    for (const order of orders || []) {
+      const details = [
+        [order.dose, order.unit].filter(Boolean).join(' '),
+        order.route,
+        ({now: 'Agora, reavaliar antes de repetir', '8': 'A cada 8 horas', '12': 'A cada 12 horas', '24': 'A cada 24 horas', later: 'Amanhã'})[order.timing] || order.timing,
+        order.notes,
+      ].filter(Boolean)
+      addText(list, 'li', [order.name || 'Ordem', ...details].join(' · '))
+    }
+    parent.append(list)
+  }
+  function renderSavedAnswers(parent, answers) {
+    const items = Object.entries(answers || {}).map(([key, value]) => answerLabels[key]?.[value] || `${key}: ${value}`)
+    if (items.length) addText(parent, 'p', `Acompanhamento e decisões: ${items.join(' · ')}`)
+  }
+  async function loadAttemptHistory() {
+    const panel = byId('attempt-history')
+    const list = byId('attempt-history-list')
+    try {
+      const response = await fetch('/api/agoraprescreva', {credentials: 'same-origin', cache: 'no-store'})
+      const result = await response.json()
+      if (!response.ok || !result.ok || !Array.isArray(result.attempts)) throw new Error()
+      list.replaceChildren()
+      result.attempts.forEach((attempt, index) => {
+        const details = document.createElement('details')
+        details.className = 'saved-attempt'
+        const summary = document.createElement('summary')
+        const date = new Date(attempt.finishedAt)
+        const dateLabel = Number.isNaN(date.getTime()) ? 'data não informada' : date.toLocaleString('pt-BR')
+        const pathLabel = attempt.finalBranch === 'poor' ? 'Baixa diurese e potássio em elevação' : 'Boa resposta'
+        summary.textContent = `Tentativa ${result.attempts.length - index} · ${dateLabel} · ${pathLabel}`
+        details.append(summary)
+        const body = document.createElement('div')
+        body.className = 'saved-attempt-body'
+        renderSavedOrders(body, attempt.initial?.orders)
+        renderSavedAnswers(body, attempt.initial?.answers)
+        addText(body, 'h3', 'Reavaliação')
+        renderSavedOrders(body, attempt.reassessment?.orders)
+        renderSavedAnswers(body, attempt.reassessment?.answers)
+        details.append(body)
+        list.append(details)
+      })
+      panel.hidden = result.attempts.length === 0
+    } catch {
+      panel.hidden = false
+      list.replaceChildren()
+      addText(list, 'p', 'Não foi possível carregar o histórico agora. As tentativas finalizadas continuam registradas na sua conta.', 'attempt-history-status')
+    }
+  }
   // Mesma ordem relativa do Caso 01. Resina e hemodiálise completam o catálogo.
   const catalog = {
     gluconate: 'Gluconato de cálcio 10%', chloride: 'Cloreto de cálcio 10%',
@@ -388,8 +457,8 @@
       return
     }
     finishButton.hidden = true
-    showAttemptStatus('Tentativa finalizada e salva.')
-    location.assign(courseUrl)
+    showAttemptStatus('Tentativa finalizada e salva na sua conta. Próximo: Caso 3.')
+    location.assign(nextCaseUrl)
   })
 
   byId('initial').addEventListener('submit', event => {
@@ -471,4 +540,5 @@
   })
   accessMessage.hidden = true;
   byId('case-content').hidden = false;
+  loadAttemptHistory()
 })();
