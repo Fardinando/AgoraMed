@@ -35,3 +35,6 @@
 .topbar a:focus-visible,.breadcrumb a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 @media(max-width:980px){.topbar{grid-template-columns:minmax(0,1fr) auto}}
 @media(max-width:640px){.topbar .brand{width:min(100%,170px)}.topbar .top-actions a{font-size:.75rem;padding-inline:9px}}
+
+/* Campos de prescrição: inputs e seletores compartilham a mesma altura, inclusive no Safari. */
+.form-grid input,.form-grid select{box-sizing:border-box;height:44px;min-height:44px;line-height:1.2}
