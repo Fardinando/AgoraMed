@@ -11,7 +11,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-v2.png">
   <link rel="stylesheet" href="css/styles.css?v=73">
   <link rel="stylesheet" href="css/inicio.css?v=50">
-  <link rel="stylesheet" href="css/curso.css?v=118">
+  <link rel="stylesheet" href="css/curso.css?v=119">
   <link rel="stylesheet" href="css/dialogos.css?v=56">
 <link rel="stylesheet" href="css/tema-curso.css?v=117">
 </head>
@@ -59,6 +59,11 @@
         <a id="curso-agoraquiz" class="curso-atividade oculto" href="#">
           <span class="curso-atividade-selo" aria-hidden="true">✓</span>
           <span><small>QUESTÕES CLÍNICAS · ESTUDO E SIMULADO</small><strong>AgoraQuiz</strong><em>Pratique decisões clínicas no modo Estudo ou Simulado.</em></span>
+          <span class="curso-atividade-acao">Iniciar atividade <b aria-hidden="true">→</b></span>
+        </a>
+        <a id="curso-agorafarm" class="curso-atividade oculto" href="agorafarm.html">
+          <span class="curso-atividade-selo" aria-hidden="true">Rx</span>
+          <span><small>FARMACOLOGIA · MECÂNICA DA PRESCRIÇÃO</small><strong>AgoraFarm</strong><em>Explore apresentações, calcule doses e pratique a escrita da prescrição.</em></span>
           <span class="curso-atividade-acao">Iniciar atividade <b aria-hidden="true">→</b></span>
         </a>
         <a id="curso-agoraprescreva" class="curso-atividade oculto" href="agoraprescreva.html?atualizar=1">
@@ -118,6 +123,7 @@
     if(curso) TemaCurso.aplicar(curso);
 
       const acessoAgoraPrescreva = cursoId === 'fa3c5d8d-94c4-4321-be7a-1cc45741a983' && permitido;
+      document.getElementById('curso-agorafarm').classList.toggle('oculto', !acessoAgoraPrescreva);
       document.getElementById('curso-agoraprescreva').classList.toggle('oculto', !acessoAgoraPrescreva);
       document.getElementById('curso-agoraatenda').classList.toggle('oculto', !acessoAgoraPrescreva);
       if (acessoAgoraPrescreva) {

@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#071d22">
+  <meta name="description" content="Estação interativa de farmacologia aplicada e prática de prescrição de gluconato de cálcio.">
+  <title>AgoraFarm · Gluconato de cálcio · AgoraMed</title>
+  <link rel="stylesheet" href="css/agoraprescreva.css?v=5">
+  <link rel="stylesheet" href="css/agorafarm.css?v=5">
+</head>
+<body class="agorafarm">
+  <header class="topbar">
+    <a class="brand" href="app.html" aria-label="AgoraMed — início"><img src="img/agoramed-logo-branco.png" alt="AgoraMed · Pronto para o plantão" width="906" height="184"></a>
+    <div class="top-context"><span class="course-dot"></span><span>TRATAMENTO DA HIPERCALEMIA EM ADULTOS</span></div>
+    <div class="top-actions"><a class="text-button" href="curso.html?id=fa3c5d8d-94c4-4321-be7a-1cc45741a983&amp;atualizar=1">← Voltar ao curso</a></div>
+  </header>
+
+  <main class="shell af-shell">
+    <nav class="breadcrumb" aria-label="Localização"><a href="agorafarm.html">AgoraFarm</a><b aria-hidden="true">/</b><strong>Gluconato de cálcio</strong></nav>
+    <section class="page-heading af-heading">
+      <div><span class="eyebrow">FARMACOLOGIA APLICADA · ESTAÇÃO 01</span><h1>Gluconato de cálcio<em> na hipercalemia</em></h1><p>Explore a ampola, entenda o que o cálcio faz e pratique cada campo de uma prescrição.</p></div>
+      <div class="heading-meta"><span class="status"><i></i> Aprenda fazendo</span></div>
+    </section>
+
+    <section class="af-progress" aria-label="Progresso da estação">
+      <div class="af-progress-copy"><strong id="progress-label">Etapa 1 de 4</strong><span id="progress-detail">Explorar apresentação</span></div>
+      <div class="af-progress-track" role="progressbar" aria-label="Progresso na estação" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25" id="progress-bar"><span id="progress-fill"></span></div>
+      <nav class="af-step-nav" aria-label="Etapas da estação">
+        <button type="button" data-step="0" aria-current="step"><span>01</span><b>Ampola</b></button>
+        <button type="button" data-step="1"><span>02</span><b>Ação</b></button>
+        <button type="button" data-step="2"><span>03</span><b>Conversão</b></button>
+        <button type="button" data-step="3"><span>04</span><b>Prescrição</b></button>
+      </nav>
+    </section>
+
+    <div id="stage-announcement" class="sr-only" aria-live="polite"></div>
+
+    <section class="af-stage" data-stage="0" aria-labelledby="ampoule-title">
+      <div class="af-section-head"><div><span class="eyebrow">01 · IDENTIFIQUE O PRODUTO</span><h2 id="ampoule-title">Leia a ampola antes de calcular.</h2><p>Selecione uma área para conferir os dados de uma apresentação comercial específica.</p></div><span class="af-counter">01 / 04</span></div>
+      <div class="af-ampoule-layout">
+        <article class="af-card af-product-card">
+          <div class="af-product-label"><span>GLUCONATO DE CÁLCIO · PADRÃO DE ENSINO</span><span class="af-live-dot">AMPOLA · 10 mL</span></div>
+          <div class="af-product-visual">
+            <div class="af-ampoule" role="img" aria-label="Ilustração educativa de ampola de vidro de gliconato de cálcio 10%, 100 miligramas por mililitro, com volume de 10 mililitros">
+              <div class="af-ampoule-cap"></div><div class="af-ampoule-neck"></div><div class="af-ampoule-body"><span>10%</span><small>GLICONATO<br>DE CÁLCIO<br>100 mg/mL</small><i>10 mL</i></div>
+            </div>
+            <div class="af-hotspots" role="group" aria-label="Dados do rótulo da ampola">
+              <button type="button" class="af-fact-select" data-fact="concentration" aria-pressed="true"><span class="af-fact-index">1</span>Concentração<span class="af-fact-check" data-fact-check="concentration" aria-hidden="true" hidden>✓</span></button>
+              <button type="button" class="af-fact-select" data-fact="volume" aria-pressed="false"><span class="af-fact-index">2</span>Volume<span class="af-fact-check" data-fact-check="volume" aria-hidden="true" hidden>✓</span></button>
+              <button type="button" class="af-fact-select" data-fact="form" aria-pressed="false"><span class="af-fact-index">3</span>Forma farmacêutica<span class="af-fact-check" data-fact-check="form" aria-hidden="true" hidden>✓</span></button>
+            </div>
+          </div>
+          <div class="af-product-note"><span aria-hidden="true">i</span><p>Para esta estação, considere uma única apresentação: gluconato de cálcio 10%, equivalente a 100 mg/mL, em ampola de 10 mL.</p></div>
+        </article>
+        <article class="af-card af-fact-panel" aria-live="polite">
+          <span class="eyebrow" id="fact-label">PADRÃO DE ENSINO</span><h3 id="fact-title">Concentração</h3><strong class="af-fact-value" id="fact-value">10% · 100 mg/mL</strong><p id="fact-description">Para este exercício, use gluconato de cálcio 10%: cada mililitro contém 100 mg de gluconato de cálcio.</p>
+          <div class="af-fact-extra"><b>Como ler</b><span>10% (m/v) significa 10 g em 100 mL, equivalente a 100 mg/mL. A ampola de referência contém 10 mL.</span></div>
+          <div class="af-fact-confirmation"><button type="button" id="mark-current-fact" aria-pressed="false">Marcar este dado como visto</button><span id="ampoule-read-status" aria-live="polite">0 de 3 dados vistos</span></div>
+        </article>
+      </div>
+      <div class="af-learning-strip"><span class="af-strip-icon" aria-hidden="true">✓</span><p><strong>Para guardar:</strong> gluconato de cálcio 10% = 100 mg/mL. Nesta apresentação de referência, cada ampola contém 10 mL.</p></div>
+      <div class="af-actions"><span class="af-step-hint">Marque concentração, volume e forma farmacêutica como vistos para continuar.</span><button class="button primary" type="button" data-next disabled>Entender a ação <span aria-hidden="true">→</span></button></div>
+    </section>
+
+    <section class="af-stage" data-stage="1" aria-labelledby="mechanism-title" hidden>
+      <div class="af-section-head"><div><span class="eyebrow">02 · FARMACOLOGIA NA PRÁTICA</span><h2 id="mechanism-title">Proteção elétrica é diferente de remoção do potássio.</h2><p>O cálcio atua na membrana cardíaca enquanto outras medidas tratam a concentração de potássio.</p></div><span class="af-counter">02 / 04</span></div>
+      <div class="af-mechanism-grid">
+        <article class="af-card af-mechanism-card"><span class="af-mechanism-number">01</span><span class="eyebrow">EFEITO DO CÁLCIO IV</span><h3>Estabiliza temporariamente a excitabilidade cardíaca.</h3><p>Na hipercalemia com alterações eletrocardiográficas, sais de cálcio antagonizam os efeitos elétricos do potássio no miocárdio. A intenção imediata é reduzir o risco elétrico enquanto o restante do tratamento é iniciado.</p><div class="af-effect-tag positive">ECG pode melhorar em minutos · efeito temporário</div></article>
+        <article class="af-card af-mechanism-card af-no-k"><span class="af-mechanism-number">02</span><span class="eyebrow">O QUE ELE NÃO FAZ</span><h3>Não reduz o potássio sérico.</h3><p>O cálcio não desloca o potássio para dentro das células nem o elimina do organismo. A equipe ainda precisa conduzir medidas de redistribuição e remoção e acompanhar o potássio.</p><div class="af-effect-tag caution">Não encerre o tratamento só porque o ECG melhorou</div></article>
+      </div>
+      <div class="af-two-column">
+        <article class="af-card af-text-card"><span class="eyebrow">ADMINISTRAÇÃO E SEGURANÇA</span><h3>O que observar durante e depois?</h3><ul><li><strong>Somente por via intravenosa.</strong> Nunca administrar por via intramuscular ou subcutânea: há risco de lesão local e necrose.</li><li><strong>Administre lentamente e de forma controlada.</strong> Nesta atividade, use 30 mL em 10 minutos, conforme UKKA 2026. A administração rápida pode causar queda da pressão, bradicardia, arritmias, tontura ou rubor.</li><li><strong>Monitore ECG e pressão arterial</strong> durante a administração; reavalie o ECG depois da dose.</li><li><strong>Confirme um acesso venoso pérvio e observe o local.</strong> O extravasamento pode causar dor, irritação, alterações da pele e necrose.</li></ul></article>
+        <article class="af-card af-text-card af-dose-focus"><span class="eyebrow">DOSE E PREPARO · UKKA 2026</span><h3>30 mL de gluconato de cálcio 10% por via IV, em 10 minutos.</h3><p>Este é o esquema usado em toda a estação para hipercalemia com alterações no ECG. Como cada ampola de referência contém 10 mL, a dose corresponde a 3 ampolas.</p><ul><li><strong>Padrão desta atividade:</strong> administrar sem diluição, como descrito no apêndice de administração da UKKA.</li><li><strong>Administração direta ou diluída:</strong> a escolha depende do protocolo clínico e da situação. Quando houver diluição, usar solução compatível, como glicose 5% ou cloreto de sódio 0,9%, conforme o protocolo local.</li><li><strong>Acesso e monitorização:</strong> lavar o acesso com solução compatível; não misturar com bicarbonato ou fosfato. Monitorizar ECG, pressão arterial e local da infusão.</li></ul><p class="af-source-note"><strong>Reavalie o ECG após a administração.</strong> O cálcio protege temporariamente o coração, mas não reduz o potássio sérico. Siga o protocolo institucional na prática clínica.</p></article>
+      </div>
+      <fieldset class="af-knowledge-check"><legend>Confira a ideia central: o gluconato de cálcio reduz o potássio sérico?</legend><label><input type="radio" name="calcium-effect" value="yes"><span>Sim, reduz o potássio.</span></label><label><input type="radio" name="calcium-effect" value="no"><span>Não. Protege temporariamente o coração; o potássio exige outras medidas.</span></label><button class="button secondary" id="check-mechanism" type="button">Conferir resposta</button><p id="mechanism-feedback" role="status" aria-live="polite"></p></fieldset>
+      <div class="af-actions"><button class="button secondary" type="button" data-back>← Voltar à ampola</button><span class="af-step-hint">Responda corretamente para seguir para a conversão.</span><button class="button primary" type="button" data-next disabled>Praticar conversão <span aria-hidden="true">→</span></button></div>
+    </section>
+
+    <section class="af-stage" data-stage="2" aria-labelledby="conversion-title" hidden>
+      <div class="af-section-head"><div><span class="eyebrow">03 · CONVERSÃO DE VOLUME</span><h2 id="conversion-title">Uma dose de 30 mL corresponde a quantas ampolas?</h2><p>Use a apresentação de referência desta estação: 10 mL em cada ampola.</p></div><span class="af-counter">03 / 04</span></div>
+      <div class="af-conversion-layout">
+        <article class="af-card af-conversion-card">
+          <div class="af-equation"><div><small>VOLUME TOTAL DA PRÁTICA</small><strong>30 <i>mL</i></strong></div><span aria-hidden="true">÷</span><div><small>VOLUME POR AMPOLA</small><strong>10 <i>mL</i></strong></div><span aria-hidden="true">=</span><div class="af-equation-result"><small>QUANTIDADE</small><strong>? <i>ampolas</i></strong></div></div>
+          <fieldset class="af-answer-set"><legend>Escolha a quantidade de ampolas</legend><div class="af-answer-options"><label><input type="radio" name="ampoule-answer" value="1"><span>1 ampola</span></label><label><input type="radio" name="ampoule-answer" value="2"><span>2 ampolas</span></label><label><input type="radio" name="ampoule-answer" value="3"><span>3 ampolas</span></label><label><input type="radio" name="ampoule-answer" value="4"><span>4 ampolas</span></label></div></fieldset>
+          <button class="button primary" id="check-conversion" type="button">Conferir cálculo <span aria-hidden="true">→</span></button>
+          <div id="conversion-feedback" class="af-feedback" role="status" aria-live="polite" hidden></div>
+        </article>
+        <aside class="af-card af-calculation-note"><span class="af-icon-round" aria-hidden="true">÷</span><span class="eyebrow">RACIOCÍNIO</span><h3>Volume total ÷ volume por ampola</h3><p>30 mL ÷ 10 mL/ampola = 3 ampolas.</p><p class="muted">Para esta prática, use o padrão único: gluconato de cálcio 10%, 100 mg/mL, ampola de 10 mL.</p></aside>
+      </div>
+      <div class="af-actions"><button class="button secondary" type="button" data-back>← Voltar à ação</button><span class="af-step-hint">Confira o cálculo para seguir para a prescrição.</span><button class="button primary" type="button" data-next disabled>Montar prescrição <span aria-hidden="true">→</span></button></div>
+    </section>
+
+    <section class="af-stage" data-stage="3" aria-labelledby="prescription-title" hidden>
+      <div class="af-section-head"><div><span class="eyebrow">04 · SUA VEZ DE PRESCREVER</span><h2 id="prescription-title">Monte uma ordem clara e conferível.</h2><p>Para esta prática, use o esquema de gluconato da UKKA 2026. Confira cada item antes de concluir.</p></div><span class="af-counter">04 / 04</span></div>
+      <div class="af-practice-layout">
+        <form class="af-card af-rx-form" id="prescription-form" novalidate>
+          <div class="af-form-grid">
+            <label class="af-field af-wide" for="rx-drug"><span>Medicamento</span><select id="rx-drug" name="drug"><option value="">Selecione</option><option value="gluconato">Gluconato de cálcio</option></select><span class="field-feedback" data-feedback="drug"></span></label>
+            <label class="af-field af-wide" for="rx-presentation"><span>Concentração e apresentação</span><select id="rx-presentation" name="presentation"><option value="">Selecione</option><option value="reference">Gluconato de cálcio 10% · 100 mg/mL · ampola de 10 mL</option></select><small>Padrão único usado nos exemplos e cálculos desta estação.</small><span class="field-feedback" data-feedback="presentation"></span></label>
+            <label class="af-field" for="rx-dose"><span>Dose total</span><input id="rx-dose" name="dose" type="number" inputmode="decimal" min="0" step="any" placeholder="Ex.: 30"><span class="field-feedback" data-feedback="dose"></span></label>
+            <label class="af-field" for="rx-unit"><span>Unidade da dose</span><select id="rx-unit" name="unit"><option value="">Selecione</option><option value="mL">mL</option><option value="mg">mg</option><option value="g">g</option><option value="ampola">ampola(s)</option></select><span class="field-feedback" data-feedback="unit"></span></label>
+            <label class="af-field" for="rx-route"><span>Via</span><select id="rx-route" name="route"><option value="">Selecione</option><option value="IV">Intravenosa (IV)</option></select><small>Via exclusiva nesta prescrição. Não utilizar IM ou SC.</small><span class="field-feedback" data-feedback="route"></span></label>
+            <label class="af-field" for="rx-time"><span>Tempo de administração</span><select id="rx-time" name="time"><option value="">Selecione</option><option value="10">10 minutos</option><option value="5">5 minutos</option><option value="3">2–3 minutos</option><option value="15">15 minutos</option></select><span class="field-feedback" data-feedback="time"></span></label>
+            <div class="af-field af-wide"><span class="af-field-label">Preparo e diluição</span><label class="af-checkline"><input id="rx-prep" type="checkbox"><span>Para esta atividade, administrar sem diluir (UKKA 2026). Se o protocolo local indicar diluição, usar apenas solução compatível, como glicose 5% ou cloreto de sódio 0,9%.</span></label><small>Lavar o acesso com solução compatível. Não misturar com bicarbonato ou fosfato.</small><span class="field-feedback" data-feedback="prep"></span></div>
+            <fieldset class="af-field af-wide af-check-field"><legend>Monitorização e reavaliação</legend><label class="af-checkline"><input id="rx-ecg" type="checkbox"><span>Manter monitorização contínua do ECG durante a administração.</span></label><label class="af-checkline"><input id="rx-bp" type="checkbox"><span>Acompanhar pressão arterial e frequência cardíaca durante a administração lenta.</span></label><label class="af-checkline"><input id="rx-site" type="checkbox"><span>Confirmar acesso venoso pérvio e observar o local para detectar extravasamento.</span></label><label class="af-checkline"><input id="rx-recheck" type="checkbox"><span>Reavaliar o ECG após a dose e continuar a estratégia de redução do potássio.</span></label><span class="field-feedback" data-feedback="monitoring"></span></fieldset>
+          </div>
+          <div class="af-form-footer"><span id="rx-form-status" role="status" aria-live="polite">Preencha os campos obrigatórios para revisar sua prescrição.</span><button class="button primary" type="submit">Revisar prescrição <span aria-hidden="true">→</span></button></div>
+        </form>
+        <aside class="af-card af-rx-side"><span class="eyebrow">CHECKLIST DA ORDEM</span><h3>O que deixa a prescrição executável?</h3><ol><li><b>Medicamento e apresentação</b><span>Nome, concentração, forma farmacêutica e volume por recipiente.</span></li><li><b>Dose total e unidade</b><span>Volume total indicado e conversão para recipientes quando aplicável.</span></li><li><b>Via e tempo</b><span>Somente IV; 30 mL administrados lentamente em 10 minutos.</span></li><li><b>Preparo seguro</b><span>Padrão da atividade sem diluição; se protocolo local orientar, diluir apenas em solução compatível.</span></li><li><b>Monitorização e reavaliação</b><span>ECG, pressão, frequência cardíaca, acesso e nova avaliação do ECG.</span></li></ol><div class="af-rx-safety"><b>Segurança:</b> nunca usar via IM ou SC. Garanta acesso venoso pérvio e observe extravasamento.</div><div class="af-rx-safety"><b>Atenção ao efeito:</b> gluconato de cálcio protege temporariamente o coração, mas não reduz o potássio sérico.</div></aside>
+      </div>
+      <section class="af-card af-rx-result" id="prescription-result" aria-live="polite" hidden>
+        <div class="af-result-heading"><div><span class="eyebrow">PRESCRIÇÃO MONTADA · SIMULAÇÃO</span><h3 id="result-title" tabindex="-1">Revise o que você escreveu</h3></div><div class="af-result-score" id="result-score" aria-label="Resultado da revisão"></div></div>
+        <div class="af-result-columns"><article><span class="eyebrow">SUA ORDEM</span><p id="assembled-rx"></p></article><article><span class="eyebrow">FEEDBACK POR CAMPO</span><ul id="field-review"></ul></article></div>
+        <div class="af-next-bridge"><div><span class="eyebrow">CONEXÃO COM A PRÁTICA CLÍNICA</span><h4>Da mecânica para a decisão clínica</h4><p>No AgoraPrescreva, você decide quando esta ordem se aplica dentro de um caso e acompanha o feedback da conduta.</p></div><a class="button primary" href="agoraprescreva.html?atualizar=1">Ir ao AgoraPrescreva <span aria-hidden="true">→</span></a></div>
+      </section>
+      <div class="af-actions"><button class="button secondary" type="button" data-back>← Voltar à conversão</button><span class="af-step-hint">Uma tentativa de aprendizagem local; não registra prescrição clínica real.</span></div>
+    </section>
+
+    <footer class="af-footer"><p>AgoraFarm · Estação 01 · Conteúdo educacional com referências identificadas.</p><details><summary>Fontes desta estação</summary><ul>
+      <li><a href="https://www.ukkidney.org/wp-content/uploads/drupal-archive/documents/FINAL%20VERSION%20-%20UKKA%20CLINICAL%20PRACTICE%20GUIDELINE%20-%20MANAGEMENT%20OF%20HYPERKALAEMIA%20IN%20ADULTS%20-%20UPDATED%20JULY%202026_0.pdf" target="_blank" rel="noreferrer">UK Kidney Association. Management of Hyperkalaemia in Adults · atualização julho de 2026: dose de referência e monitorização.</a></li>
+      <li><a href="https://www.fresenius-kabi.com/content/dam/fresenius-kabi/br/documents/bulas/medicamentos/Gliconato%20de%20C%C3%A1lcio%20-%20Bula%20Profissional%20de%20sa%C3%BAde%20%28259%20KB%29.pdf.coredownload.inline.pdf" target="_blank" rel="noreferrer">Bula profissional brasileira: apresentação, administração lenta, vias permitidas e riscos de extravasamento.</a></li>
+      <li><a href="https://guiafarmaco.erastogaertner.com.br/farmacoterapeutico/medicamentos/193" target="_blank" rel="noreferrer">Guia farmacoterapêutico institucional: compatibilidade com glicose 5% e cloreto de sódio 0,9%.</a></li>
+    </ul></details><p class="af-disclaimer">Simulação educacional. Não substitui bula, protocolo institucional, supervisão ou avaliação clínica. A estação não orienta atendimento real.</p></footer>
+  </main>
+  <script src="js/agorafarm.js?v=3"></script>
+</body>
+</html>
