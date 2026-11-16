@@ -27,3 +27,5 @@ sedativos_transcript/
 
 # cache local do Supabase CLI
 supabase/.temp/
+.vercel
+.env*

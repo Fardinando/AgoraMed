@@ -5,7 +5,7 @@ window.AtividadesCurso = {
     const atividades = [
       ['✓', 'AgoraQuiz', 'Estudo ou Simulado', 'agoraquiz-curso.html?curso_id=' + encodeURIComponent(curso.id)],
       ['Rx', 'AgoraFarm', 'Farmacologia e mecânica da prescrição', 'agorafarm.html'],
-      ['Rx', 'AgoraPrescreva', 'Simulação de prescrição', 'agoraprescreva.html'],
+      ['Rx', 'AgoraPrescreva', 'Oficina de prescrição · 10 casos', 'agoraprescreva-oficina.html'],
       ['✚', 'AgoraAtenda', 'Simulação de atendimento clínico', 'agoraatenda.html']
     ];
     const navegacao = document.createElement('nav');
