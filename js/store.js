@@ -159,8 +159,10 @@ const Store = (() => {
     return { ok: true };
   }
 
-  const cadastrar = (nome, email, senha, whats) =>
-    api('/auth/cadastro', { metodo: 'POST', corpo: { nome, email, senha, whatsapp: whats, continuar: new URLSearchParams(location.search).get('continuar') } });
+  const cadastrar = (nome, email, senha, whats) => {
+    const params=new URLSearchParams(location.search);
+    return api('/auth/cadastro', { metodo: 'POST', corpo: { nome, email, senha, whatsapp: whats, continuar: params.get('continuar'), pedido: params.get('pedido') } });
+  };
 
   async function sair() {
     const r = await api('/auth/sair', { metodo: 'POST' });

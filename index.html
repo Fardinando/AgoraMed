@@ -41,14 +41,13 @@
         <h2 id="titulo-confirmacao" tabindex="-1">Confira seu e-mail para continuar</h2>
         <p>Para concluir uma nova conta, <strong>você precisa confirmar seu e-mail antes de fazer login.</strong></p>
         <div class="fluxo-compra-confirmacao" id="fluxo-compra-confirmacao" hidden>
-          <p class="fluxo-compra-etiqueta">COMPRA DE HIPERCALEMIA · PASSO 2 DE 4</p>
-          <ol>
-            <li class="concluido"><strong>Conta gratuita criada</strong></li>
+          <p class="fluxo-compra-etiqueta" id="fluxo-compra-etiqueta">COMPRA DE HIPERCALEMIA · ETAPA 2 DE 3</p>
+          <ol id="fluxo-compra-etapas">
+            <li class="concluido"><strong>Pagamento aprovado</strong></li>
             <li class="atual"><strong>Confirme seu e-mail</strong><span>Confira também spam ou lixo eletrônico.</span></li>
-            <li><strong>Finalize o pagamento</strong><span>O link de confirmação retorna à compra e segue ao Mercado Pago.</span></li>
-            <li><strong>Acesse a plataforma</strong><span>O curso é liberado após a aprovação do pagamento.</span></li>
+            <li><strong>Vincule a compra e acesse o curso</strong><span>Use o mesmo e-mail informado no Mercado Pago.</span></li>
           </ol>
-          <p>Se a plataforma pedir login depois da confirmação, entre com o e-mail e a senha cadastrados. A intenção de compra será retomada.</p>
+          <p id="fluxo-compra-instrucao">Após confirmar, a AgoraMed retomará o vínculo da compra.</p>
         </div>
         <ol id="confirmacao-passos-generica">
           <li>Abra a caixa de entrada de <strong id="email-confirmacao"></strong>.</li>
@@ -96,6 +95,7 @@
           <strong>O cadastro tem uma etapa de confirmação por e-mail.</strong>
           <p>Após criar a conta, abra o e-mail da AgoraMed e clique no link de confirmação. Só depois você poderá entrar na plataforma. Use um e-mail ao qual você tenha acesso.</p>
         </div>
+        <p id="cadastro-pagamento-nota" class="orientacao-cadastro" hidden><strong>Use o mesmo e-mail que informou no checkout do Mercado Pago.</strong> Após confirmar esse endereço, a AgoraMed vinculará o pagamento aprovado ao curso de Hipercalemia.</p>
         <div class="campo">
           <label for="cad-nome">Nome completo <span class="obrig">*</span></label>
           <input type="text" id="cad-nome" required autocomplete="name" placeholder="Dra. Ana Souza">
@@ -149,10 +149,14 @@
   <script type="module">
     const msg = document.getElementById('mensagem');
     const params = new URLSearchParams(location.search);
+    const hashAuth = new URLSearchParams(location.hash.replace(/^#/, ''));
+    const falhaAutenticacao = Boolean(hashAuth.get('error'));
     const intencao=params.get('continuar')==='matricula-hipercalemia';
+    const pedidoPagamento=params.get('pedido')||'';
+    const compraAposPagamento=params.get('continuar')==='pagamento'&&/^[a-f0-9-]{36}$/i.test(pedidoPagamento);
     let compraSalva=false;
     try{if(intencao)localStorage.setItem('agoramed-intencao-compra',String(Date.now()));compraSalva=Date.now()-Number(localStorage.getItem('agoramed-intencao-compra'))<86400000;}catch{}
-    const retomar=intencao||((params.has('confirmado')||params.has('redefinir'))&&compraSalva);
+    const retomar=intencao||compraAposPagamento||((params.has('confirmado')||params.has('redefinir'))&&compraSalva);
 
     /* link do e-mail de recuperação caiu aqui sem passar por redefinir.html?
        (acontece quando o Supabase usa a Site URL como destino) — segue com os tokens */
@@ -174,6 +178,13 @@
       mostrarMsg('O link de redefinição é inválido ou expirou. Solicite um novo.', 'erro');
     } else if (params.get('confirmado') === '1') {
       mostrarMsg('E-mail confirmado! Faça login para continuar.', 'sucesso');
+    }
+    if (falhaAutenticacao) {
+      history.replaceState(null, '', location.pathname + location.search);
+      const expirado = hashAuth.get('error_code') === 'otp_expired';
+      mostrarMsg(expirado
+        ? 'Este link de confirmação já foi usado ou expirou. Volte à página do curso, entre na AgoraMed e retome sua matrícula. Se não conseguir acessar, fale com o suporte.'
+        : 'Não foi possível confirmar seu e-mail com este link. Volte à AgoraMed e entre na sua conta ou fale com o suporte.', 'erro');
     }
 
     /* abas + recuperação de senha */
@@ -220,9 +231,25 @@
 
     const pedidoRetorno=params.get('pedido');
     const destinoAposLogin=params.get('continuar')==='pagamento'&&/^[a-f0-9-]{36}$/i.test(pedidoRetorno||'') ? 'pagamento.html?'+new URLSearchParams({pedido:pedidoRetorno,modo:params.get('modo')==='teste'?'teste':'real'}) : retomar ? 'matricula-hipercalemia.html?passo=3' : 'app.html';
-    document.getElementById('fluxo-compra-confirmacao').hidden=!intencao;
-    document.getElementById('confirmacao-passos-generica').hidden=intencao;
-    if(intencao&&params.get('confirmado')==='1')
+    document.getElementById('fluxo-compra-confirmacao').hidden=!compraAposPagamento;
+    document.getElementById('confirmacao-passos-generica').hidden=intencao||compraAposPagamento;
+    document.getElementById('cadastro-pagamento-nota').hidden=!compraAposPagamento;
+    if(compraAposPagamento){
+      document.querySelector('.fluxo-compra-etiqueta').textContent='PAGAMENTO APROVADO · ETAPA 2 DE 3';
+      document.getElementById('fluxo-compra-instrucao').textContent='Depois da confirmação, entre na AgoraMed com este mesmo e-mail para vincular o pagamento e acessar o curso.';
+      try{
+        const emailCompra=sessionStorage.getItem('agoramed-email-compra');
+        if(emailCompra){
+          ['cad-email','login-email'].forEach(id=>{const campo=document.getElementById(id);campo.value=emailCompra;campo.readOnly=true;campo.setAttribute('aria-describedby','cadastro-pagamento-nota');});
+          const nota=document.getElementById('cadastro-pagamento-nota'),destaque=document.createElement('strong');
+          destaque.textContent='E-mail do checkout: '+emailCompra+'. ';
+          nota.replaceChildren(destaque,document.createTextNode('A conta precisa usar esse endereço para ativar o acesso.'));
+        }
+      }catch{}
+    }
+    if(compraAposPagamento&&params.get('confirmado')==='1')
+      mostrarMsg('E-mail confirmado. Vamos vincular o pagamento aprovado ao curso.','sucesso');
+    else if(intencao&&params.get('confirmado')==='1')
       mostrarMsg('E-mail confirmado. Entre para seguir direto ao pagamento do curso.','sucesso');
     if(params.get('cadastro')==='1')ativarAba('cadastrar');
 
@@ -231,7 +258,7 @@
        da barra de endereço antes de navegar para a etapa de pagamento. */
     const fragmento=new URLSearchParams(location.hash.replace(/^#/,''));
     const tokenConfirmacao=fragmento.get('access_token');
-    if(intencao&&params.get('confirmado')==='1'&&tokenConfirmacao){
+    if((intencao||compraAposPagamento)&&params.get('confirmado')==='1'&&tokenConfirmacao){
       history.replaceState(null,'',location.pathname+location.search);
       try{
         const resposta=await fetch('/api/auth/confirmar',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({access_token:tokenConfirmacao})});
@@ -240,8 +267,12 @@
       }catch(e){mostrarMsg('E-mail confirmado. '+(e.message||'Entre na AgoraMed para retomar sua compra.'),'erro');}
     }
 
+    if(params.get('trocar')==='1'){
+      await fetch('/api/auth/sair',{method:'POST',credentials:'same-origin'}).catch(()=>{});
+    }
+
     /* se já houver sessão, segue direto (exceto na página de teste visual) */
-    if (!params.get('preview')) {
+    if (!params.get('preview') && !falhaAutenticacao) {
       const u = await Store.iniciar({atualizar:true});
       if (u) location.href = destinoAposLogin;
     }

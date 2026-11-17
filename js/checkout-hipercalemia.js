@@ -8,8 +8,7 @@
   document.querySelector('#checkout-prazo').textContent=`Compra única · ${d.acessoMeses} meses de acesso`;
   const real=d.vendasAtivas===true;
   if(real&&d.acessoLiberado){document.querySelector('#checkout-meu-curso').hidden=false;estado.textContent='Você já tem acesso a este curso. Pode continuar seus estudos sem fazer outro pagamento.';return;}
-  if(real&&!d.autenticado){document.querySelector('#checkout-login-acoes').hidden=false;estado.textContent='Crie sua conta gratuita AgoraMed para associar a compra à sua matrícula. Depois, você segue ao Mercado Pago.';return;}
-  if(real||d.testeHabilitado){acoes.hidden=false;document.querySelector('#checkout-nota-teste').hidden=real;botao.textContent=real?'Continuar para o Mercado Pago →':'Abrir checkout de teste →';estado.textContent=real?'Você será direcionado ao Mercado Pago para escolher o meio de pagamento. O curso completo será liberado após a aprovação.':'Prévia de matrícula: o checkout está disponível apenas para simulações autorizadas.';}
+  if(real||d.testeHabilitado){acoes.hidden=false;document.querySelector('#checkout-nota-teste').hidden=real;botao.textContent=real?'Continuar para o Mercado Pago →':'Abrir checkout de teste →';estado.textContent=real?'Você irá ao Mercado Pago para pagar. Depois, crie sua conta AgoraMed com o mesmo e-mail usado no checkout para ativar o curso.':'Prévia de matrícula: o checkout está disponível apenas para simulações autorizadas.';}
   else{estado.textContent='As matrículas ainda não estão abertas. Você pode solicitar um aviso para acompanhar o lançamento.';interesse.hidden=false;}
   let executando=false;
   botao.onclick=async()=>{
@@ -25,6 +24,5 @@
     sessionStorage.setItem(real?'agoramed-pedido-real':'agoramed-pedido-teste',p.id);location.assign(url.href);
    }catch(e){estado.textContent=e.message;botao.disabled=false;executando=false;}
   };
-  if(real)botao.onclick();
  }catch{estado.textContent='Não foi possível consultar a oferta. Atualize a página ou entre em contato com a AgoraMed.';interesse.hidden=false;}
 })();
