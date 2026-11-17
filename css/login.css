@@ -157,3 +157,7 @@
   .pagina-login .rodape-login { letter-spacing: .07em; }
 }
 @media (prefers-reduced-motion: reduce) { .pagina-login *, .pagina-login *::after { animation: none !important; transition: none !important; scroll-behavior: auto; } }
+
+.pagina-login .fluxo-compra-confirmacao[hidden]{display:none!important}
+.pagina-login .fluxo-compra-etiqueta{margin:0 0 8px}
+.pagina-login .fluxo-compra-confirmacao ol{margin:12px 0}

@@ -10,6 +10,7 @@ const { json } = require('../lib/api');
 const rotas = {
   'auth/cadastro': require('../lib/rotas/auth/cadastro'),
   'auth/entrar': require('../lib/rotas/auth/entrar'),
+  'auth/confirmar': require('../lib/rotas/auth/confirmar'),
   'auth/sair': require('../lib/rotas/auth/sair'),
   'auth/sessao': require('../lib/rotas/auth/sessao'),
   'auth/esqueci-senha': require('../lib/rotas/auth/esqueci-senha'),
