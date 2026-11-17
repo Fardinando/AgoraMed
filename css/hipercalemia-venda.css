@@ -22,7 +22,7 @@ button,.cta{font-family:var(--fonte-interface)}
 .hero-copy{max-width:650px}
 .subhero{font-size:clamp(16px,1.4vw,18px);font-weight:400;line-height:1.4;letter-spacing:-.01em}
 .chips{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px}
-.chips li{display:flex;align-items:center;justify-content:center;min-width:0;min-height:42px;padding:7px 5px;text-align:center;font-size:10px;line-height:1.25;letter-spacing:-.015em}
+.chips li{display:flex;align-items:center;justify-content:center;min-width:0;min-height:42px;padding:7px 5px;text-align:center;font-size:11px;line-height:1.25;letter-spacing:-.015em}
 .hero-legenda{display:none}
 .hero-disponibilidade{display:grid;gap:2px}
 .condicao-parcelamento{white-space:nowrap;font-size:11px}
