@@ -33,3 +33,29 @@ button,.cta{font-family:var(--fonte-interface)}
 .checkout-fluxo{margin:0 0 20px;padding:22px 26px}.checkout-fluxo .eyebrow{margin:0 0 14px}.checkout-passos{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;list-style:none;padding:0;margin:0}.checkout-passos li{display:grid;grid-template-columns:30px 1fr;align-items:center;gap:8px;min-height:48px;padding:7px 9px;border:1px solid #e0e3e9;border-radius:10px;color:#687580;font-size:12px;line-height:1.3}.checkout-passos li>span{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:#edf0f5;color:#596774;font-weight:750}.checkout-passos li.atual{border-color:#9464c1;background:#f6f0fc;color:#382b48}.checkout-passos li.atual>span{background:#8656cc;color:#fff}.checkout-passos li.concluido{border-color:#cfe2dc;color:#36584f}.checkout-passos li.concluido>span{background:#dcefe6;color:#225c48}.checkout-fluxo .checkout-nota{margin:10px 0 0}.fluxo-compra-confirmacao{margin:16px 0;padding:16px;border:1px solid #3f7581;border-radius:12px;background:#0b2b35}.fluxo-compra-etiqueta{color:#83e2e8!important;font-size:11px;font-weight:700;letter-spacing:.12em}.fluxo-compra-confirmacao ol{display:grid;grid-template-columns:1fr 1fr;gap:10px;list-style:none;padding:0;margin:12px 0}.fluxo-compra-confirmacao li{display:flex;flex-direction:column;padding:10px;border:1px solid #34545e;border-radius:9px;color:#d0dfe3;font-size:12px}.fluxo-compra-confirmacao li span{color:#b4c8ce}.fluxo-compra-confirmacao li.atual{border-color:#72dce5;background:#123945}.fluxo-compra-confirmacao li.concluido{border-color:#477968}.fluxo-compra-confirmacao>p:last-child{font-size:12px;color:#c7d9de}
 @media(max-width:700px){.checkout-fluxo{padding:18px 16px}.checkout-passos{grid-template-columns:1fr 1fr;gap:7px}.checkout-passos li{font-size:11px;padding:7px}.fluxo-compra-confirmacao{padding:13px}.fluxo-compra-confirmacao ol{gap:7px}.fluxo-compra-confirmacao li{padding:8px;font-size:11px}}
 .campo-cupom{display:block;margin-top:18px;color:#d6e5e8;font-size:13px;font-weight:700}.linha-cupom{display:flex;gap:8px;margin-top:7px}.linha-cupom input{min-width:0;flex:1;padding:12px 13px;border:1px solid #45636b;border-radius:9px;background:#0c2830;color:#d6e5e8;font:inherit}.linha-cupom input:disabled{opacity:.7}.linha-cupom button{padding:0 15px;border:1px solid #45636b;border-radius:9px;background:#183b44;color:#b6c8cc;font:inherit;opacity:.65}.linha-cupom+ .checkout-nota{margin-top:7px;font-size:11px}
+/* Demonstração curta e interativa do AgoraQuest. */
+.hero .subhero{font-size:19px;font-weight:400;line-height:1.4;letter-spacing:-.01em}
+.chips{gap:6px}.chips li{font-size:11px;padding:6px 8px;white-space:nowrap}
+.temas-chave{max-width:900px;padding:15px 18px;border-left:3px solid #8656cc;background:#f3eff8;border-radius:0 10px 10px 0;font-size:14px}
+.demonstracao{padding-block:52px;background:#edf0f5}
+.demo-conteudo{max-width:900px}
+.demo-conteudo h2{margin-bottom:10px}
+.demo-abrir{margin-top:10px}
+.demo-questao{margin-top:24px;padding:26px;background:#fff;border:1px solid #d9dce5;border-radius:16px;box-shadow:0 10px 30px #2635430b}
+.demo-rotulo{color:#7546aa;font-size:10px;font-weight:750;letter-spacing:.16em}
+.demo-questao h3{font-size:18px;line-height:1.55;color:#253541}
+.demo-alternativas{display:grid;gap:10px;margin-top:18px}
+.demo-alternativas button{display:flex;gap:12px;align-items:flex-start;text-align:left;padding:14px 16px;border:1px solid #dbe0e8;border-radius:10px;background:#f8f9fb;color:#253541;font:inherit;line-height:1.45;cursor:pointer}
+.demo-alternativas button:hover,.demo-alternativas button:focus-visible{border-color:#8656cc;background:#f5f0fb}
+.demo-alternativas button strong{display:inline-flex;flex:0 0 28px;width:28px;height:28px;align-items:center;justify-content:center;border-radius:7px;background:#e5d8f5;color:#713bb0}
+.demo-alternativas button[disabled]{cursor:default;opacity:1}
+.demo-alternativas button.escolhida-errada{border-color:#c85e67;background:#fff5f5}
+.demo-alternativas button.resposta-correta{border-color:#2e897a;background:#effaf7}
+.demo-feedback{margin-top:16px;padding:17px 19px;border-left:4px solid #8656cc;border-radius:0 10px 10px 0;background:#f4effa;color:#283944;line-height:1.65}
+.demo-feedback strong{display:block;margin-bottom:6px;color:#513276}
+.demo-disclaimer{font-size:12px;color:#5e6a73}
+.demo-comprar{margin-top:4px}
+.hero .condicao-parcelamento{display:block;font-size:11px;letter-spacing:-.02em;white-space:nowrap}
+footer{flex-wrap:wrap}.nota-metricas{flex:1 1 100%;text-align:right;color:#68767e;font-size:10px;line-height:1.45}
+@media(max-width:700px){.hero .subhero{font-size:18px}.chips{gap:5px}.chips li{font-size:10px;padding:6px 7px}.demonstracao{padding-block:36px}.demo-questao{padding:20px 16px}.demo-questao h3{font-size:16px}.demo-alternativas button{font-size:14px;padding:12px}}
+@media(max-width:700px){.hero .condicao-parcelamento{white-space:normal}.nota-metricas{text-align:left}}

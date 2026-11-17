@@ -46,6 +46,7 @@ const rotas = {
   'pagamento/oferta': require('../lib/rotas/pagamento/oferta'),
   'pagamento/teste': require('../lib/rotas/pagamento/teste'),
   'pagamento/homologacao': require('../lib/rotas/pagamento/homologacao'),
+  'analytics/funil': require('../lib/rotas/analytics/funil'),
   'video': require('../lib/rotas/video'),
   'admin/materiais': require('../lib/rotas/admin/materiais'),
   'admin/cursos': require('../lib/rotas/admin/cursos'),
