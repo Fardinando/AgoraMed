@@ -11,7 +11,7 @@
   <link rel="icon" href="icons/icon-192.png?v=2" type="image/png">
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-v2.png">
   <link rel="stylesheet" href="css/styles.css?v=73">
-  <link rel="stylesheet" href="css/login.css?v=48">
+  <link rel="stylesheet" href="css/login.css?v=49">
   <link rel="preload" href="fonts/playfair-display-400-latin.woff2" as="font" type="font/woff2" crossorigin>
   <script src="js/login-ui.js" defer></script>
   <link rel="stylesheet" href="css/dialogos.css?v=56">
@@ -40,7 +40,17 @@
       <section id="confirmacao-cadastro" class="confirmacao-cadastro oculto" aria-labelledby="titulo-confirmacao">
         <h2 id="titulo-confirmacao" tabindex="-1">Confira seu e-mail para continuar</h2>
         <p>Para concluir uma nova conta, <strong>você precisa confirmar seu e-mail antes de fazer login.</strong></p>
-        <ol>
+        <div class="fluxo-compra-confirmacao" id="fluxo-compra-confirmacao" hidden>
+          <p class="fluxo-compra-etiqueta">COMPRA DE HIPERCALEMIA · PASSO 2 DE 4</p>
+          <ol>
+            <li class="concluido"><strong>Conta gratuita criada</strong></li>
+            <li class="atual"><strong>Confirme seu e-mail</strong><span>Confira também spam ou lixo eletrônico.</span></li>
+            <li><strong>Finalize o pagamento</strong><span>O link de confirmação retorna à compra e segue ao Mercado Pago.</span></li>
+            <li><strong>Acesse a plataforma</strong><span>O curso é liberado após a aprovação do pagamento.</span></li>
+          </ol>
+          <p>Se a plataforma pedir login depois da confirmação, entre com o e-mail e a senha cadastrados. A intenção de compra será retomada.</p>
+        </div>
+        <ol id="confirmacao-passos-generica">
           <li>Abra a caixa de entrada de <strong id="email-confirmacao"></strong>.</li>
           <li>Procure a mensagem da AgoraMed e clique no link de confirmação.</li>
           <li>Depois, volte à plataforma e entre com seu e-mail e senha.</li>
@@ -205,12 +215,30 @@
       document.getElementById('login-senha').focus();
     });
 
-    // A landing page conduz novos alunos diretamente ao formulário de cadastro.
+    // O passo de matrícula abre o formulário de cadastro e mantém o retorno à compra.
     if (params.get('cadastro') === '1') abaCadastrar.click();
 
     const pedidoRetorno=params.get('pedido');
-    const destinoAposLogin=params.get('continuar')==='pagamento'&&/^[a-f0-9-]{36}$/i.test(pedidoRetorno||'') ? 'pagamento.html?'+new URLSearchParams({pedido:pedidoRetorno,modo:params.get('modo')==='teste'?'teste':'real'}) : retomar ? 'matricula-hipercalemia.html' : 'app.html';
+    const destinoAposLogin=params.get('continuar')==='pagamento'&&/^[a-f0-9-]{36}$/i.test(pedidoRetorno||'') ? 'pagamento.html?'+new URLSearchParams({pedido:pedidoRetorno,modo:params.get('modo')==='teste'?'teste':'real'}) : retomar ? 'matricula-hipercalemia.html?passo=3' : 'app.html';
+    document.getElementById('fluxo-compra-confirmacao').hidden=!intencao;
+    document.getElementById('confirmacao-passos-generica').hidden=intencao;
+    if(intencao&&params.get('confirmado')==='1')
+      mostrarMsg('E-mail confirmado. Entre para seguir direto ao pagamento do curso.','sucesso');
     if(params.get('cadastro')==='1')ativarAba('cadastrar');
+
+    /* Supabase devolve o token de sessão no fragmento após confirmar o e-mail.
+       Trocamos esse token por um cookie AgoraMed HttpOnly e apagamos o fragmento
+       da barra de endereço antes de navegar para a etapa de pagamento. */
+    const fragmento=new URLSearchParams(location.hash.replace(/^#/,''));
+    const tokenConfirmacao=fragmento.get('access_token');
+    if(intencao&&params.get('confirmado')==='1'&&tokenConfirmacao){
+      history.replaceState(null,'',location.pathname+location.search);
+      try{
+        const resposta=await fetch('/api/auth/confirmar',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({access_token:tokenConfirmacao})});
+        const sessao=await resposta.json();
+        if(!resposta.ok||!sessao.ok)throw Error(sessao.erro||'Não foi possível validar o link. Entre na AgoraMed para continuar.');
+      }catch(e){mostrarMsg('E-mail confirmado. '+(e.message||'Entre na AgoraMed para retomar sua compra.'),'erro');}
+    }
 
     /* se já houver sessão, segue direto (exceto na página de teste visual) */
     if (!params.get('preview')) {
