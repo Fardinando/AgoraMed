@@ -27,6 +27,13 @@
    if(d.estado==='pendente'&&d.url){const u=new URL(d.url);if(u.origin==='https://www.mercadopago.com.br'&&u.pathname==='/checkout/v1/redirect'&&!u.username&&!u.password){retomar.href=u.href;retomar.hidden=false;}}
    if(d.estado==='pendente'&&consultas<12)temporizador=setTimeout(consultar,5000);
    const t=textos[d.estado]||textos.pendente;titulo.textContent=t[0];estado.textContent=t[1];
+   if(d.estado==='aprovado'&&!teste){
+    const chaveAprovacao='agoramed-funil-aprovado:'+id;
+    if(!sessionStorage.getItem(chaveAprovacao)){
+     window.AgoraFunil?.track('payment_approved','pagamento');
+     sessionStorage.setItem(chaveAprovacao,'1');
+    }
+   }
    if(d.estado==='aprovado'&&!teste&&d.pedidoNaoVinculado){
     marcarEtapa(2);titulo.textContent='Pagamento aprovado. Falta ativar seu acesso.';
     if(d.emailIncompativel){estado.textContent='A conta aberta usa outro e-mail. Vincule a compra com uma conta AgoraMed confirmada usando o mesmo e-mail informado no Mercado Pago.';trocarConta.hidden=false;}
