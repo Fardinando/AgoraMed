@@ -4,11 +4,11 @@
  try{
   const r=await fetch('/api/pagamento/oferta',{credentials:'same-origin',cache:'no-store'}),d=await r.json();if(!r.ok||!d.ok)throw Error();
   document.querySelector('#checkout-preco').textContent=new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL'}).format(d.precoCentavos/100);
-  document.querySelector('#checkout-prazo').textContent=`Pagamento único · ${d.acessoMeses} meses de acesso`;
+  document.querySelector('#checkout-prazo').textContent=`Compra única · ${d.acessoMeses} meses de acesso`;
   const real=d.vendasAtivas===true;
   if(real&&d.acessoLiberado){document.querySelector('#checkout-meu-curso').hidden=false;estado.textContent='Você já tem acesso a este curso. Pode continuar seus estudos sem fazer outro pagamento.';return;}
   if(real&&!d.autenticado){document.querySelector('#checkout-login-acoes').hidden=false;estado.textContent='Crie sua conta gratuitamente para receber seu curso após a confirmação do pagamento.';return;}
-  if(real||d.testeHabilitado){acoes.hidden=false;document.querySelector('#checkout-nota-teste').hidden=real;botao.textContent=real?'Continuar para o Mercado Pago →':'Abrir checkout de teste →';estado.textContent=real?'Você será direcionado ao Mercado Pago para escolher o meio de pagamento. As aulas estão em liberação progressiva.':'Prévia de matrícula: o checkout está disponível apenas para simulações autorizadas.';}
+  if(real||d.testeHabilitado){acoes.hidden=false;document.querySelector('#checkout-nota-teste').hidden=real;botao.textContent=real?'Continuar para o Mercado Pago →':'Abrir checkout de teste →';estado.textContent=real?'Você será direcionado ao Mercado Pago para escolher o meio de pagamento. O curso completo será liberado após a aprovação.':'Prévia de matrícula: o checkout está disponível apenas para simulações autorizadas.';}
   else{estado.textContent='As matrículas ainda não estão abertas. Você pode solicitar um aviso para acompanhar o lançamento.';interesse.hidden=false;}
   let executando=false;
   botao.onclick=async()=>{

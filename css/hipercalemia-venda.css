@@ -12,3 +12,7 @@ button,.cta{font-family:var(--fonte-interface)}
 @media(max-width:700px){.modulo summary>span:nth-child(2){font-size:19px}.etiqueta{font-size:10px;letter-spacing:.18em}.checkout-card h1{font-size:31px}}
 
 @media(max-width:700px){.checkout-grade>section:first-child{order:2}.checkout-grade>section:last-child{order:1}.checkout-caminho{font-weight:600;color:#7546aa}.checkout-acoes a.cta{min-height:52px}}
+
+/* Depoimento contextualizado como feedback da experiência de ensino na AgoraMed. */
+.depoimento{padding-block:46px}.depoimento h2{max-width:720px}.depoimento figure{margin:26px 0 12px;padding:28px 32px;border-left:4px solid #8656cc;border-radius:0 14px 14px 0;background:#fff;box-shadow:0 8px 28px #2635430b}.depoimento blockquote{margin:0;color:#253541;font:400 clamp(21px,2.5vw,29px)/1.45 var(--fonte-titulos)}.depoimento figcaption{display:flex;flex-direction:column;margin-top:18px;color:#4b5c66;font-size:13px}.depoimento figcaption strong{color:#7546aa;font-size:15px}.depoimento .ajuda{max-width:750px;margin-top:12px}.recursos-intro{max-width:760px;margin-bottom:25px}.oferta-acao>p:not(.preco){font-size:14px;line-height:1.55}.checkout-nota{line-height:1.6}
+@media(max-width:700px){.depoimento{padding-block:34px}.depoimento figure{padding:22px 20px}.depoimento blockquote{font-size:21px}}
